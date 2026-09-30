@@ -2,3 +2,7 @@ renders/frames/
 renders/preview/
 renders/audio/
 renders/*.png
+renders/video.mp4
+renders/final*.mp4
+renders/*.jpg
+renders/*.wav
