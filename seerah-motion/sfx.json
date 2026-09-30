@@ -1,0 +1,17 @@
+[
+ {"type":"shimmer","at":"word:l2:1","gain":0.55},
+ {"type":"swoosh-pass","at":"scene:s3","gain":0.45},
+ {"type":"pop","at":"word:l3:3","gain":0.35},
+ {"type":"pop","at":"word:l5:1","gain":0.35},
+ {"type":"shimmer","at":"word:l6:4","gain":0.45},
+ {"type":"riser","at":"word:l8:4","gain":0.4,"dur":1.4},
+ {"type":"impact","at":"word:l8:4","gain":0.45},
+ {"type":"whoosh","at":"word:l9:7","gain":0.5},
+ {"type":"impact","at":"word:l10:5+0.2","gain":0.35},
+ {"type":"swoosh-pass","at":"word:l12:1+0.25","gain":0.45},
+ {"type":"impact","at":"word:l14:2","gain":0.4},
+ {"type":"shimmer","at":"word:l14:5","gain":0.45},
+ {"type":"whoosh","at":"scene:s10","gain":0.4},
+ {"type":"impact","at":"word:l16:4+0.2","gain":0.35},
+ {"type":"shimmer","at":"line:l17","gain":0.5}
+]
