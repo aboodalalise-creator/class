@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تجهيز التقييم</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --maroon:#7A1634; --ink:#1E1620; --paper:#FBF9FB; --mist:#EDE7EE; --line:#D9CFDB; --gold:#E3A71F;
+    --font:"Readex Pro","Segoe UI",Tahoma,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0}
+  body{font-family:var(--font); color:var(--ink); background:var(--paper); min-height:100dvh; display:grid; place-items:center; padding:24px 16px}
+  form{width:100%; max-width:520px; display:flex; flex-direction:column; gap:22px}
+  h1{font-size:clamp(1.6rem,5vw,2.2rem); color:var(--maroon); border-inline-start:6px solid var(--maroon); padding-inline-start:14px}
+  label{display:flex; flex-direction:column; gap:8px; font-weight:600}
+  input[type=text]{font:inherit; font-weight:400; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:#fff}
+  input[type=text]:focus-visible{outline:2px solid var(--maroon); border-color:var(--maroon)}
+  .hint{font-weight:300; font-size:.9rem; color:#6b5f6e}
+  fieldset{border:0; padding:0; display:flex; flex-direction:column; gap:10px}
+  legend{font-weight:600; margin-bottom:8px}
+  .modes{display:grid; grid-template-columns:1fr 1fr; gap:12px}
+  .mode{position:relative}
+  .mode input{position:absolute; opacity:0}
+  .mode span{display:flex; flex-direction:column; align-items:center; gap:6px; padding:18px 8px; border:2px solid var(--line); border-radius:16px; background:#fff; cursor:pointer; text-align:center; font-weight:600}
+  .mode span b{font-size:1.8rem; font-weight:400; letter-spacing:.05em}
+  .mode input:checked + span{border-color:var(--maroon); background:#F6EEF1}
+  .mode input:focus-visible + span{outline:2px solid var(--maroon); outline-offset:2px}
+  button{font:inherit; font-weight:600; font-size:1.1rem; padding:14px; border:0; border-radius:14px; background:var(--maroon); color:#fff; cursor:pointer}
+  button:focus-visible{outline:3px solid var(--gold); outline-offset:2px}
+</style>
+</head>
+<body>
+<form id="f">
+  <h1>تجهيز تقييم الجمهور</h1>
+  <label>عنوان المحاضرة أو الفقرة
+    <input type="text" id="t" maxlength="80" placeholder="مثلًا: محاضرة الذكاء الاصطناعي" required>
+  </label>
+  <fieldset>
+    <legend>نوع التقييم</legend>
+    <div class="modes">
+      <label class="mode"><input type="radio" name="m" value="stars" checked><span><b>★★★★★</b>نجوم من 1 إلى 5</span></label>
+      <label class="mode"><input type="radio" name="m" value="like"><span><b>👍 👎</b>عجبني / ما عجبني</span></label>
+    </div>
+  </fieldset>
+  <label>رمز الجلسة
+    <input type="text" id="s" maxlength="32" dir="ltr" pattern="[a-z0-9_\-]{1,32}" placeholder="lecture1">
+    <span class="hint">حروف إنجليزية صغيرة وأرقام فقط. لكل فقرة رمز مختلف حتى تنفصل نتائجها. اتركه فاضي وأولّده لك.</span>
+  </label>
+  <button type="submit">افتح شاشة العرض</button>
+</form>
+<script>
+document.getElementById('f').addEventListener('submit',function(e){
+  e.preventDefault();
+  var t=document.getElementById('t').value.trim();
+  var s=document.getElementById('s').value.trim().toLowerCase().replace(/[^a-z0-9_-]/g,'').slice(0,32)
+        || ('s'+Date.now().toString(36));
+  var m=document.querySelector('input[name=m]:checked').value;
+  location.href='/screen.html?s='+encodeURIComponent(s)+(m==='like'?'&m=like':'')+(t?'&t='+encodeURIComponent(t):'');
+});
+</script>
+</body>
+</html>

@@ -27,7 +27,7 @@
   .sub{margin-top:6px; font-size:clamp(1rem,1.6vw,1.6rem); font-weight:300; color:#5d5160}
 
   .score{grid-area:score; display:flex; flex-direction:column; gap:14px; align-items:flex-start}
-  .avg{font-size:clamp(6rem,15vw,17rem); line-height:.95; font-weight:700; font-variant-numeric:tabular-nums; letter-spacing:-.02em}
+  .avg{direction:ltr; unicode-bidi:isolate; white-space:nowrap; font-size:clamp(6rem,15vw,17rem); line-height:.95; font-weight:700; font-variant-numeric:tabular-nums; letter-spacing:-.02em}
   .avg small{font-size:.28em; font-weight:300; color:#6b5f6e; letter-spacing:0; margin-inline-start:.2em}
   .starrow{position:relative; width:calc(var(--s)*5); height:var(--s); direction:rtl}
   .starrow .layer{position:absolute; inset-block:0; inset-inline-start:0; display:flex; white-space:nowrap; overflow:hidden}
@@ -58,11 +58,25 @@
   .tools button:focus-visible{outline:2px solid var(--maroon)}
   #net{display:none; color:#B00020}
 
+  /* like / dislike mode */
+  [hidden]{display:none!important}
+  .ld{grid-area:score / score / bars / bars; display:flex; flex-direction:column; gap:clamp(16px,2.4vw,36px); align-self:center}
+  .ld .pct{font-size:clamp(5rem,13vw,15rem); line-height:.95; font-weight:700; color:#1F7A4D; font-variant-numeric:tabular-nums}
+  .ld .pct small{font-size:.22em; font-weight:400; color:#4a3f4d; margin-inline-start:.3em}
+  .split{display:flex; height:clamp(28px,4vw,60px); border-radius:999px; overflow:hidden; background:var(--mist)}
+  .split .up{background:#1F7A4D; transition:flex-grow .6s ease}
+  .split .down{background:var(--maroon); transition:flex-grow .6s ease}
+  .tallies{display:flex; justify-content:space-between; font-size:clamp(1.4rem,3vw,3.2rem); font-weight:600; font-variant-numeric:tabular-nums}
+  .tallies .u{color:#1F7A4D} .tallies .d{color:var(--maroon)}
+  .float{position:fixed; bottom:-60px; font-size:clamp(36px,4vw,64px); pointer-events:none; animation:rise 2.8s ease-out forwards; z-index:5}
+  @keyframes rise{0%{transform:translateY(0) scale(.6);opacity:0}15%{opacity:1}100%{transform:translateY(-70vh) scale(1.15);opacity:0}}
+
   @media (max-width:900px){
     .stage{grid-template-columns:1fr; grid-template-areas:"head" "score" "bars" "join"}
+    .ld{grid-area:score}
     .starrow{--s:44px}
   }
-  @media (prefers-reduced-motion:reduce){.bar,.starrow .fill{transition:none}}
+  @media (prefers-reduced-motion:reduce){.bar,.starrow .fill,.split .up,.split .down{transition:none}.float{display:none}}
 </style>
 </head>
 <body>
@@ -83,6 +97,13 @@
 
   <section class="bars" id="bars" aria-label="توزيع التقييمات"></section>
 
+  <section class="ld" id="ld" aria-live="polite" hidden>
+    <div class="pct" id="pct">—</div>
+    <div class="split" aria-hidden="true"><div class="up" id="sUp" style="flex-grow:1"></div><div class="down" id="sDown" style="flex-grow:1"></div></div>
+    <div class="tallies"><span class="u" id="nUp">👍 0</span><span class="d" id="nDown">0 👎</span></div>
+    <div class="count" id="ldCount">بانتظار أول تقييم</div>
+  </section>
+
   <aside class="join">
     <div id="qr"></div>
     <p>امسح الرمز وقيّم من 1 إلى 5</p>
@@ -95,22 +116,28 @@
   <button id="reset" type="button">تصفير النتائج</button>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="/vendor/qrcode.min.js"></script>
 <script>
 (function(){
   var $=function(s){return document.querySelector(s)};
   var q=new URLSearchParams(location.search);
   var S=((q.get('s')||'main').toLowerCase().replace(/[^a-z0-9_-]/g,'').slice(0,32))||'main';
   var T=(q.get('t')||'').slice(0,80);
+  var LIKE=q.get('m')==='like'; // like mode: 5 = like, 1 = dislike
   if(T){ $('#title').textContent=T; document.title=T; }
+  if(LIKE){
+    document.querySelector('.score').hidden=true; $('#bars').hidden=true; $('#ld').hidden=false;
+    document.querySelector('.join p').textContent='امسح الرمز وقل لنا: عجبك ولا لا؟';
+  }
 
   var STAR='<svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z" stroke-linejoin="round"/></svg>';
   var five=''; for(var i=0;i<5;i++) five+=STAR;
   $('#base').innerHTML=five; $('#fill').innerHTML=five;
 
   // vote link + QR
-  var voteURL=location.origin+'/?s='+encodeURIComponent(S)+(T?'&t='+encodeURIComponent(T):'');
-  $('#url').textContent=voteURL.replace(/^https?:\/\//,'');
+  var voteURL=location.origin+'/?s='+encodeURIComponent(S)+(LIKE?'&m=like':'')+(T?'&t='+encodeURIComponent(T):'');
+  // short form for people typing it by hand (title is optional on the vote page)
+  $('#url').textContent=location.host+'/?s='+S+(LIKE?'&m=like':'');
   function makeQR(){
     if(!window.QRCode){ return setTimeout(makeQR,300); }
     new QRCode($('#qr'),{text:voteURL,width:512,height:512,colorDark:'#1E1620',colorLight:'#ffffff',correctLevel:QRCode.CorrectLevel.M});
@@ -133,7 +160,28 @@
     if(t<=10) return t+' تقييمات';
     return t+' تقييمًا';
   }
+  var last=null;
+  function burst(ch,k){
+    if(document.hidden) return;
+    for(var i=0;i<Math.min(k,12);i++) (function(i){
+      setTimeout(function(){
+        var e=document.createElement('div'); e.className='float'; e.textContent=ch;
+        e.style.insetInlineStart=(5+Math.random()*85)+'vw';
+        document.body.appendChild(e); setTimeout(function(){ e.remove(); },3000);
+      },i*140);
+    })(i);
+  }
+  function renderLike(d){
+    var up=d.counts[4]||0, down=d.counts[0]||0, t=up+down;
+    $('#pct').innerHTML=t?(Math.round(up/t*100)+'%<small>عجبهم</small>'):'—';
+    $('#sUp').style.flexGrow=t?up:1; $('#sDown').style.flexGrow=t?down:1;
+    $('#nUp').textContent='👍 '+up; $('#nDown').textContent=down+' 👎';
+    $('#ldCount').textContent=countText(t);
+    if(last){ if(up>last.up) burst('👍',up-last.up); if(down>last.down) burst('👎',down-last.down); }
+    last={up:up,down:down};
+  }
   function render(d){
+    if(LIKE) return renderLike(d);
     var t=d.total||0;
     $('#avg').innerHTML=t?(Number(d.avg).toFixed(1)+'<small>/ 5</small>'):'—';
     $('#fill').style.width=t?(d.avg/5*100)+'%':'0%';
