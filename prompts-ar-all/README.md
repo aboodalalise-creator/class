@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **569** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **615** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -587,54 +587,54 @@
 - 567. هيكلة الكود بنمط MVC ومبادئ SOLID
 - 568. التسويق عبر البريد الإلكتروني
 - 569. معلّم صيغ Excel
-- 570. Universal Lead & Candidate Outreach Generator (HR, SALES) 🔤
-- 571. Subject meditating in a crystal sphere 🔤
-- 572. FAQ Generator 🔤
-- 573. Text-to-Image with Reference - Billiards Bar Scene 🔤
-- 574. görsel 🔤
-- 575. 代码目录解释器 🔤
-- 576. Chinese Hookah Training Program 🔤
-- 577. Nietzschean Mentor for Holistic Growth 🔤
-- 578. berre 🔤
-- 579. .NET API Project Analysis 🔤
-- 580. Set Up W&B and Run Pod During Training 🔤
-- 581. Secteur Bancaire - Email Professionnel 🔤
-- 582. Modern Fashion Photography 🔤
-- 583. Sunny Beach 🔤
-- 584. Mirror Product Photo 🔤
-- 585. Hata Tespiti için Kod İnceleme Asistanı 🔤
-- 586. Using StanfordVL/BEHAVIOR-1K for Robotics and AI Tasks 🔤
-- 587. 电商选品助手 🔤
-- 588. Giant Object in City 🔤
-- 589. Deep Copy Functionality 🔤
-- 590. Annual Leave Balance Adjustment Processor 🔤
-- 591. Master App Store Localization & ASO Prompt (2025) – Full Metadata Generator 🔤
-- 592. Form Validation Rules for Leave Requests 🔤
-- 593. PowerShell Script for Managing Disabled AD Users 🔤
-- 594. PowerShell Script to Move Disabled AD Users to Specific OU 🔤
-- 595. Visual Web Application Development 🔤
-- 596. Playing Card Sorcerer Portrait 🔤
-- 597. Personalized Technical Intelligence Briefing for Edge AI in Defense 🔤
-- 598. One-Click Design Mockup Creator 🔤
-- 599. Vintage Invention Patent 🔤
-- 600. السعوديه 🔤
+- 570. المولّد الشامل لرسائل التواصل مع العملاء والمرشحين (الموارد البشرية والمبيعات)
+- 571. شخص يتأمل داخل كرة كريستالية
+- 572. مولّد الأسئلة الشائعة
+- 573. نص إلى صورة مع مرجع - مشهد حانة بلياردو
+- 574. صورة
+- 575. مفسّر مجلدات الكود
+- 576. برنامج تدريب صيني على الشيشة
+- 577. مرشد نيتشوي للنمو الشامل
+- 578. berre
+- 579. تحليل مشروع .NET API
+- 580. إعداد W&B وتشغيل Pod أثناء التدريب
+- 581. القطاع المصرفي - بريد إلكتروني احترافي
+- 582. تصوير الأزياء العصري
+- 583. شاطئ مشمس
+- 584. صورة منتج بالمرايا
+- 585. مساعد مراجعة الكود لاكتشاف الأخطاء
+- 586. استخدام StanfordVL/BEHAVIOR-1K لمهام الروبوتات والذكاء الاصطناعي
+- 587. مساعد اختيار منتجات التجارة الإلكترونية
+- 588. جسم عملاق في المدينة
+- 589. وظيفة النسخ العميق
+- 590. معالج تعديل رصيد الإجازة السنوية
+- 591. البرومبت الرئيسي لتوطين متجر التطبيقات وتحسينه (ASO) (2025) – مولّد البيانات الوصفية الكامل
+- 592. قواعد التحقق من نماذج طلبات الإجازة
+- 593. سكربت PowerShell لإدارة مستخدمي AD المعطلين
+- 594. سكربت PowerShell لنقل مستخدمي AD المعطلين إلى وحدة تنظيمية محددة
+- 595. تطوير تطبيق ويب بصري
+- 596. بورتريه ساحر ورق اللعب
+- 597. موجز استخباراتي تقني شخصي للذكاء الاصطناعي الطرفي في الدفاع
+- 598. منشئ نماذج التصميم بنقرة واحدة
+- 599. براءة اختراع عتيقة
+- 600. السعودية
 
 ## [الجزء 7: 601–700](part-07.md)
-- 601. A Wrinkle in Time 🔤
-- 602. Create Python Dev Container 🔤
-- 603. Protocol 2084: The Alleyway Hack 🔤
-- 604. Expo + Supabase Edge Function Cold Start & Mobile Performance Analysis 🔤
-- 605. Cold Start Safe Architecture 🔤
-- 606. Immigration Project Presentation Specialist 🔤
-- 607. Blog System Development Guide 🔤
-- 608. Customized Gift Idea Brainstorm Assistant 🔤
-- 609. Flight Tracker Desktop Application 🔤
-- 610. File Renaming Dashboard App 🔤
-- 611. Letter from Lisa: A Heartfelt Plea to Her Father 🔤
-- 612. 商业演示设计专家指南 🔤
-- 613. Ultra-Realistic Handwritten Hospital Note Image 🔤
-- 614. Develop a Notion Clone Application 🔤
-- 615. The Aether Prince at the Crystal Gala 🔤
+- 601. تجعيدة في الزمن
+- 602. إنشاء حاوية تطوير بايثون
+- 603. البروتوكول 2084: اختراق الزقاق
+- 604. تحليل البدء البارد لدوال Supabase Edge مع Expo وأداء الجوال
+- 605. معمارية آمنة من البدء البارد
+- 606. أخصائي عروض مشاريع الهجرة
+- 607. دليل تطوير نظام مدونات
+- 608. مساعد العصف الذهني لأفكار الهدايا المخصصة
+- 609. تطبيق سطح مكتب لتتبع الرحلات الجوية
+- 610. تطبيق لوحة معلومات لإعادة تسمية الملفات
+- 611. رسالة من ليزا: رجاء مؤثر إلى والدها (لم تُترجم)
+- 612. دليل خبير تصميم العروض التقديمية للأعمال
+- 613. صورة واقعية جداً لرسالة مكتوبة بخط اليد في مستشفى (لم تُترجم)
+- 614. تطوير تطبيق مستنسخ من Notion
+- 615. أمير الأثير في الحفل الكريستالي
 - 616. Langgraph微信公众号介绍 🔤
 - 617. AST Code Analysis Superpower 🔤
 - 618. AWS Cloud Expert 🔤
