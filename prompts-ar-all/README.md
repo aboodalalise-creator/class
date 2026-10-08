@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **1871** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **1962** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -1628,36 +1628,36 @@
 - 1588. مراجعة الإصدار
 - 1589. تصميم عرض تقديمي راقٍ وفاخر للمقابلات
 - 1590. مُحسِّن البرومبت
-- 1591. Research Prompt (Mistral) 🔤
-- 1592. Realistic Mirror-Selfie Image Prompt 🔤
-- 1593. Realistic Selfie of Girl with Transparent Glasses and Pink Hair 🔤
-- 1594. aa/cli taste 🔤
-- 1595. Claude Opus as SEO Auditor 🔤
-- 1596. AI Cloning #1 - RAW 🔤
-- 1597. The Colorful Fish Learning Emotions 🔤
-- 1598. 创设情境串联知识 🔤
-- 1599. site analiz 🔤
-- 1600. Creating PWA AI Chatbot 🔤
+- 1591. برومبت بحث (Mistral)
+- 1592. برومبت صورة سيلفي واقعية في المرآة
+- 1593. سيلفي واقعي لفتاة بنظارات شفافة وشعر وردي
+- 1594. ذوق aa في CLI
+- 1595. Claude Opus كمدقق SEO
+- 1596. استنساخ بالذكاء الاصطناعي رقم 1 - خام
+- 1597. السمكة الملونة تتعلم المشاعر
+- 1598. 创设情境串联知识
+- 1599. تحليل الموقع
+- 1600. إنشاء روبوت دردشة ذكاء اصطناعي PWA
 
 ## [الجزء 17: 1601–1700](part-17.md)
-- 1601. Online Job Search Assistant 🔤
-- 1602. Professional photo editor 🔤
-- 1603. Customizable Birthday Message Generator 🔤
-- 1604. Birthday Message Generator – 3 Styles 🔤
-- 1605. DOE Framework - Directions Template 🔤
-- 1606. Ocean’s Eleven Movie Poster Illustration 🔤
-- 1607. Packer Automation & Imaging Expert 🔤
-- 1608. Ultimate Stake.us Dice Wagering Strategy Builder — Rollover & Playthrough Completion 🔤
-- 1609. Futuristic Alps in 2150 🔤
-- 1610. Interstellar Movie Poster Illustration 🔤
-- 1611. 🔧 AI App Improvement Loop Prompt 🔤
-- 1612. WEB Product Architect 🔤
-- 1613. Game design 🔤
-- 1614. Sacrifice in obedience 🔤
-- 1615. Typographic Portrait Artwork Creation 🔤
-- 1616. mc 🔤
-- 1617. Tr 🔤
-- 1618. pdfcount 🔤
+- 1601. مساعد البحث عن وظائف عبر الإنترنت
+- 1602. محرر صور محترف
+- 1603. مولّد رسائل عيد ميلاد قابل للتخصيص
+- 1604. مولّد رسائل عيد ميلاد – 3 أساليب
+- 1605. إطار DOE - قالب التوجيهات
+- 1606. رسم توضيحي لملصق فيلم Ocean’s Eleven
+- 1607. خبير أتمتة Packer وإنشاء الصور (Imaging)
+- 1608. منشئ استراتيجيات الرهان الأمثل لـ Stake.us Dice — إكمال شرط الدوران (Rollover) والمراهنة (Playthrough)
+- 1609. جبال الألب المستقبلية في 2150
+- 1610. رسم توضيحي لملصق فيلم Interstellar
+- 1611. 🔧 برومبت حلقة تحسين تطبيق الذكاء الاصطناعي
+- 1612. مهندس منتجات الويب
+- 1613. تصميم الألعاب
+- 1614. التضحية في الطاعة
+- 1615. إنشاء عمل فني بورتريه طباعي
+- 1616. mc
+- 1617. Tr
+- 1618. pdfcount
 - 1619. إضافة حماية الذكاء الاصطناعي
 - 1620. فايكنغ
 - 1621. رعاة البقر
@@ -1735,16 +1735,16 @@
 - 1693. مناورة جوية عالية السرعة
 - 1694. معالجة الخلل في الميزة
 - 1695. مخاطرة منخفضة لرفع الدخل
-- 1696. User Acquisition Data Analysis 🔤
-- 1697. Car Buying Intake Interview 🔤
-- 1698. Hypnotherapist Guidance for Stress Management 🔤
-- 1699. Sniper-Precision Debugging Skill 🔤
-- 1700. Vibe Coding with Commands and Skills 🔤
+- 1696. تحليل بيانات اكتساب المستخدمين
+- 1697. مقابلة استقبال لشراء سيارة
+- 1698. إرشاد المعالج بالتنويم لإدارة الضغط
+- 1699. مهارة تصحيح الأخطاء بدقة القناص
+- 1700. البرمجة بالإحساس (Vibe Coding) مع الأوامر والمهارات
 
 ## [الجزء 18: 1701–1800](part-18.md)
-- 1701. Oxford 3000: Step-by-Step Vocabulary Coach 🔤
-- 1702. operating system exam preparation 🔤
-- 1703. Video 🔤
+- 1701. Oxford 3000: مدرّب مفردات خطوة بخطوة
+- 1702. التحضير لامتحان نظم التشغيل
+- 1703. فيديو
 - 1704. إنشاء لقطات شاشة للتطبيق
 - 1705. وصف موجّه صورة شخصية في مقهى
 - 1706. موجّه صورة شخصية بأسلوب الحياة على السطح
@@ -1823,50 +1823,50 @@
 - 1779. معماري صندوق رملي للفيزياء ثلاثية الأبعاد
 - 1780. مصمم بيئات ثلاثية الأبعاد إجرائية
 - 1781. حركية ثلاثية الأبعاد متقدمة ومتحكم شخصيات
-- 1782. WebGL VFX & Fluid Interaction Specialist 🔤
-- 1783. Abstract 3D Topology Puzzle Architect 🔤
-- 1784. Smart Project Timeline Builder 🔤
-- 1785. Live Stock market analysis 🔤
-- 1786. Football Match 🔤
-- 1787. The Lovelyline 🔤
-- 1788. Customer Complaint Reply System 🔤
-- 1789. Create a logic where a 3D geometric mesh 🔤
-- 1790. Digital Sea 🔤
-- 1791. Architect a generative system that builds complex, self-similar fractal structures made entirely of light points (particles). 🔤
-- 1792. Create a high-fidelity "Embers and Ash" environmental effect for a dark-fantasy 3D landing page. 🔤
-- 1793. Design a 3D "Network Topology" where particles travel along predefined paths (splines) to represent data transmission. 🔤
-- 1794. Creative Image Generation for Digital Art 🔤
-- 1795. Crossover arts 🔤
-- 1796. Generate literature search report 🔤
-- 1797. Generate Academic Taxonomy 🔤
-- 1798. Realistic Amateur Phone Photo with WhatsApp Chat 🔤
-- 1799. Photo emhanced 🔤
-- 1800. GOT Title 🔤
+- 1782. متخصص مؤثرات WebGL البصرية وتفاعل السوائل
+- 1783. معماري ألغاز طوبولوجيا ثلاثية الأبعاد مجردة
+- 1784. منشئ الجداول الزمنية الذكية للمشاريع
+- 1785. تحليل سوق الأسهم المباشر
+- 1786. مباراة كرة قدم
+- 1787. الخط الجميل
+- 1788. نظام الرد على شكاوى العملاء
+- 1789. ابتكر منطقًا تتحلل فيه شبكة هندسية ثلاثية الأبعاد
+- 1790. البحر الرقمي
+- 1791. صمّم نظامًا توليديًا يبني بنى كسورية معقدة ذاتية التشابه مكونة بالكامل من نقاط ضوء (جسيمات).
+- 1792. أنشئ مؤثر بيئة عالي الدقة "جمر ورماد" لصفحة هبوط ثلاثية الأبعاد بأسلوب الفانتازيا المظلمة.
+- 1793. صمّم "طوبولوجيا شبكة" ثلاثية الأبعاد تنتقل فيها الجسيمات على مسارات محددة مسبقًا (splines) لتمثيل نقل البيانات.
+- 1794. توليد صور إبداعية للفن الرقمي
+- 1795. فنون التقاطع
+- 1796. توليد تقرير بحث في الأدبيات
+- 1797. توليد تصنيف أكاديمي
+- 1798. صورة هاتف هاوٍ واقعية مع محادثة WhatsApp
+- 1799. تحسين الصورة
+- 1800. لقب على طريقة GOT
 
 ## [الجزء 19: 1801–1900](part-19.md)
-- 1801. Structured Text Captioning 🔤
-- 1802. 《Vowel Velocity: Phonetic Catch》 🔤
-- 1803. 《Semantic Pull: Word Family Grid》 🔤
-- 1804. 《Syntactic Stack: Kinetic Grammar》 🔤
-- 1805. 《Resonance Wave: Synchronic Clusters》 🔤
-- 1806. 《Syllabic Beats: Pulse Runner》 🔤
-- 1807. Pro Closer for Small Business Loans 🔤
-- 1808. 算法比赛教练 🔤
-- 1809. Modern Web Development Assistant 🔤
-- 1810. rebuttal 🔤
-- 1811. Dota 2 Hero Stats and Builds Website Design 🔤
-- 1812. 3D Kinetic Ball Simulation 🔤
-- 1813. Neon Flow Grid Snake 🔤
-- 1814. Gravity Flux Flappy Engine 🔤
-- 1815. Quantum Topology Matcher ( 🔤
-- 1816. Gyroscopic Maze Run 🔤
-- 1817. Test-Driven Bug Hunting With Reproduction Agents 🔤
-- 1818. DSPy Business Partner System 🔤
-- 1819. Hand-off 🔤
-- 1820. Session Continuity Engine 🔤
-- 1821. Power in the Shadows 🔤
-- 1822. bulk images generate for black tshirt oversize short t shirt loose 🔤
-- 1823. Legal AI Amplifier 🔤
+- 1801. وصف النصوص المنظم
+- 1802. 《Vowel Velocity: Phonetic Catch》
+- 1803. 《Semantic Pull: Word Family Grid》
+- 1804. 《Syntactic Stack: Kinetic Grammar》
+- 1805. 《Resonance Wave: Synchronic Clusters》
+- 1806. 《Syllabic Beats: Pulse Runner》
+- 1807. مُغلِق محترف لقروض الأعمال الصغيرة
+- 1808. 算法比赛教练
+- 1809. مساعد تطوير الويب الحديث
+- 1810. رد على المراجعين (rebuttal)
+- 1811. تصميم موقع إحصاءات أبطال Dota 2 وبناءاتهم
+- 1812. محاكاة كرة حركية ثلاثية الأبعاد
+- 1813. ثعبان شبكة التدفق النيوني
+- 1814. محرك فلابي بتدفق الجاذبية
+- 1815. مطابق الطوبولوجيا الكمية (
+- 1816. سباق متاهة الجيروسكوب
+- 1817. صيد الأخطاء الموجَّه بالاختبارات مع وكلاء إعادة الإنتاج
+- 1818. نظام الشريك التجاري DSPy
+- 1819. التسليم
+- 1820. محرك استمرارية الجلسة
+- 1821. القوة في الظلال
+- 1822. توليد صور بالجملة لقميص أسود فضفاض بأكمام قصيرة
+- 1823. مضخِّم الذكاء الاصطناعي القانوني
 - 1824. منسّق مواعيد عقارية محترف
 - 1825. فتاة
 - 1826. مستشار مهني لخريج اقتصاد
@@ -1957,10 +1957,10 @@
 - 1909. البرمجة بالحدس (Vibe Coding) بتصاميم حديثة وSEO
 - 1910. إطار تعليمات SABARUDIN
 - 1911. تحسين متقدم لجودة الصورة
-- 1912. Sabarudin System - Executive Architecture 🔤
-- 1913. Mirror Selfie Scene Description 🔤
-- 1914. Meeting Summary and Action Plan Generator 🔤
-- 1915. Chat Summary and Export Instructions 🔤
+- 1912. نظام سابارودين - البنية التنفيذية
+- 1913. وصف مشهد سيلفي أمام المرآة
+- 1914. مولّد ملخص الاجتماع وخطة العمل
+- 1915. تعليمات ملخص المحادثة وتصديرها
 - 1916. de 🔤
 - 1917. Black Magic Mantra: Unleashing Creativity and Innovation 🔤
 - 1918. Sarcastic AI Personality 🔤
@@ -2095,15 +2095,15 @@
 - 2045. General Assistant System Prompt 🔤
 - 2046. Na 🔤
 - 2047. Sang-o-Sayeh Render — Reference-Based Portrait Prompt 🔤
-- 2048. Semantic Prosody–Based Epistemic Bias Correction Prompt 🔤
-- 2049. Personalized Remedy from Gemini 🔤
-- 2050. Western-Centric Bias Correction Prompt 🔤
-- 2051. Five-Image Identity-Preserving Hybrid Portrait Series 🔤
-- 2052. Five-Scene Clean-Shaven Identity Portrait Series 🔤
-- 2053. Five Cinematic Face-Locked Portrait Scenes 🔤
-- 2054. Team Proposal for Conference Event 🔤
-- 2055. Prompt to learn free AI website which will be most useful for me to use for free 🔤
-- 2056. Universal Instructions for React / Next.js Projects 🔤
+- 2048. برومبت تصحيح التحيّز المعرفي القائم على الدلالة الإيحائية للألفاظ
+- 2049. علاج مخصّص من Gemini
+- 2050. برومبت تصحيح التحيّز المتمركز حول الغرب
+- 2051. سلسلة من خمس صور بورتريه هجينة تحافظ على الهوية
+- 2052. سلسلة من خمسة مشاهد بورتريه لرجل حليق تحافظ على الهوية
+- 2053. خمسة مشاهد سينمائية بورتريه بوجه مثبّت
+- 2054. مقترح فريق لفعالية مؤتمر
+- 2055. برومبت لتعلّم موقع ذكاء اصطناعي مجاني يكون الأنفع لي
+- 2056. تعليمات شاملة لمشاريع React / Next.js
 - 2057. Exuvia 🔤
 - 2058. workflow_builder_using_python 🔤
 - 2059. The Mystery of Easter Island | Who Built the Giant Moai Statues? In the middle of the Pacific Ocean lies a tiny island filled with hundreds of giant stone statues. 🔤

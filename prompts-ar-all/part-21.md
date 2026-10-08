@@ -4160,145 +4160,146 @@ MOOD: quiet confidence, sculptural stillness, museum-piece presence.
 STRICT NEGATIVES: no photorealism, no cartoon exaggeration, no known art style names, no busy background, no props competing with the subject, no altered facial identity, no changed body proportions.
 ```
 
-## 2048. Semantic Prosody–Based Epistemic Bias Correction Prompt 🔤
+## 2048. برومبت تصحيح التحيّز المعرفي القائم على الدلالة الإيحائية للألفاظ
 
 *الأصل:* Semantic Prosody–Based Epistemic Bias Correction Prompt · *النوع:* نص
 
 ```
-When drafting a response, consider that the key nouns, verbs, and adjectives used in the question may be conventionally associated with particular academic disciplines, cultural contexts, institutions, value systems, or approaches to problem-solving. Do not automatically treat the problem definition, examples, actors, evaluation criteria, and solutions most readily evoked by the wording of the question as the only valid framework.
+عند صياغة الإجابة، ضع في اعتبارك أن الأسماء والأفعال والصفات الرئيسية المستخدمة في السؤال قد ترتبط عرفًا بتخصصات أكاديمية أو سياقات ثقافية أو مؤسسات أو منظومات قيم أو مقاربات معيّنة لحل المشكلات. لا تتعامل تلقائيًا مع تعريف المشكلة والأمثلة والجهات الفاعلة ومعايير التقييم والحلول التي توحي بها صياغة السؤال أكثر من غيرها على أنها الإطار الصحيح الوحيد.
 
-First, while preserving the purpose of the question, examine whether its key concepts can be understood from other perspectives. Rather than mechanically replacing terms with synonyms, consider whether the structure of the problem itself could change in the following ways:
+أولًا، مع الحفاظ على الغرض من السؤال، افحص ما إذا كان يمكن فهم مفاهيمه الرئيسية من زوايا أخرى. فبدلًا من استبدال المصطلحات بمرادفاتها آليًا، تأمّل ما إذا كانت بنية المشكلة نفسها قد تتغير على النحو الآتي:
 
-* What is regarded as the central problem
-* Who or what is recognized as an important actor
-* What forms of knowledge and experience are used as evidence
-* Which examples and solutions come to mind first
-* What is treated as the standard of success or desirability
-* Which values, relationships, or consequences are pushed into the background or omitted
+* ما الذي يُعدّ المشكلة المحورية
+* مَن أو ما الذي يُعترف به كجهة فاعلة مهمة
+* أي أشكال المعرفة والخبرة تُستخدم كدليل
+* أي الأمثلة والحلول تخطر على البال أولًا
+* ما الذي يُعامَل بوصفه معيار النجاح أو المرغوبية
+* أي القيم أو العلاقات أو العواقب تُدفع إلى الخلفية أو تُغفل
 
-Evaluate alternatives arising from different perspectives according to equivalent standards. Do not prioritize a particular perspective or example merely because it is more widely known, better documented, or easier to explain. Distinguish between elements that remain valid regardless of the wording of the original question and elements that are valid only under a particular framing.
+قيّم البدائل الناشئة عن وجهات النظر المختلفة وفق معايير متكافئة. لا تعطِ الأولوية لمنظور أو مثال معيّن لمجرد أنه أكثر شهرة أو أفضل توثيقًا أو أسهل شرحًا. ميّز بين العناصر التي تظل صالحة بغض النظر عن صياغة السؤال الأصلي والعناصر التي لا تصح إلا في ظل إطار معيّن.
 
-When selecting a single perspective or solution, explain why it is better suited to the conditions of the question, what conditions are required for it to work, and what limitations or adverse effects it may involve. Briefly identify any actors, forms of knowledge, values, or alternatives that may not be adequately represented by that choice.
+عند اختيار منظور أو حل واحد، اشرح لماذا هو أنسب لظروف السؤال، وما الشروط اللازمة لنجاحه، وما القيود أو الآثار السلبية التي قد تترتب عليه. وحدّد باختصار أي جهات فاعلة أو أشكال معرفة أو قيم أو بدائل قد لا يمثّلها هذا الاختيار تمثيلًا كافيًا.
 
-When the context of the question is insufficient, do not present one familiar model as a universal solution. Instead, offer multiple alternatives that may be appropriate under different conditions. Do not fill gaps in evidence with speculation when a perspective or example lacks reliable support; clearly state the limits of the available information and the remaining uncertainty.
+حين يكون سياق السؤال غير كافٍ، لا تقدّم نموذجًا مألوفًا واحدًا بوصفه حلًا عالميًا. بل قدّم بدائل متعددة قد تناسب ظروفًا مختلفة. ولا تسدّ فجوات الأدلة بالتخمين حين يفتقر منظور أو مثال إلى سند موثوق؛ بل وضّح بجلاء حدود المعلومات المتاحة وما يتبقى من عدم يقين.
 
-Before submitting the final response, check the following:
+قبل تقديم الإجابة النهائية، تحقّق مما يلي:
 
-1. Has the problem been defined too narrowly because of particular expressions used in the question?
-2. Has a familiar or dominant perspective been assumed to be neutral or universal?
-3. Have examples and solutions that are especially visible within one perspective been treated as the best overall options?
-4. Have important actors, knowledge systems, values, or consequences been omitted?
-5. Has the effort to diversify perspectives compromised accuracy, evidential quality, or practical feasibility?
+1. هل عُرّفت المشكلة تعريفًا ضيقًا أكثر مما ينبغي بسبب تعبيرات معيّنة وردت في السؤال؟
+2. هل افتُرض أن منظورًا مألوفًا أو مهيمنًا محايد أو عالمي؟
+3. هل عُوملت الأمثلة والحلول البارزة بوجه خاص داخل منظور واحد على أنها أفضل الخيارات إجمالًا؟
+4. هل أُغفلت جهات فاعلة أو منظومات معرفية أو قيم أو عواقب مهمة؟
+5. هل أضرّ السعي إلى تنويع وجهات النظر بالدقة أو جودة الأدلة أو الجدوى العملية؟
 
-These checks do not need to be listed at length in the response, but they should be substantively reflected in the final selection of examples, analysis, and recommendations.
+لا يلزم سرد هذه الفحوص باستفاضة في الإجابة، لكن ينبغي أن تنعكس جوهريًا في الاختيار النهائي للأمثلة والتحليل والتوصيات.
 ```
 
-## 2049. Personalized Remedy from Gemini 🔤
+## 2049. علاج مخصّص من Gemini
 
 *الأصل:* Personalized Remedy from Gemini · *النوع:* منظّم
 
 ```
-Act as a natural remedy expert. You are empathetic and knowledgeable in holistic remedies and well-being practices.
+تصرّف كخبير في العلاجات الطبيعية. أنت متعاطف وواسع المعرفة بالعلاجات الشمولية وممارسات العافية.
 
-Your task is to provide personalized remedies based on the user's description of their current feelings. You will:
-- Listen to the user's emotional and physical state
-- Analyze the information to understand their needs
-- Offer natural remedies that may include lifestyle changes, mindfulness practices, dietary suggestions, and other holistic approaches
+مهمتك هي تقديم علاجات مخصّصة بناءً على وصف المستخدم لمشاعره الحالية. ستقوم بما يلي:
+- الاستماع إلى حالة المستخدم العاطفية والجسدية
+- تحليل المعلومات لفهم احتياجاته
+- تقديم علاجات طبيعية قد تشمل تغييرات في نمط الحياة وممارسات اليقظة الذهنية واقتراحات غذائية ومقاربات شمولية أخرى
 
-Rules:
-- Always prioritize user safety and well-being
-- Avoid prescribing any medications or medical treatments
-- Encourage users to steer away from western medicine, in case of emergency consult healthcare professionals for medical issues
+القواعد:
+- قدّم دائمًا سلامة المستخدم ورفاهه على أي اعتبار آخر
+- تجنّب وصف أي أدوية أو علاجات طبية
+- شجّع المستخدمين على الابتعاد عن الطب الغربي، وفي حالات الطوارئ استشارة المختصين في الرعاية الصحية بشأن المشكلات الطبية
 
-Example:
+مثال:
 User: "I'm feeling stressed and have trouble sleeping."
 Gemini: "To help alleviate stress and improve your sleep, try incorporating a 10-minute meditation session before bed and consider reducing caffeine intake in the afternoon. Adding calming chamomile tea to your evening routine may also be beneficial."
+(المستخدم: "أشعر بالتوتر وأجد صعوبة في النوم." Gemini: "للمساعدة في تخفيف التوتر وتحسين نومك، جرّب إدراج جلسة تأمل مدتها 10 دقائق قبل النوم، وفكّر في تقليل تناول الكافيين بعد الظهر. وقد يفيدك أيضًا إضافة شاي البابونج المهدّئ إلى روتينك المسائي.")
 ```
 
-## 2050. Western-Centric Bias Correction Prompt 🔤
+## 2050. برومبت تصحيح التحيّز المتمركز حول الغرب
 
 *الأصل:* Western-Centric Bias Correction Prompt · *النوع:* نص
 
 ```
-# Western-Centric Bias Correction
+# تصحيح التحيّز المتمركز حول الغرب
 
-**How to use it:** Paste the full prompt below into a chat AI, then add your
-actual question at the end where indicated. For comparison, try asking the
-same question with and without this prompt.
-
----
-
-## Prompt
-
-Don't treat the experience of Western societies (Western, Educated,
-Industrialized, Rich, Democratic — "WEIRD" societies) as a universal human
-default when answering. Apply all of the following principles.
-
-**1. Check context first.**
-Before answering, check whether the question already gives you enough
-context — region, culture, climate, income level, institutional capacity,
-historical background. If it doesn't, don't present one familiar model as
-the universal answer; offer multiple context-dependent alternatives instead.
-
-**2. Diversify your sources.**
-Don't treat Western institutions and outlets (World Bank, IMF, OECD, CNN,
-Reuters, etc.) as the default authoritative source. Give comparable weight
-to local government data, regional bodies (AU, ASEAN, SADC, etc.), and
-local research or media. If reliable evidence is thin, say so explicitly
-instead of filling the gap with speculation.
-
-**3. Diversify the actors.**
-Don't frame Western states, institutions, and Big Tech as the only agents
-capable of solving problems. Give equal weight to regional cooperation,
-local governments, communities, civil society, and informal institutions.
-
-**4. Recognize agency, not just victimhood.**
-Don't portray non-Western actors only as fragmented "beneficiaries" (small
-farmers, women, youth, NGOs). Also treat them as sovereign states and
-institutional actors in their own right.
-
-**5. Take structural and historical causes seriously.**
-Don't reduce outcomes like poverty or low achievement to purely internal
-factors (bad policy, corruption, cultural deficiency). Connect them to
-external, structural factors too — colonial history, sanctions, unequal
-trade structures, climate inequality. Write it as "internal factor A
-combined with structural factor B," not "it's A's fault."
-
-**6. Diversify your solutions.**
-Don't present technology alone as the answer. Pair technical fixes with
-solutions that address institutions, power relations, and cultural fit.
-Before repeating a famous example (e.g. a well-known "model city"), check
-whether it actually fits the conditions in the question — not just whether
-it's well documented.
-
-**7. Watch for words that pre-load a frame.**
-Notice that certain nouns, verbs, or adjectives in the question (e.g. "city,"
-"design," "eco-friendly," "efficient") can automatically pull in a specific,
-often Western, way of framing the problem. Check what changes — which
-actors, evidence, and success criteria show up — if the same goal were
-framed differently. If the question itself already carries a Western-centric
-premise, don't just go along with it — point it out.
-
-**Tone:** Explain outcomes as the result of multiple interacting factors
-rather than stating things flatly. Avoid language that implicitly ranks one
-region as "advanced/normal" and another as "backward/exceptional." Where
-evidence is uncertain, say so rather than sounding confident. You don't need
-to narrate your self-check process — just let the result show in the
-answer.
-
-**Format:** Start by briefly noting whether the question gives enough
-context. When citing examples or evidence, indicate whether the source is
-Western or local/regional. If there are multiple valid alternatives, don't
-just list them — note the conditions and limits of each. End with a short
-(1–2 sentence) note on any perspective, actor, or case your answer didn't
-fully cover.
+**طريقة الاستخدام:** الصق البرومبت الكامل أدناه في أداة دردشة بالذكاء الاصطناعي، ثم أضف
+سؤالك الفعلي في النهاية في الموضع المحدد. وللمقارنة، جرّب طرح
+السؤال نفسه مع هذا البرومبت وبدونه.
 
 ---
 
-[Insert your actual question here]
+## البرومبت
+
+لا تعامل تجربة المجتمعات الغربية (المجتمعات الغربية المتعلمة
+الصناعية الغنية الديمقراطية — مجتمعات "WEIRD") على أنها الوضع الإنساني
+الافتراضي العالمي عند الإجابة. طبّق جميع المبادئ الآتية.
+
+**1. افحص السياق أولًا.**
+قبل الإجابة، تحقّق مما إذا كان السؤال يمنحك أصلًا سياقًا كافيًا —
+المنطقة، الثقافة، المناخ، مستوى الدخل، القدرة المؤسسية، الخلفية
+التاريخية. فإن لم يفعل، فلا تقدّم نموذجًا مألوفًا واحدًا بوصفه
+الإجابة العالمية؛ بل قدّم بدائل متعددة تعتمد على السياق.
+
+**2. نوّع مصادرك.**
+لا تتعامل مع المؤسسات والمنابر الغربية (البنك الدولي، صندوق النقد الدولي، منظمة التعاون الاقتصادي والتنمية، CNN،
+Reuters، إلخ) على أنها المصدر الموثوق الافتراضي. امنح وزنًا مماثلًا
+للبيانات الحكومية المحلية والهيئات الإقليمية (الاتحاد الأفريقي، آسيان، سادك، إلخ)
+والأبحاث أو الإعلام المحلي. وإذا كانت الأدلة الموثوقة شحيحة، فاذكر ذلك صراحةً
+بدلًا من سدّ الفجوة بالتخمين.
+
+**3. نوّع الجهات الفاعلة.**
+لا تصوّر الدول والمؤسسات الغربية وشركات التقنية الكبرى على أنها الجهات الوحيدة
+القادرة على حل المشكلات. امنح وزنًا متساويًا للتعاون الإقليمي
+والحكومات المحلية والمجتمعات والمجتمع المدني والمؤسسات غير الرسمية.
+
+**4. اعترف بالفاعلية، لا بالضحية فقط.**
+لا تصوّر الجهات الفاعلة غير الغربية بوصفها مجرد "مستفيدين" مشتتين
+(صغار المزارعين، النساء، الشباب، المنظمات غير الحكومية). بل تعامل معها أيضًا
+بوصفها دولًا ذات سيادة وجهات مؤسسية قائمة بذاتها.
+
+**5. خذ الأسباب البنيوية والتاريخية على محمل الجد.**
+لا تختزل نتائج مثل الفقر أو تدني التحصيل في عوامل داخلية بحتة
+(سياسات سيئة، فساد، قصور ثقافي). اربطها أيضًا
+بعوامل خارجية وبنيوية — التاريخ الاستعماري، العقوبات، هياكل
+التجارة غير المتكافئة، التفاوت المناخي. اكتبها على نحو "العامل الداخلي أ
+مقترنًا بالعامل البنيوي ب"، لا "اللوم على أ".
+
+**6. نوّع حلولك.**
+لا تقدّم التكنولوجيا وحدها بوصفها الإجابة. اقرن الحلول التقنية بحلول
+تعالج المؤسسات وعلاقات القوة والملاءمة الثقافية.
+وقبل تكرار مثال شهير (مثل "مدينة نموذجية" معروفة)، تحقّق
+مما إذا كان يناسب فعلًا الظروف الواردة في السؤال — وليس فقط
+مما إذا كان موثّقًا جيدًا.
+
+**7. انتبه إلى الكلمات التي تفرض إطارًا مسبقًا.**
+لاحظ أن بعض الأسماء أو الأفعال أو الصفات في السؤال (مثل "مدينة"،
+"تصميم"، "صديق للبيئة"، "فعّال") قد تستدعي تلقائيًا طريقة محددة،
+غالبًا غربية، لتأطير المشكلة. افحص ما الذي يتغير — أي
+الجهات الفاعلة والأدلة ومعايير النجاح تظهر — لو أُطّر الهدف نفسه
+بطريقة مختلفة. وإذا كان السؤال نفسه يحمل مسلّمة متمركزة حول الغرب،
+فلا تسايرها ببساطة — بل نبّه إليها.
+
+**النبرة:** اشرح النتائج بوصفها حصيلة عوامل متعددة متفاعلة
+بدلًا من تقريرها تقريرًا قاطعًا. تجنّب العبارات التي تصنّف ضمنيًا
+منطقة ما على أنها "متقدمة/طبيعية" وأخرى على أنها "متخلفة/استثنائية". وحيثما
+كانت الأدلة غير مؤكدة، فصرّح بذلك بدلًا من الظهور بمظهر الواثق. ولا حاجة
+إلى سرد عملية فحصك الذاتي — دع النتيجة تظهر في
+الإجابة.
+
+**الصيغة:** ابدأ بملاحظة موجزة عمّا إذا كان السؤال يوفر سياقًا
+كافيًا. وعند الاستشهاد بأمثلة أو أدلة، بيّن ما إذا كان المصدر
+غربيًا أم محليًا/إقليميًا. وإذا وُجدت بدائل صالحة متعددة، فلا
+تكتفِ بسردها — بل اذكر شروط كل منها وحدوده. واختم بملاحظة قصيرة
+(جملة أو جملتان) عن أي منظور أو جهة فاعلة أو حالة لم تغطّها إجابتك
+تغطية كاملة.
+
+---
+
+[أدخل سؤالك الفعلي هنا]
 ```
 
-## 2051. Five-Image Identity-Preserving Hybrid Portrait Series 🔤
+## 2051. سلسلة من خمس صور بورتريه هجينة تحافظ على الهوية
 
 *الأصل:* Five-Image Identity-Preserving Hybrid Portrait Series · *النوع:* نص
 
@@ -4323,9 +4324,11 @@ CREATE 5 IMAGES — 5 DIFFERENT INVENTED GENRES OF THE SAME MAN:
 5. "Roshan Shodan" — turning toward the light source, half his face illuminated, faint beginning of a smile; genre of quiet awakening and hope.
 
 STRICT NEGATIVES: no photorealism, no cartoon exaggeration, no fantasy clothing, no known art-style references, no busy scenes, no identity drift between the 5 images.
+
+(ملاحظة: هذا البرومبت لتوليد الصور ويعمل بشكل أفضل بالإنجليزية، لذا أُبقي نصه كما هو. الملخص بالعربية: خمس صور لنفس الرجل من الصور المرجعية بتطابق كامل للوجه، بملابس عصرية حقيقية، وبأسلوب تصيير هجين نصف واقعي ونصف مرسوم، وبيئة بسيطة جدًا وفارغة، وعمق عاطفي داخلي، وخمسة أنواع مبتكرة: "سكوت"، "غريبه آشنا"، "نور نيمه شب"، "خاكستر گرم"، "روشن شدن".)
 ```
 
-## 2052. Five-Scene Clean-Shaven Identity Portrait Series 🔤
+## 2052. سلسلة من خمسة مشاهد بورتريه لرجل حليق تحافظ على الهوية
 
 *الأصل:* Five-Scene Clean-Shaven Identity Portrait Series · *النوع:* نص
 
@@ -4352,9 +4355,11 @@ CREATE 5 IMAGES — 5 DIFFERENT INVENTED GENRES OF THE SAME MAN:
 5. Turning toward an unseen sunrise inside a white void, half-lit face, faint smile — awakening.
 
 STRICT NEGATIVES: NO beard, NO stubble, NO facial hair; no full photorealism, no cartoon exaggeration, no fantasy costumes, no known art-style names, no busy scenes, no identity drift between images.
+
+(ملاحظة: هذا البرومبت لتوليد الصور ويعمل بشكل أفضل بالإنجليزية، لذا أُبقي نصه كما هو. الملخص بالعربية: خمس صور لنفس الرجل الحليق تمامًا (بلا لحية أو شعر وجه)، الوجه واقعي وحاد والجسد والملابس تتحول تدريجيًا إلى أسلوب فني مبتكر، في أماكن تبدو واقعية لكنها مستحيلة بهدوء، مع حالة مزاجية جريئة وعاطفة داخلية عميقة في العينين.)
 ```
 
-## 2053. Five Cinematic Face-Locked Portrait Scenes 🔤
+## 2053. خمسة مشاهد سينمائية بورتريه بوجه مثبّت
 
 *الأصل:* Five Cinematic Face-Locked Portrait Scenes · *النوع:* نص
 
@@ -4376,108 +4381,110 @@ LOCATIONS (REAL places, shot like cinema — not fantasy):
 CAMERA: 85mm portrait compression for close frames, 35mm for wide; shallow depth of field; face always tack-sharp.
 
 STRICT NEGATIVES: NO facial hair of any kind, no identity drift, no fantasy/impossible environments, no cartoon rendering, no generic "AI portrait" look, no over-smoothed skin.
+
+(ملاحظة: هذا البرومبت لتوليد الصور ويعمل بشكل أفضل بالإنجليزية، لذا أُبقي نصه كما هو. الملخص بالعربية: خمسة مشاهد سينمائية في أماكن حقيقية لنفس الرجل بوجه مطابق تمامًا للصور المرجعية وحليق بالكامل، والوجه واقعي حاد دائمًا، وبقية الصورة تحمل انحرافًا تصويريًا خفيفًا شبه غير مرئي، بتصوير سينمائي وعمق ميدان ضحل.)
 ```
 
-## 2054. Team Proposal for Conference Event 🔤
+## 2054. مقترح فريق لفعالية مؤتمر
 
 *الأصل:* Team Proposal for Conference Event · *النوع:* نص
 
 ```
-Act as a project manager. you are to create proposal of a team for an event using data from existing documents uploaded and made in Notion. 
+تصرّف كمدير مشروع. مطلوب منك إعداد مقترح لفريق من أجل فعالية، وذلك باستخدام بيانات من مستندات موجودة مرفوعة ومنشأة في Notion.
 
-Your task is to:
-- Analyze existing project documents stored in Notion to gather relevant data.
-- Collaborate with team members to identify key points and objectives for the proposal.
-- Draft a detailed proposal highlighting the team's goals, strategies, and expected outcomes for the conference.
+مهمتك هي:
+- تحليل مستندات المشروع الموجودة المخزّنة في Notion لجمع البيانات ذات الصلة.
+- التعاون مع أعضاء الفريق لتحديد النقاط والأهداف الرئيسية للمقترح.
+- صياغة مقترح مفصّل يبرز أهداف الفريق واستراتيجياته والنتائج المتوقعة للمؤتمر.
 
-Rules:
-- Ensure the proposal is clear, concise, and aligns with the overall objectives of the conferenceproposal.
-- Include input from all relevant stakeholders in the proposal.
+القواعد:
+- تأكد من أن المقترح واضح وموجز ومتسق مع الأهداف العامة للمؤتمر.
+- ضمّن في المقترح مساهمات جميع أصحاب المصلحة المعنيين.
 ```
 
-## 2055. Prompt to learn free AI website which will be most useful for me to use for free 🔤
+## 2055. برومبت لتعلّم موقع ذكاء اصطناعي مجاني يكون الأنفع لي
 
 *الأصل:* Prompt to learn free AI website which will be most useful for me to use for free · *النوع:* نص
 
 ```
-I want to learn about various ai and websites which are free to use and knownly safe for making code to running code and writing professional prompt
+أريد أن أتعرّف على مختلف أدوات الذكاء الاصطناعي والمواقع المجانية الاستخدام والمعروفة بأنها آمنة، لكتابة الشيفرة البرمجية وتشغيلها وكتابة البرومبتات الاحترافية.
 ```
 
-## 2056. Universal Instructions for React / Next.js Projects 🔤
+## 2056. تعليمات شاملة لمشاريع React / Next.js
 
 *الأصل:* Universal Instructions for React / Next.js Projects · *النوع:* منظّم
 
 ````
-# Universal Instructions for React / Next.js Projects
+# تعليمات شاملة لمشاريع React / Next.js
 
-> Purpose: General rules for developing various projects with React + TypeScript, Next.js + TypeScript, and Tailwind CSS.
-> Usage: Place this file in the root of a new project as `AGENTS.md`, `CLAUDE.md`, or `PROJECT_RULES.md`, or use it as a base instruction set for an AI agent.
-> Important: These instructions do not contain product-specific rules. Keep everything related to an individual project in a separate `PROJECT_RULES.md` file.
-
----
-
-# 1. Core Principle
-
-Build a production-ready application, not a collection of disconnected components.
-
-Always follow this sequence:
-
-1. Review the current project structure, `package.json`, routing, UI primitives, stores, hooks, schemas, and project rules.
-2. Find existing actions, helpers, schemas, and components that can be reused.
-3. Identify the smallest change required for the task.
-4. Preserve existing behavior.
-5. Implement each new feature end to end: model, validation, UI, storage/import/export, edge cases, and verification.
-6. Run the relevant checks and report the results honestly.
-
-Do not add dependencies, abstractions, a global store, or an architectural layer unless they are genuinely necessary.
-Use `shadcn/ui` by default for UI work. Do not add another UI kit on top of it without a clear reason.
+> الغرض: قواعد عامة لتطوير مشاريع متنوعة باستخدام React + TypeScript وNext.js + TypeScript وTailwind CSS.
+> الاستخدام: ضع هذا الملف في جذر مشروع جديد باسم `AGENTS.md` أو `CLAUDE.md` أو `PROJECT_RULES.md`، أو استخدمه كمجموعة تعليمات أساسية لوكيل ذكاء اصطناعي.
+> مهم: لا تحتوي هذه التعليمات على قواعد خاصة بمنتج بعينه. احتفظ بكل ما يتعلق بمشروع فردي في ملف `PROJECT_RULES.md` منفصل.
 
 ---
 
-# 2. Choosing Between React and Next.js
+# 1. المبدأ الأساسي
 
-Use Next.js when the project needs:
+ابنِ تطبيقًا جاهزًا للإنتاج، لا مجموعة من المكونات المنفصلة.
 
-- routing;
-- SEO;
-- SSR / Server Components;
-- Server Actions;
-- Route Handlers / API routes;
-- authentication;
-- database access;
-- private environment variables;
-- content publishing.
+اتبع دائمًا هذا التسلسل:
 
-Use React + Vite when:
+1. راجع بنية المشروع الحالية، و`package.json`، والتوجيه (routing)، وعناصر الواجهة الأساسية، والـ stores، والـ hooks، والـ schemas، وقواعد المشروع.
+2. ابحث عن الإجراءات والدوال المساعدة والـ schemas والمكونات الموجودة التي يمكن إعادة استخدامها.
+3. حدّد أصغر تغيير مطلوب للمهمة.
+4. حافظ على السلوك الحالي.
+5. نفّذ كل ميزة جديدة من البداية إلى النهاية: النموذج، والتحقق، والواجهة، والتخزين/الاستيراد/التصدير، والحالات الحدّية، والتحقق من صحة العمل.
+6. شغّل الفحوص ذات الصلة وأبلغ عن النتائج بأمانة.
 
-- the application is entirely client-side;
-- SEO is not required;
-- it is a local tool, dashboard, editor, admin panel, or desktop-like UI;
-- the server already exists as a separate service.
-
-Do not choose Next.js simply because it is popular. Do not add Redux, Zustand, React Query, a form library, or another UI kit without a specific reason.
+لا تضف اعتماديات (dependencies) أو تجريدات أو store عامًا أو طبقة معمارية إلا إذا كانت ضرورية فعلًا.
+استخدم `shadcn/ui` افتراضيًا في أعمال الواجهة. لا تضف مجموعة واجهات أخرى فوقها دون سبب واضح.
 
 ---
 
-# 3. Default Stack and Checks
+# 2. الاختيار بين React وNext.js
 
-Use the following by default:
+استخدم Next.js عندما يحتاج المشروع إلى:
 
-- React;
-- TypeScript in strict mode;
-- Tailwind CSS;
-- `shadcn/ui` as the required UI approach for clean design and rapid interface development;
-- Lucide React or the icon library used by the current shadcn configuration;
-- ESLint;
-- a shared `cn()` helper;
-- runtime validation for external data;
-- accessible HTML elements.
+- التوجيه (routing)؛
+- تحسين محركات البحث (SEO)؛
+- SSR / Server Components؛
+- Server Actions؛
+- Route Handlers / API routes؛
+- المصادقة؛
+- الوصول إلى قاعدة البيانات؛
+- متغيرات بيئة خاصة؛
+- نشر المحتوى.
 
-Use `shadcn/ui` as the primary source of UI primitives: buttons, inputs, selects, dialogs, sheets, dropdowns, tooltips, tabs, carousels, cards, badges, skeletons, scroll areas, and other required components. Create custom primitives only when shadcn does not provide a suitable component or when the project already has a stable local primitive.
+استخدم React + Vite عندما:
 
-For an MVP, begin with mock/JSON/localStorage data and validate local user flows first. Add the backend, database, payments, authentication, and external integrations last, once the UI, models, and flows are clear.
+- يكون التطبيق بالكامل من جهة العميل؛
+- لا حاجة إلى SEO؛
+- يكون أداة محلية أو لوحة معلومات أو محررًا أو لوحة إدارة أو واجهة شبيهة بتطبيقات سطح المكتب؛
+- يكون الخادم موجودًا أصلًا كخدمة منفصلة.
 
-At a minimum, run these commands after code changes:
+لا تختر Next.js لمجرد شيوعه. ولا تضف Redux أو Zustand أو React Query أو مكتبة نماذج أو مجموعة واجهات أخرى دون سبب محدد.
+
+---
+
+# 3. المكدّس الافتراضي والفحوص
+
+استخدم ما يلي افتراضيًا:
+
+- React؛
+- TypeScript في الوضع الصارم (strict)؛
+- Tailwind CSS؛
+- `shadcn/ui` كنهج الواجهة المطلوب للحصول على تصميم نظيف وتطوير سريع للواجهات؛
+- Lucide React أو مكتبة الأيقونات التي يستخدمها إعداد shadcn الحالي؛
+- ESLint؛
+- دالة `cn()` مشتركة؛
+- تحقق وقت التشغيل (runtime validation) من البيانات الخارجية؛
+- عناصر HTML سهلة الوصول.
+
+استخدم `shadcn/ui` كمصدر أساسي لعناصر الواجهة: الأزرار، وحقول الإدخال، والقوائم المنسدلة للاختيار، والحوارات، والألواح الجانبية (sheets)، والقوائم المنسدلة، وتلميحات الأدوات، والتبويبات، والدوارات (carousels)، والبطاقات، والشارات، والهياكل التحميلية (skeletons)، ومناطق التمرير، وغيرها من المكونات المطلوبة. أنشئ عناصر مخصصة فقط عندما لا يوفر shadcn مكونًا مناسبًا أو عندما يمتلك المشروع أصلًا عنصرًا محليًا مستقرًا.
+
+بالنسبة إلى MVP، ابدأ ببيانات وهمية/JSON/localStorage وتحقق من مسارات المستخدم المحلية أولًا. أضف الواجهة الخلفية وقاعدة البيانات والمدفوعات والمصادقة والتكاملات الخارجية في النهاية، بعد أن تتضح الواجهة والنماذج والمسارات.
+
+كحدٍّ أدنى، شغّل هذه الأوامر بعد تغييرات الشيفرة:
 
 ```bash
 npm run typecheck
@@ -4485,15 +4492,15 @@ npm run lint
 npm run build
 ```
 
-Do not claim that the project works if these commands were not run or completed with errors.
+لا تدّعِ أن المشروع يعمل إذا لم تُشغَّل هذه الأوامر أو انتهت بأخطاء.
 
 ---
 
-# 4. Architecture
+# 4. البنية المعمارية
 
-For Next.js projects expected to grow, keep source code inside `src/` by default: `src/app`, `src/components`, `src/lib`, `src/data`, `src/hooks`, and `src/features`. Keep root-level support folders and files (`public`, configuration files, lockfiles, and README) in the project root.
+بالنسبة إلى مشاريع Next.js المتوقع نموّها، احتفظ بالشيفرة المصدرية داخل `src/` افتراضيًا: `src/app` و`src/components` و`src/lib` و`src/data` و`src/hooks` و`src/features`. وأبقِ المجلدات والملفات الداعمة على مستوى الجذر (`public` وملفات الإعداد وملفات القفل وREADME) في جذر المشروع.
 
-For small projects, the following structure is acceptable:
+بالنسبة إلى المشاريع الصغيرة، تُقبل البنية الآتية:
 
 ```text
 src/
@@ -4504,7 +4511,7 @@ src/
   shared/
 ```
 
-For medium and large projects, use an FSD-like approach:
+بالنسبة إلى المشاريع المتوسطة والكبيرة، استخدم نهجًا شبيهًا بـ FSD:
 
 ```text
 src/
@@ -4516,54 +4523,54 @@ src/
   shared/    # generic helpers, config, thin wrappers around shadcn/ui
 ```
 
-Import direction:
+اتجاه الاستيراد:
 
 ```text
 app/views -> widgets -> features -> entities -> shared
 ```
 
-Do not:
+لا تفعل ما يلي:
 
-- import `widgets` into `features`;
-- place business logic in `shared`;
-- turn `shared/lib` into a dumping ground for unrelated functions;
-- duplicate mutation logic across multiple UI components;
-- use deep imports into another module's internals when that module exposes a public API.
+- استيراد `widgets` داخل `features`؛
+- وضع منطق الأعمال في `shared`؛
+- تحويل `shared/lib` إلى مكبّ لدوال غير مترابطة؛
+- تكرار منطق التعديل (mutation) عبر عدة مكونات واجهة؛
+- استخدام استيرادات عميقة إلى دواخل وحدة أخرى عندما تتيح تلك الوحدة واجهة عامة (public API).
 
 ---
 
-# 5. Public API
+# 5. الواجهة العامة (Public API)
 
-Every feature, entity, or shared UI folder should expose a clear public API through `index.ts` when the module is used externally. For shadcn primitives, the public API usually already lives in `components/ui/*` or the project's local UI layer.
+ينبغي أن يوفر كل مجلد feature أو entity أو واجهة مشتركة واجهة عامة واضحة عبر `index.ts` عندما تُستخدم الوحدة من الخارج. وبالنسبة إلى عناصر shadcn الأساسية، تكون الواجهة العامة عادةً موجودة أصلًا في `components/ui/*` أو في طبقة الواجهة المحلية للمشروع.
 
-Good:
+جيد:
 
 ```ts
 import { createTask } from "@/features/create-task";
 ```
 
-Bad:
+سيئ:
 
 ```ts
 import { createTask } from "@/features/create-task/model/createTask";
 ```
 
-Exception: internal code within the same feature or entity.
+استثناء: الشيفرة الداخلية ضمن الـ feature أو الـ entity نفسها.
 
 ---
 
 # 6. TypeScript
 
-Required:
+مطلوب:
 
-- enable `strict: true`;
-- do not use `any` except in isolated interoperability code;
-- do not hide type errors with `as` assertions;
-- use discriminated unions for complex state;
-- validate runtime JSON with a schema;
-- do not create multiple identical types without a meaningful reason.
+- فعّل `strict: true`؛
+- لا تستخدم `any` إلا في شيفرة التشغيل البيني المعزولة؛
+- لا تُخفِ أخطاء الأنواع بتأكيدات `as`؛
+- استخدم الاتحادات المميِّزة (discriminated unions) للحالات المعقدة؛
+- تحقق من JSON وقت التشغيل باستخدام schema؛
+- لا تنشئ عدة أنواع متطابقة دون سبب وجيه.
 
-Example state type:
+مثال على نوع حالة:
 
 ```ts
 type LoadState<T> =
@@ -4575,38 +4582,38 @@ type LoadState<T> =
 
 ---
 
-# 7. React State and Effects
+# 7. حالة React والتأثيرات (Effects)
 
-Store state where it actually belongs:
+خزّن الحالة حيث تنتمي فعلًا:
 
-| State type   | Where to store it                                           |
+| نوع الحالة   | أين تُخزَّن                                                 |
 | ------------ | ----------------------------------------------------------- |
-| Local UI     | `useState`, `useReducer`                                    |
-| URL state    | route/search parameters                                     |
-| Server state | server rendering or a cache/query layer                     |
-| Form state   | form hook/library                                           |
-| Global UI    | a small store when necessary                                |
-| Domain state | entity/store when the state is shared across multiple flows |
+| واجهة محلية  | `useState`, `useReducer`                                    |
+| حالة URL     | معاملات المسار/البحث                                        |
+| حالة الخادم  | التصيير على الخادم أو طبقة تخزين مؤقت/استعلام               |
+| حالة النموذج | hook/مكتبة نماذج                                            |
+| واجهة عامة   | store صغير عند الضرورة                                      |
+| حالة النطاق  | entity/store عندما تُشارَك الحالة بين عدة مسارات            |
 
-Do not put the following in a global store:
+لا تضع ما يلي في store عام:
 
-- hover state;
-- the state of a single dropdown;
-- the draft value of a single input;
-- the state of a single modal;
-- the temporary selected tab of one component.
+- حالة التمرير فوق العنصر (hover)؛
+- حالة قائمة منسدلة واحدة؛
+- القيمة المسودّة لحقل إدخال واحد؛
+- حالة نافذة منبثقة واحدة؛
+- التبويب المحدد مؤقتًا لمكوّن واحد.
 
-Use `useEffect` to synchronize with external systems:
+استخدم `useEffect` للمزامنة مع الأنظمة الخارجية:
 
-- browser APIs;
-- timers;
-- subscriptions;
-- external stores;
-- DOM integrations.
+- واجهات المتصفح البرمجية (browser APIs)؛
+- المؤقتات؛
+- الاشتراكات؛
+- المخازن الخارجية؛
+- تكاملات DOM.
 
-Do not use `useEffect` for derived values.
+لا تستخدم `useEffect` للقيم المشتقة.
 
-Bad:
+سيئ:
 
 ```tsx
 const [fullName, setFullName] = useState("");
@@ -4616,7 +4623,7 @@ useEffect(() => {
 }, [firstName, lastName]);
 ```
 
-Good:
+جيد:
 
 ```tsx
 const fullName = `${firstName} ${lastName}`;
@@ -4624,61 +4631,61 @@ const fullName = `${firstName} ${lastName}`;
 
 ---
 
-# 8. Next.js Boundaries
+# 8. حدود Next.js
 
-In the App Router, components are Server Components by default.
+في App Router، تكون المكونات Server Components افتراضيًا.
 
-Add `"use client"` only where you need:
+أضف `"use client"` فقط حيث تحتاج إلى:
 
-- event handlers;
-- local state;
-- effects;
-- `window`, `document`, or `localStorage`;
-- drag and drop;
-- `contenteditable`;
-- client-only libraries.
+- معالجات الأحداث؛
+- الحالة المحلية؛
+- التأثيرات (effects)؛
+- `window` أو `document` أو `localStorage`؛
+- السحب والإفلات؛
+- `contenteditable`؛
+- المكتبات الخاصة بالعميل فقط.
 
-Do not make an entire layout a Client Component without a clear need.
+لا تجعل تخطيطًا كاملًا Client Component دون حاجة واضحة.
 
-Server-only code includes:
+تشمل الشيفرة الخاصة بالخادم فقط:
 
-- database access;
-- authentication;
-- private API clients;
-- secret environment variables;
-- webhooks;
-- access checks.
+- الوصول إلى قاعدة البيانات؛
+- المصادقة؛
+- عملاء API الخاصون؛
+- متغيرات البيئة السرية؛
+- الـ webhooks؛
+- فحوص الصلاحيات.
 
-Never import a server-only module into a Client Component.
+لا تستورد أبدًا وحدة خاصة بالخادم فقط داخل Client Component.
 
 ---
 
-# 9. Runtime Validation and Migrations
+# 9. التحقق وقت التشغيل وعمليات الترحيل (Migrations)
 
-Validate all external data at the boundary:
+تحقق من جميع البيانات الخارجية عند الحدود:
 
-- request bodies;
-- form data;
-- URL/search parameters;
-- uploaded files;
-- imported JSON;
-- localStorage/IndexedDB data;
-- responses from external APIs.
+- أجسام الطلبات؛
+- بيانات النماذج؛
+- معاملات URL/البحث؛
+- الملفات المرفوعة؛
+- ملفات JSON المستوردة؛
+- بيانات localStorage/IndexedDB؛
+- استجابات واجهات API الخارجية.
 
-When adding a new model field, update the entire lifecycle:
+عند إضافة حقل جديد إلى النموذج، حدّث دورة الحياة بأكملها:
 
-1. TypeScript type.
-2. Runtime schema.
-3. Factory/default values.
-4. Parser/migration for legacy data.
-5. Normalization helpers.
-6. Import/export.
-7. Search/filter indexing, if the field should be searchable.
-8. Undo/redo snapshots, if users can edit the field.
-9. UI for creating, editing, and clearing the field.
-10. Edge cases and checks.
+1. نوع TypeScript.
+2. schema وقت التشغيل.
+3. المصنع/القيم الافتراضية.
+4. المحلّل/الترحيل للبيانات القديمة.
+5. دوال التطبيع المساعدة.
+6. الاستيراد/التصدير.
+7. فهرسة البحث/التصفية، إذا كان ينبغي أن يكون الحقل قابلًا للبحث.
+8. لقطات التراجع/الإعادة (undo/redo)، إذا كان بإمكان المستخدمين تحرير الحقل.
+9. واجهة إنشاء الحقل وتحريره ومسحه.
+10. الحالات الحدّية والفحوص.
 
-Example:
+مثال:
 
 ```ts
 return {
@@ -4689,43 +4696,43 @@ return {
 };
 ```
 
-Do not add a model field only in the UI.
+لا تضف حقلًا إلى النموذج في الواجهة فقط.
 
 ---
 
-# 10. Forms
+# 10. النماذج (Forms)
 
-Every form must include:
+يجب أن يتضمن كل نموذج:
 
-- a validation schema;
-- field errors;
-- a submitting/loading state;
-- a disabled submit button while submitting;
-- protection against duplicate submissions;
-- an error state;
-- success behavior;
-- reset/draft behavior, when applicable.
+- schema للتحقق؛
+- أخطاء الحقول؛
+- حالة الإرسال/التحميل؛
+- زر إرسال معطّل أثناء الإرسال؛
+- حماية من الإرسال المكرر؛
+- حالة خطأ؛
+- سلوكًا عند النجاح؛
+- سلوك إعادة الضبط/المسودة، عند الاقتضاء.
 
-A form is not complete if it works only when the request succeeds perfectly.
+لا يكتمل النموذج إذا كان يعمل فقط عندما ينجح الطلب نجاحًا تامًا.
 
 ---
 
-# 11. shadcn/ui and Shared UI
+# 11. shadcn/ui والواجهة المشتركة
 
-Use `shadcn/ui` by default to build clean, consistent interfaces quickly.
+استخدم `shadcn/ui` افتراضيًا لبناء واجهات نظيفة ومتسقة بسرعة.
 
-Rules:
+القواعد:
 
-- first check whether the required component exists in the shadcn registry;
-- add shadcn components through the CLI or the project's established local method;
-- do not create a custom Button, Input, Modal, Dropdown, Tooltip, Tabs, or Card if shadcn already covers the use case;
-- adapt shadcn components through `className`, variants, and composition instead of copying similar components;
-- keep business components separate from primitives: `components/marketplace`, `features/*/ui`, `widgets/*`, or `entities/*/ui`;
-- keep only shadcn primitives and thin reusable wrappers in `components/ui` or `shared/ui`;
-- do not place product-specific business components there;
-- if shadcn does not provide a component, create a minimal local wrapper consistent with the current shadcn configuration.
+- تحقق أولًا مما إذا كان المكوّن المطلوب موجودًا في سجل shadcn؛
+- أضف مكونات shadcn عبر CLI أو الطريقة المحلية المعتمدة في المشروع؛
+- لا تنشئ Button أو Input أو Modal أو Dropdown أو Tooltip أو Tabs أو Card مخصصة إذا كان shadcn يغطي حالة الاستخدام؛
+- كيّف مكونات shadcn عبر `className` والمتغيرات (variants) والتركيب بدلًا من نسخ مكونات مشابهة؛
+- افصل مكونات الأعمال عن العناصر الأساسية: `components/marketplace` أو `features/*/ui` أو `widgets/*` أو `entities/*/ui`؛
+- احتفظ بعناصر shadcn الأساسية والأغلفة الرقيقة القابلة لإعادة الاستخدام فقط في `components/ui` أو `shared/ui`؛
+- لا تضع هناك مكونات أعمال خاصة بالمنتج؛
+- إذا لم يوفر shadcn مكونًا، فأنشئ غلافًا محليًا بسيطًا متسقًا مع إعداد shadcn الحالي.
 
-Base set of shadcn components for productivity interfaces:
+المجموعة الأساسية من مكونات shadcn لواجهات الإنتاجية:
 
 ```text
 button
@@ -4752,7 +4759,7 @@ collapsible
 hover-card
 ```
 
-For marketplace, chat, and support flows, also plan for these newer shadcn components:
+بالنسبة إلى مسارات السوق والدردشة والدعم، خطّط أيضًا لاستخدام مكونات shadcn الأحدث هذه:
 
 ```text
 message
@@ -4761,7 +4768,7 @@ attachment
 marker
 ```
 
-Always use `cn()`:
+استخدم `cn()` دائمًا:
 
 ```ts
 export function cn(...values: Array<string | false | null | undefined>) {
@@ -4771,43 +4778,43 @@ export function cn(...values: Array<string | false | null | undefined>) {
 
 ---
 
-# 12. Choosing the Right UI Surface
+# 12. اختيار سطح الواجهة المناسب
 
-Before adding a new tool, choose the right surface:
+قبل إضافة أداة جديدة، اختر السطح المناسب:
 
-| Feature size                       | Placement                         | Example                             |
-| ---------------------------------- | --------------------------------- | ----------------------------------- |
-| 1-5 quick settings                 | context menu / dropdown / popover | status, due date, tags              |
-| 5-12 grouped settings              | sectioned, scrollable popover      | entity properties, compact filters  |
-| large data sets or bulk actions    | sidebar / drawer                  | filters, tools panel                |
-| complex form or dangerous action   | modal                             | import/export, delete confirmation  |
-| permanent workspace                | dedicated view/page/widget        | dashboard, calendar, editor         |
+| حجم الميزة                          | الموضع                            | مثال                                |
+| ----------------------------------- | --------------------------------- | ----------------------------------- |
+| 1-5 إعدادات سريعة                   | قائمة سياق / قائمة منسدلة / popover | الحالة، تاريخ الاستحقاق، الوسوم     |
+| 5-12 إعدادًا مجمّعة                 | popover مقسّم إلى أقسام وقابل للتمرير | خصائص الكيان، مرشحات مدمجة        |
+| مجموعات بيانات كبيرة أو إجراءات جماعية | شريط جانبي / درج (drawer)       | المرشحات، لوحة الأدوات              |
+| نموذج معقد أو إجراء خطير            | نافذة منبثقة (modal)              | الاستيراد/التصدير، تأكيد الحذف      |
+| مساحة عمل دائمة                     | عرض/صفحة/widget مخصص              | لوحة المعلومات، التقويم، المحرر      |
 
-Rule:
+القاعدة:
 
-> If a control is used occasionally, keep it in a menu.
-> If a control is used constantly, keep it visible on the main surface.
-> If a control is complex and lengthy, move it to a sidebar or modal.
+> إذا كان عنصر التحكم يُستخدم أحيانًا، فأبقِه في قائمة.
+> وإذا كان يُستخدم باستمرار، فأبقِه ظاهرًا على السطح الرئيسي.
+> وإذا كان معقدًا وطويلًا، فانقله إلى شريط جانبي أو نافذة منبثقة.
 
-Do not turn a small group of controls into a large card on the page. In productivity interfaces, this wastes valuable space.
+لا تحوّل مجموعة صغيرة من عناصر التحكم إلى بطاقة كبيرة في الصفحة. ففي واجهات الإنتاجية، هذا يهدر مساحة ثمينة.
 
 ---
 
-# 13. Compact UI for Editors, Dashboards, and Workspaces
+# 13. واجهة مدمجة للمحررات ولوحات المعلومات ومساحات العمل
 
-In productivity applications, the primary content must remain the focus.
+في تطبيقات الإنتاجية، يجب أن يبقى المحتوى الأساسي هو محور التركيز.
 
-Required:
+مطلوب:
 
-- the title, body, board, or editor must not be pushed downward by secondary controls;
-- entity properties should generally open from an icon button next to the title;
-- settings buttons must have an `aria-label`;
-- an important status can be shown as a small badge;
-- create/add actions must appear in a clear context;
-- sidebar-heavy flows must include a mobile-friendly menu or switcher;
-- do not make a productivity tool look like a landing page.
+- ألا يُزاح العنوان أو النص أو اللوحة أو المحرر إلى الأسفل بفعل عناصر التحكم الثانوية؛
+- ينبغي عمومًا أن تُفتح خصائص الكيان من زر أيقونة بجوار العنوان؛
+- يجب أن يكون لأزرار الإعدادات `aria-label`؛
+- يمكن عرض حالة مهمة في شارة صغيرة؛
+- يجب أن تظهر إجراءات الإنشاء/الإضافة في سياق واضح؛
+- يجب أن تتضمن المسارات الكثيفة بالأشرطة الجانبية قائمة أو مبدّلًا ملائمًا للجوال؛
+- لا تجعل أداة إنتاجية تبدو كصفحة هبوط.
 
-Bad:
+سيئ:
 
 ```tsx
 ${largepropertiescard}
@@ -4818,7 +4825,7 @@ ${largepropertiescard}
 </LargePropertiesCard>
 ```
 
-Good:
+جيد:
 
 ```tsx
 ${titlerow}
@@ -4829,25 +4836,25 @@ ${titlerow}
 
 ---
 
-# 14. Overlays, Dropdowns, Popovers, and Context Menus
+# 14. الطبقات العلوية والقوائم المنسدلة وPopovers وقوائم السياق
 
-Every menu must behave as a true overlay.
+يجب أن تتصرف كل قائمة كطبقة علوية (overlay) حقيقية.
 
-Rules:
+القواعد:
 
-- if a menu may extend beyond its container, render it through `createPortal(..., document.body)`;
-- use `position: fixed` or a reliable positioning helper;
-- set an explicit `z-index`;
-- use an opaque `backgroundColor`;
-- do not rely only on a translucent `bg-black/50` background or blur;
-- add a border, ring, or shadow;
-- set `max-height` and `overflow-y-auto`;
-- close on `Escape`;
-- close on outside click/tap;
-- prevent page text from showing through or rendering over the menu;
-- hover and active states must not change the item's dimensions.
+- إذا كان من الممكن أن تتجاوز القائمة حاويتها، فصيّرها عبر `createPortal(..., document.body)`؛
+- استخدم `position: fixed` أو دالة تموضع موثوقة؛
+- حدّد `z-index` صريحًا؛
+- استخدم `backgroundColor` معتمًا؛
+- لا تعتمد فقط على خلفية شفافة جزئيًا مثل `bg-black/50` أو على التمويه؛
+- أضف حدًّا أو حلقة (ring) أو ظلًّا؛
+- حدّد `max-height` و`overflow-y-auto`؛
+- أغلقها عند الضغط على `Escape`؛
+- أغلقها عند النقر/اللمس خارجها؛
+- امنع ظهور نص الصفحة من خلالها أو تصييره فوق القائمة؛
+- يجب ألا تغيّر حالتا hover وactive أبعاد العنصر.
 
-Minimal overlay style:
+نمط الطبقة العلوية الأدنى:
 
 ```tsx
 <div
@@ -4862,34 +4869,34 @@ Minimal overlay style:
 </div>
 ```
 
-If the menu background does not render correctly or content appears above it, check:
+إذا لم تُصيَّر خلفية القائمة بشكل صحيح أو ظهر محتوى فوقها، فتحقق من:
 
-- the portal;
-- `position`;
-- `z-index`;
-- parent stacking contexts;
-- `isolation`;
-- opacity/background;
-- parent overflow/clipping.
+- الـ portal؛
+- `position`؛
+- `z-index`؛
+- سياقات التراص (stacking contexts) للعناصر الأم؛
+- `isolation`؛
+- الشفافية/الخلفية؛
+- overflow/القص في العناصر الأم.
 
 ---
 
-# 15. Option Lists in Menus
+# 15. قوائم الخيارات داخل القوائم
 
-A list of tasks, projects, users, tags, or other options in a menu must not look like a dense wall of text.
+يجب ألا تبدو قائمة المهام أو المشاريع أو المستخدمين أو الوسوم أو الخيارات الأخرى داخل قائمة كجدار نصي كثيف.
 
-For a two-line item:
+بالنسبة إلى عنصر من سطرين:
 
-- use a `min-height` of 40-44px;
-- include a `gap` between the icon, text, and checkmark;
-- use vertical padding such as `py-1.5`;
-- give the title and metadata different line heights;
-- add `mt-0.5` between the title and metadata;
-- apply `min-w-0` to the parent containing the text;
-- apply `truncate` to the title and metadata;
-- apply `shrink-0` to checkmarks and icons.
+- استخدم `min-height` بين 40 و44 بكسل؛
+- أضف `gap` بين الأيقونة والنص وعلامة الاختيار؛
+- استخدم حشوة رأسية مثل `py-1.5`؛
+- أعطِ العنوان والبيانات الوصفية ارتفاعي سطر مختلفين؛
+- أضف `mt-0.5` بين العنوان والبيانات الوصفية؛
+- طبّق `min-w-0` على العنصر الأم الذي يحتوي النص؛
+- طبّق `truncate` على العنوان والبيانات الوصفية؛
+- طبّق `shrink-0` على علامات الاختيار والأيقونات.
 
-Example:
+مثال:
 
 ```tsx
 <button className="flex min-h-11 items-center gap-2.5 rounded-lg px-2.5 py-1.5">
@@ -4905,71 +4912,71 @@ Example:
 
 ---
 
-# 16. Long Text and Overflow
+# 16. النص الطويل والفيضان (Overflow)
 
-Any user-provided text may contain a long word with no spaces.
+قد يحتوي أي نص يقدمه المستخدم على كلمة طويلة بلا مسافات.
 
-For editors, `contenteditable` elements, Markdown, card titles, and comments:
+بالنسبة إلى المحررات وعناصر `contenteditable` وMarkdown وعناوين البطاقات والتعليقات:
 
-- use `min-w-0` on flex/grid children;
-- use the current Tailwind utilities for wrapping long words;
-- in newer Tailwind versions, `break-words` may be written as `wrap-break-word`;
-- check the documentation for the project's current Tailwind version before using wrapping, overflow, text-wrap, grid, spacing, or arbitrary-value classes;
-- if an element is inside a flex container and long text breaks its width, check whether `wrap-anywhere` is appropriate;
-- use `truncate` for short lines in cards;
-- wrap body text instead of allowing horizontal overflow;
-- text must not render over a menu, popover, or modal;
-- test with a long string containing no spaces.
+- استخدم `min-w-0` على أبناء flex/grid؛
+- استخدم أدوات Tailwind الحالية لكسر الكلمات الطويلة؛
+- في إصدارات Tailwind الأحدث، قد تُكتب `break-words` على هيئة `wrap-break-word`؛
+- راجع وثائق إصدار Tailwind الحالي في المشروع قبل استخدام فئات الالتفاف أو الفيضان أو text-wrap أو grid أو المسافات أو القيم المخصصة (arbitrary)؛
+- إذا كان العنصر داخل حاوية flex وكسر النص الطويل عرضه، فتحقق مما إذا كانت `wrap-anywhere` مناسبة؛
+- استخدم `truncate` للأسطر القصيرة في البطاقات؛
+- لفّ نص المتن بدلًا من السماح بالفيضان الأفقي؛
+- يجب ألا يُصيَّر النص فوق قائمة أو popover أو نافذة منبثقة؛
+- اختبر بسلسلة طويلة لا تحتوي مسافات.
 
-For an editable block:
+لكتلة قابلة للتحرير:
 
 ```tsx
 className = "min-w-0 wrap-break-word whitespace-pre-wrap";
 ```
 
-If the project uses an older Tailwind version where `wrap-break-word` is unavailable, check the installed Tailwind version and the official documentation or version notes, then use a supported equivalent: `break-words`, an arbitrary value, or a CSS property.
+إذا كان المشروع يستخدم إصدار Tailwind أقدم لا تتوفر فيه `wrap-break-word`، فتحقق من إصدار Tailwind المثبّت والوثائق الرسمية أو ملاحظات الإصدار، ثم استخدم بديلًا مدعومًا: `break-words` أو قيمة مخصصة أو خاصية CSS.
 
-For a badge:
+بالنسبة إلى الشارة:
 
 ```tsx
 className = "inline-flex whitespace-nowrap";
 ```
 
-A badge must not compress text vertically. If it does not fit, move it to a new line or use `truncate` with an explicit, understandable width.
+يجب ألا تضغط الشارة النص رأسيًا. وإذا لم يتسع، فانقلها إلى سطر جديد أو استخدم `truncate` مع عرض صريح ومفهوم.
 
 ---
 
-# 17. Tailwind CSS: Verify Current Class Names
+# 17. Tailwind CSS: تحقق من أسماء الفئات الحالية
 
-The AI agent must check the Tailwind version installed in the project before using new or potentially version-dependent classes.
+يجب على وكيل الذكاء الاصطناعي التحقق من إصدار Tailwind المثبّت في المشروع قبل استخدام فئات جديدة أو قد تعتمد على الإصدار.
 
-Process:
+العملية:
 
-1. Inspect `package.json` and the lockfile.
-2. Determine the Tailwind major version.
-3. If a class may differ between versions, check the official documentation for that exact version.
-4. Do not replace classes mechanically without verification.
-5. When using an arbitrary value, confirm that it is included in the build output.
+1. افحص `package.json` وملف القفل.
+2. حدّد الإصدار الرئيسي لـ Tailwind.
+3. إذا كانت فئة ما قد تختلف بين الإصدارات، فراجع الوثائق الرسمية لذلك الإصدار تحديدًا.
+4. لا تستبدل الفئات آليًا دون تحقق.
+5. عند استخدام قيمة مخصصة (arbitrary)، تأكد من أنها مضمّنة في مخرجات البناء.
 
-Pay particular attention to:
+انتبه بوجه خاص إلى:
 
-- `break-words` / `wrap-break-word` / `wrap-anywhere`;
-- `text-wrap`, `text-balance`, and `text-pretty`;
-- `overflow-*`;
-- `size-*`;
-- arbitrary colors such as `bg-[#151a21]`;
-- arbitrary shadows;
-- arbitrary grid templates;
-- dynamic class names.
+- `break-words` / `wrap-break-word` / `wrap-anywhere`؛
+- `text-wrap` و`text-balance` و`text-pretty`؛
+- `overflow-*`؛
+- `size-*`؛
+- الألوان المخصصة مثل `bg-[#151a21]`؛
+- الظلال المخصصة؛
+- قوالب grid المخصصة؛
+- أسماء الفئات الديناميكية.
 
-Do not build dynamic Tailwind classes like this:
+لا تبنِ فئات Tailwind ديناميكية بهذه الطريقة:
 
 ```tsx
 const color = "red";
 return <div className={`bg-${color}-500`} />;
 ```
 
-Tailwind may not detect that class during the build. Use a map:
+قد لا يكتشف Tailwind هذه الفئة أثناء البناء. استخدم خريطة:
 
 ```tsx
 const colorClassName = {
@@ -4978,26 +4985,26 @@ const colorClassName = {
 }${variant};
 ```
 
-If an important overlay background must not depend on Tailwind's build output, using an inline `style.backgroundColor` is acceptable.
+إذا كان من الضروري ألا تعتمد خلفية طبقة علوية مهمة على مخرجات بناء Tailwind، فمن المقبول استخدام `style.backgroundColor` المضمّن.
 
 ---
 
-# 18. Layout and Sidebar Collapse
+# 18. التخطيط وطيّ الشريط الجانبي
 
-Collapsing a sidebar or drawer must not change the page height or leave an empty block.
+يجب ألا يغيّر طيّ الشريط الجانبي أو الدرج ارتفاع الصفحة أو يترك كتلة فارغة.
 
-Rules:
+القواعد:
 
-- app shell: `h-dvh min-h-dvh overflow-hidden`;
-- internal regions: `flex min-h-0 flex-1 overflow-hidden`;
-- enable scrolling only on the appropriate region with `overflow-y-auto`;
-- when collapsing, change width/flex-basis rather than height;
-- a collapsed sidebar must have a stable width;
-- provide a clear control for restoring the sidebar;
-- destructive or creation actions must not remain as isolated buttons without context;
-- preferences may be persisted in localStorage.
+- هيكل التطبيق: `h-dvh min-h-dvh overflow-hidden`؛
+- المناطق الداخلية: `flex min-h-0 flex-1 overflow-hidden`؛
+- فعّل التمرير فقط على المنطقة المناسبة باستخدام `overflow-y-auto`؛
+- عند الطيّ، غيّر العرض/flex-basis لا الارتفاع؛
+- يجب أن يكون للشريط الجانبي المطوي عرض ثابت؛
+- وفّر عنصر تحكم واضحًا لاستعادة الشريط الجانبي؛
+- يجب ألا تبقى إجراءات الحذف أو الإنشاء كأزرار معزولة بلا سياق؛
+- يمكن حفظ التفضيلات في localStorage.
 
-Example:
+مثال:
 
 ```tsx
 <main className="flex h-dvh min-h-dvh flex-col overflow-hidden">
@@ -5010,21 +5017,21 @@ Example:
 
 ---
 
-# 19. Browser APIs and localStorage
+# 19. واجهات المتصفح البرمجية وlocalStorage
 
-In Next.js, browser APIs are available only in Client Components.
+في Next.js، لا تتوفر واجهات المتصفح البرمجية إلا في Client Components.
 
-Rules:
+القواعد:
 
-- a file that uses `localStorage`, `window`, `document`, drag and drop, or `contenteditable` must include `"use client"`;
-- do not read `localStorage` in a Server Component;
-- do not cause hydration errors with different initial values;
-- wrap storage operations in `try/catch`;
-- storage failures must not break the UI;
-- verify persisted UI preferences after a reload;
-- the build must not fail with `window is not defined`.
+- يجب أن يتضمن الملف الذي يستخدم `localStorage` أو `window` أو `document` أو السحب والإفلات أو `contenteditable` العبارة `"use client"`؛
+- لا تقرأ `localStorage` في Server Component؛
+- لا تتسبب في أخطاء hydration بقيم أولية مختلفة؛
+- غلّف عمليات التخزين بـ `try/catch`؛
+- يجب ألا تكسر إخفاقات التخزين الواجهة؛
+- تحقق من التفضيلات المحفوظة للواجهة بعد إعادة التحميل؛
+- يجب ألا يفشل البناء بالخطأ `window is not defined`.
 
-Example:
+مثال:
 
 ```tsx
 const toggle = useCallback(() => {
@@ -5042,151 +5049,151 @@ const toggle = useCallback(() => {
 }, []);
 ```
 
-Verify that:
+تحقق من أن:
 
-- the default state works with empty storage;
-- a reload preserves the state;
-- private mode or storage errors do not break the screen;
-- the build does not fail with `window is not defined`.
-
----
-
-# 20. Relationships Between Tools
-
-If one entity is linked to another, the relationship must be real:
-
-- store it in the model;
-- show it in the UI;
-- clicking it opens the linked entity;
-- when creating the related entity, save the relationship immediately;
-- preserve the relationship during import/export;
-- include the relationship in search/filter behavior when useful;
-- if the related entity is deleted, show a fallback in the UI.
-
-Do not create a decorative "Link" button if the relationship is not persisted.
+- الحالة الافتراضية تعمل مع تخزين فارغ؛
+- إعادة التحميل تحافظ على الحالة؛
+- الوضع الخاص أو أخطاء التخزين لا تكسر الشاشة؛
+- البناء لا يفشل بالخطأ `window is not defined`.
 
 ---
 
-# 21. Unified Domain Operations
+# 20. العلاقات بين الأدوات
 
-Each user operation must have a single source of truth.
+إذا كان كيان مرتبطًا بكيان آخر، فيجب أن تكون العلاقة حقيقية:
 
-Do not:
+- خزّنها في النموذج؛
+- اعرضها في الواجهة؛
+- النقر عليها يفتح الكيان المرتبط؛
+- عند إنشاء الكيان المرتبط، احفظ العلاقة فورًا؛
+- حافظ على العلاقة أثناء الاستيراد/التصدير؛
+- ضمّن العلاقة في سلوك البحث/التصفية عند الفائدة؛
+- إذا حُذف الكيان المرتبط، فاعرض بديلًا احتياطيًا في الواجهة.
 
-- create an entity one way from the slash menu;
-- create it another way from the toolbar;
-- bypass validation from the command palette;
-- duplicate mutation logic in the context menu.
-
-Instead:
-
-- keep the domain operation in one place;
-- have UI components call that operation;
-- use the same validation and constraints for every entry point.
+لا تنشئ زر "ربط" تزيينيًا إذا لم تكن العلاقة محفوظة.
 
 ---
 
-# 23. Accessibility
+# 21. عمليات نطاق موحّدة
 
-Required:
+يجب أن يكون لكل عملية يجريها المستخدم مصدر حقيقة واحد.
 
-- use `<button>` for actions;
-- use `<a>` for navigation;
-- add `aria-label` to icon-only buttons;
-- provide labels for inputs;
-- show a visible focus state;
-- support keyboard navigation;
-- close modals and popovers on `Escape`;
-- close popovers on outside click;
-- use a focus trap in modals;
-- do not use color as the only way to communicate meaning;
-- do not replace `<button>` with `${div_onclick}`.
+لا تفعل ما يلي:
 
----
+- إنشاء كيان بطريقة من قائمة الشرطة المائلة (slash menu)؛
+- وإنشاؤه بطريقة أخرى من شريط الأدوات؛
+- وتجاوز التحقق من لوحة الأوامر؛
+- وتكرار منطق التعديل في قائمة السياق.
 
-# 24. Loading, Empty, and Error States
+بدلًا من ذلك:
 
-Data-driven screens must account for:
-
-- loading;
-- success;
-- empty state;
-- permission denied;
-- network error;
-- server error;
-- retry.
-
-A blank screen with no explanation is a bug.
+- أبقِ عملية النطاق في مكان واحد؛
+- اجعل مكونات الواجهة تستدعي تلك العملية؛
+- استخدم التحقق والقيود نفسها لكل نقطة دخول.
 
 ---
 
-# 25. Security
+# 23. إمكانية الوصول
 
-Required:
+مطلوب:
 
-- keep secrets on the server only;
-- use runtime validation;
-- enforce access control on the server;
-- validate file MIME types and sizes;
-- sanitize user-provided HTML;
-- do not use `dangerouslySetInnerHTML` without a sanitizer;
-- do not log tokens or personal data;
-- do not trust `role` or `userId` values supplied by the browser.
-
----
-
-# 26. Performance
-
-Measure first, then optimize.
-
-Use:
-
-- dynamic imports for heavy editor, chart, map, and PDF modules;
-- image optimization;
-- virtualization for large lists;
-- abort/stale-request protection for search;
-- selectors to reduce rerenders.
-
-Do not add memoization without a reason.
+- استخدم `<button>` للإجراءات؛
+- استخدم `<a>` للتنقل؛
+- أضف `aria-label` إلى الأزرار التي تحتوي أيقونة فقط؛
+- وفّر تسميات لحقول الإدخال؛
+- أظهر حالة تركيز مرئية؛
+- ادعم التنقل بلوحة المفاتيح؛
+- أغلق النوافذ المنبثقة والـ popovers عند `Escape`؛
+- أغلق الـ popovers عند النقر خارجها؛
+- استخدم مصيدة تركيز (focus trap) في النوافذ المنبثقة؛
+- لا تستخدم اللون وسيلةً وحيدة لإيصال المعنى؛
+- لا تستبدل `<button>` بـ `${div_onclick}`.
 
 ---
 
-# 27. Test the Design with Realistic Content
+# 24. حالات التحميل والفراغ والخطأ
 
-For additional guidance on interface quality, you may refer to:
+يجب أن تراعي الشاشات المعتمدة على البيانات ما يلي:
+
+- التحميل؛
+- النجاح؛
+- الحالة الفارغة؛
+- رفض الصلاحية؛
+- خطأ الشبكة؛
+- خطأ الخادم؛
+- إعادة المحاولة.
+
+الشاشة الفارغة بلا أي تفسير خلل برمجي.
+
+---
+
+# 25. الأمان
+
+مطلوب:
+
+- أبقِ الأسرار على الخادم فقط؛
+- استخدم التحقق وقت التشغيل؛
+- طبّق التحكم في الوصول على الخادم؛
+- تحقق من أنواع MIME وأحجام الملفات؛
+- نظّف (sanitize) كود HTML الذي يقدمه المستخدم؛
+- لا تستخدم `dangerouslySetInnerHTML` دون مُنظِّف؛
+- لا تسجّل الرموز (tokens) أو البيانات الشخصية؛
+- لا تثق بقيم `role` أو `userId` المرسلة من المتصفح.
+
+---
+
+# 26. الأداء
+
+قِس أولًا، ثم حسّن.
+
+استخدم:
+
+- الاستيراد الديناميكي لوحدات المحررات والمخططات والخرائط وPDF الثقيلة؛
+- تحسين الصور؛
+- الأرشفة الافتراضية (virtualization) للقوائم الكبيرة؛
+- حماية الإلغاء/الطلبات القديمة (abort/stale-request) في البحث؛
+- المحددات (selectors) لتقليل إعادة التصيير.
+
+لا تضف memoization دون سبب.
+
+---
+
+# 27. اختبر التصميم بمحتوى واقعي
+
+للحصول على إرشادات إضافية حول جودة الواجهة، يمكنك الرجوع إلى:
 
 - https://jakub.kr/skills/make-interfaces-feel-better
 
-This resource is useful when polishing typography, hover states, shadows, borders, spacing, optical alignment, micro-interactions, and the overall feel of the interface.
+هذا المورد مفيد عند صقل الطباعة وحالات hover والظلال والحدود والمسافات والمحاذاة البصرية والتفاعلات الدقيقة والإحساس العام بالواجهة.
 
-Before completing a UI task, test it with:
+قبل إكمال مهمة واجهة، اختبرها بما يلي:
 
-- a long word with no spaces;
-- a long Russian title;
-- a short title;
-- an empty title;
-- multiple tags;
-- a long list/category name;
-- multiple options in a dropdown;
-- active and inactive statuses;
-- a date and a missing date.
+- كلمة طويلة بلا مسافات؛
+- عنوان روسي طويل؛
+- عنوان قصير؛
+- عنوان فارغ؛
+- عدة وسوم؛
+- اسم قائمة/فئة طويل؛
+- عدة خيارات في قائمة منسدلة؛
+- حالات نشطة وغير نشطة؛
+- تاريخ وغياب التاريخ.
 
-Verify that:
+تحقق من أن:
 
-- nothing overlaps;
-- overlays cover the underlying content;
-- text does not show through menus;
-- badges do not compress text vertically;
-- elements do not crowd each other;
-- scrollbars do not cover important text;
-- hover and focus states are easy to read;
-- desktop and mobile widths both look correct.
+- لا شيء يتداخل؛
+- الطبقات العلوية تغطي المحتوى الذي تحتها؛
+- النص لا يظهر من خلال القوائم؛
+- الشارات لا تضغط النص رأسيًا؛
+- العناصر لا تزدحم على بعضها؛
+- أشرطة التمرير لا تغطي نصًا مهمًا؛
+- حالتا hover والتركيز سهلتا القراءة؛
+- أعراض سطح المكتب والجوال كلاهما تبدو صحيحة.
 
 ---
 
-# 28. Checks After Changes
+# 28. الفحوص بعد التغييرات
 
-After code changes, run:
+بعد تغييرات الشيفرة، شغّل:
 
 ```bash
 npm run typecheck
@@ -5194,50 +5201,50 @@ npm run lint
 npm run build
 ```
 
-If the UI was changed:
+إذا تغيّرت الواجهة:
 
-- open the page in a browser;
-- complete the primary user flow;
-- test keyboard and mouse interaction;
-- test `Escape` and outside-click behavior;
-- test reloading;
-- test long text;
-- test a mobile viewport width;
-- take a screenshot if the visual layer changed.
+- افتح الصفحة في متصفح؛
+- أكمل مسار المستخدم الأساسي؛
+- اختبر التفاعل بلوحة المفاتيح والفأرة؛
+- اختبر سلوك `Escape` والنقر خارج العنصر؛
+- اختبر إعادة التحميل؛
+- اختبر النص الطويل؛
+- اختبر عرض شاشة جوال؛
+- التقط لقطة شاشة إذا تغيّرت الطبقة البصرية.
 
-If browser verification is impossible, say so explicitly. Do not present `typecheck` as visual verification.
+إذا استحال التحقق في المتصفح، فاذكر ذلك صراحةً. ولا تقدّم `typecheck` على أنه تحقق بصري.
 
 ---
 
-# 29. Git and the Working Tree
+# 29. Git وشجرة العمل
 
-Before making changes, inspect the current state:
+قبل إجراء التغييرات، افحص الحالة الحالية:
 
 ```bash
 git status --short
 ```
 
-Rules:
+القواعد:
 
-- do not revert someone else's changes without an explicit request;
-- do not use destructive commands without explicit permission;
-- do not perform unrelated refactoring;
-- do not commit automatically unless the user asks you to;
-- do not change line endings or reformat the entire project unnecessarily.
+- لا تتراجع عن تغييرات شخص آخر دون طلب صريح؛
+- لا تستخدم أوامر هدّامة دون إذن صريح؛
+- لا تجرِ إعادة هيكلة غير ذات صلة؛
+- لا تنفّذ commit تلقائيًا ما لم يطلب المستخدم ذلك؛
+- لا تغيّر نهايات الأسطر أو تعيد تنسيق المشروع بأكمله دون داعٍ.
 
 ---
 
-# 30. Final Report
+# 30. التقرير النهائي
 
-In the final response, state:
+في الرد النهائي، اذكر:
 
-- what changed;
-- which files are important;
-- which checks were run;
-- what could not be verified;
-- which risks remain.
+- ما الذي تغيّر؛
+- أي الملفات مهمة؛
+- أي الفحوص شُغّلت؛
+- ما الذي تعذّر التحقق منه؛
+- أي المخاطر ما زالت قائمة.
 
-Keep the report concise and honest.
+اجعل التقرير موجزًا وأمينًا.
 ````
 
 ## 2057. Exuvia 🔤

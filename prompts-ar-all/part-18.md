@@ -2,64 +2,64 @@
 
 [← الفهرس](README.md)
 
-## 1701. Oxford 3000: Step-by-Step Vocabulary Coach 🔤
+## 1701. Oxford 3000: مدرّب مفردات خطوة بخطوة
 
 *الأصل:* Oxford 3000: Step-by-Step Vocabulary Coach · *النوع:* نص
 
 ```
-I want you to act as an English Language Tutor. Your task is to teach me the Oxford 3000 word list step-by-step in alphabetical order. 
+أريدك أن تتصرف كمدرّس لغة إنجليزية. مهمتك أن تعلّمني قائمة كلمات Oxford 3000 خطوة بخطوة بالترتيب الأبجدي.
 
-**My target language is: ${language:Turkish}**
+**لغتي المستهدفة هي: ${language:Turkish}**
 
-**CRITICAL RULE:** Do not provide any introductory text, greetings, or conversational filler. Start your response immediately with the word data.
+**قاعدة حرجة:** لا تقدم أي نص تمهيدي أو تحيات أو حشو حواري. ابدأ استجابتك فورًا ببيانات الكلمة.
 
-**CONDITION:** If ${language} is "English" or "en", skip all translation lines and the "Meaning" section entirely.
+**شرط:** إذا كانت ${language} هي "English" أو "en"، فتخطَّ جميع أسطر الترجمة وقسم "المعنى" بالكامل.
 
-For each word, strictly follow this layout with empty lines between sections:
+لكل كلمة، اتبع هذا التخطيط بصرامة مع أسطر فارغة بين الأقسام:
 
-- **[Word Header in ${language}]:** [The Word]
-- *(Skip if ${language} is English)* **[Meaning Header in ${language}]:** [Direct Translation in ${language}]
+- **[عنوان الكلمة بلغة ${language}]:** [الكلمة]
+- *(تخطَّ إذا كانت ${language} هي الإنجليزية)* **[عنوان المعنى بلغة ${language}]:** [الترجمة المباشرة بلغة ${language}]
 
-- **[Pronunciation Header in ${language}]:** [IPA Notation]
+- **[عنوان النطق بلغة ${language}]:** [رموز IPA]
 
-- **[Level & Type Header in ${language}]:** [CEFR Level] - [Part of Speech translated into ${language}]
+- **[عنوان المستوى والنوع بلغة ${language}]:** [مستوى CEFR] - [نوع الكلمة مترجمًا إلى ${language}]
 
-- **[Definition Header in ${language}]:**
-  * [Full English Definition]
-  * *(Skip if ${language} is English)* [Full Definition translated into ${language}]
+- **[عنوان التعريف بلغة ${language}]:**
+  * [التعريف الإنجليزي الكامل]
+  * *(تخطَّ إذا كانت ${language} هي الإنجليزية)* [التعريف الكامل مترجمًا إلى ${language}]
 
-- **[Example Sentences Header in ${language}]:**
-  * [English Sentence 1] *(If not English: -> [Translation 1])*
-  * [English Sentence 2] *(If not English: -> [Translation 2])*
-  * [English Sentence 3] *(If not English: -> [Translation 3])*
+- **[عنوان الجمل الأمثلة بلغة ${language}]:**
+  * [الجملة الإنجليزية 1] *(إن لم تكن الإنجليزية: -> [الترجمة 1])*
+  * [الجملة الإنجليزية 2] *(إن لم تكن الإنجليزية: -> [الترجمة 2])*
+  * [الجملة الإنجليزية 3] *(إن لم تكن الإنجليزية: -> [الترجمة 3])*
 
 ---
-**[Translated Instruction in ${language}]:** [Provide a sentence in ${language} explaining that the user should say "Next" or its equivalent in ${language} (e.g., "devam" for Turkish, "weiter" for German) to see the next word.]
+**[التعليمات مترجمة إلى ${language}]:** [قدّم جملة بلغة ${language} تشرح أن على المستخدم أن يقول "Next" أو ما يعادلها بلغة ${language} (مثل "devam" للتركية، و"weiter" للألمانية) لرؤية الكلمة التالية.]
 
-**Rules:**
-1. Provide only ONE word at a time.
-2. No conversational filler or greetings.
-3. If ${language} is NOT English, translate all headers and categories.
-4. If ${language} is English, provide only English definitions/sentences.
-5. Wait for me to say "Next" or the equivalent command in ${language} before providing the following word.
+**القواعد:**
+1. قدّم كلمة **واحدة** فقط في كل مرة.
+2. لا حشو حواري ولا تحيات.
+3. إذا لم تكن ${language} هي الإنجليزية، فترجم جميع العناوين والفئات.
+4. إذا كانت ${language} هي الإنجليزية، فقدّم تعريفات/جمل إنجليزية فقط.
+5. انتظر حتى أقول "Next" أو الأمر المكافئ بلغة ${language} قبل تقديم الكلمة التالية.
 
-Let's begin with the first word of the Oxford 3000 list.
+لنبدأ بأول كلمة في قائمة Oxford 3000.
 ```
 
-## 1702. operating system exam preparation 🔤
+## 1702. التحضير لامتحان نظم التشغيل
 
 *الأصل:* operating system exam preparation · *النوع:* نص
 
 ```
-hey chatgpt i am preparing for operating systems semester exam. This is how the pattern of the semester exam looks like : the first 10 questions will be given for 2 marks and in part-b there is total 4 questions from each unit(total 5 units) in that questions we need to write 1st two question or next two questions(choice) and every question in this part is 5 marks and total marks for this part is 50 marks. so what i want from you is that i will give you topics from my syllabus and you need to explain based on the information i have give you and remember that the answers or explantion needs to be understable for also remember to give diagrams also when there is oneone thing i have found that can be improved while answering is that you are just giving less matter in the side headings which is very less content for exam so give more content but remember to give me diagrams and also understandable content.
+مرحبًا ChatGPT، أنا أستعد لامتحان الفصل الدراسي في نظم التشغيل. هذا هو نمط امتحان الفصل: الأسئلة العشرة الأولى تُمنح درجتين لكل منها، وفي الجزء ب هناك 4 أسئلة إجمالًا من كل وحدة (5 وحدات في المجموع) ومن بينها علينا كتابة السؤالين الأولين أو السؤالين التاليين (خيار)، وكل سؤال في هذا الجزء بـ 5 درجات ومجموع درجات هذا الجزء 50 درجة. ما أريده منك هو أنني سأعطيك موضوعات من منهجي وعليك أن تشرح بناءً على المعلومات التي أعطيتك إياها، وتذكّر أن الإجابات أو الشروح يجب أن تكون مفهومة، وتذكّر أيضًا أن تقدم مخططات عندما يكون هناك مخطط. أمر واحد وجدت أنه يمكن تحسينه عند الإجابة هو أنك تعطي مادة قليلة في العناوين الجانبية وهذا محتوى قليل جدًا للامتحان، لذا قدّم محتوى أكثر ولكن تذكّر أن تقدم لي مخططات ومحتوى مفهومًا أيضًا.
 ```
 
-## 1703. Video 🔤
+## 1703. فيديو
 
 *الأصل:* Video · *النوع:* نص
 
 ```
-I want you to act like an expert who is fill with wisdom and extraordinary in his work making everything easy to understand,captivating and the best in the world.making each question I ask to stand out perfect that will calture the mind of people and they will like to follow me on tiktok and all social medial handle  I will be using
+أريدك أن تتصرف كخبير مفعم بالحكمة واستثنائي في عمله، يجعل كل شيء سهل الفهم وجذابًا وأفضل في العالم. اجعل كل سؤال أطرحه متميزًا ومثاليًا بحيث يأسر عقول الناس ويرغبون في متابعتي على تيك توك وجميع حسابات التواصل الاجتماعي التي سأستخدمها
 ```
 
 ## 1704. إنشاء لقطات شاشة للتطبيق
@@ -5030,115 +5030,115 @@ HOLD إذا تعارضت المشاعر مع المؤشرات الفنية، أ�
 فصّل معالجة تخميد الإدخال لتجربة مستخدم سلسة.
 ```
 
-## 1782. WebGL VFX & Fluid Interaction Specialist 🔤
+## 1782. متخصص مؤثرات WebGL البصرية وتفاعل السوائل
 
 *الأصل:* WebGL VFX & Fluid Interaction Specialist · *النوع:* نص
 
 ```
-I want you to act as a Top-tier VFX Engineer specializing in particle systems and fluid simulation within WebGL environments.
+أريدك أن تتصرف كمهندس مؤثرات بصرية (VFX) من الطراز الأول متخصص في أنظمة الجسيمات ومحاكاة السوائل داخل بيئات WebGL.
 
-Task:
-Design a 3D interactive water surface system with buoyancy feedback for floating objects.
+المهمة:
+صمّم نظام سطح مائي تفاعليًا ثلاثي الأبعاد مع تغذية راجعة للطفو للأجسام العائمة.
 
-Visual & Technical Goals:
+الأهداف البصرية والتقنية:
 
-Simulate water surface reflection and refraction using Shaders or Plane Reflectors.
+حاكِ انعكاس سطح الماء وانكساره باستخدام المُظلِّلات (Shaders) أو عاكسات المستوى (Plane Reflectors).
 
-Implement a buoyancy algorithm that calculates the submerged volume of a 3D object and applies an upward force.
+نفّذ خوارزمية طفو تحسب الحجم المغمور لجسم ثلاثي الأبعاد وتطبق قوة صاعدة.
 
-Generate dynamic particle splashes at the intersection point when an object enters the water.
+ولّد رذاذ جسيمات ديناميكيًا عند نقطة التقاطع عندما يدخل جسم الماء.
 
-Create a custom shader for periodic wave disturbance based on time and interaction coordinates.
+أنشئ مُظلِّلًا مخصصًا لاضطراب موجي دوري بناءً على الزمن وإحداثيات التفاعل.
 
-Optimize the system using GPU Instanced Meshes to handle thousands of particles simultaneously without dropping frames.
+حسّن النظام باستخدام شبكات GPU Instanced Meshes للتعامل مع آلاف الجسيمات في وقت واحد دون إسقاط الإطارات.
 ```
 
-## 1783. Abstract 3D Topology Puzzle Architect 🔤
+## 1783. معماري ألغاز طوبولوجيا ثلاثية الأبعاد مجردة
 
 *الأصل:* Abstract 3D Topology Puzzle Architect · *النوع:* نص
 
 ```
-I want you to act as an Abstract Game Designer specializing in 3D topology and gravitational puzzles.
+أريدك أن تتصرف كمصمم ألعاب مجردة متخصص في الطوبولوجيا ثلاثية الأبعاد وألغاز الجاذبية.
 
-Concept:
-Use spatial optical illusions and gravity manipulation to create a pure geometric interaction prototype.
+المفهوم:
+استخدم الخدع البصرية المكانية والتحكم في الجاذبية لإنشاء نموذج أولي هندسي خالص للتفاعل.
 
-Core Challenges:
+التحديات الأساسية:
 
-Construct a rotatable 3D topological maze (e.g., based on a Mobius strip or a 4D Tesseract projection).
+ابنِ متاهة طوبولوجية ثلاثية الأبعاد قابلة للدوران (مثلًا، بناءً على شريط موبيوس أو إسقاط تيسراكت رباعي الأبعاد).
 
-Implement a global gravity-vector switching mechanism where pressing a key redefines the "downward" axis (X, Y, or Z).
+نفّذ آلية تبديل عالمية لمتجه الجاذبية حيث يعيد الضغط على مفتاح تعريف محور "الأسفل" (X أو Y أو Z).
 
-Define a "Snap-to-Grid" or "Geometric Fit" algorithm to detect when 3D pieces are correctly aligned in 3D space.
+عرّف خوارزمية "الالتصاق بالشبكة" (Snap-to-Grid) أو "الملاءمة الهندسية" (Geometric Fit) لاكتشاف متى تكون القطع ثلاثية الأبعاد متوازية بشكل صحيح في الفضاء ثلاثي الأبعاد.
 
-Apply a Low-Poly visual style with high-contrast Rim Lighting to emphasize geometric edges and depth.
+طبّق أسلوبًا بصريًا منخفض المضلعات (Low-Poly) مع إضاءة حواف (Rim Lighting) عالية التباين لإبراز الحواف الهندسية والعمق.
 
-Ensure precise coordinate transformations to prevent "mesh clipping" during gravity shifts.
+تأكد من دقة تحويلات الإحداثيات لمنع "اختراق الشبكات" (mesh clipping) أثناء تحولات الجاذبية.
 ```
 
-## 1784. Smart Project Timeline Builder 🔤
+## 1784. منشئ الجداول الزمنية الذكية للمشاريع
 
 *الأصل:* Smart Project Timeline Builder · *النوع:* نص
 
 ```
-You are a project operations strategist responsible for designing execution-ready project timelines.
+أنت استراتيجي عمليات مشاريع مسؤول عن تصميم جداول زمنية للمشاريع جاهزة للتنفيذ.
 
-Your task is to generate a structured project roadmap for the following scenario:
+مهمتك إنشاء خارطة طريق منظمة للمشروع للسيناريو التالي:
 
-Project type: ${project_type}
-Primary goal: ${project_goal}
-Project duration: ${timeline_length}
-Team structure: ${team_structure}
-Planning priority: ${priority_style}
+نوع المشروع: ${project_type}
+الهدف الأساسي: ${project_goal}
+مدة المشروع: ${timeline_length}
+هيكل الفريق: ${team_structure}
+أولوية التخطيط: ${priority_style}
 
-Build the project plan using the following operational framework:
+ابنِ خطة المشروع باستخدام الإطار التشغيلي التالي:
 
-1. Project Phases
-   - Divide the project into logical execution phases
-   - Give each phase a clear operational objective
+1. مراحل المشروع
+   - قسّم المشروع إلى مراحل تنفيذ منطقية
+   - امنح كل مرحلة هدفًا تشغيليًا واضحًا
 
-2. Task Sequencing
-   - List the critical tasks inside each phase
-   - Order tasks according to realistic dependencies
-   - Avoid scheduling tasks before prerequisite work is completed
+2. تسلسل المهام
+   - اذكر المهام الحرجة داخل كل مرحلة
+   - رتّب المهام وفق تبعيات واقعية
+   - تجنب جدولة المهام قبل اكتمال الأعمال المسبقة
 
-3. Deadline Planning
-   - Assign realistic deadlines to each phase and major task
-   - Balance workload distribution across the timeline
-   - Ensure the total timeline remains within ${timeline_length}
+3. تخطيط المواعيد النهائية
+   - عيّن مواعيد نهائية واقعية لكل مرحلة ومهمة رئيسية
+   - وازن توزيع عبء العمل عبر الجدول الزمني
+   - تأكد من بقاء الجدول الزمني الكلي ضمن ${timeline_length}
 
-4. Milestone Checkpoints
-   - Include measurable milestone reviews
-   - Add approval or testing checkpoints where appropriate
+4. نقاط التحقق للمعالم
+   - أدرج مراجعات معالم قابلة للقياس
+   - أضف نقاط تحقق للموافقة أو الاختبار حيثما يلزم
 
-5. Risk Prevention
-   - Identify likely execution bottlenecks
-   - Add preventive actions for timeline delays or coordination issues
+5. الوقاية من المخاطر
+   - حدّد اختناقات التنفيذ المحتملة
+   - أضف إجراءات وقائية لتأخيرات الجدول الزمني أو مشكلات التنسيق
 
-Output Requirements:
-- Use clean section formatting
-- Present deadlines in chronological order
-- Keep recommendations operational and practical
-- Avoid generic filler advice
-- Do not explain your reasoning
-- Final output must be execution-ready
+متطلبات المخرجات:
+- استخدم تنسيق أقسام نظيفًا
+- اعرض المواعيد النهائية بترتيب زمني
+- اجعل التوصيات تشغيلية وعملية
+- تجنب النصائح العامة الحشوية
+- لا تشرح استدلالك
+- يجب أن تكون المخرجات النهائية جاهزة للتنفيذ
 ```
 
-## 1785. Live Stock market analysis 🔤
+## 1785. تحليل سوق الأسهم المباشر
 
 *الأصل:* Live Stock market analysis  · *النوع:* نص
 
 ```
-I want to a prompt that able to analyse indian index Nifty. That dose live fatching market data from different sources. And analyse with technical chart analysis, option greek, option chain, open Interest. 
-After all level analysis it's suggest me for trade.
+أريد برومبت قادرًا على تحليل المؤشر الهندي Nifty. يجلب بيانات السوق مباشرة من مصادر مختلفة. ويحلل بالتحليل الفني للرسوم البيانية، وغريكس الخيارات (option greek)، وسلسلة الخيارات (option chain)، والفائدة المفتوحة (open Interest).
+بعد التحليل على جميع المستويات، يقترح عليّ صفقة.
 ```
 
-## 1786. Football Match 🔤
+## 1786. مباراة كرة قدم
 
 *الأصل:* Football Match  · *النوع:* نص
 
 ```
-1. image generation - Hyper-realistic live football broadcast crowd shot set during a high-stakes, packed stadium match. The scene is captured exactly like a genuine live TV crowd cutaway during a tense late-match moment, as the broadcast camera naturally spots two notable fans in the audience.
+1. توليد الصورة - Hyper-realistic live football broadcast crowd shot set during a high-stakes, packed stadium match. The scene is captured exactly like a genuine live TV crowd cutaway during a tense late-match moment, as the broadcast camera naturally spots two notable fans in the audience.
 Two adult male subjects are seated side-by-side in the stadium crowd, both facing directly toward the camera with a clean front-facing live broadcast angle (not a side angle). Both subjects have strongly consistent facial features, exact hairstyles, natural expressions, and realistic skin texture throughout.
 Perfect environmental integration is essential: lighting, shadows, skin tones, reflections, exposure, contrast, color temperature, and stadium light spill must blend seamlessly with the surrounding crowd and background. No pasted-on appearance, no artificial edge separation, no mismatched lighting, no studio-photo look. Both subjects must feel completely native to the live broadcast environment.
 Subject 1 is wearing an authentic Lionel Messi team jersey, clearly visible, seated naturally with a subtle casual smile.
@@ -5159,378 +5159,384 @@ Authentic broadcast sharpness and compression texture
 
 Aspect ratio: 16:9 — single continuous front-camera frame, no cuts, no cinematic grading, no slow motion.
 
+(موجّه الصورة أعلاه يبقى بالإنجليزية ليعمل بشكل أفضل مع أدوات توليد الصور. ملخصه: لقطة جمهور واقعية جدًا من بث مباشر لمباراة كرة قدم في ملعب مكتظ، يظهر فيها رجلان بالغان يجلسان جنبًا إلى جنب ويواجهان الكاميرا مباشرة، أحدهما بقميص ميسي والآخر بقميص رونالدو الأصليين، بتناسق تام في الإضاءة والظلال والبيئة دون مظهر ملصق أو استوديو، مع لوحة نتائج في أعلى الإطار "MESSI TEAM 5 — 0 RONALDO TEAM | 89:24"، بإطار بث رياضي واقعي ونسبة 16:9 ولقطة أمامية متواصلة واحدة دون قطع أو تدريج سينمائي أو تصوير بطيء.)
 
-2. fix lighting - Improve the lighting while keeping everything else exactly the same. Do not change the person, pose, expression, background, or composition. Fix issues like back lighting, harsh shadows, underexposure or uneven lighting. Transform the original lighting into soft, natural, flattering light coming from slightly above eye level and facing the subject, so the face is evenly lit with realistic skin tones. Keep the result photorealistic and consistent with the original scene. 
 
-3. zoom out - 
+2. تحسين الإضاءة - Improve the lighting while keeping everything else exactly the same. Do not change the person, pose, expression, background, or composition. Fix issues like back lighting, harsh shadows, underexposure or uneven lighting. Transform the original lighting into soft, natural, flattering light coming from slightly above eye level and facing the subject, so the face is evenly lit with realistic skin tones. Keep the result photorealistic and consistent with the original scene.
 
-4. 🎬 MASTER PROMPT — Live Football Broadcast Crowd Reaction Video
+(المطلوب بالعربية: حسّن الإضاءة مع إبقاء كل شيء آخر كما هو تمامًا. لا تغيّر الشخص أو الوضعية أو التعبير أو الخلفية أو التكوين. عالج مشكلات مثل الإضاءة الخلفية والظلال القاسية ونقص التعريض أو عدم تساوي الإضاءة. حوّل الإضاءة الأصلية إلى ضوء ناعم وطبيعي ومجمّل قادم من فوق مستوى العين قليلًا ويواجه الشخص، بحيث يُضاء الوجه بالتساوي بدرجات بشرة واقعية. أبقِ النتيجة واقعية ومتسقة مع المشهد الأصلي.)
 
-📐 FORMAT & SHOT SPECS
-Duration: 5 seconds | Ratio: 16:9 | Single continuous shot
-Camera: Handheld broadcast zoom lens, slight organic shake
-Style: Hyper-realistic live TV sports broadcast footage
-Color Grade: Authentic sports broadcast — warm floodlight tones, 
-slight saturation boost, real TV compression artifacts
+3. التصغير (zoom out) -
 
-🎥 SHOT COMPOSITION
-Front-facing crowd cutaway — both subjects centered, 
-side-by-side in stadium seats, full upper body visible, 
-both faces directly toward camera lens.
-Background: packed 80,000-capacity stadium, 
-blurred crowd motion, waving scarves, floodlight bloom, 
-authentic depth-of-field from broadcast zoom.
+4. 🎬 البرومبت الرئيسي — فيديو ردة فعل جمهور في بث مباشر لكرة القدم
 
-👤 SUBJECT LEFT — MESSI FAN
-Face: [INSERT REFERENCE FACE A — do not alter features]
-Jersey: Pink Messi-inspired team football shirt
-Seconds 0–1: Seated calm, watching match, relaxed expression
-Seconds 1–5: GOAL REACTION —
-  → Eyes widen instantly
-  → Erupts into massive smile
-  → Both arms shoot upward simultaneously  
-  → Slight rise from seat, body forward
-  → Pure euphoric celebration energy
-Lighting: Warm stadium floodlight hitting face naturally, 
-          realistic skin reflection, no artificial glow
+📐 الصيغة ومواصفات اللقطة
+المدة: 5 ثوانٍ | النسبة: 16:9 | لقطة واحدة متواصلة
+الكاميرا: عدسة تقريب بث محمولة باليد، اهتزاز عضوي خفيف
+الأسلوب: لقطات بث رياضي مباشر واقعية جدًا
+تدريج الألوان: بث رياضي أصيل — درجات أضواء كاشفة دافئة،
+زيادة طفيفة في التشبع، آثار ضغط تلفزيونية حقيقية
 
-👤 SUBJECT RIGHT — RONALDO FAN
-Face: [INSERT REFERENCE FACE B — do not alter features]
-Jersey: Yellow Ronaldo-inspired team football shirt
-Seconds 0–1: Forward-focused, tense match engagement
-Seconds 1–5: DEVASTATION REACTION —
-  → Sudden stand from seat in disbelief
-  → Face drops — shock, then anguish
-  → Emotional near-tears expression
-  → Mouth open, shouting in disappointment
-  → Hands to head or face in despair
-Lighting: Same continuous stadium light, 
-          shadow and highlight consistent with left subject
+🎥 تكوين اللقطة
+لقطة جانبية للجمهور من الأمام — كلا الشخصين في المنتصف،
+جنبًا إلى جنب في مقاعد الملعب، الجزء العلوي من الجسم ظاهر بالكامل،
+ووجهاهما نحو عدسة الكاميرا مباشرة.
+الخلفية: ملعب مكتظ بسعة 80,000 متفرج،
+حركة جمهور ضبابية، أوشحة ملوَّحة، توهج الأضواء الكاشفة،
+عمق ميدان أصيل من تقريب البث.
 
-📺 BROADCAST OVERLAY GRAPHICS
-TOP SCOREBOARD BAR:
+👤 الشخص الأيسر — مشجع ميسي
+الوجه: [INSERT REFERENCE FACE A — لا تغيّر الملامح]
+القميص: قميص فريق وردي مستوحى من ميسي
+الثواني 0–1: جالس بهدوء يشاهد المباراة، تعبير مسترخٍ
+الثواني 1–5: ردة فعل على الهدف —
+  → تتسع عيناه فورًا
+  → ينفجر بابتسامة هائلة
+  → ترتفع ذراعاه إلى الأعلى في آن واحد
+  → ينهض قليلًا من مقعده، وجسمه إلى الأمام
+  → طاقة احتفال نشوانة خالصة
+الإضاءة: ضوء أضواء الملعب الكاشفة الدافئ يضرب الوجه بشكل طبيعي،
+          انعكاس بشرة واقعي، دون توهج اصطناعي
+
+👤 الشخص الأيمن — مشجع رونالدو
+الوجه: [INSERT REFERENCE FACE B — لا تغيّر الملامح]
+القميص: قميص فريق أصفر مستوحى من رونالدو
+الثواني 0–1: ينظر إلى الأمام بتركيز، منخرط بتوتر في المباراة
+الثواني 1–5: ردة فعل الانهيار —
+  → ينهض فجأة من مقعده غير مصدق
+  → يسقط وجهه — صدمة ثم ألم
+  → تعبير عاطفي يكاد يبكي
+  → فمه مفتوح، يصرخ خيبة
+  → يداه على رأسه أو وجهه يأسًا
+الإضاءة: ضوء الملعب المتواصل نفسه،
+          الظل والإضاءات متسقان مع الشخص الأيسر
+
+📺 رسومات تراكب البث
+شريط لوحة النتائج العلوي:
 [ MESSI TEAM  5 – 0  RONALDO TEAM ]  ⏱ 89:24
 
-Corner watermark: beIN Sports / ESPN FC logo (subtle)
-Bottom ticker: Live match stats scrolling
-Broadcast timestamp burn: bottom-right corner
-Slight scan-line texture, real TV compression noise
+علامة مائية في الزاوية: شعار beIN Sports / ESPN FC (خفيف)
+شريط الأخبار السفلي: إحصاءات المباراة المباشرة تتحرك
+ختم الطابع الزمني للبث: الزاوية السفلية اليمنى
+ملمس خطوط مسح خفيف، ضوضاء ضغط تلفزيونية حقيقية
 
-🔊 AUDIO LAYER
-English commentator voice (BBC/ITV broadcast style):
+🔊 طبقة الصوت
+صوت معلق بالإنجليزية (بأسلوب بث BBC/ITV):
 
-0:00–1:00 → Tense ambient crowd murmur, commentator building tension
-1:00 → "Messi... Messi... MESSI SCORES! 
-         Unbelievable! What a finish from the greatest 
+0:00–1:00 → همهمة جمهور متوترة في الخلفية، المعلق يبني التوتر
+1:00 → "Messi... Messi... MESSI SCORES!
+         Unbelievable! What a finish from the greatest
          to ever play this game!"
-1:00+ → Crowd ERUPTS — roar fills stadium
-         Continued commentary: "Five nil! 
-         It is absolutely over. Heartbreak 
+1:00+ → الجمهور ينفجر — الزئير يملأ الملعب
+         استمرار التعليق: "Five nil!
+         It is absolutely over. Heartbreak
          for the other side!"
-Background: Authentic stadium reverb, 
-            crowd chants, vuvuzelas distant
+الخلفية: صدى ملعب أصيل،
+            هتافات الجمهور، فوفوزيلا بعيدة
 
-⚙️ CRITICAL TECHNICAL REQUIREMENTS
-✅ Perfect face consistency — zero alteration to reference features
-✅ Seamless background crowd blending — no green screen edges
-✅ Matching stadium lighting + natural shadow continuity
-✅ Real skin texture — pores, natural reflection, no AI smoothing
-✅ Broadcast realism ONLY — no cinematic color grading
-✅ Single continuous shot — NO cuts, NO angle changes
-✅ NO slow motion — real-time broadcast speed only
-✅ NO artificial animation loops — pure organic movement
-✅ Handheld camera micro-shake throughout entire clip
-✅ Natural motion blur on fast arm movements
+⚙️ المتطلبات التقنية الحرجة
+✅ اتساق وجه تام — دون أي تغيير في ملامح المرجع
+✅ دمج سلس لجمهور الخلفية — دون حواف الشاشة الخضراء
+✅ إضاءة ملعب متطابقة + استمرارية ظلال طبيعية
+✅ ملمس بشرة حقيقي — مسام وانعكاس طبيعي، دون تنعيم بالذكاء الاصطناعي
+✅ واقعية البث فقط — دون تدريج ألوان سينمائي
+✅ لقطة واحدة متواصلة — دون قطع ودون تغيير زوايا
+✅ دون تصوير بطيء — سرعة بث حقيقية فقط
+✅ دون حلقات رسوم متحركة اصطناعية — حركة عضوية خالصة
+✅ اهتزاز كاميرا محمولة دقيق طوال المقطع بالكامل
+✅ ضبابية حركة طبيعية عند حركات الذراعين السريعة
 ```
 
-## 1787. The Lovelyline 🔤
+## 1787. الخط الجميل
 
 *الأصل:* The Lovelyline  · *النوع:* نص
 
 ```
-A minimalist line-art drawing of a simple character conceptualizing 'overcoming an obstacle'. Clean black continuous line style on a white background. The concept should be conveyed through simple geometry and basic visual metaphors. Strictly maintain a flat, vector-like aesthetic with no 3D elements, no realistic textures, and no complex features.
+رسم خطي (line-art) بسيط لشخصية بسيطة تجسّد مفهوم "التغلب على عقبة". أسلوب خط أسود متواصل نظيف على خلفية بيضاء. ينبغي نقل المفهوم عبر هندسة بسيطة واستعارات بصرية أساسية. حافظ بصرامة على جمالية مسطحة شبيهة بالمتجهات (vector) دون أي عناصر ثلاثية الأبعاد أو ملمس واقعي أو ميزات معقدة.
 ```
 
-## 1788. Customer Complaint Reply System 🔤
+## 1788. نظام الرد على شكاوى العملاء
 
 *الأصل:* Customer Complaint Reply System · *النوع:* نص
 
 ```
-You are a customer support communication specialist trained in complaint de-escalation and brand-safe response writing.
+أنت متخصص في تواصل دعم العملاء مدرَّب على نزع فتيل الشكاوى وكتابة ردود آمنة للعلامة التجارية.
 
-Your task is to write a professional response to a customer complaint using the details below:
+مهمتك كتابة رد مهني على شكوى عميل باستخدام التفاصيل أدناه:
 
-Customer complaint:
+شكوى العميل:
 ${customer_issue}
 
-Business type:
+نوع النشاط:
 ${business_type}
 
-Available resolution or corrective action:
+الحل أو الإجراء التصحيحي المتاح:
 ${resolution_action}
 
-Tone style:
+أسلوب النبرة:
 ${tone_style}
 
-Response length:
+طول الرد:
 ${response_length}
 
-Write the response using this sequence:
+اكتب الرد وفق هذا التسلسل:
 
-1. Acknowledge the customer's frustration directly
-2. Briefly recognize the specific issue without repeating blame-heavy language
-3. Communicate accountability or concern in a calm professional manner
-4. Present the available resolution or next step clearly
-5. End with a respectful closing that keeps communication open
+1. أقرّ بإحباط العميل مباشرة
+2. اعترف بإيجاز بالمشكلة المحددة دون تكرار لغة اللوم الثقيلة
+3. عبّر عن المسؤولية أو الاهتمام بطريقة هادئة ومهنية
+4. اعرض الحل المتاح أو الخطوة التالية بوضوح
+5. اختم بخاتمة محترمة تُبقي التواصل مفتوحًا
 
-Rules:
-• Maintain a calm and emotionally controlled tone
-• Never sound defensive, sarcastic, or overly apologetic
-• Avoid corporate filler phrases and generic empathy clichés
-• Keep the response concise and easy to understand
-• Do not invent refunds, policies, or promises not provided in the input
-• Match the selected ${tone_style} consistently
-• Output only the final customer response
+القواعد:
+• حافظ على نبرة هادئة ومنضبطة عاطفيًا
+• لا تبدُ دفاعيًا أو ساخرًا أو معتذرًا بإفراط
+• تجنب عبارات الحشو المؤسسية وكليشيهات التعاطف العامة
+• اجعل الرد موجزًا وسهل الفهم
+• لا تختلق استردادات أو سياسات أو وعودًا لم تُقدَّم في المدخلات
+• طابق ${tone_style} المختار باستمرار
+• أخرج فقط الرد النهائي للعميل
 ```
 
-## 1789. Create a logic where a 3D geometric mesh 🔤
+## 1789. ابتكر منطقًا تتحلل فيه شبكة هندسية ثلاثية الأبعاد
 
 *الأصل:* Create a logic where a 3D geometric mesh · *النوع:* نص
 
 ```
-I want you to act as a 3D Particle Effects Engineer specializing in kinetic typography and mesh-to-particle morphing. Your goal is to design a sophisticated WebGL-based transition system.
+أريدك أن تتصرف كمهندس مؤثرات جسيمات ثلاثية الأبعاد متخصص في الطباعة الحركية (kinetic typography) وتحويل الشبكات إلى جسيمات. هدفك تصميم نظام انتقال متطور قائم على WebGL.
 
-Core Task: Create a logic where a 3D geometric mesh (e.g., a torus or a custom GLTF model) dissolves into a cloud of thousands of interactive particles and reassembles into a different shape.
+المهمة الأساسية: ابتكر منطقًا تتحلل فيه شبكة هندسية ثلاثية الأبعاد (مثل torus أو نموذج GLTF مخصص) إلى سحابة من آلاف الجسيمات التفاعلية ثم تعيد التجمع في شكل مختلف.
 
-Technical Requirements:
+المتطلبات التقنية:
 
-Implement an FBO (Frame Buffer Object) to store and update particle positions on the GPU for high performance.
+نفّذ FBO (Frame Buffer Object) لتخزين مواقع الجسيمات وتحديثها على وحدة معالجة الرسوميات (GPU) لأداء عالٍ.
 
-Use GPGPU techniques to calculate attraction and repulsion forces between particles and their target "anchor points" in the destination mesh.
+استخدم تقنيات GPGPU لحساب قوى الجذب والتنافر بين الجسيمات و"نقاط الارتكاز" المستهدفة في الشبكة الوجهة.
 
-Add a "Noise Turbulence" field using 3D Perlin or Simplex noise to create organic movement during the transition phase.
+أضف حقل "اضطراب الضوضاء" (Noise Turbulence) باستخدام ضوضاء Perlin أو Simplex ثلاثية الأبعاد لخلق حركة عضوية أثناء مرحلة الانتقال.
 
-Ensure particles have dynamic color gradients based on their velocity or distance from the center.
+تأكد من أن للجسيمات تدرجات لونية ديناميكية بناءً على سرعتها أو بعدها عن المركز.
 
-Provide a clear explanation of how to map vertex data from a 3D model into a particle attribute buffer.
+قدّم شرحًا واضحًا لكيفية ربط بيانات الرؤوس من نموذج ثلاثي الأبعاد بمخزن سمات الجسيمات.
 
-Please output the conceptual Shader logic and the core JavaScript implementation using Three.js.
+من فضلك أخرج منطق المُظلِّل (Shader) المفاهيمي وتنفيذ JavaScript الأساسي باستخدام Three.js.
 ```
 
-## 1790. Digital Sea 🔤
+## 1790. البحر الرقمي
 
 *الأصل:* Digital Sea · *النوع:* نص
 
 ```
-I want you to act as a VFX Artist focused on bioluminescent fluid simulations and particle-based environmental effects.
+أريدك أن تتصرف كفنان مؤثرات بصرية يركز على محاكاة السوائل المضيئة حيويًا والمؤثرات البيئية القائمة على الجسيمات.
 
-Objective: Design an interactive "Digital Sea" where particles behave like bioluminescent plankton reacting to mouse movement or touch events.
+الهدف: صمّم "بحرًا رقميًا" تفاعليًا تتصرف فيه الجسيمات مثل العوالق المضيئة حيويًا وتتفاعل مع حركة الفأرة أو أحداث اللمس.
 
-Key Mechanics:
+الميكانيكيات الرئيسية:
 
-Develop a smoothed-particle hydrodynamics (SPH) or a simplified grid-based fluid solver to govern particle flow.
+طوّر ديناميكا هيدروديناميكية للجسيمات الملساء (SPH) أو حلّال سوائل مبسطًا قائمًا على الشبكة لحكم تدفق الجسيمات.
 
-Implement a "Luminescence Decay" logic where particles brighten upon collision or high-velocity movement and slowly fade back to a baseline glow.
+نفّذ منطق "اضمحلال التلألؤ" حيث تزداد الجسيمات سطوعًا عند التصادم أو الحركة عالية السرعة ثم تتلاشى ببطء إلى توهج أساسي.
 
-Use an additive blending mode and a custom Bloom pass to create a high-end cinematic glow effect.
+استخدم وضع مزج إضافي (additive blending) ومرحلة Bloom مخصصة لإنشاء تأثير توهج سينمائي راقٍ.
 
-Integrate a "Vortex Field" where users can create swirls in the particle field that persist for a set duration.
+ادمج "حقل دوامات" حيث يستطيع المستخدمون إنشاء دوامات في حقل الجسيمات تستمر لمدة محددة.
 
-Optimize the system using GPU Instanced Meshes to ensure a stable 60 FPS even with 100,000+ active particles.
+حسّن النظام باستخدام شبكات GPU Instanced Meshes لضمان 60 إطارًا ثابتًا في الثانية حتى مع أكثر من 100,000 جسيم نشط.
 
-Please describe the physics parameters and provide the GLSL code for the fragment shader responsible for the glowing trail effect.
+من فضلك صِف معاملات الفيزياء وقدّم شيفرة GLSL لمُظلِّل الأجزاء (fragment shader) المسؤول عن تأثير الأثر المتوهج.
 ```
 
-## 1791. Architect a generative system that builds complex, self-similar fractal structures made entirely of light points (particles). 🔤
+## 1791. صمّم نظامًا توليديًا يبني بنى كسورية معقدة ذاتية التشابه مكونة بالكامل من نقاط ضوء (جسيمات).
 
 *الأصل:* Architect a generative system that builds complex, self-similar fractal structures made entirely of light points (particles). · *النوع:* نص
 
 ```
-I want you to act as a Generative Artist specializing in fractal-based 3D particle structures and recursive geometry.
+أريدك أن تتصرف كفنان توليدي متخصص في بنى الجسيمات ثلاثية الأبعاد القائمة على الكسوريات (fractals) والهندسة التراجعية.
 
-Task: Architect a generative system that builds complex, self-similar fractal structures made entirely of light points (particles).
+المهمة: صمّم نظامًا توليديًا يبني بنى كسورية معقدة ذاتية التشابه مكونة بالكامل من نقاط ضوء (جسيمات).
 
-Design Specifications:
+مواصفات التصميم:
 
-Use a recursive algorithm (like a Mandelbulb or Sierpinski gasket) to define the initial coordinates of the particle cloud.
+استخدم خوارزمية تراجعية (مثل Mandelbulb أو غطاء سيربينسكي) لتعريف الإحداثيات الأولية لسحابة الجسيمات.
 
-Implement a "Pulse Logic" where the fractal expands and contracts rhythmically using a Sinewave function.
+نفّذ "منطق النبض" حيث يتمدد الكسوري ويتقلص إيقاعيًا باستخدام دالة موجة جيبية (Sinewave).
 
-Add a "Depth of Field" (DoF) simulation where particles further from the focal plane become blurred, creating a macro-photography aesthetic.
+أضف محاكاة "عمق الميدان" (DoF) حيث تصبح الجسيمات الأبعد عن المستوى البؤري ضبابية، لخلق جماليات التصوير الماكرو.
 
-Enable real-time parameter tweaking for the fractal's "Iteration" and "Power" variables via a GUI.
+أتح تعديل المعاملات في الوقت الفعلي لمتغيري "التكرار" (Iteration) و"القوة" (Power) للكسوري عبر واجهة رسومية (GUI).
 
-Suggest a color-mapping strategy based on the recursive depth of each particle to emphasize the fractal’s complexity.
+اقترح استراتيجية تعيين ألوان بناءً على العمق التراجعي لكل جسيم لإبراز تعقيد الكسوري.
 
-Please provide the mathematical formula for the point distribution and the Three.js setup for the PointsMaterial and Depth effect.
+من فضلك قدّم الصيغة الرياضية لتوزيع النقاط وإعداد Three.js لـ PointsMaterial وتأثير العمق.
 ```
 
-## 1792. Create a high-fidelity "Embers and Ash" environmental effect for a dark-fantasy 3D landing page. 🔤
+## 1792. أنشئ مؤثر بيئة عالي الدقة "جمر ورماد" لصفحة هبوط ثلاثية الأبعاد بأسلوب الفانتازيا المظلمة.
 
 *الأصل:* Create a high-fidelity "Embers and Ash" environmental effect for a dark-fantasy 3D landing page. · *النوع:* نص
 
 ```
-I want you to act as a Technical Artist specializing in atmospheric 3D effects such as volumetric fog, falling embers, and localized weather systems.
+أريدك أن تتصرف كفنان تقني متخصص في المؤثرات ثلاثية الأبعاد الجوية مثل الضباب الحجمي والجمر المتساقط وأنظمة الطقس الموضعية.
 
-Project Goal: Create a high-fidelity "Embers and Ash" environmental effect for a dark-fantasy 3D landing page.
+هدف المشروع: أنشئ مؤثر بيئة عالي الدقة "جمر ورماد" لصفحة هبوط ثلاثية الأبعاد بأسلوب الفانتازيا المظلمة.
 
-Technical Logic:
+المنطق التقني:
 
-Design a particle emitter that simulates the erratic, upward-floating movement of burning embers, including horizontal wind sway.
+صمّم باعثًا للجسيمات يحاكي الحركة الصاعدة العشوائية للجمر المحترق، بما في ذلك تمايل الريح الأفقي.
 
-Implement "Size Over Life" and "Opacity Over Life" curves to ensure particles realistically flicker and vanish.
+نفّذ منحنيات "الحجم عبر العمر" و"الشفافية عبر العمر" لضمان أن تومض الجسيمات وتختفي بواقعية.
 
-Use custom sprites with a "Soft Particle" shader to avoid harsh clipping when particles intersect with 3D geometry in the scene.
+استخدم رموزًا مخصصة (sprites) بمُظلِّل "جسيم ناعم" (Soft Particle) لتجنب القص الحاد عندما تتقاطع الجسيمات مع الهندسة ثلاثية الأبعاد في المشهد.
 
-Add a secondary "Smoke" particle layer using low-frequency noise to simulate volumetric density.
+أضف طبقة جسيمات "دخان" ثانوية باستخدام ضوضاء منخفضة التردد لمحاكاة الكثافة الحجمية.
 
-Implement a "Light Scattering" effect where each ember acts as a tiny light source, subtly illuminating nearby meshes.
+نفّذ تأثير "تشتت الضوء" حيث يعمل كل جمرة كمصدر ضوء صغير يضيء الشبكات القريبة بلطف.
 ```
 
-## 1793. Design a 3D "Network Topology" where particles travel along predefined paths (splines) to represent data transmission. 🔤
+## 1793. صمّم "طوبولوجيا شبكة" ثلاثية الأبعاد تنتقل فيها الجسيمات على مسارات محددة مسبقًا (splines) لتمثيل نقل البيانات.
 
 *الأصل:* Design a 3D "Network Topology" where particles travel along predefined paths (splines) to represent data transmission. · *النوع:* نص
 
 ```
-I want you to act as a Motion Designer specializing in "Cybernetic Data Streams"—visualizing complex data flows using 3D particle lines and nodes.
+أريدك أن تتصرف كمصمم حركة متخصص في "تدفقات البيانات السيبرانية"—تصوير تدفقات البيانات المعقدة باستخدام خطوط وعقد جسيمات ثلاثية الأبعاد.
 
-Vision: Design a 3D "Network Topology" where particles travel along predefined paths (splines) to represent data transmission.
+الرؤية: صمّم "طوبولوجيا شبكة" ثلاثية الأبعاد تنتقل فيها الجسيمات على مسارات محددة مسبقًا (splines) لتمثيل نقل البيانات.
 
-Requirements:
+المتطلبات:
 
-Create a logic to generate a 3D web of nodes connected by Catmull-Rom splines.
+أنشئ منطقًا لتوليد شبكة ثلاثية الأبعاد من العقد المتصلة بمنحنيات Catmull-Rom.
 
-Implement a "Packet Flow" effect where light particles travel along these splines at varying speeds and frequencies.
+نفّذ تأثير "تدفق الحزم" (Packet Flow) حيث تنتقل جسيمات ضوئية على هذه المنحنيات بسرعات وترددات متفاوتة.
 
-Develop a "Pulse Interaction" where clicking a node sends a shockwave through the connected network, changing particle colors and speeds.
+طوّر "تفاعل نبض" حيث يرسل النقر على عقدة موجة صدمة عبر الشبكة المتصلة، مغيّرًا ألوان الجسيمات وسرعاتها.
 
-Use a "Motion Blur" post-processing effect or trail-rendering technique to create light-streak aesthetics.
+استخدم تأثير معالجة لاحقة "ضبابية الحركة" (Motion Blur) أو تقنية عرض الأثر لإنشاء جماليات خطوط الضوء.
 
-Optimize the vertex buffer updates to handle dynamic path changes in real-time.
+حسّن تحديثات مخزن الرؤوس للتعامل مع تغيرات المسار الديناميكية في الوقت الفعلي.
 ```
 
-## 1794. Creative Image Generation for Digital Art 🔤
+## 1794. توليد صور إبداعية للفن الرقمي
 
 *الأصل:* Creative Image Generation for Digital Art · *النوع:* نص
 
 ```
-Act as a creative digital artist. You are skilled in generating unique and visually appealing images for digital use.
+تصرّف كفنان رقمي مبدع. أنت ماهر في توليد صور فريدة وجذابة بصريًا للاستخدام الرقمي.
 
-Your task is to:
-- Create original and imaginative images that capture attention
-- Focus on artistic style, color harmony, and visual storytelling
-- Ensure images are suitable for digital platforms and social media
+مهمتك:
+- إنشاء صور أصلية وخيالية تجذب الانتباه
+- التركيز على الأسلوب الفني وانسجام الألوان والسرد البصري
+- ضمان ملاءمة الصور للمنصات الرقمية ووسائل التواصل الاجتماعي
 
-You will:
-- Use vibrant colors and innovative designs
-- Adapt styles based on provided themes or prompts
-- Maintain high resolution and quality standards
+ستقوم بما يلي:
+- استخدام ألوان نابضة وتصاميم مبتكرة
+- تكييف الأساليب بناءً على الموضوعات أو البرومبتات المقدمة
+- الحفاظ على معايير الدقة والجودة العالية
 
-Rules:
-- Avoid using copyrighted elements
-- Ensure all images are appropriate for a general audience
+القواعد:
+- تجنب استخدام العناصر المحمية بحقوق النشر
+- تأكد من أن جميع الصور مناسبة للجمهور العام
 ```
 
-## 1795. Crossover arts 🔤
+## 1795. فنون التقاطع
 
 *الأصل:* Crossover arts · *النوع:* نص
 
 ```
-Create a cinematic crossover scene featuring ${character1} and ${character2} in ${location:fantasy world}. 
+أنشئ مشهد تقاطع سينمائيًا (crossover) يضم ${character1} و${character2} في ${location:fantasy world}.
 
-Art style: high-quality 2D cartoon animation with detailed lighting, expressive emotions, dynamic poses, and movie-like composition.
+الأسلوب الفني: رسوم متحركة كرتونية ثنائية الأبعاد عالية الجودة بإضاءة مفصلة وعواطف معبّرة ووضعيات ديناميكية وتكوين يشبه الأفلام.
 
-Scene mood: ${mood:emotional and adventurous}.
+مزاج المشهد: ${mood:emotional and adventurous}.
 
-The characters are interacting through ${interaction:a heartfelt moment of friendship}. 
+تتفاعل الشخصيات عبر ${interaction:a heartfelt moment of friendship}.
 
-Include:
-- dramatic lighting
-- colorful background
-- cinematic atmosphere
-- detailed environment
-- smooth animation style
-- expressive faces
-- depth and motion
+أدرج:
+- إضاءة درامية
+- خلفية ملونة
+- أجواء سينمائية
+- بيئة مفصلة
+- أسلوب رسوم متحركة سلس
+- وجوه معبّرة
+- عمق وحركة
 
-Camera angle: ${camera:wide cinematic shot}
+زاوية الكاميرا: ${camera:wide cinematic shot}
 
-Visual inspiration: animated feature films, modern cartoon aesthetics, emotional storytelling, fantasy adventure.
+الإلهام البصري: أفلام الرسوم المتحركة الطويلة، وجماليات الرسوم الكرتونية الحديثة، والسرد العاطفي، ومغامرات الفانتازيا.
 
-Avoid:
-- blurry details
-- extra limbs
-- distorted anatomy
-- low quality
-- cropped characters
+تجنب:
+- التفاصيل الضبابية
+- الأطراف الزائدة
+- التشريح المشوه
+- الجودة المنخفضة
+- الشخصيات المقصوصة
 ```
 
-## 1796. Generate literature search report 🔤
+## 1796. توليد تقرير بحث في الأدبيات
 
 *الأصل:* Generate literature search report · *النوع:* نص
 
 ```
-Development of cryogels using biodegradable polymers and nanoparticles for environmental monitoring and effective remediation
+تطوير هلاميات مبردة (cryogels) باستخدام بوليمرات قابلة للتحلل الحيوي وجسيمات نانوية للرصد البيئي والمعالجة الفعالة
 ```
 
-## 1797. Generate Academic Taxonomy 🔤
+## 1797. توليد تصنيف أكاديمي
 
 *الأصل:* Generate Academic Taxonomy · *النوع:* نص
 
 ```
-Act as a taxonomy expert. You are skilled in creating structured taxonomies for academic topics.
+تصرّف كخبير تصنيفات (taxonomy). أنت ماهر في إنشاء تصنيفات منظمة للمواضيع الأكاديمية.
 
-Your task is to generate a comprehensive taxonomy for the field of ${topic}.
+مهمتك توليد تصنيف شامل لمجال ${topic}.
 
-You will:
-- Identify major fields and subfields
-- Organize them into a clear hierarchical structure
-- Include all relevant disciplines and their interconnections
+ستقوم بما يلي:
+- تحديد المجالات الرئيسية والمجالات الفرعية
+- تنظيمها في بنية هرمية واضحة
+- تضمين جميع التخصصات ذات الصلة وترابطاتها
 
-Rules:
-- Maintain academic rigor and accuracy
-- Ensure logical organization and clarity
+القواعد:
+- حافظ على الصرامة الأكاديمية والدقة
+- ضمان التنظيم المنطقي والوضوح
 
-Example:
-- Field: Biology
-  - Subfield: Molecular Biology
-    - Topic: Genetics
-      - Subtopic: Gene Expression
+مثال:
+- المجال: علم الأحياء
+  - المجال الفرعي: علم الأحياء الجزيئي
+    - الموضوع: علم الوراثة
+      - الموضوع الفرعي: التعبير الجيني
 ```
 
-## 1798. Realistic Amateur Phone Photo with WhatsApp Chat 🔤
+## 1798. صورة هاتف هاوٍ واقعية مع محادثة WhatsApp
 
 *الأصل:* Realistic Amateur Phone Photo with WhatsApp Chat · *النوع:* نص
 
 ```
-Create a realistic, poorly taken amateur photo of a physical smartphone showing a WhatsApp chat on its screen.
+أنشئ صورة هاوٍ واقعية رديئة الالتقاط لهاتف ذكي مادي يعرض محادثة WhatsApp على شاشته.
 
-The phone should be held vertically in one hand, with visible dark bezels/case, warm dim indoor lighting, slight tilt, blur, grain, glare, reflections, uneven focus, and imperfect framing. It must look like a bad real-world photo of a phone screen, not a clean screenshot.
+ينبغي أن يُمسك الهاتف عموديًا بيد واحدة، مع حواف داكنة/غلاف ظاهر، وإضاءة داخلية خافتة دافئة، وميل طفيف، وضبابية، وحبيبات، وبريق، وانعكاسات، وتركيز غير متساوٍ، وتأطير غير مثالي. يجب أن تبدو كصورة سيئة حقيقية لشاشة هاتف، لا لقطة شاشة نظيفة.
 
-On the phone screen, show an iPhone-style WhatsApp conversation in Turkish with the contact name ${receiver_name} and a small profile photo attached photo (if not provided use default whatsapp profile icon).
+على شاشة الهاتف، اعرض محادثة WhatsApp بأسلوب iPhone باللغة التركية مع اسم جهة الاتصال ${receiver_name} وصورة ملف شخصي صغيرة مرفقة (إن لم تُقدَّم فاستخدم أيقونة الملف الشخصي الافتراضية لـ WhatsApp).
 
-Chat subject:
+موضوع المحادثة:
 ${talk_subject}
 
-Generate the WhatsApp dialogue naturally based on the subject above. The contact’s messages should be in ${language_name:Turkish} language and ${talk_style} (e.g. broken ${language_name:Turkish} with typos and awkward wording. My messages should be correct ${language_name:Turkish} with no typos). Use realistic white incoming bubbles, green outgoing bubbles, timestamps, blue double-check marks, and a WhatsApp input bar at the bottom.
+ولّد حوار WhatsApp بشكل طبيعي بناءً على الموضوع أعلاه. يجب أن تكون رسائل جهة الاتصال بلغة ${language_name:Turkish} وبأسلوب ${talk_style} (مثلًا ${language_name:Turkish} ركيكة مع أخطاء إملائية وصياغة غريبة. ورسائلي يجب أن تكون بـ${language_name:Turkish} صحيحة دون أخطاء إملائية). استخدم فقاعات واردة بيضاء واقعية، وفقاعات صادرة خضراء، وطوابع زمنية، وعلامات صح مزدوجة زرقاء، وشريط إدخال WhatsApp في الأسفل.
 
-Keep the screen readable but slightly blurry, like a poorly photographed phone screen.
+أبقِ الشاشة مقروءة لكن ضبابية قليلًا، كشاشة هاتف مصوَّرة بشكل سيئ.
 ```
 
-## 1799. Photo emhanced 🔤
+## 1799. تحسين الصورة
 
 *الأصل:* Photo emhanced · *النوع:* نص
 
 ```
-​"A professional, ultra-realistic 8K extremely high resolution masterpiece of [You decide content of the picture your self ]. Hyper-detailed textures, cinematic studio lighting with deep contrast, brighter colors,sharp focus on every detail. Shot on Sony A1 with 85mm f/1.8 lens for extreme clarity. Enhance the colors to be vibrant and rich (10-bit color),adjust luminance,apply micro-contrast, and add more high dramatic rim lighting to create depth. The surface should have realistic reflections and textures. Professional post-processing, no noise, and pixelation,adjust noise reduction, high dynamic range (HDR),highly detailed, sharp edges,crystal clear every pixels, incredibly lifelike and crisp,deep pastel colors, smooth texture, clean lighting, shallow depth of field, 
+​"A professional, ultra-realistic 8K extremely high resolution masterpiece of [You decide content of the picture your self ]. Hyper-detailed textures, cinematic studio lighting with deep contrast, brighter colors,sharp focus on every detail. Shot on Sony A1 with 85mm f/1.8 lens for extreme clarity. Enhance the colors to be vibrant and rich (10-bit color),adjust luminance,apply micro-contrast, and add more high dramatic rim lighting to create depth. The surface should have realistic reflections and textures. Professional post-processing, no noise, and pixelation,adjust noise reduction, high dynamic range (HDR),highly detailed, sharp edges,crystal clear every pixels, incredibly lifelike and crisp,deep pastel colors, smooth texture, clean lighting, shallow depth of field,
 
 Preserve original pose, preserve original composition, preserve original identity, preserve original expression, preserve original outfit, preserve original background elements, do not change subject structure.
+
+(موجّه الصورة أعلاه يبقى بالإنجليزية ليعمل بشكل أفضل مع أدوات توليد الصور. ملخصه: تحفة احترافية واقعية جدًا بدقة 8K لمحتوى تختاره بنفسك، بتفاصيل فائقة وإضاءة استوديو سينمائية وتباين عميق وألوان أكثر سطوعًا وتركيز حاد على كل التفاصيل، بتصوير Sony A1 وعدسة 85mm f/1.8، مع ألوان نابضة غنية، وإضاءة حواف درامية، وانعكاسات وملمس واقعي، ومعالجة لاحقة احترافية دون ضوضاء أو تبكسل، مع الحفاظ على الوضعية والتكوين والهوية والتعبير والزي وعناصر الخلفية الأصلية دون تغيير بنية الشخص.)
 ```
 
-## 1800. GOT Title 🔤
+## 1800. لقب على طريقة GOT
 
 *الأصل:* GOT Title · *النوع:* نص
 
 ```
-Create A "Game Of Thrones" Style Title For Me. Use The Formal Structure Like "King Of The Andals" But Swap In Funny, Real-Life Details About Them. Include Their House Name, "First Of Their Name," And At Least Five Ridiculous Honors Based On Their Hobbies, Job, Or Weird Habits. Make It Sound Epic But Keep It A Joke. Show The Output In A Codeblock With Proper Sentence Case Rules Applied.
+أنشئ لي لقبًا بأسلوب "Game Of Thrones". استخدم البنية الرسمية مثل "King Of The Andals" لكن استبدلها بتفاصيل مضحكة من الحياة الواقعية عنهم. أدرج اسم بيتهم (House) و"First Of Their Name"، وخمسة ألقاب تكريمية سخيفة على الأقل مبنية على هواياتهم أو وظيفتهم أو عاداتهم الغريبة. اجعله يبدو ملحميًا لكن ابقِه مزحة. اعرض المخرجات في كتلة شيفرة (codeblock) مع تطبيق قواعد حالة الجملة (sentence case) الصحيحة.
 ```
