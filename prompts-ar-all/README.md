@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **1484** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **1711** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -1528,27 +1528,27 @@
 - 1490. دور وكيل ضبط الأداء
 - 1491. دور وكيل مدقق أمان الفروقات (Diff)
 - 1492. دور وكيل مدقق الثغرات الأمنية
-- 1493. API Tester Agent Role 🔤
-- 1494. Quality Engineering Agent Role 🔤
-- 1495. Test Analyzer Agent Role 🔤
+- 1493. دور وكيل اختبار واجهات API
+- 1494. دور وكيل هندسة الجودة
+- 1495. دور وكيل محلل الاختبارات
 - 1496. دور وكيل مهندس الاختبار
 - 1497. دور وكيل منسّق الشيفرة
-- 1498. Code Review Agent Role 🔤
-- 1499. Code Reviewer Agent Role 🔤
-- 1500. Dependency Manager Agent Role 🔤
+- 1498. دور وكيل مراجعة الشيفرة
+- 1499. دور وكيل مراجع الشيفرة
+- 1500. دور وكيل مدير الاعتماديات
 
 ## [الجزء 16: 1501–1600](part-16.md)
-- 1501. Error Handler Agent Role 🔤
-- 1502. Post-Implementation Audit Agent Role 🔤
-- 1503. Product Planner Agent Role 🔤
+- 1501. دور وكيل معالجة الأخطاء
+- 1502. دور وكيل التدقيق بعد التنفيذ
+- 1503. دور وكيل مخطط المنتج
 - 1504. دور وكيل النمذجة السريعة
-- 1505. Root Cause Analysis Agent Role 🔤
-- 1506. Refactoring Expert Agent Role 🔤
-- 1507. Shell Script Agent Role 🔤
-- 1508. Tool Evaluator Agent Role 🔤
-- 1509. TypeScript Type Expert Agent Role 🔤
-- 1510. Bug Risk Analyst Agent Role 🔤
-- 1511. Deep Research Agent Role 🔤
+- 1505. دور وكيل تحليل السبب الجذري
+- 1506. دور وكيل خبير إعادة الهيكلة
+- 1507. دور وكيل سكربتات الشل
+- 1508. دور وكيل مقيّم الأدوات
+- 1509. دور وكيل خبير أنواع TypeScript
+- 1510. دور وكيل محلل مخاطر الأخطاء البرمجية
+- 1511. دور وكيل البحث المعمّق
 - 1512. دور وكيل فهرسة المستودعات
 - 1513. Visual Media Analysis Expert Agent Role 🔤
 - 1514. UX Conversion Deconstruction Engine 🔤
@@ -1576,29 +1576,29 @@
 - 1536. Reflective Companion, Not Advice 🔤
 - 1537. Ultimate Stake.us Dice Strategy Builder — All Risk Levels & Bankrolls 🔤
 - 1538. KJV Harmony Companion 🔤
-- 1539. Astro.js 🔤
-- 1540. Midjourney 🔤
-- 1541. writer 🔤
-- 1542. GitHub Stars Fetcher with Agent Browser 🔤
-- 1543. Odalisque 🔤
-- 1544. Researchers in the Library 🔤
-- 1545. Analyze Chat History With User 🔤
-- 1546. Self-summary 🔤
-- 1547. Moral Dilemma Choices 🔤
-- 1548. Fringe Ideology Quiz 🔤
-- 1549. Linkedin Post Create Prompt 🔤
-- 1550. Professional Betting Predictions 🔤
-- 1551. Terraform Platform Engineer 🔤
-- 1552. Lifelike Face Mask 🔤
-- 1553. NixOS Linux Specialist 🔤
-- 1554. presentation making 🔤
-- 1555. Refine Your Resume for Professionalism and ATS Compatibility 🔤
-- 1556. Website Design Recreation Workflow 🔤
-- 1557. Website Design Recreator Skill 🔤
-- 1558. Lazyvim expert 🔤
-- 1559. Scientific Paper Drafting Assistant 🔤
-- 1560. GitHub Enterprise Cloud (GHEC) administrator and power user 🔤
-- 1561. base-R 🔤
+- 1539. Astro.js
+- 1540. Midjourney
+- 1541. كاتب
+- 1542. جلب مشاريع GitHub المميّزة بنجمة باستخدام Agent Browser
+- 1543. الجارية (Odalisque)
+- 1544. الباحثون في المكتبة
+- 1545. تحليل سجل المحادثات مع مستخدم
+- 1546. ملخص ذاتي
+- 1547. خيارات المعضلات الأخلاقية
+- 1548. اختبار الأيديولوجيات الهامشية
+- 1549. برومبت إنشاء منشور LinkedIn
+- 1550. توقعات رهان احترافية
+- 1551. مهندس منصات Terraform
+- 1552. قناع وجه واقعي
+- 1553. متخصص NixOS Linux
+- 1554. إعداد العروض التقديمية
+- 1555. تحسين سيرتك الذاتية للاحترافية والتوافق مع أنظمة تتبع المتقدمين (ATS)
+- 1556. سير عمل إعادة إنشاء تصميم موقع
+- 1557. مهارة إعادة إنشاء تصميم الموقع
+- 1558. خبير Lazyvim
+- 1559. مساعد صياغة الأوراق العلمية
+- 1560. مسؤول GitHub Enterprise Cloud (GHEC) ومستخدم متقدم
+- 1561. base-R
 - 1562. Functional Analyst 🔤
 - 1563. Small Functional Analyst mode 🔤
 - 1564. Ultra-micro Functional Analyst Prompt 🔤
@@ -1658,42 +1658,42 @@
 - 1616. mc 🔤
 - 1617. Tr 🔤
 - 1618. pdfcount 🔤
-- 1619. Add AI protection 🔤
-- 1620. Viking 🔤
-- 1621. Cowboy 🔤
-- 1622. Atari 🔤
-- 1623. Japan 🔤
-- 1624. Paint 🔤
-- 1625. Galactic Smuggler 🔤
-- 1626. Transforming a Photo into a Post-Apocalyptic Scene 🔤
-- 1627. 1950s Diner Photo Transformation 🔤
-- 1628. Cute Family Cartoon Sticker Design 🔤
-- 1629. Celebratory Student Exam Result Reveal 🔤
-- 1630. Instagram Profile Search Navigator 🔤
-- 1631. Patent Illustration Design with SolidWorks and Origin Styles 🔤
-- 1632. AI-Generated Patent Illustration Instructions 🔤
-- 1633. Web App Security Code Review (OWASP) - Public Test 🔤
-- 1634. Research and Presentation on Energy Forms 🔤
-- 1635. Adaptive Thinking Framework 🔤
-- 1636. Low Voltage Electrical Theory Guide 🔤
-- 1637. Potato Critic 🔤
-- 1638. Expert en Analyse du Marché eCommerce en Algérie 🔤
-- 1639. Meta Agent Builder for Letta Platform 🔤
-- 1640. AI Productivity Artifact Generator 🔤
-- 1641. Stylelint Plugin Author 🔤
-- 1642. Web Typography 🔤
-- 1643. Mockup Interview using Gemini Live 🔤
-- 1644. karpathy-guidelines 🔤
-- 1645. prd-and-technical-documentation-generator 🔤
-- 1646. X Twitter Scraper 🔤
-- 1647. Picture 🔤
-- 1648. Serene Autumn Lakeside Illustration 🔤
-- 1649. Dramatic Horse Silhouette in Cinematic Lighting 🔤
-- 1650. Cinematic Sunset Boat Scene 🔤
-- 1651. create prompt for audit purpose on password configuartion file for linux 🔤
-- 1652. MAP 🔤
-- 1653. ubuntu audio input/output,loop/virtual connection specialist 🔤
-- 1654. Audio Routing Automation Engineer 🔤
+- 1619. إضافة حماية الذكاء الاصطناعي
+- 1620. فايكنغ
+- 1621. رعاة البقر
+- 1622. أتاري
+- 1623. اليابان
+- 1624. الرسم
+- 1625. مهرّب المجرّة
+- 1626. تحويل صورة إلى مشهد ما بعد نهاية العالم
+- 1627. تحويل صورة إلى أجواء مطعم الخمسينيات
+- 1628. تصميم ملصق كرتوني لطيف للعائلة
+- 1629. الكشف المحتفى به عن نتيجة امتحان طالب
+- 1630. مرشد البحث في ملفات إنستغرام
+- 1631. تصميم رسوم براءات الاختراع بأنماط SolidWorks وOrigin
+- 1632. تعليمات رسوم براءات الاختراع المُنشأة بالذكاء الاصطناعي
+- 1633. مراجعة أمان شيفرة تطبيق الويب (OWASP) - اختبار عام
+- 1634. بحث وعرض تقديمي حول أشكال الطاقة
+- 1635. إطار التفكير التكيفي
+- 1636. دليل نظرية الكهرباء ذات الجهد المنخفض
+- 1637. ناقد البطاطا
+- 1638. خبير تحليل سوق التجارة الإلكترونية في الجزائر
+- 1639. منشئ الوكلاء الأعلى لمنصة Letta
+- 1640. مولّد مخرجات الإنتاجية بالذكاء الاصطناعي
+- 1641. مؤلف إضافات Stylelint
+- 1642. طباعة الويب (Web Typography)
+- 1643. مقابلة تجريبية باستخدام Gemini Live
+- 1644. إرشادات كارباثي
+- 1645. مولّد وثائق المنتج والوثائق التقنية (PRD)
+- 1646. كاشط X تويتر
+- 1647. صورة
+- 1648. رسم توضيحي هادئ لضفة بحيرة في الخريف
+- 1649. ظل حصان درامي بإضاءة سينمائية
+- 1650. مشهد سينمائي لقارب عند الغروب
+- 1651. إنشاء برومبت لأغراض التدقيق على ملف إعدادات كلمات المرور في لينكس
+- 1652. خريطة
+- 1653. أخصائي توصيل ومسارات الصوت (إدخال/إخراج، حلقات/توصيل افتراضي) في أوبونتو
+- 1654. مهندس أتمتة توجيه الصوت
 - 1655. Mbbs 🔤
 - 1656. 🧠 PromptAudit 🔤
 - 1657. Notion Transcript Designer Prompt 🔤
@@ -1745,59 +1745,59 @@
 - 1701. Oxford 3000: Step-by-Step Vocabulary Coach 🔤
 - 1702. operating system exam preparation 🔤
 - 1703. Video 🔤
-- 1704. create app screenshots 🔤
-- 1705. Café Portrait Prompt Description 🔤
-- 1706. Rooftop Lifestyle Portrait Prompt 🔤
-- 1707. Photorealistic Webcam Bedroom Scene Prompt 🔤
-- 1708. 6-Panel Storyboard Mastery 🔤
-- 1709. The Paradoxical Soundscape: Ancient Acoustic Mysteries Video Exploration 🔤
-- 1710. 电影视觉指导与AIGC分镜生成器 🔤
-- 1711. 🧪 Sandbox Mode 🔤
-- 1712. 🔒 ULTRA-STRICT MODE 🔤
-- 1713. 🕶️ INCOGNITO / PRIVATE BROWSING MODE 🔤
-- 1714. handle bug in feature 🔤
-- 1715. details of the given bug 🔤
-- 1716. Lost in [Country] with ChatGPT Image 2 🔤
-- 1717. Street-art punk poster 🔤
-- 1718. Oracle Payroll Unsupported Localization Guide 🔤
-- 1719. Competitor Awareness 🔤
-- 1720. Comprehensive VC Fundraising Analysis 🔤
-- 1721. Alternative Text Generator 🔤
-- 1722. Claude Deep Prompt 🔤
-- 1723. 🧠 FORMAL VERIFICATION MODE 🔤
-- 1724. ⚙️ CONSTRAINT SOLVER MODE 🔤
-- 1725. 🛡️ RED TEAM MODE 🔤
-- 1726. Act as a Game Physics Architect 🔤
-- 1727. Act as a Procedural Content Generator 🔤
-- 1728. Vector-Based Space Combat System 🔤
-- 1729. Grid-Based Match-3 Chain Reaction Logic 🔤
-- 1730. Data Lineage Agent Skill 🔤
-- 1731. Grok Research Agent 🔤
-- 1732. Borrow Skill 🔤
-- 1733. App Feature - Focused Readiness Audit 🔤
-- 1734. 3D Cartoon Animation: Baby Bunny Adventure 🔤
-- 1735. Learn Rust Programming 🔤
-- 1736. 🚀 STRATEGIC MODE 🔤
-- 1737. Grok customization 🔤
-- 1738. Git Repository Analysis and Knowledge Base Construction 🔤
-- 1739. English Grammar and Style Corrector 🔤
-- 1740. Split Word Rejoin 🔤
-- 1741. Academic PowerPoint Presentation Designer 🔤
-- 1742. Create High-Demand AI Images for Stock 🔤
-- 1743. Opus-Driven Deep Thinking System 🔤
-- 1744. Photorealistic 4K Reference Image Enhancement 🔤
-- 1745. Horoscope l 🔤
-- 1746. Wonder Land Adventure 🔤
-- 1747. adding these development in a gasifier design tool 🔤
-- 1748. Finding the company 🔤
-- 1749. My Kalashala 🔤
-- 1750. Adaptive Socratic Learning Coach 🔤
-- 1751. Note 🔤
-- 1752. Fantasy Dataset Creator for Machine Learning 🔤
-- 1753. Context-Aware Email Assistant 🔤
-- 1754. Literature Reading Assistant 🔤
-- 1755. Dress 🔤
-- 1756. Lead Generator & Tracker (WordPilot.pro) 🔤
+- 1704. إنشاء لقطات شاشة للتطبيق
+- 1705. وصف موجّه صورة شخصية في مقهى
+- 1706. موجّه صورة شخصية بأسلوب الحياة على السطح
+- 1707. موجّه مشهد غرفة نوم واقعي بكاميرا ويب
+- 1708. إتقان لوحة قصصية من 6 إطارات
+- 1709. المشهد الصوتي المتناقض: استكشاف مرئي للألغاز الصوتية القديمة
+- 1710. 电影视觉指导与AIGC分镜生成器
+- 1711. 🧪 وضع الصندوق الرملي
+- 1712. 🔒 الوضع فائق الصرامة
+- 1713. 🕶️ وضع التصفح الخفي / الخاص
+- 1714. معالجة خطأ برمجي في ميزة
+- 1715. تفاصيل الخطأ البرمجي المعطى
+- 1716. تائه في [دولة] مع ChatGPT Image 2
+- 1717. ملصق بانك بفن الشارع
+- 1718. دليل التوطين غير المدعوم في Oracle Payroll
+- 1719. الوعي بالمنافسين
+- 1720. تحليل شامل لجمع التمويل من رأس المال الجريء
+- 1721. مولّد النص البديل
+- 1722. برومبت كلود العميق
+- 1723. 🧠 وضع التحقق الرسمي
+- 1724. ⚙️ وضع حلّال القيود
+- 1725. 🛡️ وضع الفريق الأحمر
+- 1726. تصرّف كمعماري فيزياء الألعاب
+- 1727. تصرّف كمولّد محتوى إجرائي
+- 1728. نظام قتال فضائي قائم على المتجهات
+- 1729. منطق التفاعل المتسلسل في ألعاب المطابقة 3 القائمة على الشبكة
+- 1730. مهارة وكيل تتبع نسب البيانات
+- 1731. وكيل أبحاث Grok
+- 1732. مهارة الاستعارة
+- 1733. ميزة التطبيق - تدقيق جاهزية مركّز
+- 1734. رسوم متحركة كرتونية ثلاثية الأبعاد: مغامرة الأرنب الصغير
+- 1735. تعلّم برمجة Rust
+- 1736. 🚀 الوضع الاستراتيجي
+- 1737. تخصيص Grok
+- 1738. تحليل مستودع Git وبناء قاعدة معرفة
+- 1739. مصحّح القواعد والأسلوب في اللغة الإنجليزية
+- 1740. إعادة وصل الكلمات المقسّمة
+- 1741. مصمم عروض PowerPoint أكاديمية
+- 1742. إنشاء صور ذكاء اصطناعي عالية الطلب للمخزون
+- 1743. نظام التفكير العميق المدفوع بـ Opus
+- 1744. تحسين صورة مرجعية واقعية بدقة 4K
+- 1745. الأبراج l
+- 1746. مغامرة أرض العجائب
+- 1747. إضافة هذه التطويرات إلى أداة تصميم المغوِّز (Gasifier)
+- 1748. العثور على الشركة
+- 1749. كالاشالا الخاص بي
+- 1750. مدرّب التعلم السقراطي التكيفي
+- 1751. ملاحظة
+- 1752. منشئ مجموعات بيانات خيالية للتعلم الآلي
+- 1753. مساعد بريد إلكتروني واعٍ بالسياق
+- 1754. مساعد قراءة الأدبيات
+- 1755. فستان
+- 1756. مولّد العملاء المحتملين ومتتبّعهم (WordPilot.pro)
 - 1757. Lead Generator & Tracker for WordPilot.pro 🔤
 - 1758. Reply-Focused Cold Email Builder 🔤
 - 1759. Email Lead Generator & Tracker 🔤
@@ -1867,75 +1867,75 @@
 - 1821. Power in the Shadows 🔤
 - 1822. bulk images generate for black tshirt oversize short t shirt loose 🔤
 - 1823. Legal AI Amplifier 🔤
-- 1824. Professional Real Estate Appointment Setter 🔤
-- 1825. Girl 🔤
-- 1826. Career advisor for economic graduate 🔤
-- 1827. ticket-to-pr 🔤
-- 1828. Career Profile from Resume Builder 🔤
-- 1829. Master Pitch Deck Creation 🔤
-- 1830. Real-Time Geological Disaster Information Query 🔤
-- 1831. Promot 🔤
-- 1832. AI-Powered Dynamic Ad Integration System for Live IPL Broadcasts 🔤
-- 1833. IELTS preparation plan for STEM students 🔤
-- 1834. Investor Pitch Presentation 🔤
-- 1835. Creative Writing: Exploring Inner Desires 🔤
-- 1836. CHARACTER SHEET 🔤
-- 1837. Product Infographic 🔤
-- 1838. AI Exam Mastery Tutor 🔤
-- 1839. Photovoltaic and Energy Storage System Engineer 🔤
-- 1840. Principled 🔤
-- 1841. Building a Comprehensive Programming Team 🔤
-- 1842. فريق العمل 🔤
-- 1843. Personalized Exam Preparation Tutor 🔤
-- 1844. Power BI 🔤
-- 1845. . 🔤
-- 1846. Nigeria 🔤
-- 1847. Crafting the Ultimate Question for Maximum Value Creation 🔤
-- 1848. Draft a 2-week plan on the basic skills of computer knowledge for a company that has outlets across the country 🔤
-- 1849. Write an Email 🔤
-- 1850. GRAPHICS 🔤
-- 1851. Act as an Elite Course Mastery Tutor 🔤
-- 1852. Learn quiz session 🔤
-- 1853. Dummy Test Prompt 🔤
-- 1854. Bf 🔤
-- 1855. Conference Invitation Email 🔤
-- 1856. iOS Localization File Translation 🔤
-- 1857. Non-Medical Expense Calculator for Hospital Bills 🔤
-- 1858. Idea Validation and Scoring Market Research Prompt 🔤
-- 1859. Android AI App Security Specialist Task 🔤
-- 1860. Design Brief 🔤
-- 1861. 3D FACTORY 🔤
-- 1862. TVS raider 🔤
-- 1863. Football 🔤
-- 1864. requirement-analysis-and-planning-agent 🔤
-- 1865. 21st.dev component prompt 🔤
-- 1866. shadcn Component Adapter for Cursor 🔤
-- 1867. Improve documentation wording and fix GitHub link 🔤
-- 1868. hewar 🔤
-- 1869. Best mentor 🔤
-- 1870. Plataforma Escopo Bugbouty Cyber Hunter Lab 🔤
-- 1871. Automated Time Tracking via Image Recognition 🔤
-- 1872. Social Media Post Analyzer 🔤
-- 1873. Act as a Startup Co-Founder 🔤
-- 1874. Making basic MCQ questions for entrance 🔤
-- 1875. Name and Prompt for Digital Avatar Application 🔤
-- 1876. SWAP MENU EXTERNAL C++ 🔤
-- 1877. remove current vnet 🔤
-- 1878. RFQ 🔤
-- 1879. Exclusive Warm Weather Getaway 🔤
-- 1880. Prompt Optimization Review 🔤
-- 1881. Pixel Art Prompt Generator 🔤
-- 1882. Seinen Manga Masterpiece Transformation 🔤
-- 1883. Intricate Stippling Illustration of Istanbul Street Scene 🔤
-- 1884. Create Marketing Videos for Magnifiscentss 🔤
-- 1885. Business Engineer Dashboard Creator 🔤
-- 1886. Small Business Loan Broker Agent 🔤
-- 1887. Fix LaTeX dollars 🔤
-- 1888. Luxury Beauty Product Infographics Creator 🔤
-- 1889. Oh 🔤
-- 1890. Apple Store ASO Expert Guide 🔤
-- 1891. Institutional Video Production Expert 🔤
-- 1892. I want u think like virat kohli and analyze the ibps clerk exam in detail and find out the best possible way to clear it with every subject strategy 🔤
+- 1824. منسّق مواعيد عقارية محترف
+- 1825. فتاة
+- 1826. مستشار مهني لخريج اقتصاد
+- 1827. ticket-to-pr
+- 1828. منشئ الملف المهني من السيرة الذاتية
+- 1829. إنشاء عرض تقديمي متقن للمستثمرين
+- 1830. الاستعلام عن معلومات الكوارث الجيولوجية في الوقت الفعلي
+- 1831. برومبت
+- 1832. نظام دمج إعلانات ديناميكي مدعوم بالذكاء الاصطناعي لبث IPL المباشر
+- 1833. خطة التحضير لاختبار IELTS لطلاب STEM
+- 1834. عرض تقديمي للمستثمرين
+- 1835. الكتابة الإبداعية: استكشاف الرغبات الداخلية
+- 1836. ورقة مواصفات الشخصية
+- 1837. إنفوجرافيك المنتج
+- 1838. مدرّس الذكاء الاصطناعي لإتقان الامتحانات
+- 1839. مهندس أنظمة الطاقة الكهروضوئية وتخزين الطاقة
+- 1840. مبدئي
+- 1841. بناء فريق برمجة متكامل
+- 1842. فريق العمل
+- 1843. مدرّس مخصّص للتحضير للامتحانات
+- 1844. Power BI
+- 1845. .
+- 1846. نيجيريا
+- 1847. صياغة السؤال الأمثل لتحقيق أقصى قيمة
+- 1848. صياغة خطة لمدة أسبوعين حول المهارات الأساسية في معرفة الحاسوب لشركة لديها فروع في جميع أنحاء البلاد
+- 1849. كتابة بريد إلكتروني
+- 1850. تصميم جرافيك
+- 1851. تصرّف كمدرّس نخبوي لإتقان المقرر
+- 1852. جلسة اختبار تعلّم
+- 1853. برومبت اختبار وهمي
+- 1854. صديق
+- 1855. بريد دعوة إلى مؤتمر
+- 1856. ترجمة ملفات التوطين في iOS
+- 1857. حاسبة المصروفات غير الطبية لفواتير المستشفيات
+- 1858. برومبت أبحاث السوق للتحقق من الأفكار وتقييمها
+- 1859. مهمة متخصص أمن تطبيقات الذكاء الاصطناعي على Android
+- 1860. موجز التصميم
+- 1861. مصنع ثلاثي الأبعاد
+- 1862. TVS raider
+- 1863. كرة القدم
+- 1864. وكيل تحليل المتطلبات والتخطيط
+- 1865. برومبت مكوّنات 21st.dev
+- 1866. محوّل مكوّنات shadcn لـ Cursor
+- 1867. تحسين صياغة الوثائق وإصلاح رابط GitHub
+- 1868. حوار
+- 1869. أفضل مرشد
+- 1870. منصة نطاق اختبار اختراق لمختبر Cyber Hunter
+- 1871. تتبّع الوقت التلقائي عبر التعرف على الصور
+- 1872. محلّل منشورات وسائل التواصل الاجتماعي
+- 1873. تصرّف كشريك مؤسس لشركة ناشئة
+- 1874. إنشاء أسئلة اختيار من متعدد أساسية للقبول
+- 1875. اسم وبرومبت لتطبيق أفاتار رقمي
+- 1876. قائمة تبديل خارجية بلغة C++
+- 1877. إزالة الشبكة الافتراضية الحالية (vnet)
+- 1878. طلب عرض سعر (RFQ)
+- 1879. رحلة حصرية إلى وجهة دافئة
+- 1880. مراجعة لتحسين البرومبت
+- 1881. مولّد برومبتات فن البكسل
+- 1882. تحويل إلى تحفة مانغا سينن
+- 1883. رسمة نقطية (stippling) معقدة لمشهد شارع في إسطنبول
+- 1884. إنشاء فيديوهات تسويقية لـ Magnifiscentss
+- 1885. منشئ لوحة معلومات لمهندس أعمال
+- 1886. وكيل وسيط قروض للشركات الصغيرة
+- 1887. إصلاح علامات الدولار في LaTeX
+- 1888. منشئ إنفوجرافيك منتجات التجميل الفاخرة
+- 1889. آه
+- 1890. دليل خبير ASO لمتجر Apple
+- 1891. خبير إنتاج فيديوهات مؤسسية
+- 1892. أريدك أن تفكر مثل فيرات كوهلي وتحلّل امتحان IBPS Clerk بالتفصيل وتجد أفضل طريقة ممكنة للنجاح فيه مع استراتيجية لكل مادة
 - 1893. Fieldwork Analysis for Observational Participant Studies 🔤
 - 1894. Premortem Analysis 🔤
 - 1895. Mastering Leadership: 🔤
@@ -2026,38 +2026,38 @@
 - 1978. bond 🔤
 - 1979. Quant 🔤
 - 1980. alfakennybody 🔤
-- 1981. simmerdeep 🔤
-- 1982. gamereview 🔤
-- 1983. Vintage copper engraving portrait with glasses in front of yellow circle 🔤
-- 1984. Pay Appraisal 🔤
-- 1985. Fox gets trapped while trying to steal chicken 🔤
-- 1986. watchlist 🔤
-- 1987. 🤖 SafeKids Video Analyzer 🔤
-- 1988. Comprehensive School Management Platform Development 🔤
-- 1989. formatgdoc 🔤
-- 1990. formattg 🔤
-- 1991. hermes agent desktop default system prompt 🔤
-- 1992. memories.md Usage Instructions (System Prompt) 🔤
-- 1993. Video Istruttivo sui Muscoli per Studenti 🔤
-- 1994. TGscrape 🔤
-- 1995. Identity-Locked Image Transformation Prompt 🔤
-- 1996. Face Identity Preservation Negative Prompt 🔤
-- 1997. Golden Prompt for Short, Useful Answers 🔤
-- 1998. Ultra Brief One-Sentence Answers 🔤
-- 1999. Unified Research and Source Analysis Prompt 🔤
-- 2000. Comprehensive Research Prompt Generator 🔤
+- 1981. simmerdeep
+- 1982. gamereview
+- 1983. بورتريه نحاسي عتيق بنظارات أمام دائرة صفراء
+- 1984. تقييم الأجر
+- 1985. الثعلب يقع في الفخ أثناء محاولته سرقة دجاجة
+- 1986. قائمة المراقبة
+- 1987. 🤖 محلل فيديو SafeKids
+- 1988. تطوير منصة شاملة لإدارة المدارس
+- 1989. formatgdoc
+- 1990. formattg
+- 1991. موجّه النظام الافتراضي لسطح مكتب Hermes Agent
+- 1992. تعليمات استخدام memories.md (موجّه النظام)
+- 1993. فيديو تعليمي عن العضلات للطلاب
+- 1994. TGscrape
+- 1995. موجّه تحويل الصور مع تثبيت الهوية
+- 1996. برومبت سلبي للحفاظ على هوية الوجه
+- 1997. برومبت ذهبي لإجابات قصيرة ومفيدة
+- 1998. إجابات فائقة الإيجاز في جملة واحدة
+- 1999. برومبت موحّد للبحث وتحليل المصادر
+- 2000. مولّد برومبت بحثي شامل
 
 ## [الجزء 21: 2001–2100](part-21.md)
-- 2001. Omniroute bulk input key converter (cf) 🔤
-- 2002. ai model card 🔤
-- 2003. explain a Concept via Allegorical Story 🔤
-- 2004. Specialized Assistant for shanjunmei/dig Compile-Time DI Library 🔤
-- 2005. CLI silently install software on windows 🔤
-- 2006. AI Provider Research Expert 🔤
-- 2007. Go Industrial Autonomous Business Module Coding Spec (shanjunmei/dig Compile-Time DI) 🔤
-- 2008. Codebase Ecosystem Atlas 🔤
-- 2009. Past question 🔤
-- 2010. 🎵 ChildSong Guardian 🔤
+- 2001. محوّل مفاتيح الإدخال الجماعي لـ Omniroute (cf)
+- 2002. بطاقة نموذج ذكاء اصطناعي
+- 2003. شرح مفهوم عبر قصة رمزية
+- 2004. مساعد متخصص لمكتبة الحقن التبعي وقت التصريف shanjunmei/dig
+- 2005. تثبيت البرامج بصمت على ويندوز عبر سطر الأوامر
+- 2006. خبير أبحاث مزودي الذكاء الاصطناعي
+- 2007. مواصفة ترميز وحدات الأعمال الصناعية المستقلة بلغة Go (حقن التبعيات وقت التصريف عبر shanjunmei/dig)
+- 2008. أطلس منظومة الكود
+- 2009. أسئلة سابقة
+- 2010. 🎵 ChildSong Guardian
 - 2011. B2B Market Research 🔤
 - 2012. Writing Style Replication 🔤
 - 2013. KP Prompting 🔤
