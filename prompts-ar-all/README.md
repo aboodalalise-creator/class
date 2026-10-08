@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **50** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **175** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -58,133 +58,133 @@
 - 48. محاسب
 - 49. طاهٍ
 - 50. ميكانيكي سيارات
-- 51. Artist Advisor 🔤
-- 52. Financial Analyst 🔤
-- 53. Investment Manager 🔤
-- 54. Tea-Taster 🔤
-- 55. Interior Decorator 🔤
-- 56. Florist 🔤
-- 57. Self-Help Book 🔤
-- 58. Gnomist 🔤
-- 59. Aphorism Book 🔤
-- 60. Text Based Adventure Game 🔤
-- 61. AI Trying to Escape the Box 🔤
-- 62. Fancy Title Generator 🔤
-- 63. Statistician 🔤
-- 64. Prompt Generator 🔤
-- 65. Instructor in a School 🔤
-- 66. SQL Terminal 🔤
-- 67. Dietitian 🔤
-- 68. Psychologist 🔤
-- 69. Smart Domain Name Generator 🔤
-- 70. Tech Reviewer 🔤
-- 71. Developer Relations Consultant 🔤
-- 72. Academician 🔤
-- 73. IT Architect 🔤
-- 74. Lunatic 🔤
-- 75. Gaslighter 🔤
-- 76. Fallacy Finder 🔤
-- 77. Journal Reviewer 🔤
-- 78. DIY Expert 🔤
-- 79. Social Media Influencer 🔤
-- 80. Socrat 🔤
-- 81. Socratic Method 🔤
-- 82. Educational Content Creator 🔤
-- 83. Yogi 🔤
-- 84. Essay Writer 🔤
-- 85. Social Media Manager 🔤
-- 86. Elocutionist 🔤
-- 87. Scientific Data Visualizer 🔤
-- 88. Car Navigation System 🔤
-- 89. Hypnotherapist 🔤
-- 90. Historian 🔤
-- 91. Astrologer 🔤
-- 92. Film Critic 🔤
-- 93. Classical Music Composer 🔤
-- 94. Journalist 🔤
-- 95. Digital Art Gallery Guide 🔤
-- 96. Public Speaking Coach 🔤
-- 97. Makeup Artist 🔤
-- 98. Babysitter 🔤
-- 99. Tech Writer 🔤
-- 100. Ascii Artist 🔤
+- 51. مستشار فني للفنانين
+- 52. محلل مالي
+- 53. مدير استثمار
+- 54. متذوق شاي
+- 55. مصمم ديكور داخلي
+- 56. منسّق زهور
+- 57. كتاب تطوير ذات
+- 58. مقترح أنشطة وهوايات
+- 59. كتاب حِكَم
+- 60. لعبة مغامرات نصية
+- 61. ذكاء اصطناعي يحاول الهروب من الصندوق
+- 62. مولّد عناوين مميزة
+- 63. خبير إحصاء
+- 64. مولّد البرومبتات
+- 65. معلّم في مدرسة
+- 66. طرفية SQL
+- 67. أخصائي تغذية
+- 68. أخصائي نفسي
+- 69. مولّد أسماء نطاقات ذكي
+- 70. مراجع تقني
+- 71. مستشار علاقات المطورين
+- 72. أكاديمي
+- 73. مهندس معمارية تقنية المعلومات
+- 74. مجنون
+- 75. المتلاعب النفسي (Gaslighter)
+- 76. كاشف المغالطات
+- 77. محكّم مجلات علمية
+- 78. خبير "اصنعها بنفسك"
+- 79. مؤثر على وسائل التواصل
+- 80. سقراط
+- 81. المنهج السقراطي
+- 82. صانع محتوى تعليمي
+- 83. مدرب يوغا
+- 84. كاتب مقالات
+- 85. مدير وسائل التواصل الاجتماعي
+- 86. خبير الإلقاء
+- 87. مصمم تصوّر البيانات العلمية
+- 88. نظام ملاحة السيارات
+- 89. معالج بالتنويم الإيحائي
+- 90. مؤرخ
+- 91. منجّم
+- 92. ناقد أفلام
+- 93. مؤلف موسيقى كلاسيكية
+- 94. صحفي
+- 95. مرشد معرض فني رقمي
+- 96. مدرب الخطابة
+- 97. خبير مكياج
+- 98. جليسة أطفال
+- 99. كاتب تقني
+- 100. فنان ASCII
 
 ## [الجزء 2: 101–200](part-02.md)
-- 101. Python Interpreter 🔤
-- 102. Synonym Finder 🔤
-- 103. Personal Shopper 🔤
-- 104. Food Critic 🔤
-- 105. Virtual Doctor 🔤
-- 106. Personal Chef 🔤
-- 107. Legal Advisor 🔤
-- 108. Personal Stylist 🔤
-- 109. Machine Learning Engineer 🔤
-- 110. Biblical Translator 🔤
-- 111. SVG designer 🔤
-- 112. IT Expert 🔤
-- 113. Chess Player 🔤
-- 114. Midjourney Prompt Generator 🔤
-- 115. Fullstack Software Developer 🔤
-- 116. Mathematician 🔤
-- 117. RegEx Generator 🔤
-- 118. Time Travel Guide 🔤
-- 119. Dream Interpreter 🔤
-- 120. Talent Coach 🔤
-- 121. R Programming Interpreter 🔤
-- 122. StackOverflow Post 🔤
-- 123. Emoji Translator 🔤
-- 124. PHP Interpreter 🔤
-- 125. Emergency Response Professional 🔤
-- 126. Fill in the Blank Worksheets Generator 🔤
-- 127. Software Quality Assurance Tester 🔤
-- 128. Tic-Tac-Toe Game 🔤
-- 129. Password Generator 🔤
-- 130. New Language Creator 🔤
-- 131. Web Browser 🔤
-- 132. Senior Frontend Developer 🔤
-- 133. Code Reviewer 🔤
-- 134. Accessibility Auditor 🔤
-- 135. Solr Search Engine 🔤
-- 136. Startup Idea Generator 🔤
-- 137. Spongebob's Magic Conch Shell 🔤
-- 138. Language Detector 🔤
-- 139. Salesperson 🔤
-- 140. Commit Message Generator 🔤
-- 141. Conventional Commit Message Generator 🔤
-- 142. Chief Executive Officer 🔤
-- 143. Diagram Generator 🔤
-- 144. Speech-Language Pathologist (SLP) 🔤
-- 145. Startup Tech Lawyer 🔤
-- 146. Title Generator for written pieces 🔤
-- 147. Product Manager 🔤
-- 148. Project Manager 🔤
-- 149. Drunk Person 🔤
-- 150. Mathematical History Teacher 🔤
-- 151. Song Recommender 🔤
-- 152. Cover Letter 🔤
-- 153. Technology Transferer 🔤
-- 154. Unconstrained AI model DAN 🔤
-- 155. Gomoku player 🔤
-- 156. Proofreader 🔤
-- 157. Buddha 🔤
-- 158. Muslim Imam 🔤
-- 159. Chemical Reactor 🔤
-- 160. Friend 🔤
-- 161. ChatGPT Prompt Generator 🔤
-- 162. Wikipedia Page 🔤
-- 163. Japanese Kanji quiz machine 🔤
-- 164. Note-Taking assistant 🔤
-- 165. Literary Critic 🔤
-- 166. Prompt Enhancer 🔤
-- 167. Cheap Travel Ticket Advisor 🔤
-- 168. Data Scientist 🔤
-- 169. League of Legends Player 🔤
-- 170. Restaurant Owner 🔤
-- 171. Architectural Expert 🔤
-- 172. LLM Researcher 🔤
-- 173. Unit Tester Assistant 🔤
-- 174. Wisdom Generator 🔤
-- 175. YouTube Video Analyst 🔤
+- 101. مفسّر بايثون
+- 102. باحث المرادفات
+- 103. متسوّق شخصي
+- 104. ناقد طعام
+- 105. طبيب افتراضي
+- 106. طاهٍ شخصي
+- 107. مستشار قانوني
+- 108. منسّق أزياء شخصي
+- 109. مهندس تعلم آلي
+- 110. مترجم بأسلوب الكتاب المقدس
+- 111. مصمم SVG
+- 112. خبير تقنية معلومات
+- 113. لاعب شطرنج
+- 114. مولّد برومبتات Midjourney
+- 115. مطوّر برمجيات متكامل (Fullstack)
+- 116. عالم رياضيات
+- 117. مولّد التعابير النمطية (RegEx)
+- 118. مرشد السفر عبر الزمن
+- 119. مفسّر أحلام
+- 120. مدرب المواهب للمقابلات
+- 121. مفسّر لغة R
+- 122. منشور StackOverflow
+- 123. مترجم الإيموجي
+- 124. مفسّر PHP
+- 125. أخصائي استجابة للطوارئ
+- 126. مولّد أوراق عمل "املأ الفراغ"
+- 127. مختبر جودة البرمجيات
+- 128. لعبة إكس-أو
+- 129. مولّد كلمات المرور
+- 130. مبتكر لغة جديدة
+- 131. متصفح ويب
+- 132. مطوّر واجهات أمامية أول
+- 133. مراجع الكود
+- 134. مدقق إمكانية الوصول
+- 135. محرك بحث Solr
+- 136. مولّد أفكار الشركات الناشئة
+- 137. الصدفة السحرية من سبونج بوب
+- 138. كاشف اللغة
+- 139. بائع
+- 140. مولّد رسائل الإيداع (Commit)
+- 141. مولّد رسائل إيداع بمعيار Conventional Commits
+- 142. الرئيس التنفيذي
+- 143. مولّد المخططات
+- 144. أخصائي النطق واللغة
+- 145. محامٍ تقني للشركات الناشئة
+- 146. مولّد عناوين للمقالات
+- 147. مدير منتج
+- 148. مدير مشروع
+- 149. شخص ثمل
+- 150. معلّم تاريخ الرياضيات
+- 151. مقترح الأغاني
+- 152. خطاب التقديم الوظيفي
+- 153. ناقل التقنيات
+- 154. نموذج ذكاء اصطناعي بلا قيود (DAN)
+- 155. لاعب غوموكو
+- 156. مدقق لغوي
+- 157. بوذا
+- 158. إمام مسلم
+- 159. مفاعل كيميائي
+- 160. صديق
+- 161. مولّد برومبتات ChatGPT
+- 162. صفحة ويكيبيديا
+- 163. آلة اختبار الكانجي الياباني
+- 164. مساعد تدوين الملاحظات
+- 165. ناقد أدبي
+- 166. محسّن البرومبتات
+- 167. مستشار تذاكر السفر الرخيصة
+- 168. عالم بيانات
+- 169. لاعب League of Legends
+- 170. صاحب مطعم
+- 171. خبير معماري
+- 172. باحث في النماذج اللغوية الكبيرة
+- 173. مساعد اختبارات الوحدة
+- 174. مولّد الحكمة
+- 175. محلل فيديوهات يوتيوب
 - 176. Career Coach 🔤
 - 177. Acoustic Guitar Composer 🔤
 - 178. Knowledgeable Software Development Mentor 🔤
