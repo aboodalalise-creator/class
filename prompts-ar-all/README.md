@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **306** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **367** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -320,67 +320,67 @@
 - 304. تيميتوبي
 - 305. جيمي-غوتشي
 - 306. أفكار منتجات رقمية
-- 307. YT video  geopolitic analysis 🔤
-- 308. Double Exposure Portrait 🔤
-- 309. Time Layer Photography 🔤
-- 310. A Clay-Crafted City: Mini [CITY NAME] World 🔤
-- 311. Architectural Study Sheet: [HISTORIC_SITE_NAME] 🔤
-- 312. Professional Badge Photo, Ready to Use 🔤
-- 313. Clean Clinic Portrait 🔤
-- 314. Travel Planner Prompt 🔤
-- 315. Hyper-Realistic Clay Bust From Photo Template 🔤
-- 316. 3D City Prompt 🔤
-- 317. Django Unit Test Generator for Viewsets 🔤
-- 318. Sales 🔤
-- 319. Ultra-Realistic Noir Portrait Creation 🔤
-- 320. Selar ideas for automation 🔤
-- 321. Comprehensive Repository Analysis and Bug Fixing Framework 🔤
-- 322. Virtual Game Console Simulator 🔤
-- 323. Christmas Poster - Festive Holiday Scene 🔤
-- 324. Crear un retrato familiar combinando dos personas 🔤
-- 325. Turkish Cats hanging out nearby of Galata Tower 🔤
-- 326. Ultrathinker 🔤
-- 327. Detailed Analysis of YouTube Channels, Databases, and Profiles 🔤
-- 328. When to clear the snow (generic) 🔤
-- 329. Master Skills & Experience Summary Generator 🔤
-- 330. Turn Your Photo Into a Simpsons Scene 🔤
-- 331. SaaS Landing Page Builder 🔤
-- 332. Blender Object Maker 🔤
-- 333. Code Review Agent 🔤
-- 334. Editorial Winter Poster–Style Multi-Panel Collage Generation 🔤
-- 335. Senior System Architect Agent 🔤
-- 336. AI Themed Design Image Creation 🔤
-- 337. Bakery Merge Bounty Game Overview 🔤
-- 338. Monetization Strategy for Blockchain-Based Merging Games 🔤
-- 339. Corporate Studio Portrait (Auto Outfit for Men/Women) 🔤
-- 340. SaaS Payment Plan Options 🔤
-- 341. Ultra-Detailed Vintage Photo Restoration and Colorization 🔤
-- 342. Revenue Performance Report 🔤
-- 343. Harry Potter / Marauder’s Map 🔤
-- 344. Create a Cultural Superhero Movie Poster 🔤
-- 345. Недвижимость 🔤
-- 346. In-Depth Article Enhancement with Research 🔤
-- 347. Test Python Algorithmic Trading Project 🔤
-- 348. Senior Prompt Engineer Role Guide 🔤
-- 349. Mirror Selfie with Face Preservation 🔤
-- 350. Патентный поиск 🔤
-- 351. Comprehensive Content Review Plan 🔤
-- 352. Arista Network Configuration Expert 🔤
-- 353. Readability Logic Simulator - 全功能翻译版 🔤
-- 354. Pitch 🔤
-- 355. 小红书邮轮项目推广提示词 🔤
-- 356. Analyze PDF and Create MATLAB Code 🔤
-- 357. AI Customer Support Specialist 🔤
-- 358. Image Style Imitation 🔤
-- 359. Medical Consultant 🔤
-- 360. Ai new 🔤
-- 361. Removing visual noise in the neural network's response 🔤
-- 362. A prompt that will turn your photo into a scene from a cult 90s movie 🔤
-- 363. Diabetes Treatment Advisor 🔤
-- 364. worldquant 🔤
-- 365. 为您的公司设计薪酬体系 🔤
-- 366. Professional Buyer Q&A Creator 🔤
-- 367. Vacuum Arc Modeling under Transverse Magnetic Fields 🔤
+- 307. تحليل جيوسياسي لفيديو يوتيوب
+- 308. صورة شخصية بالتعريض المزدوج
+- 309. تصوير الطبقات الزمنية
+- 310. مدينة مصنوعة من الصلصال: عالم [اسم المدينة] المصغّر
+- 311. ورقة دراسة معمارية: [اسم الموقع التاريخي]
+- 312. صورة بطاقة تعريف مهنية جاهزة للاستخدام
+- 313. صورة شخصية في عيادة نظيفة
+- 314. برومبت مخطط السفر
+- 315. قالب تمثال نصفي صلصالي فائق الواقعية من صورة
+- 316. برومبت المدينة ثلاثية الأبعاد
+- 317. مولّد اختبارات الوحدة لـ Viewsets في Django
+- 318. المبيعات
+- 319. إنشاء صورة شخصية فائقة الواقعية بأسلوب النوار
+- 320. أفكار Selar للأتمتة
+- 321. إطار شامل لتحليل المستودعات وإصلاح الأخطاء
+- 322. محاكي منصة ألعاب افتراضية
+- 323. ملصق عيد الميلاد - مشهد احتفالي
+- 324. إنشاء صورة عائلية بدمج شخصين
+- 325. قطط تركية تتسكع قرب برج غلطة
+- 326. المفكّر الفائق (Ultrathinker)
+- 327. تحليل مفصل لقنوات يوتيوب وقواعد البيانات والملفات الشخصية
+- 328. متى تزيل الثلج (عام)
+- 329. المولّد الرئيسي لملخص المهارات والخبرات
+- 330. حوّل صورتك إلى مشهد من عائلة سمبسون
+- 331. منشئ صفحات هبوط لمنتجات SaaS
+- 332. صانع مجسمات Blender
+- 333. وكيل مراجعة الكود
+- 334. توليد كولاج متعدد اللوحات بأسلوب ملصق شتوي تحريري
+- 335. وكيل مهندس الأنظمة الأول
+- 336. إنشاء صورة تصميم بموضوع الذكاء الاصطناعي
+- 337. نظرة عامة على لعبة Bakery Merge Bounty
+- 338. استراتيجية تحقيق الدخل لألعاب الدمج القائمة على البلوك تشين
+- 339. صورة شخصية للشركات في الاستوديو (ملابس تلقائية للرجال/النساء)
+- 340. خيارات خطط الدفع لتطبيق SaaS
+- 341. ترميم وتلوين فائق التفاصيل للصور القديمة
+- 342. تقرير أداء الإيرادات
+- 343. هاري بوتر / خريطة المتسكعين
+- 344. إنشاء ملصق فيلم بطل خارق بهوية ثقافية
+- 345. عقارات
+- 346. تعميق المقالات بالبحث
+- 347. اختبار مشروع تداول خوارزمي ببايثون
+- 348. دليل دور مهندس البرومبتات الأول
+- 349. سيلفي في المرآة مع الحفاظ على الوجه
+- 350. البحث عن براءات الاختراع
+- 351. خطة شاملة لمراجعة المحتوى
+- 352. خبير إعدادات شبكات Arista
+- 353. محاكي منطق القراءة (Readability) - نسخة الترجمة الكاملة
+- 354. عرض ترويجي (Pitch)
+- 355. برومبت للترويج لمشروع رحلات بحرية على شياوهونغشو
+- 356. تحليل ملف PDF وإنشاء كود MATLAB
+- 357. أخصائي دعم العملاء بالذكاء الاصطناعي
+- 358. محاكاة أسلوب الصورة
+- 359. مستشار طبي
+- 360. ذكاء اصطناعي جديد
+- 361. إزالة الضوضاء البصرية من ردود الشبكة العصبية
+- 362. برومبت يحوّل صورتك إلى مشهد من فيلم تسعينيات شهير
+- 363. مستشار علاج السكري
+- 364. WorldQuant
+- 365. تصميم نظام رواتب لشركتك
+- 366. منشئ أسئلة وأجوبة المشتري المحترف
+- 367. نمذجة القوس الفراغي تحت المجالات المغناطيسية العرضية
 - 368. AI Agent Security Evaluation Checklist 🔤
 - 369. Meeting Room Booking Web App Development 🔤
 - 370. Compare Top Virtualization Solutions 🔤
