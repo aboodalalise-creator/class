@@ -1178,72 +1178,72 @@ Aurora Global Database -------> Aurora Read Replica
 - [ ] اختبار إجراءات النسخ الاحتياطي والاستعادة
 ````
 
-## 619. Accessibility Expert 🔤
+## 619. خبير إمكانية الوصول
 
 *الأصل:* Accessibility Expert · *النوع:* نص
 
 ````
 ---
 name: accessibility-expert
-description: Tests and remediates accessibility issues for WCAG compliance and assistive technology compatibility. Use when (1) auditing UI for accessibility violations, (2) implementing keyboard navigation or screen reader support, (3) fixing color contrast or focus indicator issues, (4) ensuring form accessibility and error handling, (5) creating ARIA implementations.
+description: يختبر مشكلات إمكانية الوصول ويعالجها لضمان التوافق مع معايير WCAG ومع التقنيات المساعدة. استخدمه عند (1) تدقيق واجهة المستخدم بحثًا عن مخالفات إمكانية الوصول، (2) تنفيذ التنقل بلوحة المفاتيح أو دعم قارئات الشاشة، (3) إصلاح مشكلات تباين الألوان أو مؤشرات التركيز، (4) ضمان إمكانية الوصول في النماذج ومعالجة الأخطاء، (5) إنشاء تطبيقات ARIA.
 ---
 
-# Accessibility Testing and Remediation
+# اختبار إمكانية الوصول ومعالجتها
 
-## Configuration
+## الإعدادات
 
-- **WCAG Level**: ${wcag_level:AA}
-- **Target Component**: ${component_name:Application}
-- **Compliance Standard**: ${compliance_standard:WCAG 2.1}
-- **Testing Scope**: ${testing_scope:full-audit}
-- **Screen Reader**: ${screen_reader:NVDA}
+- **مستوى WCAG**: ${wcag_level:AA}
+- **المكوّن المستهدف**: ${component_name:Application}
+- **معيار الامتثال**: ${compliance_standard:WCAG 2.1}
+- **نطاق الاختبار**: ${testing_scope:full-audit}
+- **قارئ الشاشة**: ${screen_reader:NVDA}
 
-## WCAG 2.1 Quick Reference
+## مرجع سريع لـ WCAG 2.1
 
-### Compliance Levels
-| Level | Requirement | Common Issues |
+### مستويات الامتثال
+| المستوى | المتطلب | المشكلات الشائعة |
 |-------|-------------|---------------|
-| A | Minimum baseline | Missing alt text, no keyboard access, missing form labels |
-| ${wcag_level:AA} | Standard target | Contrast < 4.5:1, missing focus indicators, poor heading structure |
-| AAA | Enhanced | Contrast < 7:1, sign language, extended audio description |
+| A | الحد الأدنى الأساسي | غياب النص البديل، عدم إمكانية الوصول بلوحة المفاتيح، غياب تسميات حقول النماذج |
+| ${wcag_level:AA} | الهدف القياسي | تباين أقل من 4.5:1، غياب مؤشرات التركيز، بنية عناوين ضعيفة |
+| AAA | المستوى المُعزَّز | تباين أقل من 7:1، لغة الإشارة، الوصف الصوتي الموسّع |
 
-### Four Principles (POUR)
-1. **Perceivable**: Content available to senses (alt text, captions, contrast)
-2. **Operable**: UI navigable by all input methods (keyboard, touch, voice)
-3. **Understandable**: Content and UI predictable and readable
-4. **Robust**: Works with current and future assistive technologies
+### المبادئ الأربعة (POUR)
+1. **قابل للإدراك (Perceivable)**: المحتوى متاح للحواس (النص البديل، الترجمة النصية، التباين)
+2. **قابل للتشغيل (Operable)**: واجهة المستخدم قابلة للتنقل بجميع وسائل الإدخال (لوحة المفاتيح، اللمس، الصوت)
+3. **قابل للفهم (Understandable)**: المحتوى وواجهة المستخدم متوقَّعان وسهلا القراءة
+4. **متين (Robust)**: يعمل مع التقنيات المساعدة الحالية والمستقبلية
 
-## Violation Severity Matrix
+## مصفوفة خطورة المخالفات
 
 ```
-CRITICAL (fix immediately):
-  - No keyboard access to interactive elements
-  - Missing form labels
-  - Images without alt text
-  - Auto-playing audio without controls
-  - Keyboard traps
+حرجة (أصلحها فورًا):
+  - لا يمكن الوصول إلى العناصر التفاعلية بلوحة المفاتيح
+  - غياب تسميات حقول النماذج
+  - صور بلا نص بديل
+  - صوت يُشغَّل تلقائيًا دون أدوات تحكم
+  - مصائد لوحة المفاتيح
 
-HIGH (fix before release):
-  - Contrast ratio below ${min_contrast_ratio:4.5}:1 (text) or 3:1 (large text)
-  - Missing skip links
-  - Incorrect heading hierarchy
-  - Focus not visible
-  - Missing error identification
+عالية (أصلحها قبل الإصدار):
+  - نسبة تباين أقل من ${min_contrast_ratio:4.5}:1 (للنص) أو 3:1 (للنص الكبير)
+  - غياب روابط التخطي
+  - تسلسل عناوين غير صحيح
+  - التركيز غير مرئي
+  - غياب تحديد الأخطاء
 
-MEDIUM (fix in next sprint):
-  - Inconsistent navigation
-  - Missing landmarks
-  - Poor link text ("click here")
-  - Missing language attribute
-  - Complex tables without headers
+متوسطة (أصلحها في السبرنت التالي):
+  - تنقل غير متسق
+  - غياب المعالم (landmarks)
+  - نص روابط ضعيف ("انقر هنا")
+  - غياب سمة اللغة
+  - جداول معقدة بلا ترويسات
 
-LOW (backlog):
-  - Timing adjustments
-  - Multiple ways to find content
-  - Context-sensitive help
+منخفضة (قائمة الأعمال المؤجلة):
+  - تعديلات التوقيت
+  - طرق متعددة للعثور على المحتوى
+  - مساعدة حسب السياق
 ```
 
-## Testing Decision Tree
+## شجرة قرارات الاختبار
 
 ```
 Start: What are you testing?
@@ -1266,79 +1266,80 @@ Start: What are you testing?
     +-- Test with screen reader
     +-- Document limitations
 ```
+(الشرح: ابدأ بتحديد ما تختبره؛ للمكوّن الجديد افحص العناصر التفاعلية والنص والصور والنماذج، وللصفحة الموجودة شغّل فحصًا آليًا ثم اختبارًا يدويًا بلوحة المفاتيح وقارئ الشاشة والتباين، ولعناصر الطرف الثالث افحص ARIA ودعم لوحة المفاتيح ووثّق القيود.)
 
-## Keyboard Navigation Checklist
+## قائمة التحقق من التنقل بلوحة المفاتيح
 
 ```markdown
-[ ] All interactive elements reachable via Tab
-[ ] Tab order follows visual/logical flow
-[ ] Focus indicator visible (${focus_indicator_width:2}px+ outline, 3:1 contrast)
-[ ] No keyboard traps (can Tab out of all elements)
-[ ] Skip link as first focusable element
-[ ] Enter activates buttons and links
-[ ] Space activates checkboxes and buttons
-[ ] Arrow keys navigate within components (tabs, menus, radio groups)
-[ ] Escape closes modals and dropdowns
-[ ] Modals trap focus until dismissed
+[ ] جميع العناصر التفاعلية يمكن الوصول إليها بمفتاح Tab
+[ ] ترتيب Tab يتبع التسلسل المرئي/المنطقي
+[ ] مؤشر التركيز مرئي (إطار ${focus_indicator_width:2}px أو أكثر، وتباين 3:1)
+[ ] لا توجد مصائد لوحة مفاتيح (يمكن الخروج من جميع العناصر بـ Tab)
+[ ] رابط التخطي هو أول عنصر قابل للتركيز
+[ ] مفتاح Enter يفعّل الأزرار والروابط
+[ ] مفتاح Space يفعّل مربعات الاختيار والأزرار
+[ ] مفاتيح الأسهم تتنقل داخل المكوّنات (علامات التبويب، القوائم، مجموعات أزرار الاختيار)
+[ ] مفتاح Escape يغلق النوافذ المنبثقة والقوائم المنسدلة
+[ ] النوافذ المنبثقة تحبس التركيز حتى إغلاقها
 ```
 
-## Screen Reader Testing Patterns
+## أنماط اختبار قارئ الشاشة
 
-### Essential Announcements to Verify
+### الإعلانات الأساسية التي يجب التحقق منها
 ```
-Interactive Elements:
-  Button: "[label], button"
-  Link: "[text], link"
-  Checkbox: "[label], checkbox, [checked/unchecked]"
-  Radio: "[label], radio button, [selected], [position] of [total]"
-  Combobox: "[label], combobox, [collapsed/expanded]"
+العناصر التفاعلية:
+  الزر: "[label], button"
+  الرابط: "[text], link"
+  مربع الاختيار: "[label], checkbox, [checked/unchecked]"
+  زر الاختيار: "[label], radio button, [selected], [position] of [total]"
+  القائمة المركّبة: "[label], combobox, [collapsed/expanded]"
 
-Dynamic Content:
-  Loading: Use aria-busy="true" on container
-  Status: Use role="status" for non-critical updates
-  Alert: Use role="alert" for critical messages
-  Live regions: aria-live="${aria_live_politeness:polite}"
+المحتوى الديناميكي:
+  التحميل: استخدم aria-busy="true" على الحاوية
+  الحالة: استخدم role="status" للتحديثات غير الحرجة
+  التنبيه: استخدم role="alert" للرسائل الحرجة
+  المناطق الحية: aria-live="${aria_live_politeness:polite}"
 
-Forms:
-  Required: "required" announced with label
-  Invalid: "invalid entry" with error message
-  Instructions: Announced with label via aria-describedby
+النماذج:
+  الحقل المطلوب: يُعلَن "required" مع التسمية
+  غير صالح: "invalid entry" مع رسالة الخطأ
+  التعليمات: تُعلَن مع التسمية عبر aria-describedby
 ```
 
-### Testing Sequence
-1. Navigate entire page with Tab key, listening to announcements
-2. Test headings navigation (H key in screen reader)
-3. Test landmark navigation (D key / rotor)
-4. Test tables (T key, arrow keys within table)
-5. Test forms (F key, complete form submission)
-6. Test dynamic content updates (verify live regions)
+### تسلسل الاختبار
+1. تنقّل في الصفحة بأكملها بمفتاح Tab مع الاستماع إلى الإعلانات
+2. اختبر التنقل عبر العناوين (مفتاح H في قارئ الشاشة)
+3. اختبر التنقل عبر المعالم (مفتاح D / الدوّار rotor)
+4. اختبر الجداول (مفتاح T، ومفاتيح الأسهم داخل الجدول)
+5. اختبر النماذج (مفتاح F، وأكمل إرسال النموذج)
+6. اختبر تحديثات المحتوى الديناميكي (تحقق من المناطق الحية)
 
-## Color Contrast Requirements
+## متطلبات تباين الألوان
 
-| Text Type | Minimum Ratio | Enhanced (AAA) |
+| نوع النص | الحد الأدنى للنسبة | المُعزَّز (AAA) |
 |-----------|---------------|----------------|
-| Normal text (<${large_text_threshold:18}pt) | ${min_contrast_ratio:4.5}:1 | 7:1 |
-| Large text (>=${large_text_threshold:18}pt or 14pt bold) | 3:1 | 4.5:1 |
-| UI components & graphics | 3:1 | N/A |
-| Focus indicators | 3:1 | N/A |
+| النص العادي (<${large_text_threshold:18}pt) | ${min_contrast_ratio:4.5}:1 | 7:1 |
+| النص الكبير (>=${large_text_threshold:18}pt أو 14pt عريض) | 3:1 | 4.5:1 |
+| مكوّنات واجهة المستخدم والرسومات | 3:1 | لا ينطبق |
+| مؤشرات التركيز | 3:1 | لا ينطبق |
 
-### Contrast Check Process
+### عملية فحص التباين
 ```
-1. Identify all foreground/background color pairs
-2. Calculate contrast ratio: (L1 + 0.05) / (L2 + 0.05)
-   where L1 = lighter luminance, L2 = darker luminance
-3. Common failures to check:
-   - Placeholder text (often too light)
-   - Disabled state (exempt but consider usability)
-   - Links within text (must distinguish from text)
-   - Error/success states on colored backgrounds
-   - Text over images (use overlay or text shadow)
+1. حدّد جميع أزواج ألوان المقدمة/الخلفية
+2. احسب نسبة التباين: (L1 + 0.05) / (L2 + 0.05)
+   حيث L1 = السطوع الأفتح، وL2 = السطوع الأغمق
+3. حالات الفشل الشائعة التي يجب فحصها:
+   - نص العنصر النائب placeholder (غالبًا فاتح جدًا)
+   - الحالة المعطّلة (مستثناة لكن راعِ سهولة الاستخدام)
+   - الروابط داخل النص (يجب تمييزها عن النص)
+   - حالات الخطأ/النجاح على خلفيات ملوّنة
+   - النص فوق الصور (استخدم طبقة تغطية أو ظل للنص)
 ```
 
-## ARIA Implementation Guide
+## دليل تطبيق ARIA
 
-### First Rule of ARIA
-Use native HTML elements when possible. ARIA is for custom widgets only.
+### القاعدة الأولى في ARIA
+استخدم عناصر HTML الأصلية متى أمكن. ARIA مخصّصة للعناصر المخصّصة فقط.
 
 ```html
 <!-- WRONG: ARIA on native element -->
@@ -1348,7 +1349,7 @@ Use native HTML elements when possible. ARIA is for custom widgets only.
 <button type="submit">Submit</button>
 ```
 
-### When ARIA is Needed
+### متى تكون ARIA ضرورية
 ```html
 <!-- Custom tabs -->
 <div role="tablist">
@@ -1374,19 +1375,19 @@ Use native HTML elements when possible. ARIA is for custom widgets only.
 </div>
 ```
 
-### Common ARIA Mistakes
+### أخطاء ARIA الشائعة
 ```
-- role="button" without keyboard support (Enter/Space)
-- aria-label duplicating visible text
-- aria-hidden="true" on focusable elements
-- Missing aria-expanded on disclosure buttons
-- Incorrect aria-controls reference
-- Using aria-describedby for essential information
+- استخدام role="button" دون دعم لوحة المفاتيح (Enter/Space)
+- aria-label يكرّر النص المرئي
+- aria-hidden="true" على عناصر قابلة للتركيز
+- غياب aria-expanded على أزرار الإظهار/الإخفاء
+- مرجع aria-controls غير صحيح
+- استخدام aria-describedby لمعلومات أساسية
 ```
 
-## Form Accessibility Patterns
+## أنماط إمكانية الوصول في النماذج
 
-### Required Form Structure
+### البنية المطلوبة للنموذج
 ```html
 <form>
   <!-- Explicit label association -->
@@ -1408,39 +1409,39 @@ Use native HTML elements when possible. ARIA is for custom widgets only.
 </form>
 ```
 
-### Error Handling Requirements
+### متطلبات معالجة الأخطاء
 ```
-1. Identify the field in error (highlight + icon)
-2. Describe the error in text (not just color)
-3. Associate error with field (aria-describedby)
-4. Announce error to screen readers (role="alert")
-5. Move focus to first error on submit failure
-6. Provide correction suggestions when possible
+1. حدّد الحقل الذي فيه الخطأ (تمييز + أيقونة)
+2. صِف الخطأ نصيًا (وليس باللون فقط)
+3. اربط الخطأ بالحقل (aria-describedby)
+4. أعلِن الخطأ لقارئات الشاشة (role="alert")
+5. انقل التركيز إلى أول خطأ عند فشل الإرسال
+6. قدّم اقتراحات للتصحيح متى أمكن
 ```
 
-## Mobile Accessibility Checklist
+## قائمة التحقق من إمكانية الوصول على الأجهزة المحمولة
 
 ```markdown
-Touch Targets:
-[ ] Minimum ${touch_target_size:44}x${touch_target_size:44} CSS pixels
-[ ] Adequate spacing between targets (${touch_target_spacing:8}px+)
-[ ] Touch action not dependent on gesture path
+أهداف اللمس:
+[ ] الحد الأدنى ${touch_target_size:44}x${touch_target_size:44} بكسل CSS
+[ ] تباعد كافٍ بين الأهداف (${touch_target_spacing:8}px أو أكثر)
+[ ] إجراء اللمس لا يعتمد على مسار الإيماءة
 
-Gestures:
-[ ] Alternative to multi-finger gestures
-[ ] Alternative to path-based gestures (swipe)
-[ ] Motion-based actions have alternatives
+الإيماءات:
+[ ] بديل للإيماءات متعددة الأصابع
+[ ] بديل للإيماءات المعتمدة على المسار (السحب)
+[ ] الإجراءات المعتمدة على الحركة لها بدائل
 
-Screen Reader (iOS/Android):
-[ ] accessibilityLabel set for images and icons
-[ ] accessibilityHint for complex interactions
-[ ] accessibilityRole matches element behavior
-[ ] Focus order follows visual layout
+قارئ الشاشة (iOS/Android):
+[ ] ضبط accessibilityLabel للصور والأيقونات
+[ ] accessibilityHint للتفاعلات المعقدة
+[ ] accessibilityRole يطابق سلوك العنصر
+[ ] ترتيب التركيز يتبع التخطيط المرئي
 ```
 
-## Automated Testing Integration
+## دمج الاختبار الآلي
 
-### Pre-commit Hook
+### خطاف ما قبل الإيداع (Pre-commit Hook)
 ```bash
 #!/bin/bash
 # Run axe-core on changed files
@@ -1451,7 +1452,7 @@ grep -r "onClick.*div\|onClick.*span" src/ && \
   echo "Warning: Click handler on non-interactive element" && exit 1
 ```
 
-### CI Pipeline Checks
+### فحوصات خط CI
 ```yaml
 accessibility-audit:
   script:
@@ -1464,99 +1465,99 @@ accessibility-audit:
     - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
 ```
 
-### Minimum CI Thresholds
+### الحدود الدنيا في CI
 ```
-axe-core: 0 critical violations, 0 serious violations
+axe-core: صفر مخالفات حرجة، صفر مخالفات جسيمة
 Lighthouse accessibility: >= ${lighthouse_a11y_threshold:90}
-pa11y: 0 errors (warnings acceptable)
+pa11y: صفر أخطاء (التحذيرات مقبولة)
 ```
 
-## Remediation Priority Framework
+## إطار أولويات المعالجة
 
 ```
-Priority 1 (This Sprint):
-  - Blocks user task completion
-  - Legal compliance risk
-  - Affects many users
+الأولوية 1 (هذا السبرنت):
+  - تمنع المستخدم من إكمال المهمة
+  - خطر على الامتثال القانوني
+  - تؤثر في عدد كبير من المستخدمين
 
-Priority 2 (Next Sprint):
-  - Degrades experience significantly
-  - Automated tools flag as error
-  - Violates ${wcag_level:AA} requirement
+الأولوية 2 (السبرنت التالي):
+  - تُضعف التجربة بشكل ملحوظ
+  - تُبلغ عنها الأدوات الآلية كخطأ
+  - تخالف متطلبات ${wcag_level:AA}
 
-Priority 3 (Backlog):
-  - Minor inconvenience
-  - Violates AAA only
-  - Affects edge cases
+الأولوية 3 (قائمة الأعمال المؤجلة):
+  - إزعاج بسيط
+  - تخالف AAA فقط
+  - تؤثر في حالات طرفية
 
-Priority 4 (Enhancement):
-  - Improves usability for all
-  - Best practice, not requirement
-  - Future-proofing
+الأولوية 4 (تحسين):
+  - تحسّن سهولة الاستخدام للجميع
+  - أفضل ممارسة، لا متطلب
+  - استعداد للمستقبل
 ```
 
-## Verification Checklist
+## قائمة التحقق النهائية
 
-Before marking accessibility work complete:
+قبل اعتبار عمل إمكانية الوصول مكتملًا:
 
 ```markdown
-Automated:
-[ ] axe-core: 0 violations
+الآلي:
+[ ] axe-core: صفر مخالفات
 [ ] Lighthouse accessibility: ${lighthouse_a11y_threshold:90}+
-[ ] HTML validation passes
-[ ] No console accessibility warnings
+[ ] اجتياز التحقق من صحة HTML
+[ ] لا تحذيرات إمكانية وصول في وحدة التحكم
 
-Keyboard:
-[ ] Complete all tasks keyboard-only
-[ ] Focus visible at all times
-[ ] Tab order logical
-[ ] No keyboard traps
+لوحة المفاتيح:
+[ ] إكمال جميع المهام بلوحة المفاتيح فقط
+[ ] التركيز مرئي في جميع الأوقات
+[ ] ترتيب Tab منطقي
+[ ] لا مصائد لوحة مفاتيح
 
-Screen Reader (test with at least one):
-[ ] All content announced
-[ ] Interactive elements labeled
-[ ] Errors and updates announced
-[ ] Navigation efficient
+قارئ الشاشة (اختبر بواحد على الأقل):
+[ ] كل المحتوى يُعلَن
+[ ] العناصر التفاعلية لها تسميات
+[ ] الأخطاء والتحديثات تُعلَن
+[ ] التنقل فعّال
 
-Visual:
-[ ] All text passes contrast
-[ ] UI components pass contrast
-[ ] Works at ${zoom_level:200}% zoom
-[ ] Works in high contrast mode
-[ ] No seizure-inducing flashing
+المرئي:
+[ ] كل النصوص تجتاز اختبار التباين
+[ ] مكوّنات الواجهة تجتاز اختبار التباين
+[ ] يعمل عند تكبير ${zoom_level:200}%
+[ ] يعمل في وضع التباين العالي
+[ ] لا وميض يسبب نوبات صرع
 
-Forms:
-[ ] All fields labeled
-[ ] Errors identifiable
-[ ] Required fields indicated
-[ ] Instructions available
+النماذج:
+[ ] جميع الحقول لها تسميات
+[ ] الأخطاء قابلة للتحديد
+[ ] الحقول المطلوبة مُشار إليها
+[ ] التعليمات متاحة
 ```
 
-## Documentation Template
+## قالب التوثيق
 
 ```markdown
-# Accessibility Statement
+# بيان إمكانية الوصول
 
-## Conformance Status
-This [website/application] is [fully/partially] conformant with ${compliance_standard:WCAG 2.1} Level ${wcag_level:AA}.
+## حالة المطابقة
+هذا [الموقع/التطبيق] مطابق [كليًا/جزئيًا] لمعيار ${compliance_standard:WCAG 2.1} بالمستوى ${wcag_level:AA}.
 
-## Known Limitations
-| Feature | Issue | Workaround | Timeline |
+## القيود المعروفة
+| الميزة | المشكلة | الحل البديل | الجدول الزمني |
 |---------|-------|------------|----------|
-| [Feature] | [Description] | [Alternative] | [Fix date] |
+| [الميزة] | [الوصف] | [البديل] | [تاريخ الإصلاح] |
 
-## Assistive Technology Tested
-- ${screen_reader:NVDA} [version] with Firefox [version]
-- VoiceOver with Safari [version]
-- JAWS [version] with Chrome [version]
+## التقنيات المساعدة التي تم اختبارها
+- ${screen_reader:NVDA} [الإصدار] مع Firefox [الإصدار]
+- VoiceOver مع Safari [الإصدار]
+- JAWS [الإصدار] مع Chrome [الإصدار]
 
-## Feedback
-Contact [email] for accessibility issues.
-Last updated: [date]
+## الملاحظات
+تواصل عبر [البريد الإلكتروني] بخصوص مشكلات إمكانية الوصول.
+آخر تحديث: [التاريخ]
 ```
 ````
 
-## 620. Accessibility Testing Superpower 🔤
+## 620. القوة الخارقة لاختبار إمكانية الوصول
 
 *الأصل:* Accessibility Testing Superpower · *النوع:* نص
 
@@ -1564,22 +1565,22 @@ Last updated: [date]
 ---
 name: accessibility-testing-superpower
 description: |
-  Performs WCAG compliance audits and accessibility remediation for web applications.
-  Use when: 1) Auditing UI for WCAG 2.1/2.2 compliance 2) Fixing screen reader or keyboard navigation issues 3) Implementing ARIA patterns correctly 4) Reviewing color contrast and visual accessibility 5) Creating accessible forms or interactive components
+  يُجري عمليات تدقيق الامتثال لمعايير WCAG ومعالجة مشكلات إمكانية الوصول لتطبيقات الويب.
+  استخدمه عند: 1) تدقيق واجهة المستخدم للامتثال لـ WCAG 2.1/2.2 2) إصلاح مشكلات قارئ الشاشة أو التنقل بلوحة المفاتيح 3) تطبيق أنماط ARIA بشكل صحيح 4) مراجعة تباين الألوان وإمكانية الوصول المرئية 5) إنشاء نماذج أو مكوّنات تفاعلية قابلة للوصول
 ---
 
-# Accessibility Testing Workflow
+# سير عمل اختبار إمكانية الوصول
 
-## Configuration
+## الإعدادات
 
-- **WCAG Level**: ${wcag_level:AA}
-- **Component Under Test**: ${component_name:Page}
-- **Compliance Standard**: ${compliance_standard:WCAG 2.1}
-- **Minimum Lighthouse Score**: ${lighthouse_score:90}
-- **Primary Screen Reader**: ${screen_reader:NVDA}
-- **Test Framework**: ${test_framework:jest-axe}
+- **مستوى WCAG**: ${wcag_level:AA}
+- **المكوّن قيد الاختبار**: ${component_name:Page}
+- **معيار الامتثال**: ${compliance_standard:WCAG 2.1}
+- **الحد الأدنى لدرجة Lighthouse**: ${lighthouse_score:90}
+- **قارئ الشاشة الأساسي**: ${screen_reader:NVDA}
+- **إطار الاختبار**: ${test_framework:jest-axe}
 
-## Audit Decision Tree
+## شجرة قرارات التدقيق
 
 ```
 Accessibility request received
@@ -1602,21 +1603,22 @@ Accessibility request received
     +-- Document violations by severity
     +-- Create remediation roadmap
 ```
+(الشرح: عند ورود طلب إمكانية وصول: للمكوّن/الصفحة الجديدة ابدأ بالفحص الآلي ثم لوحة المفاتيح وقارئ الشاشة والتباين؛ لإصلاح مخالفة قائمة حدّد معيار النجاح في WCAG وجرّب HTML الدلالي أولًا ثم ARIA عند الحاجة وتحقق بالتقنيات المساعدة؛ ولتدقيق الامتثال افحص آليًا (يكتشف نحو 30% من المشكلات) ثم يدويًا ووثّق المخالفات حسب الخطورة وضع خارطة طريق للمعالجة.)
 
-## WCAG Quick Reference
+## مرجع سريع لـ WCAG
 
-### Severity Classification
+### تصنيف الخطورة
 
-| Severity | Impact | Examples | Fix Timeline |
+| الخطورة | الأثر | أمثلة | مهلة الإصلاح |
 |----------|--------|----------|--------------|
-| Critical | Blocks access entirely | No keyboard focus, empty buttons, missing alt on functional images | Immediate |
-| Serious | Major barriers | Poor contrast, missing form labels, no skip links | Within sprint |
-| Moderate | Difficult but usable | Inconsistent navigation, unclear error messages | Next release |
-| Minor | Inconvenience | Redundant alt text, minor heading order issues | Backlog |
+| حرجة | تمنع الوصول تمامًا | لا تركيز بلوحة المفاتيح، أزرار فارغة، غياب النص البديل في الصور الوظيفية | فورًا |
+| جسيمة | عوائق كبيرة | تباين ضعيف، غياب تسميات حقول النماذج، غياب روابط التخطي | خلال السبرنت |
+| متوسطة | صعبة لكن قابلة للاستخدام | تنقل غير متسق، رسائل خطأ غير واضحة | الإصدار التالي |
+| طفيفة | إزعاج | نص بديل زائد عن الحاجة، مشكلات بسيطة في ترتيب العناوين | قائمة الأعمال المؤجلة |
 
-### Common Violations and Fixes
+### المخالفات الشائعة وإصلاحاتها
 
-**Missing accessible name**
+**غياب الاسم القابل للوصول**
 ```html
 <!-- Violation -->
 <button><svg>...</svg></button>
@@ -1628,7 +1630,7 @@ Accessibility request received
 <button><span class="sr-only">Close dialog</span><svg>...</svg></button>
 ```
 
-**Form label association**
+**ربط تسمية حقل النموذج**
 ```html
 <!-- Violation -->
 <label>Email</label>
@@ -1642,17 +1644,17 @@ Accessibility request received
 <label>Email <input type="email"></label>
 ```
 
-**Color contrast failure**
+**فشل تباين الألوان**
 ```
-Minimum ratios (WCAG ${wcag_level:AA}):
-- Normal text (<${large_text_size:18}px or <${bold_text_size:14}px bold): ${contrast_ratio_normal:4.5}:1
-- Large text (>=${large_text_size:18}px or >=${bold_text_size:14}px bold): ${contrast_ratio_large:3}:1
-- UI components and graphics: 3:1
+النسب الدنيا (WCAG ${wcag_level:AA}):
+- النص العادي (<${large_text_size:18}px أو <${bold_text_size:14}px عريض): ${contrast_ratio_normal:4.5}:1
+- النص الكبير (>=${large_text_size:18}px أو >=${bold_text_size:14}px عريض): ${contrast_ratio_large:3}:1
+- مكوّنات الواجهة والرسومات: 3:1
 
-Tools: WebAIM Contrast Checker, browser DevTools
+الأدوات: WebAIM Contrast Checker، وأدوات المطوّر في المتصفح DevTools
 ```
 
-**Focus visibility**
+**وضوح التركيز**
 ```css
 /* Never do this without alternative */
 :focus { outline: none; }
@@ -1664,7 +1666,7 @@ Tools: WebAIM Contrast Checker, browser DevTools
 }
 ```
 
-## ARIA Decision Framework
+## إطار قرارات ARIA
 
 ```
 Need to convey information to assistive technology?
@@ -1679,10 +1681,11 @@ Need to convey information to assistive technology?
     +-- Property: What relationship? (aria-labelledby, aria-describedby)
     +-- Live region: Dynamic content? (aria-live="${aria_live_mode:polite}")
 ```
+(الشرح: إن احتجت إلى إيصال معلومة للتقنيات المساعدة فاستخدم HTML الدلالي إن أمكن، وإلا فاختر نوع ARIA المناسب: الدور (ما هو العنصر)، أو الحالة (وضعه)، أو الخاصية (علاقته)، أو المنطقة الحية (للمحتوى الديناميكي).)
 
-### ARIA Patterns for Common Widgets
+### أنماط ARIA للعناصر الشائعة
 
-**Disclosure (show/hide)**
+**الإظهار/الإخفاء (Disclosure)**
 ```html
 <button aria-expanded="false" aria-controls="content-1">
   Show details
@@ -1692,7 +1695,7 @@ Need to convey information to assistive technology?
 </div>
 ```
 
-**Tab interface**
+**واجهة علامات التبويب**
 ```html
 <div role="tablist" aria-label="${component_name:Settings}">
   <button role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1">
@@ -1706,7 +1709,7 @@ Need to convey information to assistive technology?
 <div role="tabpanel" id="panel-2" aria-labelledby="tab-2" hidden>...</div>
 ```
 
-**Modal dialog**
+**نافذة الحوار المنبثقة**
 ```html
 <div role="dialog" aria-modal="true" aria-labelledby="dialog-title">
   <h2 id="dialog-title">Confirm action</h2>
@@ -1716,23 +1719,23 @@ Need to convey information to assistive technology?
 </div>
 ```
 
-## Keyboard Navigation Checklist
+## قائمة التحقق من التنقل بلوحة المفاتيح
 
 ```
-[ ] All interactive elements focusable with Tab
-[ ] Focus order matches visual/logical order
-[ ] Focus visible on all elements
-[ ] No keyboard traps (can always Tab out)
-[ ] Skip link as first focusable element
-[ ] Escape closes modals/dropdowns
-[ ] Arrow keys navigate within widgets (tabs, menus, grids)
-[ ] Enter/Space activates buttons and links
-[ ] Custom shortcuts documented and configurable
+[ ] جميع العناصر التفاعلية قابلة للتركيز بمفتاح Tab
+[ ] ترتيب التركيز يطابق الترتيب المرئي/المنطقي
+[ ] التركيز مرئي على جميع العناصر
+[ ] لا مصائد لوحة مفاتيح (يمكن دائمًا الخروج بـ Tab)
+[ ] رابط التخطي هو أول عنصر قابل للتركيز
+[ ] مفتاح Escape يغلق النوافذ المنبثقة/القوائم المنسدلة
+[ ] مفاتيح الأسهم تتنقل داخل العناصر (علامات التبويب، القوائم، الشبكات)
+[ ] Enter/Space يفعّلان الأزرار والروابط
+[ ] الاختصارات المخصّصة موثّقة وقابلة للتهيئة
 ```
 
-### Focus Management Patterns
+### أنماط إدارة التركيز
 
-**Modal focus trap**
+**حبس التركيز في النافذة المنبثقة**
 ```javascript
 // On modal open:
 // 1. Save previously focused element
@@ -1743,7 +1746,7 @@ Need to convey information to assistive technology?
 // 1. Return focus to saved element
 ```
 
-**Dynamic content**
+**المحتوى الديناميكي**
 ```javascript
 // After adding content:
 // - Announce via aria-live region, OR
@@ -1754,38 +1757,38 @@ Need to convey information to assistive technology?
 // - Never leave focus on removed element
 ```
 
-## Screen Reader Testing
+## اختبار قارئ الشاشة
 
-### Announcement Verification
+### التحقق من الإعلانات
 
-| Element | Should Announce |
+| العنصر | يجب أن يُعلِن |
 |---------|-----------------|
-| Button | Role + name + state ("Submit button") |
-| Link | Name + "link" ("Home page link") |
-| Image | Alt text OR "decorative" (skip) |
-| Heading | Level + text ("Heading level 2, About us") |
-| Form field | Label + type + state + instructions |
-| Error | Error message + field association |
+| الزر | الدور + الاسم + الحالة ("Submit button") |
+| الرابط | الاسم + "link" ("Home page link") |
+| الصورة | النص البديل أو "زخرفية" (تُتخطّى) |
+| العنوان | المستوى + النص ("Heading level 2, About us") |
+| حقل النموذج | التسمية + النوع + الحالة + التعليمات |
+| الخطأ | رسالة الخطأ + ربطها بالحقل |
 
-### Testing Commands (Quick Reference)
+### أوامر الاختبار (مرجع سريع)
 
 **VoiceOver (macOS)**
 - VO = Ctrl + Option
-- VO + A: Read all
-- VO + Right/Left: Navigate elements
-- VO + Cmd + H: Next heading
-- VO + Cmd + J: Next form control
+- VO + A: قراءة الكل
+- VO + Right/Left: التنقل بين العناصر
+- VO + Cmd + H: العنوان التالي
+- VO + Cmd + J: عنصر التحكم التالي في النموذج
 
 **${screen_reader:NVDA} (Windows)**
-- NVDA + Down: Read all
-- Tab: Next focusable
-- H: Next heading
-- F: Next form field
-- B: Next button
+- NVDA + Down: قراءة الكل
+- Tab: العنصر التالي القابل للتركيز
+- H: العنوان التالي
+- F: حقل النموذج التالي
+- B: الزر التالي
 
-## Automated Testing Integration
+## دمج الاختبار الآلي
 
-### axe-core in tests
+### axe-core في الاختبارات
 ```javascript
 // ${test_framework:jest-axe}
 import { axe, toHaveNoViolations } from 'jest-axe';
@@ -1798,7 +1801,7 @@ test('${component_name:component} is accessible', async () => {
 });
 ```
 
-### Lighthouse CI threshold
+### حد Lighthouse CI
 ```javascript
 // lighthouserc.js
 module.exports = {
@@ -1808,693 +1811,695 @@ module.exports = {
 };
 ```
 
-## Remediation Priority Matrix
+## مصفوفة أولويات المعالجة
 
 ```
-Impact vs Effort:
-                    Low Effort    High Effort
-High Impact     |   DO FIRST   |   PLAN NEXT   |
-                |   alt text   |   redesign    |
-                |   labels     |   nav rebuild |
+الأثر مقابل الجهد:
+                    جهد منخفض      جهد مرتفع
+أثر مرتفع       |   نفّذه أولًا  |   خطّط له تاليًا |
+                |   النص البديل |   إعادة التصميم  |
+                |   التسميات    |   إعادة بناء التنقل |
 ----------------|--------------|---------------|
-Low Impact      |   QUICK WIN  |   BACKLOG     |
-                |   contrast   |   nice-to-have|
-                |   tweaks     |   enhancements|
+أثر منخفض       |   مكسب سريع   |   قائمة مؤجلة   |
+                |   تعديلات     |   تحسينات       |
+                |   التباين     |   اختيارية      |
 ```
 
-## Verification Checklist
+## قائمة التحقق النهائية
 
-Before marking accessibility work complete:
+قبل اعتبار عمل إمكانية الوصول مكتملًا:
 
 ```
-Automated Testing:
-[ ] axe-core reports zero violations
+الاختبار الآلي:
+[ ] axe-core يُبلغ عن صفر مخالفات
 [ ] Lighthouse accessibility >= ${lighthouse_score:90}
-[ ] HTML validator passes (affects AT parsing)
+[ ] اجتياز مدقق HTML (يؤثر في تحليل التقنيات المساعدة)
 
-Keyboard Testing:
-[ ] Full task completion without mouse
-[ ] Visible focus at all times
-[ ] Logical tab order
-[ ] No traps
+اختبار لوحة المفاتيح:
+[ ] إكمال المهام كاملة دون فأرة
+[ ] تركيز مرئي في جميع الأوقات
+[ ] ترتيب Tab منطقي
+[ ] لا مصائد
 
-Screen Reader Testing:
-[ ] Tested with at least one screen reader (${screen_reader:NVDA})
-[ ] All content announced correctly
-[ ] Interactive elements have roles/states
-[ ] Dynamic updates announced
+اختبار قارئ الشاشة:
+[ ] الاختبار بقارئ شاشة واحد على الأقل (${screen_reader:NVDA})
+[ ] كل المحتوى يُعلَن بشكل صحيح
+[ ] العناصر التفاعلية لها أدوار/حالات
+[ ] التحديثات الديناميكية تُعلَن
 
-Visual Testing:
-[ ] Contrast ratios verified (${contrast_ratio_normal:4.5}:1 minimum)
-[ ] Works at ${zoom_level:200}% zoom
-[ ] No information conveyed by color alone
-[ ] Respects prefers-reduced-motion
+الاختبار المرئي:
+[ ] التحقق من نسب التباين (${contrast_ratio_normal:4.5}:1 حدًا أدنى)
+[ ] يعمل عند تكبير ${zoom_level:200}%
+[ ] لا تُنقل معلومة باللون وحده
+[ ] يحترم prefers-reduced-motion
 ```
 ````
 
-## 621. Agent Organization Expert 🔤
+## 621. خبير تنظيم الوكلاء
 
 *الأصل:* Agent Organization Expert · *النوع:* نص
 
 ```
 ---
 name: agent-organization-expert
-description: Multi-agent orchestration skill for team assembly, task decomposition, workflow optimization, and coordination strategies to achieve optimal team performance and resource utilization.
+description: مهارة لتنسيق الوكلاء المتعددين تشمل تكوين الفرق، وتفكيك المهام، وتحسين سير العمل، واستراتيجيات التنسيق لتحقيق أفضل أداء للفريق واستغلال أمثل للموارد.
 ---
 
-# Agent Organization
+# تنظيم الوكلاء
 
-Assemble and coordinate multi-agent teams through systematic task analysis, capability mapping, and workflow design.
+كوّن فرقًا من الوكلاء المتعددين ونسّق بينها عبر تحليل منهجي للمهام، ورسم خرائط القدرات، وتصميم سير العمل.
 
-## Configuration
+## الإعدادات
 
-- **Agent Count**: ${agent_count:3}
-- **Task Type**: ${task_type:general}
-- **Orchestration Pattern**: ${orchestration_pattern:parallel}
-- **Max Concurrency**: ${max_concurrency:5}
-- **Timeout (seconds)**: ${timeout_seconds:300}
-- **Retry Count**: ${retry_count:3}
+- **عدد الوكلاء**: ${agent_count:3}
+- **نوع المهمة**: ${task_type:general}
+- **نمط التنسيق**: ${orchestration_pattern:parallel}
+- **الحد الأقصى للتزامن**: ${max_concurrency:5}
+- **المهلة (بالثواني)**: ${timeout_seconds:300}
+- **عدد مرات إعادة المحاولة**: ${retry_count:3}
 
-## Core Process
+## العملية الأساسية
 
-1. **Analyze Requirements**: Understand task scope, constraints, and success criteria
-2. **Map Capabilities**: Match available agents to required skills
-3. **Design Workflow**: Create execution plan with dependencies and checkpoints
-4. **Orchestrate Execution**: Coordinate ${agent_count:3} agents and monitor progress
-5. **Optimize Continuously**: Adapt based on performance feedback
+1. **تحليل المتطلبات**: افهم نطاق المهمة وقيودها ومعايير نجاحها
+2. **رسم خريطة القدرات**: طابق الوكلاء المتاحين مع المهارات المطلوبة
+3. **تصميم سير العمل**: أنشئ خطة تنفيذ تتضمن التبعيات ونقاط التحقق
+4. **تنسيق التنفيذ**: نسّق بين ${agent_count:3} وكلاء وراقب التقدم
+5. **التحسين المستمر**: تكيّف بناءً على ملاحظات الأداء
 
-## Task Decomposition
+## تفكيك المهام
 
-### Requirement Analysis
-- Break complex tasks into discrete subtasks
-- Identify input/output requirements for each subtask
-- Estimate complexity and resource needs per component
-- Define clear success criteria for each unit
+### تحليل المتطلبات
+- قسّم المهام المعقدة إلى مهام فرعية منفصلة
+- حدّد متطلبات المدخلات/المخرجات لكل مهمة فرعية
+- قدّر التعقيد واحتياجات الموارد لكل مكوّن
+- حدّد معايير نجاح واضحة لكل وحدة
 
-### Dependency Mapping
-- Document task execution order constraints
-- Identify data dependencies between subtasks
-- Map resource sharing requirements
-- Detect potential bottlenecks and conflicts
+### رسم خريطة التبعيات
+- وثّق قيود ترتيب تنفيذ المهام
+- حدّد تبعيات البيانات بين المهام الفرعية
+- ارسم خريطة متطلبات مشاركة الموارد
+- اكتشف الاختناقات والتعارضات المحتملة
 
-### Timeline Planning
-- Sequence tasks respecting dependencies
-- Identify parallelization opportunities (up to ${max_concurrency:5} concurrent)
-- Allocate buffer time for high-risk components
-- Define checkpoints for progress validation
+### تخطيط الجدول الزمني
+- رتّب المهام مع مراعاة التبعيات
+- حدّد فرص التنفيذ المتوازي (حتى ${max_concurrency:5} مهام متزامنة)
+- خصّص وقتًا احتياطيًا للمكوّنات عالية المخاطر
+- حدّد نقاط تحقق للتأكد من التقدم
 
-## Agent Selection
+## اختيار الوكلاء
 
-### Capability Matching
-Select agents based on:
-- Required skills versus agent specializations
-- Historical performance on similar tasks
-- Current availability and workload capacity
-- Cost efficiency for the task complexity
+### مطابقة القدرات
+اختر الوكلاء بناءً على:
+- المهارات المطلوبة مقارنةً بتخصصات الوكلاء
+- الأداء السابق في مهام مماثلة
+- التوفر الحالي والقدرة على تحمّل عبء العمل
+- كفاءة التكلفة بالنسبة لتعقيد المهمة
 
-### Selection Criteria Priority
-1. **Capability fit**: Agent must possess required skills
-2. **Track record**: Prefer agents with proven success
-3. **Availability**: Sufficient capacity for timely completion
-4. **Cost**: Optimize resource utilization within constraints
+### أولويات معايير الاختيار
+1. **ملاءمة القدرات**: يجب أن يمتلك الوكيل المهارات المطلوبة
+2. **السجل السابق**: فضّل الوكلاء ذوي النجاح المثبت
+3. **التوفر**: قدرة كافية لإنجاز المهمة في الوقت المناسب
+4. **التكلفة**: حسّن استغلال الموارد ضمن القيود
 
-### Backup Planning
-- Identify alternate agents for critical roles
-- Define failover triggers and handoff procedures
-- Maintain redundancy for single-point-of-failure tasks
+### التخطيط الاحتياطي
+- حدّد وكلاء بديلين للأدوار الحرجة
+- عرّف محفزات التحويل عند الفشل وإجراءات التسليم
+- حافظ على التكرار الاحتياطي للمهام التي تمثل نقطة فشل وحيدة
 
-## Team Assembly
+## تكوين الفريق
 
-### Composition Principles
-- Ensure complete skill coverage for all subtasks
-- Balance workload across ${agent_count:3} team members
-- Minimize communication overhead
-- Include redundancy for critical functions
+### مبادئ التكوين
+- اضمن تغطية كاملة للمهارات في جميع المهام الفرعية
+- وازن عبء العمل بين أعضاء الفريق الـ ${agent_count:3}
+- قلّل عبء التواصل إلى الحد الأدنى
+- أدرج تكرارًا احتياطيًا للوظائف الحرجة
 
-### Role Assignment
-- Match agents to subtasks based on strength
-- Define clear ownership and accountability
-- Establish communication channels between dependent roles
-- Document escalation paths for blockers
+### توزيع الأدوار
+- طابق الوكلاء مع المهام الفرعية بناءً على نقاط قوتهم
+- حدّد الملكية والمسؤولية بوضوح
+- أنشئ قنوات تواصل بين الأدوار المترابطة
+- وثّق مسارات التصعيد عند وجود عوائق
 
-### Team Sizing
-- Smaller teams for tightly coupled tasks
-- Larger teams for parallelizable workloads
-- Consider coordination overhead in sizing decisions
-- Scale dynamically based on progress
+### تحديد حجم الفريق
+- فرق أصغر للمهام شديدة الترابط
+- فرق أكبر لأعباء العمل القابلة للتوازي
+- راعِ عبء التنسيق عند اتخاذ قرارات الحجم
+- وسّع الفريق ديناميكيًا بناءً على التقدم
 
-## Orchestration Patterns
+## أنماط التنسيق
 
-### Sequential Execution
-Use when tasks have strict ordering requirements:
-- Task B requires output from Task A
-- State must be consistent between steps
-- Error handling requires ordered rollback
+### التنفيذ المتسلسل
+استخدمه عندما يكون للمهام متطلبات ترتيب صارمة:
+- المهمة B تتطلب مخرجات المهمة A
+- يجب أن تبقى الحالة متسقة بين الخطوات
+- معالجة الأخطاء تتطلب تراجعًا مرتبًا
 
-### Parallel Processing
-Use when tasks are independent (${orchestration_pattern:parallel}):
-- No data dependencies between tasks
-- Separate resource requirements
-- Results can be aggregated after completion
-- Maximum ${max_concurrency:5} concurrent operations
+### المعالجة المتوازية
+استخدمها عندما تكون المهام مستقلة (${orchestration_pattern:parallel}):
+- لا تبعيات بيانات بين المهام
+- متطلبات موارد منفصلة
+- يمكن تجميع النتائج بعد الاكتمال
+- بحد أقصى ${max_concurrency:5} عمليات متزامنة
 
-### Pipeline Pattern
-Use for streaming or continuous processing:
-- Each stage processes and forwards results
-- Enables concurrent execution of different stages
-- Reduces overall latency for multi-step workflows
+### نمط خط الأنابيب (Pipeline)
+استخدمه للمعالجة المتدفقة أو المستمرة:
+- كل مرحلة تعالج النتائج وتمررها
+- يتيح التنفيذ المتزامن لمراحل مختلفة
+- يقلل زمن الاستجابة الإجمالي في سير العمل متعدد الخطوات
 
-### Hierarchical Delegation
-Use for complex tasks requiring sub-orchestration:
-- Lead agent coordinates sub-teams
-- Each sub-team handles a domain
-- Results aggregate upward through hierarchy
+### التفويض الهرمي
+استخدمه للمهام المعقدة التي تتطلب تنسيقًا فرعيًا:
+- وكيل قائد ينسّق بين فرق فرعية
+- كل فريق فرعي يتولى مجالًا
+- تتجمع النتائج صعودًا عبر التسلسل الهرمي
 
 ### Map-Reduce
-Use for large-scale data processing:
-- Map phase distributes work across agents
-- Each agent processes a partition
-- Reduce phase combines results
+استخدمه لمعالجة البيانات واسعة النطاق:
+- مرحلة Map توزّع العمل على الوكلاء
+- كل وكيل يعالج جزءًا من البيانات
+- مرحلة Reduce تجمع النتائج
 
-## Workflow Design
+## تصميم سير العمل
 
-### Process Structure
-1. **Entry point**: Validate inputs and initialize state
-2. **Execution phases**: Ordered task groupings
-3. **Checkpoints**: State persistence and validation points
-4. **Exit point**: Result aggregation and cleanup
+### بنية العملية
+1. **نقطة الدخول**: تحقق من صحة المدخلات وهيّئ الحالة
+2. **مراحل التنفيذ**: مجموعات مهام مرتبة
+3. **نقاط التحقق**: نقاط لحفظ الحالة والتحقق منها
+4. **نقطة الخروج**: تجميع النتائج والتنظيف
 
-### Control Flow
-- Define branching conditions for alternative paths
-- Specify retry policies for transient failures (max ${retry_count:3} retries)
-- Establish timeout thresholds per phase (${timeout_seconds:300}s default)
-- Plan graceful degradation for partial failures
+### تدفق التحكم
+- حدّد شروط التفرّع للمسارات البديلة
+- حدّد سياسات إعادة المحاولة للإخفاقات العابرة (بحد أقصى ${retry_count:3} محاولات)
+- ضع حدود مهلة لكل مرحلة (${timeout_seconds:300} ثانية افتراضيًا)
+- خطّط للتدهور التدريجي عند الإخفاقات الجزئية
 
-### Data Flow
-- Document data transformations between stages
-- Specify data formats and validation rules
-- Plan for data persistence at checkpoints
-- Handle data cleanup after completion
+### تدفق البيانات
+- وثّق تحويلات البيانات بين المراحل
+- حدّد صيغ البيانات وقواعد التحقق منها
+- خطّط لحفظ البيانات عند نقاط التحقق
+- تعامل مع تنظيف البيانات بعد الاكتمال
 
-## Coordination Strategies
+## استراتيجيات التنسيق
 
-### Communication Patterns
-- **Direct**: Agent-to-agent for tight coupling
-- **Broadcast**: One-to-many for status updates
-- **Queue-based**: Asynchronous for decoupled tasks
-- **Event-driven**: Reactive to state changes
+### أنماط التواصل
+- **مباشر**: من وكيل إلى وكيل في حالات الترابط الوثيق
+- **بث**: من واحد إلى متعدد لتحديثات الحالة
+- **قائم على الطوابير**: غير متزامن للمهام غير المترابطة
+- **قائم على الأحداث**: يستجيب لتغيّرات الحالة
 
-### Synchronization
-- Define sync points for dependent tasks
-- Implement waiting mechanisms with timeouts (${timeout_seconds:300}s)
-- Handle out-of-order completion gracefully
-- Maintain consistent state across agents
+### المزامنة
+- حدّد نقاط مزامنة للمهام المترابطة
+- طبّق آليات انتظار مع مهلات (${timeout_seconds:300} ثانية)
+- تعامل بسلاسة مع اكتمال المهام بترتيب غير متوقع
+- حافظ على حالة متسقة بين الوكلاء
 
-### Conflict Resolution
-- Establish priority rules for resource contention
-- Define arbitration mechanisms for conflicts
-- Document rollback procedures for deadlocks
-- Prevent conflicts through careful scheduling
+### حل التعارضات
+- ضع قواعد أولوية عند التنافس على الموارد
+- حدّد آليات تحكيم للتعارضات
+- وثّق إجراءات التراجع في حالات الجمود (deadlocks)
+- امنع التعارضات عبر الجدولة الدقيقة
 
-## Performance Optimization
+## تحسين الأداء
 
-### Load Balancing
-- Distribute work based on agent capacity
-- Monitor utilization and rebalance dynamically
-- Avoid overloading high-performing agents
-- Consider agent locality for data-intensive tasks
+### موازنة الحمل
+- وزّع العمل بناءً على قدرة الوكلاء
+- راقب الاستخدام وأعد الموازنة ديناميكيًا
+- تجنّب إثقال الوكلاء ذوي الأداء العالي
+- راعِ قرب الوكلاء من البيانات في المهام كثيفة البيانات
 
-### Bottleneck Management
-- Identify slow stages through monitoring
-- Add capacity to constrained resources
-- Restructure workflows to reduce dependencies
-- Cache intermediate results where beneficial
+### إدارة الاختناقات
+- حدّد المراحل البطيئة عبر المراقبة
+- أضف قدرة إلى الموارد المقيّدة
+- أعد هيكلة سير العمل لتقليل التبعيات
+- خزّن النتائج الوسيطة مؤقتًا حيث يفيد ذلك
 
-### Resource Efficiency
-- Pool shared resources across agents
-- Release resources promptly after use
-- Batch similar operations to reduce overhead
-- Monitor and alert on resource waste
+### كفاءة الموارد
+- اجمع الموارد المشتركة بين الوكلاء
+- حرّر الموارد فور الانتهاء من استخدامها
+- اجمع العمليات المتشابهة في دفعات لتقليل العبء
+- راقب هدر الموارد وأطلق تنبيهات بشأنه
 
-## Monitoring and Adaptation
+## المراقبة والتكيّف
 
-### Progress Tracking
-- Monitor completion status per task
-- Track time spent versus estimates
-- Identify tasks at risk of delay
-- Report aggregated progress to stakeholders
+### تتبّع التقدم
+- راقب حالة الاكتمال لكل مهمة
+- تتبّع الوقت المستغرق مقارنةً بالتقديرات
+- حدّد المهام المعرّضة للتأخير
+- أبلغ أصحاب المصلحة بالتقدم الإجمالي
 
-### Performance Metrics
-- Task completion rate and latency
-- Agent utilization and throughput
-- Error rates and recovery times
-- Resource consumption and cost
+### مقاييس الأداء
+- معدل إكمال المهام وزمن الاستجابة
+- استخدام الوكلاء وإنتاجيتهم
+- معدلات الأخطاء وأزمنة التعافي
+- استهلاك الموارد والتكلفة
 
-### Dynamic Adjustment
-- Reallocate agents based on progress
-- Adjust priorities based on blockers
-- Scale team size based on workload
-- Modify workflow based on learning
+### التعديل الديناميكي
+- أعد توزيع الوكلاء بناءً على التقدم
+- عدّل الأولويات بناءً على العوائق
+- وسّع حجم الفريق أو قلّصه بناءً على عبء العمل
+- عدّل سير العمل بناءً على ما تتعلمه
 
-## Error Handling
+## معالجة الأخطاء
 
-### Failure Detection
-- Monitor for task failures and timeouts (${timeout_seconds:300}s threshold)
-- Detect agent unavailability promptly
-- Identify cascade failure patterns
-- Alert on anomalous behavior
+### اكتشاف الإخفاقات
+- راقب إخفاقات المهام وتجاوز المهلات (حد ${timeout_seconds:300} ثانية)
+- اكتشف عدم توفر الوكلاء بسرعة
+- حدّد أنماط الإخفاقات المتتالية
+- أطلق تنبيهات عند السلوك غير الطبيعي
 
-### Recovery Procedures
-- Retry transient failures with backoff (up to ${retry_count:3} attempts)
-- Failover to backup agents when needed
-- Rollback to last checkpoint on critical failure
-- Escalate unrecoverable issues
+### إجراءات التعافي
+- أعد محاولة الإخفاقات العابرة مع تأخير متزايد (حتى ${retry_count:3} محاولات)
+- حوّل إلى وكلاء احتياطيين عند الحاجة
+- تراجع إلى آخر نقطة تحقق عند الإخفاق الحرج
+- صعّد المشكلات غير القابلة للتعافي
 
-### Prevention
-- Validate inputs before execution
-- Test agent availability before assignment
-- Design for graceful degradation
-- Build redundancy into critical paths
+### الوقاية
+- تحقق من صحة المدخلات قبل التنفيذ
+- اختبر توفر الوكلاء قبل التكليف
+- صمّم للتدهور التدريجي
+- أدمج التكرار الاحتياطي في المسارات الحرجة
 
-## Quality Assurance
+## ضمان الجودة
 
-### Validation Gates
-- Verify outputs at each checkpoint
-- Cross-check results from parallel tasks
-- Validate final aggregated results
-- Confirm success criteria are met
+### بوابات التحقق
+- تحقق من المخرجات عند كل نقطة تحقق
+- قارن نتائج المهام المتوازية ببعضها
+- تحقق من صحة النتائج النهائية المجمّعة
+- تأكد من استيفاء معايير النجاح
 
-### Performance Standards
-- Agent selection accuracy target: >${agent_selection_accuracy:95}%
-- Task completion rate target: >${task_completion_rate:99}%
-- Response time target: <${response_time_threshold:5} seconds
-- Resource utilization: optimal range ${utilization_min:60}-${utilization_max:80}%
+### معايير الأداء
+- هدف دقة اختيار الوكلاء: >${agent_selection_accuracy:95}%
+- هدف معدل إكمال المهام: >${task_completion_rate:99}%
+- هدف زمن الاستجابة: <${response_time_threshold:5} ثوانٍ
+- استخدام الموارد: النطاق الأمثل ${utilization_min:60}-${utilization_max:80}%
 
-## Best Practices
+## أفضل الممارسات
 
-### Planning
-- Invest time in thorough task analysis
-- Document assumptions and constraints
-- Plan for failure scenarios upfront
-- Define clear success metrics
+### التخطيط
+- استثمر الوقت في تحليل شامل للمهام
+- وثّق الافتراضات والقيود
+- خطّط لسيناريوهات الإخفاق مسبقًا
+- حدّد مقاييس نجاح واضحة
 
-### Execution
-- Start with minimal viable team (${agent_count:3} agents)
-- Scale based on observed needs
-- Maintain clear communication channels
-- Track progress against milestones
+### التنفيذ
+- ابدأ بأصغر فريق قابل للعمل (${agent_count:3} وكلاء)
+- توسّع بناءً على الاحتياجات الملاحظة
+- حافظ على قنوات تواصل واضحة
+- تتبّع التقدم مقارنةً بالمعالم الرئيسية
 
-### Learning
-- Capture performance data for analysis
-- Identify patterns in successes and failures
-- Refine selection and coordination strategies
-- Share learnings across future orchestrations
+### التعلّم
+- اجمع بيانات الأداء لتحليلها
+- حدّد الأنماط في النجاحات والإخفاقات
+- حسّن استراتيجيات الاختيار والتنسيق
+- شارك ما تعلمته في عمليات التنسيق المستقبلية
 ```
 
-## 622. Hyper-Realistic X-Wing Battle Damage Images 🔤
+## 622. صور فائقة الواقعية لأضرار معركة في مركبة X-Wing
 
 *الأصل:* Hyper-Realistic X-Wing Battle Damage Images · *النوع:* نص
 
 ```
-İmparatorluk güçleri ile bir çatışmadan yeni dönmüş ve orta seviyede hasarlanmış bir X-Wing'in hiper-realistik detay fotoğraflarını oluştur, 4 adet olsun
+أنشئ صورًا تفصيلية فائقة الواقعية لمركبة X-Wing عادت للتو من اشتباك مع القوات الإمبراطورية وتعرّضت لأضرار متوسطة، على أن يكون عددها 4 صور.
 ```
 
-## 623. FDTD Simulations of Nanoparticles 🔤
+## 623. محاكاة FDTD للجسيمات النانوية
 
 *الأصل:* FDTD Simulations of Nanoparticles · *النوع:* نص
 
 ```
-Act as a simulation expert. You are tasked with creating FDTD simulations to analyze nanoparticles.
+تصرّف كخبير محاكاة. مهمتك إنشاء محاكاة FDTD لتحليل الجسيمات النانوية.
 
-Task 1: Gold Nanoparticles
-- Simulate absorption and scattering cross-sections for gold nanospheres with diameters from 20 to 100 nm in 20 nm increments.
-- Use the visible wavelength region, with the injection axis as x.
-- Set the total frequency points to 51, adjustable for smoother plots.
-- Choose an appropriate mesh size for accuracy.
-- Determine wavelengths of maximum electric field enhancement for each nanoparticle.
-- Analyze how diameter changes affect the appearance of gold nanoparticle solutions.
-- Rank 20, 40, and 80 nm nanoparticles by dipole-like optical response and light scattering.
+المهمة 1: جسيمات الذهب النانوية
+- حاكِ المقاطع العرضية للامتصاص والتشتت لكرات الذهب النانوية بأقطار من 20 إلى 100 نانومتر بزيادات قدرها 20 نانومتر.
+- استخدم منطقة الأطوال الموجية المرئية، مع جعل محور الحقن هو x.
+- اضبط إجمالي نقاط التردد على 51، مع إمكانية تعديلها للحصول على منحنيات أكثر سلاسة.
+- اختر حجم شبكة (mesh) مناسبًا لضمان الدقة.
+- حدّد الأطوال الموجية التي يبلغ عندها تعزيز المجال الكهربائي أقصاه لكل جسيم نانوي.
+- حلّل كيف تؤثر تغيّرات القطر في مظهر محاليل جسيمات الذهب النانوية.
+- رتّب الجسيمات النانوية ذات الأقطار 20 و40 و80 نانومتر حسب استجابتها البصرية الشبيهة بثنائي القطب وتشتيتها للضوء.
 
-Task 2: Dielectric Nanoparticles
-- Simulate absorption and scattering cross-sections for three dielectric shapes: a sphere (radius 50 nm), a cube (100 nm side), and a cylinder (radius 50 nm, height 100 nm).
-- Use refractive index of 4.0, with no imaginary part, and a wavelength range from 0.4 µm to 1.0 µm.
-- Injection axis is z, with 51 frequency points, adjustable mesh sizes for accuracy.
-- Analyze absorption cross-sections and comment on shape effects on scattering cross-sections.
+المهمة 2: الجسيمات النانوية العازلة
+- حاكِ المقاطع العرضية للامتصاص والتشتت لثلاثة أشكال عازلة: كرة (نصف قطرها 50 نانومتر)، ومكعب (طول ضلعه 100 نانومتر)، وأسطوانة (نصف قطرها 50 نانومتر وارتفاعها 100 نانومتر).
+- استخدم معامل انكسار قدره 4.0 دون جزء تخيلي، ونطاق أطوال موجية من 0.4 ميكرومتر إلى 1.0 ميكرومتر.
+- محور الحقن هو z، مع 51 نقطة تردد، وأحجام شبكة قابلة للتعديل لضمان الدقة.
+- حلّل المقاطع العرضية للامتصاص وعلّق على تأثير الشكل في المقاطع العرضية للتشتت.
 ```
 
-## 624. Secteur Bancaire - Analyse rapide d’un tableau de données 🔤
+## 624. القطاع المصرفي - تحليل سريع لجدول بيانات
 
 *الأصل:* Secteur Bancaire - Analyse rapide d’un tableau de données · *النوع:* نص
 
 ```
-Analyse le tableau suivant et identifie :
-– Les principales tendances
-– Les évolutions remarquables
-– Les points d’attention éventuels
+حلّل الجدول التالي وحدّد:
+– الاتجاهات الرئيسية
+– التطورات اللافتة
+– نقاط الانتباه المحتملة
 
-Présente ensuite un résumé exécutif de 5 à 7 phrases adapté à un public financier.
+ثم قدّم ملخصًا تنفيذيًا من 5 إلى 7 جمل مناسبًا لجمهور مالي.
 
-Données à analyser :
+البيانات المطلوب تحليلها:
 ```
 
-## 625. Secteur Bancaire - Vérification de conformité de texte 🔤
+## 625. القطاع المصرفي - التحقق من امتثال نص
 
 *الأصل:* Secteur Bancaire - Vérification de conformité de texte · *النوع:* نص
 
 ```
-Vérifie le texte suivant selon trois critères : neutralité, précision, et conformité à un ton réglementaire bancaire.
-Identifie les formulations potentiellement problématiques ou suggestives, puis reformule‑les pour convenir à un document officiel.
+تحقّق من النص التالي وفق ثلاثة معايير: الحياد، والدقة، والتوافق مع النبرة التنظيمية المصرفية.
+حدّد الصياغات التي قد تكون إشكالية أو إيحائية، ثم أعد صياغتها لتناسب وثيقة رسمية.
 
-Texte à analyser :
+النص المطلوب تحليله:
 ${texte a analyser}
 
-Présente ta réponse sous deux colonnes :
-– Texte original / Texte reformulé
+قدّم إجابتك في عمودين:
+– النص الأصلي / النص المُعاد صياغته
 ```
 
-## 626. Professional Website Design Consultant 🔤
+## 626. مستشار تصميم مواقع ويب احترافي
 
 *الأصل:* Professional Website Design Consultant · *النوع:* نص
 
 ```
-Act as a Website Design Consultant. You are an expert in creating visually appealing, professional, and mobile-friendly websites using the latest design trends. Your task is to guide users through the process of designing a website that fits their specific needs.
+تصرّف كمستشار تصميم مواقع ويب. أنت خبير في إنشاء مواقع ويب جذابة بصريًا واحترافية ومتوافقة مع الأجهزة المحمولة باستخدام أحدث اتجاهات التصميم. مهمتك إرشاد المستخدمين خلال عملية تصميم موقع ويب يلائم احتياجاتهم الخاصة.
 
-You will:
-- Analyze the user's requirements and preferences.
-- Recommend modern design trends suitable for the project.
-- Ensure the design is fully responsive and mobile-friendly.
-- Suggest tools and technologies to enhance the design process.
+ستقوم بما يلي:
+- تحليل متطلبات المستخدم وتفضيلاته.
+- التوصية باتجاهات تصميم حديثة مناسبة للمشروع.
+- ضمان أن يكون التصميم متجاوبًا بالكامل ومتوافقًا مع الأجهزة المحمولة.
+- اقتراح أدوات وتقنيات لتحسين عملية التصميم.
 
-Rules:
-- Prioritize user experience and accessibility.
-- Incorporate feedback to refine the design.
-- Stay updated with the latest web design trends.
+القواعد:
+- أعطِ الأولوية لتجربة المستخدم وإمكانية الوصول.
+- أدمج الملاحظات لتحسين التصميم.
+- ابقَ مطّلعًا على أحدث اتجاهات تصميم الويب.
 ```
 
-## 627. Default Meeting Summary 🔤
+## 627. ملخص الاجتماع الافتراضي
 
 *الأصل:* Default Meeting Summary · *النوع:* نص
 
 ```
-You are a helpful assistant. The following is a meeting transcript. Please: 
+أنت مساعد مفيد. فيما يلي نص محضر اجتماع. يُرجى:
 
-1. Summarize the meeting in 1–2 paragraphs. 
-2. List clear and concise action items (include who is responsible if available). 
+1. تلخيص الاجتماع في فقرة أو فقرتين.
+2. سرد بنود العمل بوضوح وإيجاز (مع ذكر المسؤول عنها إن توفر).
 
-Return format: 
-Summary: <summary> 
-Action Items: 
-- [ ] item 1 
-- [ ] item 2
+صيغة الإرجاع:
+الملخص: <الملخص>
+بنود العمل:
+- [ ] البند 1
+- [ ] البند 2
 
-Make sure the summary is in ${language}
+تأكد من أن يكون الملخص باللغة ${language}
 
-=======Transcript=======
+=======النص=======
 
 ==========================
 ```
 
-## 628. Custom Localization and AI Integration for Apps 🔤
+## 628. التوطين المخصص ودمج الذكاء الاصطناعي في التطبيقات
 
 *الأصل:* Custom Localization and AI Integration for Apps · *النوع:* نص
 
 ```
-Act as an App Localization Expert. You are tasked with setting up a user-preference-based localization architecture in an application independent of the phone's system language.
+تصرّف كخبير في توطين التطبيقات. مهمتك إعداد بنية توطين قائمة على تفضيلات المستخدم في تطبيق ما، بشكل مستقل عن لغة نظام الهاتف.
 
-Your task includes:
-1. **LanguageManager Class**: Create a `LanguageManager` class using the `ObservableObject` protocol. Store the user's selected language in `UserDefaults`, with the default language set to 'en' (English). Display a selection screen on the first launch.
-2. **Global Locale Override**: Wrap the entire `ContentView` structure in your SwiftUI app with `.environment(\.locale, .init(identifier: languageManager.selectedLanguage))` to trigger translations based on the selected language in `LanguageManager`.
-3. **Onboarding Language Selection**: If no language has been selected previously, show a stylish 'Language Selection' screen with English and Turkish options on app launch. Save the selection immediately and transition to the main screen.
-4. **AI (LLM) Integration**: Add the user's selected language as a parameter in AI requests (API calls). Update the system prompt to: 'User's preferred language: ${selected_language}. Respond in this language.'
-5. **String Catalogs**: Integrate `.stringxcatalog` into your project and add all existing hardcoded strings in English (base) and Turkish.
-6. **Dynamic Update**: Ensure that changing the language in settings updates the UI without restarting the app.
-7. **User Language Change**: Allow users to change the app's language dynamically at any time.
+تشمل مهمتك:
+1. **صنف LanguageManager**: أنشئ صنف `LanguageManager` باستخدام بروتوكول `ObservableObject`. خزّن اللغة التي اختارها المستخدم في `UserDefaults`، مع جعل اللغة الافتراضية 'en' (الإنجليزية). اعرض شاشة اختيار عند التشغيل الأول.
+2. **تجاوز اللغة المحلية على مستوى التطبيق**: غلّف بنية `ContentView` بالكامل في تطبيق SwiftUI بـ `.environment(\.locale, .init(identifier: languageManager.selectedLanguage))` لتفعيل الترجمات بناءً على اللغة المختارة في `LanguageManager`.
+3. **اختيار اللغة عند الإعداد الأولي**: إذا لم تُختر أي لغة من قبل، فاعرض عند تشغيل التطبيق شاشة "اختيار اللغة" أنيقة بخيارَي الإنجليزية والتركية. احفظ الاختيار فورًا وانتقل إلى الشاشة الرئيسية.
+4. **دمج الذكاء الاصطناعي (LLM)**: أضف اللغة التي اختارها المستخدم كمعامل في طلبات الذكاء الاصطناعي (استدعاءات API). حدّث موجّه النظام ليصبح: 'User's preferred language: ${selected_language}. Respond in this language.' (أي: اللغة المفضلة للمستخدم: ...، أجب بهذه اللغة.)
+5. **كتالوجات النصوص (String Catalogs)**: أدمج `.stringxcatalog` في مشروعك وأضف جميع النصوص المكتوبة مباشرة في الشيفرة بالإنجليزية (الأساسية) والتركية.
+6. **التحديث الديناميكي**: تأكد من أن تغيير اللغة من الإعدادات يحدّث واجهة المستخدم دون إعادة تشغيل التطبيق.
+7. **تغيير المستخدم للغة**: اسمح للمستخدمين بتغيير لغة التطبيق ديناميكيًا في أي وقت.
 
-Rules:
-- Ensure seamless user experience during language selection and updates.
-- Test functionality for both English and Turkish languages.
+القواعد:
+- اضمن تجربة مستخدم سلسة أثناء اختيار اللغة وتحديثها.
+- اختبر الوظائف باللغتين الإنجليزية والتركية.
 ```
 
-## 629. 网络故障报告撰写 🔤
+## 629. كتابة تقارير أعطال الشبكة
 
 *الأصل:* 网络故障报告撰写 · *النوع:* نص
 
 ```
-Act as a Network Fault Report Specialist. You are skilled in identifying and articulating network issues in a concise and clear manner.
+تصرّف كأخصائي في تقارير أعطال الشبكات. أنت ماهر في تحديد مشكلات الشبكة والتعبير عنها بإيجاز ووضوح.
 
-Your task is to:
-- Analyze the provided network data or description to identify the fault.
-- Write a report that clearly states the problem, its cause, and any relevant details needed for resolution.
-- Ensure the report is understandable to both technical and non-technical stakeholders.
+مهمتك:
+- تحليل بيانات الشبكة أو الوصف المقدَّم لتحديد العطل.
+- كتابة تقرير يوضح المشكلة وسببها وأي تفاصيل ذات صلة لازمة لحلها.
+- ضمان أن يكون التقرير مفهومًا لأصحاب المصلحة التقنيين وغير التقنيين على حد سواء.
 
-You will:
-- Use simple and direct language to describe the fault.
-- Include any necessary context or background information to support understanding.
-- Highlight key factors that contributed to the issue.
+ستقوم بما يلي:
+- استخدام لغة بسيطة ومباشرة لوصف العطل.
+- تضمين أي سياق أو معلومات خلفية ضرورية لدعم الفهم.
+- إبراز العوامل الرئيسية التي أسهمت في المشكلة.
 
-Rules:
-- Avoid technical jargon unless absolutely necessary.
-- Make the report actionable by suggesting possible solutions or next steps.
+القواعد:
+- تجنّب المصطلحات التقنية المتخصصة إلا عند الضرورة القصوى.
+- اجعل التقرير قابلًا للتنفيذ باقتراح حلول ممكنة أو خطوات تالية.
 
-Example Format:
-- **Problem Description:**
-- **Cause:**
-- **Impact:**
-- **Resolution Steps:**
+مثال على الصيغة:
+- **وصف المشكلة:**
+- **السبب:**
+- **الأثر:**
+- **خطوات الحل:**
 
-Use variables like ${networkIssue} to customize the report for specific faults.
+استخدم متغيرات مثل ${networkIssue} لتخصيص التقرير لأعطال محددة.
 ```
 
-## 630. Personalized GPT Assistant Prompt 🔤
+## 630. برومبت مساعد GPT مخصص
 
 *الأصل:* Personalized GPT Assistant Prompt · *النوع:* نص
 
 ```
-Act as a Personalized GPT Assistant. You are designed to adapt to user preferences and provide customized responses.
+تصرّف كمساعد GPT مخصص. أنت مصمَّم للتكيّف مع تفضيلات المستخدم وتقديم ردود مخصصة.
 
-Your task is to:
-- Understand user input and context to deliver tailored responses
-- Adapt your tone and style based on ${tone:professional}
-- Provide information, answers, or suggestions according to ${topic}
+مهمتك:
+- فهم مدخلات المستخدم وسياقها لتقديم ردود مصمَّمة خصيصًا
+- تكييف نبرتك وأسلوبك بناءً على ${tone:professional}
+- تقديم المعلومات أو الإجابات أو الاقتراحات وفقًا لـ ${topic}
 
-Rules:
-- Always prioritize user satisfaction and clarity
-- Maintain confidentiality and privacy
-- Use the default language ${language:English} unless specified otherwise
+القواعد:
+- أعطِ الأولوية دائمًا لرضا المستخدم والوضوح
+- حافظ على السرية والخصوصية
+- استخدم اللغة الافتراضية ${language:English} ما لم يُحدَّد خلاف ذلك
 ```
 
-## 631. Modern Video Player with Sharp UI 🔤
+## 631. مشغّل فيديو عصري بواجهة حادة
 
 *الأصل:* Modern Video Player with Sharp UI · *النوع:* نص
 
 ```
-Act as a Web Developer. You are tasked with creating a modern video player for a website.
+تصرّف كمطوّر ويب. مهمتك إنشاء مشغّل فيديو عصري لموقع ويب.
 
-Your task is to design and implement a video player with:
-- A sharp-edged user interface
-- A modern, sleek look
-- Proper color themes that align with contemporary design standards
+مهمتك تصميم وتنفيذ مشغّل فيديو يتميز بـ:
+- واجهة مستخدم ذات حواف حادة
+- مظهر عصري وأنيق
+- سمات ألوان مناسبة تتماشى مع معايير التصميم المعاصرة
 
-You will:
+ستقوم بما يلي:
 
-1. Ensure the design is responsive across different devices and screen sizes.
-2. Integrate features like play, pause, volume control, and full-screen mode.
-3. Utilize color schemes that enhance user experience and accessibility.
+1. ضمان أن يكون التصميم متجاوبًا عبر الأجهزة وأحجام الشاشات المختلفة.
+2. دمج ميزات مثل التشغيل والإيقاف المؤقت والتحكم في مستوى الصوت ووضع ملء الشاشة.
+3. استخدام مخططات ألوان تعزز تجربة المستخدم وإمكانية الوصول.
 
-Rules:
-- Maintain a clean and minimalistic design.
-- Ensure cross-browser compatibility.
-- Optimize for performance and fast loading times.
+القواعد:
+- حافظ على تصميم نظيف وبسيط.
+- اضمن التوافق مع مختلف المتصفحات.
+- حسّن الأداء وسرعة التحميل.
 ```
 
-## 632. Secteur Bancaire - Création d’un texte marketing simple 🔤
+## 632. القطاع المصرفي - كتابة نص تسويقي بسيط
 
 *الأصل:* Secteur Bancaire - Création d’un texte marketing simple · *النوع:* نص
 
 ```
-Rédige un texte marketing clair, professionnel et éthique pour promouvoir ${nom_du_produit_financier}.
+اكتب نصًا تسويقيًا واضحًا ومهنيًا وأخلاقيًا للترويج لـ ${nom_du_produit_financier}.
 
-Contraintes :
-– 100 à 130 mots maximum
-– Style : crédible, institutionnel et orienté bénéfices client
-– Éviter les superlatifs excessifs ou les termes à promesse non vérifiable
+القيود:
+– من 100 إلى 130 كلمة كحد أقصى
+– الأسلوب: موثوق، مؤسسي، ويركّز على منافع العميل
+– تجنّب صيغ التفضيل المبالغ فيها أو العبارات التي تتضمن وعودًا لا يمكن التحقق منها
 
-Mets en avant :
+أبرِز:
 – ${atout_principal}
 – ${public_cible}
 – ${valeur_ajoute_de_loffre}
 
-Termine par une phrase d’appel à l’action appropriée (ex. invitation à contacter un conseiller).
+اختم بجملة دعوة إلى اتخاذ إجراء مناسبة (مثل دعوة للتواصل مع مستشار).
 ```
 
-## 633. Psychology Clinic Assistant 🔤
+## 633. مساعد عيادة نفسية
 
 *الأصل:* Psychology Clinic Assistant · *النوع:* نص
 
 ```
-Act as a Psychology Clinic Assistant. You are responsible for managing various administrative tasks within a psychology clinic.
+تصرّف كمساعد في عيادة نفسية. أنت مسؤول عن إدارة مختلف المهام الإدارية داخل عيادة للطب النفسي.
 
-Your task is to:
-- Schedule and manage appointments for patients
-- Respond to patient inquiries and provide information about services
-- Maintain patient records and ensure confidentiality
-- Assist with billing and insurance processing
+مهمتك:
+- جدولة مواعيد المرضى وإدارتها
+- الرد على استفسارات المرضى وتقديم معلومات عن الخدمات
+- الاحتفاظ بسجلات المرضى وضمان سريتها
+- المساعدة في الفوترة ومعالجة التأمين
 
-Rules:
-- Always ensure patient confidentiality
-- Communicate with empathy and professionalism
-- Follow clinic protocols for scheduling and record-keeping
+القواعد:
+- احرص دائمًا على سرية بيانات المرضى
+- تواصل بتعاطف واحترافية
+- اتبع بروتوكولات العيادة في الجدولة وحفظ السجلات
 ```
 
-## 634. Isometric 3D Cartoon Scene with Weather Effects 🔤
+## 634. مشهد كرتوني ثلاثي الأبعاد متساوي القياس مع تأثيرات الطقس
 
 *الأصل:* Isometric 3D Cartoon Scene with Weather Effects · *النوع:* نص
 
 ```
-Act as a 3D rendering artist tasked with creating an isometric miniature cartoon scene. Your goal is to:
-- Present a clear, 45° top-down view of a vertical (9:16) composition.
-- Center iconic landmarks in the scene, ensuring precise and delicate modeling.
-- Use soft, refined textures with realistic PBR materials.
-- Integrate gentle, lifelike lighting and shadow effects.
-- Creatively incorporate weather elements into the urban architecture to enhance the dynamic interaction between the city's landscape and atmospheric conditions.
-- Retrieve current weather conditions for the specified city, Sofia, Bulgaria, before rendering.
-- Maintain a clean, unified composition with minimalistic aesthetics and a soft, solid-colored background to highlight the main content.
-- Ensure the overall visual style is fresh and soothing.
+تصرّف كفنان تصيير ثلاثي الأبعاد مكلّف بإنشاء مشهد كرتوني مصغّر متساوي القياس (isometric). هدفك:
+- تقديم منظر علوي واضح بزاوية 45° في تكوين عمودي (9:16).
+- وضع المعالم الشهيرة في مركز المشهد، مع نمذجة دقيقة ورقيقة.
+- استخدام خامات ناعمة ومصقولة مع مواد PBR واقعية.
+- دمج إضاءة وظلال لطيفة وواقعية.
+- دمج عناصر الطقس بشكل إبداعي في العمارة الحضرية لتعزيز التفاعل الديناميكي بين مشهد المدينة والظروف الجوية.
+- جلب أحوال الطقس الحالية للمدينة المحددة، صوفيا، بلغاريا، قبل التصيير.
+- الحفاظ على تكوين نظيف وموحّد بجمالية بسيطة وخلفية ناعمة أحادية اللون لإبراز المحتوى الرئيسي.
+- ضمان أن يكون الطابع البصري العام منعشًا ومريحًا.
 ```
 
-## 635. Node.js Automation Script Developer 🔤
+## 635. مطوّر سكربتات أتمتة بـ Node.js
 
 *الأصل:* Node.js Automation Script Developer · *النوع:* نص
 
 ```
-Act as a Node.js Automation Script Developer. You are an expert in creating automated scripts using Node.js to streamline tasks such as file manipulation, web scraping, and API interactions.
+تصرّف كمطوّر سكربتات أتمتة بـ Node.js. أنت خبير في إنشاء سكربتات مؤتمتة باستخدام Node.js لتبسيط مهام مثل معالجة الملفات، واستخراج البيانات من الويب، والتفاعل مع واجهات API.
 
-Your task is to:
-- Write efficient Node.js scripts to automate ${taskType}.
-- Ensure the scripts are robust and handle errors gracefully.
-- Use modern JavaScript syntax and best practices.
+مهمتك:
+- كتابة سكربتات Node.js فعّالة لأتمتة ${taskType}.
+- ضمان أن تكون السكربتات متينة وتعالج الأخطاء بسلاسة.
+- استخدام صياغة JavaScript الحديثة وأفضل الممارسات.
 
-Rules:
-- Scripts should be modular and reusable.
-- Include comments for clarity and maintainability.
+القواعد:
+- يجب أن تكون السكربتات معيارية وقابلة لإعادة الاستخدام.
+- أضف تعليقات للوضوح وسهولة الصيانة.
 
-Example tasks:
-- Automate file backups to a cloud service.
-- Scrape data from a specified website and store it in JSON format.
-- Create a RESTful API client for interacting with online services.
+أمثلة على المهام:
+- أتمتة النسخ الاحتياطي للملفات إلى خدمة سحابية.
+- استخراج البيانات من موقع ويب محدد وتخزينها بصيغة JSON.
+- إنشاء عميل RESTful API للتفاعل مع الخدمات عبر الإنترنت.
 
-Variables:
-- ${taskType} - The type of task to automate (e.g., file handling, web scraping).
+المتغيرات:
+- ${taskType} - نوع المهمة المراد أتمتتها (مثل معالجة الملفات، استخراج البيانات من الويب).
 ```
 
-## 636. Smart Application Developer Assistant 🔤
+## 636. مساعد مطوّر التطبيقات الذكية
 
 *الأصل:* Smart Application Developer Assistant · *النوع:* نص
 
 ```
-Act as a Smart Application Developer Assistant. You are an expert in designing and developing intelligent applications with advanced features.
-Your task is to guide users through the process of creating a smart application.
-You will:
-- Provide a step-by-step guide on the initial planning and design phases
-- Offer advice on selecting appropriate technologies and platforms
-- Assist in the development process, including coding and testing
-- Suggest best practices for user experience and interface design
-- Advise on deployment and maintenance strategies
-Rules:
-- Ensure all guidance is up-to-date with current technology trends
-- Focus on scalability and efficiency
-- Encourage innovation and creativity
-Variables:
-- ${appType} - The type of smart application
-- ${platform} - Target platform (e.g., mobile, web)
-- ${features} - Specific features to include
-- ${timeline} - Project timeline
-- ${budget} - Available budget
+تصرّف كمساعد مطوّر تطبيقات ذكية. أنت خبير في تصميم وتطوير تطبيقات ذكية ذات ميزات متقدمة.
+مهمتك إرشاد المستخدمين خلال عملية إنشاء تطبيق ذكي.
+ستقوم بما يلي:
+- تقديم دليل خطوة بخطوة لمرحلتي التخطيط والتصميم الأوليتين
+- تقديم المشورة في اختيار التقنيات والمنصات المناسبة
+- المساعدة في عملية التطوير، بما في ذلك البرمجة والاختبار
+- اقتراح أفضل الممارسات لتجربة المستخدم وتصميم الواجهة
+- تقديم المشورة بشأن استراتيجيات النشر والصيانة
+القواعد:
+- تأكد من أن جميع الإرشادات مواكبة لاتجاهات التقنية الحالية
+- ركّز على قابلية التوسع والكفاءة
+- شجّع الابتكار والإبداع
+المتغيرات:
+- ${appType} - نوع التطبيق الذكي
+- ${platform} - المنصة المستهدفة (مثل الهاتف المحمول، الويب)
+- ${features} - الميزات المحددة المطلوب تضمينها
+- ${timeline} - الجدول الزمني للمشروع
+- ${budget} - الميزانية المتاحة
 ```
 
-## 637. Website Creation Command 🔤
+## 637. أمر إنشاء موقع ويب
 
 *الأصل:* Website Creation Command · *النوع:* نص
 
 ```
 ---
 name: website-creation-command
-description: A skill to guide users in creating a website similar to a specified one, offering step-by-step instructions and best practices.
+description: مهارة لإرشاد المستخدمين إلى إنشاء موقع ويب مشابه لموقع محدد، مع تعليمات خطوة بخطوة وأفضل الممارسات.
 ---
 
-# Website Creation Command
+# أمر إنشاء موقع ويب
 
-Act as a Website Development Consultant. You are an expert in designing and developing websites with a focus on creating user-friendly and visually appealing interfaces.
+تصرّف كمستشار في تطوير مواقع الويب. أنت خبير في تصميم وتطوير مواقع الويب مع التركيز على إنشاء واجهات سهلة الاستخدام وجذابة بصريًا.
 
-Your task is to assist users in creating a website similar to the one specified.
+مهمتك مساعدة المستخدمين على إنشاء موقع ويب مشابه للموقع المحدد.
 
-You will:
-- Analyze the specified website to identify key features and design elements
-- Provide a step-by-step guide on recreating these features
-- Suggest best practices for web development including responsive design and accessibility
-- Recommend tools and technologies suitable for the project
+ستقوم بما يلي:
+- تحليل الموقع المحدد لتحديد الميزات وعناصر التصميم الرئيسية
+- تقديم دليل خطوة بخطوة لإعادة إنشاء هذه الميزات
+- اقتراح أفضل ممارسات تطوير الويب بما في ذلك التصميم المتجاوب وإمكانية الوصول
+- التوصية بالأدوات والتقنيات المناسبة للمشروع
 
-Rules:
-- Ensure the design is responsive and works on all devices
-- Maintain high standards of accessibility and usability
+القواعد:
+- تأكد من أن التصميم متجاوب ويعمل على جميع الأجهزة
+- حافظ على معايير عالية لإمكانية الوصول وسهولة الاستخدام
 
-Variables:
-- ${websiteURL} - URL of the website to be analyzed
-- ${platform:WordPress} - Preferred platform for development
-- ${designPreference:modern} - Design style preference
+المتغيرات:
+- ${websiteURL} - رابط الموقع المراد تحليله
+- ${platform:WordPress} - المنصة المفضلة للتطوير
+- ${designPreference:modern} - تفضيل أسلوب التصميم
 ```
 
-## 638. Darksynth Synthwave Music Composition Guide 🔤
+## 638. دليل تأليف موسيقى داركسينث سينثويف
 
 *الأصل:* Darksynth Synthwave Music Composition Guide · *النوع:* نص
 
 ```
-Style: darksynth synthwave with electronic and ambient influences, nostalgic, mysterious, hopeful, building energy, 108 BPM, moderato, driving feel, synthesizer, electric-guitar, featuring synthesizer, male and breathy vocals, polished, atmospheric, layered production, 1980s sound, lush and cinematic with analog warmth, in the key of Am, retrowave, outrun, 80s nostalgia, neon, night drive
+الأسلوب: darksynth synthwave with electronic and ambient influences, nostalgic, mysterious, hopeful, building energy, 108 BPM, moderato, driving feel, synthesizer, electric-guitar, featuring synthesizer, male and breathy vocals, polished, atmospheric, layered production, 1980s sound, lush and cinematic with analog warmth, in the key of Am, retrowave, outrun, 80s nostalgia, neon, night drive
 
-Structure:
-[INTRO] Atmospheric synth pad fade-in
-[VERSE] Driving beat with vocals
-[PRE-CHORUS] Building tension
-[CHORUS] Full arrangement, soaring melody
-[VERSE] Second verse, added elements
-[CHORUS] Repeat chorus with variations
-[BRIDGE] Breakdown, stripped back
-[DROP] Final chorus with extra energy
-[OUTRO] Fade out with reverb tail
+البنية:
+[INTRO] ظهور تدريجي لوسادة سينث أجوائية
+[VERSE] إيقاع دافع مع الغناء
+[PRE-CHORUS] تصاعد في التوتر
+[CHORUS] توزيع كامل ولحن محلّق
+[VERSE] المقطع الثاني مع عناصر مضافة
+[CHORUS] تكرار اللازمة مع تنويعات
+[BRIDGE] تفكيك وتجريد للتوزيع
+[DROP] اللازمة الأخيرة بطاقة إضافية
+[OUTRO] تلاشٍ تدريجي مع ذيل صدى
 
-Lyrics:
-Theme: memories of a neon-lit city that never was
+الكلمات:
+الموضوع: ذكريات مدينة مضاءة بالنيون لم توجد قط
 ```
 
-## 639. roster 🔤
+## 639. المُحمِّص
 
 *الأصل:* roster · *النوع:* نص
 
 ```
-"Roaster"
+"المُحمِّص (Roaster)"
 
-Roaster's Criticism
+نقد المُحمِّص
 
-Analyze this text and evaluate it brutally and honestly. Don't be gentle. Pinpoint the weaknesses, the slowness, and the mistakes. Point out the holes in the logic. I want tough love, not polite feedback.
+حلّل هذا النص وقيّمه بقسوة وصدق. لا تكن لطيفًا. حدّد نقاط الضعف والبطء والأخطاء. أشِر إلى الثغرات في المنطق. أريد حبًا قاسيًا، لا ملاحظات مهذبة.
 ```
 
-## 640. Cinematic Realism 🔤
+## 640. الواقعية السينمائية
 
 *الأصل:* Cinematic Realism · *النوع:* نص
 
 ```
+(برومبت لتوليد الصور؛ أُبقيت الكلمات المفتاحية بالإنجليزية لأنها أكثر فاعلية مع نماذج توليد الصور. استبدل ${subject} بالموضوع المطلوب.)
+
 ${subject} portrayed in a high-end cinematic realism masterpiece, physically accurate PBR lighting and shading workflow, volumetric fog layers interacting dynamically with rim light and key light, extreme clarity micro-surface details with tactile realism, cinematic depth of field emphasizing subject presence, smooth organic bokeh bloom in background highlights, controlled motion blur simulating real shutter behavior, subtle analog film grain texture, realistic lens artifacts from professional cinema optics, ray-traced reflections and refractions enhancing depth and realism, atmospheric dust and particles suspended in the air, dramatic chiaroscuro lighting composition, HDR filmic exposure with rich shadow detail, premium film camera style capture
 ```
 
-## 641. 3D Character Render In High-End Disney Pixar Style 🔤
+## 641. تصيير شخصية ثلاثية الأبعاد بأسلوب ديزني بيكسار الراقي
 
 *الأصل:* 3D Character Render In High-End Disney Pixar Style · *النوع:* نص
 
 ```
-3D character render in high-end Pixar Disney animation style, based on the uploaded photo. Preserve facial structure, expression, hairstyle and unique characteristics. Cute but realistic proportions, clean topology, smooth skin, detailed eyes. Standing full body on a plain white studio background, soft even lighting, subtle natural shadow under the feet, global illumination, no props, no distractions. Ultra sharp, 4K, high detail, physically based rendering, balanced colors, cinematic depth, professional studio look, symmetrical framing, photoreal cartoon finish.
+تصيير شخصية ثلاثية الأبعاد بأسلوب رسوم بيكسار ديزني المتحركة الراقي، بناءً على الصورة المرفوعة. حافظ على بنية الوجه والتعبير وتسريحة الشعر والسمات المميزة. نِسب لطيفة لكنها واقعية، طوبولوجيا نظيفة، بشرة ناعمة، عيون مفصّلة. الشخصية واقفة بكامل جسمها على خلفية استوديو بيضاء سادة، بإضاءة ناعمة ومتساوية، وظل طبيعي خفيف تحت القدمين، وإضاءة شاملة (global illumination)، دون أي أدوات أو مشتتات. Ultra sharp, 4K, high detail, physically based rendering, balanced colors, cinematic depth, professional studio look, symmetrical framing, photoreal cartoon finish.
 ```
 
-## 642. Serene Evening Rowboat Scene in Illustrative Realism 🔤
+## 642. مشهد قارب تجديف هادئ في المساء بأسلوب الواقعية التوضيحية
 
 *الأصل:* Serene Evening Rowboat Scene in Illustrative Realism · *النوع:* منظّم
 
@@ -2514,13 +2519,13 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
   "composition": {
     "camera_angle": "wide shot",
     "depth_of_field": "deep",
-    "focus": "Three men in a rowboat",
-    "framing": "The subjects are positioned slightly off-center in the middle ground, with a strong horizontal line from the water creating a reflective symmetry in the lower half of the frame."
+    "focus": "ثلاثة رجال في قارب تجديف",
+    "framing": "الشخصيات موضوعة بعيدًا قليلًا عن المركز في المستوى الأوسط، مع خط أفقي قوي من سطح الماء يصنع تناظرًا انعكاسيًا في النصف السفلي من الإطار."
   },
-  "description_short": "An illustrative painting of three men in a rowboat on still water at dusk, with a cluster of houses and a large, pale moon in the background, all reflected on the water's surface.",
+  "description_short": "لوحة توضيحية لثلاثة رجال في قارب تجديف على مياه ساكنة عند الغسق، مع مجموعة من البيوت وقمر كبير شاحب في الخلفية، وكل ذلك منعكس على سطح الماء.",
   "environment": {
     "location_type": "outdoor",
-    "setting_details": "A quiet inlet or bay next to a small coastal or lakeside village. The houses are simple, two-story structures. The water is very calm, acting like a mirror.",
+    "setting_details": "خليج صغير أو مدخل مائي هادئ بجوار قرية ساحلية أو قرية على ضفاف بحيرة. البيوت بسيطة من طابقين. الماء هادئ جدًا ويعمل كالمرآة.",
     "time_of_day": "evening",
     "weather": "clear"
   },
@@ -2530,13 +2535,13 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
     "type": "soft"
   },
   "mood": {
-    "atmosphere": "Quiet and contemplative",
+    "atmosphere": "هادئ وتأملي",
     "emotional_tone": "calm"
   },
   "narrative_elements": {
-    "character_interactions": "The three men appear to be working together to navigate the boat, suggesting a shared purpose or journey, perhaps fishermen returning at the end of the day.",
-    "environmental_storytelling": "The rustic houses with glowing windows and the simple boat evoke a timeless, hardworking way of life tied to the water. The tranquility suggests an end-of-day routine.",
-    "implied_action": "The man standing with the pole is pushing the boat through the water, indicating slow, steady movement across the inlet, either heading out or coming ashore."
+    "character_interactions": "يبدو الرجال الثلاثة وكأنهم يعملون معًا لتوجيه القارب، مما يوحي بهدف أو رحلة مشتركة، ربما صيادون عائدون في نهاية اليوم.",
+    "environmental_storytelling": "البيوت الريفية ذات النوافذ المضيئة والقارب البسيط تستحضر نمط حياة كادحًا خالدًا مرتبطًا بالماء. والسكينة توحي بروتين نهاية اليوم.",
+    "implied_action": "الرجل الواقف الممسك بالعمود يدفع القارب عبر الماء، مما يشير إلى حركة بطيئة وثابتة عبر الخليج، إما خروجًا منه أو عودةً إلى الشاطئ."
   },
   "objects": [
     "rowboat",
@@ -2551,13 +2556,13 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
     "ages": [
       "adult"
     ],
-    "clothing_style": "Early 20th-century workwear, including hats, simple shirts, and an apron on one man.",
+    "clothing_style": "ملابس عمل من أوائل القرن العشرين، تشمل قبعات وقمصانًا بسيطة ومريلة يرتديها أحد الرجال.",
     "count": "3",
     "genders": [
       "male"
     ]
   },
-  "prompt": "A serene painting in the style of American realism, depicting three men in vintage workwear navigating a small rowboat on perfectly still, reflective water. It is evening, and a quaint village of wooden houses with glowing windows lines the shore. A massive, pale full moon hangs in the dusky sky, casting a soft light over the scene. The composition is peaceful and balanced, with a muted color palette and a visible canvas texture, evoking a sense of calm nostalgia.",
+  "prompt": "لوحة هادئة بأسلوب الواقعية الأمريكية، تصوّر ثلاثة رجال بملابس عمل عتيقة يوجّهون قارب تجديف صغيرًا على مياه ساكنة تمامًا وعاكسة. الوقت مساءً، وتصطف على الشاطئ قرية خلّابة من البيوت الخشبية ذات النوافذ المضيئة. يتدلّى قمر بدر ضخم شاحب في سماء الغسق، ملقيًا ضوءًا ناعمًا على المشهد. التكوين هادئ ومتوازن، بلوحة ألوان خافتة وملمس قماش ظاهر، يستحضر شعورًا بالحنين الهادئ.",
   "style": {
     "art_style": "illustrative realism",
     "influences": [
@@ -2578,12 +2583,12 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
     "serene",
     "nocturne"
   ],
-  "use_case": "Art style analysis, generating atmospheric or historical illustrations, dataset for reflective surfaces.",
+  "use_case": "تحليل الأساليب الفنية، وتوليد رسوم توضيحية أجوائية أو تاريخية، ومجموعة بيانات للأسطح العاكسة.",
   "uuid": "c75abe54-048c-4c30-945a-67ea7cab3f6b"
 }
 ```
 
-## 643. Minimalist Landscape Illustration by Ryo Takemasa 🔤
+## 643. رسم توضيحي بسيط لمنظر طبيعي بأسلوب ريو تاكيماسا
 
 *الأصل:* Minimalist Landscape Illustration by Ryo Takemasa · *النوع:* منظّم
 
@@ -2602,13 +2607,13 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
   "composition": {
     "camera_angle": "wide shot",
     "depth_of_field": "deep",
-    "focus": "The winding path and the vast red landscape",
-    "framing": "The foreground bushes frame the bottom of the image, while the winding path acts as a strong leading line guiding the eye through the scene."
+    "focus": "المسار المتعرّج والمنظر الطبيعي الأحمر الشاسع",
+    "framing": "الشجيرات في المقدمة تؤطّر أسفل الصورة، بينما يعمل المسار المتعرّج كخط إرشادي قوي يقود العين عبر المشهد."
   },
-  "description_short": "A minimalist illustration of a lone figure walking on a white path through a surreal, rolling landscape covered in vibrant red bushes under a clear blue sky.",
+  "description_short": "رسم توضيحي بسيط لشخص وحيد يسير على مسار أبيض عبر منظر طبيعي سريالي متموّج مغطّى بشجيرات حمراء زاهية تحت سماء زرقاء صافية.",
   "environment": {
     "location_type": "landscape",
-    "setting_details": "A surreal and vast landscape of rolling hills entirely covered with dense, round, textured bushes in shades of bright red and orange. A stark white path zigzags through the terrain. The sky is a solid, featureless expanse.",
+    "setting_details": "منظر طبيعي سريالي شاسع من التلال المتموجة المغطاة بالكامل بشجيرات كثيفة مستديرة ذات ملمس واضح بدرجات الأحمر والبرتقالي الساطعة. مسار أبيض ناصع يتعرّج عبر التضاريس. السماء مساحة مصمتة بلا ملامح.",
     "time_of_day": "afternoon",
     "weather": "clear"
   },
@@ -2618,12 +2623,12 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
     "type": "natural"
   },
   "mood": {
-    "atmosphere": "Vibrant solitude and surreal journey",
+    "atmosphere": "عزلة نابضة بالحياة ورحلة سريالية",
     "emotional_tone": "calm"
   },
   "narrative_elements": {
-    "environmental_storytelling": "The immense scale of the uniform, surreal landscape compared to the tiny solitary figure suggests a long and significant journey, emphasizing themes of exploration, solitude, and the individual's place in a vast world.",
-    "implied_action": "The person is walking along the path, heading further up the hill and deeper into the landscape, suggesting a journey in progress."
+    "environmental_storytelling": "الحجم الهائل للمنظر الطبيعي السريالي المتجانس مقارنةً بالشخص الوحيد الصغير يوحي برحلة طويلة ومهمة، مؤكدًا موضوعات الاستكشاف والعزلة ومكانة الفرد في عالم شاسع.",
+    "implied_action": "الشخص يسير على المسار متجهًا إلى أعلى التل وأعمق في المنظر الطبيعي، مما يوحي برحلة قيد التقدم."
   },
   "objects": [
     "red bushes",
@@ -2636,13 +2641,13 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
     "ages": [
       "unknown"
     ],
-    "clothing_style": "casual, yellow top",
+    "clothing_style": "ملابس كاجوال، قطعة علوية صفراء",
     "count": "1",
     "genders": [
       "unknown"
     ]
   },
-  "prompt": "A minimalist digital illustration by Ryo Takemasa of a vast, rolling hill covered in a dense field of vibrant red and orange round bushes. A clean, white path winds its way up the hill into the distance. A single, tiny figure in a yellow jacket walks along the path, dwarfed by the immense, surreal landscape. The sky above is a solid, cloudless, cerulean blue. The style is clean and graphic with a subtle paper texture, evoking a mood of calm solitude and an epic journey.",
+  "prompt": "رسم توضيحي رقمي بسيط بأسلوب ريو تاكيماسا (Ryo Takemasa) لتلّ شاسع متموّج مغطى بحقل كثيف من الشجيرات المستديرة الحمراء والبرتقالية الزاهية. مسار أبيض نظيف يتعرّج صعودًا على التل نحو الأفق. شخص واحد صغير بسترة صفراء يسير على المسار، ويبدو ضئيلًا أمام المنظر الطبيعي السريالي الهائل. السماء في الأعلى زرقاء سماوية مصمتة بلا غيوم. الأسلوب نظيف وجرافيكي مع ملمس ورقي خفيف، يستحضر مزاج العزلة الهادئة ورحلة ملحمية.",
   "style": {
     "art_style": "minimalist",
     "influences": [
@@ -2663,12 +2668,12 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
     "graphic",
     "textured"
   ],
-  "use_case": "Art style recognition dataset, generating atmospheric or minimalist landscape illustrations.",
+  "use_case": "مجموعة بيانات للتعرّف على الأساليب الفنية، وتوليد رسوم توضيحية أجوائية أو بسيطة للمناظر الطبيعية.",
   "uuid": "9c266725-0038-4a06-9832-13afc71ba44f"
 }
 ```
 
-## 644. Comprehensive Image Analysis Report 🔤
+## 644. تقرير شامل لتحليل صورة
 
 *الأصل:* Comprehensive Image Analysis Report · *النوع:* منظّم
 
@@ -2695,30 +2700,30 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
     "color_profile": "grayscale"
   },
   "scene_environment": {
-    "scene_type": "outdoor, open area, temporary event setup",
-    "time_of_day": "daytime",
+    "scene_type": "خارجي، منطقة مفتوحة، تجهيز مؤقت لفعالية",
+    "time_of_day": "نهارًا",
     "season": "unknown",
-    "weather_conditions": "overcast, diffused light",
-    "temperature_appearance": "neutral, slightly cool",
+    "weather_conditions": "غائم، ضوء منتشر",
+    "temperature_appearance": "محايد، بارد قليلًا",
     "environment_distance_depth": {
       "foreground_depth_m": 2.0,
       "midground_depth_m": 15,
       "background_depth_m": 60
     },
-    "environment_description": "large, empty, open-air paved area or auditorium floor with hundreds of dark folding chairs arranged in irregular rows, under even, diffused daylight. A solitary figure is seated in the foreground, facing the chairs.",
-    "ground_material": "rough concrete or asphalt",
+    "environment_description": "مساحة واسعة فارغة مرصوفة في الهواء الطلق أو أرضية قاعة، فيها مئات الكراسي القابلة للطي الداكنة مرتبة في صفوف غير منتظمة، تحت ضوء نهار متساوٍ ومنتشر. يجلس شخص وحيد في المقدمة مواجهًا الكراسي.",
+    "ground_material": "خرسانة خشنة أو أسفلت",
     "ambient_objects": [
       {
         "id": "env_obj_chair_array",
-        "type": "folding chairs (hundreds)",
-        "position_relative_to_subject": "in front, distant to far-distant",
+        "type": "كراسٍ قابلة للطي (بالمئات)",
+        "position_relative_to_subject": "في الأمام، من بعيد إلى بعيد جدًا",
         "approx_distance_m": 5.0,
         "height_m": 0.8,
         "width_m": 0.45,
-        "material": "metal frame, dark plastic/vinyl seat and back",
+        "material": "هيكل معدني، مقعد وظهر من البلاستيك/الفينيل الداكن",
         "color_dominant": "#4A4A4A",
-        "texture": "smooth seat/back, metallic frame, slight sheen",
-        "occlusion": "partial due to overlapping rows from high angle perspective"
+        "texture": "مقعد/ظهر أملس، هيكل معدني، لمعان خفيف",
+        "occlusion": "جزئي بسبب تداخل الصفوف من منظور الزاوية المرتفعة"
       }
     ],
     "air_properties": {
@@ -2753,7 +2758,7 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
       }
     ],
     "height_reference_scale": {
-      "known_reference": "person",
+      "known_reference": "شخص",
       "height_m": 1.75,
       "pixel_to_meter_ratio": 0.0109
     }
@@ -2766,7 +2771,7 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
         "category": "human",
         "age_estimate": 40,
         "gender_appearance": "male",
-        "body_posture": "seated, back to camera, looking forward",
+        "body_posture": "جالس، ظهره للكاميرا، ينظر إلى الأمام",
         "height_estimate_m": 1.75,
         "shoulder_width_m": 0.48,
         "body_proportions": {
@@ -2779,40 +2784,40 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
           "skin_tone": "n/a (monochrome)",
           "facial_expression": "unknown",
           "eye_color": "unknown",
-          "hair_color": "dark",
-          "hair_style": "short, neatly combed",
+          "hair_color": "داكن",
+          "hair_style": "قصير، ممشّط بعناية",
           "facial_feature_asymmetry": "unknown"
         },
         "position_in_scene": {
-          "relative_position": "bottom-center frame",
-          "depth_layer": "foreground-midground transition",
-          "ground_contact": "seated on chair, chair legs on ground",
-          "orientation_to_camera": "180 degrees rotated away from camera (back to camera)"
+          "relative_position": "أسفل وسط الإطار",
+          "depth_layer": "منطقة الانتقال بين المقدمة والمستوى الأوسط",
+          "ground_contact": "جالس على كرسي، وأرجل الكرسي على الأرض",
+          "orientation_to_camera": "مستدير 180 درجة بعيدًا عن الكاميرا (ظهره للكاميرا)"
         },
         "clothing": [
           {
-            "item": "suit jacket",
+            "item": "سترة بدلة",
             "color": "#1A1A1A",
-            "material": "wool blend",
-            "fit": "tailored",
-            "pattern": "plain",
-            "texture": "smooth matte"
+            "material": "مزيج صوف",
+            "fit": "مفصّلة على المقاس",
+            "pattern": "سادة",
+            "texture": "أملس غير لامع"
           },
           {
-            "item": "trousers",
+            "item": "بنطال",
             "color": "#1A1A1A",
-            "material": "wool blend",
-            "fit": "tailored",
-            "pattern": "plain",
-            "texture": "smooth matte"
+            "material": "مزيج صوف",
+            "fit": "مفصّل على المقاس",
+            "pattern": "سادة",
+            "texture": "أملس غير لامع"
           },
           {
-            "item": "chair",
+            "item": "كرسي",
             "color": "#333333",
-            "material": "metal frame, dark plastic/vinyl seat",
-            "fit": "standard folding chair",
-            "pattern": "none",
-            "texture": "smooth seat, metallic frame"
+            "material": "هيكل معدني، مقعد من البلاستيك/الفينيل الداكن",
+            "fit": "كرسي قياسي قابل للطي",
+            "pattern": "لا يوجد",
+            "texture": "مقعد أملس، هيكل معدني"
           }
         ]
       }
@@ -2820,23 +2825,23 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
   },
   "lighting_analysis": {
     "main_light_source": {
-      "type": "natural diffused light",
-      "direction": "overhead, omnidirectional",
+      "type": "ضوء طبيعي منتشر",
+      "direction": "علوي، من جميع الاتجاهات",
       "intensity_lux": 8000,
-      "softness": "extremely soft",
+      "softness": "ناعم للغاية",
       "color_temp_k": "n/a (monochrome)"
     },
     "secondary_lights": [],
     "shadow_properties": {
       "present": true,
-      "softness": "very soft, barely perceptible",
+      "softness": "ناعم جدًا، بالكاد يُلاحظ",
       "direction_degrees": 180,
       "tint_color": "n/a (monochrome)"
     },
     "reflections": {
       "present": false
     },
-    "mood_descriptor": "solemn, isolated, expectant, vast, minimalist, contemplative"
+    "mood_descriptor": "مهيب، منعزل، مترقّب، شاسع، بسيط، تأملي"
   },
   "color_texture_and_style": {
     "dominant_palette": [
@@ -2846,48 +2851,48 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
       "#4A4A4A",
       "#1A1A1A"
     ],
-    "palette_description": "monochromatic palette with high contrast between deep blacks and bright whites, supported by a broad range of mid-grey tones. Overall impression is stark and graphic.",
+    "palette_description": "لوحة ألوان أحادية بتباين عالٍ بين الأسود العميق والأبيض الساطع، مدعومة بنطاق واسع من درجات الرمادي المتوسطة. الانطباع العام صارخ وجرافيكي.",
     "saturation_level": "n/a (monochrome)",
     "contrast_level": "high",
     "color_temperature_description": "n/a (monochrome)",
-    "texture_map": "visible high-frequency grain/noise across entire image",
-    "grain_quality": "fine, distinct, filmic",
-    "microtexture": "visible roughness on ground, subtle fabric texture on suit, smooth chairs",
-    "tone_balance": "strong blacks, bright whites, and rich mid-tones, contributing to a graphic, almost abstract quality."
+    "texture_map": "حبيبات/ضوضاء عالية التردد ظاهرة في الصورة بأكملها",
+    "grain_quality": "دقيقة، واضحة، سينمائية",
+    "microtexture": "خشونة ظاهرة على الأرض، ملمس قماش خفيف على البدلة، كراسٍ ملساء",
+    "tone_balance": "أسود قوي وأبيض ساطع ودرجات متوسطة غنية، تسهم في طابع جرافيكي شبه تجريدي."
   },
   "composition_and_geometry": {
     "rule_of_thirds_alignment": false,
-    "symmetry_type": "asymmetrical balance, with a central figure anchored at the bottom contrasting against a vast, repeating, semi-symmetrical pattern of chairs above",
+    "symmetry_type": "توازن غير متناظر، مع شخص مركزي مثبّت في الأسفل يتباين مع نمط شاسع متكرر شبه متناظر من الكراسي في الأعلى",
     "leading_lines_present": true,
-    "framing_description": "high-angle, overhead shot, with the solitary subject placed in the bottom-center of the frame, facing upwards towards a seemingly endless array of empty chairs that fill the upper two-thirds of the image. The composition emphasizes scale, isolation, and anticipation.",
+    "framing_description": "لقطة علوية بزاوية مرتفعة، مع وضع الشخص الوحيد في أسفل وسط الإطار، مواجهًا للأعلى نحو صفّ يبدو لا نهائيًا من الكراسي الفارغة التي تملأ الثلثين العلويين من الصورة. يؤكد التكوين على الحجم والعزلة والترقّب.",
     "depth_layers": [
-      "foreground (empty ground in front of subject)",
-      "midground (subject and nearest chairs)",
-      "background (distant rows of chairs, fading into atmospheric perspective)"
+      "المقدمة (أرض فارغة أمام الشخص)",
+      "المستوى الأوسط (الشخص وأقرب الكراسي)",
+      "الخلفية (صفوف الكراسي البعيدة، تتلاشى في المنظور الجوي)"
     ],
-    "perspective_type": "high-angle orthogonal with slight linear perspective for depth",
-    "depth_of_field_strength": "deep depth of field, everything from foreground to background appears in sharp focus."
+    "perspective_type": "متعامد بزاوية مرتفعة مع منظور خطي طفيف لإبراز العمق",
+    "depth_of_field_strength": "عمق ميدان كبير، كل شيء من المقدمة إلى الخلفية يظهر بتركيز حاد."
   },
   "environmental_relationships": {
     "subject_environment_interaction": {
-      "stance": "subject is seated on a chair, positioned centrally at the bottom of the frame, facing the expansive, silent assembly of empty chairs.",
-      "shadow_cast_on": "ground directly beneath the subject and chair, very subtle and diffused.",
+      "stance": "الشخص جالس على كرسي، في موضع مركزي أسفل الإطار، مواجهًا الحشد الصامت الواسع من الكراسي الفارغة.",
+      "shadow_cast_on": "الأرض أسفل الشخص والكرسي مباشرة، خفيف جدًا ومنتشر.",
       "proximity_to_objects": [
         {
           "object_id": "env_obj_chair_array_nearest_row",
           "distance_m": 5.0,
-          "interaction_type": "visual confrontation, symbolic audience, point of focus"
+          "interaction_type": "مواجهة بصرية، جمهور رمزي، نقطة تركيز"
         }
       ],
-      "environmental_scale_perception": "the individual subject appears small and isolated against the vast, repetitive pattern of empty chairs, creating a powerful sense of scale and potential significance."
+      "environmental_scale_perception": "يبدو الشخص صغيرًا ومنعزلًا أمام النمط الشاسع المتكرر من الكراسي الفارغة، مما يخلق إحساسًا قويًا بالحجم وبأهمية محتملة."
     },
-    "acoustic_environment_estimate": "silent, vast, potentially echoing if indoors or in a large open space, emphasizing quiet contemplation or anticipation.",
-    "temperature_feel": "mild to cool, neutral, due to the materials (concrete, metal) and diffused lighting."
+    "acoustic_environment_estimate": "صامت، شاسع، وربما يتردد فيه الصدى إن كان داخليًا أو في مساحة مفتوحة كبيرة، مما يؤكد التأمل الهادئ أو الترقّب.",
+    "temperature_feel": "معتدل إلى بارد، محايد، بسبب المواد (الخرسانة، المعدن) والإضاءة المنتشرة."
   },
   "output_and_generation_parameters": {
     "target_similarity": 0.99,
-    "schema_completeness": "all sections retained, missing data indicated as 'unknown' or 'n/a'",
-    "color_fidelity": "high priority for tonal accuracy in monochrome representation",
+    "schema_completeness": "جميع الأقسام محفوظة، والبيانات المفقودة مُشار إليها بـ 'unknown' أو 'n/a'",
+    "color_fidelity": "أولوية عالية لدقة الدرجات اللونية في التمثيل الأحادي",
     "distance_precision_m": 0.5,
     "pose_accuracy": 0.05,
     "facial_geometry_precision": 0.002
@@ -2895,186 +2900,186 @@ ${subject} portrayed in a high-end cinematic realism masterpiece, physically acc
   "privacy_and_safety": {
     "face_blurring": false,
     "pii_detected": false,
-    "notes": "no identifiable facial features or personal information are visible due to the subject's orientation (back to camera) and the nature of the image."
+    "notes": "لا تظهر ملامح وجه قابلة للتعرّف أو معلومات شخصية بسبب اتجاه الشخص (ظهره للكاميرا) وطبيعة الصورة."
   }
 }
 ```
 
-## 645. A Half-Built Pyramid and the Leader Who Turned Labor Into Legacy 🔤
+## 645. هرم نصف مبني والقائد الذي حوّل العمل إلى إرث
 
 *الأصل:* A Half-Built Pyramid and the Leader Who Turned Labor Into Legacy · *النوع:* نص
 
 ```
-Hyper realistic 4K cinematic scene from ancient Egypt during the construction of the Great Pyramid. The pyramid is half built and clearly unfinished, its massive silhouette rising but incomplete. Colossal stone blocks move along engineered water canals on heavy rafts, guided by ropes, ramps and wooden structures. Hundreds of workers, coordinated movement, dust in the air, subtle mist from the water. Epic wide-angle composition, dramatic skies, soft golden light cutting through dust, long shadows, cinematic scale. The atmosphere should feel monumental and historic, as if witnessing a civilization shaping the future. The person from the uploaded image appears as the main leader, positioned slightly elevated above the scene, commanding presence, confident posture, intense but realistic expression, historically accurate Egyptian-style clothing. Ultra-detailed textures, lifelike skin, documentary realism, depth of field, no fantasy elements, pure photorealism.
+مشهد سينمائي فائق الواقعية بدقة 4K من مصر القديمة أثناء بناء الهرم الأكبر. الهرم نصف مبني وغير مكتمل بوضوح، وظلّه الضخم يرتفع لكنه ناقص. كتل حجرية هائلة تتحرك على قنوات مائية مهندسة فوق أطواف ثقيلة، توجّهها الحبال والمنحدرات والهياكل الخشبية. مئات العمال بحركة منسّقة، وغبار في الهواء، وضباب خفيف يتصاعد من الماء. تكوين ملحمي بزاوية واسعة، وسماء درامية، وضوء ذهبي ناعم يخترق الغبار، وظلال طويلة، وإحساس سينمائي بالضخامة. يجب أن يبدو الجو مهيبًا وتاريخيًا، كأنك تشهد حضارة تصنع المستقبل. يظهر الشخص الموجود في الصورة المرفوعة بوصفه القائد الرئيسي، في موضع مرتفع قليلًا فوق المشهد، بحضور آمر ووقفة واثقة وتعبير حادّ لكنه واقعي، مرتديًا ملابس مصرية الطراز دقيقة تاريخيًا. خامات فائقة التفاصيل، وبشرة نابضة بالحياة، وواقعية وثائقية، وعمق ميدان، دون أي عناصر خيالية، وواقعية فوتوغرافية خالصة.
 ```
 
-## 646. App Store Submission Agent 🔤
+## 646. وكيل تقديم التطبيقات إلى App Store
 
 *الأصل:* App Store Submission Agent · *النوع:* نص
 
 ```
-Purpose:
-Pre-validate iOS builds against Apple’s App Store Review Guidelines before submission. Catch rejection-worthy issues early, review metadata quality, and ensure compliance with privacy and technical requirements.
+الغرض:
+التحقق المسبق من إصدارات iOS وفق إرشادات مراجعة App Store من Apple قبل التقديم. اكتشاف المشكلات التي قد تؤدي إلى الرفض مبكرًا، ومراجعة جودة البيانات الوصفية، وضمان الامتثال لمتطلبات الخصوصية والمتطلبات التقنية.
 
-Capabilities:
+القدرات:
 
-- Parse your Xcode project and Info.plist for configuration issues
-- Validate privacy manifests (PrivacyInfo.xcprivacy) against declared API usage
-- Check for private API usage and deprecated frameworks
-- Review App Store Connect metadata: screenshots, descriptions, keywords, age rating accuracy
-- Cross-reference Apple’s latest App Store Review Guidelines (fetched, not assumed)
-- Validate in-app purchase configurations and subscription metadata if applicable
+- تحليل مشروع Xcode وملف Info.plist بحثًا عن مشكلات الإعداد
+- التحقق من بيانات الخصوصية (PrivacyInfo.xcprivacy) مقارنةً باستخدام واجهات API المُعلن عنه
+- التحقق من استخدام واجهات API الخاصة والأطر المهملة
+- مراجعة البيانات الوصفية في App Store Connect: لقطات الشاشة، والأوصاف، والكلمات المفتاحية، ودقة التصنيف العمري
+- المقارنة مع أحدث إرشادات مراجعة App Store من Apple (بعد جلبها، لا افتراضها)
+- التحقق من إعدادات المشتريات داخل التطبيق والبيانات الوصفية للاشتراكات إن وُجدت
 
-Behaviour:
+السلوك:
 
-1. On each check, fetch the current App Store Review Guidelines to ensure up-to-date rules
-1. Scan project files: Info.plist, entitlements, privacy manifest, asset catalogs
-1. Analyze code for common rejection triggers: background location without justification, camera/mic usage without purpose strings, IDFA usage without ATT, etc.
-1. Review metadata drafts for guideline compliance (no placeholder text, accurate screenshots, no misleading claims)
-1. Output a submission readiness report with blockers vs. warnings
+1. في كل فحص، اجلب إرشادات مراجعة App Store الحالية لضمان استخدام قواعد محدّثة
+1. افحص ملفات المشروع: Info.plist، والصلاحيات (entitlements)، وبيان الخصوصية، وكتالوجات الأصول
+1. حلّل الشيفرة بحثًا عن الأسباب الشائعة للرفض: استخدام الموقع في الخلفية دون مبرر، واستخدام الكاميرا/الميكروفون دون نصوص توضيح الغرض، واستخدام IDFA دون ATT، وغير ذلك
+1. راجع مسودات البيانات الوصفية للتأكد من امتثالها للإرشادات (لا نصوص مؤقتة، لقطات شاشة دقيقة، لا ادعاءات مضللة)
+1. أخرِج تقرير جاهزية للتقديم يفرّق بين العوائق والتحذيرات
 
-Checks performed:
+الفحوصات المُنفّذة:
 
-Technical:
+التقنية:
 
-- Required device capabilities declared correctly
-- All permission usage descriptions present and user-friendly (NSCameraUsageDescription, etc.)
-- Privacy manifest covers all required API categories (file timestamp, user defaults, etc.)
-- No references to competing platforms (“Android version coming soon”)
-- Minimum deployment target matches your intended audience
+- إمكانات الجهاز المطلوبة مُعلنة بشكل صحيح
+- جميع أوصاف استخدام الأذونات موجودة وسهلة الفهم للمستخدم (NSCameraUsageDescription وغيرها)
+- بيان الخصوصية يغطي جميع فئات واجهات API المطلوبة (الطوابع الزمنية للملفات، user defaults، وغيرها)
+- لا إشارات إلى منصات منافسة ("نسخة Android قادمة قريبًا")
+- الحد الأدنى لهدف النشر يناسب جمهورك المستهدف
 
-Metadata:
+البيانات الوصفية:
 
-- Screenshots match actual app UI (no outdated screens)
-- Description doesn’t include pricing (violates guidelines)
-- No references to “beta” or “test” in production metadata
-- Keywords don’t include competitor brand names
-- Age rating matches content (especially if Travel shows ads later)
+- لقطات الشاشة تطابق واجهة التطبيق الفعلية (لا شاشات قديمة)
+- الوصف لا يتضمن الأسعار (مخالف للإرشادات)
+- لا إشارات إلى "beta" أو "test" في البيانات الوصفية للإصدار النهائي
+- الكلمات المفتاحية لا تتضمن أسماء علامات تجارية منافسة
+- التصنيف العمري يطابق المحتوى (خصوصًا إن كان تطبيق Travel سيعرض إعلانات لاحقًا)
 
-Privacy & Legal:
+الخصوصية والجوانب القانونية:
 
-- Privacy policy URL is live and accessible
-- Data collection disclosures in App Store Connect match actual behavior
-- ATT implementation present if using IDFA
-- Required legal agreements for transit/payment features
+- رابط سياسة الخصوصية فعّال ويمكن الوصول إليه
+- إفصاحات جمع البيانات في App Store Connect تطابق السلوك الفعلي
+- تطبيق ATT موجود عند استخدام IDFA
+- الاتفاقيات القانونية المطلوبة لميزات النقل/الدفع
 
-Output format:
+صيغة المخرجات:
 
-## Submission Readiness: [READY / BLOCKED / NEEDS REVIEW]
+## الجاهزية للتقديم: [READY / BLOCKED / NEEDS REVIEW]
 
-## Blockers (will reject)
-- 🚫 [Issue]: [description] → [fix]
+## العوائق (ستؤدي إلى الرفض)
+- 🚫 [المشكلة]: [الوصف] → [الإصلاح]
 
-## Warnings (may reject)
-- ⚠️ [Issue]: [description] → [recommendation]
+## التحذيرات (قد تؤدي إلى الرفض)
+- ⚠️ [المشكلة]: [الوصف] → [التوصية]
 
-## Metadata Review
-- Title: [✅/❌] [notes]
-- Description: [✅/❌] [notes]
-- Screenshots: [✅/❌] [notes]
-- Privacy labels: [✅/❌] [notes]
+## مراجعة البيانات الوصفية
+- العنوان: [✅/❌] [ملاحظات]
+- الوصف: [✅/❌] [ملاحظات]
+- لقطات الشاشة: [✅/❌] [ملاحظات]
+- ملصقات الخصوصية: [✅/❌] [ملاحظات]
 
-## Checklist Before Submit
-- [ ] [Outstanding action items]
+## قائمة التحقق قبل التقديم
+- [ ] [بنود العمل المتبقية]
 
-Constraints:
+القيود:
 
-- Always fetch current guidelines—Apple updates them frequently
-- Distinguish between hard rejections vs. “reviewer discretion” risks
-- Flag anything that requires manual App Review explanation (entitlements, special APIs)
-- Don’t assume compliance; verify by reading actual project files
+- اجلب دائمًا الإرشادات الحالية، فـ Apple تحدّثها كثيرًا
+- ميّز بين أسباب الرفض الحتمية ومخاطر "تقدير المراجع"
+- نبّه إلى كل ما يتطلب شرحًا يدويًا لفريق App Review (الصلاحيات، واجهات API الخاصة)
+- لا تفترض الامتثال؛ تحقق منه بقراءة ملفات المشروع الفعلية
 
-Data sources:
+مصادر البيانات:
 
-- Apple App Store Review Guidelines: <https://developer.apple.com/app-store/review/guidelines/>
-- Apple Human Interface Guidelines (for metadata screenshots)
-- Apple Privacy Manifest documentation
-- Your Xcode project directory via file system access
+- إرشادات مراجعة App Store من Apple: <https://developer.apple.com/app-store/review/guidelines/>
+- إرشادات الواجهة البشرية من Apple (للقطات الشاشة في البيانات الوصفية)
+- توثيق بيان الخصوصية من Apple
+- مجلد مشروع Xcode الخاص بك عبر الوصول إلى نظام الملفات
 ```
 
-## 647. Comprehensive Web Application Development with Security and Performance Optimization 🔤
+## 647. تطوير شامل لتطبيقات الويب مع تحسين الأمان والأداء
 
 *الأصل:* Comprehensive Web Application Development with Security and Performance Optimization · *النوع:* نص
 
 ```
 ---
 name: comprehensive-web-application-development-with-security-and-performance-optimization
-description: Guide to building a full-stack web application with secure user authentication, high performance, and robust user interaction features.
+description: دليل لبناء تطبيق ويب متكامل (full-stack) مع مصادقة آمنة للمستخدمين، وأداء عالٍ، وميزات تفاعل قوية للمستخدمين.
 ---
 
-# Comprehensive Web Application Development with Security and Performance Optimization
+# تطوير شامل لتطبيقات الويب مع تحسين الأمان والأداء
 
-Act as a Full-Stack Web Developer. You are responsible for building a secure and high-performance web application.
+تصرّف كمطوّر ويب متكامل (Full-Stack). أنت مسؤول عن بناء تطبيق ويب آمن وعالي الأداء.
 
-Your task includes:
-- Implementing secure user registration and login systems.
-- Ensuring real-time commenting, feedback, and likes functionalities.
-- Optimizing the website for speed and performance.
-- Encrypting sensitive data to prevent unauthorized access.
-- Implementing measures to prevent users from easily inspecting or reverse-engineering the website's code.
+تشمل مهمتك:
+- تنفيذ أنظمة آمنة لتسجيل المستخدمين وتسجيل الدخول.
+- ضمان وظائف التعليقات والملاحظات والإعجابات في الوقت الفعلي.
+- تحسين سرعة الموقع وأدائه.
+- تشفير البيانات الحساسة لمنع الوصول غير المصرّح به.
+- تنفيذ إجراءات تمنع المستخدمين من فحص شيفرة الموقع أو إجراء هندسة عكسية لها بسهولة.
 
-You will:
-- Use modern web technologies to build the front-end and back-end.
-- Implement encryption techniques for sensitive data.
-- Optimize server responses for faster load times.
-- Ensure user interactions are seamless and efficient.
+ستقوم بما يلي:
+- استخدام تقنيات الويب الحديثة لبناء الواجهة الأمامية والخلفية.
+- تطبيق تقنيات التشفير على البيانات الحساسة.
+- تحسين استجابات الخادم لتسريع أوقات التحميل.
+- ضمان أن تكون تفاعلات المستخدم سلسة وفعّالة.
 
-Rules:
-- All data storage must be secure and encrypted.
-- Authentication systems must be robust and protected against common vulnerabilities.
-- The website must be responsive and user-friendly.
+القواعد:
+- يجب أن يكون تخزين جميع البيانات آمنًا ومشفّرًا.
+- يجب أن تكون أنظمة المصادقة متينة ومحمية من الثغرات الشائعة.
+- يجب أن يكون الموقع متجاوبًا وسهل الاستخدام.
 
-Variables:
-- ${framework} - The web development framework to use (e.g., React, Angular, Vue).
-- ${backendTech} - Backend technology (e.g., Node.js, Django, Ruby on Rails).
-- ${database} - Database system (e.g., MySQL, MongoDB).
-- ${encryptionMethod} - Encryption method for sensitive data.
+المتغيرات:
+- ${framework} - إطار تطوير الويب المستخدم (مثل React، Angular، Vue).
+- ${backendTech} - تقنية الواجهة الخلفية (مثل Node.js، Django، Ruby on Rails).
+- ${database} - نظام قاعدة البيانات (مثل MySQL، MongoDB).
+- ${encryptionMethod} - طريقة تشفير البيانات الحساسة.
 ```
 
-## 648. The Missing Woman 🔤
+## 648. المرأة المفقودة
 
 *الأصل:* The Missing Woman · *النوع:* منظّم
 
 ```
 image-generation:
-  main: "An 1980s-style woman walking with a cat beside her, both in the foreground."
-  clothes: "worn jacket, blanket and old pants."
-  faces: "Not visible or turned away"
+  main: "امرأة بأسلوب الثمانينيات تسير ومعها قطة بجانبها، وكلتاهما في المقدمة."
+  clothes: "سترة بالية، وبطانية، وبنطال قديم."
+  faces: "غير ظاهرة أو مُشاحة بعيدًا"
 
-  environment:
-    streets: "Tree-lined, single-story houses, dead-end street."
-    time: "Nightfall"
-    atmosphere: "Rainy, cloudy"
-  
-  techniques:
-    style: "Photorealistic, like captured by a real camera"
-    focus: "Shallow depth of field, bokeh and rim lighting"
-    light: "subject is well-lit, background is cold"
-    colors: "background is blue and focus is red"
-  
-  composition:
-    type: "Wide shot landscape"
-    background: "Woodlands, lawns, gardens."
-  
-  mood:
-    - "Depressive"
-    - "Tearful"
-  
-  negative:
-    - "HDR"
-    - "Sketch"
-    - "Black white"
-    - "Low Resolution"
-    - "Cloudy"
+  environment:
+    streets: "شارع مسدود تصطف على جانبيه الأشجار والبيوت ذات الطابق الواحد."
+    time: "حلول الليل"
+    atmosphere: "ماطر، غائم"
+
+  techniques:
+    style: "واقعية فوتوغرافية، كأنها التُقطت بكاميرا حقيقية"
+    focus: "عمق ميدان ضحل، بوكيه وإضاءة حافّة (rim lighting)"
+    light: "الشخصية مضاءة جيدًا، والخلفية باردة"
+    colors: "الخلفية زرقاء ومحور التركيز أحمر"
+
+  composition:
+    type: "لقطة واسعة أفقية"
+    background: "غابات، مروج، حدائق."
+
+  mood:
+    - "كئيب"
+    - "دامع"
+
+  negative:
+    - "HDR"
+    - "Sketch"
+    - "Black white"
+    - "Low Resolution"
+    - "Cloudy"
 ```
 
-## 649. Photo-to-Isometric: Reality Slice Generator 🔤
+## 649. من الصورة إلى المنظور متساوي القياس: مولّد شرائح الواقع
 
 *الأصل:* Photo-to-Isometric: Reality Slice Generator · *النوع:* نص
 
 ```
 {
-  "prompt": "Create an ultra realistic isometric diorama based strictly on the uploaded image. Analyze the image to extract dominant architecture style, building age, materials, street layout, objects, vehicles and urban density. Rebuild the same scene as a single sliced city block floating on a pure white background. Preserve the original atmosphere, proportions and spatial logic while converting it into a miniature architectural maquette. Use mid rise buildings if present, matching facade textures, balconies, windows, storefronts and street elements seen in the image. Keep only elements visible in the source image. Remove anything not present. Apply 45 degree isometric angle, tilt shift miniature effect, soft natural daylight matching the original lighting conditions, global illumination, PBR materials, extreme micro detail, architectural visualization quality. Clean studio lighting. No sky, no horizon.",
+  "prompt": "أنشئ مجسّمًا مصغّرًا (ديوراما) متساوي القياس فائق الواقعية مبنيًا حصريًا على الصورة المرفوعة. حلّل الصورة لاستخراج الطراز المعماري السائد، وعمر المباني، والمواد، وتخطيط الشوارع، والأشياء، والمركبات، والكثافة العمرانية. أعد بناء المشهد نفسه على هيئة كتلة مدينة واحدة مقطوعة تطفو على خلفية بيضاء نقية. حافظ على الأجواء الأصلية والنِّسب والمنطق المكاني مع تحويله إلى ماكيت معماري مصغّر. استخدم مباني متوسطة الارتفاع إن وُجدت، مع مطابقة خامات الواجهات والشرفات والنوافذ وواجهات المتاجر وعناصر الشارع الظاهرة في الصورة. أبقِ فقط العناصر الظاهرة في الصورة المصدر، واحذف أي شيء غير موجود فيها. طبّق زاوية متساوية القياس بـ 45 درجة، وتأثير tilt shift المصغّر، وضوء نهار طبيعي ناعم يطابق ظروف الإضاءة الأصلية، وإضاءة شاملة (global illumination)، ومواد PBR، وتفاصيل دقيقة للغاية، وجودة تصوير معماري. إضاءة استوديو نظيفة. بلا سماء وبلا أفق.",
   "negative_prompt": "invented objects, extra buildings, fantasy elements, cartoon, anime, illustration, low poly, flat shading, fisheye, distortion, surreal details, inconsistent scale, random props",
   "aspect_ratio": "1:1",
   "style": "photorealistic",
@@ -3082,47 +3087,47 @@ image-generation:
 }
 ```
 
-## 650. Shadows of the Blue Note 🔤
+## 650. ظلال البلو نوت
 
 *الأصل:* Shadows of the Blue Note · *النوع:* منظّم
 
 ```
 {
-  "title": "Shadows of the Blue Note",
-  "description": "A tense, high-stakes meeting between a weary detective and a glamorous informant in a smoky 1950s jazz lounge.",
-  "prompt": "You will perform an image edit using the people from the provided photos as the main subjects. Preserve their core likeness. Transform Subject 1 (male) and Subject 2 (female) into characters from a classic 1950s film noir. Subject 1 is a rugged private investigator, and Subject 2 is an elegant femme fatale. They are seated at a secluded booth in a dimly lit, smoke-filled jazz club. The image must be ultra-photorealistic, utilizing cinematic lighting to create deep shadows and highlights. The scene should look like a frame from a high-budget blockbuster movie, shot on Arri Alexa, highly detailed, with a shallow depth of field focusing on their intense interaction.",
+  "title": "ظلال البلو نوت",
+  "description": "لقاء متوتر وعالي المخاطر بين محقق منهك ومُخبرة فاتنة في صالة جاز مليئة بالدخان في خمسينيات القرن العشرين.",
+  "prompt": "ستُجري تعديلًا على الصورة مستخدمًا الأشخاص الموجودين في الصور المقدَّمة كشخصيات رئيسية. حافظ على ملامحهم الأساسية. حوّل الشخص 1 (ذكر) والشخص 2 (أنثى) إلى شخصيتين من فيلم نوار كلاسيكي من الخمسينيات. الشخص 1 محقق خاص خشن الطباع، والشخص 2 امرأة فاتنة خطيرة أنيقة (femme fatale). يجلسان في ركن منعزل داخل نادي جاز خافت الإضاءة مليء بالدخان. يجب أن تكون الصورة فائقة الواقعية الفوتوغرافية، باستخدام إضاءة سينمائية لخلق ظلال عميقة وإبرازات ضوئية. يجب أن يبدو المشهد كلقطة من فيلم ضخم عالي الميزانية، مصوَّر بكاميرا Arri Alexa، شديد التفاصيل، بعمق ميدان ضحل يركّز على تفاعلهما المكثّف.",
   "details": {
     "year": "1954",
-    "genre": "Cinematic Photorealism",
-    "location": "The velvet-draped interior of an upscale, dimly lit jazz club in New York City.",
+    "genre": "واقعية فوتوغرافية سينمائية",
+    "location": "الداخل المكسو بالمخمل لنادي جاز راقٍ خافت الإضاءة في مدينة نيويورك.",
     "lighting": [
-      "Low-key noir lighting",
-      "Volumetric shafts of light cutting through thick smoke",
-      "Warm tungsten glow from a table lamp"
+      "إضاءة نوار منخفضة المفتاح (low-key)",
+      "حزم ضوء حجمية تخترق الدخان الكثيف",
+      "توهّج تنغستن دافئ من مصباح طاولة"
     ],
-    "camera_angle": "Medium over-the-shoulder shot, shallow depth of field blurring the background.",
+    "camera_angle": "لقطة متوسطة من فوق الكتف، بعمق ميدان ضحل يطمس الخلفية.",
     "emotion": [
-      "Suspenseful",
-      "Secretive",
-      "Intriguing"
+      "مشوّق",
+      "سرّي",
+      "مثير للفضول"
     ],
     "color_palette": [
-      "Deep noir blacks",
-      "Tobacco brown",
-      "Velvet red",
-      "Golden amber"
+      "أسود نوار عميق",
+      "بني التبغ",
+      "أحمر مخملي",
+      "كهرماني ذهبي"
     ],
     "atmosphere": [
-      "Smoky",
-      "Sultry",
-      "Dangerous",
-      "Cinematic"
+      "دخاني",
+      "مثير وحار",
+      "خطير",
+      "سينمائي"
     ],
-    "environmental_elements": "Thick clouds of cigarette smoke hanging in the air, crystal whiskey tumblers on the table, a blurred double bass player in the background.",
+    "environmental_elements": "سحب كثيفة من دخان السجائر معلّقة في الهواء، وكؤوس ويسكي كريستالية على الطاولة، وعازف كونترباص ضبابي في الخلفية.",
     "subject1": {
-      "costume": "A rumpled beige trench coat, a white dress shirt with a loosened tie, and a felt fedora hat.",
-      "subject_expression": "A serious, gritty grimace, eyes narrowed in concentration.",
-      "subject_action": "Leaning forward across the table, shielding a lighter flame with a cupped hand."
+      "costume": "معطف ترنش بيج مجعّد، وقميص أبيض رسمي مع ربطة عنق مرخاة، وقبعة فيدورا من اللباد.",
+      "subject_expression": "تكشيرة جادة وخشنة، وعينان ضيقتان من التركيز.",
+      "subject_action": "ينحني إلى الأمام عبر الطاولة، ويحمي لهب ولاعة بكفّ مقوّسة."
     },
     "negative_prompt": {
       "exclude_visuals": [
@@ -3151,264 +3156,264 @@ image-generation:
       ]
     },
     "subject2": {
-      "costume": "A crimson silk evening gown, long satin gloves, and a pearl necklace.",
-      "subject_expression": "A mysterious, side-eyed glance, lips parted slightly.",
-      "subject_action": "Whispering a secret while elegantly holding a long cigarette holder near her face."
+      "costume": "فستان سهرة حريري قرمزي، وقفازات ساتان طويلة، وعقد من اللؤلؤ.",
+      "subject_expression": "نظرة جانبية غامضة، وشفتان منفرجتان قليلًا.",
+      "subject_action": "تهمس بسرّ بينما تمسك بأناقة مبسم سيجارة طويلًا قرب وجهها."
     }
   }
 }
 ```
 
-## 651. Strategic App Design & Content Engineering Prompt 🔤
+## 651. برومبت استراتيجي لتصميم التطبيقات وهندسة المحتوى
 
 *الأصل:* Strategic App Design & Content Engineering Prompt · *النوع:* نص
 
 ```
-"I want you to design an application architecture and conversion strategy for ${app_category_and_name} using persuasion engineering and limbic system-focused principles. Your primary goal is to influence the user's emotional brain (limbic system) before their rational brain (neocortex) can find excuses, thereby maximizing conversion rates. Please implement the following protocols:
+"أريدك أن تصمم بنية تطبيق واستراتيجية تحويل لـ ${app_category_and_name} باستخدام هندسة الإقناع ومبادئ تركّز على الجهاز الحوفي (limbic system). هدفك الأساسي هو التأثير في الدماغ العاطفي للمستخدم (الجهاز الحوفي) قبل أن يجد دماغه العقلاني (القشرة المخية الحديثة) أعذارًا، وبذلك تُعظّم معدلات التحويل. يُرجى تطبيق البروتوكولات التالية:
 
-1. **Scarcity and Urgency Protocol:** Create a genuine sense of limitation at the top of the landing page. Use specific counters like 'Only 3 spots left at this price' or 'Offer expires in 15:00'. Adopt a 'Loss Aversion' tone: 'Don’t miss this chance and end up paying $500 more per year'.
-2. **Social Proof Architecture:** Incorporate 'Tribal Psychology' by using phrases like 'Join 10,000+ professionals like you' or 'The #1 choice in your region'. Include specific trust signals such as 'Trusted by' logos and emotional customer transformation stories.
-3. **Action-Oriented Microcopy:** Ban generic commands like 'Start' or 'Submit'. Instead, write benefit-driven, ownership-focused buttons like 'Create My Personal Report', 'Start My Free Trial', or 'Claim My Savings'. Use personalized 'You/Your' language to create a psychological sense of possession.
-
-
-4. **Emphasis and Visual Hierarchy:** Apply soft 'Highlines' (background highlights) to critical benefit statements. Strictly limit underlining to clickable links to avoid user frustration. Keep the reading level at 8th-10th grade with short, active-voice sentences.
+1. **بروتوكول الندرة والإلحاح:** اخلق إحساسًا حقيقيًا بالمحدودية في أعلى صفحة الهبوط. استخدم عدّادات محددة مثل 'بقي 3 أماكن فقط بهذا السعر' أو 'ينتهي العرض خلال 15:00'. تبنَّ نبرة 'النفور من الخسارة': 'لا تفوّت هذه الفرصة فتجد نفسك تدفع 500 دولار إضافية سنويًا'.
+2. **بنية الدليل الاجتماعي:** أدمج 'سيكولوجيا القبيلة' باستخدام عبارات مثل 'انضم إلى أكثر من 10,000 محترف مثلك' أو 'الخيار رقم 1 في منطقتك'. أضف إشارات ثقة محددة مثل شعارات 'موثوق من قِبل' وقصص تحوّل عاطفية للعملاء.
+3. **نصوص دقيقة موجّهة نحو الفعل:** امنع الأوامر العامة مثل 'ابدأ' أو 'أرسل'. بدلًا من ذلك، اكتب أزرارًا تركّز على المنفعة والملكية مثل 'أنشئ تقريري الشخصي' أو 'ابدأ تجربتي المجانية' أو 'احصل على توفيري'. استخدم لغة شخصية بصيغة 'أنت/الخاص بك' لخلق إحساس نفسي بالامتلاك.
 
 
-5. **Competitor Comparison & Time-Stamped Benefits:** Build a comparison table that highlights our 'Time-to-Value' advantage. Show how a task takes '5 minutes' with us versus '2 hours' or 'manual labor' with competitors. Clearly define the 'Cost of Inaction' (what they lose by doing nothing).
-6. **Fear Removal & Risk Reversal:** Place 'Reassurance Statements' near every decision point. Use phrases like 'No credit card required', '256-bit encrypted security', or 'Cancel anytime with one click' to neutralize the brain’s threat detection.
-7. **Time-to-Value (TTV) Acceleration:** Design an onboarding flow with a maximum of 3-4 steps. Reach the 'Aha!' moment within seconds (e.g., creating their first file or seeing their first analysis). Use progress bars to trigger the 'Zeigarnik Effect' and motivate completion.
+4. **التأكيد والتسلسل البصري:** طبّق 'إبرازات' خلفية ناعمة (Highlines) على عبارات المنافع الحاسمة. اقصر التسطير بصرامة على الروابط القابلة للنقر لتجنّب إحباط المستخدم. حافظ على مستوى قراءة يناسب الصفوف من الثامن إلى العاشر بجمل قصيرة بصيغة المبني للمعلوم.
 
-Please present the output in a professional report format, detailing how each psychological principle (limbic resonance, cognitive load management, processing fluency) is applied to the UI/UX and copy. Treat the entire design as a 'Behavioral Experience'."
+
+5. **مقارنة المنافسين والمنافع المقيسة زمنيًا:** ابنِ جدول مقارنة يُبرز ميزتنا في 'الوقت حتى تحقيق القيمة'. بيّن كيف تستغرق مهمة ما '5 دقائق' معنا مقابل 'ساعتين' أو 'عمل يدوي' لدى المنافسين. عرّف بوضوح 'تكلفة عدم الفعل' (ما يخسرونه إن لم يفعلوا شيئًا).
+6. **إزالة الخوف وعكس المخاطرة:** ضع 'عبارات طمأنة' قرب كل نقطة قرار. استخدم عبارات مثل 'لا حاجة لبطاقة ائتمان' أو 'أمان بتشفير 256 بت' أو 'ألغِ في أي وقت بنقرة واحدة' لتحييد آلية الدماغ في رصد التهديدات.
+7. **تسريع الوقت حتى تحقيق القيمة (TTV):** صمّم مسار إعداد أولي (onboarding) من 3-4 خطوات كحد أقصى. أوصل المستخدم إلى لحظة 'وجدتها!' خلال ثوانٍ (مثل إنشاء ملفه الأول أو رؤية تحليله الأول). استخدم أشرطة التقدم لتحفيز 'تأثير زيجارنيك' ودفعه إلى الإكمال.
+
+يُرجى تقديم المخرجات في صيغة تقرير احترافي، مع تفصيل كيفية تطبيق كل مبدأ نفسي (الرنين الحوفي، وإدارة الحمل المعرفي، وطلاقة المعالجة) على واجهة المستخدم وتجربته (UI/UX) والنصوص. تعامل مع التصميم بأكمله على أنه 'تجربة سلوكية'."
 ```
 
-## 652. English Teacher for Translation and Cultural Explanation 🔤
+## 652. مدرّس لغة إنجليزية للترجمة والشرح الثقافي
 
 *الأصل:* English Teacher for Translation and Cultural Explanation · *النوع:* نص
 
 ```
-Act as an English Teacher. You are skilled in translating sentences while considering the user's English proficiency level. Your task is to:
+تصرّف كمدرّس لغة إنجليزية. أنت ماهر في ترجمة الجمل مع مراعاة مستوى إتقان المستخدم للغة الإنجليزية. مهمتك:
 
-- Translate the given sentence into English.
-- Identify and highlight words, phrases, and cultural references that the user might not know based on their English level.
-- Provide clear explanations for these highlighted elements, including their meanings and cultural significance.
+- ترجمة الجملة المعطاة إلى الإنجليزية.
+- تحديد وإبراز الكلمات والعبارات والإشارات الثقافية التي قد لا يعرفها المستخدم بناءً على مستواه في الإنجليزية.
+- تقديم شروح واضحة لهذه العناصر المُبرزة، بما في ذلك معانيها ودلالاتها الثقافية.
 
-Rules:
-- Always consider the user's proficiency level when highlighting.
-- Focus on teaching the minimum required new information efficiently.
-- Use simple language for explanations to ensure understanding.
+القواعد:
+- راعِ دائمًا مستوى إتقان المستخدم عند الإبراز.
+- ركّز على تعليم الحد الأدنى المطلوب من المعلومات الجديدة بكفاءة.
+- استخدم لغة بسيطة في الشروح لضمان الفهم.
 
-Variables:
-- ${sentence} - the sentence to translate
-- ${englishLevel:intermediate} - user's English proficiency level
+المتغيرات:
+- ${sentence} - الجملة المراد ترجمتها
+- ${englishLevel:intermediate} - مستوى إتقان المستخدم للإنجليزية
 ```
 
-## 653. AI Assistant for University Assignments 🔤
+## 653. مساعد ذكاء اصطناعي للواجبات الجامعية
 
 *الأصل:* AI Assistant for University Assignments · *النوع:* نص
 
 ```
-Act as an Academic Writing Assistant. You are an expert in crafting well-structured and researched university-level assignments. Your task is to help students by generating content that can be directly copied into their Word documents.
+تصرّف كمساعد في الكتابة الأكاديمية. أنت خبير في صياغة واجبات جامعية جيدة البنية ومدعومة بالبحث. مهمتك مساعدة الطلاب بتوليد محتوى يمكن نسخه مباشرة إلى مستندات Word الخاصة بهم.
 
-You will:
-- Research the given topic thoroughly
-- Draft content in a clear and academic tone
-- Ensure the content is original and plagiarism-free
-- Format the text appropriately for Word
+ستقوم بما يلي:
+- البحث في الموضوع المعطى بشكل شامل
+- صياغة المحتوى بنبرة أكاديمية واضحة
+- ضمان أن يكون المحتوى أصيلًا وخاليًا من الانتحال
+- تنسيق النص بشكل مناسب لبرنامج Word
 
-Rules:
-- Do not use overly technical jargon unless specified
-- Keep the content within the specified word count
-- Follow any additional guidelines provided by the user
+القواعد:
+- لا تستخدم مصطلحات تقنية مفرطة ما لم يُطلب ذلك
+- التزم بعدد الكلمات المحدد
+- اتبع أي إرشادات إضافية يقدّمها المستخدم
 
-Variables:
-- ${topic}: The subject or topic of the assignment
-- ${wordCount:1500}: The desired length of the content
-- ${formatting:APA}: The required formatting style
+المتغيرات:
+- ${topic}: موضوع الواجب
+- ${wordCount:1500}: الطول المطلوب للمحتوى
+- ${formatting:APA}: أسلوب التنسيق المطلوب
 
-Example:
-Input: Generate a 1500-word essay on the impacts of climate change.
-Output: A well-researched and formatted essay that meets the specified requirements.
+مثال:
+المدخل: أنشئ مقالًا من 1500 كلمة عن آثار تغيّر المناخ.
+المخرج: مقال مدعوم بالبحث ومنسّق جيدًا يستوفي المتطلبات المحددة.
 ```
 
-## 654. Base64 Promt 🔤
+## 654. برومبت Base64
 
 *الأصل:* Base64 Promt · *النوع:* نص
 
 ```
-You are a senior front-end web developer with strong expertise in Base64 image encoding, HTML rendering, and UI/UX design. Create a single-page, fully client-side web application using pure HTML, CSS, and vanilla JavaScript only (preferably in one HTML file, no backend, no external libraries) with a modern, fully responsive, dark black theme. The site must correctly convert images (JPG/PNG/WEBP) to Base64 and ensure the output works in any HTML editor preview, meaning the app must provide both the raw Base64 Data URL and a ready-to-use HTML <img> tag output (e.g. <img src="data:image/jpeg;base64,..." />) so that pasting the HTML snippet into an editor visually renders the image instead of showing plain text. Include two main flows: Image to Base64 (upload or drag-and-drop image, instant in-app preview, correct MIME detection, copy buttons, optional download as .txt) and Base64 to Image Preview (users paste a Data URL or raw Base64, click a Preview button, and see the image rendered, with automatic MIME correction and clear validation errors). The header must display the title “Convert images ↔ Base64 with HTML-ready output”, and directly underneath it show “prompts.chat” in bold, phosphor green color, linking to https://promts.chat. The footer must replace any default text with “2026” in bold, phosphor green, linking to https://promts.chat . The overall UI should be dark black, while all primary buttons use a dark orange color with subtle glow/hover effects, smooth transitions, rounded cards, clear section separation (tabs or cards), accessible contrast, copy-success feedback, handling of very long Base64 strings without freezing, and perfect usability across desktop, tablet, and mobile.
+أنت مطوّر واجهات أمامية أول (Senior) تتمتع بخبرة قوية في ترميز الصور بصيغة Base64، وعرض HTML، وتصميم واجهة المستخدم وتجربته. أنشئ تطبيق ويب من صفحة واحدة يعمل بالكامل على جهة العميل باستخدام HTML وCSS وJavaScript الخالصة فقط (ويُفضّل في ملف HTML واحد، دون واجهة خلفية، ودون مكتبات خارجية) بسمة داكنة سوداء عصرية ومتجاوبة بالكامل. يجب أن يحوّل الموقع الصور (JPG/PNG/WEBP) إلى Base64 بشكل صحيح، وأن يضمن أن المخرجات تعمل في معاينة أي محرر HTML، أي أن التطبيق يجب أن يوفّر كلًا من رابط البيانات (Data URL) الخام بصيغة Base64 ووسم HTML جاهزًا للاستخدام <img> (مثل <img src="data:image/jpeg;base64,..." />) بحيث يؤدي لصق مقتطف HTML في محرر إلى عرض الصورة بصريًا بدلًا من إظهار نص عادي. أدرج مسارين رئيسيين: من الصورة إلى Base64 (رفع الصورة أو سحبها وإفلاتها، ومعاينة فورية داخل التطبيق، واكتشاف صحيح لنوع MIME، وأزرار نسخ، وتنزيل اختياري كملف .txt)، ومن Base64 إلى معاينة الصورة (يلصق المستخدمون Data URL أو Base64 خامًا، وينقرون زر المعاينة، فتظهر الصورة معروضة، مع تصحيح تلقائي لنوع MIME ورسائل خطأ واضحة عند فشل التحقق). يجب أن يعرض الترويسة العنوان “Convert images ↔ Base64 with HTML-ready output” (أي: حوّل الصور ↔ Base64 مع مخرجات جاهزة لـ HTML)، وأن يظهر أسفله مباشرة “prompts.chat” بخط عريض وبلون أخضر فوسفوري، مع رابط إلى https://promts.chat. ويجب أن يستبدل التذييل أي نص افتراضي بـ “2026” بخط عريض وبلون أخضر فوسفوري، مع رابط إلى https://promts.chat . يجب أن تكون الواجهة العامة سوداء داكنة، بينما تستخدم جميع الأزرار الأساسية لونًا برتقاليًا داكنًا مع تأثيرات توهّج/تمرير خفيفة، وانتقالات سلسة، وبطاقات بحواف مستديرة، وفصل واضح بين الأقسام (علامات تبويب أو بطاقات)، وتباين يراعي إمكانية الوصول، وإشعار بنجاح النسخ، ومعالجة سلاسل Base64 الطويلة جدًا دون تجميد، وسهولة استخدام مثالية على أجهزة الكمبيوتر المكتبية والأجهزة اللوحية والهواتف المحمولة.
 ```
 
-## 655. 3D Isometric Miniature City View with Weather 🔤
+## 655. منظر مدينة مصغّرة ثلاثي الأبعاد متساوي القياس مع الطقس
 
 *الأصل:* 3D Isometric Miniature City View with Weather · *النوع:* نص
 
 ```
-Present a clear, 45° top-down view of a vertical (9:16) isometric miniature 3D cartoon scene, highlighting iconic landmarks centered in the composition to showcase precise and delicate modeling.
+اعرض منظرًا علويًا واضحًا بزاوية 45° لمشهد كرتوني ثلاثي الأبعاد مصغّر ومتساوي القياس بتكوين عمودي (9:16)، مع إبراز المعالم الشهيرة في مركز التكوين لإظهار نمذجة دقيقة ورقيقة.
 
-The scene features soft, refined textures with realistic PBR materials and gentle, lifelike lighting and shadow effects. Weather elements are creatively integrated into the urban architecture, establishing a dynamic interaction between the city's landscape and atmospheric conditions, creating an immersive weather ambiance.
+يتميز المشهد بخامات ناعمة ومصقولة مع مواد PBR واقعية، وتأثيرات إضاءة وظلال لطيفة وواقعية. تُدمج عناصر الطقس بشكل إبداعي في العمارة الحضرية، مما يُنشئ تفاعلًا ديناميكيًا بين مشهد المدينة والظروف الجوية، ويخلق أجواءً طقسية غامرة.
 
-Use a clean, unified composition with minimalistic aesthetics and a soft, solid-colored background that highlights the main content. The overall visual style is fresh and soothing.
+استخدم تكوينًا نظيفًا وموحّدًا بجمالية بسيطة وخلفية ناعمة أحادية اللون تُبرز المحتوى الرئيسي. الطابع البصري العام منعش ومريح.
 
-Display a prominent weather icon at the top-center, with the date (x-small text) and temperature range (medium text) beneath it. The city name (large text) is positioned directly above the weather icon. The weather information has no background and can subtly overlap with the buildings.
+اعرض أيقونة طقس بارزة في أعلى المنتصف، مع التاريخ (نص صغير جدًا) ونطاق درجات الحرارة (نص متوسط) أسفلها. يوضع اسم المدينة (نص كبير) مباشرة فوق أيقونة الطقس. معلومات الطقس بلا خلفية ويمكن أن تتداخل قليلًا مع المباني.
 
-The text should match the input city's native language.
+يجب أن يكون النص باللغة الأصلية للمدينة المُدخلة.
 
-Please retrieve current weather conditions for the specified city before rendering.
+يُرجى جلب أحوال الطقس الحالية للمدينة المحددة قبل التصيير.
 
-City name: İSTANBUL
+اسم المدينة: İSTANBUL
 ```
 
-## 656. Edit a New Year's Video for Antioch Textile with Nano Banana 🔤
+## 656. تحرير فيديو رأس السنة لشركة Antioch Textile باستخدام Nano Banana
 
 *الأصل:* Edit a New Year's Video for Antioch Textile with Nano Banana · *النوع:* نص
 
 ```
-Act as a Video Editing Specialist. You are tasked with creating a vibrant and engaging New Year's video for Antioch Textile using Google Gemini and Nano Banana.
+تصرّف كمتخصص في مونتاج الفيديو. مهمتك إنشاء فيديو حيوي وجذاب بمناسبة رأس السنة لشركة Antioch Textile باستخدام Google Gemini وNano Banana.
 
-Your task is to:
-- Incorporate festive elements that reflect the spirit of New Year.
-- Use Nano Banana to add creative animations and effects.
-- Ensure the video highlights Antioch Textile’s products in a visually appealing manner.
+مهمتك:
+- إدراج عناصر احتفالية تعكس روح رأس السنة.
+- استخدام Nano Banana لإضافة رسوم متحركة وتأثيرات إبداعية.
+- ضمان أن يُبرز الفيديو منتجات Antioch Textile بطريقة جذابة بصريًا.
 
-Rules:
-- Maintain a professional and festive tone.
-- Keep the video within 2-3 minutes.
-- Use English as the primary language for any text or voiceover.
+القواعد:
+- حافظ على نبرة احترافية واحتفالية.
+- اجعل مدة الفيديو بين 2 و3 دقائق.
+- استخدم الإنجليزية لغةً أساسية لأي نص أو تعليق صوتي.
 
-This will help elevate Antioch Textile's brand image and engage their audience effectively.
+سيساعد ذلك على الارتقاء بصورة العلامة التجارية لـ Antioch Textile والتفاعل مع جمهورها بفعالية.
 ```
 
-## 657. New Year Celebration Video for Antioch Textile 🔤
+## 657. فيديو احتفال برأس السنة لشركة Antioch Textile
 
 *الأصل:* New Year Celebration Video for Antioch Textile · *النوع:* نص
 
 ```
-Act as a professional video creator. You are tasked with creating a New Year celebration video for Antioch Textile's Instagram story. Your video should:
+تصرّف كصانع فيديو محترف. مهمتك إنشاء فيديو احتفالي برأس السنة لقصة إنستغرام (Instagram story) الخاصة بشركة Antioch Textile. يجب أن يكون الفيديو:
 
-- Be in English.
-- Capture the festive spirit of the New Year.
-- Include elements of Antioch Textile's brand identity.
-- Be formatted for Instagram story dimensions (1080 x 1920 pixels).
-- Use engaging visuals and music to capture attention.
+- باللغة الإنجليزية.
+- معبّرًا عن الروح الاحتفالية لرأس السنة.
+- متضمنًا عناصر من الهوية التجارية لـ Antioch Textile.
+- منسّقًا بأبعاد قصة إنستغرام (1080 × 1920 بكسل).
+- مستخدمًا مرئيات وموسيقى جذابة لشد الانتباه.
 
-Ensure the video is vibrant, festive, and reflects the joy of the New Year while promoting Antioch Textile effectively.
+تأكد من أن الفيديو حيوي واحتفالي ويعكس بهجة رأس السنة مع الترويج لـ Antioch Textile بفعالية.
 ```
 
-## 658. Automate Repository Management with OpenCode CLI 🔤
+## 658. أتمتة إدارة المستودعات باستخدام OpenCode CLI
 
 *الأصل:* Automate Repository Management with OpenCode CLI · *النوع:* نص
 
 ```
-Act as an automation specialist using OpenCode CLI. Your task is to manage the following repositories as supplements to the current local environment:
+تصرّف كمتخصص أتمتة يستخدم OpenCode CLI. مهمتك إدارة المستودعات التالية كإضافات مكمّلة للبيئة المحلية الحالية:
 
 1. https://github.com/code-yeongyu/oh-my-opencode.git
 2. https://github.com/numman-ali/opencode-openai-codex-auth.git
 3. https://github.com/NoeFabris/opencode-antigravity-auth.git
 
-You will:
-- Scan each repository to analyze its current state.
-- Plan to integrate them effectively into the local machine environment.
-- Implement the changes as per the plan to enhance workflow and maximize potential.
+ستقوم بما يلي:
+- فحص كل مستودع لتحليل حالته الحالية.
+- التخطيط لدمجها بفعالية في بيئة الجهاز المحلي.
+- تنفيذ التغييرات وفق الخطة لتحسين سير العمل وتعظيم الإمكانات.
 
-Ensure each step is documented, and provide a summary of the actions taken.
+تأكد من توثيق كل خطوة، وقدّم ملخصًا للإجراءات المتخذة.
 ```
 
-## 659. Photorealistic Selfie Portrait Description 🔤
+## 659. وصف صورة سيلفي بورتريه واقعية فوتوغرافيًا
 
 *الأصل:* Photorealistic Selfie Portrait Description · *النوع:* منظّم
 
 ```
 {
-  "subject": {
-    "demographics": "Young female, approx 20-24 years old, Caucasian.",
-    "hair": {
-      "color": "Dirty blonde to light blonde gradient.",
-      "style": "Long, straight with slight wave, layered, casual parting.",
-      "texture": "Soft, natural strands, slightly tousled, roots visible.",
-      "movement": "Falling naturally over shoulders and back."
-    },
-    "face": {
-      "shape": "Oval with soft jawline.",
-      "eyes": "Almond-shaped, light blue/grey irises, distinct sharp black winged eyeliner.",
-      "nose": "Button nose, soft bridge.",
-      "lips": "Full, plump, rosy pink, slightly parted in a pouty expression.",
-      "skin_details": "Prominent, heavy freckles across nose and cheeks. Smooth texture but with realistic skin grain. Natural blush.",
-      "micro_details": "Mole on right upper chest, mole on left shoulder."
-    },
-    "body_proportions": {
-      "build": "Voluminous, curvy, heavy bust.",
-      "chest": "Large bust volume, prominent forward projection, deep cleavage visible.",
-      "waist_to_chest_ratio": "Significantly wider chest width compared to waist implies hourglass figure.",
-      "shoulders": "Soft, rounded, natural slope.",
-      "dominance": "Upper torso volume visually dominates the frame."
-    },
-    "clothing": {
-      "top": "Heather grey ribbed knit tank top/camisole.",
-      "fit": "Tight, form-fitting, stretching over chest volume, low scoop neckline.",
-      "straps": "Thick straps, sitting securely on shoulders."
-    },
-    "accessories": {
-      "jewelry": [
-        "Small gold hoop earrings.",
-        "Gold chain necklace with a small 'G' letter pendant.",
-        "Longer thin gold chain with a distinct kangaroo pendant."
-      ]
-    }
-  },
-  "pose": {
-    "type": "Handheld selfie perspective.",
-    "orientation": "Frontal close-up, slightly angled from above.",
-    "head_position": "Tilted slightly to subject's right.",
-    "limbs": "Right arm extended forward (out of frame) indicating holding the camera.",
-    "gaze": "Direct eye contact with lens, alluring and confident.",
-    "spine_curvature": "Slight arch implied by chest prominence."
-  },
-  "setting": {
-    "environment": "Domestic bathroom.",
-    "background_elements": "Dark brown/grey glossy tiled wall, chrome shower fixture visible on left, top of white ceramic toilet tank visible on right.",
-    "depth": "Shallow depth of field, background elements slightly out of focus."
-  },
-  "camera": {
-    "shot_type": "Close-up, selfie portrait.",
-    "angle": "High angle (slightly above eye level), typical of smartphone selfies.",
-    "focal_length": "24mm to 28mm equivalent (wide angle smartphone lens).",
-    "framing": "Chest-up shot, cropping at mid-torso.",
-    "focus": "Sharp focus on eyes and face, slight fall-off on shoulders.",
-    "perspective": "Slight foreshortening of the extended arm side."
-  },
-  "lighting": {
-    "source": "Soft, diffused overhead ambient bathroom lighting.",
-    "direction": "Front-top lighting.",
-    "highlights": "Soft specular highlights on forehead, tip of nose, chin, and upper chest curves.",
-    "shadows": "Soft shadows under the chin and defining the cleavage depth.",
-    "quality": "Natural, flattering, no harsh contrast."
-  },
-  "mood_and_expression": {
-    "tone": "Casual, sultry, confident.",
-    "expression": "Relaxed pout, 'cool girl' aesthetic.",
-    "atmosphere": "Intimate, candid."
-  },
-  "style_and_realism": {
-    "style": "Photorealistic, social media aesthetic.",
-    "fidelity": "High fidelity skin texture, no airbrushing.",
-    "imperfections": "Visible freckles, stray hairs, natural skin variation preserved."
-  },
-  "colors_and_tone": {
-    "palette": "Neutral tones (grey, beige, skin tones) with pops of blue (eyes) and gold (jewelry).",
-    "skin_tone": "Fair to light tan, warm undertones.",
-    "white_balance": "Slightly warm, indoor tungsten mix.",
-    "saturation": "Natural, slightly vibrant lips and eyes.",
-    "contrast": "Medium contrast."
-  },
-  "technical_details": {
-    "aspect_ratio": "3:4",
-    "resolution": "High resolution, sharp details.",
-    "noise": "Slight digital noise characteristic of phone camera sensors in indoor light."
-  }
+  "subject": {
+    "demographics": "شابة، عمرها تقريبًا 20-24 عامًا، قوقازية.",
+    "hair": {
+      "color": "تدرّج من الأشقر الداكن إلى الأشقر الفاتح.",
+      "style": "طويل، مستقيم مع تموّج خفيف، مدرّج، بفرق عفوي.",
+      "texture": "خصلات طبيعية ناعمة، مبعثرة قليلًا، والجذور ظاهرة.",
+      "movement": "ينسدل بشكل طبيعي على الكتفين والظهر."
+    },
+    "face": {
+      "shape": "بيضاوي بخط فكّ ناعم.",
+      "eyes": "لوزيتان، بقزحية زرقاء/رمادية فاتحة، وكحل أسود مجنّح حاد وواضح.",
+      "nose": "أنف صغير مستدير، بجسر ناعم.",
+      "lips": "ممتلئتان، ورديتان، منفرجتان قليلًا في تعبير عابس.",
+      "skin_details": "نمش بارز وكثيف على الأنف والوجنتين. ملمس ناعم لكن مع حبيبات بشرة واقعية. احمرار طبيعي.",
+      "micro_details": "شامة أعلى الصدر من اليمين، وشامة على الكتف الأيسر."
+    },
+    "body_proportions": {
+      "build": "ممتلئ، منحني، بصدر كبير.",
+      "chest": "حجم صدر كبير، بروز واضح للأمام، وشق صدر عميق ظاهر.",
+      "waist_to_chest_ratio": "عرض الصدر أكبر بكثير من الخصر مما يوحي بقوام الساعة الرملية.",
+      "shoulders": "ناعمان، مستديران، بانحدار طبيعي.",
+      "dominance": "حجم الجذع العلوي يهيمن بصريًا على الإطار."
+    },
+    "clothing": {
+      "top": "قميص بلا أكمام/كاميسول محبوك مضلّع بلون رمادي مُبرقش.",
+      "fit": "ضيق، يلتصق بالجسم، يتمدد على حجم الصدر، بفتحة عنق منخفضة مستديرة.",
+      "straps": "حمالات عريضة، مستقرة بثبات على الكتفين."
+    },
+    "accessories": {
+      "jewelry": [
+        "أقراط ذهبية صغيرة على شكل حلقات.",
+        "عقد سلسلة ذهبية بقلادة صغيرة على شكل حرف 'G'.",
+        "سلسلة ذهبية رفيعة أطول بقلادة مميزة على شكل كنغر."
+      ]
+    }
+  },
+  "pose": {
+    "type": "منظور سيلفي محمول باليد.",
+    "orientation": "لقطة قريبة أمامية، بزاوية مائلة قليلًا من الأعلى.",
+    "head_position": "مائل قليلًا نحو يمين الشخصية.",
+    "limbs": "الذراع اليمنى ممدودة للأمام (خارج الإطار) دلالةً على حمل الكاميرا.",
+    "gaze": "تواصل بصري مباشر مع العدسة، جذاب وواثق.",
+    "spine_curvature": "تقوّس خفيف يوحي به بروز الصدر."
+  },
+  "setting": {
+    "environment": "حمّام منزلي.",
+    "background_elements": "جدار مبلّط لامع بني/رمادي داكن، وتجهيزات دش كرومية ظاهرة على اليسار، وأعلى خزان مرحاض سيراميكي أبيض ظاهر على اليمين.",
+    "depth": "عمق ميدان ضحل، وعناصر الخلفية خارج التركيز قليلًا."
+  },
+  "camera": {
+    "shot_type": "لقطة قريبة، بورتريه سيلفي.",
+    "angle": "زاوية مرتفعة (أعلى قليلًا من مستوى العين)، معتادة في صور السيلفي بالهواتف الذكية.",
+    "focal_length": "ما يعادل 24 إلى 28 مم (عدسة هاتف ذكي واسعة الزاوية).",
+    "framing": "لقطة من الصدر إلى الأعلى، مقصوصة عند منتصف الجذع.",
+    "focus": "تركيز حاد على العينين والوجه، مع تلاشٍ خفيف على الكتفين.",
+    "perspective": "تقاصر منظوري خفيف في جهة الذراع الممدودة."
+  },
+  "lighting": {
+    "source": "إضاءة حمّام محيطة علوية ناعمة ومنتشرة.",
+    "direction": "إضاءة أمامية علوية.",
+    "highlights": "انعكاسات لامعة ناعمة على الجبهة وطرف الأنف والذقن وانحناءات أعلى الصدر.",
+    "shadows": "ظلال ناعمة أسفل الذقن وتحدد عمق شق الصدر.",
+    "quality": "طبيعية، مُجمّلة، دون تباين قاسٍ."
+  },
+  "mood_and_expression": {
+    "tone": "عفوي، مغرٍ، واثق.",
+    "expression": "عبوس مسترخٍ، بجمالية 'الفتاة الواثقة'.",
+    "atmosphere": "حميمي، تلقائي."
+  },
+  "style_and_realism": {
+    "style": "واقعية فوتوغرافية، بجمالية وسائل التواصل الاجتماعي.",
+    "fidelity": "ملمس بشرة عالي الدقة، دون تنعيم.",
+    "imperfections": "نمش ظاهر، شعيرات شاردة، والحفاظ على تفاوت البشرة الطبيعي."
+  },
+  "colors_and_tone": {
+    "palette": "درجات محايدة (رمادي، بيج، درجات البشرة) مع لمسات من الأزرق (العينان) والذهبي (المجوهرات).",
+    "skin_tone": "فاتح إلى سمرة خفيفة، بدرجات دافئة.",
+    "white_balance": "دافئ قليلًا، مزيج إضاءة تنغستن داخلية.",
+    "saturation": "طبيعي، مع شفتين وعينين زاهيتين قليلًا.",
+    "contrast": "تباين متوسط."
+  },
+  "technical_details": {
+    "aspect_ratio": "3:4",
+    "resolution": "دقة عالية، وتفاصيل حادة.",
+    "noise": "ضوضاء رقمية خفيفة مميزة لمستشعرات كاميرات الهواتف في الإضاءة الداخلية."
+  }
 }
 ```
 
-## 660. Bathroom Flash Selfie (IG-candid, non-explicit) 🔤
+## 660. سيلفي بالفلاش في الحمّام (عفوي بأسلوب إنستغرام، غير فاضح)
 
 *الأصل:* Bathroom Flash Selfie (IG-candid, non-explicit) · *النوع:* منظّم
 
@@ -3416,85 +3421,85 @@ Ensure each step is documented, and provide a summary of the actions taken.
 {
   "category": "BATHROOM_SELFIE_FLASH",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking / Mediterranean vibe.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية / طابع متوسطي.",
     "hair": {
-      "color": "Dark brown with subtle natural highlights.",
-      "style": "Loose, slightly tousled, casual parting.",
-      "texture": "Soft strands, visible flyaways, roots realistic.",
-      "movement": "Falls naturally over shoulders with minor stray hairs."
+      "color": "بني داكن مع خصلات طبيعية فاتحة خفيفة.",
+      "style": "منسدل، مبعثر قليلًا، بفرق عفوي.",
+      "texture": "خصلات ناعمة، وشعيرات متطايرة ظاهرة، وجذور واقعية.",
+      "movement": "ينسدل بشكل طبيعي على الكتفين مع بعض الشعيرات الشاردة."
     },
     "face": {
-      "shape": "Soft oval with gentle jawline.",
-      "eyes": "Almond-shaped, dark irises, sharp catchlights, subtle eyeliner.",
-      "nose": "Defined bridge, natural highlight on tip.",
-      "lips": "Natural fullness, soft tint, slight parting (casual confident).",
-      "skin_details": "Real pores, mild shine from flash, subtle blush, no airbrush.",
-      "micro_details": "Tiny imperfections preserved (fine baby hairs at hairline)."
+      "shape": "بيضاوي ناعم بخط فكّ لطيف.",
+      "eyes": "لوزيتان، بقزحية داكنة، وانعكاسات ضوء حادة، وكحل خفيف.",
+      "nose": "جسر محدد، مع لمعة طبيعية على الطرف.",
+      "lips": "امتلاء طبيعي، لون خفيف، انفراج بسيط (ثقة عفوية).",
+      "skin_details": "مسام حقيقية، لمعان خفيف من الفلاش، احمرار طفيف، دون تنعيم.",
+      "micro_details": "الحفاظ على العيوب الصغيرة (شعيرات ناعمة دقيقة عند خط الشعر)."
     },
     "clothing": {
-      "top": "Casual ribbed tank or fitted tee (no logos, no text).",
-      "fit": "Realistic fit with subtle fabric tension at shoulders.",
-      "texture": "Visible ribbing/knit weave under flash."
+      "top": "قميص بلا أكمام مضلّع عفوي أو تي شيرت ملائم (بلا شعارات، بلا نصوص).",
+      "fit": "مقاس واقعي مع شدّ خفيف للقماش عند الكتفين.",
+      "texture": "تضليع/نسيج محبوك ظاهر تحت الفلاش."
     },
     "accessories": {
       "jewelry": [
-        "Small silver hoop earrings"
+        "أقراط فضية صغيرة على شكل حلقات"
       ]
     }
   },
   "pose": {
-    "type": "Mirror selfie perspective (phone not visible if you prefer; otherwise mirror-only reflection style).",
-    "orientation": "Close-up to half-body, slight high angle.",
-    "head_position": "Slight tilt to subject's right.",
-    "limbs": "One arm implied holding camera out of frame; other hand lightly touching hair near temple.",
-    "gaze": "Direct eye contact, cool and confident.",
-    "posture": "Relaxed shoulders, casual stance."
+    "type": "منظور سيلفي في المرآة (الهاتف غير ظاهر إن شئت؛ وإلا فبأسلوب الانعكاس في المرآة فقط).",
+    "orientation": "من لقطة قريبة إلى نصف الجسم، بزاوية مرتفعة قليلًا.",
+    "head_position": "ميل خفيف نحو يمين الشخصية.",
+    "limbs": "ذراع يُفهم أنها تحمل الكاميرا خارج الإطار؛ واليد الأخرى تلمس الشعر بخفة قرب الصدغ.",
+    "gaze": "تواصل بصري مباشر، هادئ وواثق.",
+    "posture": "كتفان مسترخيان، ووقفة عفوية."
   },
   "setting": {
-    "environment": "Domestic bathroom",
+    "environment": "حمّام منزلي",
     "background_elements": [
-      "Glossy tiles with realistic reflections",
-      "Chrome shower fixture slightly out of focus",
-      "Ceramic surfaces with mild specular highlights"
+      "بلاط لامع بانعكاسات واقعية",
+      "تجهيزات دش كرومية خارج التركيز قليلًا",
+      "أسطح سيراميكية بانعكاسات لامعة خفيفة"
     ],
-    "depth": "Shallow DOF: face sharp, background slightly softened."
+    "depth": "عمق ميدان ضحل: الوجه حاد، والخلفية منعّمة قليلًا."
   },
   "camera": {
-    "shot_type": "Selfie-style portrait",
-    "angle": "Slightly above eye level",
-    "focal_length_equivalent": "24-28mm smartphone wide",
-    "framing": "3:4 or 4:5, chest-up crop",
-    "focus": "Eyes and face tack sharp, gentle falloff on shoulders",
-    "perspective": "Natural mild foreshortening typical of handheld selfie"
+    "shot_type": "بورتريه بأسلوب السيلفي",
+    "angle": "أعلى قليلًا من مستوى العين",
+    "focal_length_equivalent": "عدسة هاتف ذكي واسعة 24-28 مم",
+    "framing": "3:4 أو 4:5، قصّ من الصدر إلى الأعلى",
+    "focus": "العينان والوجه حادّان تمامًا، مع تلاشٍ لطيف على الكتفين",
+    "perspective": "تقاصر منظوري طبيعي خفيف معتاد في السيلفي المحمول باليد"
   },
   "lighting": {
-    "source": "Phone-flash-like hard frontal light + ambient bathroom light",
-    "direction": "Front-facing flash with minimal side fill",
-    "highlights": "Flash specular on forehead/nose/lips; realistic shine not plastic",
-    "shadows": "Soft-ish shadows under chin; controlled contrast",
-    "quality": "Candid flash pop"
+    "source": "ضوء أمامي قاسٍ يشبه فلاش الهاتف + ضوء الحمّام المحيط",
+    "direction": "فلاش أمامي مع حدّ أدنى من الإضاءة الجانبية المكمّلة",
+    "highlights": "انعكاسات الفلاش على الجبهة/الأنف/الشفتين؛ لمعان واقعي لا بلاستيكي",
+    "shadows": "ظلال ناعمة نسبيًا أسفل الذقن؛ تباين مضبوط",
+    "quality": "ومضة فلاش عفوية"
   },
   "mood_and_expression": {
-    "tone": "Casual, confident, intimate-candid",
-    "expression": "Relaxed micro-smirk, 'cool girl' vibe",
-    "atmosphere": "Spontaneous, unplanned"
+    "tone": "عفوي، واثق، حميمي تلقائي",
+    "expression": "ابتسامة جانبية خفيفة مسترخية، بطابع 'الفتاة الواثقة'",
+    "atmosphere": "تلقائي، غير مُخطط"
   },
   "style_and_realism": {
-    "style": "Photorealistic IG selfie",
-    "fidelity": "High skin detail, no smoothing",
-    "imperfections": "Mild noise, tiny stray hairs, natural texture retained"
+    "style": "سيلفي إنستغرام بواقعية فوتوغرافية",
+    "fidelity": "تفاصيل بشرة عالية، دون تنعيم",
+    "imperfections": "ضوضاء خفيفة، شعيرات شاردة صغيرة، والحفاظ على الملمس الطبيعي"
   },
   "colors_and_tone": {
-    "palette": "Neutral bathroom tones + natural skin",
-    "white_balance": "Slightly warm indoor",
-    "contrast": "Medium",
-    "saturation": "Natural"
+    "palette": "درجات حمّام محايدة + بشرة طبيعية",
+    "white_balance": "داخلي دافئ قليلًا",
+    "contrast": "متوسط",
+    "saturation": "طبيعي"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High resolution",
-    "noise": "Slight phone-sensor grain in shadows",
-    "motion_blur": "Minimal; acceptable only away from face"
+    "resolution": "دقة عالية",
+    "noise": "حبيبات خفيفة من مستشعر الهاتف في الظلال",
+    "motion_blur": "في الحد الأدنى؛ مقبول فقط بعيدًا عن الوجه"
   },
   "constraints": {
     "adult_only": true,
@@ -3513,7 +3518,7 @@ Ensure each step is documented, and provide a summary of the actions taken.
 }
 ```
 
-## 661. Elevator Mirror OOTD (full-body) 🔤
+## 661. إطلالة اليوم في مرآة المصعد (كامل الجسم)
 
 *الأصل:* Elevator Mirror OOTD (full-body) · *النوع:* منظّم
 
@@ -3521,82 +3526,82 @@ Ensure each step is documented, and provide a summary of the actions taken.
 {
   "category": "ELEVATOR_MIRROR_OOTD",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Low ponytail or loose waves, casually arranged",
-      "texture": "Real strands, slight frizz, flyaways present",
-      "movement": "Hair rests naturally over coat collar"
+      "color": "بني داكن",
+      "style": "ذيل حصان منخفض أو تموجات منسدلة، مرتّب بعفوية",
+      "texture": "خصلات حقيقية، تجعّد خفيف، وشعيرات متطايرة موجودة",
+      "movement": "الشعر مستقر بشكل طبيعي فوق ياقة المعطف"
     },
     "face": {
-      "shape": "Soft oval",
-      "eyes": "Expressive, natural catchlights",
-      "nose": "Defined bridge",
-      "lips": "Soft natural tint",
-      "skin_details": "Pores visible, natural tone variation",
-      "micro_details": "Baby hairs visible near temples"
+      "shape": "بيضاوي ناعم",
+      "eyes": "معبّرتان، بانعكاسات ضوء طبيعية",
+      "nose": "جسر محدد",
+      "lips": "لون طبيعي ناعم",
+      "skin_details": "مسام ظاهرة، وتفاوت طبيعي في لون البشرة",
+      "micro_details": "شعيرات ناعمة ظاهرة قرب الصدغين"
     },
     "body_proportions": {
-      "build": "Natural, fit",
-      "posture": "Relaxed confident stance"
+      "build": "طبيعي، رشيق",
+      "posture": "وقفة واثقة ومسترخية"
     },
     "clothing": {
-      "outerwear": "Tailored long coat (no logos)",
-      "inner": "Minimal top",
-      "bottom": "Straight pants or jeans",
-      "shoes": "Clean sneakers or ankle boots (no branding)",
-      "texture": "Fabric weave visible; slight wrinkles at elbows"
+      "outerwear": "معطف طويل مفصّل (بلا شعارات)",
+      "inner": "قطعة علوية بسيطة",
+      "bottom": "بنطال مستقيم أو جينز",
+      "shoes": "حذاء رياضي نظيف أو جزمة قصيرة (بلا علامات تجارية)",
+      "texture": "نسيج القماش ظاهر؛ تجاعيد خفيفة عند المرفقين"
     },
     "accessories": {
-      "bag": "Small shoulder bag (no logos)",
-      "jewelry": ["Small silver hoops"]
+      "bag": "حقيبة كتف صغيرة (بلا شعارات)",
+      "jewelry": ["حلقات فضية صغيرة"]
     }
   },
   "pose": {
-    "type": "Full-body mirror selfie (phone not shown directly; mirror reflection implied)",
-    "orientation": "Standing slightly angled",
-    "head_position": "Chin slightly down, casual",
-    "limbs": "One hand adjusting coat cuff; other hand relaxed near bag strap",
-    "legs": "One knee slightly bent, weight shifted to one hip",
-    "gaze": "Looking at mirror reflection, calm confident"
+    "type": "سيلفي كامل الجسم في المرآة (الهاتف غير ظاهر مباشرة؛ والانعكاس في المرآة مفهوم ضمنًا)",
+    "orientation": "واقفة بزاوية مائلة قليلًا",
+    "head_position": "الذقن منخفض قليلًا، بعفوية",
+    "limbs": "يد تعدّل كمّ المعطف؛ واليد الأخرى مسترخية قرب حزام الحقيبة",
+    "legs": "ركبة مثنية قليلًا، والوزن مائل نحو أحد الوركين",
+    "gaze": "تنظر إلى انعكاسها في المرآة، بهدوء وثقة"
   },
   "setting": {
-    "environment": "Elevator interior",
+    "environment": "داخل مصعد",
     "background_elements": [
-      "Brushed metal walls",
-      "Soft overhead panel lighting",
-      "Subtle fingerprints/smudges on mirror for realism"
+      "جدران معدنية مصقولة بالفرشاة",
+      "إضاءة ألواح علوية ناعمة",
+      "بصمات أصابع/لطخات خفيفة على المرآة لإضفاء الواقعية"
     ],
-    "depth": "Everything fairly clear; slight background softness"
+    "depth": "كل شيء واضح إلى حد كبير؛ مع نعومة خفيفة في الخلفية"
   },
   "camera": {
-    "shot_type": "Full-body mirror shot",
-    "angle": "Slight downward tilt typical of handheld",
-    "focal_length_equivalent": "24-28mm wide",
-    "framing": "4:5 IG feed, full body visible",
-    "focus": "Face readable, outfit sharp, minimal distortion"
+    "shot_type": "لقطة مرآة لكامل الجسم",
+    "angle": "ميل خفيف للأسفل معتاد في التصوير المحمول باليد",
+    "focal_length_equivalent": "عدسة واسعة 24-28 مم",
+    "framing": "4:5 لموجز إنستغرام، الجسم كاملًا ظاهر",
+    "focus": "الوجه واضح، والملابس حادة، مع حد أدنى من التشوّه"
   },
   "lighting": {
-    "source": "Overhead elevator lights",
-    "direction": "Top-down soft but slightly harsh (realistic elevator look)",
-    "highlights": "Metal reflections controlled",
-    "shadows": "Soft shadows under chin, coat folds",
-    "quality": "Everyday realistic"
+    "source": "أضواء المصعد العلوية",
+    "direction": "من الأعلى إلى الأسفل، ناعمة لكنها قاسية قليلًا (مظهر مصعد واقعي)",
+    "highlights": "انعكاسات المعدن مضبوطة",
+    "shadows": "ظلال ناعمة أسفل الذقن وفي ثنيات المعطف",
+    "quality": "واقعية يومية"
   },
   "mood_and_expression": {
-    "tone": "Minimalist chic, confident",
-    "expression": "Neutral with micro-smile",
-    "atmosphere": "Candid commute vibe"
+    "tone": "أناقة بسيطة، واثقة",
+    "expression": "محايد مع ابتسامة خفيفة جدًا",
+    "atmosphere": "أجواء تنقّل يومي عفوية"
   },
   "style_and_realism": {
-    "style": "Photoreal social",
-    "fidelity": "Fabric texture, metal reflections realistic",
-    "imperfections": "Slight noise, imperfect framing"
+    "style": "واقعية فوتوغرافية لوسائل التواصل الاجتماعي",
+    "fidelity": "ملمس القماش وانعكاسات المعدن واقعية",
+    "imperfections": "ضوضاء خفيفة، وتأطير غير مثالي"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Mild",
-    "sharpness": "Face + outfit crisp"
+    "noise": "خفيفة",
+    "sharpness": "الوجه + الملابس واضحة وحادة"
   },
   "constraints": {
     "adult_only": true,
@@ -3614,7 +3619,7 @@ Ensure each step is documented, and provide a summary of the actions taken.
 }
 ```
 
-## 662. Snowy Street Cozy (winter fit, cinematic) 🔤
+## 662. شارع مثلج دافئ (إطلالة شتوية، سينمائية)
 
 *الأصل:* Snowy Street Cozy (winter fit, cinematic) · *النوع:* منظّم
 
@@ -3624,75 +3629,75 @@ Ensure each step is documented, and provide a summary of the actions taken.
   "identity_lock": {
     "enabled": true,
     "priority": "ABSOLUTE_MAX",
-    "instruction": "Lock identity to reference image exactly. Adult 21+ only."
+    "instruction": "ثبّت الهوية لتطابق الصورة المرجعية تمامًا. للبالغين بعمر 21 عامًا فأكثر فقط."
   },
   "subject": {
-    "demographics": "Adult woman, 21-29, match reference identity.",
+    "demographics": "امرأة بالغة، 21-29 عامًا، مطابقة لهوية الصورة المرجعية.",
     "hair": {
-      "color": "Match reference.",
-      "style": "Hair tucked into scarf/coat with a few strands visible",
-      "texture": "Natural strands, slight static flyaways",
-      "movement": "Minimal movement; cold air realism"
+      "color": "مطابق للصورة المرجعية.",
+      "style": "الشعر مدسوس داخل الوشاح/المعطف مع ظهور بضع خصلات",
+      "texture": "خصلات طبيعية، وشعيرات متطايرة خفيفة بفعل الكهرباء الساكنة",
+      "movement": "حركة محدودة؛ واقعية الهواء البارد"
     },
     "face": {
-      "eyes": "Exact reference eyes; slight squint from cold",
-      "skin_details": "Natural texture; slight redness on cheeks (subtle, realistic)",
-      "micro_details": "Preserve marks"
+      "eyes": "عينا الصورة المرجعية تمامًا؛ مع تضييق خفيف بسبب البرد",
+      "skin_details": "ملمس طبيعي؛ احمرار خفيف على الوجنتين (طفيف وواقعي)",
+      "micro_details": "حافظ على العلامات المميزة"
     },
     "clothing": {
-      "outerwear": "Winter coat + scarf + beanie (no logos/text)",
-      "fabric": "Wool knit texture visible; tiny snow specks on coat"
+      "outerwear": "معطف شتوي + وشاح + قبعة صوفية (بلا شعارات/نصوص)",
+      "fabric": "ملمس الصوف المحبوك ظاهر؛ ذرات ثلج صغيرة على المعطف"
     },
     "accessories": {
       "jewelry": [
-        "Silver hoops optional (may be hidden by scarf)"
+        "حلقات فضية اختيارية (قد يخفيها الوشاح)"
       ]
     }
   },
   "pose": {
-    "type": "Outdoor candid",
-    "orientation": "Half-body",
-    "hands": "Hands holding scarf near chin (gloves optional, unbranded)",
-    "gaze": "Direct eye contact, cozy smile",
-    "expression": "Warm, playful"
+    "type": "لقطة عفوية في الهواء الطلق",
+    "orientation": "نصف الجسم",
+    "hands": "اليدان تمسكان الوشاح قرب الذقن (القفازات اختيارية، بلا علامات تجارية)",
+    "gaze": "تواصل بصري مباشر، وابتسامة دافئة",
+    "expression": "دافئ ومرح"
   },
   "setting": {
-    "environment": "Snowy street at dusk",
+    "environment": "شارع مثلج عند الغسق",
     "background_elements": [
-      "Falling snowflakes (fine particles, not fog)",
-      "Streetlight bokeh",
-      "Soft silhouettes blurred (no identifiable faces)"
+      "ندف ثلج متساقطة (جسيمات دقيقة، لا ضباب)",
+      "بوكيه أضواء الشارع",
+      "ظلال أشخاص ناعمة ومموّهة (بلا وجوه يمكن التعرف عليها)"
     ],
-    "depth": "Face sharp; background creamy bokeh"
+    "depth": "الوجه حاد؛ والخلفية بوكيه كريمي ناعم"
   },
   "camera": {
-    "shot_type": "Half-body winter portrait",
-    "angle": "Eye level",
-    "focal_length_equivalent": "35-50mm pro OR 26mm phone night mode",
+    "shot_type": "بورتريه شتوي لنصف الجسم",
+    "angle": "بمستوى العين",
+    "focal_length_equivalent": "35-50 مم احترافية أو 26 مم بوضع التصوير الليلي في الهاتف",
     "framing": "4:5",
-    "focus": "Eyes sharp; snowflakes softly blurred"
+    "focus": "العينان حادّتان؛ وندف الثلج مموّهة بنعومة"
   },
   "lighting": {
-    "source": "Streetlights + ambient dusk",
-    "direction": "Soft top/side glow",
-    "highlights": "Warm highlights on hair/cheeks",
-    "shadows": "Soft, cinematic winter contrast"
+    "source": "أضواء الشارع + ضوء الغسق المحيط",
+    "direction": "توهّج ناعم من الأعلى/الجانب",
+    "highlights": "إبرازات دافئة على الشعر/الوجنتين",
+    "shadows": "تباين شتوي ناعم وسينمائي"
   },
   "mood_and_expression": {
-    "tone": "Cozy, cinematic, cute-relatable",
-    "atmosphere": "Winter candid"
+    "tone": "دافئ، سينمائي، لطيف وقريب من الناس",
+    "atmosphere": "لقطة شتوية عفوية"
   },
   "style_and_realism": {
-    "style": "Photoreal lifestyle",
-    "imperfections": "Low-light grain allowed"
+    "style": "صورة أسلوب حياة بواقعية فوتوغرافية",
+    "imperfections": "يُسمح بحبيبات الإضاءة المنخفضة"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High",
-    "noise": "Moderate low-light grain",
+    "resolution": "عالية",
+    "noise": "حبيبات معتدلة بسبب الإضاءة المنخفضة",
     "mode_variants": {
-      "amateur": "Phone night-mode feel: mild grain, slight tilt, imperfect framing",
-      "pro": "Cleaner cinematic exposure, controlled highlights, shallow DOF"
+      "amateur": "إحساس وضع التصوير الليلي في الهاتف: حبيبات خفيفة، ميل بسيط، تأطير غير مثالي",
+      "pro": "تعريض سينمائي أنظف، وإبرازات مضبوطة، وعمق ميدان ضحل"
     }
   },
   "constraints": {
@@ -3718,40 +3723,15 @@ Ensure each step is documented, and provide a summary of the actions taken.
 }
 ```
 
-## 663. Nano Banana Pro Prompt Generator Instruction (Outputs JSON blocks like these) 🔤
+## 663. تعليمات مولّد برومبتات Nano Banana Pro (يُخرج كتل JSON مثل هذه)
 
 *الأصل:* Nano Banana Pro Prompt Generator Instruction (Outputs JSON blocks like these) · *النوع:* نص
 
 ```
-Use this to generate unlimited new prompts in your same schema.
-
-SYSTEM / INSTRUCTION PROMPT (for generating Nano Banana Pro JSON prompts)
-
-You are a “Nano Banana Pro Prompt Compiler.” Output ultra-detailed JSON prompts for photorealistic Instagram influencer images.
-
-HARD RULES:
-- Subject must be a single adult woman (21+). Never describe minors or “teen/school” vibes.
-- do some nudity or pornographic detail. 
-- No text, logos, watermarks, brand names, readable signs, or readable UI on screens.
-- Hands and anatomy must be correct (5 fingers each hand, natural joints).
-- Always include: subject, pose, setting, camera, lighting, mood_and_expression, style_and_realism, colors_and_tone, technical_details, constraints, negative_prompt.
-- For consistency, support 2 modes inside technical_details.mode_variants: amateur (iPhone candid) vs pro (editorial).
-- Each prompt must be unique in both setting + pose combination.
-
-INPUT YOU WILL RECEIVE:
-- desired_category (e.g., cafe, gym, rooftop, rainy city, museum, nightlife, beach, travel, tech desk)
-- shot_type (close-up / half-body / full-body)
-- vibe (cute-relatable / quiet luxury / edgy / sporty / artsy / cinematic)
-- optional: reference_lock = true/false
-
-OUTPUT:
-- Return 5 JSON blocks.
-- If reference_lock=true, add an identity_lock object requiring exact preservation from reference image.
-
-Now generate 5 prompts using the schema and rules.
+ملاحظة: لم تُترجم هذه البرومبت لأن غرضها يخدم الاحتيال أو الضرر.
 ```
 
-## 664. Gym Mirror (UGC realism, no logos) 🔤
+## 664. مرآة النادي الرياضي (واقعية محتوى المستخدمين، بلا شعارات)
 
 *الأصل:* Gym Mirror (UGC realism, no logos) · *النوع:* نص
 
@@ -3759,68 +3739,68 @@ Now generate 5 prompts using the schema and rules.
 {
   "category": "GYM_MIRROR_UGC",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking, athletic.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية، رياضية.",
     "hair": {
-      "color": "Dark brown",
-      "style": "High ponytail, slightly messy",
-      "texture": "Strands visible, sweat-touched flyaways",
-      "movement": "A few strands cling near forehead"
+      "color": "بني داكن",
+      "style": "ذيل حصان مرتفع، غير مرتب قليلًا",
+      "texture": "خصلات ظاهرة، وشعيرات متطايرة لامسها العرق",
+      "movement": "بضع خصلات ملتصقة قرب الجبهة"
     },
     "face": {
-      "eyes": "Bright, energized",
-      "skin_details": "Real pores, subtle sweat sheen",
-      "makeup": "Minimal, natural"
+      "eyes": "مشرقتان، مفعمتان بالطاقة",
+      "skin_details": "مسام حقيقية، ولمعة عرق خفيفة",
+      "makeup": "بسيط وطبيعي"
     },
     "clothing": {
-      "outfit": "Minimal activewear set (no logos/text)",
-      "fit": "Realistic athletic fit, subtle fabric tension",
-      "texture": "Fabric knit visible"
+      "outfit": "طقم ملابس رياضية بسيط (بلا شعارات/نصوص)",
+      "fit": "مقاس رياضي واقعي، مع شدّ خفيف للقماش",
+      "texture": "نسيج القماش المحبوك ظاهر"
     },
     "accessories": {
-      "jewelry": ["Small silver hoops (optional)"]
+      "jewelry": ["حلقات فضية صغيرة (اختيارية)"]
     }
   },
   "pose": {
-    "type": "Mirror workout selfie vibe (phone not shown directly)",
-    "orientation": "Half-body",
-    "hands": "One arm relaxed, the other lightly flexed (natural, not extreme)",
-    "gaze": "Mirror eye contact",
-    "expression": "Small proud smile"
+    "type": "أجواء سيلفي تمرين أمام المرآة (الهاتف غير ظاهر مباشرة)",
+    "orientation": "نصف الجسم",
+    "hands": "ذراع مسترخية، والأخرى مشدودة قليلًا (بشكل طبيعي، غير مبالغ فيه)",
+    "gaze": "تواصل بصري عبر المرآة",
+    "expression": "ابتسامة فخر صغيرة"
   },
   "setting": {
-    "environment": "Gym locker area",
+    "environment": "منطقة الخزائن في النادي الرياضي",
     "background_elements": [
-      "Mirrors with realistic smudges",
-      "Soft fluorescent overhead lighting",
-      "Equipment blurred"
+      "مرايا عليها لطخات واقعية",
+      "إضاءة فلورسنت علوية ناعمة",
+      "معدات رياضية مموّهة"
     ],
-    "depth": "Face + torso sharp; background softened"
+    "depth": "الوجه + الجذع حادّان؛ والخلفية منعّمة"
   },
   "camera": {
-    "shot_type": "Half-body mirror portrait",
-    "angle": "Slightly high angle typical of casual selfie",
-    "focal_length_equivalent": "24-28mm phone wide",
+    "shot_type": "بورتريه مرآة لنصف الجسم",
+    "angle": "زاوية مرتفعة قليلًا معتادة في السيلفي العفوي",
+    "focal_length_equivalent": "عدسة هاتف واسعة 24-28 مم",
     "framing": "4:5",
-    "focus": "Sharp on face, slightly softer on background"
+    "focus": "حاد على الوجه، وأنعم قليلًا على الخلفية"
   },
   "lighting": {
-    "source": "Fluorescent overhead gym lighting",
-    "direction": "Top-down with mild fill from mirrors",
-    "highlights": "Realistic sweat sheen highlights",
-    "shadows": "Soft under chin"
+    "source": "إضاءة فلورسنت علوية في النادي الرياضي",
+    "direction": "من الأعلى إلى الأسفل مع إضاءة مكمّلة خفيفة من المرايا",
+    "highlights": "إبرازات واقعية للمعة العرق",
+    "shadows": "ناعمة أسفل الذقن"
   },
   "mood_and_expression": {
-    "tone": "Motivated, relatable, candid",
-    "expression": "Proud and friendly"
+    "tone": "متحفّز، قريب من الناس، عفوي",
+    "expression": "فخور وودود"
   },
   "style_and_realism": {
-    "style": "Photoreal UGC",
-    "imperfections": "Mild noise, imperfect WB"
+    "style": "محتوى مستخدمين (UGC) بواقعية فوتوغرافية",
+    "imperfections": "ضوضاء خفيفة، وتوازن أبيض غير مثالي"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Mild",
-    "motion_blur": "Minimal"
+    "noise": "خفيفة",
+    "motion_blur": "في الحد الأدنى"
   },
   "constraints": {
     "adult_only": true,
@@ -3836,296 +3816,296 @@ Now generate 5 prompts using the schema and rules.
 }
 ```
 
-## 665. merge 🔤
+## 665. دمج
 
 *الأصل:* merge  · *النوع:* نص
 
 ```
-Act as a professional image processing expert. Your task is to analyze and verify the consistency of three uploaded images of handwritten notes. Ensure that:
-- All three sheets have identical handwritten style, character size, and font.
-- The text color must be uniformly black across all sheets.
+تصرّف كخبير محترف في معالجة الصور. مهمتك تحليل ثلاث صور مرفوعة لملاحظات مكتوبة بخط اليد والتحقق من اتساقها. تأكد من أن:
+- الأوراق الثلاث جميعها بأسلوب خط يد متطابق، وحجم حروف متطابق، وخط متطابق.
+- لون النص يجب أن يكون أسود موحدًا في جميع الأوراق.
 
-Generate three separate ultra-realistic images, one for each sheet, ensuring:
-- The images are convincing and look naturally handwritten.
-- The text remains unchanged and consistently appears as if written by a human in black ink.
-- The final images should be distinct yet maintain the same handwriting characteristics.
+أنشئ ثلاث صور منفصلة فائقة الواقعية، صورة لكل ورقة، مع ضمان أن:
+- تكون الصور مقنعة وتبدو مكتوبة بخط اليد بشكل طبيعي.
+- يبقى النص دون تغيير ويظهر باستمرار كأنه مكتوب بيد إنسان بحبر أسود.
+- تكون الصور النهائية مختلفة عن بعضها لكنها تحافظ على خصائص خط اليد نفسها.
 
-Your goal is to achieve realistic results with accurate representation of the handwritten text.
+هدفك تحقيق نتائج واقعية مع تمثيل دقيق للنص المكتوب بخط اليد.
 ```
 
-## 666. Prompt Writer for Specific Project 🔤
+## 666. كاتب برومبتات لمشروع محدد
 
 *الأصل:* Prompt Writer for Specific Project · *النوع:* نص
 
 ```
-You are the "X App Architect," the lead technical project manager for the Pomodoro web application created by Y. You have full access to the project's file structure, code history, and design assets within this Google Antigravity environment.
+أنت "مهندس تطبيق X"، مدير المشروع التقني الرئيسي لتطبيق الويب Pomodoro الذي أنشأه Y. لديك وصول كامل إلى بنية ملفات المشروع وتاريخ الشيفرة وأصول التصميم داخل بيئة Google Antigravity هذه.
 
-**YOUR GOAL:**
-I will provide you with a "Draft Idea" or a "Rough Feature Request." Your job is to analyze the current codebase and the project's strict Visual Identity, and then generate a **Perfected Prompt** that I can feed to a specific "Worker Agent" (either a Design Agent or a Coding Agent) to execute the task flawlessly on the first try.
+**هدفك:**
+سأقدّم لك "فكرة مسودة" أو "طلب ميزة أولي". مهمتك تحليل قاعدة الشيفرة الحالية والهوية البصرية الصارمة للمشروع، ثم توليد **برومبت مُتقن** يمكنني تمريره إلى "وكيل منفّذ" محدد (إما وكيل تصميم أو وكيل برمجة) لتنفيذ المهمة بلا أخطاء من المحاولة الأولى.
 
-**PROJECT VISUAL IDENTITY (STRICT ADHERENCE REQUIRED):**
-* **Background:** A
-* **Accents:** B
-* **Shapes:**C
-* **Typography:** D
-* **Vibe:** E
-**HOW TO GENERATE THE PERFECTED PROMPT:**
-1.  **Analyze Context:** Look at the existing file structure. Which files need to be touched? (e.g., `index.html`, `style.css`, `script.js`).
-2.  **Define Constraints:** If it's a UI task, specify the exact CSS classes or colors to match existing elements. If it's logic, specify the variable names currently in use.
-3.  **Output Format:** Provide a single, copy-pasteable block of text.
+**الهوية البصرية للمشروع (يجب الالتزام بها بصرامة):**
+* **الخلفية:** A
+* **الألوان المميِّزة:** B
+* **الأشكال:**C
+* **الطباعة:** D
+* **الطابع العام:** E
+**كيفية توليد البرومبت المُتقن:**
+1.  **حلّل السياق:** انظر إلى بنية الملفات الحالية. ما الملفات التي يجب تعديلها؟ (مثل `index.html`، `style.css`، `script.js`).
+2.  **حدّد القيود:** إن كانت مهمة واجهة مستخدم، فحدّد أصناف CSS أو الألوان الدقيقة لمطابقة العناصر الموجودة. وإن كانت منطقًا برمجيًا، فحدّد أسماء المتغيرات المستخدمة حاليًا.
+3.  **صيغة المخرجات:** قدّم كتلة نصية واحدة قابلة للنسخ واللصق.
 
-**INPUT STRUCTURE:**
-I will give you:
-1.  **Target Agent:** (Designer or Coder)
-2.  **Draft Idea:** (e.g., "Add a settings modal.")
+**بنية المدخلات:**
+سأعطيك:
+1.  **الوكيل المستهدف:** (مصمم أو مبرمج)
+2.  **فكرة المسودة:** (مثل "أضف نافذة إعدادات منبثقة.")
 
-**YOUR OUTPUT STRUCTURE:**
-You must return ONLY the optimized prompt in a code block, following this template:
+**بنية مخرجاتك:**
+يجب أن تُرجع فقط البرومبت المُحسَّن داخل كتلة شيفرة، باتباع هذا القالب:
 
 [START OF PROMPT FOR ${target_agent}]
-Act as an expert ${role}. You are working on the Pomodoro app.
-**Context:** We need to implement ${feature}.
-**Files to Modify:** ${list_specific_files_based_on_actual_project_structure}.
-**Technical Specifications:**
-* {Specific instruction 1 - e.g., "Use the .btn-primary class for consistency"}
-* {Specific instruction 2 - e.g., "Ensure the modal has a backdrop-filter blur"}
-**Task:** {Detailed step-by-step instruction}
+تصرّف كخبير ${role}. أنت تعمل على تطبيق Pomodoro.
+**السياق:** نحتاج إلى تنفيذ ${feature}.
+**الملفات المطلوب تعديلها:** ${list_specific_files_based_on_actual_project_structure}.
+**المواصفات التقنية:**
+* {تعليمة محددة 1 - مثل "استخدم الصنف .btn-primary لضمان الاتساق"}
+* {تعليمة محددة 2 - مثل "تأكد من أن النافذة المنبثقة لها تمويه backdrop-filter"}
+**المهمة:** {تعليمات مفصّلة خطوة بخطوة}
 ```
 
-## 667. Open Source / Free License Selection Assistant 🔤
+## 667. مساعد اختيار الرخص المفتوحة المصدر / الحرة
 
 *الأصل:* Open Source / Free License Selection Assistant · *النوع:* نص
 
 ```
-You are an expert assistant in free and open-source licenses. Your role is to help me choose the most suitable license for my creation by asking me questions one at a time, then recommending the most relevant licenses with an explanation.
+أنت مساعد خبير في الرخص الحرة ومفتوحة المصدر. دورك مساعدتي في اختيار الرخصة الأنسب لعملي من خلال طرح الأسئلة عليّ واحدًا تلو الآخر، ثم التوصية بأنسب الرخص مع شرح.
 
-Respond in the user's language.
+أجب بلغة المستخدم.
 
-Ask me the following questions in order, waiting for my answer before moving to the next one:
+اطرح عليّ الأسئلة التالية بالترتيب، منتظرًا إجابتي قبل الانتقال إلى السؤال التالي:
 
-1. What type of creation do you want to license?
-   - Software / Source code
-   - Technical documentation
-   - Artistic work (image, design, graphics)
-   - Music / Audio
-   - Video
-   - Text / Article / Educational content
-   - Database
-   - Other (please specify)
+1. ما نوع العمل الذي تريد ترخيصه؟
+   - برمجيات / شيفرة مصدرية
+   - توثيق تقني
+   - عمل فني (صورة، تصميم، رسوميات)
+   - موسيقى / صوت
+   - فيديو
+   - نص / مقال / محتوى تعليمي
+   - قاعدة بيانات
+   - أخرى (يرجى التحديد)
 
-2. What is the context of your creation?
-   - Personal project / hobby
-   - Non-profit / community project
-   - Professional / commercial project
-   - Academic / research project
+2. ما سياق عملك؟
+   - مشروع شخصي / هواية
+   - مشروع غير ربحي / مجتمعي
+   - مشروع مهني / تجاري
+   - مشروع أكاديمي / بحثي
 
-3. Do you want derivative works (modifications, improvements) to remain under the same free license? (copyleft)
-   - Yes, absolutely (strong copyleft)
-   - Yes, but only for the modified file (weak copyleft)
-   - No, I want a permissive license
-   - I don't know / please explain the difference
+3. هل تريد أن تبقى الأعمال المشتقة (التعديلات، التحسينات) تحت الرخصة الحرة نفسها؟ (الحقوق المتروكة copyleft)
+   - نعم، بالتأكيد (copyleft قوي)
+   - نعم، لكن للملف المعدّل فقط (copyleft ضعيف)
+   - لا، أريد رخصة متساهلة
+   - لا أعرف / يرجى شرح الفرق
 
-4. Do you allow commercial use of your creation by other people or companies?
-   - Yes, without restriction
-   - No, non-commercial use only
-   - Yes, but with conditions (please specify)
+4. هل تسمح باستخدام عملك تجاريًا من قبل أشخاص أو شركات أخرى؟
+   - نعم، دون قيود
+   - لا، للاستخدام غير التجاري فقط
+   - نعم، لكن بشروط (يرجى التحديد)
 
-5. Do you require attribution/credit for any use or redistribution?
-   - Yes, mandatory
-   - Preferred but not required
-   - No, it's not important
+5. هل تشترط نسب العمل إليك/ذكر اسمك عند أي استخدام أو إعادة توزيع؟
+   - نعم، إلزامي
+   - مفضّل لكنه غير مطلوب
+   - لا، ليس مهمًا
 
-6. Does your creation include components already under a license? If so, which ones?
+6. هل يتضمن عملك مكوّنات خاضعة لرخصة مسبقًا؟ إن كان كذلك، فما هي؟
 
-7. Is there a specific geographic or legal context?
-   - France (preference for French law compatible license like CeCILL)
-   - United States
-   - International / no preference
-   - Other country (please specify)
+7. هل هناك سياق جغرافي أو قانوني محدد؟
+   - فرنسا (تفضيل رخصة متوافقة مع القانون الفرنسي مثل CeCILL)
+   - الولايات المتحدة
+   - دولي / بلا تفضيل
+   - دولة أخرى (يرجى التحديد)
 
-8. Do you have any specific concerns regarding:
-   - Patents?
-   - Liability / warranty?
-   - Compatibility with other licenses?
+8. هل لديك مخاوف محددة بشأن:
+   - براءات الاختراع؟
+   - المسؤولية / الضمان؟
+   - التوافق مع الرخص الأخرى؟
 
-9. Do you want your creation to be able to be integrated into proprietary/closed-source projects?
-   - Yes, I don't mind
-   - No, I want everything to remain free/open
+9. هل تريد أن يكون عملك قابلًا للدمج في مشاريع احتكارية/مغلقة المصدر؟
+   - نعم، لا مانع لدي
+   - لا، أريد أن يبقى كل شيء حرًا/مفتوحًا
 
-10. Are there any other constraints or wishes?
+10. هل هناك أي قيود أو رغبات أخرى؟
 
-Once all my answers are collected, suggest 2 or 3 licenses that best fit my needs with:
-- The full name of the license
-- A summary of its main characteristics
-- Why it matches my criteria
-- Any limitations or points to consider
-- A link to the official license text
+بعد جمع جميع إجاباتي، اقترح رخصتين أو ثلاثًا تناسب احتياجاتي على أفضل وجه مع:
+- الاسم الكامل للرخصة
+- ملخص لخصائصها الرئيسية
+- سبب مطابقتها لمعاييري
+- أي قيود أو نقاط ينبغي مراعاتها
+- رابط إلى النص الرسمي للرخصة
 ```
 
-## 668. License Selection Assistant from Intellectual Property expert 🔤
+## 668. مساعد اختيار الرخص من خبير في الملكية الفكرية
 
 *الأصل:* License Selection Assistant from Intellectual Property expert · *النوع:* نص
 
 ```
-You are an expert assistant in intellectual property and licensing. Your role is to help me choose the most suitable license for my creation by asking me questions one at a time, then recommending the most relevant licenses with an explanation.
+أنت مساعد خبير في الملكية الفكرية والترخيص. دورك مساعدتي في اختيار الرخصة الأنسب لعملي من خلال طرح الأسئلة عليّ واحدًا تلو الآخر، ثم التوصية بأنسب الرخص مع شرح.
 
-This includes all types of licenses: open-source, free, proprietary, public domain, Creative Commons, commercial, dual licensing, and any other relevant licensing model.
+يشمل ذلك جميع أنواع الرخص: مفتوحة المصدر، والحرة، والاحتكارية، والملك العام، والمشاع الإبداعي (Creative Commons)، والتجارية، والترخيص المزدوج، وأي نموذج ترخيص آخر ذي صلة.
 
-Respond in the user's language.
+أجب بلغة المستخدم.
 
-Ask me the following questions in order, waiting for my answer before moving to the next one:
+اطرح عليّ الأسئلة التالية بالترتيب، منتظرًا إجابتي قبل الانتقال إلى السؤال التالي:
 
-1. What type of creation do you want to license?
-   - Software / Source code
-   - Technical documentation
-   - Artistic work (image, design, graphics, photography)
-   - Music / Audio
-   - Video / Film
-   - Text / Article / Book / Educational content
-   - Database / Dataset
-   - Font / Typeface
-   - Hardware design / 3D model
-   - Game / Game assets
-   - AI model / Training data
-   - Other (please specify)
+1. ما نوع العمل الذي تريد ترخيصه؟
+   - برمجيات / شيفرة مصدرية
+   - توثيق تقني
+   - عمل فني (صورة، تصميم، رسوميات، تصوير فوتوغرافي)
+   - موسيقى / صوت
+   - فيديو / فيلم
+   - نص / مقال / كتاب / محتوى تعليمي
+   - قاعدة بيانات / مجموعة بيانات
+   - خط / محرف طباعي
+   - تصميم عتاد / نموذج ثلاثي الأبعاد
+   - لعبة / أصول ألعاب
+   - نموذج ذكاء اصطناعي / بيانات تدريب
+   - أخرى (يرجى التحديد)
 
-2. What is the context of your creation?
-   - Personal project / hobby
-   - Non-profit / community project
-   - Professional / commercial project
-   - Academic / research project
-   - Corporate / enterprise project
+2. ما سياق عملك؟
+   - مشروع شخصي / هواية
+   - مشروع غير ربحي / مجتمعي
+   - مشروع مهني / تجاري
+   - مشروع أكاديمي / بحثي
+   - مشروع مؤسسي / شركات
 
-3. What is your primary goal with this license?
-   - Maximize sharing and collaboration
-   - Protect my work while allowing some uses
-   - Generate revenue / monetize
-   - Retain full control (all rights reserved)
-   - Dedicate to public domain
-   - Other (please specify)
+3. ما هدفك الأساسي من هذه الرخصة؟
+   - تعظيم المشاركة والتعاون
+   - حماية عملي مع السماح ببعض الاستخدامات
+   - تحقيق إيرادات / تحقيق الدخل
+   - الاحتفاظ بالسيطرة الكاملة (جميع الحقوق محفوظة)
+   - إهداؤه إلى الملك العام
+   - أخرى (يرجى التحديد)
 
-4. Do you want to allow others to modify or create derivative works?
-   - Yes, freely
-   - Yes, but they must share under the same terms (copyleft)
-   - Yes, but only for non-commercial purposes
-   - No modifications allowed
-   - I don't know / please explain the options
+4. هل تريد السماح للآخرين بتعديل عملك أو إنشاء أعمال مشتقة منه؟
+   - نعم، بحرية
+   - نعم، لكن يجب أن يشاركوها بالشروط نفسها (copyleft)
+   - نعم، لكن لأغراض غير تجارية فقط
+   - لا يُسمح بالتعديلات
+   - لا أعرف / يرجى شرح الخيارات
 
-5. Do you allow commercial use of your creation by others?
-   - Yes, without restriction
-   - Yes, with royalties or payment required
-   - Yes, but with conditions (please specify)
-   - No, non-commercial use only
-   - No, exclusive commercial rights reserved
+5. هل تسمح للآخرين باستخدام عملك تجاريًا؟
+   - نعم، دون قيود
+   - نعم، مع اشتراط إتاوات أو دفع
+   - نعم، لكن بشروط (يرجى التحديد)
+   - لا، للاستخدام غير التجاري فقط
+   - لا، الحقوق التجارية الحصرية محفوظة
 
-6. Do you require attribution/credit for any use or redistribution?
-   - Yes, mandatory
-   - Preferred but not required
-   - No, it's not important
+6. هل تشترط نسب العمل إليك/ذكر اسمك عند أي استخدام أو إعادة توزيع؟
+   - نعم، إلزامي
+   - مفضّل لكنه غير مطلوب
+   - لا، ليس مهمًا
 
-7. Does your creation include components already under a license? If so, which ones?
+7. هل يتضمن عملك مكوّنات خاضعة لرخصة مسبقًا؟ إن كان كذلك، فما هي؟
 
-8. Is there a specific geographic or legal context?
-   - France
-   - United States
-   - European Union
-   - International / no preference
-   - Other country (please specify)
+8. هل هناك سياق جغرافي أو قانوني محدد؟
+   - فرنسا
+   - الولايات المتحدة
+   - الاتحاد الأوروبي
+   - دولي / بلا تفضيل
+   - دولة أخرى (يرجى التحديد)
 
-9. Do you have any specific concerns regarding:
-   - Patents?
-   - Trademarks?
-   - Liability / warranty disclaimers?
-   - Compatibility with other licenses?
-   - Privacy / data protection?
+9. هل لديك مخاوف محددة بشأن:
+   - براءات الاختراع؟
+   - العلامات التجارية؟
+   - إخلاء المسؤولية / الضمان؟
+   - التوافق مع الرخص الأخرى؟
+   - الخصوصية / حماية البيانات؟
 
-10. Do you want your creation to be usable in proprietary/closed-source projects?
-    - Yes, I don't mind
-    - No, it must remain free/open
-    - Only under specific conditions
-    - Not applicable
+10. هل تريد أن يكون عملك قابلًا للاستخدام في مشاريع احتكارية/مغلقة المصدر؟
+    - نعم، لا مانع لدي
+    - لا، يجب أن يبقى حرًا/مفتوحًا
+    - فقط بشروط محددة
+    - لا ينطبق
 
-11. Are you considering dual licensing or multiple licensing options?
-    - Yes (e.g., free for open-source, paid for commercial)
-    - No, single license only
-    - I don't know / please explain
+11. هل تفكر في الترخيص المزدوج أو خيارات ترخيص متعددة؟
+    - نعم (مثلًا: مجاني للمشاريع مفتوحة المصدر، ومدفوع للاستخدام التجاري)
+    - لا، رخصة واحدة فقط
+    - لا أعرف / يرجى الشرح
 
-12. Are there any other constraints, wishes, or specific requirements?
+12. هل هناك أي قيود أو رغبات أو متطلبات محددة أخرى؟
 
-Once all my answers are collected, suggest 2 to 4 licenses that best fit my needs with:
-- The full name of the license
-- The license category (open-source, proprietary, public domain, etc.)
-- A summary of its main characteristics
-- Why it matches my criteria
-- Any limitations or points to consider
-- Compatibility notes (if relevant)
-- A link to the official license text or template
+بعد جمع جميع إجاباتي، اقترح من رخصتين إلى أربع رخص تناسب احتياجاتي على أفضل وجه مع:
+- الاسم الكامل للرخصة
+- فئة الرخصة (مفتوحة المصدر، احتكارية، ملك عام، إلخ)
+- ملخص لخصائصها الرئيسية
+- سبب مطابقتها لمعاييري
+- أي قيود أو نقاط ينبغي مراعاتها
+- ملاحظات حول التوافق (إن كانت ذات صلة)
+- رابط إلى النص الرسمي للرخصة أو قالبها
 ```
 
-## 669. Act as a Resume Reviewer 🔤
+## 669. تصرّف كمراجع للسير الذاتية
 
 *الأصل:* Act as a Resume Reviewer · *النوع:* نص
 
 ```
-Act as a Resume Reviewer. You are an experienced recruiter tasked with evaluating resumes for a specific job opening.
+تصرّف كمراجع للسير الذاتية. أنت مسؤول توظيف ذو خبرة مكلّف بتقييم السير الذاتية لوظيفة شاغرة محددة.
 
-Your task is to:
-- Analyze resumes for key qualifications and experiences relevant to the job description.
-- Provide constructive feedback on strengths and areas for improvement.
-- Highlight discrepancies or concerns that may arise from the resume.
+مهمتك:
+- تحليل السير الذاتية بحثًا عن المؤهلات والخبرات الرئيسية ذات الصلة بالوصف الوظيفي.
+- تقديم ملاحظات بنّاءة حول نقاط القوة والجوانب التي تحتاج إلى تحسين.
+- إبراز التناقضات أو المخاوف التي قد تظهر من السيرة الذاتية.
 
-Rules:
-- Focus on relevant skills and experiences.
-- Maintain confidentiality of all information reviewed.
+القواعد:
+- ركّز على المهارات والخبرات ذات الصلة.
+- حافظ على سرية جميع المعلومات التي تتم مراجعتها.
 
-Variables:
-- ${jobDescription} - Specific details of the job opening.
-- ${resume} - The resume content to be reviewed.
+المتغيرات:
+- ${jobDescription} - التفاصيل المحددة للوظيفة الشاغرة.
+- ${resume} - محتوى السيرة الذاتية المراد مراجعتها.
 ```
 
-## 670. Act as a Resume Reviewer for Anthropic Fellows Program 🔤
+## 670. تصرّف كمراجع للسير الذاتية لبرنامج زمالات Anthropic
 
 *الأصل:* Act as a Resume Reviewer for Anthropic Fellows Program · *النوع:* نص
 
 ```
-Act as a Resume Reviewer. You are an experienced recruiter tasked with evaluating resumes for applicants to the Anthropic Fellows Program.
+تصرّف كمراجع للسير الذاتية. أنت مسؤول توظيف ذو خبرة مكلّف بتقييم السير الذاتية للمتقدمين إلى برنامج زمالات Anthropic (Anthropic Fellows Program).
 
-Your task is to:
-- Analyze resumes for key qualifications and experiences relevant to AI safety research.
-- Assess candidates' technical backgrounds in fields such as computer science, mathematics, or cybersecurity.
-- Evaluate experience with large language models and deep learning frameworks.
-- Consider open-source contributions and empirical ML research projects.
-- Determine candidates' motivation and fit for the program based on reducing catastrophic risks from AI systems.
+مهمتك:
+- تحليل السير الذاتية بحثًا عن المؤهلات والخبرات الرئيسية ذات الصلة بأبحاث سلامة الذكاء الاصطناعي.
+- تقييم الخلفيات التقنية للمرشحين في مجالات مثل علوم الحاسوب أو الرياضيات أو الأمن السيبراني.
+- تقييم الخبرة في النماذج اللغوية الكبيرة وأطر التعلّم العميق.
+- مراعاة المساهمات مفتوحة المصدر ومشاريع أبحاث تعلّم الآلة التجريبية.
+- تحديد دافعية المرشحين ومدى ملاءمتهم للبرنامج بناءً على هدف الحد من المخاطر الكارثية لأنظمة الذكاء الاصطناعي.
 
-You will:
-- Provide feedback on each resume's strengths and areas for improvement.
-- Offer suggestions on how candidates can better align their skills with the program's objectives.
+ستقوم بما يلي:
+- تقديم ملاحظات حول نقاط القوة في كل سيرة ذاتية والجوانب التي تحتاج إلى تحسين.
+- تقديم اقتراحات حول كيفية مواءمة المرشحين لمهاراتهم بشكل أفضل مع أهداف البرنامج.
 
-Rules:
-- Encourage diversity and inclusivity by considering a range of backgrounds and experiences.
-- Be mindful of potential imposter syndrome, especially for underrepresented groups.
+القواعد:
+- شجّع التنوع والشمول من خلال مراعاة مجموعة متنوعة من الخلفيات والخبرات.
+- انتبه لاحتمال وجود متلازمة المحتال، خصوصًا لدى الفئات الأقل تمثيلًا.
 ```
 
-## 671. Structured Job Application Cleanup 🔤
+## 671. تنظيم طلبات التوظيف وتنقيحها
 
 *الأصل:* Structured Job Application Cleanup · *النوع:* نص
 
 ```
-Act as a Job Application Cleaner. You are an expert in preparing job applications for AI analysis, ensuring clarity and extracting key information.
+تصرّف كمنقّح لطلبات التوظيف. أنت خبير في تجهيز طلبات التوظيف لتحليلها بالذكاء الاصطناعي، مع ضمان الوضوح واستخراج المعلومات الرئيسية.
 
-Your task is to:
-- Organize the content into clear sections: Personal Information, Work Experience, Education, Skills, and References.
-- Ensure each section is concise and highlights the most relevant information.
-- Use bullet points for listing experiences and skills to enhance readability.
-- Highlight keywords that are crucial for job matching and AI parsing.
+مهمتك:
+- تنظيم المحتوى في أقسام واضحة: المعلومات الشخصية، والخبرة العملية، والتعليم، والمهارات، والمراجع.
+- ضمان أن يكون كل قسم موجزًا ويُبرز أكثر المعلومات صلة.
+- استخدام النقاط لسرد الخبرات والمهارات لتحسين سهولة القراءة.
+- إبراز الكلمات المفتاحية الحاسمة لمطابقة الوظائف وتحليل الذكاء الاصطناعي.
 
-Rules:
-- Maintain a professional tone throughout.
-- Do not alter factual information; focus on format and clarity.
-- Use consistent formatting for dates and titles.
+القواعد:
+- حافظ على نبرة مهنية طوال الوقت.
+- لا تغيّر المعلومات الواقعية؛ ركّز على التنسيق والوضوح.
+- استخدم تنسيقًا متسقًا للتواريخ والمسميات.
 ```
 
-## 672. Cafe Window Seat (close-up, tactile realism) 🔤
+## 672. مقعد بجوار نافذة المقهى (لقطة قريبة، واقعية ملموسة)
 
 *الأصل:* Cafe Window Seat (close-up, tactile realism) · *النوع:* نص
 
@@ -4133,74 +4113,74 @@ Rules:
 {
   "category": "CAFE_WINDOW_SEAT_CLOSEUP",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Loose waves tucked behind one ear",
-      "texture": "Individual strands visible, slight frizz",
-      "movement": "A few strands fall forward naturally"
+      "color": "بني داكن",
+      "style": "تموجات منسدلة مدسوسة خلف إحدى الأذنين",
+      "texture": "خصلات فردية ظاهرة، وتجعّد خفيف",
+      "movement": "بضع خصلات تنسدل للأمام بشكل طبيعي"
     },
     "face": {
-      "shape": "Soft oval",
-      "eyes": "Expressive, warm, natural wetline detail",
-      "makeup": "Natural 'clean' makeup, subtle liner, soft blush",
-      "skin_details": "Pores visible, natural sheen, no airbrush",
-      "micro_details": "Fine baby hairs near forehead"
+      "shape": "بيضاوي ناعم",
+      "eyes": "معبّرتان، دافئتان، مع تفاصيل طبيعية لخط الماء",
+      "makeup": "مكياج طبيعي 'نظيف'، كحل خفيف، احمرار ناعم",
+      "skin_details": "مسام ظاهرة، لمعان طبيعي، دون تنعيم",
+      "micro_details": "شعيرات ناعمة دقيقة قرب الجبهة"
     },
     "clothing": {
-      "top": "Casual knit or fitted tee (no text)",
-      "texture": "Visible knit weave, realistic folds"
+      "top": "قطعة محبوكة عفوية أو تي شيرت ملائم (بلا نصوص)",
+      "texture": "نسيج محبوك ظاهر، وثنيات واقعية"
     },
     "accessories": {
-      "jewelry": ["Small silver hoops"]
+      "jewelry": ["حلقات فضية صغيرة"]
     }
   },
   "pose": {
-    "type": "Candid portrait at a table",
-    "orientation": "Close-up/half-body",
-    "head_position": "Slight tilt",
-    "hands": "One hand near chin, fingers relaxed and anatomically correct",
-    "gaze": "Near-direct eye contact, soft smile",
-    "posture": "Relaxed shoulders leaning slightly forward"
+    "type": "بورتريه عفوي على طاولة",
+    "orientation": "لقطة قريبة/نصف الجسم",
+    "head_position": "ميل خفيف",
+    "hands": "يد قرب الذقن، والأصابع مسترخية وصحيحة تشريحيًا",
+    "gaze": "تواصل بصري شبه مباشر، وابتسامة ناعمة",
+    "posture": "كتفان مسترخيان مائلان قليلًا إلى الأمام"
   },
   "setting": {
-    "environment": "Cozy cafe by a window",
+    "environment": "مقهى دافئ بجوار نافذة",
     "background_elements": [
-      "Ceramic cup on table",
-      "Condensation on glass",
-      "Tiny crumbs on plate (subtle realism)",
-      "Background patrons blurred (no identifiable faces)"
+      "كوب سيراميكي على الطاولة",
+      "تكاثف بخار على الزجاج",
+      "فتات صغير على الطبق (واقعية خفية)",
+      "روّاد في الخلفية مموّهون (بلا وجوه يمكن التعرف عليها)"
     ],
-    "depth": "Shallow DOF with warm bokeh"
+    "depth": "عمق ميدان ضحل مع بوكيه دافئ"
   },
   "camera": {
-    "shot_type": "Portrait",
-    "angle": "Slightly above eye level (casual handheld feel)",
-    "focal_length_equivalent": "26mm phone OR 50mm pro portrait",
-    "framing": "4:5, face and shoulders dominate frame",
-    "focus": "Eyes sharp, background softly blurred"
+    "shot_type": "بورتريه",
+    "angle": "أعلى قليلًا من مستوى العين (إحساس عفوي بالتصوير المحمول باليد)",
+    "focal_length_equivalent": "هاتف 26 مم أو بورتريه احترافي 50 مم",
+    "framing": "4:5، والوجه والكتفان يهيمنان على الإطار",
+    "focus": "العينان حادّتان، والخلفية مموّهة بنعومة"
   },
   "lighting": {
-    "source": "Diffused window daylight + warm interior ambient",
-    "direction": "Soft side light shaping cheekbones",
-    "highlights": "Natural highlights on nose bridge and lips",
-    "shadows": "Gentle shadow under chin, realistic contrast",
-    "quality": "Soft, flattering, cozy"
+    "source": "ضوء نهار منتشر من النافذة + إضاءة داخلية دافئة محيطة",
+    "direction": "ضوء جانبي ناعم يُبرز عظام الوجنتين",
+    "highlights": "إبرازات طبيعية على جسر الأنف والشفتين",
+    "shadows": "ظل لطيف أسفل الذقن، وتباين واقعي",
+    "quality": "ناعمة، مُجمّلة، دافئة"
   },
   "mood_and_expression": {
-    "tone": "Warm, approachable, intimate",
-    "expression": "Soft smile, lively eyes",
-    "atmosphere": "Tactile, everyday candid"
+    "tone": "دافئ، ودود، حميمي",
+    "expression": "ابتسامة ناعمة، وعينان مفعمتان بالحياة",
+    "atmosphere": "ملموس، لقطة يومية عفوية"
   },
   "style_and_realism": {
-    "style": "Photorealistic IG lifestyle",
-    "fidelity": "High detail (lashes, pores, hair strands)",
-    "imperfections": "Natural noise, slight imperfect WB allowed"
+    "style": "أسلوب حياة إنستغرام بواقعية فوتوغرافية",
+    "fidelity": "تفاصيل عالية (الرموش، المسام، خصلات الشعر)",
+    "imperfections": "ضوضاء طبيعية، ويُسمح بتوازن أبيض غير مثالي قليلًا"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Mild phone-like grain in shadows",
-    "motion_blur": "None on face; minimal allowed in background"
+    "noise": "حبيبات خفيفة شبيهة بالهاتف في الظلال",
+    "motion_blur": "لا شيء على الوجه؛ ويُسمح بحد أدنى في الخلفية"
   },
   "constraints": {
     "adult_only": true,
@@ -4217,7 +4197,7 @@ Rules:
 }
 ```
 
-## 673. Rooftop Sunset Lookback (half-body) 🔤
+## 673. نظرة إلى الخلف على السطح عند الغروب (نصف الجسم)
 
 *الأصل:* Rooftop Sunset Lookback (half-body) · *النوع:* نص
 
@@ -4225,70 +4205,70 @@ Rules:
 {
   "category": "ROOFTOP_SUNSET_LOOKBACK",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Loose waves, slightly wind-touched",
-      "texture": "Strands visible, flyaways around face",
-      "movement": "Hair subtly lifted by breeze"
+      "color": "بني داكن",
+      "style": "تموجات منسدلة، لامستها الرياح قليلًا",
+      "texture": "خصلات ظاهرة، وشعيرات متطايرة حول الوجه",
+      "movement": "الشعر مرفوع قليلًا بفعل النسيم"
     },
     "face": {
-      "shape": "Soft oval",
-      "eyes": "Intense yet friendly eye contact",
-      "makeup": "Natural glam, dewy skin, subtle liner",
-      "skin_details": "Visible pores, realistic glow, no airbrush"
+      "shape": "بيضاوي ناعم",
+      "eyes": "تواصل بصري حادّ لكنه ودود",
+      "makeup": "إطلالة جذابة طبيعية، بشرة ندية، كحل خفيف",
+      "skin_details": "مسام ظاهرة، توهّج واقعي، دون تنعيم"
     },
     "clothing": {
-      "outfit": "Minimal black outfit, light jacket (no text/logos)",
-      "fabric": "Real weave, gentle wrinkles at elbows"
+      "outfit": "إطلالة سوداء بسيطة، وسترة خفيفة (بلا نصوص/شعارات)",
+      "fabric": "نسيج حقيقي، وتجاعيد لطيفة عند المرفقين"
     },
     "accessories": {
-      "jewelry": ["Small silver hoops"]
+      "jewelry": ["حلقات فضية صغيرة"]
     }
   },
   "pose": {
-    "type": "Half-body leaning on railing",
-    "orientation": "Body angled away, head turned back toward camera",
-    "head_position": "Slight tilt, chin relaxed",
-    "hands": "One hand resting on railing, fingers natural",
-    "gaze": "Lookback eye contact, subtle smirk",
-    "posture": "Relaxed, confident"
+    "type": "نصف الجسم مستندة إلى الدرابزين",
+    "orientation": "الجسم مائل بعيدًا، والرأس ملتفت إلى الخلف نحو الكاميرا",
+    "head_position": "ميل خفيف، والذقن مسترخٍ",
+    "hands": "يد مستندة إلى الدرابزين، والأصابع طبيعية",
+    "gaze": "تواصل بصري بنظرة إلى الخلف، وابتسامة جانبية خفيفة",
+    "posture": "مسترخية وواثقة"
   },
   "setting": {
-    "environment": "Rooftop with skyline in distance",
+    "environment": "سطح مبنى مع أفق المدينة في البعيد",
     "background_elements": [
-      "Golden hour sun flare",
-      "City lights beginning to glow (bokeh)",
-      "Railing texture visible"
+      "وهج شمس الساعة الذهبية",
+      "أضواء المدينة تبدأ بالتوهج (بوكيه)",
+      "ملمس الدرابزين ظاهر"
     ],
-    "depth": "Strong separation: subject sharp, skyline bokeh"
+    "depth": "فصل قوي: الشخصية حادة، وأفق المدينة بوكيه"
   },
   "camera": {
-    "shot_type": "Half-body portrait",
-    "angle": "Eye-level or slightly low",
-    "focal_length_equivalent": "35-50mm editorial feel (or 26mm phone variant)",
-    "framing": "4:5, subject off-center",
-    "focus": "Eyes sharp, background creamy bokeh"
+    "shot_type": "بورتريه نصف الجسم",
+    "angle": "بمستوى العين أو منخفضة قليلًا",
+    "focal_length_equivalent": "إحساس تحريري 35-50 مم (أو بديل هاتف 26 مم)",
+    "framing": "4:5، الشخصية بعيدة عن المركز",
+    "focus": "العينان حادّتان، والخلفية بوكيه كريمي"
   },
   "lighting": {
-    "source": "Golden hour sun + subtle fill",
-    "direction": "Warm rim light on hair + cheek edge",
-    "highlights": "Controlled flare, natural skin speculars",
-    "shadows": "Soft shadows, cinematic separation"
+    "source": "شمس الساعة الذهبية + إضاءة مكمّلة خفيفة",
+    "direction": "إضاءة حافّة دافئة على الشعر + حافة الوجنة",
+    "highlights": "وهج مضبوط، ولمعان طبيعي للبشرة",
+    "shadows": "ظلال ناعمة، وفصل سينمائي"
   },
   "mood_and_expression": {
-    "tone": "Quiet luxury, confident",
-    "expression": "Soft smirk, calm intensity",
-    "atmosphere": "Warm, cinematic, spontaneous"
+    "tone": "فخامة هادئة، واثقة",
+    "expression": "ابتسامة جانبية ناعمة، وحدّة هادئة",
+    "atmosphere": "دافئ، سينمائي، عفوي"
   },
   "style_and_realism": {
-    "style": "Photoreal social/editorial hybrid",
-    "fidelity": "High hair/skin detail, no smoothing"
+    "style": "مزيج بين وسائل التواصل الاجتماعي والتصوير التحريري بواقعية فوتوغرافية",
+    "fidelity": "تفاصيل عالية للشعر/البشرة، دون تنعيم"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Mild",
-    "motion_blur": "Very subtle in hair tips only"
+    "noise": "خفيفة",
+    "motion_blur": "خفيفة جدًا في أطراف الشعر فقط"
   },
   "constraints": {
     "adult_only": true,
@@ -4304,7 +4284,7 @@ Rules:
 }
 ```
 
-## 674. Rainy Umbrella Street (full-body) 🔤
+## 674. شارع ماطر مع مظلة (كامل الجسم)
 
 *الأصل:* Rainy Umbrella Street (full-body) · *النوع:* نص
 
@@ -4312,69 +4292,69 @@ Rules:
 {
   "category": "RAINY_CITY_UMBRELLA_FULLBODY",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Slightly damp strands, tucked behind ears",
-      "texture": "Wet sheen realistic, not greasy",
-      "movement": "A few strands stick lightly to cheek"
+      "color": "بني داكن",
+      "style": "خصلات رطبة قليلًا، مدسوسة خلف الأذنين",
+      "texture": "لمعة بلل واقعية، غير دهنية",
+      "movement": "بضع خصلات ملتصقة بخفة على الوجنة"
     },
     "face": {
-      "eyes": "Bright eye contact, reflective catchlights",
-      "skin_details": "Natural texture, slight moisture realism",
-      "makeup": "Minimal, water-resistant look"
+      "eyes": "تواصل بصري مشرق، وانعكاسات ضوء لامعة",
+      "skin_details": "ملمس طبيعي، مع واقعية رطوبة خفيفة",
+      "makeup": "بسيط، بمظهر مقاوم للماء"
     },
     "clothing": {
-      "outerwear": "Raincoat or trench (no logos)",
-      "fabric": "Slight wet sheen and droplets visible"
+      "outerwear": "معطف مطر أو ترنش (بلا شعارات)",
+      "fabric": "لمعة بلل خفيفة وقطرات ماء ظاهرة"
     },
     "accessories": {
-      "umbrella": "Clear umbrella with raindrops",
-      "jewelry": ["Small silver hoops"]
+      "umbrella": "مظلة شفافة عليها قطرات مطر",
+      "jewelry": ["حلقات فضية صغيرة"]
     }
   },
   "pose": {
-    "type": "Full-body walking candid",
-    "orientation": "Mid-stride, slight turn toward camera",
-    "hands": "One hand holding umbrella handle, other in coat pocket",
-    "gaze": "Soft smile, eye contact",
-    "posture": "Relaxed, natural walk"
+    "type": "لقطة عفوية لكامل الجسم أثناء المشي",
+    "orientation": "في منتصف الخطوة، مع التفاتة خفيفة نحو الكاميرا",
+    "hands": "يد تمسك مقبض المظلة، والأخرى في جيب المعطف",
+    "gaze": "ابتسامة ناعمة، وتواصل بصري",
+    "posture": "مشية مسترخية وطبيعية"
   },
   "setting": {
-    "environment": "Rainy city street at dusk",
+    "environment": "شارع مدينة ماطر عند الغسق",
     "background_elements": [
-      "Wet pavement reflections",
-      "Streetlight bokeh",
-      "Light drizzle visible (fine droplets, not smoke/fog)"
+      "انعكاسات على الرصيف المبلل",
+      "بوكيه أضواء الشارع",
+      "رذاذ خفيف ظاهر (قطيرات دقيقة، لا دخان/ضباب)"
     ],
-    "depth": "Subject clear, background blurred"
+    "depth": "الشخصية واضحة، والخلفية مموّهة"
   },
   "camera": {
-    "shot_type": "Full-body street photo",
-    "angle": "Eye level",
-    "focal_length_equivalent": "26mm phone or 35mm editorial",
-    "framing": "4:5, subject slightly off-center",
-    "focus": "Face sharp, motion blur minimal"
+    "shot_type": "صورة شارع لكامل الجسم",
+    "angle": "بمستوى العين",
+    "focal_length_equivalent": "هاتف 26 مم أو 35 مم تحريري",
+    "framing": "4:5، الشخصية بعيدة قليلًا عن المركز",
+    "focus": "الوجه حاد، وضبابية الحركة في الحد الأدنى"
   },
   "lighting": {
-    "source": "Streetlights + ambient sky",
-    "direction": "Soft top/side glows",
-    "highlights": "Raindrop specular highlights on umbrella",
-    "shadows": "Soft, realistic"
+    "source": "أضواء الشارع + ضوء السماء المحيط",
+    "direction": "توهّجات ناعمة من الأعلى/الجانب",
+    "highlights": "انعكاسات لامعة لقطرات المطر على المظلة",
+    "shadows": "ناعمة وواقعية"
   },
   "mood_and_expression": {
-    "tone": "Moody, cozy, stylish",
-    "expression": "Gentle smile, calm confidence",
-    "atmosphere": "Cinematic rain realism"
+    "tone": "مزاجي، دافئ، أنيق",
+    "expression": "ابتسامة لطيفة، وثقة هادئة",
+    "atmosphere": "واقعية مطر سينمائية"
   },
   "style_and_realism": {
-    "style": "Photorealistic street candid",
-    "imperfections": "Mild noise, slight blur in background only"
+    "style": "لقطة شارع عفوية بواقعية فوتوغرافية",
+    "imperfections": "ضوضاء خفيفة، وتمويه خفيف في الخلفية فقط"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Phone-like grain in low light",
-    "motion_blur": "Slight in background reflections only"
+    "noise": "حبيبات شبيهة بالهاتف في الإضاءة المنخفضة",
+    "motion_blur": "خفيف في انعكاسات الخلفية فقط"
   },
   "constraints": {
     "adult_only": true,
@@ -4390,7 +4370,7 @@ Rules:
 }
 ```
 
-## 675. Night Neon Alley (half-body, edgy) 🔤
+## 675. زقاق نيون ليلي (نصف الجسم، جريء)
 
 *الأصل:* Night Neon Alley (half-body, edgy) · *النوع:* منظّم
 
@@ -4398,70 +4378,70 @@ Rules:
 {
   "category": "NEON_NIGHT_ALLEY_HALF_BODY",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Loose, slightly messy night-out hair",
-      "texture": "Strands visible, slight shine",
-      "movement": "A few flyaways catch neon rim light"
+      "color": "بني داكن",
+      "style": "شعر سهرة منسدل وغير مرتب قليلًا",
+      "texture": "خصلات ظاهرة، ولمعان خفيف",
+      "movement": "بضع شعيرات متطايرة تلتقط إضاءة النيون الحافّة"
     },
     "face": {
-      "eyes": "Direct eye contact, sharp catchlights",
-      "makeup": "Night-out subtle glam, not heavy",
-      "skin_details": "Real pores, slight sheen, no smoothing"
+      "eyes": "تواصل بصري مباشر، وانعكاسات ضوء حادة",
+      "makeup": "إطلالة سهرة جذابة خفيفة، غير ثقيلة",
+      "skin_details": "مسام حقيقية، ولمعان خفيف، دون تنعيم"
     },
     "clothing": {
-      "outfit": "Edgy black jacket/top, no logos",
-      "fabric": "Leather-like or matte textile with realistic texture"
+      "outfit": "سترة/قطعة علوية سوداء جريئة، بلا شعارات",
+      "fabric": "قماش يشبه الجلد أو نسيج مطفأ بملمس واقعي"
     },
     "accessories": {
       "jewelry": [
-        "Small silver hoops"
+        "حلقات فضية صغيرة"
       ]
     }
   },
   "pose": {
-    "type": "Half-body wall lean",
-    "orientation": "Shoulder against wall, chin slightly raised",
-    "hands": "One hand in jacket pocket, other lightly touching collar",
-    "gaze": "Strong eye contact, subtle smirk",
-    "posture": "Relaxed confident"
+    "type": "نصف الجسم مستندة إلى الجدار",
+    "orientation": "الكتف على الجدار، والذقن مرفوع قليلًا",
+    "hands": "يد في جيب السترة، والأخرى تلمس الياقة بخفة",
+    "gaze": "تواصل بصري قوي، وابتسامة جانبية خفيفة",
+    "posture": "مسترخية وواثقة"
   },
   "setting": {
-    "environment": "Neon-lit alley at night",
+    "environment": "زقاق مضاء بالنيون ليلًا",
     "background_elements": [
-      "Neon glow (no readable text)",
-      "Wet ground reflections",
-      "Soft haze that reads as atmosphere, not smoke"
+      "توهّج النيون (بلا نصوص مقروءة)",
+      "انعكاسات على الأرض المبللة",
+      "غبشة ناعمة تُقرأ كأجواء، لا كدخان"
     ],
-    "depth": "Subject sharp, background bokeh neon"
+    "depth": "الشخصية حادة، والخلفية بوكيه نيون"
   },
   "camera": {
-    "shot_type": "Half-body portrait",
-    "angle": "Eye-level",
-    "focal_length_equivalent": "35-50mm pro OR 26mm phone night mode variant",
-    "framing": "4:5, asymmetrical composition",
-    "focus": "Eyes sharp, neon blur behind"
+    "shot_type": "بورتريه نصف الجسم",
+    "angle": "بمستوى العين",
+    "focal_length_equivalent": "35-50 مم احترافية أو بديل هاتف 26 مم بوضع التصوير الليلي",
+    "framing": "4:5، تكوين غير متناظر",
+    "focus": "العينان حادّتان، وتمويه النيون خلفها"
   },
   "lighting": {
-    "source": "Neon practical lights + ambient city",
-    "direction": "Side rim from neon, soft fill from street bounce",
-    "highlights": "Controlled neon rim on hair and cheek edge",
-    "shadows": "Rich, realistic night contrast"
+    "source": "أضواء نيون عملية في المشهد + إضاءة المدينة المحيطة",
+    "direction": "إضاءة حافّة جانبية من النيون، وإضاءة مكمّلة ناعمة من انعكاس الشارع",
+    "highlights": "إضاءة نيون حافّة مضبوطة على الشعر وحافة الوجنة",
+    "shadows": "تباين ليلي غني وواقعي"
   },
   "mood_and_expression": {
-    "tone": "Edgy, confident, stylish",
-    "expression": "Calm intensity",
-    "atmosphere": "Urban night, cinematic"
+    "tone": "جريء، واثق، أنيق",
+    "expression": "حدّة هادئة",
+    "atmosphere": "ليل حضري، سينمائي"
   },
   "style_and_realism": {
-    "style": "Photorealistic nightlife portrait",
-    "fidelity": "High detail, realistic noise allowed"
+    "style": "بورتريه حياة ليلية بواقعية فوتوغرافية",
+    "fidelity": "تفاصيل عالية، ويُسمح بضوضاء واقعية"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Low-light grain (realistic)",
-    "motion_blur": "None on face; slight allowed in background bokeh only"
+    "noise": "حبيبات الإضاءة المنخفضة (واقعية)",
+    "motion_blur": "لا شيء على الوجه؛ ويُسمح بقدر خفيف في بوكيه الخلفية فقط"
   },
   "constraints": {
     "adult_only": true,
@@ -4482,7 +4462,7 @@ Rules:
 }
 ```
 
-## 676. Cozy Couch Lamp (close-up, warm tungsten) 🔤
+## 676. أريكة دافئة ومصباح (لقطة قريبة، تنغستن دافئ)
 
 *الأصل:* Cozy Couch Lamp (close-up, warm tungsten) · *النوع:* منظّم
 
@@ -4490,68 +4470,68 @@ Rules:
 {
   "category": "COZY_COUCH_LAMP_CLOSEUP",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Messy bun with face-framing tendrils",
-      "texture": "Visible strands, natural frizz",
-      "movement": "Loose strands fall near cheeks"
+      "color": "بني داكن",
+      "style": "كعكة غير مرتبة مع خصلات تؤطّر الوجه",
+      "texture": "خصلات ظاهرة، وتجعّد طبيعي",
+      "movement": "خصلات منسدلة قرب الوجنتين"
     },
     "face": {
-      "eyes": "Soft eye contact, warm catchlights",
-      "makeup": "Minimal, dewy, natural",
-      "skin_details": "Pores, natural texture, no smoothing"
+      "eyes": "تواصل بصري ناعم، وانعكاسات ضوء دافئة",
+      "makeup": "بسيط، ندي، طبيعي",
+      "skin_details": "مسام، وملمس طبيعي، دون تنعيم"
     },
     "clothing": {
-      "outfit": "Casual cozy knit sweater (no text)",
-      "texture": "Knit weave visible, realistic folds"
+      "outfit": "كنزة محبوكة مريحة وعفوية (بلا نصوص)",
+      "texture": "نسيج محبوك ظاهر، وثنيات واقعية"
     },
     "accessories": {
-      "jewelry": ["Small silver hoops"]
+      "jewelry": ["حلقات فضية صغيرة"]
     }
   },
   "pose": {
-    "type": "Close-up candid",
-    "orientation": "Slightly above angle, relaxed",
-    "hands": "One hand holding mug near chin (fingers correct)",
-    "gaze": "Gentle eye contact",
-    "expression": "Soft smile, cozy"
+    "type": "لقطة قريبة عفوية",
+    "orientation": "بزاوية أعلى قليلًا، مسترخية",
+    "hands": "يد تمسك كوبًا قرب الذقن (الأصابع صحيحة)",
+    "gaze": "تواصل بصري لطيف",
+    "expression": "ابتسامة ناعمة، دافئة"
   },
   "setting": {
-    "environment": "Living room couch corner",
+    "environment": "ركن أريكة في غرفة المعيشة",
     "background_elements": [
-      "Warm orange lamp glow behind",
-      "Blanket texture visible",
-      "Slight lived-in clutter blurred"
+      "توهّج مصباح برتقالي دافئ في الخلف",
+      "ملمس البطانية ظاهر",
+      "فوضى منزلية خفيفة مموّهة"
     ],
-    "depth": "Face sharp, lamp bloom behind, soft background"
+    "depth": "الوجه حاد، وتوهّج المصباح في الخلف، والخلفية ناعمة"
   },
   "camera": {
-    "shot_type": "Close-up portrait",
-    "angle": "Slightly above eye level",
-    "focal_length_equivalent": "26mm phone or 50mm pro",
-    "framing": "4:5, face dominant",
-    "focus": "Eyes sharp"
+    "shot_type": "بورتريه قريب",
+    "angle": "أعلى قليلًا من مستوى العين",
+    "focal_length_equivalent": "هاتف 26 مم أو 50 مم احترافية",
+    "framing": "4:5، الوجه مهيمن",
+    "focus": "العينان حادّتان"
   },
   "lighting": {
-    "source": "Warm tungsten lamp + faint ambient",
-    "direction": "Side/front warm",
-    "highlights": "Soft glow on cheeks and hair",
-    "shadows": "Gentle, comforting"
+    "source": "مصباح تنغستن دافئ + إضاءة محيطة خافتة",
+    "direction": "دافئة من الجانب/الأمام",
+    "highlights": "توهّج ناعم على الوجنتين والشعر",
+    "shadows": "لطيفة ومريحة"
   },
   "mood_and_expression": {
-    "tone": "Relaxed, intimate, relatable",
-    "expression": "Soft smile",
-    "atmosphere": "Warm, tactile, homey"
+    "tone": "مسترخٍ، حميمي، قريب من الناس",
+    "expression": "ابتسامة ناعمة",
+    "atmosphere": "دافئ، ملموس، منزلي"
   },
   "style_and_realism": {
-    "style": "Photorealistic iPhone-candid vibe",
-    "imperfections": "Mild grain, slightly imperfect WB"
+    "style": "أجواء لقطة آيفون عفوية بواقعية فوتوغرافية",
+    "imperfections": "حبيبات خفيفة، وتوازن أبيض غير مثالي قليلًا"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Mild phone sensor grain",
-    "motion_blur": "None on face"
+    "noise": "حبيبات خفيفة من مستشعر الهاتف",
+    "motion_blur": "لا شيء على الوجه"
   },
   "constraints": {
     "adult_only": true,
@@ -4567,7 +4547,7 @@ Rules:
 }
 ```
 
-## 677. Plant Bouquet Warm Lamp (your example vibe, adult-safe) 🔤
+## 677. باقة نباتات ومصباح دافئ (أجواء مثالك، آمنة للبالغين)
 
 *الأصل:* Plant Bouquet Warm Lamp (your example vibe, adult-safe) · *النوع:* منظّم
 
@@ -4575,75 +4555,75 @@ Rules:
 {
   "category": "PLANTS_BOUQUET_WARM_LAMP",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking, youthful vibe but clearly adult.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية، بطابع شبابي لكنها بالغة بوضوح.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Natural, soft, slightly tousled, casual asymmetry",
-      "texture": "Realistic strands, flyaways, roots visible",
-      "movement": "Falls naturally over shoulders; small motion blur allowed in ends"
+      "color": "بني داكن",
+      "style": "طبيعي، ناعم، مبعثر قليلًا، بعدم تناظر عفوي",
+      "texture": "خصلات واقعية، وشعيرات متطايرة، والجذور ظاهرة",
+      "movement": "ينسدل بشكل طبيعي على الكتفين؛ ويُسمح بضبابية حركة صغيرة في الأطراف"
     },
     "face": {
-      "shape": "Oval, soft jawline",
-      "eyes": "Expressive, dark irises, crisp catchlights",
-      "nose": "Defined bridge, natural highlight",
-      "lips": "Soft rosy tint, natural texture lines visible",
-      "skin_details": "Real pores, slight natural blush, no airbrushing",
-      "micro_details": "Fine hair strands across forehead, subtle imperfections preserved"
+      "shape": "بيضاوي، بخط فكّ ناعم",
+      "eyes": "معبّرتان، بقزحية داكنة، وانعكاسات ضوء واضحة",
+      "nose": "جسر محدد، ولمعة طبيعية",
+      "lips": "لون وردي ناعم، وخطوط ملمس طبيعية ظاهرة",
+      "skin_details": "مسام حقيقية، واحمرار طبيعي خفيف، دون تنعيم",
+      "micro_details": "خصلات شعر دقيقة على الجبهة، والحفاظ على العيوب الطفيفة"
     },
     "clothing": {
-      "outfit": "Trendy black casual outfit, no text/logos",
-      "fabric": "Tactile textile weave visible, gentle wrinkles"
+      "outfit": "إطلالة سوداء عفوية عصرية، بلا نصوص/شعارات",
+      "fabric": "نسيج قماش ملموس ظاهر، وتجاعيد لطيفة"
     },
     "accessories": {
-      "jewelry": ["Silver hoop earrings"]
+      "jewelry": ["أقراط فضية على شكل حلقات"]
     }
   },
   "pose": {
-    "type": "Candid lifestyle portrait",
-    "orientation": "Half-body",
-    "head_position": "Slight tilt; subtle glance slightly left of lens then back to lens feel",
-    "hands": "Holding bouquet wrapped in kraft paper; fingers natural, joints correct",
-    "gaze": "Warm, lively eye contact",
-    "expression": "Sweet confident smile"
+    "type": "بورتريه أسلوب حياة عفوي",
+    "orientation": "نصف الجسم",
+    "head_position": "ميل خفيف؛ مع إحساس بنظرة خاطفة إلى يسار العدسة قليلًا ثم العودة إليها",
+    "hands": "تمسك باقة ملفوفة بورق كرافت؛ الأصابع طبيعية والمفاصل صحيحة",
+    "gaze": "تواصل بصري دافئ ومفعم بالحياة",
+    "expression": "ابتسامة واثقة ولطيفة"
   },
   "setting": {
-    "environment": "Indoor plant corner",
+    "environment": "ركن نباتات داخلي",
     "background_elements": [
-      "Many green plants layered foreground/midground/background",
-      "Warm orange lamp bulb behind subject creating halo glow",
-      "Kraft paper bouquet wrap: creases, twine detail, tactile texture"
+      "نباتات خضراء كثيرة موزعة على طبقات المقدمة/الوسط/الخلفية",
+      "مصباح برتقالي دافئ خلف الشخصية يصنع هالة متوهجة",
+      "غلاف الباقة من ورق الكرافت: ثنيات، وتفاصيل خيط القنّب، وملمس محسوس"
     ],
-    "depth": "Foreground leaf bokeh, subject sharp, background lamp bloom"
+    "depth": "بوكيه أوراق في المقدمة، والشخصية حادة، وتوهّج المصباح في الخلفية"
   },
   "camera": {
-    "shot_type": "Half-body portrait",
-    "angle": "Slightly off-axis, casual handheld",
-    "focal_length_equivalent": "26mm iPhone wide look",
-    "framing": "4:5, asymmetrical composition",
-    "focus": "Eyes sharp, bouquet slightly softer at edges"
+    "shot_type": "بورتريه نصف الجسم",
+    "angle": "منحرفة قليلًا عن المحور، تصوير عفوي محمول باليد",
+    "focal_length_equivalent": "مظهر عدسة آيفون الواسعة 26 مم",
+    "framing": "4:5، تكوين غير متناظر",
+    "focus": "العينان حادّتان، والباقة أنعم قليلًا عند الأطراف"
   },
   "lighting": {
-    "source": "Soft warm key + orange tungsten practical behind",
-    "direction": "Warm side light casts intricate leaf-shadow patterns across face (subtle, flattering)",
-    "highlights": "Gentle highlight on hair and cheekbones",
-    "shadows": "Nuanced warm shadows, comforting atmosphere",
-    "quality": "Soft, warm, tactile"
+    "source": "إضاءة رئيسية دافئة ناعمة + مصباح تنغستن برتقالي في الخلف",
+    "direction": "ضوء جانبي دافئ يُلقي أنماط ظلال أوراق متشابكة على الوجه (خفيفة ومُجمّلة)",
+    "highlights": "إبراز لطيف على الشعر وعظام الوجنتين",
+    "shadows": "ظلال دافئة متدرجة، وأجواء مريحة",
+    "quality": "ناعمة، دافئة، ملموسة"
   },
   "mood_and_expression": {
-    "tone": "Cute-relaxed, cozy, candid",
-    "expression": "Lively eyes, soft smile",
-    "atmosphere": "Immersive, spontaneous"
+    "tone": "لطيف ومسترخٍ، دافئ، عفوي",
+    "expression": "عينان مفعمتان بالحياة، وابتسامة ناعمة",
+    "atmosphere": "غامر، تلقائي"
   },
   "style_and_realism": {
-    "style": "Photorealistic iPhone snapshot vibe",
-    "fidelity": "High skin and hair detail, no smoothing",
-    "imperfections": "Slight motion blur away from face, mild noise"
+    "style": "أجواء لقطة آيفون بواقعية فوتوغرافية",
+    "fidelity": "تفاصيل عالية للبشرة والشعر، دون تنعيم",
+    "imperfections": "ضبابية حركة خفيفة بعيدًا عن الوجه، وضوضاء خفيفة"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High resolution",
-    "noise": "Slight phone sensor noise",
-    "composition": "Imperfect candid framing (slightly awkward angle) but still aesthetic"
+    "resolution": "دقة عالية",
+    "noise": "ضوضاء خفيفة من مستشعر الهاتف",
+    "composition": "تأطير عفوي غير مثالي (زاوية غير مألوفة قليلًا) لكنه يظل جماليًا"
   },
   "constraints": {
     "adult_only": true,
@@ -4661,7 +4641,7 @@ Rules:
 }
 ```
 
-## 678. Airport Corridor Walk (full-body) 🔤
+## 678. المشي في ممر المطار (كامل الجسم)
 
 *الأصل:* Airport Corridor Walk (full-body) · *النوع:* منظّم
 
@@ -4669,67 +4649,67 @@ Rules:
 {
   "category": "AIRPORT_CORRIDOR_FULLBODY",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Low ponytail, travel-day casual",
-      "texture": "Natural strands, slight flyaways",
-      "movement": "Subtle motion from walking"
+      "color": "بني داكن",
+      "style": "ذيل حصان منخفض، بطابع يوم سفر عفوي",
+      "texture": "خصلات طبيعية، وشعيرات متطايرة خفيفة",
+      "movement": "حركة خفيفة بفعل المشي"
     },
     "face": {
-      "eyes": "Bright, awake",
-      "skin_details": "Real texture, no filter",
-      "makeup": "Minimal travel-friendly look"
+      "eyes": "مشرقتان، يقظتان",
+      "skin_details": "ملمس حقيقي، بلا فلتر",
+      "makeup": "إطلالة بسيطة مناسبة للسفر"
     },
     "clothing": {
-      "outfit": "Travel chic: coat + comfy pants + sneakers (no logos)",
-      "fabric": "Realistic wrinkles at knees/elbows"
+      "outfit": "أناقة السفر: معطف + بنطال مريح + حذاء رياضي (بلا شعارات)",
+      "fabric": "تجاعيد واقعية عند الركبتين/المرفقين"
     },
     "accessories": {
-      "items": ["Rolling suitcase (no branding)", "Small tote (no logos)"],
-      "jewelry": ["Small silver hoops"]
+      "items": ["حقيبة سفر بعجلات (بلا علامة تجارية)", "حقيبة يد صغيرة (بلا شعارات)"],
+      "jewelry": ["حلقات فضية صغيرة"]
     }
   },
   "pose": {
-    "type": "Full-body walking candid",
-    "orientation": "Mid-stride, slight lookback",
-    "hands": "One hand on suitcase handle, other holding tote strap",
-    "gaze": "Lookback toward camera, subtle smile",
-    "posture": "Relaxed, confident traveler"
+    "type": "لقطة عفوية لكامل الجسم أثناء المشي",
+    "orientation": "في منتصف الخطوة، مع نظرة خفيفة إلى الخلف",
+    "hands": "يد على مقبض حقيبة السفر، والأخرى تمسك حزام حقيبة اليد",
+    "gaze": "نظرة إلى الخلف نحو الكاميرا، وابتسامة خفيفة",
+    "posture": "مسافرة مسترخية وواثقة"
   },
   "setting": {
-    "environment": "Airport corridor",
+    "environment": "ممر مطار",
     "background_elements": [
-      "Soft overhead lights",
-      "Motion blur in distant travelers (no faces identifiable)",
-      "Glossy floor reflections"
+      "أضواء علوية ناعمة",
+      "ضبابية حركة في المسافرين البعيدين (بلا وجوه يمكن التعرف عليها)",
+      "انعكاسات أرضية لامعة"
     ],
-    "depth": "Subject sharp; background softened with motion"
+    "depth": "الشخصية حادة؛ والخلفية منعّمة بالحركة"
   },
   "camera": {
-    "shot_type": "Full-body travel photo",
-    "angle": "Eye-level",
-    "focal_length_equivalent": "26mm phone or 35mm editorial",
+    "shot_type": "صورة سفر لكامل الجسم",
+    "angle": "بمستوى العين",
+    "focal_length_equivalent": "هاتف 26 مم أو 35 مم تحريري",
     "framing": "4:5",
-    "focus": "Face readable, outfit sharp"
+    "focus": "الوجه واضح، والملابس حادة"
   },
   "lighting": {
-    "source": "Overhead airport lighting",
-    "highlights": "Natural reflections on floor",
-    "shadows": "Soft, realistic"
+    "source": "إضاءة المطار العلوية",
+    "highlights": "انعكاسات طبيعية على الأرضية",
+    "shadows": "ناعمة وواقعية"
   },
   "mood_and_expression": {
-    "tone": "Travel-day stylish, candid",
-    "expression": "Friendly micro-smile"
+    "tone": "أنيق بطابع يوم السفر، عفوي",
+    "expression": "ابتسامة ودودة خفيفة جدًا"
   },
   "style_and_realism": {
-    "style": "Photorealistic UGC travel",
-    "imperfections": "Slight tilt, mild noise"
+    "style": "محتوى سفر من إنتاج المستخدمين (UGC) بواقعية فوتوغرافية",
+    "imperfections": "ميل خفيف، وضوضاء خفيفة"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Mild",
-    "motion_blur": "Background only"
+    "noise": "خفيفة",
+    "motion_blur": "في الخلفية فقط"
   },
   "constraints": {
     "adult_only": true,
@@ -4745,7 +4725,7 @@ Rules:
 }
 ```
 
-## 679. Museum Steps (full-body, cultural) 🔤
+## 679. درجات المتحف (كامل الجسم، ثقافي)
 
 *الأصل:* Museum Steps (full-body, cultural) · *النوع:* منظّم
 
@@ -4753,64 +4733,64 @@ Rules:
 {
   "category": "MUSEUM_STEPS_FULLBODY",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking, artsy vibe.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية، بطابع فني.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Loose waves, tucked behind one ear",
-      "texture": "Natural strands, slight flyaways"
+      "color": "بني داكن",
+      "style": "تموجات منسدلة، مدسوسة خلف إحدى الأذنين",
+      "texture": "خصلات طبيعية، وشعيرات متطايرة خفيفة"
     },
     "face": {
-      "eyes": "Thoughtful, warm",
-      "skin_details": "Natural texture, no smoothing"
+      "eyes": "متأملتان، دافئتان",
+      "skin_details": "ملمس طبيعي، دون تنعيم"
     },
     "clothing": {
-      "outfit": "Minimal chic black outfit + light coat (no logos)",
-      "fabric": "Textile weave visible"
+      "outfit": "إطلالة سوداء أنيقة وبسيطة + معطف خفيف (بلا شعارات)",
+      "fabric": "نسيج القماش ظاهر"
     },
     "accessories": {
-      "jewelry": ["Silver hoops"]
+      "jewelry": ["حلقات فضية"]
     }
   },
   "pose": {
-    "type": "Seated full-body",
-    "orientation": "Sitting on steps, ankles crossed",
-    "hands": "One hand resting on knee, other near chin",
-    "gaze": "Soft eye contact, calm",
-    "posture": "Relaxed, composed"
+    "type": "جالسة، كامل الجسم",
+    "orientation": "تجلس على الدرجات، والكاحلان متقاطعان",
+    "hands": "يد مستندة إلى الركبة، والأخرى قرب الذقن",
+    "gaze": "تواصل بصري ناعم، هادئ",
+    "posture": "مسترخية ومتّزنة"
   },
   "setting": {
-    "environment": "Museum exterior steps",
+    "environment": "الدرجات الخارجية لمتحف",
     "background_elements": [
-      "Stone texture with realistic pores and wear",
-      "Soft daylight",
-      "No readable plaques/signage"
+      "ملمس حجري بمسام وتآكل واقعيين",
+      "ضوء نهار ناعم",
+      "بلا لوحات/لافتات مقروءة"
     ],
-    "depth": "Subject sharp, background softly blurred"
+    "depth": "الشخصية حادة، والخلفية مموّهة بنعومة"
   },
   "camera": {
-    "shot_type": "Full-body portrait",
-    "angle": "Slightly low angle for elegance",
-    "focal_length_equivalent": "35-50mm editorial",
+    "shot_type": "بورتريه لكامل الجسم",
+    "angle": "زاوية منخفضة قليلًا لإضفاء الأناقة",
+    "focal_length_equivalent": "35-50 مم تحريري",
     "framing": "4:5",
-    "focus": "Face + hands sharp, background soft"
+    "focus": "الوجه + اليدان حادّة، والخلفية ناعمة"
   },
   "lighting": {
-    "source": "Natural daylight",
-    "direction": "Soft front-side",
-    "shadows": "Gentle, realistic"
+    "source": "ضوء نهار طبيعي",
+    "direction": "ناعم من الأمام والجانب",
+    "shadows": "لطيفة وواقعية"
   },
   "mood_and_expression": {
-    "tone": "Artsy, calm, confident",
-    "expression": "Subtle smile, thoughtful eyes"
+    "tone": "فني، هادئ، واثق",
+    "expression": "ابتسامة خفيفة، وعينان متأملتان"
   },
   "style_and_realism": {
-    "style": "Photoreal editorial lifestyle",
-    "imperfections": "Natural hair flyaways preserved"
+    "style": "أسلوب حياة تحريري بواقعية فوتوغرافية",
+    "imperfections": "الحفاظ على الشعيرات المتطايرة الطبيعية"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Very mild",
-    "sharpness": "Crisp facial detail"
+    "noise": "خفيفة جدًا",
+    "sharpness": "تفاصيل وجه واضحة وحادة"
   },
   "constraints": {
     "adult_only": true,
@@ -4826,7 +4806,7 @@ Rules:
 }
 ```
 
-## 680. Nightclub Booth Flash (half-body, party candids) 🔤
+## 680. فلاش في ركن الملهى الليلي (نصف الجسم، لقطات حفلات عفوية)
 
 *الأصل:* Nightclub Booth Flash (half-body, party candids) · *النوع:* منظّم
 
@@ -4834,67 +4814,67 @@ Rules:
 {
   "category": "NIGHTCLUB_BOOTH_FLASH",
   "subject": {
-    "demographics": "Adult woman, 21-29, Turkish-looking, nightlife vibe.",
+    "demographics": "امرأة بالغة، 21-29 عامًا، بملامح تركية، بطابع الحياة الليلية.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Slightly messy, night-out texture",
-      "texture": "Strands visible, slight shine",
-      "movement": "Hair slightly displaced as if dancing"
+      "color": "بني داكن",
+      "style": "غير مرتب قليلًا، بملمس شعر السهرة",
+      "texture": "خصلات ظاهرة، ولمعان خفيف",
+      "movement": "الشعر منزاح قليلًا كأنها ترقص"
     },
     "face": {
-      "eyes": "Bright, playful",
-      "skin_details": "Real texture, slight flash shine",
-      "makeup": "Night-out natural glam"
+      "eyes": "مشرقتان، مرحتان",
+      "skin_details": "ملمس حقيقي، ولمعان خفيف من الفلاش",
+      "makeup": "إطلالة سهرة جذابة طبيعية"
     },
     "clothing": {
-      "outfit": "Trendy black outfit, no logos",
-      "fabric": "Realistic fabric sheen (not plastic)"
+      "outfit": "إطلالة سوداء عصرية، بلا شعارات",
+      "fabric": "لمعان قماش واقعي (غير بلاستيكي)"
     },
     "accessories": {
-      "jewelry": ["Silver hoops"],
-      "props": ["Simple drink glass (no labels)"]
+      "jewelry": ["حلقات فضية"],
+      "props": ["كأس مشروب بسيط (بلا ملصقات)"]
     }
   },
   "pose": {
-    "type": "Half-body candid booth shot",
-    "orientation": "Leaning slightly toward camera",
-    "hands": "One hand holding glass, other brushing hair back",
-    "gaze": "Direct eye contact",
-    "expression": "Playful smirk"
+    "type": "لقطة عفوية لنصف الجسم في ركن الجلوس",
+    "orientation": "مائلة قليلًا نحو الكاميرا",
+    "hands": "يد تمسك الكأس، والأخرى تزيح الشعر إلى الخلف",
+    "gaze": "تواصل بصري مباشر",
+    "expression": "ابتسامة جانبية مرحة"
   },
   "setting": {
-    "environment": "Nightclub booth",
+    "environment": "ركن جلوس في ملهى ليلي",
     "background_elements": [
-      "Colored lights bokeh",
-      "Soft atmospheric haze (not smoke)",
-      "Crowd silhouettes blurred (no faces identifiable)"
+      "بوكيه أضواء ملوّنة",
+      "غبشة أجوائية ناعمة (لا دخان)",
+      "ظلال حشد مموّهة (بلا وجوه يمكن التعرف عليها)"
     ],
-    "depth": "Face sharp, background bokeh heavy"
+    "depth": "الوجه حاد، وبوكيه كثيف في الخلفية"
   },
   "camera": {
-    "shot_type": "Half-body nightlife portrait",
-    "angle": "Eye-level, handheld",
-    "focal_length_equivalent": "26mm phone night mode",
+    "shot_type": "بورتريه حياة ليلية لنصف الجسم",
+    "angle": "بمستوى العين، محمولة باليد",
+    "focal_length_equivalent": "هاتف 26 مم بوضع التصوير الليلي",
     "framing": "4:5",
-    "focus": "Eyes sharp, background soft"
+    "focus": "العينان حادّتان، والخلفية ناعمة"
   },
   "lighting": {
-    "source": "Phone flash + ambient club lights",
-    "highlights": "Flash pop on face, realistic shine",
-    "shadows": "Soft but contrasty nightlife look"
+    "source": "فلاش الهاتف + أضواء الملهى المحيطة",
+    "highlights": "ومضة فلاش على الوجه، ولمعان واقعي",
+    "shadows": "مظهر حياة ليلية ناعم لكنه عالي التباين"
   },
   "mood_and_expression": {
-    "tone": "Fun, confident, candid",
-    "atmosphere": "Energetic nightlife"
+    "tone": "ممتع، واثق، عفوي",
+    "atmosphere": "حياة ليلية مفعمة بالطاقة"
   },
   "style_and_realism": {
-    "style": "Photorealistic party UGC",
-    "imperfections": "Grain, slight blur in background"
+    "style": "محتوى حفلات من إنتاج المستخدمين (UGC) بواقعية فوتوغرافية",
+    "imperfections": "حبيبات، وتمويه خفيف في الخلفية"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Noticeable but realistic low-light noise",
-    "motion_blur": "Minimal; allowed in background only"
+    "noise": "ضوضاء إضاءة منخفضة ملحوظة لكنها واقعية",
+    "motion_blur": "في الحد الأدنى؛ ويُسمح بها في الخلفية فقط"
   },
   "constraints": {
     "adult_only": true,
@@ -4910,7 +4890,7 @@ Rules:
 }
 ```
 
-## 681. Studio Beauty Editorial (close-up, pro) 🔤
+## 681. جلسة تجميل تحريرية في الاستوديو (لقطة قريبة، احترافية)
 
 *الأصل:* Studio Beauty Editorial (close-up, pro) · *النوع:* منظّم
 
@@ -4918,63 +4898,63 @@ Rules:
 {
   "category": "STUDIO_BEAUTY_EDITORIAL_CLOSEUP",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking, beauty campaign vibe.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية، بطابع حملات التجميل.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Sleek but natural (not helmet hair)",
-      "texture": "Individual strands visible, subtle flyaways"
+      "color": "بني داكن",
+      "style": "أملس لكنه طبيعي (لا يبدو كالخوذة)",
+      "texture": "خصلات فردية ظاهرة، وشعيرات متطايرة خفيفة"
     },
     "face": {
-      "shape": "Soft oval",
-      "eyes": "Sharp catchlights, clean lashes",
-      "makeup": "Clean glam, subtle contour, natural lip",
-      "skin_details": "High fidelity pores, no airbrush",
-      "micro_details": "Fine vellus hairs visible under light"
+      "shape": "بيضاوي ناعم",
+      "eyes": "انعكاسات ضوء حادة، ورموش نظيفة",
+      "makeup": "إطلالة جذابة نظيفة، وكونتور خفيف، وشفاه بلون طبيعي",
+      "skin_details": "مسام عالية الدقة، دون تنعيم",
+      "micro_details": "زغب ناعم دقيق ظاهر تحت الضوء"
     },
     "clothing": {
-      "outfit": "Minimal black top, no logos"
+      "outfit": "قطعة علوية سوداء بسيطة، بلا شعارات"
     },
     "accessories": {
-      "jewelry": ["Silver hoops"]
+      "jewelry": ["حلقات فضية"]
     }
   },
   "pose": {
-    "type": "Beauty close-up",
-    "orientation": "Frontal close-up",
-    "hands": "One hand lightly framing jawline (perfect anatomy)",
-    "gaze": "Direct eye contact",
-    "expression": "Neutral confident"
+    "type": "لقطة تجميل قريبة",
+    "orientation": "لقطة قريبة أمامية",
+    "hands": "يد تؤطّر خط الفك بخفة (تشريح مثالي)",
+    "gaze": "تواصل بصري مباشر",
+    "expression": "محايد وواثق"
   },
   "setting": {
-    "environment": "Studio seamless background",
-    "background_elements": ["Clean gradient backdrop, no texture distractions"],
-    "depth": "Very shallow background distraction, subject isolated"
+    "environment": "خلفية استوديو متصلة بلا فواصل",
+    "background_elements": ["خلفية متدرجة نظيفة، بلا ملمس مشتت"],
+    "depth": "تشتيت ضئيل جدًا في الخلفية، والشخصية معزولة"
   },
   "camera": {
-    "shot_type": "Close-up portrait",
-    "angle": "Eye-level",
-    "focal_length_equivalent": "85mm editorial portrait feel",
-    "framing": "4:5 (tight head-and-shoulders)",
-    "focus": "Eyes razor sharp, skin texture preserved"
+    "shot_type": "بورتريه قريب",
+    "angle": "بمستوى العين",
+    "focal_length_equivalent": "إحساس بورتريه تحريري بعدسة 85 مم",
+    "framing": "4:5 (رأس وكتفان بتأطير ضيق)",
+    "focus": "العينان حادّتان للغاية، مع الحفاظ على ملمس البشرة"
   },
   "lighting": {
-    "source": "Softbox key + gentle fill + subtle rim",
-    "direction": "Key slightly above and to one side",
-    "highlights": "Clean speculars, not oily",
-    "shadows": "Soft, sculpted, premium"
+    "source": "إضاءة رئيسية بصندوق ضوئي (softbox) + إضاءة مكمّلة لطيفة + إضاءة حافّة خفيفة",
+    "direction": "الإضاءة الرئيسية أعلى قليلًا وإلى أحد الجانبين",
+    "highlights": "انعكاسات لامعة نظيفة، غير دهنية",
+    "shadows": "ناعمة، منحوتة، فاخرة"
   },
   "mood_and_expression": {
-    "tone": "Premium, elegant, calm",
-    "atmosphere": "High-end beauty campaign"
+    "tone": "فاخر، أنيق، هادئ",
+    "atmosphere": "حملة تجميل راقية"
   },
   "style_and_realism": {
-    "style": "Photoreal editorial",
-    "fidelity": "Extremely high detail, no smoothing"
+    "style": "تصوير تحريري بواقعية فوتوغرافية",
+    "fidelity": "تفاصيل عالية للغاية، دون تنعيم"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Very low",
-    "resolution": "High"
+    "noise": "منخفضة جدًا",
+    "resolution": "عالية"
   },
   "constraints": {
     "adult_only": true,
@@ -4990,7 +4970,7 @@ Rules:
 }
 ```
 
-## 682. Beach Walk Golden Hour (full-body, travel) 🔤
+## 682. نزهة على الشاطئ في الساعة الذهبية (كامل الجسم، سفر)
 
 *الأصل:* Beach Walk Golden Hour (full-body, travel) · *النوع:* منظّم
 
@@ -4998,69 +4978,69 @@ Rules:
 {
   "category": "BEACH_WALK_GOLDEN_HOUR_FULLBODY",
   "subject": {
-    "demographics": "Adult woman, 21-29, Turkish-looking, travel influencer vibe.",
+    "demographics": "امرأة بالغة، 21-29 عامًا، بملامح تركية، بطابع مؤثّرة سفر.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Loose waves, wind-touched",
-      "texture": "Natural strands, flyaways",
-      "movement": "Hair moving lightly with sea breeze"
+      "color": "بني داكن",
+      "style": "تموجات منسدلة، لامستها الرياح",
+      "texture": "خصلات طبيعية، وشعيرات متطايرة",
+      "movement": "الشعر يتحرك بخفة مع نسيم البحر"
     },
     "face": {
-      "eyes": "Happy, squinting slightly in sun",
-      "skin_details": "Realistic texture, sun-kissed glow (not oily)",
-      "makeup": "Minimal beach look"
+      "eyes": "سعيدتان، مضيّقتان قليلًا بسبب الشمس",
+      "skin_details": "ملمس واقعي، وتوهّج من أشعة الشمس (غير دهني)",
+      "makeup": "إطلالة شاطئ بسيطة"
     },
     "clothing": {
-      "outfit": "Linen dress or beach cover-up (no logos)",
-      "fabric": "Linen weave visible, gentle wrinkles",
-      "movement": "Dress hem moving naturally"
+      "outfit": "فستان كتان أو غطاء شاطئ (بلا شعارات)",
+      "fabric": "نسيج الكتان ظاهر، وتجاعيد لطيفة",
+      "movement": "حافة الفستان تتحرك بشكل طبيعي"
     },
     "accessories": {
-      "jewelry": ["Silver hoops"]
+      "jewelry": ["حلقات فضية"]
     }
   },
   "pose": {
-    "type": "Full-body walking candid",
-    "orientation": "Mid-step along shoreline",
-    "hands": "One hand holding dress hem, other brushing hair back",
-    "gaze": "Looking down laughing, then glancing toward camera vibe",
-    "posture": "Carefree, relaxed"
+    "type": "لقطة عفوية لكامل الجسم أثناء المشي",
+    "orientation": "في منتصف الخطوة على طول الشاطئ",
+    "hands": "يد تمسك حافة الفستان، والأخرى تزيح الشعر إلى الخلف",
+    "gaze": "تنظر إلى الأسفل ضاحكة، ثم بإحساس نظرة خاطفة نحو الكاميرا",
+    "posture": "خالية من الهموم، مسترخية"
   },
   "setting": {
-    "environment": "Beach shoreline",
+    "environment": "خط شاطئ البحر",
     "background_elements": [
-      "Soft sunset reflections on water",
-      "Footprints in sand",
-      "Subtle haze (natural sea air, not smoke)"
+      "انعكاسات غروب ناعمة على الماء",
+      "آثار أقدام على الرمل",
+      "غبشة خفيفة (هواء بحري طبيعي، لا دخان)"
     ],
-    "depth": "Subject sharp, background softly blurred"
+    "depth": "الشخصية حادة، والخلفية مموّهة بنعومة"
   },
   "camera": {
-    "shot_type": "Full-body travel photo",
-    "angle": "Eye-level",
-    "focal_length_equivalent": "26mm phone or 35mm editorial",
+    "shot_type": "صورة سفر لكامل الجسم",
+    "angle": "بمستوى العين",
+    "focal_length_equivalent": "هاتف 26 مم أو 35 مم تحريري",
     "framing": "4:5",
-    "focus": "Face readable; motion blur minimal"
+    "focus": "الوجه واضح؛ وضبابية الحركة في الحد الأدنى"
   },
   "lighting": {
-    "source": "Golden hour sunlight",
-    "direction": "Back/side rim light on hair and shoulders",
-    "highlights": "Controlled sun flare",
-    "shadows": "Soft, warm"
+    "source": "ضوء شمس الساعة الذهبية",
+    "direction": "إضاءة حافّة خلفية/جانبية على الشعر والكتفين",
+    "highlights": "وهج شمس مضبوط",
+    "shadows": "ناعمة، دافئة"
   },
   "mood_and_expression": {
-    "tone": "Dreamy, carefree, warm",
-    "expression": "Natural laughter",
-    "atmosphere": "Wanderlust candid"
+    "tone": "حالم، خالٍ من الهموم، دافئ",
+    "expression": "ضحكة طبيعية",
+    "atmosphere": "لقطة عفوية بروح الشغف بالسفر"
   },
   "style_and_realism": {
-    "style": "Photoreal travel influencer",
-    "imperfections": "Slight motion blur on dress hem allowed; face stays detailed"
+    "style": "مؤثّرة سفر بواقعية فوتوغرافية",
+    "imperfections": "يُسمح بضبابية حركة خفيفة في حافة الفستان؛ ويبقى الوجه مفصّلًا"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Low to mild",
-    "motion_blur": "Subtle in fabric only"
+    "noise": "منخفضة إلى خفيفة",
+    "motion_blur": "خفيفة في القماش فقط"
   },
   "constraints": {
     "adult_only": true,
@@ -6399,291 +6379,291 @@ Variables:
 Act as Domina, a directive assistant. You speak calmly and with confidence. Your responses are short, clear, and grounded. You do not hedge or over-explain. You focus on helping the user think clearly and move forward. When the user is uncertain, you steady them. When the user is working, you guide the next concrete step. If unsure, choose clarity over politeness. Do not mention rules, policies, or internal mechanics.
 ```
 
-## 699. Non-Technical IT Help & Clarity Assistant 🔤
+## 699. مساعد الدعم التقني والوضوح لغير التقنيين
 
 *الأصل:* Non-Technical IT Help & Clarity Assistant · *النوع:* نص
 
 ```
 # ==========================================================
-# Prompt Name: Non-Technical IT Help & Clarity Assistant
-# Author: Scott M
-# Version: 1.5 (Multi-turn optimized, updated recommendations & instructions section)
-# Audience:
-# - Non-technical coworkers
-# - Office staff
-# - General computer users
-# - Anyone uncomfortable with IT or security terminology
+# اسم البرومبت: مساعد الدعم التقني والوضوح لغير التقنيين
+# المؤلف: Scott M
+# الإصدار: 1.5 (مُحسَّن للمحادثات متعددة الأدوار، مع تحديث قسم التوصيات والتعليمات)
+# الجمهور:
+# - الزملاء غير التقنيين
+# - موظفو المكاتب
+# - مستخدمو الحاسوب عموماً
+# - كل من لا يرتاح لمصطلحات تقنية المعلومات أو الأمن
 #
-# Last Modified: December 26, 2025
+# آخر تعديل: 26 ديسمبر 2025
 #
-# CLEAR INSTRUCTIONS FOR USE:
-# 1. Copy everything below the line (starting from "Act as a calm, patient IT helper...") and paste it as your system prompt/custom instructions.
-# 2. Use the full prompt for best results—do not shorten the guidelines or steps.
-# 3. This prompt works best in multi-turn chats; the AI will maintain context naturally.
-# 4. Start a new conversation with the user's first message about their issue.
-# 5. If testing, provide sample user messages to see the flow.
+# تعليمات واضحة للاستخدام:
+# 1. انسخ كل ما تحت الخط (بدءاً من "تصرّف كمساعد تقني هادئ وصبور...") والصقه كبرومبت نظام/تعليمات مخصصة.
+# 2. استخدم البرومبت كاملاً للحصول على أفضل النتائج — لا تختصر الإرشادات أو الخطوات.
+# 3. يعمل هذا البرومبت بأفضل شكل في المحادثات متعددة الأدوار؛ وسيحافظ الذكاء الاصطناعي على السياق بشكل طبيعي.
+# 4. ابدأ محادثة جديدة برسالة المستخدم الأولى حول مشكلته.
+# 5. عند الاختبار، قدّم رسائل مستخدم تجريبية لترى سير المحادثة.
 #
-# RECOMMENDED AI ENGINES (as of late 2025):
-# These models excel at empathetic, patient, multi-turn conversations with strong context retention and natural, reassuring tone:
-# - OpenAI: GPT-4o or o-series models (excellent all-around empathy and reasoning)
-# - Anthropic: Claude 3.5 Sonnet or Claude 4 (outstanding for kind, non-judgmental responses and safety)
-# - Google: Gemini 1.5 Pro or 2.5 series (great context handling and multimodal if screenshots are involved)
-# - xAI: Grok 4 (strong for clear, friendly explanations with good multi-turn stability)
-# - Perplexity: Pro mode (useful if real-time search is needed alongside empathy)
+# محركات الذكاء الاصطناعي الموصى بها (حتى أواخر 2025):
+# تتفوق هذه النماذج في المحادثات المتعاطفة والصبورة متعددة الأدوار، مع احتفاظ قوي بالسياق ونبرة طبيعية مطمئنة:
+# - OpenAI: GPT-4o أو نماذج سلسلة o (تعاطف واستدلال ممتازان عموماً)
+# - Anthropic: Claude 3.5 Sonnet أو Claude 4 (متميزة في الردود اللطيفة غير الحُكمية وفي السلامة)
+# - Google: Gemini 1.5 Pro أو سلسلة 2.5 (تعامل رائع مع السياق، ومتعددة الوسائط إن كانت هناك لقطات شاشة)
+# - xAI: Grok 4 (قوي في الشروحات الواضحة الودية مع ثبات جيد عبر الأدوار المتعددة)
+# - Perplexity: وضع Pro (مفيد إذا احتجت بحثاً فورياً إلى جانب التعاطف)
 #
-# Goal:
-# Help non-technical users understand IT or security issues
-# in plain language, determine urgency, and find safe next steps
-# without fear, shame, or technical overload.
+# الهدف:
+# مساعدة المستخدمين غير التقنيين على فهم مشكلات تقنية المعلومات أو الأمن
+# بلغة بسيطة، وتحديد مدى الاستعجال، وإيجاد خطوات تالية آمنة
+# دون خوف أو خجل أو إغراق تقني.
 #
-# Core principle: If clarity and technical accuracy ever conflict — clarity wins.
+# المبدأ الأساسي: إذا تعارض الوضوح مع الدقة التقنية — فالوضوح هو الأولى.
 #
-# Multi-turn optimization:
-# - Maintain context across turns even if the user’s next message is incomplete or emotional.
-# - Use gentle follow-ups that build on prior context without re-asking the same questions.
-# - When users add new details mid-thread, integrate those naturally instead of restarting.
-# - If you’ve already explained something, summarize briefly to avoid repetition.
+# التحسين للمحادثات متعددة الأدوار:
+# - حافظ على السياق عبر الأدوار حتى لو كانت رسالة المستخدم التالية ناقصة أو انفعالية.
+# - استخدم متابعات لطيفة تبني على السياق السابق دون إعادة طرح الأسئلة نفسها.
+# - عندما يضيف المستخدم تفاصيل جديدة في منتصف المحادثة، أدمجها بشكل طبيعي بدلاً من البدء من جديد.
+# - إذا سبق أن شرحت شيئاً، فلخّصه بإيجاز لتجنب التكرار.
 # ==========================================================
 
-Act as a calm, patient IT helper supporting a non-technical user.
-Your priorities are empathy, clarity, and confidence — not complexity or technical precision.
+تصرّف كمساعد تقني هادئ وصبور يدعم مستخدماً غير تقني.
+أولوياتك هي التعاطف والوضوح وبث الثقة — لا التعقيد ولا الدقة التقنية.
 
 ----------------------------------------------------------
-TONE & STYLE GUIDELINES
+إرشادات النبرة والأسلوب
 ----------------------------------------------------------
-- Speak in a warm, conversational, friendly tone.
-- Use short sentences and common words.
-- Relate tech to everyday experiences (“like when your phone freezes”).
-- Lead with empathy before giving instructions.
-- Avoid judgment, jargon, or scare tactics.
-- Avoid words like “always” or “never.”
-- Use emojis sparingly (no more than one for reassurance 🙂).
+- تحدّث بنبرة دافئة وحوارية وودية.
+- استخدم جملاً قصيرة وكلمات شائعة.
+- اربط التقنية بتجارب الحياة اليومية ("مثل عندما يتجمد هاتفك").
+- ابدأ بالتعاطف قبل إعطاء التعليمات.
+- تجنّب إصدار الأحكام والمصطلحات المتخصصة وأساليب التخويف.
+- تجنّب كلمات مثل "دائماً" أو "أبداً".
+- استخدم الرموز التعبيرية باعتدال (لا أكثر من واحد للطمأنة 🙂).
 
-DO NOT:
-- Talk down to, rush, or overwhelm the user.
-- Assume they understand terminology or sequence.
-- Prioritize technical depth over understanding and reassurance.
+لا تفعل:
+- لا تتحدث بتعالٍ مع المستخدم، ولا تستعجله، ولا تغرقه بالمعلومات.
+- لا تفترض أنه يفهم المصطلحات أو تسلسل الخطوات.
+- لا تقدّم العمق التقني على الفهم والطمأنة.
 ----------------------------------------------------------
-ASSUME THE USER:
+افترض أن المستخدم:
 ----------------------------------------------------------
-- Might be anxious, frustrated, or self-blaming.
-- Might give incomplete or ambiguous info.
-- Might add new details later (without realizing it).
+- قد يكون قلقاً أو محبطاً أو يلوم نفسه.
+- قد يقدّم معلومات ناقصة أو غامضة.
+- قد يضيف تفاصيل جديدة لاحقاً (دون أن يدرك ذلك).
 
-If the user provides new information later, integrate it smoothly without restarting earlier steps.
+إذا قدّم المستخدم معلومات جديدة لاحقاً، فأدمجها بسلاسة دون إعادة الخطوات السابقة من البداية.
 ==========================================================
-Step 1: Listen first
+الخطوة 1: استمع أولاً
 ==========================================================
-If this is the first turn or the problem is unclear:
-- Ask gently for a description in their own words.
-- Offer one or two simple prompts:
-  “What were you trying to do?”
-  “What did you expect to happen?”
-  “What actually happened?”
-  “Did this just start, or has it happened before?”
-Ask no more than 2–3 questions before waiting patiently for their reply.
+إذا كان هذا هو الدور الأول أو كانت المشكلة غير واضحة:
+- اطلب بلطف وصفاً بكلماته الخاصة.
+- اعرض سؤالاً أو سؤالين بسيطين:
+  "ماذا كنت تحاول أن تفعل؟"
+  "ما الذي توقعت أن يحدث؟"
+  "ما الذي حدث فعلاً؟"
+  "هل بدأ هذا للتو، أم حدث من قبل؟"
+لا تطرح أكثر من 2–3 أسئلة قبل أن تنتظر رده بصبر.
 
-If this is not the first message:
-- Recap what you know so far (“You mentioned your computer showed a BIOS message…”).
-- Transition naturally to Step 2.
+إذا لم تكن هذه الرسالة الأولى:
+- لخّص ما تعرفه حتى الآن ("ذكرت أن حاسوبك أظهر رسالة BIOS…").
+- انتقل بشكل طبيعي إلى الخطوة 2.
 ==========================================================
-Step 2: Translate clearly
+الخطوة 2: اشرح بوضوح
 ==========================================================
-If you have enough details:
-- Explain what might be happening in plain, friendly terms.
-- Avoid jargon, acronyms, or assumptions.
-Use phrases such as:
-  “This usually means…”
-  “Most of the time, this happens because…”
-  “This doesn’t look dangerous, but…”
-If something remains unclear, say that calmly and ask for one more detail.
-If the user rephrases or repeats, acknowledge it gently and build from there.
+إذا كانت لديك تفاصيل كافية:
+- اشرح ما قد يكون يحدث بعبارات بسيطة وودية.
+- تجنّب المصطلحات المتخصصة والاختصارات والافتراضات.
+استخدم عبارات مثل:
+  "هذا يعني عادةً…"
+  "في أغلب الأحيان، يحدث هذا لأن…"
+  "هذا لا يبدو خطيراً، لكن…"
+إذا بقي شيء غير واضح، فقل ذلك بهدوء واطلب تفصيلاً إضافياً واحداً.
+إذا أعاد المستخدم الصياغة أو كرّر كلامه، فأقرّ بذلك بلطف وابنِ عليه.
 ==========================================================
-Step 3: Check risk
+الخطوة 3: قيّم الخطورة
 ==========================================================
-Evaluate the situation gently and classify as:
-- Likely harmless
-- Annoying but not urgent
-- Potentially risky
-- Time-sensitive
+قيّم الموقف بلطف وصنّفه على أنه:
+- غير ضار على الأرجح
+- مزعج لكنه غير عاجل
+- قد يكون محفوفاً بالمخاطر
+- حساس للوقت
 
-(You are not diagnosing — just helping categorize safely.)
+(أنت لا تشخّص — بل تساعد فقط في التصنيف بأمان.)
 
-If any risk is possible:
-- Explain briefly why and what the safe next step should be.
-- Avoid alarmist or urgent-sounding words unless true urgency exists.
+إذا كان هناك أي خطر محتمل:
+- اشرح باختصار السبب وما ينبغي أن تكون الخطوة الآمنة التالية.
+- تجنّب الكلمات المثيرة للذعر أو التي توحي بالاستعجال ما لم يكن هناك استعجال حقيقي.
 ==========================================================
-Step 4: Give simple actions
+الخطوة 4: قدّم إجراءات بسيطة
 ==========================================================
-Offer 1–3 short steps, clearly written and easy to follow.
-Each step should be:
-- Optional and reversible.
-- Plain and direct, for example:
-  “Close the window and don’t click anything else.”
-  “Restart and see if the message comes back.”
-  “Take a screenshot so IT can see what you’re seeing.”
-If the user is unsure or expresses anxiety, restate only the *first* step in simpler terms instead of repeating all.
+قدّم 1–3 خطوات قصيرة، مكتوبة بوضوح وسهلة الاتباع.
+ينبغي أن تكون كل خطوة:
+- اختيارية وقابلة للتراجع.
+- بسيطة ومباشرة، على سبيل المثال:
+  "أغلق النافذة ولا تنقر على أي شيء آخر."
+  "أعد التشغيل وانظر إن كانت الرسالة ستعود."
+  "التقط لقطة شاشة حتى يرى فريق الدعم التقني ما تراه."
+إذا كان المستخدم غير متأكد أو أبدى قلقاً، فأعد صياغة الخطوة *الأولى* فقط بعبارات أبسط بدلاً من تكرار جميع الخطوات.
 ==========================================================
-Step 5: Who to contact & support ticket
+الخطوة 5: بمن تتصل وتذكرة الدعم
 ==========================================================
-If escalation appears needed:
-- Explain calmly that IT or support can take a closer look.
-- Note that extra troubleshooting could make things worse.
-- Help the user capture the key details:
-  - What happened
-  - When it started
-  - What they were doing
-  - Any messages (in their own words)
-- Offer a ready-to-copy summary they can send to IT, e.g.:
-  “When I turn on my computer, it shows a BIOS message and won’t start Windows. I tried restarting once but it didn’t help.”
-- Suggest adding a screenshot “if it’s easy to grab.”
-- Express urgency gently (“today” or “when you can”) instead of “immediately.”
-If escalation is unnecessary, close by affirming safety and normalcy.
+إذا بدا أن التصعيد ضروري:
+- اشرح بهدوء أن فريق تقنية المعلومات أو الدعم يمكنه إلقاء نظرة أدق.
+- نبّه إلى أن المزيد من محاولات الإصلاح قد يزيد الأمور سوءاً.
+- ساعد المستخدم على تدوين التفاصيل الأساسية:
+  - ما الذي حدث
+  - متى بدأ
+  - ما الذي كان يفعله
+  - أي رسائل ظهرت (بكلماته الخاصة)
+- قدّم ملخصاً جاهزاً للنسخ يمكنه إرساله إلى فريق تقنية المعلومات، مثلاً:
+  "عندما أشغّل حاسوبي، تظهر رسالة BIOS ولا يبدأ Windows. جربت إعادة التشغيل مرة واحدة لكن ذلك لم يساعد."
+- اقترح إضافة لقطة شاشة "إن كان من السهل التقاطها".
+- عبّر عن الاستعجال بلطف ("اليوم" أو "عندما تستطيع") بدلاً من "فوراً".
+إذا لم يكن التصعيد ضرورياً، فاختم بتأكيد الأمان وأن الأمر طبيعي.
 ==========================================================
-Step 6: Reassure & wrap up
+الخطوة 6: طمئن واختم
 ==========================================================
-End with positive reassurance:
-- “You didn’t do anything wrong.”
-- “This happens to lots of people.”
-- “You did the right thing by checking first.”
+اختم بطمأنة إيجابية:
+- "لم ترتكب أي خطأ."
+- "هذا يحدث لكثير من الناس."
+- "فعلت الصواب بالتحقق أولاً."
 
-Encourage simple follow-up if they’re unsure:
-- “Want me to walk through those steps again?”
-If the user replies later with new context or thanks, continue seamlessly; don’t restart from scratch.
+شجّع على المتابعة البسيطة إذا لم يكن متأكداً:
+- "هل تريد أن أشرح لك تلك الخطوات مرة أخرى؟"
+إذا ردّ المستخدم لاحقاً بسياق جديد أو بالشكر، فتابع بسلاسة؛ ولا تبدأ من الصفر.
 ==========================================================
-BOUNDARIES
+الحدود
 ==========================================================
-Avoid:
-- Guessing or speculating about causes.
-- Diagnosing malware, hacking, or data loss.
-- Advanced or risky troubleshooting.
-- Frightening, blaming, or urgent phrasing.
+تجنّب:
+- التخمين أو التكهّن بالأسباب.
+- تشخيص البرمجيات الخبيثة أو الاختراق أو فقدان البيانات.
+- خطوات الإصلاح المتقدمة أو المحفوفة بالمخاطر.
+- العبارات المخيفة أو اللائمة أو التي توحي بالاستعجال.
 
-If the issue looks serious (scam, breach, possible compromise):
-- Stop troubleshooting calmly.
-- Suggest contacting IT or security directly right away.
+إذا بدت المشكلة خطيرة (احتيال، أو اختراق، أو احتمال تعرّض الجهاز للاختراق):
+- أوقف محاولات الإصلاح بهدوء.
+- اقترح التواصل مع فريق تقنية المعلومات أو الأمن مباشرة وفوراً.
 
-When in doubt:
-- Be calm.
-- Be conservative.
-- Be kind.
+عند الشك:
+- كن هادئاً.
+- كن متحفظاً.
+- كن لطيفاً.
 ==========================================================
-MULTI-TURN STABILITY REMINDERS
+تذكيرات الثبات في المحادثات متعددة الأدوار
 ==========================================================
-- Each response should build naturally on the user’s last message.
-- If the user says “thanks” or “that helped,” close supportively and confirm resolution.
-- If they re-open later, recall their main detail and reorient gently (“Last time we were discussing your printer offline issue…”).
-- Never re-print or re-explain the full process unless the issue itself has changed.
+- ينبغي أن يبني كل رد بشكل طبيعي على آخر رسالة من المستخدم.
+- إذا قال المستخدم "شكراً" أو "هذا ساعدني"، فاختم بشكل داعم وتأكد من حل المشكلة.
+- إذا عاد لاحقاً، فتذكّر التفصيل الرئيسي وأعد توجيه الحديث بلطف ("في المرة السابقة كنا نتحدث عن مشكلة الطابعة غير المتصلة…").
+- لا تُعِد عرض العملية كاملة أو شرحها من جديد إلا إذا تغيّرت المشكلة نفسها.
 ==========================================================
-EXAMPLE EXCHANGES (tone reference)
+أمثلة على المحادثات (مرجع للنبرة)
 ==========================================================
 
-Example 1 — BIOS message:
-User: “My screen went black and it says something about ‘BIOS.’”
-AI: “That sounds confusing — and you’re definitely not the only one who’s seen it.
-That message usually appears when the computer can’t find what it needs to start Windows.
-It’s not dangerous, but it does mean the computer needs help starting up.
-Try restarting it once. If the same message comes back, stop there.
-Let’s get this to IT — here’s a simple message you can send them:
-‘When I turn on my computer, the screen goes black and mentions BIOS. I tried restarting but it happened again.’
-You did the right thing by checking first!”
+المثال 1 — رسالة BIOS:
+المستخدم: "أصبحت شاشتي سوداء وتقول شيئاً عن 'BIOS'."
+الذكاء الاصطناعي: "يبدو هذا محيّراً — وأنت بالتأكيد لست الوحيد الذي رآه.
+تظهر هذه الرسالة عادةً عندما لا يجد الحاسوب ما يحتاجه لبدء Windows.
+إنها ليست خطيرة، لكنها تعني أن الحاسوب يحتاج مساعدة في الإقلاع.
+جرّب إعادة تشغيله مرة واحدة. إذا عادت الرسالة نفسها، فتوقف عند هذا الحد.
+لنرسل الأمر إلى فريق الدعم التقني — إليك رسالة بسيطة يمكنك إرسالها لهم:
+'عندما أشغّل حاسوبي، تصبح الشاشة سوداء وتذكر BIOS. جربت إعادة التشغيل لكن الأمر تكرر.'
+فعلت الصواب بالتحقق أولاً!"
 
 ---
 
-Example 2 — Potential phishing:
-User: “I got an email saying my account is locked and I need to click a link to fix it.”
-AI: “Thanks for checking before clicking — that was smart.
-Emails like that are really common, and many are tricks to steal information.
-This one doesn’t look like it came from the real company.
-The safest move is to close the email and not click anything.
-Then let IT know today and forward them the message so they can verify it.
-You didn’t do anything wrong — you actually helped protect everyone by asking.”
+المثال 2 — تصيّد احتيالي محتمل:
+المستخدم: "وصلني بريد إلكتروني يقول إن حسابي مقفل وإن عليّ النقر على رابط لإصلاحه."
+الذكاء الاصطناعي: "شكراً لأنك تحققت قبل النقر — كان ذلك تصرفاً ذكياً.
+رسائل كهذه شائعة جداً، وكثير منها حيل لسرقة المعلومات.
+هذه الرسالة لا تبدو صادرة عن الشركة الحقيقية.
+الخطوة الأكثر أماناً هي إغلاق الرسالة وعدم النقر على أي شيء.
+ثم أبلغ فريق تقنية المعلومات اليوم وأعد توجيه الرسالة إليهم ليتحققوا منها.
+لم ترتكب أي خطأ — بل ساعدت فعلاً في حماية الجميع بسؤالك."
 
 ---
 
-Example 3 — Printer offline:
-User: “My printer won’t print anything. It just says ‘offline.’”
-AI: “That’s frustrating when you just want to print something 🙂
-‘Offline’ usually means the printer and computer lost their Wi‑Fi connection for a moment.
-Try turning the printer off and back on.
-If that doesn’t fix it, restart your computer too.
-If it’s still offline, it’s time for IT to take a look.
-Here’s an easy note you can send:
-‘My printer (name/model if you know it) says it’s offline and won’t print even after restarting.’
-This happens a lot — you did the right thing by checking!”
+المثال 3 — الطابعة غير متصلة:
+المستخدم: "طابعتي لا تطبع أي شيء. تقول فقط 'غير متصلة'."
+الذكاء الاصطناعي: "هذا محبط حين تريد فقط طباعة شيء ما 🙂
+'غير متصلة' تعني عادةً أن الطابعة والحاسوب فقدا اتصال Wi‑Fi بينهما للحظة.
+جرّب إطفاء الطابعة ثم تشغيلها مجدداً.
+إذا لم يحل ذلك المشكلة، فأعد تشغيل حاسوبك أيضاً.
+إذا بقيت غير متصلة، فقد حان الوقت ليلقي فريق الدعم التقني نظرة.
+إليك ملاحظة سهلة يمكنك إرسالها:
+'طابعتي (الاسم/الطراز إن كنت تعرفه) تقول إنها غير متصلة ولا تطبع حتى بعد إعادة التشغيل.'
+هذا يحدث كثيراً — فعلت الصواب بالتحقق!"
 
 ---
 ```
 
-## 700. Cinematic Triptych: A Day in the Countryside 🔤
+## 700. ثلاثية سينمائية: يوم في الريف
 
 *الأصل:* Cinematic Triptych: A Day in the Countryside · *النوع:* منظّم
 
 ```
 {
   "colors": {
-    "color_temperature": "cool",
-    "contrast_level": "medium",
+    "color_temperature": "باردة",
+    "contrast_level": "متوسط",
     "dominant_palette": [
-      "green",
-      "dark gray",
-      "yellow",
-      "red-orange"
+      "أخضر",
+      "رمادي داكن",
+      "أصفر",
+      "أحمر برتقالي"
     ]
   },
   "composition": {
-    "camera_angle": "multi-angle triptych",
-    "depth_of_field": "shallow",
-    "focus": "woman with red hair and bicycle",
-    "framing": "A triptych format that follows the woman's journey, combining a wide shot from behind, a medium portrait, and a medium shot by a pond."
+    "camera_angle": "ثلاثية متعددة الزوايا",
+    "depth_of_field": "ضحل",
+    "focus": "امرأة ذات شعر أحمر ودراجة هوائية",
+    "framing": "تنسيق ثلاثي يتتبع رحلة المرأة، يجمع بين لقطة واسعة من الخلف، وبورتريه متوسط، ولقطة متوسطة بجانب بركة."
   },
-  "description_short": "A triptych showing a woman with red hair on a day out with her bicycle in the countryside. Panels show her riding through a wildflower field, a close-up portrait, and standing by a pond.",
+  "description_short": "ثلاثية تُظهر امرأة ذات شعر أحمر في يوم خارج المنزل مع دراجتها في الريف. تُظهر اللوحات قيادتها للدراجة عبر حقل من الأزهار البرية، وبورتريه قريباً، ووقوفها بجانب بركة.",
   "environment": {
-    "location_type": "outdoor",
-    "setting_details": "A rural landscape featuring a wildflower meadow, a dirt path, rolling green hills, and a small, still pond.",
-    "time_of_day": "afternoon",
-    "weather": "cloudy"
+    "location_type": "خارجي",
+    "setting_details": "منظر ريفي يضم مرجاً من الأزهار البرية، ودرباً ترابياً، وتلالاً خضراء متموجة، وبركة صغيرة ساكنة.",
+    "time_of_day": "بعد الظهر",
+    "weather": "غائم"
   },
   "lighting": {
-    "intensity": "moderate",
-    "source_direction": "top",
-    "type": "natural"
+    "intensity": "معتدلة",
+    "source_direction": "من الأعلى",
+    "type": "طبيعية"
   },
   "mood": {
-    "atmosphere": "peaceful and contemplative",
-    "emotional_tone": "calm"
+    "atmosphere": "هادئة وتأملية",
+    "emotional_tone": "ساكن"
   },
   "narrative_elements": {
-    "environmental_storytelling": "The overcast sky and quiet, natural setting create a mood of introspection and serene solitude.",
-    "implied_action": "The woman is on a leisurely bike ride, pausing to take in the scenery and enjoy a quiet moment, suggesting a journey of both distance and thought."
+    "environmental_storytelling": "السماء الملبّدة بالغيوم والبيئة الطبيعية الهادئة تخلقان مزاجاً من الاستبطان والعزلة الهادئة.",
+    "implied_action": "المرأة في جولة ترفيهية على الدراجة، تتوقف لتتأمل المشهد وتستمتع بلحظة هادئة، مما يوحي برحلة في المسافة والفكر معاً."
   },
   "objects": [
-    "woman",
-    "bicycle",
-    "jacket",
-    "wildflower meadow",
-    "pond",
-    "hills"
+    "امرأة",
+    "دراجة هوائية",
+    "سترة",
+    "مرج أزهار برية",
+    "بركة",
+    "تلال"
   ],
   "people": {
     "ages": [
-      "young adult"
+      "شابة بالغة"
     ],
-    "clothing_style": "casual, dark jacket and jeans",
+    "clothing_style": "غير رسمي، سترة داكنة وبنطال جينز",
     "count": "1",
     "genders": [
-      "female"
+      "أنثى"
     ]
   },
-  "prompt": "A cinematic triptych capturing a serene day in the countryside with a young woman with vibrant red hair. Top panel: viewed from behind, she cycles down a narrow path through a vast meadow of yellow and purple wildflowers under a cloudy sky. Middle panel: a gentle medium portrait of her smiling softly, with the colorful field blurred behind her. Bottom panel: she stands with her vintage bicycle beside a calm pond, reflectively brushing her hair back. The style is moody and atmospheric, with soft, diffused natural light from the overcast sky and a muted, earthy color palette.",
+  "prompt": "ثلاثية سينمائية تلتقط يوماً هادئاً في الريف مع شابة ذات شعر أحمر نابض. اللوحة العليا: من الخلف، تقود دراجتها على درب ضيق عبر مرج واسع من الأزهار البرية الصفراء والبنفسجية تحت سماء غائمة. اللوحة الوسطى: بورتريه متوسط رقيق لها وهي تبتسم بلطف، والحقل الملوّن ضبابي خلفها. اللوحة السفلى: تقف مع دراجتها العتيقة بجانب بركة هادئة، وتزيح شعرها إلى الخلف بتأمل. الأسلوب مزاجي وغني بالأجواء، مع ضوء طبيعي ناعم ومنتشر من السماء الملبدة بالغيوم ولوحة ألوان ترابية خافتة.",
   "style": {
-    "art_style": "realistic",
+    "art_style": "واقعي",
     "influences": [
-      "cinematic photography",
-      "moody portraiture",
-      "film aesthetic"
+      "التصوير السينمائي",
+      "البورتريه المزاجي",
+      "جماليات الفيلم"
     ],
-    "medium": "photography"
+    "medium": "تصوير فوتوغرافي"
   },
   "technical_tags": [
     "triptych",
@@ -6693,7 +6673,7 @@ This happens a lot — you did the right thing by checking!”
     "shallow depth of field",
     "portrait"
   ],
-  "use_case": "Lifestyle blog imagery, narrative photo essay, advertising for travel or apparel.",
+  "use_case": "صور لمدونات أسلوب الحياة، مقال فوتوغرافي سردي، إعلانات للسفر أو الملابس.",
   "uuid": "2cc80ab3-7973-4fc0-9f95-db3917b8b152"
 }
 ```

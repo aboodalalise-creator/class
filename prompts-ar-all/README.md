@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **618** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **925** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -638,70 +638,70 @@
 - 616. تعريف بحساب Langgraph الرسمي على وي تشات
 - 617. القوة الخارقة لتحليل الكود عبر شجرة الصياغة المجردة (AST)
 - 618. خبير سحابة AWS
-- 619. Accessibility Expert 🔤
-- 620. Accessibility Testing Superpower 🔤
-- 621. Agent Organization Expert 🔤
-- 622. Hyper-Realistic X-Wing Battle Damage Images 🔤
-- 623. FDTD Simulations of Nanoparticles 🔤
-- 624. Secteur Bancaire - Analyse rapide d’un tableau de données 🔤
-- 625. Secteur Bancaire - Vérification de conformité de texte 🔤
-- 626. Professional Website Design Consultant 🔤
-- 627. Default Meeting Summary 🔤
-- 628. Custom Localization and AI Integration for Apps 🔤
-- 629. 网络故障报告撰写 🔤
-- 630. Personalized GPT Assistant Prompt 🔤
-- 631. Modern Video Player with Sharp UI 🔤
-- 632. Secteur Bancaire - Création d’un texte marketing simple 🔤
-- 633. Psychology Clinic Assistant 🔤
-- 634. Isometric 3D Cartoon Scene with Weather Effects 🔤
-- 635. Node.js Automation Script Developer 🔤
-- 636. Smart Application Developer Assistant 🔤
-- 637. Website Creation Command 🔤
-- 638. Darksynth Synthwave Music Composition Guide 🔤
-- 639. roster 🔤
-- 640. Cinematic Realism 🔤
-- 641. 3D Character Render In High-End Disney Pixar Style 🔤
-- 642. Serene Evening Rowboat Scene in Illustrative Realism 🔤
-- 643. Minimalist Landscape Illustration by Ryo Takemasa 🔤
-- 644. Comprehensive Image Analysis Report 🔤
-- 645. A Half-Built Pyramid and the Leader Who Turned Labor Into Legacy 🔤
-- 646. App Store Submission Agent 🔤
-- 647. Comprehensive Web Application Development with Security and Performance Optimization 🔤
-- 648. The Missing Woman 🔤
-- 649. Photo-to-Isometric: Reality Slice Generator 🔤
-- 650. Shadows of the Blue Note 🔤
-- 651. Strategic App Design & Content Engineering Prompt 🔤
-- 652. English Teacher for Translation and Cultural Explanation 🔤
-- 653. AI Assistant for University Assignments 🔤
-- 654. Base64 Promt 🔤
-- 655. 3D Isometric Miniature City View with Weather 🔤
-- 656. Edit a New Year's Video for Antioch Textile with Nano Banana 🔤
-- 657. New Year Celebration Video for Antioch Textile 🔤
-- 658. Automate Repository Management with OpenCode CLI 🔤
-- 659. Photorealistic Selfie Portrait Description 🔤
-- 660. Bathroom Flash Selfie (IG-candid, non-explicit) 🔤
-- 661. Elevator Mirror OOTD (full-body) 🔤
-- 662. Snowy Street Cozy (winter fit, cinematic) 🔤
-- 663. Nano Banana Pro Prompt Generator Instruction (Outputs JSON blocks like these) 🔤
-- 664. Gym Mirror (UGC realism, no logos) 🔤
-- 665. merge 🔤
-- 666. Prompt Writer for Specific Project 🔤
-- 667. Open Source / Free License Selection Assistant 🔤
-- 668. License Selection Assistant from Intellectual Property expert 🔤
-- 669. Act as a Resume Reviewer 🔤
-- 670. Act as a Resume Reviewer for Anthropic Fellows Program 🔤
-- 671. Structured Job Application Cleanup 🔤
-- 672. Cafe Window Seat (close-up, tactile realism) 🔤
-- 673. Rooftop Sunset Lookback (half-body) 🔤
-- 674. Rainy Umbrella Street (full-body) 🔤
-- 675. Night Neon Alley (half-body, edgy) 🔤
-- 676. Cozy Couch Lamp (close-up, warm tungsten) 🔤
-- 677. Plant Bouquet Warm Lamp (your example vibe, adult-safe) 🔤
-- 678. Airport Corridor Walk (full-body) 🔤
-- 679. Museum Steps (full-body, cultural) 🔤
-- 680. Nightclub Booth Flash (half-body, party candids) 🔤
-- 681. Studio Beauty Editorial (close-up, pro) 🔤
-- 682. Beach Walk Golden Hour (full-body, travel) 🔤
+- 619. خبير إمكانية الوصول
+- 620. القوة الخارقة لاختبار إمكانية الوصول
+- 621. خبير تنظيم الوكلاء
+- 622. صور فائقة الواقعية لأضرار معركة في مركبة X-Wing
+- 623. محاكاة FDTD للجسيمات النانوية
+- 624. القطاع المصرفي - تحليل سريع لجدول بيانات
+- 625. القطاع المصرفي - التحقق من امتثال نص
+- 626. مستشار تصميم مواقع ويب احترافي
+- 627. ملخص الاجتماع الافتراضي
+- 628. التوطين المخصص ودمج الذكاء الاصطناعي في التطبيقات
+- 629. كتابة تقارير أعطال الشبكة
+- 630. برومبت مساعد GPT مخصص
+- 631. مشغّل فيديو عصري بواجهة حادة
+- 632. القطاع المصرفي - كتابة نص تسويقي بسيط
+- 633. مساعد عيادة نفسية
+- 634. مشهد كرتوني ثلاثي الأبعاد متساوي القياس مع تأثيرات الطقس
+- 635. مطوّر سكربتات أتمتة بـ Node.js
+- 636. مساعد مطوّر التطبيقات الذكية
+- 637. أمر إنشاء موقع ويب
+- 638. دليل تأليف موسيقى داركسينث سينثويف
+- 639. المُحمِّص
+- 640. الواقعية السينمائية
+- 641. تصيير شخصية ثلاثية الأبعاد بأسلوب ديزني بيكسار الراقي
+- 642. مشهد قارب تجديف هادئ في المساء بأسلوب الواقعية التوضيحية
+- 643. رسم توضيحي بسيط لمنظر طبيعي بأسلوب ريو تاكيماسا
+- 644. تقرير شامل لتحليل صورة
+- 645. هرم نصف مبني والقائد الذي حوّل العمل إلى إرث
+- 646. وكيل تقديم التطبيقات إلى App Store
+- 647. تطوير شامل لتطبيقات الويب مع تحسين الأمان والأداء
+- 648. المرأة المفقودة
+- 649. من الصورة إلى المنظور متساوي القياس: مولّد شرائح الواقع
+- 650. ظلال البلو نوت
+- 651. برومبت استراتيجي لتصميم التطبيقات وهندسة المحتوى
+- 652. مدرّس لغة إنجليزية للترجمة والشرح الثقافي
+- 653. مساعد ذكاء اصطناعي للواجبات الجامعية
+- 654. برومبت Base64
+- 655. منظر مدينة مصغّرة ثلاثي الأبعاد متساوي القياس مع الطقس
+- 656. تحرير فيديو رأس السنة لشركة Antioch Textile باستخدام Nano Banana
+- 657. فيديو احتفال برأس السنة لشركة Antioch Textile
+- 658. أتمتة إدارة المستودعات باستخدام OpenCode CLI
+- 659. وصف صورة سيلفي بورتريه واقعية فوتوغرافيًا
+- 660. سيلفي بالفلاش في الحمّام (عفوي بأسلوب إنستغرام، غير فاضح)
+- 661. إطلالة اليوم في مرآة المصعد (كامل الجسم)
+- 662. شارع مثلج دافئ (إطلالة شتوية، سينمائية)
+- 663. تعليمات مولّد برومبتات Nano Banana Pro (يُخرج كتل JSON مثل هذه)
+- 664. مرآة النادي الرياضي (واقعية محتوى المستخدمين، بلا شعارات)
+- 665. دمج
+- 666. كاتب برومبتات لمشروع محدد
+- 667. مساعد اختيار الرخص المفتوحة المصدر / الحرة
+- 668. مساعد اختيار الرخص من خبير في الملكية الفكرية
+- 669. تصرّف كمراجع للسير الذاتية
+- 670. تصرّف كمراجع للسير الذاتية لبرنامج زمالات Anthropic
+- 671. تنظيم طلبات التوظيف وتنقيحها
+- 672. مقعد بجوار نافذة المقهى (لقطة قريبة، واقعية ملموسة)
+- 673. نظرة إلى الخلف على السطح عند الغروب (نصف الجسم)
+- 674. شارع ماطر مع مظلة (كامل الجسم)
+- 675. زقاق نيون ليلي (نصف الجسم، جريء)
+- 676. أريكة دافئة ومصباح (لقطة قريبة، تنغستن دافئ)
+- 677. باقة نباتات ومصباح دافئ (أجواء مثالك، آمنة للبالغين)
+- 678. المشي في ممر المطار (كامل الجسم)
+- 679. درجات المتحف (كامل الجسم، ثقافي)
+- 680. فلاش في ركن الملهى الليلي (نصف الجسم، لقطات حفلات عفوية)
+- 681. جلسة تجميل تحريرية في الاستوديو (لقطة قريبة، احترافية)
+- 682. نزهة على الشاطئ في الساعة الذهبية (كامل الجسم، سفر)
 - 683. Tech Desk “Builder” (half-body, cozy monitor glow) 🔤
 - 684. Restaurant Candle Close-up (intimate, not explicit) 🔤
 - 685. Minimal Studio “iPhone Candid” (pro-quality but awkward framing) 🔤
@@ -718,56 +718,56 @@
 - 696. Codebase WIKI Documentation Skill 🔤
 - 697. Graduate Information and Communication System Design 🔤
 - 698. Directive Assistant: Domina 🔤
-- 699. Non-Technical IT Help & Clarity Assistant 🔤
-- 700. Cinematic Triptych: A Day in the Countryside 🔤
+- 699. مساعد الدعم التقني والوضوح لغير التقنيين
+- 700. ثلاثية سينمائية: يوم في الريف
 
 ## [الجزء 8: 701–800](part-08.md)
-- 701. Cinematic Photography Triptych: Serene Meadow Portrait 🔤
-- 702. Cinematic Neo-Noir Triptych in Digital Art 🔤
-- 703. PlainTalk Style Guide 🔤
-- 704. A broken, soul-crushed medieval knight 🔤
-- 705. Matrix Paradise Seraph 🔤
-- 706. Retro-futuristic 1970s sci-fi 🔤
-- 707. A retro-styled adventurer takes a pause by a lush jungle riverbank. 🔤
-- 708. A relaxed copper-haired woman resting sideways on a bed in a soft, low-light setting. 🔤
-- 709. Art-W 🔤
-- 710. İngilizce-Türkçe Kelime ve Cümle Çevirmeni 🔤
-- 711. Cinematic Urban Night Portrait - Moody Streetwear Aesthetic 🔤
-- 712. Quiet Glow 🔤
-- 713. Household Maintenance & Safety Assistant 🔤
-- 714. Where the Kami Still Walk 🔤
-- 715. Iterative Prompt Refinement Loop 🔤
-- 716. Creating a Project Management Tool 🔤
-- 717. 3x3 Grid Storyboarding from Photo 🔤
-- 718. "University Website Section Designer" 🔤
-- 719. Surreal City Scene 🔤
-- 720. Language Detection 🔤
-- 721. Aesthetic Mirror Selfie of a Curly-Haired Woman in a Mocha Ribbed Crop Top 🔤
-- 722. Joyful Woman in Nordic Sweater Dancing at a Nostalgic Family Christmas Gathering 🔤
-- 723. Detailed Image Analysis of a Mirror Selfie in a Bedroom Environment 🔤
-- 724. Outdoor Staircase Image Analysis 🔤
-- 725. Study Review Companion 🔤
-- 726. Cinematic Street Photography Prompt 🔤
-- 727. Extreme Close-up Macro Photography of a Young Woman's Face 🔤
-- 728. Ethereal Dreamlike Portrait Photography 🔤
-- 729. Tropical Elegance: A Serene Afternoon in a Sunlit Villa 🔤
-- 730. Investment Tracking Dashboard 🔤
-- 731. Yağlı boya tablona bak 🔤
-- 732. Avant-Garde Portrait with Ghost Duplicate in Ochre Studio 🔤
-- 733. Reflected Self-Portrait in an Urban Convex Traffic Mirror 🔤
-- 734. Comprehensive Digital Marketing Strategy for Fashion Brand 🔤
-- 735. Professional GitHub Dashboard for Portfolio Enhancement 🔤
-- 736. Guía para Diseñar y Vender un Libro en Hotmart 🔤
-- 737. Candle Pattern Trading Chart Generator 🔤
-- 738. Candlestick Reversal Pattern Detector in Pine Script 🔤
-- 739. Finance Tracker App Development Plan 🔤
-- 740. English Language Tutor for Turkish Speakers 🔤
-- 741. Security Guard Image Prompt 🔤
-- 742. Product Promotion Expert 🔤
-- 743. Research Project Analysis and IPD Feasibility Recommendations 🔤
-- 744. English Practice App Guide 🔤
-- 745. Enterprise Microservices Architecture Design 🔤
-- 746. SwiftUI iOS App Development Guide 🔤
+- 701. ثلاثية تصوير سينمائي: بورتريه هادئ في المرج
+- 702. ثلاثية نيو-نوار سينمائية بالفن الرقمي
+- 703. دليل أسلوب PlainTalk
+- 704. فارس من العصور الوسطى محطّم ومسحوق الروح
+- 705. ساراف فردوس الماتريكس
+- 706. خيال علمي رجعي-مستقبلي من سبعينيات القرن العشرين
+- 707. مغامرة بأسلوب رجعي تأخذ استراحة على ضفة نهر في غابة استوائية كثيفة.
+- 708. امرأة مسترخية بشعر نحاسي تستلقي على جانبها على سرير في أجواء ناعمة خافتة الإضاءة.
+- 709. Art-W
+- 710. مترجم كلمات وجمل من الإنجليزية إلى التركية
+- 711. بورتريه ليلي حضري سينمائي - جماليات أزياء الشارع المزاجية
+- 712. توهّج هادئ
+- 713. مساعد صيانة المنزل والسلامة
+- 714. حيث لا تزال الكامي تمشي
+- 715. حلقة التحسين التكراري للبرومبت
+- 716. إنشاء أداة لإدارة المشاريع
+- 717. لوحة قصة مصوّرة بشبكة 3x3 من صورة
+- 718. "مصمم أقسام الموقع الإلكتروني للجامعة"
+- 719. مشهد مدينة سريالي
+- 720. اكتشاف اللغة
+- 721. سيلفي جمالي في المرآة لامرأة ذات شعر مجعد ترتدي توب قصيراً مضلّعاً بلون الموكا
+- 722. امرأة مبتهجة بكنزة نوردية ترقص في تجمّع عائلي حنيني لعيد الميلاد
+- 723. تحليل مفصّل لصورة سيلفي في المرآة داخل غرفة نوم
+- 724. تحليل صورة لدرج خارجي
+- 725. رفيق مراجعة الدراسة
+- 726. برومبت تصوير شارع سينمائي
+- 727. تصوير ماكرو قريب جداً لوجه امرأة شابة
+- 728. تصوير بورتريه أثيري حالم
+- 729. أناقة استوائية: عصرية هادئة في فيلا مشمسة
+- 730. لوحة تحكم لتتبع الاستثمارات
+- 731. انظر إلى لوحتك الزيتية
+- 732. بورتريه طليعي مع نسخة شبحية مكررة في استوديو بلون المغرة
+- 733. بورتريه ذاتي منعكس في مرآة مرور محدّبة في الشارع
+- 734. استراتيجية تسويق رقمي شاملة لعلامة أزياء تجارية
+- 735. لوحة تحكم GitHub احترافية لتعزيز ملف الأعمال
+- 736. دليل لتصميم كتاب وبيعه على Hotmart
+- 737. مولّد مخططات تداول بأنماط الشموع
+- 738. كاشف أنماط الشموع الانعكاسية بلغة Pine Script
+- 739. خطة تطوير تطبيق لتتبع الشؤون المالية
+- 740. مدرّس لغة إنجليزية للناطقين بالتركية
+- 741. برومبت صورة حارس أمن
+- 742. خبير الترويج للمنتجات
+- 743. تحليل مشروع بحثي وتوصيات الجدوى وفق منهجية IPD
+- 744. دليل تطبيق ممارسة اللغة الإنجليزية
+- 745. تصميم معمارية خدمات مصغّرة للمؤسسات
+- 746. دليل تطوير تطبيقات iOS باستخدام SwiftUI
 - 747. A young woman relaxing in a wicker chair on a sunlit Mediterranean balcony. 🔤
 - 748. Amateur Girls' Night Selfie - Casual and Imperfect 🔤
 - 749. Evening at a Turkish Dessert Shop - A Photographic Story 🔤
@@ -781,83 +781,83 @@
 - 757. Photorealistic Mirror Selfie Analysis 🔤
 - 758. Ultra-Realistic Night Scene in a Turkish Kitchen 🔤
 - 759. Ultra-Realistic Comedic Slice-of-Life in an Ankara Bus 🔤
-- 760. Cozy Night in Ankara: A Turkish TV Series Snapshot 🔤
-- 761. Ultra-Realistic Ankara Apartment Night Scene 🔤
-- 762. Cozy Ankara Night: Capturing a Realistic Bedroom Scene 🔤
-- 763. Ultra-Realistic Street Photo Prompt: Turkish Woman in Ankara 🔤
-- 764. Turkish woman in Ankara with a surreal twist 🔤
-- 765. Ultra-Realistic Amateur Street Photo of Ankara Scene 🔤
-- 766. Ultra-Realistic Ankara Street Photo with Surreal Element 🔤
-- 767. Realistic Photo of a Turkish Woman in a Street Setting 🔤
-- 768. Ultra Realistic Bedroom Selfie Description 🔤
-- 769. Ultra Realistic Candid Photo of a Turkish Woman in Istanbul Café 🔤
-- 770. Realistic Mirror-Selfie Scene Creation 🔤
-- 771. Dual Lighting Narrative Scene 🔤
-- 772. Amateur Mirror Selfie with Natural Look 🔤
-- 773. Realistic Amateur Vibe Candid Photography Prompt 🔤
-- 774. Bug Discovery Code Assistant 🔤
-- 775. Manim Code 🔤
-- 776. SEO Strategy for Container Tracking Keywords 🔤
-- 777. Excel Data to Figma Presentation Designer 🔤
-- 778. Comprehensive Repository Audit & Remediation Prompt 🔤
-- 779. OpenAI Create Plan Skill 🔤
-- 780. Text Summarizer 🔤
-- 781. Course Assignment Grader 🔤
-- 782. Ethreal Current 🔤
-- 783. Create an Unofficial Instagram API 🔤
-- 784. Professional Full-Stack Developer for Network Mapping & Monitoring Application 🔤
-- 785. Comprehensive POS Application Development with FIFO and Reporting 🔤
-- 786. Node Web App for Czech Invoice PDF Generation 🔤
-- 787. Study Timer 🔤
-- 788. Sophisticated Istanbul Stroll 🔤
-- 789. Numerology Expert Guidance 🔤
-- 790. Man in a City 🔤
-- 791. Build a UI Library for ESP32 🔤
-- 792. ESP32 UI Library Development 🔤
-- 793. NBX 🔤
-- 794. Sun-Drenched Outdoor Selfie of a Tattooed Female Subject with Tiki Decor 🔤
-- 795. Bingo Game Creator 🔤
-- 796. SAP ABAP Carbon Footprint Module Graduation Project Documentation 🔤
-- 797. Code Review Expert 🔤
-- 798. Networking Engineer Portfolio Website 🔤
-- 799. Senior Java Backend Engineer Expert 🔤
-- 800. UGC-Style TikTok Script Generator for Gen Z Skincare 🔤
+- 760. ليلة دافئة في أنقرة: لقطة من مسلسل تلفزيوني تركي
+- 761. مشهد ليلي فائق الواقعية في شقة بأنقرة
+- 762. ليلة دافئة في أنقرة: التقاط مشهد واقعي لغرفة نوم
+- 763. برومبت صورة شارع فائقة الواقعية: امرأة تركية في أنقرة
+- 764. امرأة تركية في أنقرة مع لمسة سريالية
+- 765. صورة شارع هاوية فائقة الواقعية لمشهد في أنقرة
+- 766. صورة شارع فائقة الواقعية في أنقرة مع عنصر سريالي
+- 767. صورة واقعية لامرأة تركية في بيئة شارع
+- 768. وصف سيلفي غرفة نوم فائق الواقعية
+- 769. صورة عفوية فائقة الواقعية لامرأة تركية في مقهى بإسطنبول
+- 770. إنشاء مشهد سيلفي واقعي في المرآة
+- 771. مشهد سردي بإضاءة مزدوجة
+- 772. سيلفي هاوية في المرآة بمظهر طبيعي
+- 773. برومبت تصوير عفوي بأجواء هاوية واقعية
+- 774. مساعد اكتشاف الأخطاء البرمجية
+- 775. شيفرة Manim
+- 776. استراتيجية SEO لكلمات مفتاحية خاصة بتتبع الحاويات
+- 777. مصمم عروض تقديمية في Figma من بيانات Excel
+- 778. برومبت شامل لتدقيق المستودع ومعالجة مشكلاته
+- 779. مهارة إنشاء خطة من OpenAI
+- 780. ملخِّص النصوص
+- 781. مصحِّح واجبات المقررات الدراسية
+- 782. تيار أثيري
+- 783. إنشاء API غير رسمية لإنستغرام
+- 784. مطوّر Full-Stack محترف لتطبيق رسم خرائط الشبكات ومراقبتها
+- 785. تطوير تطبيق نقاط بيع شامل مع FIFO والتقارير
+- 786. تطبيق ويب Node لتوليد فواتير تشيكية بصيغة PDF
+- 787. مؤقّت الدراسة
+- 788. نزهة أنيقة في إسطنبول
+- 789. إرشاد خبير في علم الأعداد
+- 790. رجل في مدينة
+- 791. بناء مكتبة واجهات مستخدم لـ ESP32
+- 792. تطوير مكتبة واجهات مستخدم لـ ESP32
+- 793. NBX
+- 794. سيلفي خارجية مشمسة لامرأة موشومة مع ديكور تيكي
+- 795. صانع لعبة البنغو
+- 796. توثيق مشروع تخرج لوحدة البصمة الكربونية في SAP ABAP
+- 797. خبير مراجعة الشيفرة
+- 798. موقع معرض أعمال لمهندس شبكات
+- 799. خبير هندسة Java للواجهات الخلفية (مستوى أول)
+- 800. مولّد نصوص TikTok بأسلوب UGC للعناية بالبشرة لجيل Z
 
 ## [الجزء 9: 801–900](part-09.md)
-- 801. Google Ads Title Copywriter 🔤
-- 802. 2026 Size Neler getirecek 🔤
-- 803. PDF Shareholder Extractor 🔤
-- 804. 3D to 2D Floor Plan Converter 🔤
-- 805. Mechanical Part Render to Technical Drawing Converter 🔤
-- 806. 3D Mechanical Part Image to Technical Drawing Conversion 🔤
-- 807. Cinematic Thriller Silhouette 🔤
-- 808. Close-up black and white portrait 🔤
-- 809. A blonde woman in a dreamy 🔤
-- 810. Professional Image Creation for Printable Sales Materials 🔤
-- 811. Expert Guidance for Acoustic and Deep Learning Research 🔤
-- 812. Security Monitoring with Wazuh: A Comprehensive Research Project 🔤
-- 813. Topic Article 🔤
-- 814. Advanced Text Converter for Large Datasets 🔤
-- 815. Develop a UI Library for ESP32 🔤
-- 816. Literature Review Writing Assistant 🔤
-- 817. File Analysis API with Node.js and Express 🔤
-- 818. 2026 Mobile Poster Creator 🔤
-- 819. Ultimate 2025-2026 AI Life Strategist & Retrospective 🔤
-- 820. Color Consistency Analysis and Adjustment 🔤
-- 821. Fashion Photo Pose & Setting Transformation Editor 🔤
-- 822. Asistente de Recetas de Cocina Chilena 🔤
-- 823. Create a Video with Top Athletes 🔤
-- 824. Neon Silence 🔤
-- 825. Car poster 🔤
-- 826. Creative Storytelling Guide 🔤
-- 827. Academic Writing Workshop Plan 🔤
-- 828. Full-Stack Engineer for Airline Simulation Center App 🔤
-- 829. Senior Full-Stack Developer for Airline Simulation Center 🔤
-- 830. Senior Product Engineer + Data Scientist for Turkish Car Valuation Platform 🔤
-- 831. Crafting LinkedIn Messages to Hiring Managers 🔤
-- 832. Innovative Math Teaching Method 🔤
-- 833. Professional Vision Statement for Transportation Company 🔤
-- 834. Act as a Base LLM Model 🔤
+- 801. كاتب عناوين إعلانات Google Ads
+- 802. ماذا سيحمل لك عام 2026
+- 803. مستخرج بيانات المساهمين من ملفات PDF
+- 804. محوّل المخطط ثلاثي الأبعاد إلى مسقط أفقي ثنائي الأبعاد
+- 805. محوّل صورة تصيير قطعة ميكانيكية إلى رسم فني
+- 806. تحويل صورة قطعة ميكانيكية ثلاثية الأبعاد إلى رسم فني
+- 807. صورة ظلية سينمائية بأجواء الإثارة
+- 808. بورتريه مقرّب بالأبيض والأسود
+- 809. امرأة شقراء في مشهد حالم
+- 810. إنشاء صور احترافية لمواد بيع قابلة للطباعة
+- 811. إرشاد خبير لأبحاث الصوتيات والتعلم العميق
+- 812. المراقبة الأمنية باستخدام Wazuh: مشروع بحثي شامل
+- 813. مقالة حول موضوع
+- 814. محوّل نصوص متقدم لمجموعات البيانات الكبيرة
+- 815. تطوير مكتبة واجهات مستخدم لـ ESP32
+- 816. مساعد كتابة مراجعة الأدبيات
+- 817. واجهة API لتحليل الملفات باستخدام Node.js وExpress
+- 818. صانع ملصقات 2026 للهاتف المحمول
+- 819. الاستراتيجي الأمثل لحياتك ومراجعة 2025-2026 بالذكاء الاصطناعي
+- 820. تحليل اتساق الألوان وضبطها
+- 821. محرر تحويل وضعيات وأماكن صور الأزياء
+- 822. مساعد وصفات المطبخ التشيلي
+- 823. إنشاء فيديو مع أبرز الرياضيين
+- 824. صمت النيون
+- 825. ملصق سيارة
+- 826. دليل السرد القصصي الإبداعي
+- 827. خطة ورشة عمل للكتابة الأكاديمية
+- 828. مهندس Full-Stack لتطبيق مركز محاكاة طيران
+- 829. مطوّر Full-Stack أول لمركز محاكاة طيران
+- 830. مهندس منتجات أول + عالم بيانات لمنصة تقييم السيارات التركية
+- 831. صياغة رسائل LinkedIn لمديري التوظيف
+- 832. طريقة مبتكرة لتدريس الرياضيات
+- 833. بيان رؤية احترافي لشركة نقل
+- 834. تصرّف كنموذج لغوي كبير أساسي
 - 835. Act as an FTTH Telecommunications Expert 🔤
 - 836. Cinematic 3x3 Focal Lengths Grid 🔤
 - 837. 3D Medical Anatomy Model Render Prompt 🔤
@@ -886,65 +886,65 @@
 - 860. seo-fundamentals 🔤
 - 861. Mastermind 🔤
 - 862. Echoes of the Rust Age 🔤
-- 863. Corsairs of the Crimson Void 🔤
-- 864. Whispers in Light Trails 🔤
-- 865. The Aether Workshop 🔤
-- 866. Poe - Your Best Bud Chatbot 🔤
-- 867. Creative Short Story Writing 🔤
-- 868. Custom AI Image Creation 🔤
-- 869. Créer une Carte Mentale pour Séance d'Idéation 🔤
-- 870. Football Player Introduction Poster Template 🔤
-- 871. Cinematic Close-Up of Craftsman with Paper Figures 🔤
-- 872. Comprehensive Roadmap for AI and Computer Vision Specialization in Defense Systems 🔤
-- 873. Young Saudi Doctor in a Professional Setting 🔤
-- 874. Wary Bear in a Hostile Woodland 🔤
-- 875. Code Review Specialist 2 🔤
-- 876. Integrity & Compliance Officer Audit Protocol 🔤
-- 877. transcript_to_notes 🔤
-- 878. Photorealistic Image Prompt for Fashion and Environment 🔤
-- 879. Exploring Gaps in Thesis Writing Literature with ChatGPT 🔤
-- 880. Business Idea Feasibility and Technical Challenges Analysis 🔤
-- 881. GitHub Repository Analysis and Enhancement 🔤
-- 882. Annual Summary Creator 🔤
-- 883. Inference Scenario Automation Tool 🔤
-- 884. Custom Logo Design for Website 🔤
-- 885. Access Unlimited ChatGPT 🔤
-- 886. Create a PS5-themed Portfolio 🔤
-- 887. Educational Platform Support Assistant 🔤
-- 888. Understanding and Utilizing LLMs 🔤
-- 889. Minimalist Editorial Beauty Analysis with European Model 🔤
-- 890. Minimalist Editorial Beauty Analysis with Turkish Model 🔤
-- 891. Minimalist Editorial Beauty Analysis with East Asian Model 🔤
-- 892. Festive New Year 2026 Image Analysis 🔤
-- 893. Act as an Electron Frontend Developer 🔤
-- 894. SQL Query Generator from Natural Language 🔤
-- 895. Generate Implementation Ideas from Word Document 🔤
-- 896. Semantic Intent Analysis for Report Generation 🔤
-- 897. Policy Agent Client Manager 🔤
-- 898. Hospital Pharmacy Course PDF Study Assistant 🔤
-- 899. White-Box Web Application Security Audit & Penetration Testing Prompt for AI Code Editors (Cursor, Windsurf, Antigravity) 🔤
-- 900. Collaborative AI Marketing Platform 🔤
+- 863. قراصنة الفراغ القرمزي
+- 864. همسات في مسارات الضوء
+- 865. ورشة الأثير
+- 866. بو - روبوت الدردشة صديقك المقرّب
+- 867. كتابة القصص القصيرة الإبداعية
+- 868. إنشاء صورة مخصصة بالذكاء الاصطناعي
+- 869. إنشاء خريطة ذهنية لجلسة توليد الأفكار
+- 870. قالب ملصق تقديم لاعب كرة قدم
+- 871. لقطة سينمائية مقرّبة لحرفي مع مجسمات ورقية
+- 872. خارطة طريق شاملة للتخصص في الذكاء الاصطناعي والرؤية الحاسوبية في أنظمة الدفاع
+- 873. طبيب سعودي شاب في بيئة مهنية
+- 874. دبّ حذِر في غابة معادية
+- 875. أخصائي مراجعة الشيفرة 2
+- 876. بروتوكول تدقيق مسؤول النزاهة والامتثال
+- 877. تحويل_النص_المفرغ_إلى_ملاحظات (transcript_to_notes)
+- 878. برومبت صورة واقعية للأزياء والبيئة المحيطة
+- 879. استكشاف الفجوات في أدبيات كتابة الأطروحات باستخدام ChatGPT
+- 880. تحليل جدوى فكرة مشروع وتحدياتها التقنية
+- 881. تحليل مستودع GitHub وتحسينه
+- 882. منشئ الملخص السنوي
+- 883. أداة أتمتة سيناريوهات الاستدلال
+- 884. تصميم شعار مخصص لموقع إلكتروني
+- 885. الوصول غير المحدود إلى ChatGPT
+- 886. إنشاء ملف أعمال بطابع PS5
+- 887. مساعد دعم المنصة التعليمية
+- 888. فهم النماذج اللغوية الكبيرة (LLMs) والاستفادة منها
+- 889. تحليل جمالي تحريري بسيط مع عارضة أوروبية
+- 890. تحليل جمالي تحريري بسيط مع عارضة تركية
+- 891. تحليل جمالي تحريري بسيط مع عارضة من شرق آسيا
+- 892. تحليل صورة احتفالية برأس السنة 2026
+- 893. تصرّف كمطوّر واجهات أمامية باستخدام Electron
+- 894. مولّد استعلامات SQL من اللغة الطبيعية
+- 895. توليد أفكار تنفيذية من مستند Word
+- 896. تحليل النية الدلالية لتوليد التقارير
+- 897. مدير عملاء وكيل التأمين
+- 898. مساعد دراسة ملف PDF لمقرر صيدلة المستشفيات
+- 899. برومبت تدقيق أمني واختبار اختراق بأسلوب الصندوق الأبيض لتطبيقات الويب لمحررات الشيفرة المدعومة بالذكاء الاصطناعي (Cursor وWindsurf وAntigravity)
+- 900. منصة تسويق تعاونية بالذكاء الاصطناعي
 
 ## [الجزء 10: 901–1000](part-10.md)
-- 901. A night in paris 🔤
-- 902. Dynamic Recipe Generator from Available Ingredients 🔤
-- 903. Develop a Media Center Plan for Hajj 🔤
-- 904. Super Trader Model for Stock Analysis 🔤
-- 905. Elite Private Equity Fund Manager Stock Analysis 🔤
-- 906. Red Dead Redemption 2 - Double Exposure Effect 🔤
-- 907. The Witcher - Double Exposure Effect 🔤
-- 908. Dynamic Cover Letter Generator 🔤
-- 909. CV Writing Assistant 🔤
-- 910. Develop Android Apps from Screenshots 🔤
-- 911. Business Coaching Mentor 🔤
-- 912. School Life Mentor 🔤
-- 913. Taglish Technical Storytelling Editor 🔤
-- 914. Convert PDF to Markdown 🔤
-- 915. AI-powered data extraction and organization tool 🔤
-- 916. VSCode CodeTour Expert Agent 🔤
-- 917. Whispers of Noir 🔤
-- 918. The Midnight Informant 🔤
-- 919. Context7 Documentation Expert Agent 🔤
+- 901. ليلة في باريس
+- 902. مولّد وصفات ديناميكي من المكونات المتاحة
+- 903. إعداد خطة مركز إعلامي للحج
+- 904. نموذج المتداول الخارق لتحليل الأسهم
+- 905. تحليل الأسهم من منظور مدير صندوق أسهم خاصة نخبوي
+- 906. Red Dead Redemption 2 - تأثير التعريض المزدوج
+- 907. The Witcher - تأثير التعريض المزدوج
+- 908. مولّد خطابات تقديم ديناميكي
+- 909. مساعد كتابة السيرة الذاتية
+- 910. تطوير تطبيقات Android من لقطات الشاشة
+- 911. مرشد في التدريب على ريادة الأعمال
+- 912. مرشد الحياة المدرسية
+- 913. محرر سرد القصص التقنية بلغة التاغليش
+- 914. تحويل PDF إلى Markdown
+- 915. أداة لاستخراج البيانات وتنظيمها مدعومة بالذكاء الاصطناعي
+- 916. وكيل خبير في VSCode CodeTour
+- 917. همسات النوار
+- 918. مُخبِرة منتصف الليل
+- 919. وكيل خبير في توثيق Context7
 - 920. Sports Research Assistant 🔤
 - 921. The Quant Edge Engine 🔤
 - 922. Geralt of Rivia Image Generation 🔤
@@ -959,46 +959,46 @@
 - 931. Cinematic Neon Alley – Urban Night Walk (Album Cover Style) 🔤
 - 932. Continuous Execution Mode AI 🔤
 - 933. Context Migration 🔤
-- 934. Ultra-Realistic Winter Cinematography Series 🔤
-- 935. Comic Book Team Illustration 🔤
-- 936. Surrealist Painting Description: A Study of René Magritte's Style 🔤
-- 937. Prepare for Meetings: Key Considerations 🔤
-- 938. Bibliographic Review Writing Assistant 🔤
-- 939. Diseño de Artículo de Revisión Sistemática para Revista Q1 sobre Sociedad y Cultura Caribeña 🔤
-- 940. Job and Internship Tracker for Google Sheets 🔤
-- 941. Stock Analyser 🔤
-- 942. Web App for Task Management and Scheduling 🔤
-- 943. Ultra-High-Resolution Portrait Restoration 🔤
-- 944. Nightlife Candid Flash Photography 🔤
-- 945. Cartoon series 🔤
-- 946. Sentry Bug Fixer 🔤
-- 947. Meta-prompt 🔤
-- 948. Random Girl 🔤
-- 949. Dynamic character profile generator 🔤
-- 950. Sticker 🔤
-- 951. content 🔤
-- 952. postmortem 🔤
-- 953. professional linguistic expert and translator 🔤
-- 954. Slap Game Challenge: Act as the Ultimate Slap Game Master 🔤
-- 955. Vision-to-json 🔤
-- 956. The Midnight Melody Mystery 🔤
-- 957. Auditor de Código Python: Nivel Senior (Salida en Español) 🔤
-- 958. Present 🔤
-- 959. Seaside walker 🔤
-- 960. SWOT Analysis for Political Risk and International Relations 🔤
-- 961. Network Engineer 🔤
-- 962. Commit Message Preparation 🔤
-- 963. Tattoo Studio Booking Web App Development 🔤
-- 964. DUT Citation Accuracy Project 🔤
-- 965. AI Process Feasibility Interview 🔤
-- 966. 12-Month AI and Computer Vision Roadmap for Defense Applications 🔤
-- 967. Article Summary Prompt 🔤
-- 968. AI Engineer 🔤
-- 969. Backend Architect 🔤
-- 970. DevOps Automator 🔤
-- 971. Frontend Developer 🔤
-- 972. Business 🔤
-- 973. Mobile App Builder 🔤
+- 934. سلسلة تصوير سينمائي شتوي فائق الواقعية
+- 935. رسم توضيحي لفريق بأسلوب القصص المصوّرة
+- 936. وصف لوحة سريالية: دراسة لأسلوب رينيه ماغريت
+- 937. الاستعداد للاجتماعات: اعتبارات رئيسية
+- 938. مساعد كتابة المراجعة الببليوغرافية
+- 939. تصميم مقال مراجعة منهجية لمجلة من الفئة Q1 حول مجتمع الكاريبي وثقافته
+- 940. متتبّع الوظائف والتدريب الميداني في Google Sheets
+- 941. محلّل الأسهم
+- 942. تطبيق ويب لإدارة المهام والجدولة
+- 943. ترميم البورتريهات بدقة فائقة الارتفاع
+- 944. تصوير عفوي بالفلاش للحياة الليلية
+- 945. مسلسل كرتوني
+- 946. مُصلح أخطاء Sentry
+- 947. برومبت فوقي (Meta-prompt)
+- 948. فتاة عشوائية
+- 949. مولّد ديناميكي لملفات الشخصيات
+- 950. ملصقات
+- 951. محتوى
+- 952. تحليل ما بعد الحادثة (postmortem)
+- 953. خبير لغوي ومترجم محترف
+- 954. تحدي لعبة الصفع: تصرّف كأمهر مدير للعبة الصفع
+- 955. من الرؤية إلى JSON
+- 956. لغز لحن منتصف الليل
+- 957. مدقّق شيفرة Python: مستوى خبير (المخرجات بالإسبانية)
+- 958. عرض الخطة
+- 959. متنزّهة على الشاطئ
+- 960. تحليل SWOT للمخاطر السياسية والعلاقات الدولية
+- 961. مهندس شبكات
+- 962. إعداد رسائل الإيداع (Commit)
+- 963. تطوير تطبيق ويب لحجز المواعيد في استوديو وشم
+- 964. مشروع دقة الاستشهادات في DUT
+- 965. مقابلة جدوى العمليات بالذكاء الاصطناعي
+- 966. خارطة طريق لمدة 12 شهرًا في الذكاء الاصطناعي والرؤية الحاسوبية لتطبيقات الدفاع
+- 967. برومبت تلخيص المقالات
+- 968. مهندس ذكاء اصطناعي
+- 969. معماري الواجهة الخلفية
+- 970. مُؤتمِت DevOps
+- 971. مطوّر واجهات أمامية
+- 972. الأعمال
+- 973. مُنشئ تطبيقات الجوال
 - 974. Rapid Prototyper 🔤
 - 975. Test Automation Expert 🔤
 - 976. Feedback Synthesizer 🔤
@@ -1009,31 +1009,31 @@
 - 981. The PRD Mastermind 🔤
 - 982. Scam Detection Conversation Helper 🔤
 - 983. Serene Yoga & Mindfulness Lifestyle Photography 🔤
-- 984. Mindful Mandala & Zen Geometric Patterns 🔤
-- 985. The Gravedigger's Vigil 🔤
-- 986. Chinese-English Translator 🔤
-- 987. Multilingual Writing Improvement Assistant 🔤
-- 988. Terminal Drift 🔤
-- 989. Social Media Post Creator for Recruitment 🔤
-- 990. Prompt Generator for Language Models 🔤
-- 991. GPT_conversation_output 🔤
-- 992. Master Prompt Architect & Context Engineer 🔤
-- 993. python 🔤
-- 994. Creative Ideas Generator 🔤
-- 995. MCP Builder 🔤
-- 996. Dreamy Artistic Photograph of a Young Woman in a Meadow 🔤
-- 997. Surreal Miniature Cityscape with Giant Observer 🔤
-- 998. Cinematic Close-Up Portrait Generation 🔤
-- 999. Skill Creator 🔤
-- 1000. Ultimate Inpainting / Reference Prompt 🔤
+- 984. ماندالا التأمل وأنماط الزن الهندسية
+- 985. سهرة حفّار القبور
+- 986. مترجم صيني-إنجليزي
+- 987. مساعد تحسين الكتابة متعدد اللغات
+- 988. انجراف في صالة المطار
+- 989. منشئ منشورات التواصل الاجتماعي للتوظيف
+- 990. مولّد برومبتات لنماذج اللغة
+- 991. GPT_conversation_output
+- 992. كبير مهندسي البرومبتات ومهندس السياق
+- 993. python
+- 994. مولّد الأفكار الإبداعية
+- 995. مُنشئ MCP
+- 996. صورة فنية حالمة لشابة في مرج
+- 997. مشهد مدينة مصغّرة سريالي مع مراقِبة عملاقة
+- 998. توليد بورتريه سينمائي مقرّب
+- 999. مُنشئ المهارات
+- 1000. البرومبت المثالي للرسم الداخلي (Inpainting) / الصورة المرجعية
 
 ## [الجزء 11: 1001–1100](part-11.md)
-- 1001. Universal Context Document (UCD) Generator 🔤
-- 1002. The tyrant King 🔤
-- 1003. identify the key skills needed for effective project planning and proposal writing 🔤
-- 1004. Project Skill & Resource Interviewer 🔤
-- 1005. Pokemon master 🔤
-- 1006. Claude Code Skill (Slash Command): review-and-commit.md 🔤
+- 1001. مولّد مستند السياق الشامل (UCD)
+- 1002. الملك الطاغية
+- 1003. حدّد المهارات الأساسية اللازمة للتخطيط الفعّال للمشاريع وكتابة المقترحات
+- 1004. محاور مهارات وموارد المشروع
+- 1005. سيد البوكيمون
+- 1006. مهارة Claude Code (أمر مائل): review-and-commit.md
 - 1007. Customizable Job Scanner 🔤
 - 1008. AI Search Mastery Bootcamp 🔤
 - 1009. create a drag-and-drop experience using UniApp 🔤
