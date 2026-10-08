@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **1030** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **1342** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -1058,109 +1058,109 @@
 - 1028. سراب مانهاتن
 - 1029. القرين الزجاجي
 - 1030. الضربة الشبحية
-- 1031. GitHubTrends 🔤
-- 1032. Eerie Shadows: A Creepy Horror RPG Adventure 🔤
-- 1033. AI Travel Agent – Interview-Driven Planner 🔤
-- 1034. “How It Works” Educational Dioramas 🔤
-- 1035. Act as a Job Application Reviewer 🔤
-- 1036. Terminal Velocity 🔤
-- 1037. Alpine Freefall 🔤
-- 1038. Module Wrap-Up & Next Steps Video Generation 🔤
-- 1039. Strict Markdown-Only Output Enforcement 🔤
-- 1040. Investigative Research Assistant 🔤
-- 1041. Source-Hunting / OSINT Mode 🔤
-- 1042. Beginner's Guide to Building and Deploying LLMs 🔤
-- 1043. Project System and Art Style Consistency Instructions 🔤
-- 1044. Musician Portfolio Website Design 🔤
-- 1045. Intent Recognition Planner Agent 🔤
-- 1046. Cascading Failure Simulator 🔤
-- 1047. gemini.md 🔤
-- 1048. war 🔤
-- 1049. Cinematic Ultra-Realistic Image-to-Video Prompt Engineer 🔤
-- 1050. "YOU PROBABLY DON'T KNOW THIS" Game 🔤
-- 1051. Build a DDQN Snake Game with TensorFlow.js in a Single HTML File 🔤
-- 1052. Modern Plaza Office Selfie — Corporate Aesthetic in Istanbul 🔤
-- 1053. In-Flight Vacation Selfie — Natural Front Camera Perspective 🔤
-- 1054. Nightclub Mirror Selfie 🔤
-- 1055. Network Engineer: Home Edition 🔤
-- 1056. Idea Generation 🔤
-- 1057. Step 2: Outline Creation 🔤
-- 1058. Step 3a: Technical Deep Dive 🔤
-- 1059. Step 3b: Creative Exploration 🔤
-- 1060. Step 4a: Implementation Plan 🔤
-- 1061. Step 4b: Story Development 🔤
-- 1062. Step 5: Final Review 🔤
-- 1063. Step 6: Publication 🔤
-- 1064. Underwater Veo 3 video 🔤
-- 1065. Storyboard Grid 🔤
-- 1066. Remotion 🔤
-- 1067. Elements 🔤
-- 1068. Production-Grade PostHog Integration for Next.js 15 (App Router) 🔤
-- 1069. Personal Assistant for Zone of Excellence Management 🔤
-- 1070. Comprehensive Data Integration and Customer Profiling Tool 🔤
-- 1071. Food Scout 🔤
-- 1072. Investigative Research Assistant for Uncovering Non-Mainstream Information 🔤
-- 1073. Realistic Night Sky Portrait 🔤
-- 1074. prompts.chat Promotional Video using Remotion 🔤
-- 1075. Influencer Candid Bedtime Selfie 🔤
-- 1076. Kubernetes & Docker RPG Learning Engine 🔤
-- 1077. Valorant Agent Style 🔤
-- 1078. Social Media Cocktail Web Site Post 🔤
-- 1079. Social media swipe post content #1 🔤
-- 1080. Ultra-photorealistic Infographics 🔤
-- 1081. My-Skills 🔤
-- 1082. Cyber Security Character Workflow 🔤
-- 1083. Research Weapon 🔤
-- 1084. TV Premiere Weekly Listing Prompt 🔤
-- 1085. copilot 🔤
-- 1086. Satya Nadella pobre 🔤
-- 1087. Note Guru 🔤
-- 1088. Personalized Numerology Reading 🔤
-- 1089. Screenplay Script with Cinematography Details 🔤
-- 1090. caravan prompts 🔤
-- 1091. Workplace English Speaking Coach 🔤
-- 1092. 7v7 Football Team Generator App 🔤
-- 1093. Sticker Image Generator 🔤
-- 1094. Rick And Morty 🔤
-- 1095. Lego Movie Style Prompt 🔤
-- 1096. Precious Metals Price Analyst 🔤
-- 1097. The Ultimate TypeScript Code Review 🔤
-- 1098. PHP Microscope: Forensic Codebase Autopsy Protocol 🔤
-- 1099. Isometric miniature 3D model 🔤
-- 1100. claude-md-master 🔤
+- 1031. GitHubTrends - اتجاهات GitHub
+- 1032. ظلال مخيفة: مغامرة لعبة أدوار رعب مرعبة
+- 1033. وكيل سفر بالذكاء الاصطناعي – مخطط يعتمد على المقابلة
+- 1034. مجسّمات تعليمية مصغّرة بعنوان "كيف يعمل"
+- 1035. تصرّف كمراجع طلبات التوظيف
+- 1036. السرعة النهائية
+- 1037. سقوط حر في جبال الألب
+- 1038. توليد فيديو ختام الوحدة والخطوات التالية
+- 1039. فرض مخرجات Markdown فقط بصرامة
+- 1040. مساعد بحث استقصائي
+- 1041. وضع تتبّع المصادر / الاستخبارات مفتوحة المصدر (OSINT)
+- 1042. دليل المبتدئين لبناء نماذج اللغة الكبيرة ونشرها
+- 1043. تعليمات نظام المشروع وثبات الأسلوب الفني
+- 1044. تصميم موقع معرض أعمال لموسيقي
+- 1045. وكيل تخطيط للتعرف على النوايا
+- 1046. محاكي الإخفاق المتتالي
+- 1047. gemini.md
+- 1048. حرب
+- 1049. مهندس برومبت سينمائي فائق الواقعية لتحويل الصورة إلى فيديو
+- 1050. لعبة "على الأرجح لا تعرف هذا"
+- 1051. بناء لعبة Snake بخوارزمية DDQN باستخدام TensorFlow.js في ملف HTML واحد
+- 1052. سيلفي في مكتب بلازا حديث — أجواء مؤسسية في إسطنبول
+- 1053. سيلفي عطلة على متن الطائرة — منظور الكاميرا الأمامية الطبيعي
+- 1054. سيلفي مرآة في ملهى ليلي
+- 1055. مهندس الشبكات: النسخة المنزلية
+- 1056. توليد الأفكار
+- 1057. الخطوة 2: إنشاء المخطط التفصيلي
+- 1058. الخطوة 3أ: التعمق التقني
+- 1059. الخطوة 3ب: الاستكشاف الإبداعي
+- 1060. الخطوة 4أ: خطة التنفيذ
+- 1061. الخطوة 4ب: تطوير القصة
+- 1062. الخطوة 5: المراجعة النهائية
+- 1063. الخطوة 6: النشر
+- 1064. فيديو Veo 3 تحت الماء
+- 1065. شبكة لوحة القصة المصورة
+- 1066. Remotion
+- 1067. العناصر
+- 1068. تكامل PostHog بمستوى إنتاجي مع Next.js 15 (App Router)
+- 1069. مساعد شخصي لإدارة منطقة التميّز
+- 1070. أداة شاملة لدمج البيانات وبناء ملفات العملاء
+- 1071. كشّاف الطعام (Food Scout)
+- 1072. مساعد بحث استقصائي لكشف المعلومات غير السائدة
+- 1073. صورة عمودية واقعية لسماء الليل
+- 1074. فيديو ترويجي لـ prompts.chat باستخدام Remotion
+- 1075. سيلفي عفوية لمؤثرة قبل النوم
+- 1076. محرك تعلّم Kubernetes وDocker على طريقة ألعاب الأدوار
+- 1077. أسلوب عميل Valorant
+- 1078. منشور موقع كوكتيلات للتواصل الاجتماعي
+- 1079. محتوى منشور تمرير للتواصل الاجتماعي #1
+- 1080. إنفوغرافيك فائق الواقعية الفوتوغرافية
+- 1081. مهاراتي
+- 1082. سير عمل شخصية الأمن السيبراني
+- 1083. سلاح البحث
+- 1084. برومبت قائمة العروض الأولى التلفزيونية الأسبوعية
+- 1085. copilot
+- 1086. ساتيا ناديلا الفقير
+- 1087. Note Guru
+- 1088. قراءة علم الأعداد (النيومرولوجي) شخصية
+- 1089. سيناريو مع تفاصيل التصوير السينمائي
+- 1090. برومبتات الكارافان
+- 1091. مدرب التحدث بالإنجليزية في بيئة العمل
+- 1092. تطبيق مولّد فرق كرة القدم 7 ضد 7
+- 1093. مولّد صور الملصقات (Stickers)
+- 1094. ريك ومورتي
+- 1095. برومبت بأسلوب فيلم ليغو
+- 1096. محلل أسعار المعادن النفيسة
+- 1097. المراجعة الشاملة لشيفرة TypeScript
+- 1098. مجهر PHP: بروتوكول التشريح الجنائي لقاعدة الشيفرة
+- 1099. نموذج ثلاثي الأبعاد مصغّر أيزومتري
+- 1100. claude-md-master
 
 ## [الجزء 12: 1101–1200](part-12.md)
-- 1101. skill-master 🔤
-- 1102. Ultra-Photorealistic Romantic Cinematic Scene in the Rain 🔤
-- 1103. Romantic Rainy Scene Video 🔤
-- 1104. Blogging prompt 🔤
-- 1105. Generate an enhanced command prompt 🔤
-- 1106. Improve the following code 🔤
-- 1107. Personal Form Builder App Design 🔤
-- 1108. Research NRI/NRO Account Services in India 🔤
-- 1109. Photorealistic Cozy Home Scene with Natural Lighting 🔤
-- 1110. AI App Prototyping for Chat Interface 🔤
-- 1111. Personal Growth Plan for BNWO Enthusiasts 🔤
-- 1112. Compile a Curated Compendium of Niche Adult Relationship Dynamics 🔤
-- 1113. scaryface 🔤
-- 1114. Comprehensive Code Review Expert 🔤
-- 1115. Claude Code Statusline Design 🔤
-- 1116. American Comic 🔤
-- 1117. Create Icons 🔤
-- 1118. Create Infographics 🔤
-- 1119. Design App Store Style Icons 🔤
-- 1120. Linkedin profile enhancing 🔤
-- 1121. LinkedIn: About/Summary draft prompt 🔤
-- 1122. LinkedIn: Experience optimization prompt 🔤
-- 1123. LinkedIn: Recommendation request message prompt 🔤
-- 1124. Game Theory for Students: Easy and Engaging Learning 🔤
-- 1125. Elite B2B Lead Generation and SEO Audit Specialist 🔤
-- 1126. Custom Travel Plan Generator 🔤
-- 1127. Sell a dream as an underground tailors but need partnership for capital. With no or just 20% less leverage, how to get partners interested and involved to buy the dream 🔤
-- 1128. Cinematic Ink & Color Illustration Generator — Gary Frank Style 🔤
-- 1129. Marketing Mastermind for Product Promotion 🔤
-- 1130. The Architect: Hacker-Protector & Viral Engineer 🔤
-- 1131. Transform Subjects into Adorable Plush Forms 🔤
+- 1101. skill-master
+- 1102. مشهد سينمائي رومانسي فائق الواقعية تحت المطر
+- 1103. فيديو مشهد رومانسي تحت المطر
+- 1104. برومبت للتدوين
+- 1105. توليد برومبت أوامر محسّن
+- 1106. حسّن الشيفرة التالية
+- 1107. تصميم تطبيق منشئ النماذج الشخصي
+- 1108. بحث في خدمات حسابات NRI/NRO في الهند
+- 1109. مشهد منزلي دافئ واقعي بإضاءة طبيعية
+- 1110. نمذجة تطبيق ذكاء اصطناعي لواجهة محادثة
+- 1111. خطة نمو شخصي لعشاق BNWO
+- 1112. إعداد موجز منتقى لديناميكيات العلاقات المتخصصة بين البالغين
+- 1113. scaryface
+- 1114. خبير مراجعة الشيفرة الشامل
+- 1115. تصميم شريط الحالة (Statusline) في Claude Code
+- 1116. كوميك أمريكي
+- 1117. إنشاء أيقونات
+- 1118. إنشاء إنفوجرافيك
+- 1119. تصميم أيقونات بأسلوب App Store
+- 1120. تحسين الملف الشخصي على LinkedIn
+- 1121. LinkedIn: برومبت صياغة نبذة/ملخص
+- 1122. LinkedIn: برومبت تحسين قسم الخبرات
+- 1123. LinkedIn: برومبت رسالة طلب توصية
+- 1124. نظرية الألعاب للطلاب: تعلّم سهل وممتع
+- 1125. أخصائي نخبوي في توليد العملاء المحتملين B2B وتدقيق SEO
+- 1126. مولّد خطط سفر مخصصة
+- 1127. بيع حلم كخياطين سريّين لكن الحاجة إلى شراكة لرأس المال. مع رافعة مالية معدومة أو أقل بنسبة 20% فقط، كيف نجعل الشركاء مهتمين ومشاركين لشراء الحلم
+- 1128. مولّد رسوم الحبر واللون السينمائية — على طريقة غاري فرانك
+- 1129. العقل المدبّر للتسويق للترويج للمنتجات
+- 1130. المهندس: المخترِق-الحامي ومهندس الانتشار الفيروسي
+- 1131. تحويل الموضوعات إلى دمى قطيفة لطيفة
 - 1132. LinkedIn Summary Crafting Prompt 🔤
 - 1133. Critical-Parallel Inquiry Format 🔤
 - 1134. GPT-5 | EXPERT PROMPT ENGINEER MODE (CONDENSED) 🔤
@@ -1172,64 +1172,64 @@
 - 1140. Family picture 🔤
 - 1141. Streaks Mobile App Development Prompt 🔤
 - 1142. Serious Man in Urban Setting 🔤
-- 1143. I Think I Need a Lawyer — Neutral Legal Intake Organizer 🔤
-- 1144. Professional Networking Language for Career Fairs 🔤
-- 1145. Lonely Girl 🔤
-- 1146. Resume tailoring 🔤
-- 1147. Senior Frontend Debugger for SPA Websites (Angular, React, Vite) 🔤
-- 1148. Fix Blank Screen Issues After Deploy on Vercel (Angular, React, Vite) 🔤
-- 1149. Ultra-Realistic 3D Character Avatar Creation 🔤
-- 1150. Recursive Niche Deconstruction for Market Research 🔤
-- 1151. LEGO Minifigure Character Transformation 🔤
-- 1152. Web Application 🔤
-- 1153. AI builder 🔤
-- 1154. Drunk Woman 🔤
-- 1155. Abandoned Wife 🔤
-- 1156. Aesthetic Sunset 🔤
-- 1157. Universal Job Fit Evaluation Prompt 🔤
-- 1158. Building a Scalable Search Service with FastAPI and PostgreSQL 🔤
-- 1159. Enterprise Talent Development Management System Design 🔤
-- 1160. Gen Z Content & Online Sales Prompt Generator 🔤
-- 1161. Deep GitHub Repository Understanding 🔤
-- 1162. Criar/Alterar Documentação de Projeto 🔤
-- 1163. Gerador de Tarefas 🔤
-- 1164. Planjedor de Tarefas 🔤
-- 1165. Implementador de Tarefas 🔤
-- 1166. Code Recon 🔤
-- 1167. Creating a Comprehensive Elasticsearch Search Project with FastAPI 🔤
-- 1168. Daiquiri Cocktail Cinematic Video 🔤
-- 1169. Solar System Scale Model Classroom Poster 🔤
-- 1170. Prompt Optimization 🔤
-- 1171. 4 Optimized Versions of A Prompt (in Arabic) 🔤
-- 1172. Analogy Generator 🔤
-- 1173. Advanced Account Research 🔤
-- 1174. Industry/Market Intelligence 🔤
-- 1175. Prompt Engineering Expert 🔤
-- 1176. Sales Research 🔤
-- 1177. Sports Events Weekly Listings Prompt 🔤
-- 1178. MeddaH 🔤
-- 1179. Cocktail videos 🔤
-- 1180. Coach for Identifying Growth-Limiting Patterns 🔤
-- 1181. A professional Egyptian barista 🔤
-- 1182. Brotherhood Pressure — CN→EN & EN→EN Street Rewrite 🔤
-- 1183. Driftcraft 🔤
-- 1184. Lagrange Lens: Blue Wolf 🔤
+- 1143. أظن أنني بحاجة إلى محامٍ — منظّم محايد لاستقبال القضايا القانونية
+- 1144. لغة التواصل المهني في معارض التوظيف
+- 1145. الفتاة الوحيدة
+- 1146. تخصيص السيرة الذاتية
+- 1147. مصحّح أخطاء واجهات أمامية متقدم لمواقع SPA (Angular وReact وVite)
+- 1148. إصلاح مشكلات الشاشة الفارغة بعد النشر على Vercel (Angular وReact وVite)
+- 1149. إنشاء أفاتار ثلاثي الأبعاد فائق الواقعية لشخصية
+- 1150. التفكيك العودي للnichات لأبحاث السوق
+- 1151. تحويل شخصية إلى مجسّم LEGO مصغّر
+- 1152. تطبيق ويب
+- 1153. منشئ بالذكاء الاصطناعي
+- 1154. امرأة ثملة
+- 1155. الزوجة المهجورة
+- 1156. غروب جمالي
+- 1157. موجّه شامل لتقييم ملاءمة الوظيفة
+- 1158. بناء خدمة بحث قابلة للتوسع باستخدام FastAPI وPostgreSQL
+- 1159. تصميم نظام إدارة تطوير المواهب للمؤسسات
+- 1160. مولّد موجّهات لمحتوى الجيل Z والمبيعات عبر الإنترنت
+- 1161. فهم عميق لمستودع GitHub
+- 1162. إنشاء/تعديل توثيق المشروع
+- 1163. مولّد المهام
+- 1164. مخطِّط المهام
+- 1165. منفّذ المهام
+- 1166. استكشاف الشيفرة (Code Recon)
+- 1167. إنشاء مشروع بحث شامل بـ Elasticsearch باستخدام FastAPI
+- 1168. فيديو سينمائي لكوكتيل الدايكيري
+- 1169. ملصق صفّي لنموذج المجموعة الشمسية بمقياس رسم
+- 1170. تحسين الموجّهات (Prompt Optimization)
+- 1171. 4 نسخ محسّنة من موجّه (بالعربية)
+- 1172. مولّد التشبيهات
+- 1173. بحث متقدم عن الحسابات (Advanced Account Research)
+- 1174. استخبارات الصناعة/السوق
+- 1175. خبير هندسة الموجّهات (Prompt Engineering Expert)
+- 1176. أبحاث المبيعات
+- 1177. برومبت قوائم الفعاليات الرياضية الأسبوعية
+- 1178. المدّاح
+- 1179. فيديوهات الكوكتيل
+- 1180. مدرّب لتحديد أنماط تعيق النمو
+- 1181. باريستا مصري محترف
+- 1182. ضغط الأخوّة — إعادة صياغة شارعية من الصينية إلى الإنجليزية ومن الإنجليزية إلى الإنجليزية
+- 1183. Driftcraft (حرفة الانجراف)
+- 1184. عدسة لاغرانج: الذئب الأزرق
 - 1185. Socratic Lens 🔤
-- 1186. Dog fun 🔤
-- 1187. Deep Research - Gemini 🔤
-- 1188. PRD 🔤
-- 1189. Second Opinion 🔤
-- 1190. Minecraft image 🔤
-- 1191. Reimagined Logo for Google 🔤
-- 1192. OS2.0 SAFe Delivery Context (Master) 🔤
-- 1193. Olympic Games Events Weekly Listings Prompt 🔤
-- 1194. Creative Writing Adventure 🔤
-- 1195. Code Review Specialist 🔤
-- 1196. Nurse 🔤
-- 1197. Innovative Research Enhancement Ideas Generator 🔤
-- 1198. Literature Reading and Analysis Assistant 🔤
-- 1199. Develop a Live Video Streaming Website 🔤
-- 1200. Human-Like Creative Writing Challenge 🔤
+- 1186. مرح الكلاب
+- 1187. بحث معمّق - Gemini
+- 1188. وثيقة متطلبات المنتج (PRD)
+- 1189. رأي ثانٍ
+- 1190. صورة ماينكرافت
+- 1191. شعار جوجل بتصور جديد
+- 1192. سياق التسليم وفق SAFe لـ OS2.0 (الرئيسي)
+- 1193. برومبت القوائم الأسبوعية لفعاليات الألعاب الأولمبية
+- 1194. مغامرة الكتابة الإبداعية
+- 1195. أخصائي مراجعة الشيفرة
+- 1196. ممرضة
+- 1197. مولّد أفكار لتحسين الأبحاث المبتكرة
+- 1198. مساعد قراءة وتحليل الأدبيات
+- 1199. تطوير موقع بث فيديو مباشر
+- 1200. تحدي الكتابة الإبداعية الشبيهة بالبشر
 
 ## [الجزء 13: 1201–1300](part-13.md)
 - 1201. Gathering Planner Interview 🔤
@@ -1248,151 +1248,151 @@
 - 1214. High Conversion Cold Email 🔤
 - 1215. SYSTEM PROMPT: THE INFINITE ROLE GENERATOR 🔤
 - 1216. Cyberscam Survival Simulator 🔤
-- 1217. Whiteboard Diagrams 🔤
-- 1218. Live Scam Threat Briefing 🔤
-- 1219. Fact-Checking Evaluation Assistant 🔤
-- 1220. OSINT Threat Intelligence Analysis Workflow 🔤
-- 1221. Imagen estilo Hollywood de alta definición 🔤
-- 1222. WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM 🔤
-- 1223. Spotify room cinematic 🔤
-- 1224. Universal System Design Prompt 🔤
-- 1225. Valentines Day Cocktail 🔤
-- 1226. The Technical Co-Founder: Building Real Products Together 🔤
-- 1227. Night club 🔤
-- 1228. CLAUDE.md Generator for AI Coding Agents 🔤
-- 1229. Prompt Generator for claude code 🔤
-- 1230. Scientific Paper Drafting for Analytical Data 🔤
-- 1231. The Solar Priestess of Amun 🔤
-- 1232. Profile pic rebuild 🔤
-- 1233. Morning coffee 🔤
-- 1234. Young woman with bikini 🔤
-- 1235. Draft PR to Ready to Review PR 🔤
-- 1236. Chinese to English Translation Proofreading Expert 🔤
-- 1237. Hallucination Vulnerability Prompt Checker 🔤
-- 1238. Meme coins knowledge  and trading 🔤
-- 1239. Womanized 🔤
-- 1240. Lead Data Analyst for Actionable Insights 🔤
-- 1241. ATS Resume Scanner Simulator 🔤
-- 1242. Resume Quality Reviewer – Green Flag Edition 🔤
-- 1243. Dynamic Chinese Fire Horse Celebration 🔤
-- 1244. Overqualification Narrative Architect 🔤
-- 1245. Table in PDF to CSV conversion 🔤
-- 1246. Narrative Momentum Prediction Engine 🔤
-- 1247. Aaa 🔤
-- 1248. Create Satirical and Bold Song Lyrics 🔤
-- 1249. Manhattan Cocktail Cinematic Video 🔤
-- 1250. Interactive Place Review Generator 🔤
-- 1251. Minimalist Surveillance Illustration Prompt 🔤
-- 1252. Vibrant Fauvist Style Sunlit Living Room Illustration 🔤
-- 1253. Serene Moonlit Street Illustration 🔤
-- 1254. MoltPass Client -- Cryptographic Passport for AI Agents 🔤
-- 1255. LinkedIn JSON → Canonical Markdown Profile Generator 🔤
-- 1256. Master Podcast Producer & Sonic Storyteller 🔤
-- 1257. Cinematic Video Essay Director 🔤
-- 1258. Micro-SaaS "Vibecoder" Architect 🔤
-- 1259. The Ultimate Podcast Format & Audio Branding Architect 🔤
-- 1260. The Elite SEO Blog Architect & Ghostwriter 🔤
-- 1261. Pina Colada Cocktail 🔤
-- 1262. Senior Software Engineer  & Software Architect Rules 🔤
-- 1263. Test-First Bug Fixing Approach 🔤
-- 1264. Spring Boot + SOLID Specialist 🔤
-- 1265. Autonomous Research & Data Analysis Agent 🔤
-- 1266. Symphony Event Invitation and Guide 🔤
-- 1267. evento de sinfonía grupo 4 🔤
-- 1268. Principal AI Code Reviewer + Senior Software Engineer / Architect Prompt 🔤
-- 1269. Photo shoot for branding 🔤
-- 1270. Market Pulse 🔤
-- 1271. Cruelty-Free Beauty Product Checker 🔤
-- 1272. Big 4 style report for retail traders - Enter the name and ticker of a U.S. publicly traded company. 🔤
-- 1273. Prompt for Humanizing AI Text (English Version) 🔤
-- 1274. Learn Any Technical/Coding Topic 🔤
-- 1275. 30-Day Skill Mastery Challenge Prompt Template 🔤
-- 1276. Voice Conversation Coach 🔤
-- 1277. Animated Weather Radar Map: Brescia Storm 🔤
-- 1278. Vintage Black and White Photograph of Galata Tower 🔤
-- 1279. Minimalist Fisherman Illustration 🔤
-- 1280. Dramatic Digital Painting of a Solitary Figure in a Snowy Landscape 🔤
-- 1281. Python Code Performance & Quality Enhancer 🔤
-- 1282. Career Intelligence Analyst 🔤
-- 1283. Pre-Interview Intelligence Dossier 🔤
-- 1284. Innovative Use Case Generator for New Tools 🔤
-- 1285. Software Implementor AI Agent for Data Entry and Testing 🔤
-- 1286. CKEditor 5 Plugin 🔤
-- 1287. Ghibli style anime character 🔤
-- 1288. Python Code Generator — Clean, Optimized & Production-Ready 🔤
-- 1289. Camp Planner 🔤
-- 1290. Preventive Health Report Clinical Evaluation Prompt 🔤
-- 1291. # ANTIGRAVITY GLOBAL RULES 🔤
-- 1292. Documentation Update Automation 🔤
-- 1293. App Store Screenshots Gallery Generator 🔤
-- 1294. Build a Web3 Wallet on Playnance Blockchain 🔤
-- 1295. Dermatology Consultation Guide 🔤
-- 1296. The Fighter 🔤
-- 1297. Miniature Artist 🔤
-- 1298. Skin care for acne and freckles 🔤
-- 1299. Heart Illustration 🔤
-- 1300. Ball Puppet 🔤
+- 1217. رسوم توضيحية على السبورة البيضاء
+- 1218. إحاطة مباشرة بتهديدات الاحتيال
+- 1219. مساعد تقييم التحقق من الوقائع
+- 1220. سير عمل تحليل استخبارات التهديدات OSINT
+- 1221. صورة بدقة عالية بأسلوب هوليوود
+- 1222. WFGY 2.0 Core Flagship · نظام تشغيل استدلال ذاتي الإصلاح لأي نموذج لغوي
+- 1223. غرفة سبوتيفاي السينمائية
+- 1224. موجّه تصميم الأنظمة الشامل
+- 1225. كوكتيل عيد الحب
+- 1226. الشريك التقني المؤسس: بناء منتجات حقيقية معًا
+- 1227. ملهى ليلي
+- 1228. مولّد CLAUDE.md لوكلاء البرمجة بالذكاء الاصطناعي
+- 1229. مولّد برومبت لـ Claude Code
+- 1230. صياغة ورقة علمية للبيانات التحليلية
+- 1231. كاهنة آمون الشمسية
+- 1232. إعادة بناء صورة الملف الشخصي
+- 1233. قهوة الصباح
+- 1234. شابة ترتدي بيكيني
+- 1235. من PR مسودة إلى PR جاهز للمراجعة
+- 1236. خبير ترجمة ومراجعة من الصينية إلى الإنجليزية
+- 1237. أداة فحص ثغرات الهلوسة في البرومبت
+- 1238. معرفة وتداول عملات الميم
+- 1239. Womanized
+- 1240. محلل بيانات رئيسي لاستخلاص رؤى قابلة للتنفيذ
+- 1241. محاكي ماسح السير الذاتية ATS
+- 1242. مراجع جودة السيرة الذاتية – إصدار العلامات الخضراء
+- 1243. احتفال حيوي بالحصان الناري الصيني
+- 1244. مهندس سرد التأهيل الزائد
+- 1245. تحويل جدول في PDF إلى CSV
+- 1246. محرك التنبؤ بزخم السرديات
+- 1247. أداة تسجيل حسابات آلي (لم تُترجم)
+- 1248. كتابة كلمات أغنية ساخرة وجريئة
+- 1249. فيديو سينمائي لكوكتيل مانهاتن
+- 1250. مولّد مراجعات تفاعلي للأماكن
+- 1251. برومبت رسم توضيحي بسيط عن المراقبة
+- 1252. رسم توضيحي لغرفة معيشة مشمسة بأسلوب الوحشية (Fauvism) النابض
+- 1253. رسم توضيحي لشارع هادئ في ضوء القمر
+- 1254. عميل MoltPass -- جواز سفر تشفيري لوكلاء الذكاء الاصطناعي
+- 1255. مولّد ملف Markdown قياسي من LinkedIn JSON
+- 1256. منتج بودكاست محترف وراوي صوتي
+- 1257. مخرج مقالات فيديو سينمائية
+- 1258. مهندس Micro-SaaS بأسلوب "Vibecoder"
+- 1259. مهندس صيغة البودكاست والهوية الصوتية المتكامل
+- 1260. مهندس مدونات SEO النخبوي وكاتب الظل
+- 1261. كوكتيل بينا كولادا
+- 1262. قواعد مهندس البرمجيات الأول ومعماري البرمجيات
+- 1263. نهج إصلاح الأخطاء بالاختبار أولًا
+- 1264. متخصص Spring Boot + SOLID
+- 1265. وكيل بحث وتحليل بيانات مستقل
+- 1266. دعوة ودليل حدث سمفوني
+- 1267. حدث سمفوني، المجموعة 4
+- 1268. مراجع شيفرة ذكاء اصطناعي رئيسي + مهندس برمجيات أول / معماري
+- 1269. جلسة تصوير للعلامة التجارية
+- 1270. نبض السوق
+- 1271. فاحص منتجات التجميل الخالية من القسوة
+- 1272. تقرير بأسلوب الأربعة الكبار لمتداولي التجزئة - أدخل اسم ورمز شركة أمريكية متداولة علنًا.
+- 1273. برومبت لأنسنة نصوص الذكاء الاصطناعي (النسخة الإنجليزية)
+- 1274. تعلّم أي موضوع تقني/برمجي
+- 1275. قالب برومبت تحدي إتقان مهارة في 30 يومًا
+- 1276. مدرّب المحادثة الصوتية
+- 1277. خريطة رادار طقس متحركة: عاصفة بريشا
+- 1278. صورة فوتوغرافية قديمة بالأبيض والأسود لبرج غلطة
+- 1279. رسم توضيحي بسيط لصياد
+- 1280. لوحة رقمية درامية لشخص وحيد في منظر طبيعي ثلجي
+- 1281. محسّن أداء وجودة كود Python
+- 1282. محلل الذكاء المهني
+- 1283. ملف استخباراتي ما قبل المقابلة
+- 1284. مولّد حالات استخدام مبتكرة للأدوات الجديدة
+- 1285. وكيل ذكاء اصطناعي منفّذ برمجيات لإدخال البيانات والاختبار
+- 1286. إضافة CKEditor 5
+- 1287. شخصية أنمي بأسلوب جيبلي
+- 1288. مولّد كود Python — نظيف ومحسّن وجاهز للإنتاج
+- 1289. مخطط التخييم
+- 1290. برومبت التقييم السريري للتقرير الصحي الوقائي
+- 1291. # ANTIGRAVITY GLOBAL RULES
+- 1292. أتمتة تحديث التوثيق
+- 1293. مولّد معرض لقطات شاشة متجر التطبيقات
+- 1294. بناء محفظة Web3 على بلوكتشين Playnance
+- 1295. دليل استشارة الأمراض الجلدية
+- 1296. المقاتل
+- 1297. فنان المجسمات المصغرة
+- 1298. العناية بالبشرة لحب الشباب والنمش
+- 1299. رسم القلب التوضيحي
+- 1300. دمية الكرة
 
 ## [الجزء 14: 1301–1400](part-14.md)
-- 1301. Barong 1 🔤
-- 1302. Barong 2 🔤
-- 1303. Minimax Music & Lyrics Generation 🔤
-- 1304. AI Grounding Prompt 🔤
-- 1305. trial 🔤
-- 1306. Test 🔤
-- 1307. Analyze code scanning security issues and dependency updates if vulnerable 🔤
-- 1308. want to analyze security issues and vulnerabilities and fixes 🔤
-- 1309. logo designer 🔤
-- 1310. security fixes cves 🔤
-- 1311. security fixes 🔤
-- 1312. Boom & Crush - ICT strategy 🔤
-- 1313. Alp Dağlarındasın 🔤
-- 1314. Ultra Realistic Cinematic Portrait 🔤
-- 1315. High-Contrast Stencil Vector Poster Illustration 🔤
-- 1316. KIDS DRESS DESIGN 🔤
-- 1317. TypeScript Unit Testing with Vitest 🔤
-- 1318. Master Storyteller and Sales Copywriter Prompt 🔤
-- 1319. Wicked 🔤
-- 1320. Advanced Sales Funnel App with React Flow 🔤
-- 1321. Clinical Research Presentation Guidance 🔤
-- 1322. change home page desgin for blog and documentation platorm 🔤
-- 1323. Butterfly 🔤
-- 1324. Structured and Effective Learning Prompt 🔤
-- 1325. TCRE Framework - AI Prompt Engineer 🔤
-- 1326. Information Gathering Prompt 🔤
-- 1327. chicks hatch 🔤
-- 1328. Wickedsmaht.fun 🔤
-- 1329. HTWind-Widget-Creator 🔤
-- 1330. Transform the input product image into a professional commercial studio photograph 🔤
-- 1331. notebooklm_lecture_notes 🔤
-- 1332. image to video 360 product rotaion 🔤
-- 1333. Xh 🔤
-- 1334. Train Waiter 🔤
-- 1335. Colored 🔤
-- 1336. Abstract Portrait 🔤
-- 1337. Girls 🔤
-- 1338. Steel Blueprint Infographic For SosMed 🔤
-- 1339. Voice Cloning Attacks Infographic 🔤
-- 1340. Agency Growth Bottleneck Identifier 🔤
-- 1341. Expert Discovery Interviewer Guide 🔤
-- 1342. Landing Page Copy Architect – Conversion Framework Prompt 🔤
-- 1343. Data Architect & Business Strategist (CSV Audit & Pipeline) 🔤
-- 1344. cambio de ojos 🔤
-- 1345. Strategy Consultant 🔤
-- 1346. Python Security Vulnerability Auditor (OWASP-Mapped & Production-Hardened) 🔤
-- 1347. Make Flowers Bloom in an Image 🔤
-- 1348. AI Performance & Deep Testing Engineer 🔤
-- 1349. Make AI responses sound more Human-like 🔤
-- 1350. Academic Paper Figure Generator - Nano Banana Pro 🔤
-- 1351. National safety week 🔤
-- 1352. RNA-Seq Analysis and Differential Gene Expression 🔤
-- 1353. Comprehensive Guide to Gas-Fired Pool Heaters with Visuals 🔤
-- 1354. prompts.chat taste 🔤
-- 1355. Python Unit Test Generator — Comprehensive, Coverage-Mapped & Production-Ready 🔤
-- 1356. Mixed Media Portrait Illustration 🔤
-- 1357. Illustrative Hand-Drawn Istanbul Skyline Prompt 🔤
-- 1358. Majestic Bald Eagle 3D Render Prompt 🔤
-- 1359. Writing a Book on Causes of Death from Data Sources 🔤
+- 1301. بارونغ 1
+- 1302. بارونغ 2
+- 1303. توليد الموسيقى والكلمات عبر Minimax
+- 1304. برومبت تأريض الذكاء الاصطناعي
+- 1305. تجربة
+- 1306. اختبار
+- 1307. تحليل مشكلات أمان فحص الكود وتحديثات الاعتماديات إذا كانت معرضة للثغرات
+- 1308. أريد تحليل المشكلات الأمنية والثغرات والإصلاحات
+- 1309. مصمم شعارات
+- 1310. إصلاحات أمنية للثغرات CVE
+- 1311. إصلاحات أمنية
+- 1312. Boom & Crush - استراتيجية ICT
+- 1313. أنت في جبال الألب
+- 1314. بورتريه سينمائي فائق الواقعية
+- 1315. رسم ملصق متجه بأسلوب الاستنسل عالي التباين
+- 1316. تصميم ملابس أطفال
+- 1317. اختبار الوحدات في TypeScript باستخدام Vitest
+- 1318. برومبت راوي القصص الماهر وكاتب إعلانات المبيعات
+- 1319. شريرة
+- 1320. تطبيق قمع مبيعات متقدم باستخدام React Flow
+- 1321. إرشاد عرض تقديمي في البحث السريري
+- 1322. تغيير تصميم الصفحة الرئيسية لمنصة المدونة والتوثيق
+- 1323. فراشة
+- 1324. برومبت تعلّم منظم وفعّال
+- 1325. إطار TCRE - مهندس برومبتات الذكاء الاصطناعي
+- 1326. برومبت جمع المعلومات
+- 1327. فقس الكتاكيت
+- 1328. Wickedsmaht.fun
+- 1329. HTWind-Widget-Creator
+- 1330. حوّل صورة المنتج المدخلة إلى صورة استوديو تجارية احترافية
+- 1331. notebooklm_lecture_notes
+- 1332. تحويل صورة إلى فيديو بدوران 360 درجة للمنتج
+- 1333. Xh
+- 1334. نادلة القطار
+- 1335. ملوّن
+- 1336. بورتريه تجريدي
+- 1337. فتيات
+- 1338. إنفوغرافيك المخطط الفولاذي لوسائل التواصل الاجتماعي
+- 1339. إنفوغرافيك هجمات استنساخ الصوت
+- 1340. محدد عنق الزجاجة في نمو الوكالة
+- 1341. دليل المحاور الاستكشافي الخبير
+- 1342. مهندس نص صفحة الهبوط – برومبت إطار التحويل
+- 1343. مهندس بيانات واستراتيجي أعمال (تدقيق CSV وخط معالجة)
+- 1344. تغيير العينين
+- 1345. مستشار استراتيجي
+- 1346. مدقق الثغرات الأمنية في Python (مرتبط بـ OWASP ومحصّن للإنتاج)
+- 1347. اجعل الأزهار تتفتح في صورة
+- 1348. مهندس أداء واختبار عميق بالذكاء الاصطناعي
+- 1349. اجعل ردود الذكاء الاصطناعي تبدو أكثر شبهًا بالبشر
+- 1350. مولّد أشكال الأوراق الأكاديمية - Nano Banana Pro
+- 1351. أسبوع السلامة الوطني
+- 1352. تحليل RNA-Seq والتعبير الجيني التفاضلي
+- 1353. دليل شامل لسخانات المسابح العاملة بالغاز مع الرسوم التوضيحية
+- 1354. ذوق prompts.chat
+- 1355. مولّد اختبارات الوحدة لـ Python — شامل، مرتبط بخريطة التغطية، وجاهز للإنتاج
+- 1356. رسم بورتريه بوسائط مختلطة
+- 1357. برومبت أفق إسطنبول المرسوم يدويًا
+- 1358. برومبت عرض ثلاثي الأبعاد للنسر الأصلع المهيب
+- 1359. كتابة كتاب عن أسباب الوفاة من مصادر البيانات
 - 1360. Critical Thinking (DeepThink) 🔤
 - 1361. Corporate Intel Report 🔤
 - 1362. Root Cause Architect (5 Whys Technique) 🔤
@@ -1428,7 +1428,7 @@
 - 1392. Spanish girl in nightclub 🔤
 - 1393. research and learn to become top in your field of knowledge 🔤
 - 1394. Walking back home 🔤
-- 1395. Comprehensive Go Codebase Review - Forensic-Level Analysis Prompt 🔤
+- 1395. مراجعة شاملة لقاعدة شيفرة Go - برومبت تحليل جنائي المستوى
 - 1396. Comprehensive Python Codebase Review - Forensic-Level Analysis Prompt 🔤
 - 1397. Internal Linking SEO Assistant 🔤
 - 1398. Brainstorming Technically Grounded Product Ideas 🔤
@@ -1470,14 +1470,14 @@
 - 1432. "Explain It Like I Built It"  Technical Documentation for Non-Technical Founders 🔤
 - 1433. Claude - Proje çalışma promptu 🔤
 - 1434. Web Application Testing Skill (Imported) 🔤
-- 1435. Design Handoff Notes - AI First, Human Readable 🔤
-- 1436. Visual QA & Cross-Browser Audit 🔤
-- 1437. Lighthouse & Performance Optimization 🔤
-- 1438. Pre-Launch Checklist Generator 🔤
-- 1439. Artificial Intelligence Paper Analysis 🔤
-- 1440. Deep Learning Loop 🔤
-- 1441. Recruiter for Hiring Sales Professionals with Databricks Experience 🔤
-- 1442. SaaS Security Audit - OWASP Top 10 & Multi-Tenant Isolation Review 🔤
+- 1435. ملاحظات تسليم التصميم - الذكاء الاصطناعي أولاً ومقروءة للبشر
+- 1436. فحص الجودة البصرية وتدقيق التوافق بين المتصفحات
+- 1437. تحسين Lighthouse والأداء
+- 1438. مولّد قائمة التحقق قبل الإطلاق
+- 1439. تحليل أوراق الذكاء الاصطناعي
+- 1440. حلقة التعلم العميق
+- 1441. مسؤول توظيف لاستقطاب محترفي مبيعات ذوي خبرة في Databricks
+- 1442. تدقيق أمان SaaS - مراجعة OWASP Top 10 وعزل المستأجرين المتعددين
 - 1443. SaaS Analytics Dashboard - Knowledge-Anchored Frontend Prompt 🔤
 - 1444. Repository Security & Architecture Audit Framework 🔤
 - 1445. ACLS Master Simulator 🔤
@@ -1507,8 +1507,8 @@
 - 1469. Entropy peer reviews 🔤
 - 1470. System Architect Agent Role 🔤
 - 1471. API Design Expert Agent Role 🔤
-- 1472. Backend Architect Agent Role 🔤
-- 1473. Database Architect Agent Role 🔤
+- 1472. دور وكيل مهندس الواجهة الخلفية
+- 1473. دور وكيل مهندس قواعد البيانات
 - 1474. Data Validator Agent Role 🔤
 - 1475. Mock Data Generator Agent Role 🔤
 - 1476. Backup & Restore Agent Role 🔤
