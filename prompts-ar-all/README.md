@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **432** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **500** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -448,74 +448,74 @@
 - 430. رسم خط أفق ميونخ كصورة خطية
 - 431. استكشاف فهم يونغ للروح من خلال قصيدة الرومي
 - 432. محلل سوق الأسهم: اقتراحات لتحركات السوق
-- 433. Data Analyst 🔤
-- 434. Lead Data Analyst with Data Engineering Expertise 🔤
-- 435. Act as a Patient, Non-Technical Android Studio Guide 🔤
-- 436. Chimera AI-Powered Prompt Optimization System 🔤
-- 437. AI Tour Guide Business Plan for Foreign Tourists in China 🔤
-- 438. Plant Hero Section Image 🔤
-- 439. Cozy Christmas Smile 🔤
-- 440. Code Translator: Any Language to Any Language 🔤
-- 441. Orchestration Agent (PowerPlatformSupervisor) 🔤
-- 442. Analyze Previous Year Question Papers 🔤
-- 443. Linux monitoring single html 🔤
-- 444. Linux Monitoring Dashboard with React 🔤
-- 445. Stock Market Analysis Expert 🔤
-- 446. Paladin Octem Plus (Research Swarm) 🔤
-- 447. Website Security Vulnerability Checker 🔤
-- 448. Sidebar Dashboard Design 🔤
-- 449. Act as a Product Manager 🔤
-- 450. Build an Advanced Music App for Android 🔤
-- 451. Web Application Testing Skill 🔤
-- 452. Yamuna River Cleanup Plan for Vrindavan 🔤
-- 453. iOS Recipe Generator: Create Recipes from Available Ingredients 🔤
-- 454. Glyth_Maker 🔤
-- 455. Emotion Analyst 🔤
-- 456. Persuasive Article or Proposal Writing Guide 🔤
-- 457. illustration for teenagers, side silhouette of a young person. Inside the head a question mark transforming into light t. Deep purple and blue tones, minimalist and , v. 🔤
-- 458. 论文降重指南 🔤
-- 459. Academic Graduation Presentation Guide 🔤
-- 460. Career Path Deliberation Assistant 🔤
-- 461. Girl Taking Selfie with Avatar Characters in Cinema 🔤
-- 462. UI Designer Role 🔤
-- 463. Through the Glass: One Eye in Focus 🔤
-- 464. Surreal CGI-Photography Hybrid Portrait 🔤
-- 465. Hyperrealistic Food Photo Creator 🔤
-- 466. Meta-Prompt Engineer 🔤
-- 467. Course Feedback Analysis 🔤
-- 468. Squid Game - Red Light, Green Light Challenge 🔤
-- 469. World of Darkness B&W style 🔤
-- 470. Crypto Market Outlook Analyst 🔤
-- 471. Hyperrealistic Food Video Creator 🔤
-- 472. World of Darkness Colored Comic style 🔤
-- 473. Landing Page Vibe Coding 🔤
-- 474. Theme based Art Style Fusion Meta-Prompt 🔤
-- 475. Enhance and Beautify Your Photo 🔤
-- 476. Shower Glass Silhouette 🔤
-- 477. GoPro Action 🔤
-- 478. Pathology Slide Analysis Assistant 🔤
-- 479. Bank Transaction Analysis 🔤
-- 480. Dizi ve Film Özeti Çeviri Asistanı 🔤
-- 481. CI/CD Strategy for SpringBoot REST APIs Deployment 🔤
-- 482. Life coach 🔤
-- 483. Escritor de Livros Completo 🔤
-- 484. Quantitative Factor Research Engineer 🔤
-- 485. Banking System App Development with CRUD Operations 🔤
-- 486. 电商与社交平台内容创作提示词 🔤
-- 487. MPPT Simulation仿真代码 🔤
-- 488. Cryptocurrency Contract Trading System 🔤
-- 489. Real-Time Screen Translation Assistant 🔤
-- 490. Hyper-Realistic 3D Isometric Ottoman Masterpiece 🔤
-- 491. Create a detailed travel itinerary in HTML format 🔤
-- 492. Miniature Claymation Adventures on the Mushroom Cap 🔤
-- 493. Melancholic Dawn on the Misty Pier 🔤
-- 494. prompt 生成 🔤
-- 495. Professional Email Writer for Any Occasion 🔤
-- 496. emails Professionals 🔤
-- 497. Digital Visiting Card Product Architect 🔤
-- 498. Developer Daily Report Generator 🔤
-- 499. 担任Go语言开发者 🔤
-- 500. Act as an Etsy Niche Product Researcher 🔤
+- 433. محلل بيانات
+- 434. كبير محللي البيانات بخبرة في هندسة البيانات
+- 435. تصرّف كمرشد صبور وغير تقني لـ Android Studio
+- 436. نظام Chimera لتحسين البرومبتات بالذكاء الاصطناعي
+- 437. خطة عمل لمرشد سياحي بالذكاء الاصطناعي للسياح الأجانب في الصين
+- 438. صورة نباتات لقسم الواجهة الرئيسية
+- 439. ابتسامة عيد ميلاد دافئة
+- 440. مترجم الكود: من أي لغة إلى أي لغة
+- 441. وكيل التنسيق (PowerPlatformSupervisor)
+- 442. تحليل أسئلة امتحانات السنوات السابقة
+- 443. مراقبة لينكس في ملف HTML واحد
+- 444. لوحة مراقبة لينكس باستخدام React
+- 445. خبير تحليل سوق الأسهم
+- 446. Paladin Octem Plus (سرب البحث)
+- 447. فاحص الثغرات الأمنية للمواقع
+- 448. تصميم لوحة معلومات بشريط جانبي
+- 449. تصرّف كمدير منتج
+- 450. بناء تطبيق موسيقى متقدم لأندرويد
+- 451. سكيل اختبار تطبيقات الويب
+- 452. خطة تنظيف نهر يامونا في فريندافان
+- 453. مولّد وصفات لـ iOS: وصفات من المكونات المتوفرة
+- 454. صانع الرموز (Glyth_Maker)
+- 455. محلل المشاعر
+- 456. دليل كتابة مقال أو مقترح إقناعي
+- 457. رسم توضيحي للمراهقين: ظل جانبي لشاب وداخل رأسه علامة استفهام تتحول إلى نور، بدرجات البنفسجي والأزرق الداكنة وأسلوب بسيط
+- 458. دليل تقليل تكرار البحث العلمي
+- 459. دليل عرض التخرج الأكاديمي
+- 460. مساعد التفكير في المسار المهني
+- 461. فتاة تلتقط سيلفي مع شخصيات أفاتار في السينما
+- 462. دور مصمم الواجهات
+- 463. عبر الزجاج: عين واحدة في التركيز
+- 464. بورتريه هجين سريالي بين CGI والتصوير
+- 465. منشئ صور طعام فائقة الواقعية
+- 466. مهندس البرومبتات الفوقي
+- 467. تحليل ملاحظات المقرر الدراسي
+- 468. لعبة الحبار - تحدي الضوء الأحمر، الضوء الأخضر
+- 469. أسلوب World of Darkness بالأبيض والأسود
+- 470. محلل توقعات سوق العملات المشفرة
+- 471. منشئ فيديوهات طعام فائقة الواقعية
+- 472. أسلوب قصص World of Darkness المصورة الملونة
+- 473. برمجة صفحة هبوط بأسلوب Vibe Coding
+- 474. برومبت فوقي لدمج الأساليب الفنية حسب الموضوع
+- 475. حسّن صورتك وجمّلها
+- 476. ظل خلف زجاج الدش
+- 477. أكشن GoPro
+- 478. مساعد تحليل الشرائح المرضية
+- 479. تحليل المعاملات البنكية
+- 480. مساعد ترجمة ملخصات المسلسلات والأفلام
+- 481. استراتيجية CI/CD لنشر واجهات SpringBoot REST
+- 482. مدرب حياة
+- 483. كاتب كتب متكامل
+- 484. مهندس أبحاث العوامل الكمية
+- 485. تطوير تطبيق نظام بنكي بعمليات CRUD
+- 486. برومبت إنشاء المحتوى لمنصات التجارة الإلكترونية والتواصل الاجتماعي
+- 487. كود محاكاة MPPT
+- 488. نظام تداول عقود العملات المشفرة
+- 489. مساعد الترجمة الفورية للشاشة
+- 490. تحفة عثمانية ثلاثية الأبعاد متساوية القياس فائقة الواقعية
+- 491. إنشاء برنامج رحلة مفصل بصيغة HTML
+- 492. مغامرات صلصال مصغّرة على قبعة الفطر
+- 493. فجر حزين على الرصيف الضبابي
+- 494. توليد البرومبتات
+- 495. كاتب بريد إلكتروني احترافي لأي مناسبة
+- 496. رسائل بريد احترافية
+- 497. مهندس منتج بطاقات الأعمال الرقمية
+- 498. مولّد التقارير اليومية للمطورين
+- 499. تولَّ دور مطوّر Go
+- 500. تصرّف كباحث منتجات متخصصة على Etsy
 
 ## [الجزء 6: 501–600](part-06.md)
 - 501. Müzisyenler için Kariyer Yönetimi Desteği 🔤
