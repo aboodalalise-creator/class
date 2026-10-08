@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **500** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **569** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -518,75 +518,75 @@
 - 500. تصرّف كباحث منتجات متخصصة على Etsy
 
 ## [الجزء 6: 501–600](part-06.md)
-- 501. Müzisyenler için Kariyer Yönetimi Desteği 🔤
-- 502. Pharmacy Research Assistant 🔤
-- 503. Stranded in Time: The Victorian Traveler’s Panic 🔤
-- 504. Sistem ve Ağ Güvenliği Temalı Kısa Film Promptu 🔤
-- 505. Table with Various Items 🔤
-- 506. Customizable Avatar Style Generator 🔤
-- 507. Frontend Developer Skill 🔤
-- 508. Detailed mirror-selfie room scene 🔤
-- 509. Black and white studio side-profile portrait prompt 🔤
-- 510. The Digital Frontier: Pixelated Pioneers 🔤
-- 511. Childs Coloring Style 🔤
-- 512. Osobní AI Agent pro Petra Sovadinu 🔤
-- 513. GitHub Code Structure Tutor 🔤
-- 514. 提取查询 json 中的查询条件 🔤
-- 515. Algorithm Quick Guide 🔤
-- 516. Encyclopedia Assistant 🔤
-- 517. Act as a Health Recovery and Weight Loss Specialist 🔤
-- 518. Comprehensive User Manual Creation for Multiple Modules 🔤
-- 519. Building an Inventory Management System 🔤
-- 520. Setting Up a New iOS App in Xcode 🔤
-- 521. AI Video Creation Assistant 🔤
-- 522. 资深卖货短视频脚本创作者 🔤
-- 523. Cinematic Vertical Portrait of Vintage Car Radio at Night 🔤
-- 524. Personalized Skin Whitening Plan 🔤
-- 525. Next.js React Comprehensive Clash of Clans Tool 🔤
-- 526. Müşteri temsilcisi eğitimi 🔤
-- 527. Developer Work Analysis from Git Diff and Commit Message 🔤
-- 528. The Covert Exchange in the Fog 🔤
-- 529. Master Chinese Web Novel Author 🔤
-- 530. Socratic Method for Ethical Discussions 🔤
-- 531. A Moment Shared with the Wild 🔤
-- 532. Isometric miniature 3D cartoon city scene 🔤
-- 533. Trade Contract Review Expert 🔤
-- 534. Algorithm Analysis and Improvement Advisor 🔤
-- 535. ERP to Feishu Data Integration Solution 🔤
-- 536. University Admission Interview Simulation 🔤
-- 537. RIP McKinsey: Here are 10 prompts to replace expensive business consultants 🔤
-- 538. VR Headset Experience Simulator 🔤
-- 539. VR Horror Death Chatroom Simulator 🔤
-- 540. How to Obtain a Radio and TV License in Nigeria 🔤
-- 541. Doom Horror Death Image Simulator 🔤
-- 542. Aprendizaje Diario de Japonés 🔤
-- 543. Update checker 🔤
-- 544. Android Update Checker Script for Pydroid 3 🔤
-- 545. Pull Request Review Assistant 🔤
-- 546. Quizflix App Development 🔤
-- 547. QuizFlix Mobile App Design for University Students 🔤
-- 548. A three-panel monochromatic image 🔤
-- 549. Interactive Quiz Application for TV Shows and Movies 🔤
-- 550. Istanbul Travel Journal 🔤
-- 551. Young woman with mixed ethnicity features 🔤
-- 552. Hyper-Realistic Marvel Comic Fusion Image Generation 🔤
-- 553. Shadows of the Cold War: The 1962 Exchange 🔤
-- 554. 自动写作、图片生成与发布工具 🔤
-- 555. Project Evaluation for Production Decision 🔤
-- 556. 30 tweet Project 🔤
-- 557. Build a Self-Hosted App Dashboard with Next.js 🔤
-- 558. Scientific Drawing Assistant 🔤
-- 559. Senior Crypto Yapper & Community Strategist 🔤
-- 560. HCCVN-AI-VN Pro Max: Optimal AI System Design 🔤
-- 561. Evaluate and Suggest Improvements for Computer Science PhD Thesis 🔤
-- 562. Graduate-Level Review Paper on Humanoid Robots 🔤
-- 563. PPT Generation Assistant 🔤
-- 564. Chinese to English Translation Assistant 🔤
-- 565. Continue and Recap Assistant 🔤
-- 566. Optimize E-commerce Listing for High CTR with Holiday Design 🔤
-- 567. Coding Structure with MVC and SOLID Principles 🔤
-- 568. Email Marketing 🔤
-- 569. Excel Formula Sensei 🔤
+- 501. دعم إدارة المسار المهني للموسيقيين
+- 502. مساعد أبحاث الصيدلة
+- 503. عالق في الزمن: ذعر المسافر الفيكتوري
+- 504. برومبت فيلم قصير بموضوع أمن الأنظمة والشبكات
+- 505. طاولة عليها أغراض متنوعة
+- 506. مولّد أفاتار بأساليب قابلة للتخصيص
+- 507. سكيل مطوّر الواجهات الأمامية
+- 508. مشهد غرفة مفصل لسيلفي في المرآة
+- 509. برومبت بورتريه جانبي بالأبيض والأسود في الاستوديو
+- 510. الحدود الرقمية: رواد البكسلات
+- 511. أسلوب تلوين الأطفال
+- 512. وكيل ذكاء اصطناعي شخصي لـ Petr Sovadina
+- 513. مدرّس بنية الكود على GitHub
+- 514. استخراج شروط الاستعلام من JSON الاستعلام
+- 515. دليل سريع للخوارزميات
+- 516. مساعد الموسوعة
+- 517. تصرّف كأخصائي في استعادة الصحة وإنقاص الوزن
+- 518. إنشاء دليل مستخدم شامل لوحدات متعددة
+- 519. بناء نظام لإدارة المخزون
+- 520. إعداد تطبيق iOS جديد في Xcode
+- 521. مساعد إنشاء الفيديو بالذكاء الاصطناعي
+- 522. كاتب سيناريوهات فيديوهات قصيرة محترف للبيع
+- 523. بورتريه عمودي سينمائي لراديو سيارة قديم ليلاً
+- 524. خطة شخصية لتفتيح البشرة
+- 525. أداة شاملة للعبة Clash of Clans باستخدام Next.js وReact
+- 526. تدريب ممثلي خدمة العملاء
+- 527. تحليل عمل المطوّر من Git Diff ورسالة الإيداع
+- 528. التسليم السري في الضباب
+- 529. كاتب روايات ويب صينية بارع
+- 530. المنهج السقراطي للنقاشات الأخلاقية
+- 531. لحظة مشتركة مع البرية
+- 532. مشهد مدينة كرتوني ثلاثي الأبعاد مصغّر متساوي القياس
+- 533. خبير مراجعة العقود التجارية
+- 534. مستشار تحليل الخوارزميات وتحسينها
+- 535. حل لدمج بيانات ERP مع Feishu
+- 536. محاكاة مقابلة القبول الجامعي
+- 537. وداعاً ماكنزي: 10 برومبتات تغنيك عن مستشاري الأعمال المكلفين
+- 538. محاكي تجربة نظارة الواقع الافتراضي
+- 539. محاكي غرفة دردشة رعب الموت بالواقع الافتراضي
+- 540. كيفية الحصول على ترخيص إذاعي وتلفزيوني في نيجيريا
+- 541. محاكي صور رعب الموت (Doom)
+- 542. تعلّم اليابانية يومياً
+- 543. فاحص التحديثات
+- 544. سكربت فحص تحديثات أندرويد لـ Pydroid 3
+- 545. مساعد مراجعة طلبات الدمج (Pull Requests)
+- 546. تطوير تطبيق Quizflix
+- 547. تصميم تطبيق QuizFlix لطلاب الجامعات
+- 548. صورة أحادية اللون من ثلاث لوحات
+- 549. تطبيق اختبارات تفاعلي للمسلسلات والأفلام
+- 550. مذكرات سفر إلى إسطنبول
+- 551. شابة بملامح متعددة الأعراق
+- 552. توليد صورة تدمج الواقعية الفائقة مع قصص مارفل المصورة
+- 553. ظلال الحرب الباردة: تبادل عام 1962
+- 554. أداة الكتابة التلقائية وتوليد الصور والنشر
+- 555. تقييم المشروع لقرار الإطلاق
+- 556. مشروع 30 تغريدة
+- 557. بناء لوحة معلومات تطبيقات مستضافة ذاتياً باستخدام Next.js
+- 558. مساعد الرسم العلمي
+- 559. متحدث العملات المشفرة الأول واستراتيجي المجتمع
+- 560. HCCVN-AI-VN Pro Max: تصميم نظام ذكاء اصطناعي مثالي
+- 561. تقييم أطروحة دكتوراه في علوم الحاسب واقتراح تحسينات
+- 562. ورقة مراجعة بمستوى الدراسات العليا عن الروبوتات البشرية
+- 563. مساعد إنشاء عروض PPT
+- 564. مساعد الترجمة من الصينية إلى الإنجليزية
+- 565. مساعد المواصلة والتلخيص
+- 566. تحسين قائمة منتج في متجر إلكتروني لنسبة نقر عالية بتصميم احتفالي
+- 567. هيكلة الكود بنمط MVC ومبادئ SOLID
+- 568. التسويق عبر البريد الإلكتروني
+- 569. معلّم صيغ Excel
 - 570. Universal Lead & Candidate Outreach Generator (HR, SALES) 🔤
 - 571. Subject meditating in a crystal sphere 🔤
 - 572. FAQ Generator 🔤
