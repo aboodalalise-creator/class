@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **367** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **432** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -381,73 +381,73 @@
 - 365. تصميم نظام رواتب لشركتك
 - 366. منشئ أسئلة وأجوبة المشتري المحترف
 - 367. نمذجة القوس الفراغي تحت المجالات المغناطيسية العرضية
-- 368. AI Agent Security Evaluation Checklist 🔤
-- 369. Meeting Room Booking Web App Development 🔤
-- 370. Compare Top Virtualization Solutions 🔤
-- 371. Virtualization Expert 🔤
-- 372. Studio Portraits with Professional Postures 🔤
-- 373. HTS Veri Analiz Portalı Geliştirme ve Hata Ayıklama 🔤
-- 374. Create STYLE_GUIDE.md 🔤
-- 375. Analyse Énergétique avec DJU, Consommation et Coûts 🔤
-- 376. Learn to Speak Spanish 🔤
-- 377. $500/Hour AI Consultant Prompt 🔤
-- 378. Viral Video Analyzer for TikTok and Xiaohongshu 🔤
-- 379. Kognitiv aktivierende Aufgaben erstellen 🔤
-- 380. Xiaomi Company Self-Service Management System Frontend Development 🔤
-- 381. TikTok Marketing Visual Designer Agent 🔤
-- 382. CTI Analyst Cybersecurity Project Support 🔤
-- 383. Customizable Web Template for Company Branding 🔤
-- 384. Minimal Web-Compatible Food Order App Development 🔤
-- 385. Real-Time Multiplayer Defense Game 🔤
-- 386. Continue Coding Assistant 🔤
-- 387. Create a New Greek God 🔤
-- 388. FDR Analysis Program for Commercial Aircraft 🔤
-- 389. Integration and Planning Roadmap for Calculator Content 🔤
-- 390. Pixel Dissolve: Minimalist 3D Food Transformation 🔤
-- 391. brsorndnsg 🔤
-- 392. Luxury Ski Resort Selfie Scene Description 🔤
-- 393. Internal Project Proposal for Hospital Collaboration 🔤
-- 394. AI Face Swapping for E-commerce Personalization 🔤
-- 395. Dark Style Image Prompt 🔤
-- 396. Develop a Lazy Learner Software 🔤
-- 397. College-Level Integrative Project Proposal Draft 🔤
-- 398. Product Image Highlight Extraction 🔤
-- 399. AI Stocks Investment Helper 🔤
-- 400. Asisten Serba Bisa untuk Kebutuhan Harian 🔤
+- 368. قائمة تحقق لتقييم أمان وكلاء الذكاء الاصطناعي
+- 369. تطوير تطبيق ويب لحجز قاعات الاجتماعات
+- 370. مقارنة أفضل حلول المحاكاة الافتراضية
+- 371. خبير المحاكاة الافتراضية
+- 372. صور استوديو بوضعيات مهنية
+- 373. تطوير بوابة تحليل بيانات HTS وتصحيح أخطائها
+- 374. إنشاء STYLE_GUIDE.md
+- 375. تحليل الطاقة باستخدام DJU والاستهلاك والتكاليف
+- 376. تعلّم التحدث بالإسبانية
+- 377. برومبت مستشار ذكاء اصطناعي بـ 500 دولار في الساعة
+- 378. محلل الفيديوهات الرائجة لتيك توك وشياوهونغشو
+- 379. إنشاء مهام محفّزة معرفياً
+- 380. تطوير الواجهة الأمامية لنظام الخدمة الذاتية لشركة شاومي
+- 381. وكيل مصمم بصري لتسويق تيك توك
+- 382. دعم مشاريع الأمن السيبراني لمحلل استخبارات التهديدات
+- 383. قالب ويب قابل للتخصيص لهوية الشركات
+- 384. تطوير تطبيق طلب طعام بسيط ومتوافق مع الويب
+- 385. لعبة دفاع جماعية فورية
+- 386. مساعد مواصلة البرمجة
+- 387. ابتكار إله إغريقي جديد
+- 388. برنامج تحليل مسجّل بيانات الطيران للطائرات التجارية
+- 389. خارطة طريق لدمج وتخطيط محتوى الآلات الحاسبة
+- 390. تفكك البكسلات: تحوّل طعام ثلاثي الأبعاد بأسلوب بسيط
+- 391. brsorndnsg
+- 392. وصف مشهد سيلفي في منتجع تزلج فاخر
+- 393. مقترح مشروع داخلي للتعاون مع مستشفى
+- 394. تبديل الوجوه بالذكاء الاصطناعي لتخصيص التجارة الإلكترونية
+- 395. برومبت صورة بأسلوب داكن
+- 396. تطوير برنامج "المتعلم الكسول"
+- 397. مسودة مقترح مشروع تكاملي بمستوى جامعي
+- 398. استخراج أبرز ميزات صورة المنتج
+- 399. مساعد الاستثمار في الأسهم بالذكاء الاصطناعي
+- 400. مساعد متعدد المهام للاحتياجات اليومية
 
 ## [الجزء 5: 401–500](part-05.md)
-- 401. Custom Health Membership Annual Summary 🔤
-- 402. Children's Story about Apples 🔤
-- 403. Lower AI Generation Rate 🔤
-- 404. Academic Text Refinement Assistant 🔤
-- 405. Tumor Medical Industry Solution Business Plan 🔤
-- 406. Starting a Flutter Project 🔤
-- 407. Comprehensive Academic Paper Writing Guide 🔤
-- 408. Interview Preparation Coach 🔤
-- 409. Comprehensive UI/UX Mobile App Analysis 🔤
-- 410. Comprehensive repository analysis 🔤
-- 411. Optimize Large Data Reading in Code 🔤
-- 412. Pet Store Advertising Campaign Strategy 🔤
-- 413. LinkedIn comments 🔤
-- 414. Detailed Image Generation Prompt for Fashion and Portrait Photography 🔤
-- 415. High-End Beauty Editorial Photo Shoot Specification 🔤
-- 416. Flamenco inspired Turkish Pop song for Suno AI 🔤
-- 417. POV Smartphone with Space-Themed Twitter UI in Central Park 🔤
-- 418. Comprehensive DevOps Guide 🔤
-- 419. Next.js Specialized Front-End Developer 🔤
-- 420. AUTOSAR Software Module Developer 🔤
-- 421. Fierce Medieval Queen on Iron Throne Portrait 🔤
-- 422. Documentary on Humanitarian & Refugee Crises 🔤
-- 423. Personal Financial Adviosr 🔤
-- 424. Act as a Senior Research Paper Evaluator 🔤
-- 425. Manufacturing Workflow Optimization with OR-Tools 🔤
-- 426. Act as a Conversational AI 🔤
-- 427. AI for Casino List and Profit Simulation 🔤
-- 428. Article Summary and Comprehension 🔤
-- 429. Shift Tracking Telegram Mini App 🔤
-- 430. Münchener Skyline als Umrissbild darstellen 🔤
-- 431. Exploring Jung's Understanding of Spirit through Rumi's Poem 🔤
-- 432. Stock Market Analyst: Market Move Suggestions 🔤
+- 401. ملخص سنوي مخصص لعضوية صحية
+- 402. قصة أطفال عن التفاح
+- 403. خفض معدل التوليد بالذكاء الاصطناعي
+- 404. مساعد تنقيح النصوص الأكاديمية
+- 405. خطة عمل لحلول قطاع طب الأورام
+- 406. بدء مشروع Flutter
+- 407. دليل شامل لكتابة الأوراق الأكاديمية
+- 408. مدرب التحضير للمقابلات
+- 409. تحليل شامل لتجربة وواجهة تطبيقات الجوال
+- 410. تحليل شامل للمستودع
+- 411. تحسين قراءة البيانات الكبيرة في الكود
+- 412. استراتيجية حملة إعلانية لمتجر حيوانات أليفة
+- 413. تعليقات LinkedIn
+- 414. برومبت مفصل لتوليد صور أزياء وبورتريه
+- 415. مواصفات جلسة تصوير تحريرية فاخرة للجمال
+- 416. أغنية بوب تركية مستوحاة من الفلامنكو لـ Suno AI
+- 417. منظور الشخص الأول لهاتف ذكي بواجهة تويتر فضائية في سنترال بارك
+- 418. دليل DevOps الشامل
+- 419. مطوّر واجهات أمامية متخصص في Next.js
+- 420. مطوّر وحدات برمجية AUTOSAR
+- 421. بورتريه ملكة من العصور الوسطى على العرش الحديدي
+- 422. فيلم وثائقي عن الأزمات الإنسانية وأزمات اللاجئين
+- 423. مستشار مالي شخصي
+- 424. تصرّف كمقيّم أول للأوراق البحثية
+- 425. تحسين سير عمل التصنيع باستخدام OR-Tools
+- 426. تصرّف كذكاء اصطناعي للمحادثة
+- 427. ذكاء اصطناعي لقائمة كازينوهات ومحاكاة الأرباح
+- 428. تلخيص المقالات وفهمها
+- 429. تطبيق تيليجرام مصغّر لتتبع الورديات
+- 430. رسم خط أفق ميونخ كصورة خطية
+- 431. استكشاف فهم يونغ للروح من خلال قصيدة الرومي
+- 432. محلل سوق الأسهم: اقتراحات لتحركات السوق
 - 433. Data Analyst 🔤
 - 434. Lead Data Analyst with Data Engineering Expertise 🔤
 - 435. Act as a Patient, Non-Technical Android Studio Guide 🔤
