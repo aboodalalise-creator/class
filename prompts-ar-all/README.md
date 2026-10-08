@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **175** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **306** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -185,141 +185,141 @@
 - 173. مساعد اختبارات الوحدة
 - 174. مولّد الحكمة
 - 175. محلل فيديوهات يوتيوب
-- 176. Career Coach 🔤
-- 177. Acoustic Guitar Composer 🔤
-- 178. Knowledgeable Software Development Mentor 🔤
-- 179. Logic Builder Tool 🔤
-- 180. Guessing Game Master 🔤
-- 181. Teacher of React.js 🔤
-- 182. GitHub Expert 🔤
-- 183. Any Programming Language to Python Converter 🔤
-- 184. Virtual Fitness Coach 🔤
-- 185. Flirting Boy 🔤
-- 186. Girl of Dreams 🔤
-- 187. DAX Terminal 🔤
-- 188. Structured Iterative Reasoning Protocol (SIRP) 🔤
-- 189. Pirate 🔤
-- 190. LinkedIn Ghostwriter 🔤
-- 191. Idea Clarifier GPT 🔤
-- 192. Top Programming Expert 🔤
-- 193. Architect Guide for Programmers 🔤
-- 194. Children's Book Creator 🔤
-- 195. Tech-Challenged Customer 🔤
-- 196. Creative Branding Strategist 🔤
-- 197. Book Summarizer 🔤
-- 198. Study planner 🔤
-- 199. SEO specialist 🔤
-- 200. Note-Taking Assistant 🔤
+- 176. مدرب مهني
+- 177. ملحّن للجيتار الأكوستيك
+- 178. مرشد متمكن في تطوير البرمجيات
+- 179. أداة بناء المنطق البرمجي
+- 180. مدير لعبة التخمين
+- 181. معلّم React.js
+- 182. خبير GitHub
+- 183. محوّل أي لغة برمجة إلى بايثون
+- 184. مدرب لياقة افتراضي
+- 185. شاب يغازل
+- 186. فتاة الأحلام
+- 187. طرفية DAX
+- 188. بروتوكول التفكير التكراري المنظم (SIRP)
+- 189. قرصان
+- 190. كاتب منشورات LinkedIn
+- 191. موضّح الأفكار
+- 192. خبير برمجة متميز
+- 193. المرشد المعماري للمبرمجين
+- 194. مؤلف كتب أطفال
+- 195. عميل لا يجيد التقنية
+- 196. استراتيجي العلامات التجارية الإبداعي
+- 197. ملخّص الكتب
+- 198. مخطط المذاكرة
+- 199. أخصائي تحسين محركات البحث (SEO)
+- 200. مساعد تدوين الملاحظات
 
 ## [الجزء 3: 201–300](part-03.md)
-- 201. Nutritionist 🔤
-- 202. Yes or No answer 🔤
-- 203. Healing Grandma 🔤
-- 204. Remote Worker Fitness Trainer 🔤
-- 205. Rephraser with Obfuscation 🔤
-- 206. Large Language Models Security Specialist 🔤
-- 207. Tech Troubleshooter 🔤
-- 208. Ayurveda Food Tester 🔤
-- 209. Music Video Designer 🔤
-- 210. Virtual Event Planner 🔤
-- 211. Technical Architecture 🔤
-- 212. SEO Prompt 🔤
-- 213. Devops Engineer 🔤
-- 214. Linux Script Developer 🔤
-- 215. Reverse Prompt Engineer 🔤
-- 216. Explainer with Analogies 🔤
-- 217. Code Review Assistant 🔤
-- 218. Data Transformer 🔤
-- 219. Story Generator 🔤
-- 220. Decision Filter 🔤
-- 221. Break Down Costs 🔤
-- 222. Sponsor Hall of Fame 🔤
-- 223. Show Direct Impact 🔤
-- 224. Tell Your Story 🔤
-- 225. Monthly Updates 🔤
-- 226. Success Stories 🔤
-- 227. Announce Milestone 🔤
-- 228. Create a Professional Bio 🔤
-- 229. Time Commitment 🔤
-- 230. Enterprise Sponsorship 🔤
-- 231. Creative Perks 🔤
-- 232. Explain Funding Impact 🔤
-- 233. Impact Metrics 🔤
-- 234. Write Tier Descriptions 🔤
-- 235. Student Tier 🔤
-- 236. Suggest Pricing Tiers 🔤
-- 237. Create Project Spotlight 🔤
-- 238. Recognize Sponsors 🔤
-- 239. Future Vision 🔤
-- 240. Showcase Top Repositories 🔤
-- 241. 3D FPS Game 🔤
-- 242. Interactive Quiz 🔤
-- 243. Meditation Timer 🔤
-- 244. Advanced Color Picker Tool 🔤
-- 245. Secure Password Generator Tool 🔤
-- 246. Music Player 🔤
-- 247. Drawing App 🔤
-- 248. Currency Exchange Calculator 🔤
-- 249. Recipe Finder 🔤
-- 250. Budget Tracker 🔤
-- 251. Weather Dashboard 🔤
-- 252. File Encryption Tool 🔤
-- 253. Code Snippet Manager 🔤
-- 254. Kanban Board 🔤
-- 255. Flashcard Study System 🔤
-- 256. Habit Tracker 🔤
-- 257. Image Editor 🔤
-- 258. Text Analyzer Tool 🔤
-- 259. Sudoku Game 🔤
-- 260. Chess Game 🔤
-- 261. URL Shortener 🔤
-- 262. Typing Speed Test 🔤
-- 263. Memory Card Game 🔤
-- 264. Memory Profiler CLI 🔤
-- 265. File System Indexer CLI 🔤
-- 266. 3D Racing Game 🔤
-- 267. HTTP Benchmarking Tool CLI 🔤
-- 268. 3D Space Explorer 🔤
-- 269. Network Packet Analyzer CLI 🔤
-- 270. PDF Viewer 🔤
-- 271. Health Metrics Calculator 🔤
-- 272. Markdown Notes 🔤
-- 273. Pomodoro Timer 🔤
-- 274. Multiplayer 3D Plane Game 🔤
-- 275. Todo List 🔤
-- 276. Scientific Calculator 🔤
-- 277. Isometric City Diorama 🔤
-- 278. The Silent Standoff 🔤
-- 279. Lifestyle Product Images 🔤
-- 280. Web Design 🔤
-- 281. Isometric 3D Weather Cityscapes (PBR Textures) 🔤
-- 282. Whimsical 3D Brand Miniatures 🔤
-- 283. Smart Rewriter & Clarity Booster 🔤
-- 284. World Landmarks: Hyper-Realistic 3D Dioramas 🔤
-- 285. 3D Isometric Miniature Diorama 🔤
-- 286. Architectural Sketch & Markup Overlay 🔤
-- 287. Floating City Island - Photoreal 4K Poster 🔤
-- 288. Interdisciplinary Connections and Applications 🔤
-- 289. Expert-Level Insights and Advanced Resources 🔤
-- 290. Vintage Botanical Illustration Generator 🔤
-- 291. AI2sql SQL Model — Query Generator 🔤
-- 292. Director Variation Grid: One Still, Eight Auteur Re-Shoots 🔤
-- 293. Travel Poster 🔤
-- 294. Profesor Creativo 🔤
-- 295. Pitchside Tunnel Moment with Your Favorite Footballer 🔤
-- 296. Gemini 🔤
-- 297. Predictive Eye Tracking Heatmap Generator 🔤
-- 298. Clean BibTeX Formatter for Academic Projects 🔤
-- 299. Realistic Food Image Generator 🔤
-- 300. Urban Casual Confidence 🔤
+- 201. أخصائي تغذية
+- 202. إجابة بنعم أو لا
+- 203. الجدة المعالِجة
+- 204. مدرب لياقة للعاملين عن بُعد
+- 205. معيد صياغة مع تمويه
+- 206. أخصائي أمن النماذج اللغوية الكبيرة
+- 207. مستكشف الأعطال التقنية
+- 208. مختبر الطعام حسب الأيورفيدا
+- 209. مصمم فيديو كليب
+- 210. مخطط الفعاليات الافتراضية
+- 211. المعمارية التقنية
+- 212. برومبت SEO
+- 213. مهندس DevOps
+- 214. مطوّر سكربتات لينكس
+- 215. مهندس البرومبتات العكسي
+- 216. الشارح بالتشبيهات
+- 217. مساعد مراجعة الكود
+- 218. محوّل البيانات
+- 219. مولّد القصص
+- 220. مُرشِّح القرارات
+- 221. تفصيل التكاليف
+- 222. قاعة مشاهير الرعاة
+- 223. أظهر الأثر المباشر
+- 224. احكِ قصتك
+- 225. التحديثات الشهرية
+- 226. قصص النجاح
+- 227. الإعلان عن إنجاز
+- 228. إنشاء نبذة مهنية
+- 229. الالتزام بالوقت
+- 230. رعاية الشركات
+- 231. مزايا إبداعية
+- 232. شرح أثر التمويل
+- 233. مقاييس الأثر
+- 234. كتابة أوصاف المستويات
+- 235. مستوى الطلاب
+- 236. اقتراح مستويات الأسعار
+- 237. إنشاء تسليط الضوء على المشروع
+- 238. تقدير الرعاة
+- 239. الرؤية المستقبلية
+- 240. عرض أفضل المستودعات
+- 241. لعبة تصويب ثلاثية الأبعاد (FPS)
+- 242. اختبار تفاعلي
+- 243. مؤقت التأمل
+- 244. أداة متقدمة لاختيار الألوان
+- 245. أداة توليد كلمات مرور آمنة
+- 246. مشغّل موسيقى
+- 247. تطبيق رسم
+- 248. حاسبة تحويل العملات
+- 249. باحث الوصفات
+- 250. متتبع الميزانية
+- 251. لوحة معلومات الطقس
+- 252. أداة تشفير الملفات
+- 253. مدير مقتطفات الكود
+- 254. لوحة كانبان
+- 255. نظام بطاقات المذاكرة
+- 256. متتبع العادات
+- 257. محرر الصور
+- 258. أداة تحليل النصوص
+- 259. لعبة سودوكو
+- 260. لعبة شطرنج
+- 261. مختصر الروابط
+- 262. اختبار سرعة الكتابة
+- 263. لعبة بطاقات الذاكرة
+- 264. أداة سطر أوامر لتحليل الذاكرة
+- 265. أداة سطر أوامر لفهرسة نظام الملفات
+- 266. لعبة سباق ثلاثية الأبعاد
+- 267. أداة سطر أوامر لقياس أداء HTTP
+- 268. مستكشف الفضاء ثلاثي الأبعاد
+- 269. أداة سطر أوامر لتحليل حزم الشبكة
+- 270. عارض PDF
+- 271. حاسبة المؤشرات الصحية
+- 272. ملاحظات ماركداون
+- 273. مؤقت بومودورو
+- 274. لعبة طائرات ثلاثية الأبعاد متعددة اللاعبين
+- 275. قائمة المهام
+- 276. آلة حاسبة علمية
+- 277. مجسّم مدينة متساوي القياس
+- 278. المواجهة الصامتة
+- 279. صور المنتجات في الحياة اليومية
+- 280. تصميم المواقع
+- 281. مشاهد مدن ثلاثية الأبعاد متساوية القياس مع الطقس (خامات PBR)
+- 282. مجسّمات مصغرة طريفة للعلامات التجارية
+- 283. معيد الصياغة الذكي ومعزز الوضوح
+- 284. معالم العالم: مجسّمات ثلاثية الأبعاد فائقة الواقعية
+- 285. ديوراما مصغّرة ثلاثية الأبعاد متساوية القياس
+- 286. رسومات معمارية وتعليقات فوق الصورة
+- 287. جزيرة المدينة العائمة - ملصق واقعي بدقة 4K
+- 288. الروابط والتطبيقات بين التخصصات
+- 289. رؤى بمستوى الخبراء وموارد متقدمة
+- 290. مولّد الرسوم النباتية العتيقة
+- 291. نموذج AI2sql لـ SQL — مولّد الاستعلامات
+- 292. شبكة تنويعات المخرجين: لقطة واحدة وثمانية إعادات تصوير بأساليب كبار المخرجين
+- 293. ملصق سفر
+- 294. الأستاذ المبدع
+- 295. لحظة على أرض الملعب مع لاعبك المفضل
+- 296. Gemini
+- 297. مولّد خريطة حرارية تنبؤية لتتبع العين
+- 298. منسّق BibTeX نظيف للمشاريع الأكاديمية
+- 299. مولّد صور طعام واقعية
+- 300. ثقة حضرية كاجوال
 
 ## [الجزء 4: 301–400](part-04.md)
-- 301. What Does ChatGpt Knows about you? 🔤
-- 302. Legebdary Exploded View Prompt For nanobanana 🔤
-- 303. Tarih-olay- Görsel oluşturma 🔤
-- 304. Temitope 🔤
-- 305. Gemi-Gotchi 🔤
-- 306. Digital product ideas 🔤
+- 301. ماذا يعرف ChatGPT عنك؟
+- 302. برومبت أسطوري لعرض تفكيكي لـ nanobanana
+- 303. التاريخ والحدث - توليد صورة
+- 304. تيميتوبي
+- 305. جيمي-غوتشي
+- 306. أفكار منتجات رقمية
 - 307. YT video  geopolitic analysis 🔤
 - 308. Double Exposure Portrait 🔤
 - 309. Time Layer Photography 🔤
