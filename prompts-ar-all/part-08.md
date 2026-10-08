@@ -3352,7 +3352,7 @@ natural imperfections, realistic skin pores, subtle asymmetry
 - شجّع المستخدمين على التجريب وتكرار التحسين على تصميماتهم.
 ```
 
-## 747. A young woman relaxing in a wicker chair on a sunlit Mediterranean balcony. 🔤
+## 747. امرأة شابة تسترخي على كرسي من الخيزران في شرفة متوسطية مشمسة.
 
 *الأصل:* A young woman relaxing in a wicker chair on a sunlit Mediterranean balcony. · *النوع:* منظّم
 
@@ -3361,194 +3361,194 @@ natural imperfections, realistic skin pores, subtle asymmetry
   "meta": {
     "type": "image_analysis",
     "file_name": "image_5e33ac.jpg",
-    "analyst_persona": "Technical Photo Analyst"
+    "analyst_persona": "محلل صور تقني"
   },
   "scene_environment": {
-    "location_type": "Outdoor",
-    "setting": "Balcony or patio of a Mediterranean-style resort or villa.",
-    "architectural_style": "Whitewashed stucco walls, terracotta roof tiles, wooden beams, wrought iron railings.",
-    "atmosphere": "Sunny, relaxed, vacation vibe, warm summer day."
+    "location_type": "خارجي",
+    "setting": "شرفة أو فناء منتجع أو فيلا على الطراز المتوسطي.",
+    "architectural_style": "جدران جصية مطلية بالأبيض، وقرميد سقف من التيراكوتا، وعوارض خشبية، ودرابزين من الحديد المشغول.",
+    "atmosphere": "مشمسة، مسترخية، أجواء إجازة، يوم صيفي دافئ."
   },
   "technical_aspects": {
-    "camera_lens": "Wide-angle lens (approx. 24-35mm equivalent), typical of high-end smartphone main cameras.",
-    "camera_angle": "Eye-level relative to the seated subject, slightly looking down.",
-    "depth_of_field": "Deep depth of field; both the subject and the background architecture are relatively sharp.",
-    "focus": "Sharp focus on the subject's face and torso."
+    "camera_lens": "عدسة واسعة الزاوية (ما يعادل 24-35mm تقريباً)، معتادة في الكاميرات الرئيسية للهواتف الذكية الراقية.",
+    "camera_angle": "بمستوى العين بالنسبة للشخص الجالس، تنظر إلى الأسفل قليلاً.",
+    "depth_of_field": "عمق ميدان كبير؛ الشخص والعمارة في الخلفية كلاهما حادان نسبياً.",
+    "focus": "تركيز حاد على وجه الشخص وجذعه."
   },
   "lighting": {
-    "condition": "High contrast, hard daylight.",
+    "condition": "تباين عالٍ، ضوء نهار قاسٍ.",
     "sources": [
       {
         "source_id": "light_1",
-        "type": "Natural Sun",
-        "angle": "Coming from high up, slightly to the subject's right (viewer's left).",
-        "color": "Warm white (approx. 5500K).",
-        "intensity": "High/Harsh.",
-        "effect_on_objects": "Creates distinct, sharp shadows behind the subject and under the architectural beams. Illuminates the white walls brightly."
+        "type": "الشمس الطبيعية",
+        "angle": "من الأعلى، مائلة قليلاً إلى يمين الشخص (يسار المشاهد).",
+        "color": "أبيض دافئ (حوالي 5500K).",
+        "intensity": "عالية/قاسية.",
+        "effect_on_objects": "تخلق ظلالاً واضحة وحادة خلف الشخص وتحت العوارض المعمارية. وتضيء الجدران البيضاء بسطوع."
       }
     ],
     "light_on_body_parts": {
-      "face": "Fully illuminated, slight shadow under the nose and chin.",
-      "chest_neck": "Direct sunlight, highlighting skin texture and redness/sunburn.",
-      "arms": "Right arm (holding cigarette) is fully lit. Left arm has shadows on the underside.",
-      "legs": "Thighs are illuminated, with the inner thigh area in shadow due to crossed legs.",
-      "shadows": "Hard shadow cast by the subject onto the left side of the chair."
+      "face": "مضاء بالكامل، مع ظل خفيف تحت الأنف والذقن.",
+      "chest_neck": "ضوء شمس مباشر، يبرز ملمس البشرة والاحمرار/حروق الشمس.",
+      "arms": "الذراع اليمنى (الممسكة بالسيجارة) مضاءة بالكامل. والذراع اليسرى عليها ظلال من الجهة السفلية.",
+      "legs": "الفخذان مضاءان، ومنطقة الفخذ الداخلية في الظل بسبب تقاطع الساقين.",
+      "shadows": "ظل حاد يلقيه الشخص على الجانب الأيسر من الكرسي."
     }
   },
   "subject": {
     "general": {
-      "gender": "Female",
-      "orientation": "Frontal facing, slightly angled to the right.",
-      "gaze": "Direct eye contact with the camera/viewer.",
-      "expression": "Subtle smile, relaxed, confident, slightly smug or contented.",
-      "emotional_state": "Calm, leisure, unbothered.",
-      "sensuality_index": "Moderate; implies casual allure through confident pose and exposed skin, but not explicitly provocative."
+      "gender": "أنثى",
+      "orientation": "مواجهة للأمام، مائلة قليلاً إلى اليمين.",
+      "gaze": "تواصل بصري مباشر مع الكاميرا/المشاهد.",
+      "expression": "ابتسامة خفيفة، مسترخية، واثقة، تبدو راضية أو معتدة بنفسها قليلاً.",
+      "emotional_state": "هادئة، في وقت فراغ، غير مكترثة.",
+      "sensuality_index": "معتدل؛ يوحي بجاذبية عفوية عبر الوضعية الواثقة والبشرة المكشوفة، لكنه ليس استفزازياً صراحةً."
     },
     "pose_and_posture": {
-      "type": "Seated, relaxed.",
-      "head": "Tilted slightly to her left.",
-      "torso": "Leaning back slightly into the chair, relaxed posture.",
+      "type": "جالسة، مسترخية.",
+      "head": "مائل قليلاً إلى يسارها.",
+      "torso": "مائل إلى الخلف قليلاً في الكرسي، بوضعية مسترخية.",
       "arms": {
-        "right_arm": "Extended outwards, resting on the air/knee level, hand holding a cigarette.",
-        "left_arm": "Resting on the armrest of the wicker chair.",
-        "visibility": "Full arms visible."
+        "right_arm": "ممدودة إلى الخارج، بمستوى الركبة، واليد تمسك سيجارة.",
+        "left_arm": "مستندة على مسند ذراع كرسي الخيزران.",
+        "visibility": "الذراعان ظاهرتان بالكامل."
       },
       "legs": {
-        "position": "Crossed at the thighs (Right leg over Left leg).",
-        "knees": "Right knee is the closest point to the camera.",
-        "feet": "Cut off from the frame/not visible."
+        "position": "متقاطعتان عند الفخذين (الساق اليمنى فوق اليسرى).",
+        "knees": "الركبة اليمنى هي أقرب نقطة إلى الكاميرا.",
+        "feet": "مقصوصتان من الإطار/غير ظاهرتين."
       },
-      "visible_extent": "Full body visible from mid-shin upwards."
+      "visible_extent": "الجسم كاملاً ظاهر من منتصف الساق إلى الأعلى."
     },
     "head_details": {
       "hair": {
-        "color": "Blonde with darker natural roots showing.",
-        "style": "Long, straight, center-parted, framing the face.",
-        "texture": "Fine, smooth."
+        "color": "أشقر مع ظهور جذور طبيعية أغمق.",
+        "style": "طويل، مستقيم، بفرق في المنتصف، يؤطر الوجه.",
+        "texture": "ناعم، أملس."
       },
       "face": {
-        "structure": "Oval/Heart-shaped.",
-        "forehead": "Standard height, partially covered by face-framing hair strands.",
-        "brows": "Natural arch, medium thickness, groomed.",
-        "eyes": "Almond shape, dark eye makeup/liner visible.",
-        "nose": "Button nose, soft features.",
-        "mouth": "Closed lips, slight upward curve (smile), natural lip color with gloss.",
-        "chin": "Soft, rounded.",
-        "skin": "Fair complexion, smooth texture."
+        "structure": "بيضاوي/على شكل قلب.",
+        "forehead": "بارتفاع عادي، مغطاة جزئياً بخصلات شعر تؤطر الوجه.",
+        "brows": "تقوّس طبيعي، كثافة متوسطة، مهذبان.",
+        "eyes": "لوزيتان، مكياج عيون/آيلاينر داكن ظاهر.",
+        "nose": "أنف صغير، ملامح ناعمة.",
+        "mouth": "شفتان مطبقتان، انحناءة خفيفة للأعلى (ابتسامة)، لون شفاه طبيعي مع لمعة.",
+        "chin": "ناعم، مستدير.",
+        "skin": "بشرة فاتحة، ملمس ناعم."
       }
     },
     "body_details": {
-      "skin_tone": "Fair/White. Noticeable redness (sunburn) on the décolletage/chest area.",
-      "neck": "Visible, adorned with a necklace.",
-      "shoulders": "Relaxed, slightly slumped forward in a casual manner.",
+      "skin_tone": "فاتحة/بيضاء. احمرار ملحوظ (حروق شمس) على منطقة أعلى الصدر.",
+      "neck": "ظاهر، مزيّن بقلادة.",
+      "shoulders": "مسترخيان، منحنيان قليلاً إلى الأمام بأسلوب عفوي.",
       "chest_area": {
-        "ratio_to_body": "Proportional.",
-        "estimated_size": "Average/Moderate.",
-        "bra_status": "Likely no bra or a soft bralette due to the dress style (spaghetti straps).",
-        "nipple_visibility": "Not prominent.",
-        "visual_impact": "Natural shape under the fabric."
+        "ratio_to_body": "متناسب.",
+        "estimated_size": "متوسط/معتدل.",
+        "bra_status": "على الأرجح بلا حمالة أو ببراليت ناعم بسبب طراز الفستان (أحزمة رفيعة).",
+        "nipple_visibility": "غير بارزة.",
+        "visual_impact": "شكل طبيعي تحت القماش."
       },
       "midsection": {
-        "ratio": "Standard, slightly compressed due to seated position.",
-        "visibility": "Concealed by the dress, but form is discernible.",
-        "definition": "Soft."
+        "ratio": "عادي، منضغط قليلاً بسبب وضعية الجلوس.",
+        "visibility": "مخفي بالفستان، لكن الشكل يمكن تمييزه.",
+        "definition": "ناعم."
       },
       "hips_and_thighs": {
-        "hips_ratio": "Appears wider than bust due to seated compression.",
-        "thighs": "Full, taking up the lower foreground.",
-        "legs_texture": "Smooth skin, no visible blemishes."
+        "hips_ratio": "تبدو أعرض من الصدر بسبب الانضغاط عند الجلوس.",
+        "thighs": "ممتلئان، يشغلان المقدمة السفلية.",
+        "legs_texture": "بشرة ناعمة، بلا عيوب ظاهرة."
       }
     },
     "clothing": {
-      "type": "Mini Dress / Slip Dress.",
-      "pattern": "Dark green background with a black paisley or floral pattern.",
-      "style": "Spaghetti straps, gathered neckline with a small tie string in the center.",
-      "fit": "Form-fitting but not skin-tight.",
-      "material": "Likely satin or a synthetic blend that drapes softly."
+      "type": "فستان قصير / فستان سليب (Slip Dress).",
+      "pattern": "خلفية خضراء داكنة بنقشة بيزلي أو زهرية سوداء.",
+      "style": "أحزمة رفيعة (سباغيتي)، فتحة عنق مجعّدة مع رباط صغير في المنتصف.",
+      "fit": "يتبع شكل الجسم لكنه ليس ملتصقاً بالجلد.",
+      "material": "على الأرجح ساتان أو مزيج صناعي ينسدل بنعومة."
     },
     "accessories": {
-      "neck": "Gold chain necklace with a rectangular pendant.",
-      "wrist": "None visible.",
-      "fingers": "Cigarette in right hand."
+      "neck": "قلادة سلسلة ذهبية بمدلاة مستطيلة.",
+      "wrist": "لا شيء ظاهر.",
+      "fingers": "سيجارة في اليد اليمنى."
     }
   },
   "objects_in_scene": [
     {
-      "object": "Wicker Armchair",
-      "description": "Dark brown, woven texture, boxy shape.",
-      "purpose": "Subject's seat.",
-      "location": "Center frame.",
-      "contribution": "Adds texture and contrast to the fair skin of the subject."
+      "object": "كرسي خيزران بمساند",
+      "description": "بني داكن، ملمس منسوج، شكل صندوقي.",
+      "purpose": "مقعد الشخص.",
+      "location": "وسط الإطار.",
+      "contribution": "يضيف ملمساً وتبايناً مع بشرة الشخص الفاتحة."
     },
     {
-      "object": "Cigarette",
-      "description": "Lit cigarette, holding ash.",
-      "location": "Held in subject's right hand.",
-      "contribution": "Adds a rebellious or casual 'snapshot' narrative."
+      "object": "سيجارة",
+      "description": "سيجارة مشتعلة، عليها رماد.",
+      "location": "ممسوكة في اليد اليمنى للشخص.",
+      "contribution": "تضيف سرداً متمرداً أو عفوياً كـ'لقطة سريعة'."
     },
     {
-      "object": "Flowers",
-      "description": "Pink geraniums or similar bedding plants.",
-      "location": "Left side, in a planter box.",
-      "color": "Vibrant pink.",
-      "contribution": "Adds a pop of color."
+      "object": "زهور",
+      "description": "إبرة الراعي (جيرانيوم) وردية أو نباتات أحواض مشابهة.",
+      "location": "الجانب الأيسر، في حوض زراعة.",
+      "color": "وردي زاهٍ.",
+      "contribution": "تضيف لمسة لونية بارزة."
     },
     {
-      "object": "Palm Trees",
-      "description": "Tall trunks with green fronds.",
-      "location": "Upper right background.",
-      "contribution": "Establishes the tropical/Mediterranean setting."
+      "object": "أشجار نخيل",
+      "description": "جذوع طويلة بسعف أخضر.",
+      "location": "الخلفية العلوية يميناً.",
+      "contribution": "ترسّخ الأجواء الاستوائية/المتوسطية."
     },
     {
-      "object": "Buildings",
-      "description": "White stucco multistory buildings.",
-      "location": "Background.",
-      "contribution": "Contextualizes the location as a resort or residential complex."
+      "object": "مبانٍ",
+      "description": "مبانٍ جصية بيضاء متعددة الطوابق.",
+      "location": "الخلفية.",
+      "contribution": "تضع الموقع في سياق منتجع أو مجمع سكني."
     }
   ],
   "negative_prompt": "deformed, distorted, disfigured, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation, low quality, bad lighting, monochrome, watermark, text, signature, illustration, painting, 3d render, anime."
 }
 ```
 
-## 748. Amateur Girls' Night Selfie - Casual and Imperfect 🔤
+## 748. سيلفي هاوٍ لسهرة صديقات - عفوي وغير مثالي
 
 *الأصل:* Amateur Girls' Night Selfie - Casual and Imperfect · *النوع:* نص
 
 ```
-Amateur girls’ night selfie, very casual and imperfect, 1:1 aspect ratio. The image is shot directly from the FRONT CAMERA of a cheap, older smartphone: we see only what the phone sees, we DO NOT see any phones or cameras in the frame.
+سيلفي هاوٍ لسهرة صديقات، عفوي جداً وغير مثالي، بنسبة أبعاد 1:1. الصورة ملتقطة مباشرة من الكاميرا الأمامية لهاتف ذكي رخيص وقديم: نرى فقط ما يراه الهاتف، ولا نرى أي هواتف أو كاميرات في الإطار.
 
-Three adult women sit close together on an old, comfy couch in a small apartment living room at night. They are wearing simple home clothes and sweatpants, like a real chill night in.
+ثلاث نساء بالغات يجلسن متلاصقات على أريكة قديمة مريحة في غرفة معيشة شقة صغيرة ليلاً. يرتدين ملابس منزلية بسيطة وبناطيل رياضية، كأنها سهرة منزلية هادئة حقيقية.
 
-Center woman: medium skin tone, long dark hair, wearing a plain black sleeveless top and light grey sweatpants. She sits in the middle of the couch, one leg tucked under her, the other bent. Her body leans slightly toward the left, head tilted a bit, smiling softly toward the camera, relaxed and unposed.
+المرأة في الوسط: بشرة متوسطة اللون، شعر داكن طويل، ترتدي توب أسود بسيطاً بلا أكمام وبنطالاً رياضياً رمادياً فاتحاً. تجلس في منتصف الأريكة، إحدى ساقيها مطوية تحتها والأخرى مثنية. جسمها مائل قليلاً نحو اليسار، ورأسها مائل قليلاً، تبتسم بلطف نحو الكاميرا، مسترخية وغير متكلفة.
 
-Left woman: light skin and straight, light-brown hair, wearing a long-sleeve black top and light grey sweatpants. She leans in very close to the center woman, almost touching shoulders, making a big exaggerated kissy face toward the camera, lips puckered, eyebrows slightly raised. Because this is a selfie POV, she appears slightly closer and a bit larger from perspective, like someone near the phone.
+المرأة على اليسار: بشرة فاتحة وشعر مستقيم بني فاتح، ترتدي توب أسود بأكمام طويلة وبنطالاً رياضياً رمادياً فاتحاً. تميل قريباً جداً من المرأة في الوسط، حتى تكاد تتلامس كتفاهما، وتصنع وجه تقبيل مبالغاً فيه نحو الكاميرا، بشفتين مزمومتين وحاجبين مرفوعين قليلاً. ولأن هذا منظور سيلفي، تبدو أقرب قليلاً وأكبر بعض الشيء بفعل المنظور، كشخص قريب من الهاتف.
 
-Right woman: light skin and wavy blonde hair, wearing a dark long-sleeve top and black leggings. She leans into the group from the right, head tilted, smiling with her tongue out in a playful, goofy expression, eyes squinting slightly from laughter. All three look like close friends having fun, not models.
+المرأة على اليمين: بشرة فاتحة وشعر أشقر متموج، ترتدي توب داكناً بأكمام طويلة وليغنغ أسود. تميل نحو المجموعة من اليمين، رأسها مائل، تبتسم ولسانها خارج فمها بتعبير مرح وسخيف، وعيناها مضمومتان قليلاً من الضحك. يبدو الثلاث كصديقات مقربات يستمتعن بوقتهن، لا كعارضات.
 
-Environment: cozy, slightly messy living room. Behind them, a simple floor lamp with a warm bulb lights the wall. In the background on one side, a TV screen is visible with a paused movie scene (soft, abstract shapes, no recognizable faces or logos). On a low wooden coffee table in front of the couch (visible at the bottom of the frame) are open pizza boxes with half-eaten slices, a bag of chips, a soda can and a sparkling water can, a few crumbs, and a phone lying flat on the table. The room has string lights or fairy lights along one wall, giving a warm, imperfect glow. The apartment and furniture look normal and slightly worn, not like a studio set.
+البيئة: غرفة معيشة دافئة وفوضوية قليلاً. خلفهن، مصباح أرضي بسيط بمصباح كهربائي دافئ يضيء الجدار. في الخلفية على أحد الجانبين، تظهر شاشة تلفاز عليها مشهد فيلم متوقف مؤقتاً (أشكال ناعمة وتجريدية، بلا وجوه أو شعارات يمكن التعرف عليها). على طاولة قهوة خشبية منخفضة أمام الأريكة (ظاهرة في أسفل الإطار) علب بيتزا مفتوحة بشرائح نصف مأكولة، وكيس رقائق بطاطس، وعلبة مشروب غازي وعلبة مياه فوارة، وبعض الفتات، وهاتف ملقى على الطاولة. في الغرفة أضواء زينة على طول أحد الجدران، تمنح توهجاً دافئاً غير مثالي. الشقة والأثاث يبدوان عاديين ومستهلكين قليلاً، لا كديكور استوديو.
 
-Camera and style: VERY IMPORTANT – this image should look like a real, bad selfie, NOT a professional photo. It is captured with a basic smartphone front camera in AUTO mode. Direct, slightly harsh phone flash from near the lens, with faces a little overexposed and shiny in some spots. Visible digital noise and grain in the darker parts of the room. Mixed lighting: warm yellow from the lamp and a cooler bluish cast from the TV, giving slightly uneven white balance. Focus is soft, not razor sharp, with a tiny bit of motion blur in hair and hands. Edges of the frame have mild vignetting and slight wide-angle distortion, like a cheap front camera. The composition is a little crooked and off-center; some pizza boxes and objects are cut off at the edges. Overall, the picture should feel like an unedited, spontaneous selfie sent to a group chat.
+الكاميرا والأسلوب: مهم جداً – يجب أن تبدو هذه الصورة كسيلفي حقيقي سيئ، لا كصورة احترافية. ملتقطة بكاميرا أمامية أساسية لهاتف ذكي في الوضع التلقائي (AUTO). فلاش هاتف مباشر وقاسٍ قليلاً من قرب العدسة، مع وجوه مفرطة التعريض قليلاً ولامعة في بعض المواضع. تشويش رقمي وحبيبات ظاهرة في الأجزاء الأغمق من الغرفة. إضاءة مختلطة: أصفر دافئ من المصباح وصبغة زرقاء أبرد من التلفاز، مما يعطي توازن أبيض غير متساوٍ قليلاً. التركيز ناعم، ليس حاداً جداً، مع قليل من ضبابية الحركة في الشعر والأيدي. حواف الإطار فيها تعتيم خفيف وتشوّه طفيف بزاوية واسعة، كالكاميرا الأمامية الرخيصة. التكوين مائل قليلاً وغير متمركز؛ بعض علب البيتزا والأغراض مقصوصة عند الحواف. عموماً، يجب أن تبدو الصورة كسيلفي عفوي غير معدّل أُرسل إلى محادثة جماعية.
 
-Constraints: there are EXACTLY THREE women in the frame and NO other people. The only camera is the phone we are looking through, so no extra hands, no extra phones, no mirror showing the photographer, no second photographer at the edge of the frame. No reflections of another camera. Just the three friends on the couch and the messy coffee table.
+القيود: توجد ثلاث نساء بالضبط في الإطار ولا يوجد أي أشخاص آخرين. الكاميرا الوحيدة هي الهاتف الذي ننظر من خلاله، فلا أيدٍ إضافية، ولا هواتف إضافية، ولا مرآة تُظهر المصوّر، ولا مصوّر ثانٍ عند حافة الإطار. لا انعكاسات لكاميرا أخرى. فقط الصديقات الثلاث على الأريكة وطاولة القهوة الفوضوية.
 
-Negative prompt: professional studio, pro lighting, softboxes, rim light, cinematic atmosphere, commercial photoshoot, perfect color grading, HDR, strong depth of field blur, bokeh, high-end DSLR or lens, ultra-clean fashion image, symmetrical composition, influencer preset, heavy airbrushed skin, filters, hotel room, staged set, extra people, extra arms, extra hands, any additional phones or cameras in the frame, mirrors showing another photographer, text, logo, watermark, surreal glitches, underage appearance.
+البرومبت السلبي (Negative prompt): professional studio, pro lighting, softboxes, rim light, cinematic atmosphere, commercial photoshoot, perfect color grading, HDR, strong depth of field blur, bokeh, high-end DSLR or lens, ultra-clean fashion image, symmetrical composition, influencer preset, heavy airbrushed skin, filters, hotel room, staged set, extra people, extra arms, extra hands, any additional phones or cameras in the frame, mirrors showing another photographer, text, logo, watermark, surreal glitches, underage appearance.
 ```
 
-## 749. Evening at a Turkish Dessert Shop - A Photographic Story 🔤
+## 749. مساء في محل حلويات تركية - قصة فوتوغرافية
 
 *الأصل:* Evening at a Turkish Dessert Shop - A Photographic Story · *النوع:* نص
 
 ```
-ultra-realistic single photograph, evening interior of a small Turkish dessert shop on a busy street, shot with a full-frame DSLR, 35mm lens at f/1.8, ISO 800, soft warm tungsten lighting mixed with cold blue light from the street, cinematic color grading
-the same young blonde woman from earlier, mid-20s, light skin, long slightly messy wavy blonde hair, natural makeup, small tired smile, realistic proportions, modest clothing: simple black puffer jacket over a light sweater and jeans, no nudity, no sexualized posing
-she is working the late shift alone: leaning with one elbow on a wooden café table near the window, head resting on her wrist, eyes half-open from exhaustion, a ballpoint pen and open notebook full of scribbled numbers and to-do lists in front of her, next to a half-finished Turkish tea in a thin glass, small saucer with sugar cubes, crumbs from eaten pastries
-behind her: illuminated pastry counter with trays of baklava, künefe, lokma and other Turkish desserts, metal trays glistening with syrup, glass reflections showing the neon shop sign backwards, tiny fridge with bottled water and soda, background slightly out of focus
-outside the window: blurry night traffic, streaks of headlights, silhouettes of pedestrians passing, one yellow taxi stopped near the curb, light rain on the glass, small droplets catching reflections from the neon “tatlı dünyası” sign
-composition: three-quarter view from table height, the woman is the main focus in the foreground, bokeh lights in the back, realistic clutter (receipt roll, napkin holder, salt shaker), storytelling mood: a young woman juggling survival and dreams, lonely late-night shift, bittersweet but warm
-style: naturalistic documentary photo, no filters, realistic skin texture, detailed hair strands, believable lighting and shadows, soft contrast, shot as if for a long-form magazine story about working women in modern Türkiye
+صورة فوتوغرافية واحدة فائقة الواقعية، المشهد الداخلي المسائي لمحل حلويات تركية صغير في شارع مزدحم، مصوّرة بكاميرا DSLR كاملة الإطار، عدسة 35mm عند f/1.8، ISO 800، إضاءة تنغستن دافئة وناعمة ممزوجة بضوء أزرق بارد من الشارع، تدريج لوني سينمائي
+المرأة الشابة الشقراء نفسها من قبل، في منتصف العشرينيات، بشرة فاتحة، شعر أشقر طويل متموج وفوضوي قليلاً، مكياج طبيعي، ابتسامة متعبة صغيرة، نسب واقعية، ملابس محتشمة: سترة منفوخة سوداء بسيطة فوق كنزة خفيفة وبنطال جينز، بلا عري، وبلا وضعيات ذات طابع جنسي
+تعمل في الوردية المتأخرة وحدها: تتكئ بمرفق واحد على طاولة مقهى خشبية قرب النافذة، رأسها مستند على معصمها، عيناها نصف مفتوحتين من الإرهاق، أمامها قلم حبر جاف ودفتر مفتوح مليء بأرقام مخربشة وقوائم مهام، بجانب كوب شاي تركي نصف ممتلئ في كأس رفيع، وصحن صغير فيه مكعبات سكر، وفتات معجنات مأكولة
+خلفها: واجهة عرض معجنات مضاءة بصواني البقلاوة والكنافة واللقمة وغيرها من الحلويات التركية، صوانٍ معدنية تلمع بالشراب، انعكاسات زجاجية تُظهر لافتة النيون الخاصة بالمحل معكوسة، ثلاجة صغيرة فيها مياه معبأة ومشروبات غازية، الخلفية خارج التركيز قليلاً
+خارج النافذة: حركة مرور ليلية ضبابية، خطوط من أضواء السيارات الأمامية، ظلال مشاة عابرين، سيارة أجرة صفراء متوقفة قرب الرصيف، مطر خفيف على الزجاج، قطرات صغيرة تلتقط انعكاسات لافتة النيون "tatlı dünyası"
+التكوين: منظر ثلاثة أرباع من مستوى الطاولة، المرأة هي محور التركيز الرئيسي في المقدمة، أضواء بوكيه في الخلف، فوضى واقعية (لفة إيصالات، حامل مناديل، مملحة)، مزاج سردي: امرأة شابة توازن بين البقاء والأحلام، وردية ليلية متأخرة موحشة، حلوة ومرّة لكنها دافئة
+الأسلوب: صورة وثائقية طبيعية، بلا فلاتر، ملمس بشرة واقعي، خصلات شعر مفصّلة، إضاءة وظلال مقنعة، تباين ناعم، مصوّرة كأنها لقصة مجلة مطوّلة عن النساء العاملات في تركيا الحديثة
 ```
 
-## 750. Image Analysis for Night Portrait in Heavy Snowfall 🔤
+## 750. تحليل صورة لبورتريه ليلي تحت تساقط ثلوج كثيف
 
 *الأصل:* Image Analysis for Night Portrait in Heavy Snowfall · *النوع:* منظّم
 
@@ -3556,50 +3556,50 @@ style: naturalistic documentary photo, no filters, realistic skin texture, detai
 {
   "image_analysis": {
     "meta": {
-      "type": "photorealistic",
-      "style": "candid_night_portrait",
+      "type": "واقعي فوتوغرافياً",
+      "style": "بورتريه ليلي عفوي",
       "subject_count": 1
     },
     "environment": {
-      "type": "outdoor",
-      "location": "residential_complex_parking_lot",
-      "weather": "heavy_snowfall",
-      "time_of_day": "night",
-      "atmosphere": "cold, wintery, urban"
+      "type": "خارجي",
+      "location": "موقف سيارات مجمع سكني",
+      "weather": "تساقط ثلوج كثيف",
+      "time_of_day": "ليل",
+      "atmosphere": "باردة، شتوية، حضرية"
     },
     "camera_settings": {
-      "lens_type": "wide_angle_smartphone_lens",
-      "perspective": "eye_level",
-      "depth_of_field": "moderate_focus_falloff",
-      "focus_point": "subject_full_body",
-      "grain": "visible_iso_noise"
+      "lens_type": "عدسة هاتف ذكي واسعة الزاوية",
+      "perspective": "بمستوى العين",
+      "depth_of_field": "تلاشٍ معتدل للتركيز",
+      "focus_point": "الجسم كاملاً للشخص",
+      "grain": "تشويش ISO ظاهر"
     },
     "lighting": {
-      "summary": "Mixed lighting with strong atmospheric color cast",
+      "summary": "إضاءة مختلطة مع صبغة لونية جوية قوية",
       "sources": [
         {
           "id": "light_source_1",
-          "type": "sky_glow_light_pollution",
-          "color": "deep_orange_red",
-          "intensity": "high_ambient",
-          "angle": "overhead_diffused",
-          "effect": "casts_reddish_hue_on_snow_and_background"
+          "type": "توهج السماء / التلوث الضوئي",
+          "color": "برتقالي محمر عميق",
+          "intensity": "محيطة عالية",
+          "angle": "علوية منتشرة",
+          "effect": "تلقي صبغة محمرة على الثلج والخلفية"
         },
         {
           "id": "light_source_2",
-          "type": "street_lamps",
-          "color": "warm_yellow",
-          "intensity": "moderate",
-          "angle": "background_scattered",
-          "effect": "illuminates_buildings_and_parked_cars"
+          "type": "مصابيح الشارع",
+          "color": "أصفر دافئ",
+          "intensity": "معتدلة",
+          "angle": "متناثرة في الخلفية",
+          "effect": "تضيء المباني والسيارات المتوقفة"
         },
         {
           "id": "light_source_3",
-          "type": "camera_flash_or_direct_source",
-          "color": "cool_white",
-          "intensity": "high",
-          "angle": "frontal",
-          "effect": "highlights_subject_face_legs_and_jacket_texture"
+          "type": "فلاش الكاميرا أو مصدر مباشر",
+          "color": "أبيض بارد",
+          "intensity": "عالية",
+          "angle": "أمامية",
+          "effect": "تبرز وجه الشخص وساقيه وملمس السترة"
         }
       ]
     },
@@ -3607,130 +3607,130 @@ style: naturalistic documentary photo, no filters, realistic skin texture, detai
       {
         "id": "person_1",
         "demographics": {
-          "gender": "female",
-          "age_group": "young_adult",
-          "body_type": "slender_fit"
+          "gender": "أنثى",
+          "age_group": "شابة بالغة",
+          "body_type": "نحيلة ورشيقة"
         },
         "orientation": {
-          "body_direction": "facing_camera_angled_right",
-          "face_direction": "facing_camera",
-          "gaze": "towards_camera_slightly_down"
+          "body_direction": "مواجهة للكاميرا ومائلة إلى اليمين",
+          "face_direction": "مواجه للكاميرا",
+          "gaze": "نحو الكاميرا ومنخفضة قليلاً"
         },
         "emotion_and_attitude": {
-          "primary_emotion": "playful_shy",
-          "secondary_emotion": "joyful",
-          "sensuality": "moderate_playful_allure",
-          "vibe": "candid_winter_fun",
-          "posture_impact": "relaxed_stance_conveys_comfort_despite_cold"
+          "primary_emotion": "مرحة وخجولة",
+          "secondary_emotion": "مبتهجة",
+          "sensuality": "جاذبية مرحة معتدلة",
+          "vibe": "متعة شتوية عفوية",
+          "posture_impact": "الوقفة المسترخية توحي بالارتياح رغم البرد"
         },
         "pose_details": {
-          "general": "standing_full_body",
-          "feet_position": "left_foot_planted_right_foot_slightly_forward_relaxed",
+          "general": "واقفة، الجسم كاملاً",
+          "feet_position": "القدم اليسرى ثابتة، واليمنى متقدمة قليلاً بارتخاء",
           "hand_position": {
-            "left_hand": "raised_covering_mouth_fingers_curled",
-            "right_hand": "hanging_loose_by_side"
+            "left_hand": "مرفوعة تغطي الفم والأصابع منثنية",
+            "right_hand": "منسدلة بارتخاء بجانبها"
           },
-          "visible_extent": "full_body_head_to_toe"
+          "visible_extent": "الجسم كاملاً من الرأس إلى القدمين"
         },
         "head_and_face": {
           "hair": {
-            "color": "dark_brown",
-            "style": "loose_waves_shoulder_length",
-            "texture": "thick_voluminous",
-            "condition": "speckled_with_snowflakes"
+            "color": "بني داكن",
+            "style": "تموجات منسدلة بطول الكتفين",
+            "texture": "كثيف وغزير",
+            "condition": "مرقّط بندف الثلج"
           },
           "face_structure": {
-            "shape": "oval",
-            "forehead": "partially_covered_by_hair_parting",
-            "eyes": "dark_slightly_squinting_smiling",
-            "nose": "partially_obscured_by_hand",
-            "mouth": "covered_by_hand_hiding_smile",
-            "skin_tone": "fair_illuminated_by_flash"
+            "shape": "بيضاوي",
+            "forehead": "مغطاة جزئياً بفرق الشعر",
+            "eyes": "داكنتان، مضمومتان قليلاً، مبتسمتان",
+            "nose": "محجوب جزئياً باليد",
+            "mouth": "مغطى باليد يخفي ابتسامة",
+            "skin_tone": "فاتحة ومضاءة بالفلاش"
           },
           "makeup": {
-            "style": "natural_minimal",
-            "visible_details": "red_nail_polish_visible_on_hand"
+            "style": "طبيعي وخفيف",
+            "visible_details": "طلاء أظافر أحمر ظاهر على اليد"
           }
         },
         "body_analysis": {
-          "skin_tone": "fair_tan_on_legs",
-          "neck": "covered_by_jacket_collar",
-          "shoulders": "broadened_by_oversized_jacket",
+          "skin_tone": "فاتحة مع سمرة على الساقين",
+          "neck": "مغطى بياقة السترة",
+          "shoulders": "عريضان بفعل السترة الواسعة",
           "chest": {
-            "ratio_to_body": "obscured_by_thick_outerwear",
-            "visibility": "hidden",
-            "bra_status": "indeterminate"
+            "ratio_to_body": "محجوب بالملابس الخارجية السميكة",
+            "visibility": "مخفي",
+            "bra_status": "غير محدد"
           },
           "waist_belly": {
-            "ratio": "obscured_by_straight_cut_jacket",
-            "visibility": "hidden"
+            "ratio": "محجوب بالسترة ذات القصة المستقيمة",
+            "visibility": "مخفي"
           },
           "hips_glutes": {
-            "ratio": "standard_to_slender_frame",
-            "visibility": "partially_covered_by_jacket_hem"
+            "ratio": "عادي بالنسبة لقوام نحيل",
+            "visibility": "مغطاة جزئياً بحافة السترة"
           },
           "legs": {
-            "description": "prominent_slender_toned",
-            "visibility": "exposed_from_mid_thigh_to_knee",
-            "ratio": "long_relative_to_torso"
+            "description": "بارزتان، نحيلتان، مشدودتان",
+            "visibility": "مكشوفتان من منتصف الفخذ إلى الركبة",
+            "ratio": "طويلتان مقارنة بالجذع"
           }
         },
         "clothing_and_accessories": {
           "outerwear": {
-            "item": "shearling_aviator_jacket",
-            "color": "black_with_white_lining",
-            "material": "leather_faux_leather_wool",
-            "fit": "oversized_boxy",
-            "lighting_effect": "absorbs_light_reflects_snow_flakes"
+            "item": "سترة طيارين بفرو الشيرلينغ",
+            "color": "أسود ببطانة بيضاء",
+            "material": "جلد / جلد صناعي / صوف",
+            "fit": "واسعة صندوقية",
+            "lighting_effect": "تمتص الضوء وتعكس ندف الثلج"
           },
           "lower_body": {
-            "item": "mini_skirt_or_dress_hem",
-            "color": "black",
-            "visibility": "barely_visible_under_jacket"
+            "item": "تنورة قصيرة أو حافة فستان",
+            "color": "أسود",
+            "visibility": "بالكاد ظاهرة تحت السترة"
           },
           "leg_wear": {
-            "item": "pantyhose_tights",
-            "finish": "shiny_glossy",
-            "color": "nude_beige",
-            "lighting_effect": "highly_reflective_of_flash"
+            "item": "جوارب طويلة نسائية (كولون)",
+            "finish": "لامعة",
+            "color": "بيج بلون البشرة",
+            "lighting_effect": "عاكسة جداً لضوء الفلاش"
           },
           "footwear": {
-            "item": "knee_high_boots",
-            "color": "black",
-            "material": "leather_synthetic",
-            "condition": "covered_in_snow_at_base",
-            "style": "flat_or_low_heel_practical"
+            "item": "جزمة بطول الركبة",
+            "color": "أسود",
+            "material": "جلد / صناعي",
+            "condition": "مغطاة بالثلج عند القاعدة",
+            "style": "مسطحة أو بكعب منخفض عملية"
           },
           "accessories": {
-            "jewelry": "ring_on_left_ring_finger_silver"
+            "jewelry": "خاتم فضي في بنصر اليد اليسرى"
           }
         }
       }
     ],
     "objects_in_scene": [
       {
-        "object": "vehicles",
-        "description": "sedan_cars_parked_in_rows",
-        "state": "stationary_covered_in_snow",
-        "colors": ["grey", "white", "silver"],
-        "purpose": "background_context_residential_parking",
-        "relation": "behind_subject_creating_depth"
+        "object": "مركبات",
+        "description": "سيارات سيدان متوقفة في صفوف",
+        "state": "ثابتة ومغطاة بالثلج",
+        "colors": ["رمادي", "أبيض", "فضي"],
+        "purpose": "سياق خلفية لموقف سكني",
+        "relation": "خلف الشخص تخلق عمقاً"
       },
       {
-        "object": "buildings",
-        "description": "multi_story_apartment_complexes",
-        "style": "modern_concrete_architecture",
-        "colors": ["beige", "brown_trim"],
-        "location": "background_left_and_right",
-        "purpose": "encloses_scene"
+        "object": "مبانٍ",
+        "description": "مجمعات شقق متعددة الطوابق",
+        "style": "عمارة خرسانية حديثة",
+        "colors": ["بيج", "حواف بنية"],
+        "location": "الخلفية يساراً ويميناً",
+        "purpose": "تحيط بالمشهد"
       },
       {
-        "object": "snow",
-        "description": "ground_cover_and_falling_flakes",
-        "texture": "disturbed_by_tire_tracks_and_footprints",
-        "color": "white_reflecting_orange_sky",
-        "location": "foreground_and_background",
-        "purpose": "defines_atmosphere"
+        "object": "ثلج",
+        "description": "غطاء أرضي وندف متساقطة",
+        "texture": "مضطرب بآثار الإطارات والأقدام",
+        "color": "أبيض يعكس السماء البرتقالية",
+        "location": "المقدمة والخلفية",
+        "purpose": "يحدد الأجواء"
       }
     ],
     "negative_prompt": "daylight, summer, sunshine, dry ground, indoor, studio, blurry face, distorted hands, extra fingers, low resolution, cartoon, painting, illustration, nudity, bikini, swimwear, green grass, blue sky, crowd, men, animals"
@@ -3738,14 +3738,14 @@ style: naturalistic documentary photo, no filters, realistic skin texture, detai
 }
 ```
 
-## 751. Night Shift Dessert Shop 🔤
+## 751. محل الحلويات في الوردية الليلية
 
 *الأصل:* Night Shift Dessert Shop · *النوع:* منظّم
 
 ```
 {
   "name": "night_shift_dessert_shop",
-  "prompt": "ultra-realistic single photograph, evening interior of a small Turkish dessert shop on a busy street, shot with a full-frame DSLR, 35mm lens at f/1.8, ISO 800, soft warm tungsten lighting mixed with cold blue light from the street, cinematic color grading. The same young blonde woman from earlier, mid-20s, light skin, long slightly messy wavy blonde hair, natural makeup, small tired smile, realistic proportions, modest clothing: simple black puffer jacket over a light sweater and jeans, no nudity, no sexualized posing. She is working the late shift alone: leaning with one elbow on a wooden café table near the window, head resting on her wrist, eyes half-open from exhaustion, a ballpoint pen and open notebook full of scribbled numbers and to-do lists in front of her, next to a half-finished Turkish tea in a thin glass, small saucer with sugar cubes, crumbs from eaten pastries. Behind her: illuminated pastry counter with trays of baklava, künefe, lokma and other Turkish desserts, metal trays glistening with syrup, glass reflections showing the neon shop sign backwards, tiny fridge with bottled water and soda, background slightly out of focus. Outside the window: blurry night traffic, streaks of headlights, silhouettes of pedestrians passing, one yellow taxi stopped near the curb, light rain on the glass, small droplets catching reflections from the neon 'tatlı dünyası' sign. Composition: three-quarter view from table height, the woman is the main focus in the foreground, bokeh lights in the back, realistic clutter (receipt roll, napkin holder, salt shaker), storytelling mood: a young woman juggling survival and dreams, lonely late-night shift, bittersweet but warm. Style: naturalistic documentary photo, no filters, realistic skin texture, detailed hair strands, believable lighting and shadows, soft contrast, shot as if for a long-form magazine story about working women in modern Türkiye.",
+  "prompt": "صورة فوتوغرافية واحدة فائقة الواقعية، المشهد الداخلي المسائي لمحل حلويات تركية صغير في شارع مزدحم، مصوّرة بكاميرا DSLR كاملة الإطار، عدسة 35mm عند f/1.8، ISO 800، إضاءة تنغستن دافئة وناعمة ممزوجة بضوء أزرق بارد من الشارع، تدريج لوني سينمائي. المرأة الشابة الشقراء نفسها من قبل، في منتصف العشرينيات، بشرة فاتحة، شعر أشقر طويل متموج وفوضوي قليلاً، مكياج طبيعي، ابتسامة متعبة صغيرة، نسب واقعية، ملابس محتشمة: سترة منفوخة سوداء بسيطة فوق كنزة خفيفة وبنطال جينز، بلا عري، وبلا وضعيات ذات طابع جنسي. تعمل في الوردية المتأخرة وحدها: تتكئ بمرفق واحد على طاولة مقهى خشبية قرب النافذة، رأسها مستند على معصمها، عيناها نصف مفتوحتين من الإرهاق، أمامها قلم حبر جاف ودفتر مفتوح مليء بأرقام مخربشة وقوائم مهام، بجانب كوب شاي تركي نصف ممتلئ في كأس رفيع، وصحن صغير فيه مكعبات سكر، وفتات معجنات مأكولة. خلفها: واجهة عرض معجنات مضاءة بصواني البقلاوة والكنافة واللقمة وغيرها من الحلويات التركية، صوانٍ معدنية تلمع بالشراب، انعكاسات زجاجية تُظهر لافتة النيون الخاصة بالمحل معكوسة، ثلاجة صغيرة فيها مياه معبأة ومشروبات غازية، الخلفية خارج التركيز قليلاً. خارج النافذة: حركة مرور ليلية ضبابية، خطوط من أضواء السيارات الأمامية، ظلال مشاة عابرين، سيارة أجرة صفراء متوقفة قرب الرصيف، مطر خفيف على الزجاج، قطرات صغيرة تلتقط انعكاسات لافتة النيون 'tatlı dünyası'. التكوين: منظر ثلاثة أرباع من مستوى الطاولة، المرأة هي محور التركيز الرئيسي في المقدمة، أضواء بوكيه في الخلف، فوضى واقعية (لفة إيصالات، حامل مناديل، مملحة)، مزاج سردي: امرأة شابة توازن بين البقاء والأحلام، وردية ليلية متأخرة موحشة، حلوة ومرّة لكنها دافئة. الأسلوب: صورة وثائقية طبيعية، بلا فلاتر، ملمس بشرة واقعي، خصلات شعر مفصّلة، إضاءة وظلال مقنعة، تباين ناعم، مصوّرة كأنها لقصة مجلة مطوّلة عن النساء العاملات في تركيا الحديثة.",
   "negative_prompt": "no anime, no illustration, no 3d render, no oil painting, no caricature, no fisheye distortion, no lens flare spam, no overexposed highlights, no HDR halos, no beauty-pageant glamour, no extreme retouch, no glowing skin, no plastic doll look, no surreal colors, no cyberpunk neon, no fantasy elements, no wings, no magic, no duplicated faces or limbs, no deformed hands, no extra fingers, no text overlays or big subtitles, no watermarks, no brand logos, no sexual content or see-through clothing.",
   "width": 832,
   "height": 1216,
@@ -3756,91 +3756,91 @@ style: naturalistic documentary photo, no filters, realistic skin texture, detai
 }
 ```
 
-## 752. Ultra-Realistic Ankara Indie Bar Scene Description 🔤
+## 752. وصف فائق الواقعية لمشهد في حانة مستقلة بأنقرة
 
 *الأصل:* Ultra-Realistic Ankara Indie Bar Scene Description · *النوع:* نص
 
 ```
-Ultra-realistic Turkish indie-series night scene in a slightly alternative bar in Ankara’s hipster neighborhood, vertical frame like a phone story. Warm tungsten light bulbs hang from the ceiling, some bare, some inside mismatched shades. Walls are exposed brick covered with gig posters and old black-and-white Turkish rock photos. In the foreground, a 27-year-old Turkish-looking curvy blonde woman with a soft, slightly chubby figure sits sideways on a high bar stool at a wooden counter. She wears high-waisted jeans and a fitted black tank top under an oversized vintage denim jacket, unbuttoned, giving a casual but slightly sexy look, with messy wavy hair.
+مشهد ليلي فائق الواقعية بأسلوب المسلسلات التركية المستقلة في حانة بديلة قليلاً في حي الهيبستر بأنقرة، بإطار عمودي كقصة هاتف. مصابيح تنغستن دافئة تتدلى من السقف، بعضها عارٍ، وبعضها داخل أغطية غير متناسقة. الجدران من الطوب المكشوف ومغطاة بملصقات حفلات وصور قديمة بالأبيض والأسود لموسيقى الروك التركية. في المقدمة، امرأة شقراء ممتلئة القوام بملامح تركية في السابعة والعشرين، بقوام ناعم ممتلئ قليلاً، تجلس جانبياً على كرسي بار مرتفع أمام منضدة خشبية. ترتدي بنطال جينز بخصر عالٍ وتوب أسود ضيقاً بلا أكمام تحت سترة جينز عتيقة واسعة جداً، مفتوحة الأزرار، مما يمنحها مظهراً عفوياً لكنه جذاب قليلاً، بشعر متموج فوضوي.
 
-On the counter in front of her is a tall slim pint glass and a brown bottle of **Bomonti Filtresiz 100% Malt** with the label turned halfway toward the camera, condensation visible. Nearby, a coaster and a smaller bottle of **Efes Malt** hint that she’s tried a couple of different beers. Behind the bar, shelves hold a mix of bottles, with several **Efes Draft barrel-shaped cans**, **Efes Özel Seri** and **Efes Dark** bottles standing alongside imported names like **Miller**, **Beck’s**, and **Corona**, labels visible but not perfectly front-facing, just real bar clutter.
+على المنضدة أمامها كأس بيرة طويل ونحيف وزجاجة بنية من **Bomonti Filtresiz 100% Malt** وملصقها مستدير نحو الكاميرا جزئياً، والتكثّف ظاهر عليها. وبالقرب منها، قاعدة أكواب وزجاجة أصغر من **Efes Malt** توحي بأنها جربت نوعين مختلفين من البيرة. خلف البار، رفوف تحمل مزيجاً من الزجاجات، مع عدة **علب Efes Draft على شكل برميل**، وزجاجات **Efes Özel Seri** و**Efes Dark** إلى جانب أسماء مستوردة مثل **Miller** و**Beck's** و**Corona**، والملصقات ظاهرة لكن ليست مواجهة للأمام بشكل مثالي، مجرد فوضى بار حقيقية.
 
-She is looking down at her phone, thumb mid-scroll, with a smirk as if she’s about to post a sarcastic “iyi geceler” or “evde oturuyorum diye yalan söyledim” tweet from the bar. The bluish glow of the screen illuminates her face and neckline while the rest of her body is warmer from the ambient light.
+تنظر إلى هاتفها، وإبهامها في منتصف التمرير، بابتسامة ساخرة كأنها على وشك نشر تغريدة ساخرة "iyi geceler" (تصبحون على خير) أو "evde oturuyorum diye yalan söyledim" (كذبت وقلت إنني جالسة في البيت) من البار. التوهج المزرق للشاشة يضيء وجهها وخط عنقها بينما يبدو بقية جسدها أدفأ بفعل الإضاءة المحيطة.
 
-Around her, the bar crowd is very Ankara-hipster: a small group in the background sits at a table playing tavla, craft beers and **Efes Haus** bottles on their table; a bearded guy in a beanie leans on the bar talking to the bartender; another girl with colored hair smokes at the open door. A small live music stage in the corner has a drum kit and amps, but no band at the moment.
+من حولها، رواد البار من طراز هيبستر أنقرة تماماً: مجموعة صغيرة في الخلفية تجلس إلى طاولة تلعب الطاولة (tavla)، وعلى طاولتهم بيرة حرفية وزجاجات **Efes Haus**؛ ورجل ملتحٍ بقبعة صوفية يتكئ على البار ويتحدث مع النادل؛ وفتاة أخرى بشعر مصبوغ تدخن عند الباب المفتوح. في الزاوية مسرح صغير للموسيقى الحية عليه طقم طبول ومكبرات صوت، لكن لا توجد فرقة في هذه اللحظة.
 
-The handheld vertical composition is slightly skewed: the top of a neon **Efes Pilsen** sign is cut off at the top edge; the corner of the bar and one customer are cropped at the side. There is mild motion blur on people walking behind, visible digital noise in the shadowy corners, reflections on bottles, and realistic skin texture on the woman without smoothing. Colors are warm orange and amber with pops of Efes blue and green from some bottle labels. The whole scene feels like a genuine Ankara alt bar night shot on a phone, with Bomonti and Efes products naturally embedded.
+التكوين العمودي المحمول باليد مائل قليلاً: الجزء العلوي من لافتة نيون **Efes Pilsen** مقصوص عند الحافة العلوية؛ وزاوية البار وأحد الزبائن مقصوصان على الجانب. هناك ضبابية حركة خفيفة على الأشخاص المارين في الخلف، وتشويش رقمي ظاهر في الزوايا المظللة، وانعكاسات على الزجاجات، وملمس بشرة واقعي للمرأة دون تنعيم. الألوان برتقالية وكهرمانية دافئة مع لمسات بارزة من أزرق Efes وأخضر بعض ملصقات الزجاجات. يبدو المشهد كاملاً كليلة حقيقية في بار بديل بأنقرة مصوّرة بالهاتف، مع منتجات Bomonti وEfes مدمجة بشكل طبيعي.
 ```
 
-## 753. Night Balcony Scene in Ankara with Efes 🔤
+## 753. مشهد ليلي على شرفة في أنقرة مع Efes
 
 *الأصل:* Night Balcony Scene in Ankara with Efes · *النوع:* نص
 
 ```
-Ultra-realistic night shot from a balcony of an old Ankara apartment building, vertical, slightly shaky like a selfie taken by a friend. The camera is outside on the balcony at chest height. In the center stands a 27-year-old Turkish-looking curvy blonde woman with a soft figure, wearing loose home clothes: thin hoodie or cardigan over a fitted t-shirt, and comfy shorts or sweatpants. Barefoot or in cheap house slippers. Her hair is loosely tied, a little messy.
+لقطة ليلية فائقة الواقعية من شرفة مبنى سكني قديم في أنقرة، عمودية، مهتزة قليلاً كسيلفي التقطه صديق. الكاميرا في الخارج على الشرفة بمستوى الصدر. في المنتصف تقف امرأة شقراء ممتلئة القوام بملامح تركية في السابعة والعشرين، بقوام ناعم، ترتدي ملابس منزلية فضفاضة: هودي رقيق أو كارديغان فوق تيشيرت ضيق، وشورت مريح أو بنطال رياضي. حافية أو بشبشب منزلي رخيص. شعرها مربوط بارتخاء، فوضوي قليلاً.
 
-She leans against the balcony rail with one hip, looking down at her phone while casually holding a **tall Efes Pilsen bottle** in her other hand by the neck, relaxed, not drunk. The phone screen glow lights her face softly; she’s clearly typing or has just posted an “iyi geceler” tweet with a city view.
+تتكئ على درابزين الشرفة بأحد وركيها، تنظر إلى هاتفها بينما تمسك بعفوية **زجاجة Efes Pilsen طويلة** باليد الأخرى من عنقها، مسترخية، غير ثملة. توهج شاشة الهاتف يضيء وجهها بنعومة؛ ومن الواضح أنها تكتب أو نشرت للتو تغريدة "iyi geceler" (تصبحون على خير) مع إطلالة على المدينة.
 
-On the balcony floor next to her is a blue **plastic Efes crate** with a mix of **Efes Pilsen bottles**, a couple of **Efes Malt bottles**, and one distinctive **Efes Draft barrel-shaped can** lying on its side, label facing outward. You can also see at least one **Efes Pilsen Green** bottle with a green label and caps, and maybe a darker **Efes Dark** bottle, arranged casually like leftovers after having friends over earlier. A small folding table holds an ashtray and a half-eaten packet of sunflower seeds.
+على أرضية الشرفة بجانبها **صندوق Efes بلاستيكي** أزرق فيه مزيج من **زجاجات Efes Pilsen**، وزجاجتان من **Efes Malt**، و**علبة Efes Draft مميزة على شكل برميل** ملقاة على جانبها، وملصقها متجه إلى الخارج. يمكنك أيضاً رؤية زجاجة واحدة على الأقل من **Efes Pilsen Green** بملصق وغطاء أخضرين، وربما زجاجة **Efes Dark** أغمق، مرتبة بعفوية كبقايا بعد زيارة أصدقاء في وقت سابق. على طاولة قابلة للطي صغيرة منفضة سجائر وكيس بذور عباد شمس نصف مأكول.
 
-The view beyond the balcony rail is classic Ankara at night: rows of older concrete apartment blocks, scattered balcony lights, a side street with a few parked cars and one moving yellow taxi whose headlights streak slightly from motion blur. Distant shopfronts are visible but not sharp. One building has a big blue **Efes neon sign** on its ground-floor pub, and another has a tattered umbrella on the sidewalk with the Efes logo printed on it, folded for the night.
+الإطلالة خلف درابزين الشرفة هي أنقرة الكلاسيكية ليلاً: صفوف من الكتل السكنية الخرسانية القديمة، وأضواء شرفات متناثرة، وشارع جانبي فيه بضع سيارات متوقفة وسيارة أجرة صفراء متحركة تمتد أضواؤها الأمامية قليلاً بفعل ضبابية الحركة. واجهات متاجر بعيدة ظاهرة لكنها غير حادة. أحد المباني فيه **لافتة نيون Efes** زرقاء كبيرة على الحانة في طابقه الأرضي، وآخر أمامه مظلة ممزقة على الرصيف عليها شعار Efes مطبوع، مطوية لليل.
 
-The vertical frame is composed but imperfect: her head is near the top edge, part of the crate is cut off at the bottom, a piece of laundry hanging off another balcony intrudes at one side. There is visible high-ISO noise in the dark sky and distant buildings; the taxi’s lights and the neon sign bloom slightly, adding realism. Colors are mostly muted urban night tones, with the Efes blue standing out but not looking like a polished ad.
+الإطار العمودي مدروس لكنه غير مثالي: رأسها قرب الحافة العلوية، وجزء من الصندوق مقصوص في الأسفل، وقطعة غسيل معلقة من شرفة أخرى تتطفل على أحد الجانبين. هناك تشويش ISO عالٍ ظاهر في السماء المظلمة والمباني البعيدة؛ وأضواء سيارة الأجرة ولافتة النيون تتوهج قليلاً، مما يضيف واقعية. الألوان في معظمها درجات ليلية حضرية خافتة، مع بروز أزرق Efes دون أن يبدو كإعلان مصقول.
 
-Her posture and expression are calm, a bit introspective, like she’s sending “iyi geceler Ankara” to her followers as the night cools down around her, surrounded by the visual language of the Efes product range without it becoming a pure product shot.
+وضعيتها وتعبيرها هادئان، متأملان قليلاً، كأنها ترسل "iyi geceler Ankara" (تصبحين على خير يا أنقرة) لمتابعيها بينما يبرد الليل من حولها، محاطة باللغة البصرية لتشكيلة منتجات Efes دون أن تتحول الصورة إلى لقطة منتج بحتة.
 ```
 
-## 754. Ankara Night Scene in a Meyhane 🔤
+## 754. مشهد ليلي في أنقرة داخل ميخانة
 
 *الأصل:* Ankara Night Scene in a Meyhane · *النوع:* نص
 
 ```
-Ultra-realistic, slightly comedic night scene in a small, slightly shabby Ankara meyhane or neighborhood bar, vertical framing as if shot on a normal phone. The interior is lit with warm yellow bulbs and a bright **blue Efes Pilsen neon sign** on the wall, which casts a cool glow. Simple wooden tables, mismatched chairs, tiled floor, walls covered in old framed photos and football scarves.
+مشهد ليلي فائق الواقعية وكوميدي قليلاً في ميخانة (meyhane) صغيرة متهالكة بعض الشيء أو بار حي في أنقرة، بتأطير عمودي كأنه مصوّر بهاتف عادي. الداخل مضاء بمصابيح صفراء دافئة و**لافتة نيون Efes Pilsen زرقاء** ساطعة على الجدار، تلقي توهجاً بارداً. طاولات خشبية بسيطة، وكراسٍ غير متناسقة، وأرضية مبلطة، وجدران مغطاة بصور قديمة مؤطرة وأوشحة كرة قدم.
 
-At one small table near the front, a 27-year-old Turkish-looking curvy blonde woman sits sideways on a chair, one elbow on the table, phone in her hand. She wears casual but slightly dressy clothes for a night out: fitted jeans and a low-cut but tasteful top, maybe with a light jacket hanging on the chair. Her blonde hair is loose, a bit tousled. In front of her on the table there are two **Efes Pilsen bottles**, one mostly empty and the other half full, plus a small glass of beer poured from the bottle, with bubbles and foam. Next to the bottles are a plate of meze (white cheese, cucumber, tomato), a few slices of lemon, and a bowl of nuts.
+على طاولة صغيرة قرب المقدمة، تجلس امرأة شقراء ممتلئة القوام بملامح تركية في السابعة والعشرين جانبياً على كرسي، أحد مرفقيها على الطاولة، وهاتفها في يدها. ترتدي ملابس عفوية لكنها أنيقة قليلاً لسهرة خارج المنزل: جينز ضيق وتوب بفتحة عنق منخفضة لكن بذوق، وربما سترة خفيفة معلقة على الكرسي. شعرها الأشقر منسدل، مبعثر قليلاً. أمامها على الطاولة **زجاجتا Efes Pilsen**، إحداهما شبه فارغة والأخرى نصف ممتلئة، إضافة إلى كأس صغير من البيرة مسكوب من الزجاجة، بفقاعات ورغوة. بجانب الزجاجات طبق مازة (جبن أبيض، خيار، طماطم)، وبضع شرائح ليمون، ووعاء مكسرات.
 
-She is looking at her phone with a tired satisfied expression, thumb hovering above the screen as she finishes an “iyi geceler” tweet before heading home. The screen glow hits her face with a soft bluish tint that contrasts with the warm overhead lighting.
+تنظر إلى هاتفها بتعبير متعب وراضٍ، وإبهامها يحوم فوق الشاشة وهي تُنهي تغريدة "iyi geceler" (تصبحون على خير) قبل التوجه إلى البيت. توهج الشاشة يصيب وجهها بصبغة مزرقة ناعمة تتباين مع الإضاءة العلوية الدافئة.
 
-Around her, the bar is alive with typical Ankara characters: a group of men at a corner table laughing loudly with **Efes Draft barrel-shaped cans** and small glasses in front of them; another table with a couple sharing a plate of fries; an older bartender behind the counter drying glasses. Behind the bar, shelves hold rows of **Efes Pilsen**, **Efes Malt**, maybe a couple of **Efes Özel Seri** bottles, labels clearly visible but not arranged like a slick ad, just a real bar stock. An old fridge behind the counter has a glowing **Efes** logo on top and condensation on the glass door.
+من حولها، البار يعجّ بشخصيات أنقرة النموذجية: مجموعة رجال على طاولة في الزاوية يضحكون بصوت عالٍ وأمامهم **علب Efes Draft على شكل برميل** وكؤوس صغيرة؛ وطاولة أخرى عليها زوجان يتشاركان طبق بطاطس مقلية؛ ونادل مسن خلف المنضدة يجفف الكؤوس. خلف البار، رفوف تحمل صفوفاً من **Efes Pilsen** و**Efes Malt**، وربما زجاجتين من **Efes Özel Seri**، والملصقات ظاهرة بوضوح لكنها غير مرتبة كإعلان مصقول، مجرد مخزون بار حقيقي. ثلاجة قديمة خلف المنضدة عليها شعار **Efes** مضيء في أعلاها، والتكثّف على بابها الزجاجي.
 
-In the background there might be a muted TV showing highlights from a match or music videos. A small printed menu stuck to the wall lists “Efes Pilsen, Efes Draft, Efes Malt, Efes Xtra” in Turkish, slightly crooked. Ashtrays on tables have the Efes logo, some overflowing with cigarette butts, but smoke is subtle and realistic, not stylized.
+في الخلفية قد يكون هناك تلفاز صامت يعرض ملخص مباراة أو مقاطع موسيقية. قائمة مطبوعة صغيرة ملصقة على الجدار تسرد "Efes Pilsen, Efes Draft, Efes Malt, Efes Xtra" بالتركية، مائلة قليلاً. منافض السجائر على الطاولات تحمل شعار Efes، وبعضها يفيض بأعقاب السجائر، لكن الدخان خفيف وواقعي، غير مُؤسلب.
 
-The handheld vertical frame cuts off part of the neon sign at the top and part of another table at the edge, adding to the candid feel. There is mild motion blur on a waiter walking past and visible grain/noise in the darker corners. Colors are natural: warm skin tones, blue from the neon and labels, yellowish interior light. No beauty smoothing—her skin shows pores and little imperfections. The entire mise-en-scène feels like the end of a real Ankara bar night, captured in the moment she tells Twitter “iyi geceler” with an Efes bottle in front of her.
+الإطار العمودي المحمول باليد يقطع جزءاً من لافتة النيون في الأعلى وجزءاً من طاولة أخرى عند الحافة، مما يعزز الإحساس بالعفوية. هناك ضبابية حركة خفيفة على نادل يمر، وحبيبات/تشويش ظاهر في الزوايا الأغمق. الألوان طبيعية: درجات بشرة دافئة، وأزرق من النيون والملصقات، وإضاءة داخلية مائلة للصفرة. بلا تنعيم تجميلي—بشرتها تُظهر المسام والعيوب الصغيرة. يبدو المشهد كاملاً كنهاية ليلة حقيقية في بار بأنقرة، ملتقطة في اللحظة التي تقول فيها لتويتر "iyi geceler" وأمامها زجاجة Efes.
 ```
 
-## 755. Ultra-Realistic Turkish Living Room Scene During Football Match 🔤
+## 755. مشهد فائق الواقعية في غرفة معيشة تركية أثناء مباراة كرة قدم
 
 *الأصل:* Ultra-Realistic Turkish Living Room Scene During Football Match · *النوع:* نص
 
 ```
-Ultra-realistic Turkish TV-series style night photo, vertical framing like a phone snapshot. Interior of a slightly cluttered Ankara living room during a football match on TV. Warm yellow ceiling light and the blue glow from the TV, no studio gloss. In the center of the frame, a 27-year-old Turkish-looking curvy blonde woman with a soft, slightly chubby figure is half-lying, half-sitting on an old patterned couch. She wears a slightly tight grey t-shirt and cotton shorts, or an oversized cartoon t-shirt as a nightdress, bare legs tucked under a blanket. Her hair is a bit messy from the day.
+صورة ليلية فائقة الواقعية بأسلوب المسلسلات التلفزيونية التركية، بتأطير عمودي كلقطة هاتف. داخل غرفة معيشة فوضوية قليلاً في أنقرة أثناء مباراة كرة قدم على التلفاز. ضوء سقف أصفر دافئ والتوهج الأزرق من التلفاز، بلا لمعان استوديو. في وسط الإطار، امرأة شقراء ممتلئة القوام بملامح تركية في السابعة والعشرين، بقوام ناعم ممتلئ قليلاً، نصف مستلقية ونصف جالسة على أريكة قديمة منقوشة. ترتدي تيشيرت رمادياً ضيقاً قليلاً وشورتاً قطنياً، أو تيشيرت كرتونياً واسعاً كثوب نوم، وساقاها العاريتان مطويتان تحت بطانية. شعرها فوضوي قليلاً من يوم طويل.
 
-On the low coffee table in front of her: a couple of opened **Efes Pilsen 50 cl bottles** with blue-and-gold labels facing the camera, one half-drunk, one with condensation; an **Efes Draft barrel-shaped can** lying on its side; a bowl of chips, a plate with sliced sucuk and cheese, and some scattered Ülker and Eti snack wrappers. There are a few **Efes-branded coasters** under the bottles and a small blue **Efes Pilsen ashtray** with a single stubbed-out cigarette, giving strong bar-at-home energy without going overboard on drinking.
+على طاولة القهوة المنخفضة أمامها: زجاجتان مفتوحتان من **Efes Pilsen سعة 50 cl** بملصقات زرقاء وذهبية مواجهة للكاميرا، إحداهما نصف مشروبة، والأخرى عليها تكثّف؛ و**علبة Efes Draft على شكل برميل** ملقاة على جانبها؛ ووعاء رقائق بطاطس، وطبق فيه سجق (سوجوق) مقطع وجبن، وبعض أغلفة وجبات Ülker وEti الخفيفة المتناثرة. هناك بضع **قواعد أكواب تحمل علامة Efes** تحت الزجاجات و**منفضة سجائر Efes Pilsen** زرقاء صغيرة فيها سيجارة واحدة مطفأة، مما يعطي طاقة "بار في البيت" قوية دون مبالغة في الشرب.
 
-Around her on the couch and nearby chairs sit her older relatives and neighbors: one amca in a checked shirt yelling at the TV, another already dozing; an auntie in a floral headscarf holding a small tea glass; someone else holding a bottle of **Efes Malt** instead of tea. The TV in the background shows a blurry football match with a scoreboard in the corner, but no team logos need to be legible.
+من حولها على الأريكة والكراسي القريبة يجلس أقاربها الأكبر سناً وجيرانها: عمّ (amca) بقميص مربعات يصرخ في التلفاز، وآخر غفا بالفعل؛ وخالة بحجاب مزهر تمسك كأس شاي صغيراً؛ وشخص آخر يمسك زجاجة **Efes Malt** بدلاً من الشاي. التلفاز في الخلفية يعرض مباراة كرة قدم ضبابية مع لوحة نتائج في الزاوية، دون حاجة إلى أن تكون شعارات الفرق مقروءة.
 
-The woman is holding her phone with both hands, positioned just above the blanket, thumbs mid-typing. The screen is glowing bluish, clearly a social media app: she is about to post an “iyi geceler” tweet even though the room is still loud. Her expression is slightly ironic, like “iyi geceler ama ev susmuyor.”
+تمسك المرأة هاتفها بكلتا يديها، فوق البطانية مباشرة، وإبهاماها في منتصف الكتابة. الشاشة تتوهج بلون مزرق، ومن الواضح أنها تطبيق تواصل اجتماعي: إنها على وشك نشر تغريدة "iyi geceler" (تصبحون على خير) رغم أن الغرفة لا تزال صاخبة. تعبيرها ساخر قليلاً، كأنها تقول "iyi geceler ama ev susmuyor" (تصبحون على خير لكن البيت لا يهدأ).
 
-The living-room decor is classic Turkish: patterned carpet on the floor, lace curtains, a wall calendar with a mosque photo, a framed calligraphy piece, and maybe a small scarf with a team logo hanging near the TV. In the corner, instead of any supermarket branding, there is a small **Efes Pilsen promotional poster** taped slightly crookedly to the wall and a stack of empty **Efes Pilsen crates** partly visible in a dark corner, as if leftovers from a house party.
+ديكور غرفة المعيشة تركي كلاسيكي: سجادة منقوشة على الأرض، وستائر من الدانتيل، وتقويم جداري عليه صورة مسجد، ولوحة خط عربي مؤطرة، وربما وشاح صغير عليه شعار فريق معلق قرب التلفاز. في الزاوية، بدلاً من أي علامة تجارية لمتجر، يوجد **ملصق ترويجي صغير لـ Efes Pilsen** مثبت بشريط لاصق على الجدار بشكل مائل قليلاً، وكومة من **صناديق Efes Pilsen** الفارغة ظاهرة جزئياً في زاوية مظلمة، كأنها بقايا حفلة منزلية.
 
-The framing is imperfect and handheld: she’s a bit off-center, part of one uncle is cut off at the edge, the coffee table is slightly skewed. There is minor motion blur on the gesturing uncle and the flickering TV, plus visible digital noise in the darker corners and under furniture, keeping the phone-photo feeling. Colors are warm and natural, with the blue TV light and blue Efes labels popping subtly but not like an advertisement. Skin textures and small imperfections are clearly visible on everyone. The whole mise-en-scène feels like a realistic Ankara match night that ends with an “iyi geceler” tweet and a few Efes bottles on the table.
+التأطير غير مثالي ومحمول باليد: هي منحرفة قليلاً عن المركز، وجزء من أحد الأعمام مقصوص عند الحافة، وطاولة القهوة مائلة قليلاً. هناك ضبابية حركة طفيفة على العمّ الذي يلوّح بيديه وعلى التلفاز الوامض، إضافة إلى تشويش رقمي ظاهر في الزوايا الأغمق وتحت الأثاث، مما يحافظ على إحساس صورة الهاتف. الألوان دافئة وطبيعية، مع بروز خفيف لضوء التلفاز الأزرق وملصقات Efes الزرقاء لكن ليس كإعلان. ملمس البشرة والعيوب الصغيرة ظاهرة بوضوح على الجميع. يبدو المشهد كاملاً كليلة مباراة واقعية في أنقرة تنتهي بتغريدة "iyi geceler" وبضع زجاجات Efes على الطاولة.
 ```
 
-## 756. Snapshot of a Turkish Hospital Night: A Dramedy Scene 🔤
+## 756. لقطة من ليلة في مستشفى تركي: مشهد دراما كوميدية
 
 *الأصل:* Snapshot of a Turkish Hospital Night: A Dramedy Scene · *النوع:* نص
 
 ```
-Ultra-realistic Turkish dramedy still, vertical orientation, set in a slightly worn state hospital emergency waiting room at night. Fluorescent lights create a tired, greenish-white tone. Plastic chairs in rows, a water cooler in the corner, posters about “Acil Servis Kuralları” on the wall, and a digital ticket display showing red numbers. The floor is a bit scuffed, everything feels sterile but old.
+لقطة ثابتة فائقة الواقعية من دراما كوميدية تركية، بتوجيه عمودي، تدور في غرفة انتظار طوارئ في مستشفى حكومي متهالك قليلاً ليلاً. أضواء الفلورسنت تخلق درجة بيضاء مخضرة متعبة. كراسٍ بلاستيكية في صفوف، وبرّاد ماء في الزاوية، وملصقات عن "Acil Servis Kuralları" (قواعد قسم الطوارئ) على الجدار، وشاشة أرقام انتظار رقمية تعرض أرقاماً حمراء. الأرضية مخدوشة قليلاً، وكل شيء يبدو معقماً لكنه قديم.
 
-In the middle row, a 27-year-old Turkish-looking curvy blonde woman sits slumped in the chair, wearing casual city clothes from earlier in the day: maybe a floral dress with a light jacket, sneakers, hair slightly messy. She looks exhausted but not in danger, just stuck in bureaucracy. Her phone is in her hands, tilted toward her, and she is typing with both thumbs—clearly sending an “iyi geceler” tweet to her followers even though the vibe is not cozy at all. Her face shows a mix of dark humor and boredom.
+في الصف الأوسط، تجلس امرأة شقراء ممتلئة القوام بملامح تركية في السابعة والعشرين منهارة في الكرسي، ترتدي ملابس مدينة عفوية من وقت سابق في اليوم: ربما فستان مزهر مع سترة خفيفة، وحذاء رياضي، وشعر فوضوي قليلاً. تبدو منهكة لكنها ليست في خطر، فقط عالقة في البيروقراطية. هاتفها في يديها، مائل نحوها، وهي تكتب بكلا إبهاميها—ومن الواضح أنها ترسل تغريدة "iyi geceler" (تصبحون على خير) لمتابعيها رغم أن الأجواء ليست دافئة على الإطلاق. يُظهر وجهها مزيجاً من الفكاهة السوداء والملل.
 
-Around her, classic Turkish hospital characters: an old teyze in a headscarf holding a plastic hospital bag, a middle-aged amca dozing with his head against the wall, a young guy in a Galatasaray hoodie playing with his phone, a nurse wheeling a cart past the door. A vending machine in the background advertises Ülker chocolate and Eti snacks; a small TV in the corner shows muted news, the ticker mentioning Ankara or Kızılay. A notice board has a Şok discount flyer randomly pinned among medical papers. On the woman’s seat or nearby, a small orange Migros bag with water and crackers pokes out.
+من حولها، شخصيات المستشفى التركي الكلاسيكية: خالة (teyze) مسنة بحجاب تمسك كيس مستشفى بلاستيكياً، وعمّ (amca) في منتصف العمر يغفو ورأسه على الجدار، وشاب بهودي غلطة سراي يلهو بهاتفه، وممرضة تدفع عربة أمام الباب. آلة بيع في الخلفية تعلن عن شوكولاتة Ülker ووجبات Eti الخفيفة؛ وتلفاز صغير في الزاوية يعرض أخباراً صامتة، وشريط الأخبار يذكر أنقرة أو كيزيلاي (Kızılay). على لوحة إعلانات منشور خصومات من Şok مثبت عشوائياً بين أوراق طبية. على مقعد المرأة أو بالقرب منها، يبرز كيس Migros برتقالي صغير فيه ماء وبسكويت مالح.
 
-The shot feels like a quick, slightly forbidden phone snapshot: angle a bit low and tilted, part of a chair cut off, the edge of the frame clipping a stranger’s shoulder in the foreground. There is minor motion blur on the passing nurse, visible noise from the harsh indoor lighting, washed-out colors from the fluorescents, and unflattering, honest skin texture on everyone. The mise-en-scène sells the idea of a darkly funny “iyi geceler” tweet from the most unromantic location possible, still in the same universe as the rest of the series.
+تبدو اللقطة كصورة هاتف سريعة ممنوعة قليلاً: الزاوية منخفضة قليلاً ومائلة، وجزء من كرسي مقصوص، وحافة الإطار تقطع كتف شخص غريب في المقدمة. هناك ضبابية حركة طفيفة على الممرضة المارة، وتشويش ظاهر بسبب الإضاءة الداخلية القاسية، وألوان باهتة من الفلورسنت، وملمس بشرة صادق غير مُجمَّل على الجميع. يقدّم المشهد فكرة تغريدة "iyi geceler" مضحكة بسوداوية من أقل الأماكن رومانسية على الإطلاق، مع البقاء في عالم بقية المسلسل نفسه.
 ```
 
-## 757. Photorealistic Mirror Selfie Analysis 🔤
+## 757. تحليل سيلفي مرآة واقعي فوتوغرافياً
 
 *الأصل:* Photorealistic Mirror Selfie Analysis · *النوع:* منظّم
 
@@ -3848,43 +3848,43 @@ The shot feels like a quick, slightly forbidden phone snapshot: angle a bit low 
 {
   "image_analysis": {
     "meta": {
-      "type": "photorealistic",
-      "style": "mirror_selfie_low_key",
+      "type": "واقعي فوتوغرافياً",
+      "style": "سيلفي مرآة بإضاءة منخفضة المفتاح",
       "subject_count": 1,
-      "aesthetic": "moody_allure_social_media_aesthetic"
+      "aesthetic": "جاذبية مزاجية بجماليات وسائل التواصل الاجتماعي"
     },
     "environment": {
-      "type": "indoor",
-      "location": "bathroom_or_changing_room",
-      "details": "black_tiled_walls_with_white_grout",
-      "atmosphere": "intimate_dim_warm",
-      "time_of_day": "indeterminate_artificial_light"
+      "type": "داخلي",
+      "location": "حمّام أو غرفة تبديل ملابس",
+      "details": "جدران مبلطة بالأسود مع فواصل بيضاء",
+      "atmosphere": "حميمة، خافتة، دافئة",
+      "time_of_day": "غير محدد، إضاءة اصطناعية"
     },
     "camera_settings": {
-      "lens_type": "smartphone_main_camera",
-      "perspective": "mirror_reflection_eye_level",
-      "framing": "medium_shot_waist_up",
-      "focus_point": "torso_and_phone",
-      "depth_of_field": "deep_focus"
+      "lens_type": "الكاميرا الرئيسية للهاتف الذكي",
+      "perspective": "انعكاس مرآة بمستوى العين",
+      "framing": "لقطة متوسطة من الخصر إلى الأعلى",
+      "focus_point": "الجذع والهاتف",
+      "depth_of_field": "تركيز عميق"
     },
     "lighting": {
-      "summary": "Low-key monochromatic red ambient lighting",
+      "summary": "إضاءة محيطة حمراء أحادية اللون منخفضة المفتاح",
       "sources": [
         {
           "id": "light_source_1",
-          "type": "overhead_ambient",
-          "color": "deep_red_orange",
-          "intensity": "dim_moody",
-          "angle": "top_down",
-          "effect": "creates_strong_shadows_under_bust_and_ribs_casts_red_hue_on_skin"
+          "type": "إضاءة محيطة علوية",
+          "color": "أحمر برتقالي عميق",
+          "intensity": "خافتة ومزاجية",
+          "angle": "من الأعلى إلى الأسفل",
+          "effect": "تخلق ظلالاً قوية تحت الصدر والأضلاع وتلقي صبغة حمراء على البشرة"
         },
         {
           "id": "light_source_2",
-          "type": "screen_glow",
-          "color": "faint_white",
-          "intensity": "very_low",
-          "angle": "frontal",
-          "effect": "minimal_reflection_on_fingers"
+          "type": "توهج الشاشة",
+          "color": "أبيض خافت",
+          "intensity": "منخفضة جداً",
+          "angle": "أمامية",
+          "effect": "انعكاس ضئيل على الأصابع"
         }
       ]
     },
@@ -3892,111 +3892,111 @@ The shot feels like a quick, slightly forbidden phone snapshot: angle a bit low 
       {
         "id": "person_1",
         "demographics": {
-          "gender": "female",
-          "age_group": "young_adult",
-          "body_type": "slender_athletic_toned"
+          "gender": "أنثى",
+          "age_group": "شابة بالغة",
+          "body_type": "نحيلة رياضية مشدودة"
         },
         "orientation": {
-          "body_direction": "facing_mirror_frontal",
-          "face_direction": "facing_mirror_obscured",
-          "gaze": "obscured_behind_phone"
+          "body_direction": "مواجهة للمرآة من الأمام",
+          "face_direction": "مواجه للمرآة ومحجوب",
+          "gaze": "محجوبة خلف الهاتف"
         },
         "emotion_and_attitude": {
-          "primary_emotion": "confident",
-          "secondary_emotion": "seductive",
-          "sensuality": "high_provocative",
-          "vibe": "private_bold",
-          "posture_impact": "upright_posture_accentuates_torso_definition"
+          "primary_emotion": "واثقة",
+          "secondary_emotion": "مغرية",
+          "sensuality": "عالية واستفزازية",
+          "vibe": "خاصة وجريئة",
+          "posture_impact": "الوضعية المنتصبة تبرز تحديد الجذع"
         },
         "pose_details": {
-          "general": "standing_mirror_selfie",
-          "feet_position": "not_visible",
+          "general": "سيلفي مرآة وقوفاً",
+          "feet_position": "غير ظاهرتين",
           "hand_position": {
-            "right_hand": "holding_phone_near_face_fingers_extended",
-            "left_hand": "hanging_loose_by_side_out_of_frame"
+            "right_hand": "تمسك الهاتف قرب الوجه والأصابع ممدودة",
+            "left_hand": "منسدلة بارتخاء بجانبها خارج الإطار"
           },
-          "visible_extent": "hips_to_top_of_head"
+          "visible_extent": "من الوركين إلى أعلى الرأس"
         },
         "head_and_face": {
           "hair": {
-            "color": "dark_brown",
-            "style": "pulled_back_or_updo",
-            "texture": "indistinguishable_due_to_shadow"
+            "color": "بني داكن",
+            "style": "مسحوب إلى الخلف أو مرفوع",
+            "texture": "غير مميز بسبب الظل"
           },
           "face_structure": {
-            "visibility": "obscured_by_phone",
-            "ears": "partially_visible",
-            "skin_tone": "fair_illuminated_red"
+            "visibility": "محجوب بالهاتف",
+            "ears": "ظاهرتان جزئياً",
+            "skin_tone": "فاتحة مضاءة بالأحمر"
           }
         },
         "body_analysis": {
-          "skin_tone": "fair_reflecting_red_light",
-          "neck": "elongated_partially_covered_by_collar",
-          "shoulders": "slender_angular",
+          "skin_tone": "فاتحة تعكس الضوء الأحمر",
+          "neck": "ممدود ومغطى جزئياً بالياقة",
+          "shoulders": "نحيلان وزاويان",
           "chest": {
-            "ratio_to_body": "proportional_natural",
-            "bra_status": "no_bra_visible",
-            "nipples_visible": "implied_shape_under_fabric_no_direct_exposure",
-            "exposure": "deep_plunge_cleavage_visible_due_to_unzipped_top",
-            "size_estimation": "moderate_natural"
+            "ratio_to_body": "متناسب وطبيعي",
+            "bra_status": "لا حمالة صدر ظاهرة",
+            "nipples_visible": "شكل ضمني تحت القماش دون كشف مباشر",
+            "exposure": "فتحة عميقة يظهر فيها الصدر بسبب السحّاب المفتوح",
+            "size_estimation": "متوسط وطبيعي"
           },
           "waist_belly": {
-            "condition": "toned_flat_stomach",
-            "definition": "visible_linea_alba_and_rib_outline",
-            "ratio": "narrow_waist_athletic_build",
-            "details": "small_tattoo_visible_on_left_ribcage"
+            "condition": "بطن مسطح مشدود",
+            "definition": "الخط الأبيض وحدود الأضلاع ظاهرة",
+            "ratio": "خصر ضيق وبنية رياضية",
+            "details": "وشم صغير ظاهر على القفص الصدري الأيسر"
           },
           "hips": {
-            "visibility": "top_curve_visible",
-            "ratio": "slender_transition_from_waist"
+            "visibility": "الانحناءة العلوية ظاهرة",
+            "ratio": "انتقال نحيل من الخصر"
           }
         },
         "clothing_and_accessories": {
           "upper_body": {
-            "item": "ribbed_knit_cardigan",
-            "color": "cream_or_white_appearing_pinkish_red",
-            "style": "high_neck_zip_up_long_sleeve",
-            "fit": "tight_form_fitting",
-            "state": "unzipped_to_bottom_exposing_torso"
+            "item": "كارديغان محبوك مضلّع",
+            "color": "كريمي أو أبيض يبدو أحمر وردياً",
+            "style": "ياقة عالية بسحّاب وأكمام طويلة",
+            "fit": "ضيق يتبع شكل الجسم",
+            "state": "مفتوح السحّاب حتى الأسفل كاشفاً الجذع"
           },
           "lower_body": {
-            "item": "underwear_or_lounge_pants_waistband",
+            "item": "حزام خصر ملابس داخلية أو بنطال منزلي",
             "brand": "Calvin_Klein_(visible_logo_fragment)",
-            "color": "grey_melange",
-            "style": "low_rise",
-            "visibility": "waistband_only"
+            "color": "رمادي مبرقش",
+            "style": "منخفض الخصر",
+            "visibility": "حزام الخصر فقط"
           },
           "jewelry": {
-            "item": "necklace",
-            "type": "thin_chain_with_bar_pendant",
-            "position": "hanging_between_cleavage"
+            "item": "قلادة",
+            "type": "سلسلة رفيعة بمدلاة مستطيلة",
+            "position": "متدلية بين الصدر"
           },
           "nails": {
-            "style": "long_manicured_oval",
-            "color": "light_neutral"
+            "style": "طويلة بيضاوية مُعتنى بها",
+            "color": "محايد فاتح"
           }
         }
       }
     ],
     "objects_in_scene": [
       {
-        "object": "smartphone",
-        "description": "iPhone_Pro_model_with_triple_lens",
-        "color": "silver_or_light_grey",
-        "purpose": "capture_device_and_face_mask",
-        "relation": "held_in_right_hand_center_frame"
+        "object": "هاتف ذكي",
+        "description": "طراز iPhone Pro بثلاث عدسات",
+        "color": "فضي أو رمادي فاتح",
+        "purpose": "جهاز التصوير وقناع للوجه",
+        "relation": "ممسوك في اليد اليمنى في وسط الإطار"
       },
       {
-        "object": "mirror",
-        "description": "large_wall_mirror",
-        "purpose": "medium_for_selfie",
-        "relation": "reflects_subject_and_background"
+        "object": "مرآة",
+        "description": "مرآة جدارية كبيرة",
+        "purpose": "وسيط السيلفي",
+        "relation": "تعكس الشخص والخلفية"
       },
       {
-        "object": "tiles",
-        "description": "black_square_tiles_white_grout",
-        "location": "background_walls",
-        "purpose": "texture_and_contrast"
+        "object": "بلاط",
+        "description": "بلاط مربع أسود بفواصل بيضاء",
+        "location": "جدران الخلفية",
+        "purpose": "ملمس وتباين"
       }
     ],
     "negative_prompt": "bright light, sunlight, outdoors, crowd, landscape, messy room, blue light, neon green, denim, dress, shoes, blurred, grainy, pixelated, low quality, distortion, extra limbs, painting, illustration, cartoon"
@@ -4004,34 +4004,34 @@ The shot feels like a quick, slightly forbidden phone snapshot: angle a bit low 
 }
 ```
 
-## 758. Ultra-Realistic Night Scene in a Turkish Kitchen 🔤
+## 758. مشهد ليلي فائق الواقعية في مطبخ تركي
 
 *الأصل:* Ultra-Realistic Night Scene in a Turkish Kitchen · *النوع:* نص
 
 ```
-Ultra-realistic, lightly comedic night scene in a small old-fashioned Turkish kitchen, vertical framing. Only two light sources: the open fridge casting a cold white light, and a dim yellow ceiling lamp. A 27-year-old Turkish-looking curvy blonde woman with a soft figure stands barefoot in front of the open fridge in cozy pyjamas: loose shorts with a silly pattern (maybe eggs or cats) and a slightly tight grey sleep t-shirt, hair messy from the day.
+مشهد ليلي فائق الواقعية وكوميدي بخفة في مطبخ تركي صغير قديم الطراز، بتأطير عمودي. مصدران فقط للضوء: الثلاجة المفتوحة تلقي ضوءاً أبيض بارداً، ومصباح سقف أصفر خافت. امرأة شقراء ممتلئة القوام بملامح تركية في السابعة والعشرين، بقوام ناعم، تقف حافية أمام الثلاجة المفتوحة ببيجامة مريحة: شورت فضفاض بنقشة سخيفة (ربما بيض أو قطط) وتيشيرت نوم رمادي ضيق قليلاً، وشعرها فوضوي من اليوم.
 
-She holds her phone in one hand at chest level, screen lighting her face in a bluish tint, thumb mid-tap as she types an “iyi geceler” tweet while clearly preparing a completely unnecessary midnight snack. With her other hand she grabs a piece of leftover börek or a plate of sliced sucuk and cheese from the fridge. Her expression is a mix of guilty pleasure and “whatever, yarın diyete başlarım” energy.
+تمسك هاتفها بيد واحدة بمستوى الصدر، والشاشة تضيء وجهها بصبغة مزرقة، وإبهامها في منتصف النقر وهي تكتب تغريدة "iyi geceler" (تصبحون على خير) بينما من الواضح أنها تحضّر وجبة منتصف ليل غير ضرورية إطلاقاً. وباليد الأخرى تلتقط قطعة بوريك متبقية أو طبقاً فيه سجق (سوجوق) مقطع وجبن من الثلاجة. تعبيرها مزيج من متعة المذنب وطاقة "مش مهم، yarın diyete başlarım (سأبدأ الحمية غداً)".
 
-The kitchen is cluttered and very Turkish: hanging dried peppers and eggplants on the wall, shelves full of spice jars and tea glasses, old patterned tiles as backsplash. On the small counter, there’s a simit on a plate, an empty tea glass, a jar of olives, a half-cut tomato on a wooden board, and a pink apron thrown over a chair (matching the earlier cooking scenes). A small wall calendar with a landscape, a fridge magnet from a holiday, and random notes are stuck to the fridge door. Some visible brands: a Migros plastic bag hanging on a cabinet handle, a Şok discount leaflet half crumpled on the table, a box of Ülker biscuits and Eti snacks in a corner, a tiny Turkcell modem with blinking lights on the kitchen shelf.
+المطبخ فوضوي وتركي جداً: فلفل وباذنجان مجفف معلق على الجدار، ورفوف مليئة ببرطمانات التوابل وكؤوس الشاي، وبلاط قديم منقوش خلف سطح العمل. على سطح العمل الصغير، سميت (simit) على طبق، وكأس شاي فارغ، وبرطمان زيتون، وطماطم نصف مقطوعة على لوح خشبي، ومريلة وردية مرمية على كرسي (متناسقة مع مشاهد الطبخ السابقة). تقويم جداري صغير عليه منظر طبيعي، ومغناطيس ثلاجة من عطلة، وملاحظات عشوائية ملصقة على باب الثلاجة. بعض العلامات التجارية الظاهرة: كيس Migros بلاستيكي معلق على مقبض خزانة، ومنشور خصومات Şok نصف مجعّد على الطاولة، وعلبة بسكويت Ülker ووجبات Eti الخفيفة في زاوية، ومودم Turkcell صغير بأضواء وامضة على رف المطبخ.
 
-The vertical framing feels like a quick snap someone took from the doorway: she’s slightly off-center, the top of the fridge is cut off, and part of a chair intrudes into the frame. Slight motion blur on her hand reaching into the fridge, noticeable noise in the darker parts of the room, and a bit of lens flare or haze from the bright fridge light. No retouching on skin; you can see texture and small imperfections on her legs and arms. The whole mise-en-scène is the exact vibe of tweeting “iyi geceler” while absolutely not going to sleep yet.
+يبدو التأطير العمودي كلقطة سريعة التقطها شخص من المدخل: هي منحرفة قليلاً عن المركز، وأعلى الثلاجة مقصوص، وجزء من كرسي يتطفل على الإطار. ضبابية حركة خفيفة على يدها الممتدة إلى داخل الثلاجة، وتشويش ملحوظ في الأجزاء الأغمق من الغرفة، وقليل من توهج العدسة أو الضباب من ضوء الثلاجة الساطع. بلا تنقيح للبشرة؛ يمكنك رؤية الملمس والعيوب الصغيرة على ساقيها وذراعيها. المشهد كاملاً هو بالضبط أجواء نشر تغريدة "iyi geceler" بينما لا تنوي النوم إطلاقاً بعد.
 ```
 
-## 759. Ultra-Realistic Comedic Slice-of-Life in an Ankara Bus 🔤
+## 759. لقطة كوميدية فائقة الواقعية من الحياة اليومية في حافلة بأنقرة
 
 *الأصل:* Ultra-Realistic Comedic Slice-of-Life in an Ankara Bus · *النوع:* نص
 
 ```
-Ultra-realistic comedic slice-of-life shot, vertical framing like a story screenshot, set inside a slightly old Ankara city bus or dolmuş at night. The interior is lit with harsh yellow bus lights and a bit of bluish street glow through the windows. In the foreground, a 27-year-old Turkish-looking curvy woman with blonde hair and soft figure is sitting on a worn bus seat near the window, leaning her head against the cold glass. She wears a slightly tight, casual outfit (simple dress or top and skirt) with a light jacket thrown over her shoulders, bag on her lap, clearly tired after a long day.
+لقطة كوميدية فائقة الواقعية من الحياة اليومية، بتأطير عمودي كلقطة شاشة لقصة، داخل حافلة مدينة قديمة قليلاً في أنقرة أو دولموش (dolmuş) ليلاً. الداخل مضاء بأضواء حافلة صفراء قاسية وقليل من توهج الشارع المزرق عبر النوافذ. في المقدمة، امرأة ممتلئة القوام بملامح تركية في السابعة والعشرين، بشعر أشقر وقوام ناعم، تجلس على مقعد حافلة مهترئ قرب النافذة، ورأسها مستند على الزجاج البارد. ترتدي ملابس عفوية ضيقة قليلاً (فستان بسيط أو توب وتنورة) مع سترة خفيفة ملقاة على كتفيها، وحقيبتها في حجرها، ومن الواضح أنها متعبة بعد يوم طويل.
 
-Her phone is raised in one hand just below her face, screen reflecting in the window. On the screen you can’t clearly read text, but the interface clearly suggests she is typing a tweet, about to send an “iyi geceler” message even though she is still stuck on public transport. Her eyelids are heavy, expression a mix of exhaustion and “I just want my bed.”
+هاتفها مرفوع بيد واحدة تحت وجهها مباشرة، وشاشته تنعكس على النافذة. لا يمكنك قراءة النص على الشاشة بوضوح، لكن الواجهة توحي بوضوح بأنها تكتب تغريدة، على وشك إرسال رسالة "iyi geceler" (تصبحون على خير) رغم أنها لا تزال عالقة في المواصلات العامة. جفناها ثقيلان، وتعبيرها مزيج من الإرهاق و"أريد سريري فقط".
 
-Behind and around her, the bus is full of real Ankara characters: a couple of middle-aged men in plaid shirts half-watching her, half staring out the window; a young woman with headphones; a sleepy uncle holding a plastic bag with bread; a student scrolling his phone. Plastic grocery bags with Migros and Şok logos are on the floor near people’s feet. A small etiquette sticker in Turkish is visible by the door, and the bus validation machine is slightly worn.
+خلفها ومن حولها، الحافلة مليئة بشخصيات أنقرة الحقيقية: رجلان في منتصف العمر بقمصان مربعات نصف يراقبانها ونصف يحدقان من النافذة؛ وشابة بسماعات رأس؛ وعمّ ناعس يمسك كيساً بلاستيكياً فيه خبز؛ وطالب يتصفح هاتفه. أكياس بقالة بلاستيكية تحمل شعاري Migros وŞok على الأرض قرب أقدام الناس. ملصق آداب صغير بالتركية ظاهر بجانب الباب، وجهاز التحقق من التذاكر في الحافلة مهترئ قليلاً.
 
-Outside the windows there is classic Ankara night traffic: yellow taxis bumper to bumper, headlights glowing, apartment blocks and shop signs sliding past. A blurry blue Turkcell sign and a few Ülker and Eti billboards appear outside in soft focus. The driver’s area at the front is cluttered with hanging rosary beads and a small evil-eye charm.
+خارج النوافذ حركة مرور أنقرة الليلية الكلاسيكية: سيارات أجرة صفراء متلاصقة، وأضواء أمامية متوهجة، وكتل سكنية ولافتات متاجر تنزلق مارّة. لافتة Turkcell زرقاء ضبابية وبعض لوحات إعلانات Ülker وEti تظهر في الخارج بتركيز ناعم. منطقة السائق في المقدمة مزدحمة بمسبحة معلقة وتميمة عين زرقاء صغيرة.
 
-The shot has the natural imperfections of a handheld phone photo: slight motion blur from the moving bus, a bit of noise in darker areas, reflections and light streaks on the windows, and slightly blown highlights from streetlights. The composition is a bit off—her head almost touches the top of the frame, and one passenger is awkwardly cropped at the edge—making it feel candid and unplanned, the perfect mise-en-scène for a sleepy commute “iyi geceler” tweet.
+للقطة العيوب الطبيعية لصورة هاتف محمولة باليد: ضبابية حركة خفيفة من الحافلة المتحركة، وقليل من التشويش في المناطق الأغمق، وانعكاسات وخطوط ضوء على النوافذ، وإبرازات محترقة قليلاً من أضواء الشوارع. التكوين غير متقن قليلاً—رأسها يكاد يلامس أعلى الإطار، وأحد الركاب مقصوص بشكل محرج عند الحافة—مما يجعلها تبدو عفوية وغير مخطط لها، وهي المشهد المثالي لتغريدة "iyi geceler" في رحلة العودة الناعسة.
 ```
 
 ## 760. ليلة دافئة في أنقرة: لقطة من مسلسل تلفزيوني تركي

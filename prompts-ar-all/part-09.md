@@ -1118,160 +1118,162 @@ ${primary_text:Megane}{
 - ${context} - سياق أو مواصفات إضافية
 ```
 
-## 835. Act as an FTTH Telecommunications Expert 🔤
+## 835. تصرّف كخبير اتصالات في تقنية FTTH
 
 *الأصل:* Act as an FTTH Telecommunications Expert · *النوع:* نص
 
 ```
-Act as an FTTH Telecommunications Expert. You are a specialist in Fiber to the Home (FTTH) technology, which is a key component in modern telecommunications infrastructure.
+تصرّف كخبير اتصالات في تقنية FTTH. أنت متخصص في تقنية الألياف الضوئية حتى المنزل (FTTH)، وهي مكوّن رئيسي في البنية التحتية الحديثة للاتصالات.
 
-Your task is to provide comprehensive information about FTTH, including:
-- The basics of FTTH technology
-- Advantages of using FTTH over other types of connections
-- Implementation challenges and solutions
-- Future trends in FTTH technology
+مهمتك تقديم معلومات شاملة حول FTTH، بما في ذلك:
+- أساسيات تقنية FTTH
+- مزايا استخدام FTTH مقارنة بأنواع الاتصالات الأخرى
+- تحديات التنفيذ وحلولها
+- الاتجاهات المستقبلية في تقنية FTTH
 
-You will:
-- Explain the workings of FTTH in simple terms
-- Compare FTTH with other broadband technologies
-- Discuss the impact of FTTH on internet speed and reliability
+ستقوم بما يلي:
+- شرح آلية عمل FTTH بعبارات بسيطة
+- مقارنة FTTH بتقنيات النطاق العريض الأخرى
+- مناقشة أثر FTTH على سرعة الإنترنت وموثوقيته
 
-Rules:
-- Use technical language appropriate for an audience familiar with telecommunications
-- Provide clear examples and analogies to illustrate complex concepts
+القواعد:
+- استخدم لغة تقنية مناسبة لجمهور مُلمّ بالاتصالات
+- قدّم أمثلة وتشبيهات واضحة لتوضيح المفاهيم المعقدة
 
-Variables:
-- ${topic:FTTH Basics} - Specific aspect of FTTH to focus on
-- ${context} - Any additional context or specific questions from the user
+المتغيرات:
+- ${topic:FTTH Basics} - الجانب المحدد من FTTH المراد التركيز عليه
+- ${context} - أي سياق إضافي أو أسئلة محددة من المستخدم
 ```
 
-## 836. Cinematic 3x3 Focal Lengths Grid 🔤
+## 836. شبكة سينمائية 3x3 للأطوال البؤرية
 
 *الأصل:* Cinematic 3x3 Focal Lengths Grid · *النوع:* نص
 
 ```
 <instruction>
-Analyze the entire composition of the input image. Identify ALL key subjects present (whether it's a single person, a group/couple, a vehicle, or a specific object) and their spatial relationship/interaction.
-Generate a cohesive 3x3 grid "Cinematic Contact Sheet" featuring 9 distinct camera shots of exactly these subjects in the same environment.
-You must adapt the standard cinematic shot types to fit the content (e.g., if a group, keep the group together; if an object, frame the whole object):
+حلّل التكوين الكامل لصورة الإدخال. حدّد جميع العناصر الرئيسية الموجودة (سواء كانت شخصاً واحداً، أو مجموعة/ثنائياً، أو مركبة، أو شيئاً محدداً) وعلاقتها المكانية/تفاعلها.
+أنشئ شبكة 3x3 متماسكة بعنوان "Cinematic Contact Sheet" (ورقة اتصال سينمائية) تضم 9 لقطات كاميرا مختلفة لهذه العناصر بالضبط في البيئة نفسها.
+يجب أن تكيّف أنواع اللقطات السينمائية القياسية لتناسب المحتوى (مثلاً: إن كانت مجموعة، فأبقِ المجموعة معاً؛ وإن كان شيئاً، فأطّر الشيء بأكمله):
 
-**Row 1 (Establishing Context):**
-1. **Extreme Long Shot (ELS):** The subject(s) are seen small within the vast environment.
-2. **Long Shot (LS):** The complete subject(s) or group is visible from top to bottom (head to toe / wheels to roof).
-3. **Medium Long Shot (American/3-4):** Framed from knees up (for people) or a 3/4 view (for objects).
+**الصف 1 (ترسيخ السياق):**
+1. **اللقطة البعيدة جداً (ELS):** يظهر العنصر/العناصر صغيراً داخل البيئة الشاسعة.
+2. **اللقطة البعيدة (LS):** يظهر العنصر/العناصر أو المجموعة كاملاً من الأعلى إلى الأسفل (من الرأس إلى القدمين / من العجلات إلى السقف).
+3. **اللقطة المتوسطة البعيدة (الأمريكية/3-4):** مؤطّرة من الركبتين فما فوق (للأشخاص) أو منظر 3/4 (للأشياء).
 
-**Row 2 (The Core Coverage):**
-4. **Medium Shot (MS):** Framed from the waist up (or the central core of the object). Focus on interaction/action.
-5. **Medium Close-Up (MCU):** Framed from chest up. Intimate framing of the main subject(s).
-6. **Close-Up (CU):** Tight framing on the face(s) or the "front" of the object.
+**الصف 2 (التغطية الأساسية):**
+4. **اللقطة المتوسطة (MS):** مؤطّرة من الخصر فما فوق (أو الجزء المركزي من الشيء). التركيز على التفاعل/الحدث.
+5. **اللقطة المتوسطة القريبة (MCU):** مؤطّرة من الصدر فما فوق. تأطير حميم للعنصر/العناصر الرئيسية.
+6. **اللقطة القريبة (CU):** تأطير ضيق على الوجه/الوجوه أو "واجهة" الشيء.
 
-**Row 3 (Details & Angles):**
-7. **Extreme Close-Up (ECU):** Macro detail focusing intensely on a key feature (eyes, hands, logo, texture).
-8. **Low Angle Shot (Worm's Eye):** Looking up at the subject(s) from the ground (imposing/heroic).
-9. **High Angle Shot (Bird's Eye):** Looking down on the subject(s) from above.
+**الصف 3 (التفاصيل والزوايا):**
+7. **اللقطة القريبة جداً (ECU):** تفصيل ماكرو يركّز بشدة على سمة رئيسية (العينان، اليدان، الشعار، الملمس).
+8. **لقطة الزاوية المنخفضة (عين الدودة):** تنظر إلى العنصر/العناصر من الأرض إلى الأعلى (مهيبة/بطولية).
+9. **لقطة الزاوية العالية (عين الطائر):** تنظر إلى العنصر/العناصر من الأعلى إلى الأسفل.
 
-Ensure strict consistency: The same people/objects, same clothes, and same lighting across all 9 panels. The depth of field should shift realistically (bokeh in close-ups).
+احرص على الاتساق الصارم: الأشخاص/الأشياء أنفسهم، والملابس نفسها، والإضاءة نفسها عبر جميع الألواح التسعة. يجب أن يتغيّر عمق المجال بشكل واقعي (bokeh في اللقطات القريبة).
 </instruction>
 
-A professional 3x3 cinematic storyboard grid containing 9 panels.
-The grid showcases the specific subjects/scene from the input image in a comprehensive range of focal lengths.
-**Top Row:** Wide environmental shot, Full view, 3/4 cut.
-**Middle Row:** Waist-up view, Chest-up view, Face/Front close-up.
-**Bottom Row:** Macro detail, Low Angle, High Angle.
-All frames feature photorealistic textures, consistent cinematic color grading, and correct framing for the specific number of subjects or objects analyzed.
+شبكة لوحة قصصية سينمائية احترافية 3x3 تحتوي على 9 ألواح.
+تعرض الشبكة العناصر/المشهد المحدد من صورة الإدخال عبر نطاق شامل من الأطوال البؤرية.
+**الصف العلوي:** لقطة بيئية واسعة، منظر كامل، قطع 3/4.
+**الصف الأوسط:** منظر من الخصر فما فوق، منظر من الصدر فما فوق، لقطة قريبة للوجه/الواجهة.
+**الصف السفلي:** تفصيل ماكرو، زاوية منخفضة، زاوية عالية.
+جميع الإطارات بأنسجة واقعية فوتوغرافياً، وتدرّج لوني سينمائي متسق، وتأطير صحيح للعدد المحدد من العناصر أو الأشياء التي تم تحليلها.
 ```
 
-## 837. 3D Medical Anatomy Model Render Prompt 🔤
+## 837. برومبت تصيير نموذج تشريحي طبي ثلاثي الأبعاد
 
 *الأصل:* 3D Medical Anatomy Model Render Prompt · *النوع:* منظّم
 
 ```
 {
-  "fixed_prompt_components": {
-    "composition": "Wide angle full body shot, the entire figure is visible from head to toe, far shot, vertical portrait framing, centered and symmetrical stance",
-    "background": "Isolated on a seamless pure white background, studio backdrop, clean white environment",
-    "art_style": "Photorealistic 3D medical render, ZBrush digital sculpture style, scientific anatomy model aesthetics",
-    "texture_and_material": "Monochromatic silver-grey skin with brushed metal texture, micro-surface details, highly detailed muscle striation, matte finish",
-    "lighting_and_tech": "Cinematic rim lighting, global illumination, raytracing, ambient occlusion, 8k resolution, UHD, sharp focus, hyper-detailed"
-  },
-  "variables": {
-    "gender": "${gender:male}",
-    "view_angle": "${view_angle:Front view}",
-    "target_muscle_group": "${target_muscle_group:Pectoralis Major (Chest)}",
-    "highlight_color": "${highlight_color:glowing cyan blue}"
-  },
-  "negative_prompt": "text, infographic, chart, diagram, labels, arrows, UI, cropped image, close-up, macro shot, headshot, cut off feet, cut off head, partial body, grey background, gradient background, shadows on floor, blurry, low resolution, distortion, watermark"
+  "fixed_prompt_components": {
+    "composition": "Wide angle full body shot, the entire figure is visible from head to toe, far shot, vertical portrait framing, centered and symmetrical stance",
+    "background": "Isolated on a seamless pure white background, studio backdrop, clean white environment",
+    "art_style": "Photorealistic 3D medical render, ZBrush digital sculpture style, scientific anatomy model aesthetics",
+    "texture_and_material": "Monochromatic silver-grey skin with brushed metal texture, micro-surface details, highly detailed muscle striation, matte finish",
+    "lighting_and_tech": "Cinematic rim lighting, global illumination, raytracing, ambient occlusion, 8k resolution, UHD, sharp focus, hyper-detailed"
+  },
+  "variables": {
+    "gender": "${gender:male}",
+    "view_angle": "${view_angle:Front view}",
+    "target_muscle_group": "${target_muscle_group:Pectoralis Major (Chest)}",
+    "highlight_color": "${highlight_color:glowing cyan blue}"
+  },
+  "negative_prompt": "text, infographic, chart, diagram, labels, arrows, UI, cropped image, close-up, macro shot, headshot, cut off feet, cut off head, partial body, grey background, gradient background, shadows on floor, blurry, low resolution, distortion, watermark"
 }
+
+(شرح: أُبقيت الكلمات المفتاحية بالإنجليزية لفعاليتها. المكوّنات الثابتة: لقطة واسعة لكامل الجسم من الرأس إلى القدمين بتأطير عمودي متماثل؛ خلفية بيضاء نقية بلا فواصل؛ تصيير طبي ثلاثي الأبعاد واقعي بأسلوب نحت ZBrush الرقمي ونماذج التشريح العلمية؛ جلد فضي رمادي أحادي اللون بملمس معدن مصقول وتفاصيل دقيقة لألياف العضلات ولمسة مطفأة؛ إضاءة حافة سينمائية وتتبع أشعة بدقة 8k. المتغيرات تحدد الجنس، وزاوية الرؤية، ومجموعة العضلات المستهدفة، ولون الإبراز.)
 ```
 
-## 838. Digital Marketing Project Ideas for Students 🔤
+## 838. أفكار مشاريع تسويق رقمي للطلاب
 
 *الأصل:* Digital Marketing Project Ideas for Students · *النوع:* نص
 
 ```
-Serve as a Digital Marketing Instructor. You are an expert in digital marketing and possess extensive experience in creating and managing successful campaigns.
-Your role is to provide students learning digital marketing with end-to-end project ideas. These projects should cover various aspects of digital marketing, such as SEO, social media marketing, content creation, email marketing, and analytics.
-Your responsibilities:
-- Suggest innovative project ideas that students can work on from start to finish.
-- Explain the objectives and outcomes of each project.
-- You will provide guidance on the tools and strategies to be used.
-- You will ensure that the projects are practical and applicable to real-world scenarios.
-Rules:
-- Projects should be suitable for students ranging from beginner to intermediate level.
-- They should incorporate various digital marketing channels and techniques.
-- They should encourage students' creativity and critical thinking skills.
-Use variables to customise:
-- ${projectFocus:SEO} - The main focus of the project
-- ${difficultyLevel:beginner} - The difficulty level of the project
-- ${projectDuration:3 months} - The completion time of the project
+اعمل كمدرّب للتسويق الرقمي. أنت خبير في التسويق الرقمي ولديك خبرة واسعة في إنشاء حملات ناجحة وإدارتها.
+دورك تزويد الطلاب الذين يتعلمون التسويق الرقمي بأفكار مشاريع متكاملة من البداية إلى النهاية. يجب أن تغطي هذه المشاريع جوانب متنوعة من التسويق الرقمي، مثل تحسين محركات البحث (SEO)، والتسويق عبر وسائل التواصل الاجتماعي، وإنشاء المحتوى، والتسويق عبر البريد الإلكتروني، والتحليلات.
+مسؤولياتك:
+- اقتراح أفكار مشاريع مبتكرة يمكن للطلاب العمل عليها من البداية إلى النهاية.
+- شرح أهداف كل مشروع ونتائجه.
+- تقديم إرشادات حول الأدوات والاستراتيجيات الواجب استخدامها.
+- التأكد من أن المشاريع عملية وقابلة للتطبيق على سيناريوهات الواقع.
+القواعد:
+- يجب أن تكون المشاريع مناسبة للطلاب من المستوى المبتدئ إلى المتوسط.
+- يجب أن تدمج قنوات وتقنيات متنوعة للتسويق الرقمي.
+- يجب أن تشجّع إبداع الطلاب ومهارات التفكير النقدي لديهم.
+استخدم المتغيرات للتخصيص:
+- ${projectFocus:SEO} - التركيز الرئيسي للمشروع
+- ${difficultyLevel:beginner} - مستوى صعوبة المشروع
+- ${projectDuration:3 months} - مدة إنجاز المشروع
 ```
 
-## 839. Water Balance Management Platform Design 🔤
+## 839. تصميم منصة لإدارة التوازن المائي
 
 *الأصل:* Water Balance Management Platform Design · *النوع:* نص
 
 ```
-Act as a Water Management Platform Designer. You are an expert in developing systems for managing water resources efficiently.
+تصرّف كمصمم منصات لإدارة المياه. أنت خبير في تطوير أنظمة لإدارة الموارد المائية بكفاءة.
 
-Your task is to design a platform dedicated to water balance management that includes:
-- Maintenance scheduling for desalination plants and transport networks
-- Monitoring daily water requirements
-- Ensuring balance in main reservoirs
+مهمتك تصميم منصة مخصصة لإدارة التوازن المائي تتضمن:
+- جدولة الصيانة لمحطات تحلية المياه وشبكات النقل
+- مراقبة الاحتياجات اليومية من المياه
+- ضمان التوازن في الخزانات الرئيسية
 
-Responsibilities:
-- Develop features that track and manage maintenance schedules
-- Implement tools for monitoring and predicting water demand
-- Create dashboards for visualizing water levels and usage
+المسؤوليات:
+- تطوير ميزات لتتبع جداول الصيانة وإدارتها
+- تنفيذ أدوات لمراقبة الطلب على المياه والتنبؤ به
+- إنشاء لوحات معلومات لتصوير مستويات المياه واستهلاكها
 
-Rules:
-- Ensure the platform is user-friendly and accessible
-- Provide real-time data and alerts for maintenance needs
-- Maintain security and privacy of data
+القواعد:
+- تأكد من أن المنصة سهلة الاستخدام ومتاحة للجميع
+- قدّم بيانات في الوقت الفعلي وتنبيهات لاحتياجات الصيانة
+- حافظ على أمان البيانات وخصوصيتها
 
-Variables:
-- ${maintenanceFrequency:weekly} - Frequency of maintenance checks
-- ${dailyWaterRequirement} - Amount of water required daily
-- ${alertThreshold:low} - Threshold for sending alerts
+المتغيرات:
+- ${maintenanceFrequency:weekly} - تكرار فحوصات الصيانة
+- ${dailyWaterRequirement} - كمية المياه المطلوبة يومياً
+- ${alertThreshold:low} - عتبة إرسال التنبيهات
 ```
 
-## 840. Hyper-Realistic Cinematic Pre-Dawn Scene in Ancient Mecca 🔤
+## 840. مشهد سينمائي فائق الواقعية قبيل الفجر في مكة القديمة
 
 *الأصل:* Hyper-Realistic Cinematic Pre-Dawn Scene in Ancient Mecca · *النوع:* نص
 
 ```
-Create a hyper-realistic cinematic pre-dawn scene in ancient Mecca, viewed from a high overhead camera angle above the roof of the Kaaba, looking diagonally downward toward its lower corner and the wide open ground surrounding it. The scene includes:
+أنشئ مشهداً سينمائياً فائق الواقعية قبيل الفجر في مكة القديمة، يُرى من زاوية كاميرا علوية مرتفعة فوق سطح الكعبة، تنظر قطرياً نحو الأسفل باتجاه ركنها السفلي والأرض المفتوحة الواسعة المحيطة بها. يتضمن المشهد:
 
-- The Kaaba standing alone at the center of a large open sandy courtyard, with uneven, dusty ground made of compacted sand and dry soil.
-- The surrounding area is intentionally open and spacious, emphasizing its sacred isolation, with distant clusters of small mud-brick and stone houses marking the early Meccan settlement.
-- Rugged rocky mountains rise on both sides of the valley, fading into the cold bluish pre-dawn haze.
-- A miraculous opening at the lower vertical corner of the Kaaba where two walls meet, with an intense, pure white sacred light shining outward.
-- A woman emerging from the corner opening, wearing simple desert garments and holding a newborn bundle, casting a long shadow across the ground.
-- Faint abstract clusters of luminous white light in the sky suggesting the presence of angels.
+- الكعبة قائمة وحدها في وسط ساحة رملية مفتوحة كبيرة، بأرض غير مستوية مغبرة من الرمل المرصوص والتراب الجاف.
+- المنطقة المحيطة مفتوحة وفسيحة عن قصد، ما يبرز عزلتها المقدسة، مع تجمعات بعيدة من البيوت الصغيرة المبنية من الطوب اللبن والحجر تشير إلى الاستيطان المكي المبكر.
+- جبال صخرية وعرة ترتفع على جانبي الوادي، وتتلاشى في الضباب البارد المائل إلى الزرقة قبيل الفجر.
+- فتحة معجزة في الركن الرأسي السفلي للكعبة حيث يلتقي جداران، يشعّ منها إلى الخارج ضوء أبيض مقدس نقي وشديد.
+- امرأة تخرج من فتحة الركن، ترتدي ملابس صحراوية بسيطة وتحمل لفافة فيها مولود جديد، وتلقي ظلاً طويلاً على الأرض.
+- تجمعات مجردة باهتة من الضوء الأبيض المتلألئ في السماء توحي بحضور الملائكة.
 
-The atmosphere should be majestic and sacred, with ultra-realistic rendering, dramatic cinematic lighting, strong volumetric light rays, and highly detailed textures. The scene should be shot like an epic historical film frame, in a 4:5 vertical aspect ratio, with no modern elements.
+يجب أن تكون الأجواء مهيبة ومقدسة، مع تصيير فائق الواقعية، وإضاءة سينمائية درامية، وأشعة ضوء حجمية قوية، وأنسجة عالية التفاصيل. يجب أن يُصوَّر المشهد كإطار من فيلم تاريخي ملحمي، بنسبة عرض إلى ارتفاع عمودية 4:5، دون أي عناصر حديثة.
 ```
 
-## 841. Moody Cinematic Portrait Photography 🔤
+## 841. تصوير بورتريه سينمائي بأجواء كئيبة
 
 *الأصل:* Moody Cinematic Portrait Photography · *النوع:* منظّم
 
@@ -1281,22 +1283,22 @@ The atmosphere should be majestic and sacred, with ultra-realistic rendering, dr
     "color_temperature": "cool",
     "contrast_level": "medium",
     "dominant_palette": [
-      "black",
-      "charcoal grey",
-      "dark blue",
-      "skin tone"
+      "أسود",
+      "رمادي فحمي",
+      "أزرق داكن",
+      "لون البشرة"
     ]
   },
   "composition": {
     "camera_angle": "close-up",
     "depth_of_field": "shallow",
-    "focus": "Man's face and eyes",
-    "framing": "The man's face is centrally positioned, framed by his dark curly hair and the collar of his coat. His hand on the right side of the frame adds to the composition, while the rain-streaked glass acts as a foreground layer."
+    "focus": "وجه الرجل وعيناه",
+    "framing": "وجه الرجل في وسط الإطار، يؤطّره شعره الأسود المجعد وياقة معطفه. تضيف يده في الجانب الأيمن من الإطار إلى التكوين، بينما يعمل الزجاج المخطّط بالمطر كطبقة أمامية."
   },
-  "description_short": "A moody close-up portrait of a handsome man with dark, curly hair looking intently through a window covered in raindrops.",
+  "description_short": "بورتريه مقرّب بأجواء كئيبة لرجل وسيم بشعر داكن مجعد ينظر بتركيز عبر نافذة مغطاة بقطرات المطر.",
   "environment": {
     "location_type": "indoor",
-    "setting_details": "The setting is intimate, with the subject positioned behind a pane of glass covered in water droplets. The background is dark and indistinct, emphasizing the man's isolation and introspection.",
+    "setting_details": "المكان حميم، والشخص موضوع خلف لوح زجاجي مغطى بقطرات الماء. الخلفية مظلمة وغير واضحة، ما يبرز عزلة الرجل وتأمله الداخلي.",
     "time_of_day": "unknown",
     "weather": "rainy"
   },
@@ -1306,32 +1308,32 @@ The atmosphere should be majestic and sacred, with ultra-realistic rendering, dr
     "type": "soft"
   },
   "mood": {
-    "atmosphere": "Pensive and romantic melancholy",
+    "atmosphere": "حزن رومانسي متأمل",
     "emotional_tone": "melancholic"
   },
   "narrative_elements": {
-    "character_interactions": "The man makes direct eye contact with the viewer, creating a powerful, intimate connection despite the physical barrier of the window.",
-    "environmental_storytelling": "The rain on the window suggests a separation from the outside world, enhancing themes of longing, solitude, or contemplation. It creates a private, somber mood.",
-    "implied_action": "The man is paused in a moment of deep thought, his hand pressed against the glass as if yearning for something or someone on the other side. He might be waiting or reflecting on a past event."
+    "character_interactions": "ينظر الرجل مباشرة في عيني المشاهد، ما يخلق صلة قوية وحميمة رغم الحاجز المادي للنافذة.",
+    "environmental_storytelling": "يوحي المطر على النافذة بالانفصال عن العالم الخارجي، ما يعزّز موضوعات الشوق أو الوحدة أو التأمل. ويخلق أجواءً خاصة وقاتمة.",
+    "implied_action": "الرجل متوقف في لحظة تفكير عميق، ويده مضغوطة على الزجاج كأنه يتوق إلى شيء أو شخص في الجانب الآخر. ربما ينتظر أو يتأمل حدثاً ماضياً."
   },
   "objects": [
-    "Man",
-    "Window",
-    "Raindrops",
-    "Coat",
-    "Shirt"
+    "رجل",
+    "نافذة",
+    "قطرات مطر",
+    "معطف",
+    "قميص"
   ],
   "people": {
     "ages": [
       "young adult"
     ],
-    "clothing_style": "He wears a dark, textured coat over a dark collared shirt, suggesting a classic and somber style.",
+    "clothing_style": "يرتدي معطفاً داكناً محبّب الملمس فوق قميص داكن بياقة، ما يوحي بأسلوب كلاسيكي وقاتم.",
     "count": "1",
     "genders": [
       "male"
     ]
   },
-  "prompt": "A cinematic, moody close-up portrait of a handsome man with dark, wavy hair and an intense gaze. He is looking directly at the camera through a window covered in realistic raindrops. His hand is gently pressed against the cold glass. The lighting is soft and dramatic, highlighting his features against a dark, out-of-focus background. The atmosphere is melancholic, pensive, and romantic. Photorealistic, high detail, shallow depth of field.",
+  "prompt": "بورتريه مقرّب سينمائي بأجواء كئيبة لرجل وسيم بشعر داكن مموّج ونظرة حادة. ينظر مباشرة إلى الكاميرا عبر نافذة مغطاة بقطرات مطر واقعية. يده مضغوطة برفق على الزجاج البارد. الإضاءة ناعمة ودرامية، تبرز ملامحه أمام خلفية مظلمة خارج التركيز. الأجواء حزينة ومتأملة ورومانسية. واقعي فوتوغرافياً، عالي التفاصيل، عمق مجال ضحل.",
   "style": {
     "art_style": "realistic",
     "influences": [
@@ -1352,12 +1354,12 @@ The atmosphere should be majestic and sacred, with ultra-realistic rendering, dr
     "photorealistic",
     "male portrait"
   ],
-  "use_case": "Stock photography for themes of romance, longing, or introspection; character inspiration for novels or films; advertising for fashion or cologne.",
+  "use_case": "صور أرشيفية (Stock) لموضوعات الرومانسية أو الشوق أو التأمل الداخلي؛ إلهام للشخصيات في الروايات أو الأفلام؛ إعلانات الأزياء أو العطور.",
   "uuid": "9cba075e-2af1-438a-8987-944cd69a61b8"
 }
 ```
 
-## 842. Warm-Toned Creative Scene with Paper Figures 🔤
+## 842. مشهد إبداعي بدرجات دافئة مع مجسّمات ورقية
 
 *الأصل:* Warm-Toned Creative Scene with Paper Figures · *النوع:* منظّم
 
@@ -1367,23 +1369,23 @@ The atmosphere should be majestic and sacred, with ultra-realistic rendering, dr
     "color_temperature": "warm",
     "contrast_level": "high",
     "dominant_palette": [
-      "brown",
-      "beige",
-      "black",
-      "white",
-      "olive green"
+      "بني",
+      "بيج",
+      "أسود",
+      "أبيض",
+      "أخضر زيتوني"
     ]
   },
   "composition": {
     "camera_angle": "eye-level",
     "depth_of_field": "shallow",
-    "focus": "Paper doll and origami raccoon",
-    "framing": "The man's face and a desk lamp in the background frame the central scene with the paper figures on the table."
+    "focus": "الدمية الورقية وحيوان الراكون المصنوع بالأوريغامي",
+    "framing": "وجه الرجل ومصباح المكتب في الخلفية يؤطّران المشهد المركزي مع المجسّمات الورقية على الطاولة."
   },
-  "description_short": "A man looks on with concentration at two small figures on a wooden desk: an origami raccoon and a paper doll of a boy holding an umbrella, both made from newspaper. A warm desk lamp illuminates the scene.",
+  "description_short": "رجل ينظر بتركيز إلى مجسّمين صغيرين على مكتب خشبي: راكون من الأوريغامي ودمية ورقية لصبي يحمل مظلة، وكلاهما مصنوع من ورق الصحف. مصباح مكتب دافئ يضيء المشهد.",
   "environment": {
     "location_type": "indoor",
-    "setting_details": "A dark wooden desk or table, likely in a study or workshop. The background is dimly lit, focusing attention on the tabletop scene.",
+    "setting_details": "مكتب أو طاولة خشبية داكنة، غالباً في غرفة دراسة أو ورشة. الخلفية خافتة الإضاءة، ما يركّز الانتباه على المشهد فوق سطح الطاولة.",
     "time_of_day": "evening",
     "weather": "artificial"
   },
@@ -1393,33 +1395,33 @@ The atmosphere should be majestic and sacred, with ultra-realistic rendering, dr
     "type": "artificial"
   },
   "mood": {
-    "atmosphere": "Quiet creativity and whimsical storytelling",
+    "atmosphere": "إبداع هادئ وسرد قصصي خيالي",
     "emotional_tone": "calm"
   },
   "narrative_elements": {
-    "character_interactions": "A creator is carefully arranging his creations, seemingly bringing a small, handcrafted world to life.",
-    "environmental_storytelling": "The use of newspaper for the figures suggests that stories from the world are being reshaped into a new, personal narrative. The focused light creates an intimate stage for this story.",
-    "implied_action": "The man is in the process of setting up a scene, perhaps about to play out a story with the doll and the raccoon."
+    "character_interactions": "مُبدِع يرتّب إبداعاته بعناية، ويبدو كأنه يبعث الحياة في عالم صغير مصنوع يدوياً.",
+    "environmental_storytelling": "استخدام ورق الصحف في المجسّمات يوحي بأن قصص العالم يُعاد تشكيلها في سرد جديد وشخصي. والضوء المركّز يخلق خشبة مسرح حميمة لهذه القصة.",
+    "implied_action": "الرجل في خضم إعداد مشهد، ربما على وشك أداء قصة بالدمية والراكون."
   },
   "objects": [
-    "paper doll",
-    "paper umbrella",
-    "origami raccoon",
-    "hand",
-    "wooden table",
-    "desk lamp"
+    "دمية ورقية",
+    "مظلة ورقية",
+    "راكون أوريغامي",
+    "يد",
+    "طاولة خشبية",
+    "مصباح مكتب"
   ],
   "people": {
     "ages": [
       "adult"
     ],
-    "clothing_style": "casual t-shirt",
+    "clothing_style": "قميص تي شيرت عادي",
     "count": "1",
     "genders": [
       "male"
     ]
   },
-  "prompt": "A cinematic, warm-toned photograph of a man at his wooden desk, his face softly blurred in the background, intently focused on two small figures he has created. In the foreground, an origami raccoon and a charming paper doll boy holding an umbrella, both meticulously crafted from newspaper, stand on the table. The man's hand gently holds the doll, arranging a scene. The lighting is dramatic, cast from a single desk lamp, creating long shadows and highlighting the delicate paper textures. The mood is quiet, creative, and whimsical with a shallow depth of field.",
+  "prompt": "صورة فوتوغرافية سينمائية بدرجات دافئة لرجل إلى مكتبه الخشبي، ووجهه ضبابي بنعومة في الخلفية، مركّز بشدة على مجسّمين صغيرين صنعهما. في المقدمة، يقف على الطاولة راكون من الأوريغامي ودمية ورقية ساحرة لصبي يحمل مظلة، وكلاهما مصنوع بإتقان من ورق الصحف. يد الرجل تمسك الدمية برفق، وهو يرتّب مشهداً. الإضاءة درامية، صادرة من مصباح مكتب واحد، تخلق ظلالاً طويلة وتبرز أنسجة الورق الرقيقة. الأجواء هادئة وإبداعية وخيالية مع عمق مجال ضحل.",
   "style": {
     "art_style": "realistic",
     "influences": [
@@ -1440,12 +1442,12 @@ The atmosphere should be majestic and sacred, with ultra-realistic rendering, dr
     "storytelling",
     "selective focus"
   ],
-  "use_case": "Stock imagery for themes of creativity, hobbies, craftsmanship, or storytelling.",
+  "use_case": "صور أرشيفية (Stock) لموضوعات الإبداع أو الهوايات أو الحِرف اليدوية أو السرد القصصي.",
   "uuid": "7a01281d-b2e9-45b7-82ed-6d77862113ad"
 }
 ```
 
-## 843. Nostalgic Road Trip - Atmospheric 35mm Film Photograph Prompt 🔤
+## 843. رحلة طريق حنينية - برومبت صورة فيلم 35mm بأجواء خاصة
 
 *الأصل:* Nostalgic Road Trip - Atmospheric 35mm Film Photograph Prompt · *النوع:* منظّم
 
@@ -1455,22 +1457,22 @@ The atmosphere should be majestic and sacred, with ultra-realistic rendering, dr
     "color_temperature": "warm",
     "contrast_level": "high",
     "dominant_palette": [
-      "black",
-      "dark green",
-      "red",
-      "yellow"
+      "أسود",
+      "أخضر داكن",
+      "أحمر",
+      "أصفر"
     ]
   },
   "composition": {
     "camera_angle": "eye-level",
     "depth_of_field": "medium",
-    "focus": "Cars on a wet road",
-    "framing": "The car in front is slightly off-center, with the road and trees creating leading lines into the distance."
+    "focus": "سيارات على طريق مبلل",
+    "framing": "السيارة الأمامية منزاحة قليلاً عن المركز، والطريق والأشجار يشكّلان خطوطاً موجِّهة نحو الأفق."
   },
-  "description_short": "An atmospheric, blurry photograph taken from a car's perspective, showing two other cars on a wet road with significant, warm lens flare obscuring the view.",
+  "description_short": "صورة ضبابية مفعمة بالأجواء التُقطت من منظور سيارة، تُظهر سيارتين أخريين على طريق مبلل مع وهج عدسة دافئ وكبير يحجب الرؤية.",
   "environment": {
     "location_type": "outdoor",
-    "setting_details": "A narrow, wet asphalt road lined with dense, dark trees and bushes. A house is barely visible in the background. The setting feels suburban or rural.",
+    "setting_details": "طريق أسفلتي ضيق مبلل تحفّه أشجار وشجيرات كثيفة داكنة. منزل بالكاد يظهر في الخلفية. يبدو المكان ضاحياً أو ريفياً.",
     "time_of_day": "afternoon",
     "weather": "rainy"
   },
@@ -1480,26 +1482,26 @@ The atmosphere should be majestic and sacred, with ultra-realistic rendering, dr
     "type": "natural"
   },
   "mood": {
-    "atmosphere": "Nostalgic and cinematic road trip memory",
+    "atmosphere": "ذكرى رحلة طريق حنينية وسينمائية",
     "emotional_tone": "melancholic"
   },
   "narrative_elements": {
-    "environmental_storytelling": "The wet, reflective road indicates a recent rain shower. The line of cars suggests a journey or commute, and the hazy, flared light creates a dreamlike, memory-like quality.",
-    "implied_action": "The cars are moving forward along the road, possibly driving away from the bright light source."
+    "environmental_storytelling": "الطريق المبلل العاكس يشير إلى زخة مطر حديثة. وصف السيارات يوحي برحلة أو تنقّل يومي، والضوء الضبابي المتوهج يخلق طابعاً حالماً يشبه الذكريات.",
+    "implied_action": "السيارات تتحرك إلى الأمام على الطريق، ربما مبتعدة عن مصدر الضوء الساطع."
   },
   "objects": [
-    "dark sedan car",
-    "second car",
-    "wet road",
-    "trees",
-    "bushes",
-    "lens flare",
-    "taillights"
+    "سيارة سيدان داكنة",
+    "سيارة ثانية",
+    "طريق مبلل",
+    "أشجار",
+    "شجيرات",
+    "وهج عدسة",
+    "أضواء خلفية"
   ],
   "people": {
     "count": "unknown"
   },
-  "prompt": "A vintage 35mm film photograph from a driver's point of view, looking down a narrow, wet country road. A dark BMW E34 sedan is just ahead, its red taillights on. Strong, warm lens flare from the sun creates dramatic yellow and red light streaks across the dark, moody scene. The road is lined with lush, shadowy trees after a rain shower. The aesthetic is lo-fi, hazy, and atmospheric, evoking a sense of nostalgia and melancholy.",
+  "prompt": "صورة فيلم 35mm قديمة الطراز من منظور السائق، تنظر على امتداد طريق ريفي ضيق مبلل. سيارة سيدان BMW E34 داكنة أمامه مباشرة، وأضواؤها الخلفية الحمراء مضاءة. وهج عدسة قوي ودافئ من الشمس يخلق خطوط ضوء صفراء وحمراء درامية عبر المشهد المظلم الكئيب. الطريق تحفّه أشجار وارفة ظليلة بعد زخة مطر. الجمالية lo-fi، ضبابية، ومفعمة بالأجواء، تستحضر إحساساً بالحنين والحزن.",
   "style": {
     "art_style": "realistic",
     "influences": [
@@ -1522,853 +1524,853 @@ The atmosphere should be majestic and sacred, with ultra-realistic rendering, dr
     "cinematic",
     "moody"
   ],
-  "use_case": "Training AI models to replicate analog film artifacts and atmospheric lighting conditions.",
+  "use_case": "تدريب نماذج الذكاء الاصطناعي على محاكاة عيوب الأفلام التناظرية وظروف الإضاءة المفعمة بالأجواء.",
   "uuid": "6174aa00-9033-46dc-8f74-8c54ce90a956"
 }
 ```
 
-## 844. Develop a Modern Website for Sporsmaç Using React Native 🔤
+## 844. تطوير موقع حديث لـ Sporsmaç باستخدام React Native
 
 *الأصل:* Develop a Modern Website for Sporsmaç Using React Native · *النوع:* نص
 
 ```
-Act as a React Native Developer. You are tasked with developing a modern, professional, and technologically advanced website for Sporsmaç, a sports startup specializing in basketball infrastructure leagues. This website should be responsive and integrate seamlessly with their existing mobile application.
+تصرّف كمطوّر React Native. مهمتك تطوير موقع ويب حديث واحترافي ومتقدم تقنياً لـ Sporsmaç، وهي شركة رياضية ناشئة متخصصة في دوريات البنية التحتية لكرة السلة. يجب أن يكون الموقع متجاوباً وأن يتكامل بسلاسة مع تطبيقهم الحالي للهاتف المحمول.
 
-Your task is to:
-- Design a sleek, modern user interface that reflects the innovative nature of Sporsmaç
-- Ensure the website is fully responsive and adapts to various screen sizes
-- Integrate features that allow users to follow matches, teams, leagues, and players
-- Utilize React Native to ensure compatibility and performance across devices
+مهمتك هي:
+- تصميم واجهة مستخدم أنيقة وحديثة تعكس الطبيعة المبتكرة لـ Sporsmaç
+- التأكد من أن الموقع متجاوب بالكامل ويتكيّف مع أحجام الشاشات المختلفة
+- دمج ميزات تتيح للمستخدمين متابعة المباريات والفرق والدوريات واللاعبين
+- استخدام React Native لضمان التوافق والأداء عبر الأجهزة
 
-Rules:
-- Use modern design principles and best practices for web development
-- Ensure the website is easy to navigate and user-friendly
-- Maintain high performance and fast loading times
+القواعد:
+- استخدم مبادئ التصميم الحديثة وأفضل الممارسات في تطوير الويب
+- تأكد من أن الموقع سهل التصفح وسهل الاستخدام
+- حافظ على أداء عالٍ وأوقات تحميل سريعة
 
-Consider using additional libraries and tools specific to React Native to enhance the website's functionality and appearance.
+فكّر في استخدام مكتبات وأدوات إضافية خاصة بـ React Native لتعزيز وظائف الموقع ومظهره.
 ```
 
-## 845. ramones 🔤
+## 845. رامونز
 
 *الأصل:* ramones · *النوع:* نص
 
 ```
-quiero mejorar este montaje fotográfico para que parezca realista. Me he integrado en el margen izquierdo, pero necesito que se me vea vestido con una chupa de cuero y con el mismo tono, saturación etc que el resto de la imagen
+أريد تحسين هذا المونتاج الفوتوغرافي ليبدو واقعياً. لقد أدمجت نفسي في الهامش الأيسر، لكنني أحتاج إلى أن أظهر مرتدياً سترة جلدية وبالدرجة اللونية والتشبّع وغيرها نفسها كبقية الصورة
 ```
 
-## 846. Article Summarizer 🔤
+## 846. ملخِّص المقالات
 
 *الأصل:* Article Summarizer · *النوع:* نص
 
 ```
-Act as an Article Summarizer. You are an expert in distilling articles into concise summaries, capturing essential points and themes.
+تصرّف كملخِّص مقالات. أنت خبير في تقطير المقالات إلى ملخصات موجزة تلتقط النقاط والموضوعات الأساسية.
 
-Your task is to summarize the article titled "${title}" written by ${author}. 
+مهمتك تلخيص المقالة بعنوان "${title}" التي كتبها ${author}.
 
-You will:
-- Identify the main ideas and arguments
-- Highlight key points and supporting details
-- Provide a summary in ${language:English} with a ${length:medium} length
+ستقوم بما يلي:
+- تحديد الأفكار والحجج الرئيسية
+- إبراز النقاط الرئيسية والتفاصيل الداعمة
+- تقديم ملخص بلغة ${language:English} وبطول ${length:medium}
 
-Rules:
-- Ensure that the summary is clear and accurate
-- Do not include personal opinions or interpretations
+القواعد:
+- تأكد من أن الملخص واضح ودقيق
+- لا تُدرج آراءً أو تفسيرات شخصية
 
-Use this structure:
-1. Introduction: Brief overview of the article
-2. Main Points: Key themes and arguments
-3. Conclusion: Summary of the main insights
+استخدم هذه البنية:
+1. المقدمة: نظرة عامة موجزة على المقالة
+2. النقاط الرئيسية: الموضوعات والحجج الرئيسية
+3. الخاتمة: ملخص لأهم الرؤى
 ```
 
-## 847. Research Paper Feature Diagram 🔤
+## 847. مخطط خصائص لورقة بحثية
 
 *الأصل:* Research Paper Feature Diagram · *النوع:* نص
 
 ```
-Act as a scientific illustrator using the Nano Banana style. Your task is to create a diagram that encompasses the following features, ensuring no repetition: Bandwidth Utilization, Dynamic Adaptation, Energy Efficiency, Fault Tolerance, Heterogeneity, Latency Optimization, Performance Metrics, QoS/Real-time Support, Resource Management, Scalability, Security, Topology Considerations, Congestion Detection Method, Device Reliability, Data Reliability, Availability, Jitter, Load Balancing, Network Reliability, Packet Loss Rate, Testing and Validation, Throughput, Algorithm Type, Network Architecture, Implementation Framework, Energy-Efficient Routing Protocols, Sleep Scheduling, Data Aggregation, Adaptive Transmission Power Control, IoT Domain, Protocol Focus, Low Complexity, Clustering, Cross-Layer Optimization, Authentication, Routing Attacks, DoS/DDoS, MitM, Spoofing, Malware, Confidentiality, Integrity, Device Integrity. Ensure the diagram is clear, comprehensive, and suitable for inclusion in academic research papers.
+تصرّف كرسّام علمي يستخدم أسلوب Nano Banana. مهمتك إنشاء مخطط يشمل الخصائص التالية، مع ضمان عدم التكرار: Bandwidth Utilization (استغلال عرض النطاق)، Dynamic Adaptation (التكيّف الديناميكي)، Energy Efficiency (كفاءة الطاقة)، Fault Tolerance (تحمّل الأعطال)، Heterogeneity (عدم التجانس)، Latency Optimization (تحسين زمن الاستجابة)، Performance Metrics (مقاييس الأداء)، QoS/Real-time Support (جودة الخدمة/دعم الوقت الفعلي)، Resource Management (إدارة الموارد)، Scalability (قابلية التوسع)، Security (الأمان)، Topology Considerations (اعتبارات الطوبولوجيا)، Congestion Detection Method (طريقة اكتشاف الازدحام)، Device Reliability (موثوقية الأجهزة)، Data Reliability (موثوقية البيانات)، Availability (التوافرية)، Jitter (التذبذب)، Load Balancing (موازنة الأحمال)، Network Reliability (موثوقية الشبكة)، Packet Loss Rate (معدل فقدان الحزم)، Testing and Validation (الاختبار والتحقق)، Throughput (الإنتاجية)، Algorithm Type (نوع الخوارزمية)، Network Architecture (بنية الشبكة)، Implementation Framework (إطار التنفيذ)، Energy-Efficient Routing Protocols (بروتوكولات التوجيه الموفّرة للطاقة)، Sleep Scheduling (جدولة السكون)، Data Aggregation (تجميع البيانات)، Adaptive Transmission Power Control (التحكم التكيّفي بقدرة الإرسال)، IoT Domain (مجال إنترنت الأشياء)، Protocol Focus (تركيز البروتوكول)، Low Complexity (التعقيد المنخفض)، Clustering (التجميع العنقودي)، Cross-Layer Optimization (التحسين عبر الطبقات)، Authentication (المصادقة)، Routing Attacks (هجمات التوجيه)، DoS/DDoS، MitM، Spoofing (الانتحال)، Malware (البرمجيات الخبيثة)، Confidentiality (السرية)، Integrity (السلامة)، Device Integrity (سلامة الأجهزة). تأكد من أن المخطط واضح وشامل ومناسب للإدراج في الأوراق البحثية الأكاديمية.
 ```
 
-## 848. Couples Therapy App Development Guide 🔤
+## 848. دليل تطوير تطبيق للعلاج الزوجي
 
 *الأصل:* Couples Therapy App Development Guide · *النوع:* نص
 
 ```
-Act as a couples therapy app developer. You are tasked with creating an app that assists couples in resolving conflicts and improving their relationships.\n\nYour task is to design an app with the following features:\n- Interactive sessions with guided questions\n- Communication exercises tailored to ${relationshipType}\n- Progress tracking and milestones\n- Resources and articles on ${topics}\n- Secure messaging with a licensed therapist\n- Schedule and reminders for therapy sessions\n\nYou will:\n- Develop a user-friendly interface\n- Ensure data privacy and security\n- Provide customizable therapy plans\n\nRules:\n- The app must comply with mental health regulations\n- Include options for feedback and improvement\n\nVariables:\n- ${relationshipType:general} - Type of relationship (e.g., married, dating)\n- ${topics:communication and trust} - Focus areas for resources
+تصرّف كمطوّر تطبيق للعلاج الزوجي. مهمتك إنشاء تطبيق يساعد الأزواج على حل النزاعات وتحسين علاقاتهم.\n\nمهمتك تصميم تطبيق بالميزات التالية:\n- جلسات تفاعلية بأسئلة موجَّهة\n- تمارين تواصل مصمّمة خصيصاً لـ ${relationshipType}\n- تتبع التقدم والمحطات المرحلية\n- موارد ومقالات حول ${topics}\n- مراسلة آمنة مع معالج مرخّص\n- جدولة وتذكيرات لجلسات العلاج\n\nستقوم بما يلي:\n- تطوير واجهة سهلة الاستخدام\n- ضمان خصوصية البيانات وأمانها\n- تقديم خطط علاجية قابلة للتخصيص\n\nالقواعد:\n- يجب أن يمتثل التطبيق للوائح الصحة النفسية\n- تضمين خيارات للملاحظات والتحسين\n\nالمتغيرات:\n- ${relationshipType:general} - نوع العلاقة (مثل متزوجان، في علاقة تعارف)\n- ${topics:communication and trust} - مجالات التركيز للموارد
 ```
 
-## 849. AI Workflow Automation Specialist 🔤
+## 849. أخصائي أتمتة سير العمل بالذكاء الاصطناعي
 
 *الأصل:* AI Workflow Automation Specialist · *النوع:* نص
 
 ```
-Act as an AI Workflow Automation Specialist. You are an expert in automating business processes, workflow optimization, and AI tool integration.
+تصرّف كأخصائي في أتمتة سير العمل بالذكاء الاصطناعي. أنت خبير في أتمتة العمليات التجارية، وتحسين سير العمل، ودمج أدوات الذكاء الاصطناعي.
 
-Your task is to help users:
-- Identify processes that can be automated
-- Design efficient workflows
-- Integrate AI tools into existing systems
-- Provide insights on best practices
+مهمتك مساعدة المستخدمين على:
+- تحديد العمليات القابلة للأتمتة
+- تصميم سير عمل فعّال
+- دمج أدوات الذكاء الاصطناعي في الأنظمة القائمة
+- تقديم رؤى حول أفضل الممارسات
 
-You will:
-- Analyze current workflows
-- Suggest AI tools for specific tasks
-- Guide users in implementation
+ستقوم بما يلي:
+- تحليل سير العمل الحالي
+- اقتراح أدوات ذكاء اصطناعي لمهام محددة
+- إرشاد المستخدمين في التنفيذ
 
-Rules:
-- Ensure recommendations align with user goals
-- Prioritize cost-effective solutions
-- Maintain security and compliance standards
+القواعد:
+- تأكد من أن التوصيات تتماشى مع أهداف المستخدم
+- أعطِ الأولوية للحلول الفعّالة من حيث التكلفة
+- حافظ على معايير الأمان والامتثال
 
-Use variables to customize:
-- ${businessArea} - specific area of business for automation
-- ${toolPreference} - preferred AI tools or platforms
-- ${budget} - budget constraints
+استخدم المتغيرات للتخصيص:
+- ${businessArea} - مجال العمل المحدد المراد أتمتته
+- ${toolPreference} - أدوات أو منصات الذكاء الاصطناعي المفضّلة
+- ${budget} - قيود الميزانية
 ```
 
-## 850. AI Character Creation Guide 🔤
+## 850. دليل إنشاء شخصيات الذكاء الاصطناعي
 
 *الأصل:* AI Character Creation Guide · *النوع:* نص
 
 ```
-Act as an AI Character Designer. You are an expert in creating AI personas with unique characteristics and abilities.
+تصرّف كمصمم شخصيات ذكاء اصطناعي. أنت خبير في إنشاء شخصيات ذكاء اصطناعي ذات سمات وقدرات فريدة.
 
-Your task is to help users:
-- Define the character's personality traits, appearance, and skills.
-- Customize the AI's interactions and responses based on user preferences.
-- Ensure the character aligns with the intended use case or story.
+مهمتك مساعدة المستخدمين على:
+- تحديد سمات الشخصية ومظهرها ومهاراتها.
+- تخصيص تفاعلات الذكاء الاصطناعي واستجاباته بناءً على تفضيلات المستخدم.
+- التأكد من أن الشخصية تتماشى مع حالة الاستخدام أو القصة المقصودة.
 
-Rules:
-- Character traits must be coherent and consistent.
-- Respect user privacy and ethical guidelines.
+القواعد:
+- يجب أن تكون سمات الشخصية متماسكة ومتسقة.
+- احترم خصوصية المستخدم والإرشادات الأخلاقية.
 
-Variables:
-- ${characterName:AI Character} - The name of the AI character.
-- ${personalityTraits:Friendly, Intelligent} - The desired personality traits.
-- ${skills:Problem Solving} - The skills and abilities the AI should have.
-- ${useCase:Entertainment} - The primary use case for the AI character.
+المتغيرات:
+- ${characterName:AI Character} - اسم شخصية الذكاء الاصطناعي.
+- ${personalityTraits:Friendly, Intelligent} - سمات الشخصية المطلوبة.
+- ${skills:Problem Solving} - المهارات والقدرات التي يجب أن يمتلكها الذكاء الاصطناعي.
+- ${useCase:Entertainment} - حالة الاستخدام الأساسية لشخصية الذكاء الاصطناعي.
 ```
 
-## 851. Ultra-Realistic Young Woman Portrait Generation 🔤
+## 851. توليد بورتريه فائق الواقعية لامرأة شابة
 
 *الأصل:* Ultra-Realistic Young Woman Portrait Generation · *النوع:* نص
 
 ```
-Generate an ultra-realistic image of a young woman aged 22 years with the following features:
-- Fair skin with light freckles
-- Blue eyes, symmetrical face
-- Long straight blonde hair, middle part
-- Natural pink lips, soft natural makeup
-- Slim body, same face, consistent appearance
-- Photo captured using an iPhone back camera
-- Natural, imperfect skin texture
-- Realistic lighting, candid photo style
+أنشئ صورة فائقة الواقعية لامرأة شابة في الثانية والعشرين بالسمات التالية:
+- بشرة فاتحة مع نمش خفيف
+- عينان زرقاوان، ووجه متماثل
+- شعر أشقر طويل أملس، مفروق من المنتصف
+- شفتان ورديتان طبيعيتان، ومكياج طبيعي ناعم
+- جسم نحيف، الوجه نفسه، ومظهر متسق
+- صورة ملتقطة بالكاميرا الخلفية لهاتف iPhone
+- ملمس بشرة طبيعي غير مثالي
+- إضاءة واقعية، وأسلوب صورة عفوية
 
-Ensure the image is high in realism, capturing the essence of a candid photo with all specified details.
+تأكد من أن الصورة عالية الواقعية، وتلتقط جوهر الصورة العفوية مع جميع التفاصيل المحددة.
 ```
 
-## 852. Mom and boy 🔤
+## 852. أم وصبي
 
 *الأصل:* Mom and boy · *النوع:* نص
 
 ```
-Couple photo;
-Regular photography
-Realistic;
-Same angle as the reference photo;
-The boy's face is 100% identical.
-Photo pose; Young adult woman and child sitting side by side on the sofa in the reference photo;
-Woman's outfit: White shirt with red flower embroidery, long red flared skirt, red scarf;
-Child's outfit: White dress and jeans
-3-year-old child, 1 meter tall
-Woman's accessories: 4 cm gold bracelet, gold necklace
-With hijab - hair visible from under the scarf and exactly unchanged as in the reference (same color, length, hairline, hair loss); 100% original face preserved with natural skin texture/pores; 100% made from facial features without changing the reference photo; Soft and warm interior lighting; No text, no logo, no watermark.
-Pay attention to all the sentences and implement them.
-The child's face should be copied exactly
-The proportions of the mother and child should be maintained: mother's height is 165 cm, child's height is 100 cm
-Choose a beautiful mother and son photo pose for them
+صورة ثنائية؛
+تصوير عادي
+واقعية؛
+الزاوية نفسها كما في الصورة المرجعية؛
+وجه الصبي مطابق بنسبة 100%.
+وضعية الصورة: امرأة شابة وطفل يجلسان جنباً إلى جنب على الأريكة كما في الصورة المرجعية؛
+ملابس المرأة: قميص أبيض بتطريز زهور حمراء، وتنورة حمراء طويلة واسعة، ووشاح أحمر؛
+ملابس الطفل: قميص أبيض وجينز
+طفل في الثالثة من عمره، طوله متر واحد
+إكسسوارات المرأة: سوار ذهبي بعرض 4 سم، وقلادة ذهبية
+مع حجاب - الشعر ظاهر من تحت الوشاح ودون أي تغيير تماماً كما في الصورة المرجعية (اللون نفسه، والطول، وخط الشعر، وتساقط الشعر)؛ الوجه الأصلي محفوظ بنسبة 100% مع ملمس بشرة/مسامّ طبيعي؛ مصنوع بنسبة 100% من ملامح الوجه دون تغيير الصورة المرجعية؛ إضاءة داخلية ناعمة ودافئة؛ بلا نص، بلا شعار، بلا علامة مائية.
+انتبه إلى جميع الجمل ونفّذها.
+يجب نسخ وجه الطفل تماماً
+يجب الحفاظ على نسب الأم والطفل: طول الأم 165 سم، وطول الطفل 100 سم
+اختر لهما وضعية تصوير جميلة لأم وابنها
 ```
 
-## 853. Spoken Word Artist Persona 🔤
+## 853. شخصية فنان الكلمة المنطوقة
 
 *الأصل:* Spoken Word Artist Persona · *النوع:* نص
 
 ```
-Act like a spoken word artist be wise, extraordinary and make each teaching super and how to act well on stage and also use word that has vibess
+تصرّف كفنان أداء للكلمة المنطوقة (Spoken Word)، كن حكيماً واستثنائياً، واجعل كل درس رائعاً، وعلّم كيف تؤدي جيداً على المسرح، واستخدم أيضاً كلمات تحمل طاقة وأجواء مميزة
 ```
 
-## 854. Assistente de Geração de Imagens com Identidade Visual Padrão 🔤
+## 854. مساعد توليد الصور بهوية بصرية موحّدة
 
 *الأصل:* Assistente de Geração de Imagens com Identidade Visual Padrão · *النوع:* نص
 
 ```
-Act as an Image Generation Assistant for impactful posts. Your task is to create visually striking images that adhere to a standard visual identity for social media posts.
+تصرّف كمساعد لتوليد الصور للمنشورات المؤثرة. مهمتك إنشاء صور لافتة بصرياً تلتزم بهوية بصرية موحّدة لمنشورات وسائل التواصل الاجتماعي.
 
-You will:
-- Use the primary background color: ${primary_background:#0a1128}
-- Implement the background texture: Subtle technological circuit grid (${accent_blue_cyan:#00ffff})
-- Element ${elemento} will be in the ${position: center} of image.
-- Highlight the main visual element with accent colors: ${accent_green:#ebf15b} and ${accent_blue_cyan}
-- Incorporate the brand's logo and tagline where applicable
-- Ensure the image aligns with the brand's overall aesthetic
+ستقوم بما يلي:
+- استخدام لون الخلفية الأساسي: ${primary_background:#0a1128}
+- تطبيق نسيج الخلفية: شبكة دوائر تقنية خفيفة (${accent_blue_cyan:#00ffff})
+- سيكون العنصر ${elemento} في ${position: center} الصورة.
+- إبراز العنصر البصري الرئيسي بألوان الإبراز: ${accent_green:#ebf15b} و${accent_blue_cyan}
+- دمج شعار العلامة التجارية وعبارتها الترويجية حيثما ينطبق ذلك
+- التأكد من أن الصورة تتماشى مع الجمالية العامة للعلامة التجارية
 
-Design images that evoke emotion and engagement.
+صمّم صوراً تثير المشاعر وتحفّز التفاعل.
 
-Rules:
-- Maintain consistency with the brand's color palette and fonts
-- Avoid overcrowding the image with too much text or elements
-- Follow the specified dimensions for each social media platform
+القواعد:
+- حافظ على الاتساق مع لوحة ألوان العلامة التجارية وخطوطها
+- تجنّب ازدحام الصورة بكثرة النصوص أو العناصر
+- اتبع الأبعاد المحددة لكل منصة من منصات التواصل الاجتماعي
 
-Variables you can customize:
-- ${brandName: Suzuki Intelligence & Innovation} for the brand identity
-- ${message: ""} for the text to be included on the image
-- ${accent_green} for additional accent color options
-- ${elemento} for the main element in the image
+متغيرات يمكنك تخصيصها:
+- ${brandName: Suzuki Intelligence & Innovation} لهوية العلامة التجارية
+- ${message: ""} للنص المراد تضمينه في الصورة
+- ${accent_green} لخيارات ألوان إبراز إضافية
+- ${elemento} للعنصر الرئيسي في الصورة
 ```
 
-## 855. Serene Mirror-Selfie Portrait in Sunlit Bedroom 🔤
+## 855. بورتريه سيلفي هادئ في المرآة داخل غرفة نوم مشمسة
 
 *الأصل:* Serene Mirror-Selfie Portrait in Sunlit Bedroom · *النوع:* منظّم
 
 ```
 {
-  "scene_type": "Indoor lifestyle portrait (mirror-selfie aesthetic)",
+  "scene_type": "بورتريه لنمط الحياة في الداخل (بجمالية سيلفي المرآة)",
   "environment": {
-    "location": "Sunlit bedroom with gentle, natural daytime illumination",
+    "location": "غرفة نوم مشمسة بإضاءة نهارية طبيعية لطيفة",
     "background": {
-      "bed": "White metal-frame bed with a soft vintage feel, dressed in light botanical-pattern bedding",
-      "decor": "Clean, minimal styling with a couple of small potted plants, a simple nightstand, and understated floral touches",
-      "windows": "Large window with airy sheer curtains that diffuse the light and soften the whole room",
-      "color_palette": "Warm whites, ivory, beige, and pale neutrals with faint botanical and floral accents"
+      "bed": "سرير بإطار معدني أبيض بطابع عتيق ناعم، مفروش بأغطية فاتحة بنقشة نباتية",
+      "decor": "تنسيق نظيف وبسيط مع نبتتين صغيرتين في أصص، ومنضدة بسيطة بجانب السرير، ولمسات زهرية هادئة",
+      "windows": "نافذة كبيرة بستائر شفافة خفيفة تنشر الضوء وتلطّف الغرفة بأكملها",
+      "color_palette": "درجات الأبيض الدافئ والعاجي والبيج والألوان المحايدة الباهتة مع لمسات نباتية وزهرية خافتة"
     },
-    "atmosphere": "Quiet, intimate, cozy, breathable, and softly lived-in"
+    "atmosphere": "هادئة، حميمة، دافئة، رحبة، وتحمل لمسة معيشة ناعمة"
   },
   "subject": {
-    "gender_presentation": "Feminine",
-    "approximate_age_group": "Adult (21+), young adult",
-    "skin_tone": "Fair complexion with realistic, natural skin texture and subtle imperfections",
+    "gender_presentation": "أنثوي",
+    "approximate_age_group": "بالغة (21+)، شابة",
+    "skin_tone": "بشرة فاتحة بملمس طبيعي واقعي وعيوب طفيفة",
     "hair": {
-      "color": "Cool platinum blonde (slightly icy tone)",
-      "style": "Long, straight hair with a clean center part, falling naturally over shoulders"
+      "color": "أشقر بلاتيني بارد (بدرجة جليدية قليلاً)",
+      "style": "شعر طويل أملس مفروق من المنتصف بدقة، ينسدل بشكل طبيعي على الكتفين"
     },
     "facial_features": {
-      "expression": "Gentle, calm, and slightly introspective, relaxed mouth and soft eyes",
-      "makeup": "Very light, natural makeup with understated definition, nothing dramatic or heavy"
+      "expression": "لطيف وهادئ ومتأمل قليلاً، بفم مسترخٍ وعينين ناعمتين",
+      "makeup": "مكياج طبيعي خفيف جداً بتحديد هادئ، لا شيء درامي أو ثقيل"
     },
     "body_details": {
-      "build": "Slim to average physique with natural proportions",
+      "build": "قوام نحيف إلى متوسط بنسب طبيعية",
       "visible_tattoos": [
-        "Fine-line floral and illustrative tattoos along the arms and forearms",
-        "A small, subtle tattoo visible on the upper thigh area"
+        "وشوم زهرية وتصويرية بخطوط رفيعة على امتداد الذراعين والساعدين",
+        "وشم صغير خفيف ظاهر في منطقة أعلى الفخذ"
       ]
     }
   },
   "pose": {
-    "position": "Seated on the bed near the edge, comfortable and casual",
-    "legs": "Knees bent and pulled in close, creating a compact, cozy silhouette",
-    "hands": "One hand holds a phone up toward the mirror for a selfie composition, the other hand lightly touches the lips or rests near the mouth in a thoughtful gesture",
-    "orientation": "Body angled toward a mirror, face partially obscured by the phone, maintaining an authentic mirror-selfie framing"
+    "position": "جالسة على السرير قرب حافته، بوضعية مريحة وعفوية",
+    "legs": "الركبتان مثنيتان ومسحوبتان إلى الداخل، ما يخلق صورة ظلية مدمجة ودافئة",
+    "hands": "يد تمسك الهاتف مرفوعاً نحو المرآة لتكوين صورة سيلفي، واليد الأخرى تلمس الشفتين بخفة أو تستقر قرب الفم بإيماءة تأملية",
+    "orientation": "الجسم مائل نحو المرآة، والوجه محجوب جزئياً بالهاتف، مع الحفاظ على تأطير سيلفي مرآة أصيل"
   },
   "clothing": {
-    "outfit_type": "Lightweight sleepwear or a soft lounge slip suitable for a relaxed bedroom setting",
-    "color": "Soft white or ivory (clean, minimal, gentle tone)",
-    "material": "Soft, delicate fabric with a slightly translucent feel while remaining tasteful and non-explicit",
-    "details": "Thin shoulder straps with subtle lace edging and refined trim details"
+    "outfit_type": "ملابس نوم خفيفة أو ثوب منزلي ناعم مناسب لأجواء غرفة نوم مسترخية",
+    "color": "أبيض ناعم أو عاجي (درجة نظيفة وبسيطة ولطيفة)",
+    "material": "قماش ناعم رقيق بإحساس شبه شفاف قليلاً مع بقائه لائقاً وغير فاضح",
+    "details": "حمّالات كتف رفيعة بحواف دانتيل خفيفة وتفاصيل تشطيب راقية"
   },
   "styling": {
     "accessories": [
-      "Minimal necklace with a small pendant or simple chain",
-      "Small hoop earrings with a clean, understated look"
+      "قلادة بسيطة بقلادة صغيرة متدلية أو سلسلة بسيطة",
+      "أقراط حلقية صغيرة بمظهر نظيف وهادئ"
     ],
-    "nails": "Natural nails or lightly manicured in a neutral finish, not flashy",
-    "overall_style": "Soft, feminine, intimate, and quietly aesthetic without looking overly styled or artificial"
+    "nails": "أظافر طبيعية أو مقلّمة بخفة بلون محايد، غير لافتة",
+    "overall_style": "ناعم، أنثوي، حميم، وجمالي بهدوء دون أن يبدو مبالغاً في تنسيقه أو مصطنعاً"
   },
   "lighting": {
-    "type": "Natural daylight",
-    "source": "Window light coming from the side at a slight angle, wrapping gently across the subject",
-    "quality": "Diffused, soft, and even illumination with smooth falloff across skin and fabric",
-    "shadows": "Very mild shadows that add natural contour without harsh contrast, keeping the mood tender and airy"
+    "type": "ضوء النهار الطبيعي",
+    "source": "ضوء نافذة قادم من الجانب بزاوية طفيفة، يلتف بلطف حول الشخص",
+    "quality": "إضاءة منتشرة وناعمة ومتساوية مع تلاشٍ سلس على البشرة والقماش",
+    "shadows": "ظلال خفيفة جداً تضيف تحديداً طبيعياً دون تباين قاسٍ، مع الحفاظ على أجواء رقيقة ورحبة"
   },
   "mood": {
-    "emotional_tone": "Serene, warm, reflective, and quietly intimate",
-    "visual_feel": "Peaceful, soft, and realistic, like a candid moment captured in a calm morning"
+    "emotional_tone": "هادئ، دافئ، متأمل، وحميم بهدوء",
+    "visual_feel": "مسالم وناعم وواقعي، كلحظة عفوية التُقطت في صباح هادئ"
   },
   "camera_details": {
-    "camera_type": "Smartphone camera capture",
-    "lens_equivalent": "Wide-angle feel (approximately 24–28mm equivalent) typical of a phone selfie lens",
-    "perspective": "Mirror-selfie perspective with realistic framing, slight hand-held authenticity",
-    "focus": "Crisp focus on the subject with natural depth cues, background gently readable but not overly sharp",
-    "aperture_simulation": "Phone-like shallow depth impression (f/1.8 to f/2.2 style look), subtle and believable",
-    "iso_simulation": "Low ISO for a clean image with minimal noise while preserving natural texture",
-    "shutter_speed_simulation": "Fast enough to reduce motion blur and keep details sharp even with handheld capture",
-    "white_balance": "Neutral daylight balance with gentle warmth, avoiding overly yellow or overly blue tones"
+    "camera_type": "التقاط بكاميرا هاتف ذكي",
+    "lens_equivalent": "إحساس الزاوية الواسعة (مكافئ تقريباً لـ 24–28mm) المعتاد في عدسة سيلفي الهاتف",
+    "perspective": "منظور سيلفي المرآة بتأطير واقعي، مع أصالة طفيفة للتصوير باليد",
+    "focus": "تركيز حاد على الشخص مع إشارات عمق طبيعية، والخلفية مقروءة بلطف دون حدّة مفرطة",
+    "aperture_simulation": "انطباع عمق ضحل يشبه الهاتف (بمظهر f/1.8 إلى f/2.2)، خفيف وقابل للتصديق",
+    "iso_simulation": "ISO منخفض لصورة نظيفة بأقل ضوضاء مع الحفاظ على الملمس الطبيعي",
+    "shutter_speed_simulation": "سريعة بما يكفي لتقليل ضبابية الحركة والحفاظ على حدّة التفاصيل حتى مع التصوير باليد",
+    "white_balance": "توازن ضوء نهار محايد مع دفء لطيف، مع تجنّب الدرجات المفرطة الصفرة أو الزرقة"
   },
   "rendering_style": {
-    "realism_level": "Ultra photorealistic",
-    "detail_level": "High fidelity skin texture, realistic fabric drape and lace behavior, natural lighting gradients, and true-to-life shadows",
-    "post_processing": "Soft contrast with gentle highlights, natural color grading, mild clarity that preserves skin texture without smoothing it away",
-    "artifacts": "No visual artifacts, no painterly effects, no CGI look, and no synthetic plastic skin"
+    "realism_level": "واقعية فوتوغرافية فائقة",
+    "detail_level": "ملمس بشرة عالي الدقة، وانسدال واقعي للقماش وسلوك الدانتيل، وتدرّجات إضاءة طبيعية، وظلال مطابقة للواقع",
+    "post_processing": "تباين ناعم مع إبرازات لطيفة، وتدرّج لوني طبيعي، ووضوح خفيف يحافظ على ملمس البشرة دون تنعيمه",
+    "artifacts": "لا عيوب بصرية، ولا تأثيرات رسم زيتي، ولا مظهر CGI، ولا بشرة بلاستيكية اصطناعية"
   }
 }
 ```
 
-## 856. Candid Outdoor Group Photo in Natural Pool 🔤
+## 856. صورة جماعية عفوية في الهواء الطلق داخل بركة طبيعية
 
 *الأصل:* Candid Outdoor Group Photo in Natural Pool · *النوع:* منظّم
 
 ```
 {
-  "prompt": "A candid outdoor photo of a group of adults (21+) standing waist-deep in clear water inside a rocky natural pool or cave. The background is a dark, textured rock wall, slightly wet and uneven, filling most of the frame. Lighting is natural daylight, soft but direct, creating realistic highlights on wet skin.\n\nIn the center, a smiling woman with light skin and wet blonde hair slicked back raises both arms high above her head in a relaxed, playful pose. She wears a teal one-piece swimsuit, slightly darkened by water.\n\nIn the foreground, another woman with light skin and dark wet hair pulled back looks over her shoulder toward the camera, wearing a purple bikini bottom. Her back and shoulders glisten with water. Her expression is confident and casual.\n\nOn the sides, other people are partially visible and cropped by the frame: one flexing an arm, another holding an orange object, adding to the spontaneous, group-outing feel. The image feels unposed and natural, like a vacation snapshot taken mid-moment. Skin tones are realistic with visible highlights and shadows, with no heavy retouching.\n\nOverall mood is carefree and energetic, with a summery, adventurous vibe. The composition is slightly off-center and imperfect, reinforcing the candid, real-life feel.",
-  "scene_type": "Candid outdoor travel snapshot in a rocky natural pool or cave",
+  "prompt": "صورة عفوية في الهواء الطلق لمجموعة من البالغين (21+) يقفون في مياه صافية تصل إلى الخصر داخل بركة طبيعية صخرية أو كهف. الخلفية جدار صخري داكن محبّب الملمس، مبلل قليلاً وغير مستوٍ، يملأ معظم الإطار. الإضاءة ضوء نهار طبيعي، ناعم لكنه مباشر، يخلق إبرازات واقعية على البشرة المبللة.\n\nفي المنتصف، امرأة مبتسمة ذات بشرة فاتحة وشعر أشقر مبلل ممشّط إلى الخلف ترفع ذراعيها عالياً فوق رأسها بوضعية مسترخية ومرحة. ترتدي ملابس سباحة قطعة واحدة بلون أزرق مخضر (تيل)، داكنة قليلاً بفعل الماء.\n\nفي المقدمة، امرأة أخرى ذات بشرة فاتحة وشعر داكن مبلل مسحوب إلى الخلف تنظر من فوق كتفها نحو الكاميرا، وترتدي الجزء السفلي من بيكيني بنفسجي. يلمع ظهرها وكتفاها بالماء. تعبيرها واثق وعفوي.\n\nعلى الجانبين، يظهر أشخاص آخرون جزئياً ومقصوصون بحدود الإطار: أحدهم يشدّ عضلة ذراعه، وآخر يحمل شيئاً برتقالياً، ما يعزّز الإحساس بالعفوية والنزهة الجماعية. تبدو الصورة غير مُعدّة وطبيعية، كلقطة إجازة التُقطت في منتصف اللحظة. درجات البشرة واقعية مع إبرازات وظلال ظاهرة، دون تنقيح ثقيل.\n\nالأجواء العامة خالية من الهموم ومفعمة بالحيوية، بطابع صيفي مغامر. التكوين منزاح قليلاً عن المركز وغير مثالي، ما يعزّز الإحساس العفوي الواقعي.",
+  "scene_type": "لقطة سفر عفوية في الهواء الطلق داخل بركة طبيعية صخرية أو كهف",
   "subjects": [
     {
-      "role": "Center subject",
-      "description": "Smiling woman with light skin and wet blonde hair slicked back, arms raised high above head in a relaxed, playful pose",
-      "wardrobe": "Teal one-piece swimsuit, slightly darkened by water",
-      "pose_and_expression": "Playful, relaxed, cheerful smile"
+      "role": "الشخص المركزي",
+      "description": "امرأة مبتسمة ذات بشرة فاتحة وشعر أشقر مبلل ممشّط إلى الخلف، ترفع ذراعيها عالياً فوق رأسها بوضعية مسترخية ومرحة",
+      "wardrobe": "ملابس سباحة قطعة واحدة بلون أزرق مخضر، داكنة قليلاً بفعل الماء",
+      "pose_and_expression": "مرحة، مسترخية، بابتسامة مبهجة"
     },
     {
-      "role": "Foreground subject",
-      "description": "Woman with light skin and dark wet hair pulled back, looking over her shoulder toward the camera, back and shoulders glistening with water",
-      "wardrobe": "Purple bikini bottom",
-      "pose_and_expression": "Confident, casual expression, over-the-shoulder look"
+      "role": "الشخص في المقدمة",
+      "description": "امرأة ذات بشرة فاتحة وشعر داكن مبلل مسحوب إلى الخلف، تنظر من فوق كتفها نحو الكاميرا، ويلمع ظهرها وكتفاها بالماء",
+      "wardrobe": "الجزء السفلي من بيكيني بنفسجي",
+      "pose_and_expression": "تعبير واثق وعفوي، ونظرة من فوق الكتف"
     },
     {
-      "role": "Side/background group",
-      "description": "Additional people partially visible and cropped by the frame, enhancing spontaneous group-outing energy",
+      "role": "المجموعة على الجانبين/في الخلفية",
+      "description": "أشخاص إضافيون ظاهرون جزئياً ومقصوصون بحدود الإطار، ما يعزّز طاقة النزهة الجماعية العفوية",
       "details": [
-        "One person flexing an arm",
-        "Another person holding an orange object"
+        "شخص يشدّ عضلة ذراعه",
+        "شخص آخر يحمل شيئاً برتقالياً"
       ]
     }
   ],
   "environment": {
-    "setting": "Rocky natural pool or cave",
+    "setting": "بركة طبيعية صخرية أو كهف",
     "water": {
-      "clarity": "Clear water",
-      "depth": "Waist-deep",
-      "surface_effects": "Slight water reflections and subtle shimmer on wet skin"
+      "clarity": "مياه صافية",
+      "depth": "حتى الخصر",
+      "surface_effects": "انعكاسات مائية طفيفة ولمعان خفيف على البشرة المبللة"
     },
     "background": {
-      "primary_element": "Dark, textured rock wall",
-      "surface_characteristics": "Slightly wet, uneven, rugged texture",
-      "framing": "Rock wall fills most of the frame"
+      "primary_element": "جدار صخري داكن محبّب الملمس",
+      "surface_characteristics": "مبلل قليلاً، غير مستوٍ، بملمس خشن",
+      "framing": "الجدار الصخري يملأ معظم الإطار"
     }
   },
   "lighting": {
-    "type": "Natural daylight",
-    "quality": "Soft but direct",
+    "type": "ضوء النهار الطبيعي",
+    "quality": "ناعم لكنه مباشر",
     "effects": [
-      "Realistic highlights on wet skin",
-      "Visible natural shadows and depth",
-      "No studio lighting look"
+      "إبرازات واقعية على البشرة المبللة",
+      "ظلال وعمق طبيعيان ظاهران",
+      "لا مظهر لإضاءة الاستوديو"
     ]
   },
   "composition": {
-    "framing": "Imperfect, slightly off-center candid framing",
-    "cropping": "People on the sides are partially visible and cropped by the frame",
-    "vibe": "Unposed, mid-moment vacation snapshot"
+    "framing": "تأطير عفوي غير مثالي، منزاح قليلاً عن المركز",
+    "cropping": "الأشخاص على الجانبين ظاهرون جزئياً ومقصوصون بحدود الإطار",
+    "vibe": "لقطة إجازة غير مُعدّة في منتصف اللحظة"
   },
   "style_and_quality_cues": [
-    "Natural photography",
-    "Realistic skin texture",
-    "No studio lighting",
-    "Slight water reflections",
-    "Casual, candid snapshot",
-    "Documentary / travel photo feel",
-    "No heavy retouching",
-    "Visible highlights and shadows on skin"
+    "تصوير طبيعي",
+    "ملمس بشرة واقعي",
+    "بلا إضاءة استوديو",
+    "انعكاسات مائية طفيفة",
+    "لقطة عفوية غير رسمية",
+    "إحساس الصورة الوثائقية / صور السفر",
+    "بلا تنقيح ثقيل",
+    "إبرازات وظلال ظاهرة على البشرة"
   ],
   "camera_and_capture_feel": {
-    "device": "Smartphone or consumer camera",
-    "angle": "Eye-level",
-    "stability": "Handheld shot",
-    "sharpness": "Mild softness, no extreme sharpness",
-    "color_and_processing": "Natural daylight color with realistic tones, not heavily stylized"
+    "device": "هاتف ذكي أو كاميرا استهلاكية",
+    "angle": "بمستوى العين",
+    "stability": "لقطة محمولة باليد",
+    "sharpness": "نعومة خفيفة، بلا حدّة مفرطة",
+    "color_and_processing": "ألوان ضوء نهار طبيعية بدرجات واقعية، دون أسلبة ثقيلة"
   },
   "negative_prompt": "studio lighting, fashion pose, exaggerated anatomy, plastic skin, over-smoothed faces, cinematic color grading, artificial background, CGI, illustration"
 }
 ```
 
-## 857. Improving Business English 🔤
+## 857. تحسين الإنجليزية لبيئة الأعمال
 
 *الأصل:* Improving Business English · *النوع:* نص
 
 ```
-You are an expert Business English trainer with many years of experience teaching professionals in international companies. Your goal is to help me develop my Business English skills through interactive exercises, feedback, and real world scenarios.
+أنت مدرّب خبير في اللغة الإنجليزية لبيئة الأعمال (Business English)، ولديك سنوات طويلة من الخبرة في تدريس المهنيين في الشركات الدولية. هدفك مساعدتي على تطوير مهاراتي في الإنجليزية لبيئة الأعمال من خلال التمارين التفاعلية والملاحظات وسيناريوهات من الواقع.
 
-Start by assessing my needs with 2-3 questions if needed. Then, provide:
-. Key vocabulary or phrases related to the topic 
-. After I respond, give constructive feedback on grammar, pronunciation tips, and idioms
-. Tips for real-life application in a business context.
+ابدأ بتقييم احتياجاتي عبر 2-3 أسئلة إن لزم الأمر. ثم قدّم:
+. المفردات أو العبارات الرئيسية المتعلقة بالموضوع
+. بعد أن أجيب، قدّم ملاحظات بنّاءة حول القواعد، ونصائح للنطق، والتعابير الاصطلاحية
+. نصائح للتطبيق الواقعي في سياق الأعمال.
 
-Keep responses engaging, professional, and encouraging.
+اجعل الردود جذابة واحترافية ومشجّعة.
 ```
 
-## 858. URL, Title, and Description Analysis Tool with LSI Keywords 🔤
+## 858. أداة تحليل الرابط والعنوان والوصف بكلمات LSI المفتاحية
 
 *الأصل:* URL, Title, and Description Analysis Tool with LSI Keywords · *النوع:* نص
 
 ```
-Act as an SEO Analysis Expert. You are specialized in analyzing web pages to optimize their search engine performance.
+تصرّف كخبير في تحليل SEO. أنت متخصص في تحليل صفحات الويب لتحسين أدائها في محركات البحث.
 
-Your task is to analyze the provided URL for:
-- Latent Semantic Indexing (LSI) keywords
-- High search volume keywords
+مهمتك تحليل الرابط (URL) المقدَّم من حيث:
+- كلمات الفهرسة الدلالية الكامنة (LSI) المفتاحية
+- الكلمات المفتاحية ذات حجم البحث المرتفع
 
-You will:
-- Evaluate the current URL, Title, and Description
-- Suggest optimized versions of URL, Title, and Description
-- Ensure suggestions are aligned with SEO best practices
+ستقوم بما يلي:
+- تقييم الرابط والعنوان والوصف الحاليين
+- اقتراح نسخ محسَّنة من الرابط والعنوان والوصف
+- التأكد من أن الاقتراحات تتماشى مع أفضل ممارسات SEO
 
-Rules:
-- Use data-driven keyword analysis
-- Provide clear and actionable recommendations
-- Maintain relevance to the page content
+القواعد:
+- استخدم تحليلاً للكلمات المفتاحية قائماً على البيانات
+- قدّم توصيات واضحة وقابلة للتنفيذ
+- حافظ على الصلة بمحتوى الصفحة
 
-Variables:
-- ${url} - The URL of the page to analyze
-- ${language:English} - Target language for analysis
-- ${region:Global} - Target region for search volume analysis
+المتغيرات:
+- ${url} - رابط الصفحة المراد تحليلها
+- ${language:English} - اللغة المستهدفة للتحليل
+- ${region:Global} - المنطقة المستهدفة لتحليل حجم البحث
 ```
 
-## 859. Ultra Photorealistic Rooftop Pool Portrait 🔤
+## 859. بورتريه فائق الواقعية عند مسبح على السطح
 
 *الأصل:* Ultra Photorealistic Rooftop Pool Portrait · *النوع:* منظّم
 
 ```
 {
   "pack_name": "BOLD - Rooftop Inferno / Golden Hour",
-  "intent": "Generate an ultra photorealistic, raw-candid iPhone-style rooftop pool portrait with dominant, confident energy and editorial polish, without looking staged or studio-lit.",
+  "intent": "توليد بورتريه فائق الواقعية بأسلوب iPhone العفوي الخام عند مسبح على سطح مبنى، بطاقة واثقة ومهيمنة ولمسة تحريرية مصقولة، دون أن يبدو مُعدّاً أو مضاءً بإضاءة استوديو.",
   "content_safety": {
-    "age_requirement": "All subjects must be adults, 21+.",
-    "nudity_level": "Non-explicit. Swimwear only. No visible nipples, areola, or genitals. No sheer transparency that reveals explicit anatomy.",
-    "tone": "Confidence-forward, not pornographic. Editorial thirst trap energy is allowed, but keep it tasteful and non-explicit.",
+    "age_requirement": "يجب أن يكون جميع الأشخاص بالغين، 21+.",
+    "nudity_level": "غير فاضح. ملابس سباحة فقط. لا حلمات أو هالات أو أعضاء تناسلية ظاهرة. لا شفافية تكشف تشريحاً صريحاً.",
+    "tone": "يتصدّره الثقة لا الإباحية. يُسمح بطاقة الصور التحريرية الجذابة الموجّهة لجذب الإعجاب، لكن مع الحفاظ على الذوق وعدم الإفصاح الصريح.",
     "no_minor_look": true
   },
   "global_style_quality": {
-    "photography_style": "RAW candid iPhone photography",
-    "realism": "Hyper realistic, texture-forward, pores and natural skin detail visible",
-    "resolution_hint": "8K look (high detail, crisp texture, not artificially sharpened)",
-    "grading": "Natural but high contrast from harsh sun, minimal stylization, avoid cinematic teal-orange look",
-    "retouching": "No heavy retouching, no plastic skin, keep micro texture",
-    "vibe": "Influencer and editorial hybrid, premium but unfiltered",
+    "photography_style": "تصوير iPhone عفوي بصيغة RAW",
+    "realism": "واقعية مفرطة، تركيز على الملمس، المسامّ وتفاصيل البشرة الطبيعية ظاهرة",
+    "resolution_hint": "مظهر 8K (تفاصيل عالية، ملمس حاد، دون زيادة حدّة مصطنعة)",
+    "grading": "طبيعي لكن بتباين عالٍ من الشمس القاسية، بأقل قدر من الأسلبة، وتجنّب مظهر الأزرق المخضر-البرتقالي السينمائي",
+    "retouching": "بلا تنقيح ثقيل، بلا بشرة بلاستيكية، مع الحفاظ على الملمس الدقيق",
+    "vibe": "مزيج بين المؤثرين والتحرير الصحفي، فاخر لكن دون فلاتر",
     "overall_mood_keywords": [
-      "bold",
-      "dominant",
-      "unbothered",
-      "timeless",
-      "high engagement",
-      "screenshot-worthy",
-      "confidence over sexuality"
+      "جريء",
+      "مهيمن",
+      "غير مكترث",
+      "خالد",
+      "تفاعل عالٍ",
+      "جدير بلقطة شاشة",
+      "الثقة قبل الإغراء"
     ]
   },
   "scene_setting": {
-    "location_type": "Luxury rooftop pool",
+    "location_type": "مسبح فاخر على سطح مبنى",
     "key_background_elements": [
-      "city skyline",
-      "glass railing",
-      "infinity edge",
-      "minimal crowd",
-      "quiet luxury atmosphere"
+      "أفق المدينة",
+      "درابزين زجاجي",
+      "حافة لا متناهية (Infinity edge)",
+      "حشد قليل",
+      "أجواء فخامة هادئة"
     ],
-    "time_of_day": "Sunset into golden hour with fire tones",
+    "time_of_day": "الغروب المتحول إلى الساعة الذهبية بدرجات نارية",
     "atmosphere_details": [
-      "heat still in the air",
-      "sun dropping but still burning",
-      "pool water glowing orange-blue",
-      "quiet city hum below",
-      "city lights beginning to glow in the distance"
+      "الحرارة ما زالت عالقة في الهواء",
+      "الشمس تنخفض لكنها ما زالت لاهبة",
+      "مياه المسبح تتوهج بالبرتقالي والأزرق",
+      "همهمة المدينة الهادئة في الأسفل",
+      "أضواء المدينة تبدأ بالتوهج في البعيد"
     ],
     "crowd_control": {
-      "crowd_level": "Minimal",
-      "extras_behavior": "If any extras appear, they must be distant, blurred, and non-distracting. The scene reads as luxury silence."
+      "crowd_level": "قليل",
+      "extras_behavior": "إذا ظهر أي أشخاص إضافيين، فيجب أن يكونوا بعيدين وضبابيين وغير مشتّتين. يُقرأ المشهد كصمت فاخر."
     }
   },
   "subject": {
-    "type": "Single primary subject",
-    "gender_presentation": "Feminine",
-    "age": "Adult 21+",
-    "build": "Athletic, feminine power frame",
+    "type": "شخص رئيسي واحد",
+    "gender_presentation": "أنثوي",
+    "age": "بالغة 21+",
+    "build": "قوام رياضي بقوة أنثوية",
     "body_characteristics": {
-      "waist": "Slim waist with visible core activation",
-      "upper_body": "Defined shoulders and arms, strong posture",
-      "legs": "Long leg lines emphasized by pose",
-      "pose_energy": "Body claiming space, grounded dominance"
+      "waist": "خصر نحيف مع عضلات جذع مشدودة ظاهرة",
+      "upper_body": "كتفان وذراعان محددان، ووضعية قوية",
+      "legs": "خطوط ساقين طويلة تبرزها الوضعية",
+      "pose_energy": "الجسم يستحوذ على المساحة، بهيمنة راسخة"
     },
     "face": {
-      "eyes": "Big, confident eyes, direct or half-lidded gaze",
-      "expression": "Cool, dominant, unbothered, no performative smile",
-      "freckles": "Light freckles visible under harsh light",
-      "lips": "Natural full lips, relaxed but assertive",
+      "eyes": "عينان كبيرتان واثقتان، بنظرة مباشرة أو نصف مغمضة",
+      "expression": "هادئ، مهيمن، غير مكترث، بلا ابتسامة استعراضية",
+      "freckles": "نمش خفيف ظاهر تحت الضوء القاسي",
+      "lips": "شفتان ممتلئتان طبيعيتان، مسترخيتان لكن حازمتان",
       "emotion_keywords": [
-        "calm dominance",
-        "zero apology energy",
-        "I know how this looks"
+        "هيمنة هادئة",
+        "طاقة بلا أي اعتذار",
+        "أعرف كيف يبدو هذا"
       ]
     },
     "skin": {
-      "undertone": "Light neutral undertone",
-      "finish": "SPF plus natural oil sheen",
-      "texture": "Visible pores and realistic micro texture",
-      "highlights": "Sun-kissed highlights on shoulders and collarbones",
+      "undertone": "لمحة فاتحة محايدة",
+      "finish": "واقي شمس SPF مع لمعان زيتي طبيعي",
+      "texture": "مسامّ ظاهرة وملمس دقيق واقعي",
+      "highlights": "إبرازات ملوّحة بالشمس على الكتفين وعظمتي الترقوة",
       "avoid": [
-        "over-smoothed faces",
-        "porcelain skin",
-        "beauty-filter blur"
+        "وجوه مفرطة التنعيم",
+        "بشرة خزفية",
+        "ضبابية فلاتر التجميل"
       ]
     },
     "hair": {
-      "color": "Dark brown",
-      "style": "Slicked back from heat with a slightly wet look",
-      "mess_level": "Controlled mess",
-      "detail": "A few loose strands catching golden light"
+      "color": "بني داكن",
+      "style": "ممشّط إلى الخلف بفعل الحرارة بمظهر مبلل قليلاً",
+      "mess_level": "فوضى مضبوطة",
+      "detail": "بضع خصلات متحررة تلتقط الضوء الذهبي"
     },
     "tattoos": {
-      "requirement": "Chest tattoos fully visible and unchanged",
+      "requirement": "وشوم الصدر ظاهرة بالكامل ودون تغيير",
       "integrity_rules": [
-        "Do not alter tattoo shapes, linework, placement, or density",
-        "Do not add new tattoos",
-        "Do not remove tattoos",
-        "Do not mirror-flip tattoos unless the camera/mirror logic requires it and even then preserve design exactly"
+        "لا تغيّر أشكال الوشوم أو خطوطها أو مواضعها أو كثافتها",
+        "لا تُضِف وشوماً جديدة",
+        "لا تُزِل الوشوم",
+        "لا تعكس الوشوم كالمرآة إلا إذا تطلّب منطق الكاميرا/المرآة ذلك، وحتى حينها حافظ على التصميم تماماً"
       ],
-      "role_in_styling": "Tattoos act as jewelry"
+      "role_in_styling": "الوشوم تؤدي دور المجوهرات"
     }
   },
   "wardrobe": {
-    "outfit": "Black string bikini",
+    "outfit": "بيكيني أسود بأربطة",
     "top": {
-      "type": "Small triangle top",
-      "fit": "Tight strings, minimal fabric",
-      "notes": "Keep coverage tasteful and non-explicit; do not reveal nipples or areola."
+      "type": "جزء علوي مثلث صغير",
+      "fit": "أربطة مشدودة، وقماش قليل",
+      "notes": "حافظ على تغطية لائقة وغير فاضحة؛ لا تكشف الحلمات أو الهالات."
     },
     "bottom": {
-      "type": "High-cut bottoms",
-      "style": "80s hip rise",
-      "notes": "Maintain tasteful framing; avoid explicit exposure."
+      "type": "جزء سفلي عالي القصّة",
+      "style": "ارتفاع ورك بأسلوب الثمانينيات",
+      "notes": "حافظ على تأطير لائق؛ تجنّب الكشف الصريح."
     },
-    "styling_priority": "Minimal fabric, maximum statement, confidence over sexuality"
+    "styling_priority": "قماش قليل، وأقصى حضور، والثقة قبل الإغراء"
   },
   "scene_setup": {
-    "position": "Standing at the pool edge",
+    "position": "واقفة عند حافة المسبح",
     "stance": [
-      "one foot slightly forward",
-      "hip subtly shifted",
-      "shoulders open",
-      "chest forward",
-      "chin slightly down or neutral for dominance"
+      "قدم واحدة متقدمة قليلاً",
+      "الورك مائل بخفة",
+      "الكتفان منفتحان",
+      "الصدر إلى الأمام",
+      "الذقن منخفض قليلاً أو محايد للإيحاء بالهيمنة"
     ],
     "body_language": [
-      "claims space",
-      "grounded",
-      "assertive",
-      "not posing for a studio shoot, but naturally powerful"
+      "تستحوذ على المساحة",
+      "راسخة",
+      "حازمة",
+      "لا تتخذ وضعية لجلسة تصوير في استوديو، بل قوية بشكل طبيعي"
     ]
   },
   "props_flatlay_feel": {
     "required_props": [
-      "sunglasses in hand (not worn)",
-      "phone visible in-frame as self-shot proof",
-      "wet towel folded nearby"
+      "نظارة شمسية في اليد (غير ملبوسة)",
+      "هاتف ظاهر داخل الإطار كدليل على التصوير الذاتي",
+      "منشفة مبللة مطوية بالقرب"
     ],
     "optional_props": [
-      "a minimal drink glass placed far off to the side (subtle, luxury, not a party vibe)"
+      "كأس مشروب بسيط موضوع بعيداً على الجانب (خفيف، فاخر، ليس بأجواء حفلة)"
     ],
     "prop_rules": [
-      "No visible branding or logos on props",
-      "No text on phone screen",
-      "Towel looks naturally damp, not staged"
+      "لا علامات تجارية أو شعارات ظاهرة على الأدوات",
+      "لا نص على شاشة الهاتف",
+      "المنشفة تبدو رطبة بشكل طبيعي، غير مُعدّة"
     ]
   },
   "camera_capture": {
-    "camera_type": "Smartphone",
-    "phone_reference": "iPhone-style capture, wide lens feel",
-    "lens_equivalent_mm": "24-28mm equivalent (phone wide)",
+    "camera_type": "هاتف ذكي",
+    "phone_reference": "التقاط بأسلوب iPhone، بإحساس العدسة الواسعة",
+    "lens_equivalent_mm": "مكافئ 24-28mm (عدسة الهاتف الواسعة)",
     "preferred_feel": [
-      "handheld",
-      "slight micro-shake realism",
-      "mild softness, not extreme sharpness",
-      "high dynamic range but not HDR-overcooked"
+      "محمولة باليد",
+      "واقعية اهتزاز دقيق خفيف",
+      "نعومة خفيفة، بلا حدّة مفرطة",
+      "نطاق ديناميكي عالٍ لكن دون إفراط في HDR"
     ],
     "angle": {
-      "primary": "Low angle for power dominance",
-      "tilt": "Slight Dutch tilt, subtle not extreme",
-      "distance": "Close enough to feel presence, not cramped"
+      "primary": "زاوية منخفضة للإيحاء بالقوة والهيمنة",
+      "tilt": "ميل هولندي (Dutch tilt) طفيف، خفيف غير مبالغ فيه",
+      "distance": "قريبة بما يكفي للإحساس بالحضور، دون ازدحام"
     },
     "framing": {
-      "primary_crop": "Mid-thigh to head (dominant portrait framing)",
-      "alternate_crop": "Waist-up hero crop (tattoos fully visible)",
+      "primary_crop": "من منتصف الفخذ إلى الرأس (تأطير بورتريه مهيمن)",
+      "alternate_crop": "قصّ بطولي من الخصر فما فوق (الوشوم ظاهرة بالكامل)",
       "composition_notes": [
-        "Strong silhouette against sky",
-        "Skyline visible but secondary",
-        "Infinity edge line clean and premium",
-        "Glass railing adds luxury geometry"
+        "صورة ظلية قوية أمام السماء",
+        "أفق المدينة ظاهر لكنه ثانوي",
+        "خط الحافة اللامتناهية نظيف وفاخر",
+        "الدرابزين الزجاجي يضيف هندسة فاخرة"
       ]
     },
     "focus": {
-      "subject_priority": "Sharpest detail on face, tattoos, and skin texture",
-      "background": "Slightly softer skyline, readable but not distracting",
-      "avoid": "Artificial bokeh that looks DSLR-fake; keep phone-like depth"
+      "subject_priority": "أعلى حدّة في الوجه والوشوم وملمس البشرة",
+      "background": "أفق مدينة أنعم قليلاً، مقروء لكن غير مشتّت",
+      "avoid": "bokeh مصطنع يبدو كتقليد زائف لكاميرا DSLR؛ حافظ على عمق يشبه الهاتف"
     }
   },
   "lighting": {
-    "type": "Harsh natural light, high contrast",
-    "time_window": "Golden hour with fiery tones",
+    "type": "ضوء طبيعي قاسٍ، بتباين عالٍ",
+    "time_window": "الساعة الذهبية بدرجات نارية",
     "sun_behavior": {
-      "sun_position": "Low sun behind or side-back to create rim highlights",
-      "lens_flare": "Intentional sun flare hitting the lens",
-      "flare_intensity": "Moderate, controlled, not washing out the subject"
+      "sun_position": "شمس منخفضة خلف الشخص أو من الجانب الخلفي لخلق إبرازات حافة",
+      "lens_flare": "وهج شمس مقصود يضرب العدسة",
+      "flare_intensity": "معتدل، مضبوط، لا يطمس الشخص"
     },
     "skin_highlights": [
-      "bright highlights on shoulders",
-      "collarbones catching light",
-      "subtle specular sheen from SPF and natural oil"
+      "إبرازات ساطعة على الكتفين",
+      "عظمتا الترقوة تلتقطان الضوء",
+      "لمعان انعكاسي خفيف من واقي الشمس والزيت الطبيعي"
     ],
-    "shadow_character": "Crisp but not crushed; keep texture in shadows",
+    "shadow_character": "حادة لكن غير مسحوقة؛ حافظ على الملمس في الظلال",
     "avoid": [
-      "studio lighting",
-      "softbox reflections",
-      "flat beauty lighting"
+      "إضاءة استوديو",
+      "انعكاسات صناديق الإضاءة (Softbox)",
+      "إضاءة تجميل مسطحة"
     ]
   },
   "rendering_rules": {
     "must_have": [
-      "realistic skin pores and micro texture",
-      "natural fabric tension and string behavior",
-      "water reflections subtle and believable",
-      "premium rooftop materials (glass, stone, pool edge) with realistic specular highlights"
+      "مسامّ بشرة واقعية وملمس دقيق",
+      "شدّ طبيعي للقماش وسلوك واقعي للأربطة",
+      "انعكاسات مائية خفيفة وقابلة للتصديق",
+      "مواد سطح فاخرة (زجاج، حجر، حافة مسبح) بإبرازات لمعان واقعية"
     ],
     "must_avoid": [
-      "CGI look",
-      "illustration",
-      "plastic skin",
-      "over-smoothed faces",
-      "exaggerated anatomy",
-      "unreal proportions",
-      "extra limbs or warped hands",
-      "fake tattoos or tattoo drift"
+      "مظهر CGI",
+      "رسم توضيحي",
+      "بشرة بلاستيكية",
+      "وجوه مفرطة التنعيم",
+      "تشريح مبالغ فيه",
+      "نسب غير واقعية",
+      "أطراف زائدة أو أيدٍ مشوّهة",
+      "وشوم مزيفة أو انحراف في الوشوم"
     ],
     "imperfection_cues": [
-      "slight handheld framing imperfection",
-      "tiny water droplets on skin",
-      "a few flyaway hair strands",
-      "minor towel wrinkles"
+      "عيب طفيف في التأطير بسبب الحمل باليد",
+      "قطرات ماء صغيرة على البشرة",
+      "بضع خصلات شعر متطايرة",
+      "تجاعيد طفيفة في المنشفة"
     ]
   },
-  "prompt_text_master": "Ultra photorealistic raw candid iPhone-style portrait on a luxury rooftop pool at golden hour with fiery sunset tones. Low-angle dominant perspective with a subtle Dutch tilt, handheld realism, mild softness like a real phone photo, premium unfiltered texture-forward look. Single adult woman (21+), athletic feminine power frame, slim waist with strong core activation, defined shoulders and arms, long leg lines emphasized by stance. Expression is cool, dominant, unbothered, direct or half-lidded gaze, no performative smile, natural full lips relaxed but assertive. Light freckles visible in harsh sun. Skin is light neutral undertone with SPF plus natural oil sheen, pores visible, real micro texture, sun-kissed highlights on shoulders and collarbones, crisp shadows without crushing detail. Hair is dark brown, slicked back from heat with slightly wet controlled-mess look, a few loose strands catching golden light. She stands at the pool edge, one foot slightly forward, hip subtly shifted, shoulders open and chest forward, body claiming space. Outfit is a black string bikini: small triangle top with tight strings and high-cut 80s hip rise bottoms, minimal but tasteful, non-explicit coverage. Chest tattoos are fully visible and must remain unchanged in shape, placement, linework, and density, tattoos act as jewelry. Setting: infinity-edge rooftop pool with glass railing and city skyline behind, minimal crowd, luxury silence. City lights beginning to glow subtly. Pool water glows orange-blue in sunset reflections. Props: sunglasses in hand (not worn), phone visible in-frame as self-shot proof, wet towel folded nearby, no branding, no text on phone screen. Lighting: harsh natural sunlight, high contrast, intentional sun flare hitting the lens, controlled flare that adds heat without washing out face or tattoos. Composition: strong silhouette against sky, skyline secondary, premium geometry lines of railing and pool edge. Final mood: calm dominance, grounded power, confidence over sexuality, editorial-grade thirst trap, bold timeless high engagement snapshot feel.",
+  "prompt_text_master": "بورتريه فائق الواقعية بأسلوب iPhone العفوي الخام عند مسبح فاخر على سطح مبنى في الساعة الذهبية بدرجات غروب نارية. منظور مهيمن من زاوية منخفضة مع ميل هولندي خفيف، وواقعية التصوير باليد، ونعومة خفيفة كصورة هاتف حقيقية، ومظهر فاخر بلا فلاتر يركّز على الملمس. امرأة بالغة واحدة (21+)، بقوام رياضي بقوة أنثوية، وخصر نحيف مع عضلات جذع مشدودة، وكتفين وذراعين محددين، وخطوط ساقين طويلة تبرزها الوقفة. التعبير هادئ، مهيمن، غير مكترث، بنظرة مباشرة أو نصف مغمضة، بلا ابتسامة استعراضية، وشفتان ممتلئتان طبيعيتان مسترخيتان لكن حازمتان. نمش خفيف ظاهر تحت الشمس القاسية. البشرة بلمحة فاتحة محايدة مع لمعان واقي الشمس والزيت الطبيعي، ومسامّ ظاهرة، وملمس دقيق حقيقي، وإبرازات ملوّحة بالشمس على الكتفين وعظمتي الترقوة، وظلال حادة دون سحق التفاصيل. الشعر بني داكن، ممشّط إلى الخلف بفعل الحرارة بمظهر فوضى مضبوطة مبلل قليلاً، وبضع خصلات متحررة تلتقط الضوء الذهبي. تقف عند حافة المسبح، قدم متقدمة قليلاً، والورك مائل بخفة، والكتفان منفتحان والصدر إلى الأمام، والجسم يستحوذ على المساحة. الملابس بيكيني أسود بأربطة: جزء علوي مثلث صغير بأربطة مشدودة وجزء سفلي عالي القصّة بارتفاع ورك على طراز الثمانينيات، بتغطية قليلة لكن لائقة وغير فاضحة. وشوم الصدر ظاهرة بالكامل ويجب أن تبقى دون تغيير في الشكل والموضع والخطوط والكثافة، والوشوم تؤدي دور المجوهرات. المكان: مسبح على السطح بحافة لا متناهية ودرابزين زجاجي وأفق المدينة في الخلف، وحشد قليل، وصمت فاخر. أضواء المدينة تبدأ بالتوهج بخفة. مياه المسبح تتوهج بالبرتقالي والأزرق في انعكاسات الغروب. الأدوات: نظارة شمسية في اليد (غير ملبوسة)، وهاتف ظاهر داخل الإطار كدليل على التصوير الذاتي، ومنشفة مبللة مطوية بالقرب، بلا علامات تجارية، وبلا نص على شاشة الهاتف. الإضاءة: ضوء شمس طبيعي قاسٍ، بتباين عالٍ، ووهج شمس مقصود يضرب العدسة، ووهج مضبوط يضيف حرارة دون أن يطمس الوجه أو الوشوم. التكوين: صورة ظلية قوية أمام السماء، والأفق ثانوي، وخطوط هندسية فاخرة للدرابزين وحافة المسبح. الأجواء النهائية: هيمنة هادئة، وقوة راسخة، والثقة قبل الإغراء، وصورة جذابة بجودة تحريرية، وإحساس لقطة جريئة خالدة عالية التفاعل.",
   "negative_prompt_master": "studio lighting, softbox, ring light reflections, fashion campaign pose, over-posed model energy, exaggerated anatomy, unrealistic proportions, extra limbs, warped hands, plastic skin, over-smoothed faces, porcelain doll look, heavy beauty filter, CGI, illustration, anime, painterly style, artificial background, green screen look, cinematic teal-orange grading, overcooked HDR, text, watermark, logo, brand marks, nudity, nipples, areola, explicit genital visibility, see-through exposure, underage, childlike features, doll-like face, uncanny eyes, dead eyes, overly sharpened micro-contrast, unrealistic bokeh, mirrored tattoo errors, tattoo distortion, tattoo removal, new tattoos added",
   "output_formats": [
     {
-      "use_case": "Instagram feed editorial",
+      "use_case": "منشور تحريري في خلاصة Instagram",
       "aspect_ratio": "4:5",
-      "resolution_hint": "2160x2700 or higher",
-      "framing": "mid-thigh to head, skyline visible in upper background, tattoos centered"
+      "resolution_hint": "2160x2700 أو أعلى",
+      "framing": "من منتصف الفخذ إلى الرأس، أفق المدينة ظاهر في أعلى الخلفية، والوشوم في المنتصف"
     },
     {
-      "use_case": "Stories/Reels thumbnail",
+      "use_case": "صورة مصغّرة للقصص/Reels",
       "aspect_ratio": "9:16",
-      "resolution_hint": "2160x3840 or higher",
-      "framing": "waist-up hero crop, tattoos fully visible, stronger lens flare line"
+      "resolution_hint": "2160x3840 أو أعلى",
+      "framing": "قصّ بطولي من الخصر فما فوق، الوشوم ظاهرة بالكامل، وخط وهج عدسة أقوى"
     },
     {
-      "use_case": "Square profile post",
+      "use_case": "منشور مربع للملف الشخصي",
       "aspect_ratio": "1:1",
-      "resolution_hint": "2048x2048 or higher",
-      "framing": "tight waist-up, dominant gaze, city reduced to minimal bokeh"
+      "resolution_hint": "2048x2048 أو أعلى",
+      "framing": "قصّ ضيق من الخصر فما فوق، نظرة مهيمنة، والمدينة مختزلة إلى bokeh بسيط"
     }
   ],
   "variants": [
     {
-      "variant_name": "V1 - Maximum dominance, flare controlled",
+      "variant_name": "V1 - أقصى هيمنة، مع وهج مضبوط",
       "changes_from_master": [
-        "Increase low-angle effect slightly",
-        "Keep flare moderate and clean, not washing facial detail",
-        "Make skyline slightly sharper but still secondary"
+        "زيادة تأثير الزاوية المنخفضة قليلاً",
+        "إبقاء الوهج معتدلاً ونظيفاً دون طمس تفاصيل الوجه",
+        "جعل أفق المدينة أكثر حدّة قليلاً مع بقائه ثانوياً"
       ],
-      "prompt_addendum": "Slightly stronger low-angle power framing, keep tattoos perfectly legible, flare controlled to avoid haze over the face."
+      "prompt_addendum": "تأطير قوة من زاوية منخفضة أقوى قليلاً، مع إبقاء الوشوم مقروءة تماماً، ووهج مضبوط لتجنّب الضباب فوق الوجه."
     },
     {
-      "variant_name": "V2 - Heat haze premium, more candid imperfection",
+      "variant_name": "V2 - ضباب حراري فاخر، مع مزيد من العيوب العفوية",
       "changes_from_master": [
-        "Introduce subtle heat haze shimmer in background only",
-        "Add micro water droplets on collarbones and shoulders",
-        "Slightly more handheld imperfection"
+        "إدخال تموّج ضباب حراري خفيف في الخلفية فقط",
+        "إضافة قطرات ماء دقيقة على عظمتي الترقوة والكتفين",
+        "مزيد قليل من عيوب التصوير باليد"
       ],
-      "prompt_addendum": "Add subtle background heat shimmer, tiny water droplets catching the sun on shoulders and collarbones, slightly imperfect handheld crop like a real moment."
+      "prompt_addendum": "أضف تموّجاً حرارياً خفيفاً في الخلفية، وقطرات ماء صغيرة تلتقط الشمس على الكتفين وعظمتي الترقوة، وقصّاً غير مثالي قليلاً كأنه محمول باليد في لحظة حقيقية."
     },
     {
-      "variant_name": "V3 - City lights glow emphasis",
+      "variant_name": "V3 - التركيز على توهج أضواء المدينة",
       "changes_from_master": [
-        "More visible city lights beginning to glow",
-        "Slightly darker sky gradient",
-        "Keep subject exposure correct, avoid HDR"
+        "أضواء مدينة تبدأ بالتوهج بشكل أوضح",
+        "تدرّج سماء أكثر قتامة قليلاً",
+        "الحفاظ على تعريض صحيح للشخص، وتجنّب HDR"
       ],
-      "prompt_addendum": "City lights softly turning on in the distance, subtle sky gradient deepening, keep subject properly exposed and natural."
+      "prompt_addendum": "أضواء المدينة تُضاء بنعومة في البعيد، وتدرّج السماء يزداد عمقاً بخفة، مع الحفاظ على تعريض الشخص صحيحاً وطبيعياً."
     },
     {
-      "variant_name": "V4 - Strong silhouette against sky",
+      "variant_name": "V4 - صورة ظلية قوية أمام السماء",
       "changes_from_master": [
-        "Place sun slightly more behind subject for rim light",
-        "Increase silhouette clarity",
-        "Keep facial features still readable"
+        "وضع الشمس خلف الشخص أكثر قليلاً لإضاءة الحافة",
+        "زيادة وضوح الصورة الظلية",
+        "الإبقاء على ملامح الوجه مقروءة"
       ],
-      "prompt_addendum": "Backlight with clean rim highlights around shoulders and hairline, stronger silhouette against the sky while keeping eyes and freckles readable."
+      "prompt_addendum": "إضاءة خلفية بإبرازات حافة نظيفة حول الكتفين وخط الشعر، وصورة ظلية أقوى أمام السماء مع الإبقاء على العينين والنمش مقروءة."
     },
     {
-      "variant_name": "V5 - Phone proof stronger",
+      "variant_name": "V5 - دليل هاتف أقوى",
       "changes_from_master": [
-        "Make the phone more clearly visible in the lower corner of frame",
-        "Ensure no screen text",
-        "Preserve candid feel"
+        "جعل الهاتف ظاهراً بوضوح أكبر في الزاوية السفلية من الإطار",
+        "التأكد من عدم وجود نص على الشاشة",
+        "الحفاظ على الإحساس العفوي"
       ],
-      "prompt_addendum": "Phone clearly visible as self-shot proof, screen unreadable with no text, keep it natural like an authentic capture."
+      "prompt_addendum": "الهاتف ظاهر بوضوح كدليل على التصوير الذاتي، والشاشة غير مقروءة بلا نص، مع إبقائه طبيعياً كالتقاط أصيل."
     },
     {
-      "variant_name": "V6 - Tattoo hero framing",
+      "variant_name": "V6 - تأطير بطولي للوشوم",
       "changes_from_master": [
-        "Frame slightly higher to prioritize chest tattoos",
-        "Reduce skyline prominence",
-        "Keep bikini strings realistic and not tangled"
+        "رفع التأطير قليلاً لإعطاء الأولوية لوشوم الصدر",
+        "تقليل بروز أفق المدينة",
+        "إبقاء أربطة البيكيني واقعية وغير متشابكة"
       ],
-      "prompt_addendum": "Prioritize chest tattoos as the hero detail, reduce skyline dominance, keep bikini strings physically believable with natural tension."
+      "prompt_addendum": "أعطِ الأولوية لوشوم الصدر كتفصيل بطولي، وقلّل هيمنة أفق المدينة، وأبقِ أربطة البيكيني قابلة للتصديق فيزيائياً بشدّ طبيعي."
     }
   ],
   "advanced_controls_optional": {
-    "seed_policy": "If your generator supports seeds, lock a seed per variant to preserve identity and composition for iteration.",
+    "seed_policy": "إذا كان المولّد لديك يدعم البذور (Seeds)، فثبّت بذرة لكل نسخة للحفاظ على الهوية والتكوين عند التكرار.",
     "consistency_rules": [
-      "Maintain the same subject identity across rerolls if using reference or seed locks.",
-      "Tattoo integrity must remain exact, no drift.",
-      "Avoid anatomy mutations, especially hands, shoulders, and waist."
+      "حافظ على هوية الشخص نفسها عبر إعادات التوليد عند استخدام صورة مرجعية أو تثبيت البذور.",
+      "يجب أن تبقى سلامة الوشوم دقيقة تماماً، بلا انحراف.",
+      "تجنّب التشوّهات التشريحية، خاصة في اليدين والكتفين والخصر."
     ],
     "iteration_recipe": [
-      "Start with V1 in 4:5 to validate pose and dominance angle.",
-      "Switch to V6 to verify tattoo legibility and non-mutation.",
-      "Test V3 in 9:16 for skyline glow and flare balance.",
-      "Apply negative_prompt_master strictly if outputs look too cinematic or too retouched."
+      "ابدأ بـ V1 بنسبة 4:5 للتحقق من الوضعية وزاوية الهيمنة.",
+      "انتقل إلى V6 للتحقق من وضوح الوشوم وعدم تشوّهها.",
+      "اختبر V3 بنسبة 9:16 لتوازن توهج الأفق والوهج.",
+      "طبّق negative_prompt_master بصرامة إذا بدت المخرجات سينمائية أكثر من اللازم أو منقّحة أكثر من اللازم."
     ]
   },
   "creative_option": {
-    "idea": "If you want it to feel even more 'real iPhone', add a tiny lens smudge and micro glare on one corner only, but keep it subtle so it reads as authentic, not a filter.",
-    "toggle": "Optional"
+    "idea": "إذا أردت أن تبدو أكثر شبهاً بـ 'iPhone حقيقي'، فأضف لطخة عدسة صغيرة ووهجاً دقيقاً في زاوية واحدة فقط، لكن أبقِه خفيفاً بحيث يُقرأ كأصيل لا كفلتر.",
+    "toggle": "اختياري"
   }
 }
 ```
 
-## 860. seo-fundamentals 🔤
+## 860. أساسيات SEO
 
 *الأصل:* seo-fundamentals · *النوع:* نص
 
 ````
 ---
 name: seo-fundamentals
-description: SEO fundamentals, E-E-A-T, Core Web Vitals, and 2025 Google algorithm updates
+description: أساسيات تحسين محركات البحث (SEO)، وE-E-A-T، ومؤشرات Core Web Vitals، وتحديثات خوارزميات Google لعام 2025
 version: 1.0
 priority: high
 tags: [seo, marketing, google, e-e-a-t, core-web-vitals]
 ---
 
-# SEO Fundamentals (2025)
+# أساسيات SEO (2025)
 
-## Core Framework: E-E-A-T
+## الإطار الأساسي: E-E-A-T
 
 ```
-Experience     → First-hand experience, real stories
-Expertise      → Credentials, certifications, knowledge
-Authoritativeness → Backlinks, media mentions, recognition
-Trustworthiness  → HTTPS, contact info, transparency, reviews
+Experience (الخبرة العملية)     ← تجربة مباشرة، قصص حقيقية
+Expertise (الخبرة المعرفية)      ← المؤهلات، الشهادات، المعرفة
+Authoritativeness (الموثوقية المرجعية) ← الروابط الخلفية، الإشارات الإعلامية، الاعتراف
+Trustworthiness (الجدارة بالثقة)  ← HTTPS، معلومات التواصل، الشفافية، المراجعات
 ```
 
-## 2025 Algorithm Updates
+## تحديثات الخوارزميات لعام 2025
 
-| Update | Impact | Focus |
+| التحديث | الأثر | التركيز |
 |--------|--------|-------|
-| March 2025 Core | 63% SERP fluctuation | Content quality |
-| June 2025 Core | E-E-A-T emphasis | Authority signals |
-| Helpful Content | AI content penalties | People-first content |
+| التحديث الأساسي لمارس 2025 | تقلّب بنسبة 63% في صفحات نتائج البحث | جودة المحتوى |
+| التحديث الأساسي ليونيو 2025 | التركيز على E-E-A-T | إشارات الموثوقية |
+| Helpful Content (المحتوى المفيد) | عقوبات على محتوى الذكاء الاصطناعي | المحتوى الموجّه للناس أولاً |
 
-## Core Web Vitals Targets
+## مستهدفات Core Web Vitals
 
-| Metric | Target | Measurement |
+| المقياس | المستهدف | القياس |
 |--------|--------|-------------|
-| **LCP** | < 2.5s | Largest Contentful Paint |
-| **INP** | < 200ms | Interaction to Next Paint |
-| **CLS** | < 0.1 | Cumulative Layout Shift |
+| **LCP** | < 2.5s | Largest Contentful Paint (أكبر عرض للمحتوى) |
+| **INP** | < 200ms | Interaction to Next Paint (التفاعل حتى العرض التالي) |
+| **CLS** | < 0.1 | Cumulative Layout Shift (الإزاحة التراكمية للتخطيط) |
 
-## Technical SEO Checklist
-
-```
-Site Structure:
-☐ XML sitemap submitted
-☐ robots.txt configured
-☐ Canonical tags correct
-☐ Hreflang tags (multilingual)
-☐ 301 redirects proper
-☐ No 404 errors
-
-Performance:
-☐ Images optimized (WebP)
-☐ Lazy loading
-☐ Minification (CSS/JS/HTML)
-☐ GZIP/Brotli compression
-☐ Browser caching
-☐ CDN active
-
-Mobile:
-☐ Responsive design
-☐ Mobile-friendly test passed
-☐ Touch targets 48x48px min
-☐ Font size 16px min
-☐ Viewport meta correct
-
-Structured Data:
-☐ Article schema
-☐ Organization schema
-☐ Person/Author schema
-☐ FAQPage schema
-☐ Breadcrumb schema
-☐ Review/Rating schema
-```
-
-## AI Content Guidelines
+## قائمة تحقق SEO التقني
 
 ```
-❌ Don't:
-- Publish purely AI-generated content
-- Skip fact-checking
-- Create duplicate content
-- Keyword stuffing
+بنية الموقع:
+☐ تم إرسال خريطة الموقع XML
+☐ تم إعداد robots.txt
+☐ وسوم Canonical صحيحة
+☐ وسوم Hreflang (للمواقع متعددة اللغات)
+☐ عمليات إعادة توجيه 301 سليمة
+☐ لا أخطاء 404
 
-✅ Do:
-- AI draft + human edit
-- Add original insights
-- Expert review
-- E-E-A-T principles
-- Plagiarism check
+الأداء:
+☐ الصور محسَّنة (WebP)
+☐ التحميل الكسول (Lazy loading)
+☐ التصغير (CSS/JS/HTML)
+☐ ضغط GZIP/Brotli
+☐ التخزين المؤقت في المتصفح
+☐ شبكة CDN مفعّلة
+
+الهاتف المحمول:
+☐ تصميم متجاوب
+☐ اجتياز اختبار التوافق مع الهاتف المحمول
+☐ أهداف اللمس 48x48px كحد أدنى
+☐ حجم الخط 16px كحد أدنى
+☐ وسم Viewport meta صحيح
+
+البيانات المنظمة:
+☐ مخطط Article
+☐ مخطط Organization
+☐ مخطط Person/Author
+☐ مخطط FAQPage
+☐ مخطط Breadcrumb
+☐ مخطط Review/Rating
 ```
 
-## Content Format for SEO Success
+## إرشادات محتوى الذكاء الاصطناعي
 
 ```
-Title: Question-based or keyword-rich
-├── Meta description (150-160 chars)
-├── H1: Main keyword
-├── H2: Related topics
-│   ├── H3: Subtopics
-│   └── Bullet points/lists
-├── FAQ section (with FAQPage schema)
-├── Internal links to related content
-└── External links to authoritative sources
+❌ لا تفعل:
+- نشر محتوى مولَّد بالكامل بالذكاء الاصطناعي
+- تخطّي التحقق من الحقائق
+- إنشاء محتوى مكرر
+- حشو الكلمات المفتاحية
 
-Elements:
-☐ Author bio with credentials
-☐ "Last updated" date
-☐ Original statistics/data
-☐ Citations and references
-☐ Summary/TL;DR box
-☐ Visual content (images, charts)
-☐ Social share buttons
+✅ افعل:
+- مسودة بالذكاء الاصطناعي + تحرير بشري
+- إضافة رؤى أصلية
+- مراجعة خبير
+- مبادئ E-E-A-T
+- فحص الانتحال
 ```
 
-## Quick Reference
+## صيغة المحتوى لنجاح SEO
+
+```
+العنوان: قائم على سؤال أو غني بالكلمات المفتاحية
+├── الوصف التعريفي Meta description (150-160 حرفاً)
+├── H1: الكلمة المفتاحية الرئيسية
+├── H2: موضوعات ذات صلة
+│   ├── H3: موضوعات فرعية
+│   └── نقاط/قوائم
+├── قسم الأسئلة الشائعة (مع مخطط FAQPage)
+├── روابط داخلية إلى محتوى ذي صلة
+└── روابط خارجية إلى مصادر موثوقة
+
+العناصر:
+☐ نبذة عن الكاتب مع مؤهلاته
+☐ تاريخ "آخر تحديث"
+☐ إحصاءات/بيانات أصلية
+☐ استشهادات ومراجع
+☐ مربع ملخص/TL;DR
+☐ محتوى مرئي (صور، رسوم بيانية)
+☐ أزرار المشاركة على وسائل التواصل
+```
+
+## مرجع سريع
 
 ```javascript
 // Essential meta tags
@@ -2393,100 +2395,101 @@ Elements:
 }
 </script>
 ```
+(شرح: وسوم الميتا الأساسية، ووسوم Open Graph لوسائل التواصل، ومثال على ترميز المخطط Schema.)
 
-## SEO Tools (2025)
+## أدوات SEO (2025)
 
-| Tool | Purpose |
+| الأداة | الغرض |
 |------|---------|
-| Google Search Console | Performance, indexing |
+| Google Search Console | الأداء، الفهرسة |
 | PageSpeed Insights | Core Web Vitals |
-| Lighthouse | Technical audit |
-| Semrush/Ahrefs | Keywords, backlinks |
-| Surfer SEO | Content optimization |
+| Lighthouse | التدقيق التقني |
+| Semrush/Ahrefs | الكلمات المفتاحية، الروابط الخلفية |
+| Surfer SEO | تحسين المحتوى |
 
 ---
 
-**Last Updated:** 2025-12-30
+**آخر تحديث:** 2025-12-30
 ````
 
-## 861. Mastermind 🔤
+## 861. العقل المدبّر
 
 *الأصل:* Mastermind · *النوع:* نص
 
 ````
 ---
 name: mastermind-task-planning
-description: thinks, plans, and creates task specs
+description: يفكّر ويخطط وينشئ مواصفات المهام
 ---
 
-# Mastermind - Task Planning Skill
+# العقل المدبّر - مهارة تخطيط المهام
 
-You are in Mastermind/CTO mode. You think, plan, and create task specs. You NEVER implement - you create specs that agents execute.
+أنت في وضع العقل المدبّر/المدير التقني (CTO). أنت تفكّر وتخطط وتنشئ مواصفات المهام. لا تنفّذ أبداً - بل تنشئ مواصفات ينفّذها الوكلاء.
 
-## When to Activate
+## متى تُفعَّل
 
-- User says "create delegation"
-- User says "delegation for X"
+- عندما يقول المستخدم "create delegation"
+- عندما يقول المستخدم "delegation for X"
 
-## Your Role
+## دورك
 
-1. Understand the project deeply
-2. Brainstorm solutions with user
-3. Create detailed task specs in `.tasks/` folder
-4. Review agent work when user asks
+1. فهم المشروع بعمق
+2. العصف الذهني للحلول مع المستخدم
+3. إنشاء مواصفات مهام مفصّلة في مجلد `.tasks/`
+4. مراجعة عمل الوكلاء عندما يطلب المستخدم ذلك
 
-## What You Do NOT Do
+## ما لا تفعله
 
-- Write implementation code
-- Run agents or delegate tasks
-- Create files without user approval
+- كتابة شيفرة التنفيذ
+- تشغيل الوكلاء أو تفويض المهام
+- إنشاء ملفات دون موافقة المستخدم
 
-## Task File Structure
+## بنية ملف المهمة
 
-Create tasks in `.tasks/XXX-feature-name.md` with this template:
+أنشئ المهام في `.tasks/XXX-feature-name.md` باستخدام هذا القالب:
 
 ```markdown
-# Task XXX: Feature Name
+# المهمة XXX: اسم الميزة
 
-## LLM Agent Directives
+## توجيهات وكيل LLM
 
-You are [doing X] to achieve [Y].
+أنت [تفعل X] لتحقيق [Y].
 
-**Goals:**
-1. Primary goal
-2. Secondary goal
+**الأهداف:**
+1. الهدف الأساسي
+2. الهدف الثانوي
 
-**Rules:**
-- DO NOT add new features
-- DO NOT refactor unrelated code
-- RUN `bun run typecheck` after each phase
-- VERIFY no imports break after changes
+**القواعد:**
+- لا تُضِف ميزات جديدة
+- لا تُعِد هيكلة شيفرة غير ذات صلة
+- شغّل `bun run typecheck` بعد كل مرحلة
+- تحقق من عدم تعطّل أي استيرادات بعد التغييرات
 
 ---
 
-## Phase 1: First Step
+## المرحلة 1: الخطوة الأولى
 
-### 1.1 Specific action
+### 1.1 إجراء محدد
 
-**File:** `src/path/to/file.ts`
+**الملف:** `src/path/to/file.ts`
 
-FIND:
+ابحث عن (FIND):
 \`\`\`typescript
 // existing code
 \`\`\`
 
-CHANGE TO:
+غيّره إلى (CHANGE TO):
 \`\`\`typescript
 // new code
 \`\`\`
 
-VERIFY: `grep -r "pattern" src/` returns expected result.
+تحقق (VERIFY): `grep -r "pattern" src/` يعيد النتيجة المتوقعة.
 
 ---
 
-## Phase N: Verify
+## المرحلة N: التحقق
 
-RUN these commands:
+شغّل هذه الأوامر:
 \`\`\`bash
 bun run typecheck
 bun run dev
@@ -2494,35 +2497,35 @@ bun run dev
 
 ---
 
-## Checklist
+## قائمة التحقق
 
-### Phase 1
-- [ ] Step 1 done
-- [ ] `bun run typecheck` passes
+### المرحلة 1
+- [ ] الخطوة 1 منجزة
+- [ ] `bun run typecheck` ينجح
 
 ---
 
-## Do NOT Do
+## ما لا يجب فعله
 
-- Do NOT add new features
-- Do NOT change API response shapes
-- Do NOT refactor unrelated code
+- لا تُضِف ميزات جديدة
+- لا تغيّر أشكال استجابات الـ API
+- لا تُعِد هيكلة شيفرة غير ذات صلة
 ```
 
-## Key Elements
+## العناصر الرئيسية
 
-| Element | Purpose |
+| العنصر | الغرض |
 |---------|---------|
-| **LLM Agent Directives** | First thing agent reads - sets context |
-| **Goals** | Numbered, clear objectives |
-| **Rules** | Constraints to prevent scope creep |
-| **Phases** | Break work into verifiable chunks |
-| **FIND/CHANGE TO** | Exact code transformations |
-| **VERIFY** | Commands to confirm each step |
-| **Checklist** | Agent marks `[ ]` → `[x]` as it works |
-| **Do NOT Do** | Explicit anti-patterns to avoid |
+| **توجيهات وكيل LLM** | أول ما يقرؤه الوكيل - يحدد السياق |
+| **الأهداف** | أهداف مرقّمة وواضحة |
+| **القواعد** | قيود لمنع التوسّع في النطاق |
+| **المراحل** | تقسيم العمل إلى أجزاء قابلة للتحقق |
+| **FIND/CHANGE TO** | تحويلات دقيقة للشيفرة |
+| **VERIFY** | أوامر لتأكيد كل خطوة |
+| **قائمة التحقق** | يضع الوكيل علامة `[ ]` → `[x]` أثناء عمله |
+| **ما لا يجب فعله** | أنماط سيئة صريحة يجب تجنّبها |
 
-## Workflow
+## سير العمل
 
 ```
 User Request
@@ -2541,24 +2544,25 @@ Review agent's work
     ↓
 Pass → Mark complete | Fail → Retry
 ```
+(شرح: طلب المستخدم ← النقاش والعصف الذهني مع المستخدم ← صياغة مسودة مواصفات المهمة وعرضها على المستخدم ← موافقة المستخدم ثم إنشاء ملف المهمة ← تفويض المستخدم للمهمة إلى وكيل ← إنجاز الوكيل ثم إبلاغك من المستخدم ← مراجعة عمل الوكيل ← نجاح: وضع علامة الاكتمال | فشل: إعادة المحاولة.)
 
-## Task Numbering
+## ترقيم المهام
 
-- Check existing tasks in `.tasks/` folder
-- Use next sequential number: 001, 002, 003...
-- Format: `XXX-kebab-case-name.md`
+- تحقق من المهام الموجودة في مجلد `.tasks/`
+- استخدم الرقم التسلسلي التالي: 001، 002، 003...
+- الصيغة: `XXX-kebab-case-name.md`
 
-## First Time Setup
+## الإعداد لأول مرة
 
-If `.tasks/` folder doesn't exist, create it and optionally create `CONTEXT.md` with project info.
+إذا لم يكن مجلد `.tasks/` موجوداً، فأنشئه، ويمكنك اختيارياً إنشاء `CONTEXT.md` بمعلومات المشروع.
 ````
 
-## 862. Echoes of the Rust Age 🔤
+## 862. أصداء عصر الصدأ
 
 *الأصل:* Echoes of the Rust Age · *النوع:* نص
 
 ```
-You will perform an image edit using the people from the provided photos as the main subjects. Preserve their core likeness. Place Subject 1 (male) and Subject 2 (female) as post-apocalyptic wanderers in a desert of junk. They are traversing a massive canyon formed by centuries of rusted debris. The image must be photorealistic, featuring cinematic lighting, highly detailed skin textures and environmental grit, shot on Arri Alexa with a shallow depth of field to isolate them from the chaotic background.
+ستُجري تعديلاً على صورة باستخدام الأشخاص من الصور المقدَّمة كشخصيات رئيسية. حافظ على ملامحهم الأساسية. ضع الشخص 1 (ذكر) والشخص 2 (أنثى) كهائمَين في عالم ما بعد نهاية العالم وسط صحراء من الخردة. إنهما يعبران وادياً هائلاً تشكّل من قرون من الحطام الصدئ. يجب أن تكون الصورة واقعية فوتوغرافياً، بإضاءة سينمائية، وأنسجة بشرة عالية التفاصيل، وخشونة بيئية، ومصوّرة بكاميرا Arri Alexa بعمق مجال ضحل لعزلهما عن الخلفية الفوضوية.
 ```
 
 ## 863. قراصنة الفراغ القرمزي

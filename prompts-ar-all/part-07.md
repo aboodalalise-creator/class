@@ -5056,7 +5056,7 @@ image-generation:
 }
 ```
 
-## 683. Tech Desk “Builder” (half-body, cozy monitor glow) 🔤
+## 683. مكتب تقني لـ"صانعة" (نصف الجسم، توهّج شاشة دافئ)
 
 *الأصل:* Tech Desk “Builder” (half-body, cozy monitor glow) · *النوع:* منظّم
 
@@ -5064,67 +5064,67 @@ image-generation:
 {
   "category": "TECH_DESK_BUILDER_HALF_BODY",
   "subject": {
-    "demographics": "Adult woman, 21-29, Turkish-looking, creator vibe.",
+    "demographics": "امرأة بالغة، 21-29 عامًا، بملامح تركية، بطابع صانعة محتوى.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Low ponytail or loose waves",
-      "texture": "Strands visible, slight flyaways"
+      "color": "بني داكن",
+      "style": "ذيل حصان منخفض أو تموجات منسدلة",
+      "texture": "خصلات ظاهرة، وشعيرات متطايرة خفيفة"
     },
     "face": {
-      "eyes": "Focused but friendly",
-      "skin_details": "Real texture, no smoothing",
-      "makeup": "Minimal"
+      "eyes": "مركّزتان لكن ودودتان",
+      "skin_details": "ملمس حقيقي، دون تنعيم",
+      "makeup": "بسيط"
     },
     "clothing": {
-      "outfit": "Casual black top + light cardigan, no logos",
-      "fabric": "Real knit weave, subtle wrinkles"
+      "outfit": "قطعة علوية سوداء عفوية + كارديغان خفيف، بلا شعارات",
+      "fabric": "نسيج محبوك حقيقي، وتجاعيد خفيفة"
     },
     "accessories": {
-      "jewelry": ["Silver hoops"]
+      "jewelry": ["حلقات فضية"]
     }
   },
   "pose": {
-    "type": "Half-body seated",
-    "orientation": "Body slightly angled, shoulders relaxed",
-    "hands": "One hand near trackpad, other tucking hair behind ear",
-    "gaze": "Looking at camera with small smirk",
-    "posture": "Relaxed confident"
+    "type": "جالسة، نصف الجسم",
+    "orientation": "الجسم مائل قليلًا، والكتفان مسترخيان",
+    "hands": "يد قرب لوحة اللمس، والأخرى تدسّ الشعر خلف الأذن",
+    "gaze": "تنظر إلى الكاميرا بابتسامة جانبية صغيرة",
+    "posture": "مسترخية وواثقة"
   },
   "setting": {
-    "environment": "Minimal desk setup",
+    "environment": "مكتب بتجهيز بسيط",
     "background_elements": [
-      "Laptop/monitor with generic blurred UI (NO readable text)",
-      "Warm desk lamp + cool monitor glow mix",
-      "Plant in corner, small clutter blurred"
+      "حاسوب محمول/شاشة بواجهة عامة مموّهة (بلا أي نص مقروء)",
+      "مزيج من مصباح مكتب دافئ وتوهّج شاشة بارد",
+      "نبتة في الركن، وفوضى صغيرة مموّهة"
     ],
-    "depth": "Face sharp, background bokeh"
+    "depth": "الوجه حاد، والخلفية بوكيه"
   },
   "camera": {
-    "shot_type": "Half-body lifestyle portrait",
-    "angle": "Slightly above eye level",
-    "focal_length_equivalent": "26mm phone or 50mm pro",
+    "shot_type": "بورتريه أسلوب حياة لنصف الجسم",
+    "angle": "أعلى قليلًا من مستوى العين",
+    "focal_length_equivalent": "هاتف 26 مم أو 50 مم احترافية",
     "framing": "4:5",
-    "focus": "Eyes sharp"
+    "focus": "العينان حادّتان"
   },
   "lighting": {
-    "source": "Warm lamp + cool monitor glow",
-    "direction": "Soft mixed lighting with gentle shadows",
-    "highlights": "Natural facial speculars",
-    "shadows": "Soft, realistic"
+    "source": "مصباح دافئ + توهّج شاشة بارد",
+    "direction": "إضاءة مختلطة ناعمة مع ظلال لطيفة",
+    "highlights": "لمعان طبيعي على الوجه",
+    "shadows": "ناعمة وواقعية"
   },
   "mood_and_expression": {
-    "tone": "Cozy creator, confident",
-    "expression": "Micro-smirk",
-    "atmosphere": "Late-night build session vibe"
+    "tone": "صانعة محتوى في أجواء دافئة، واثقة",
+    "expression": "ابتسامة جانبية خفيفة جدًا",
+    "atmosphere": "أجواء جلسة بناء في وقت متأخر من الليل"
   },
   "style_and_realism": {
-    "style": "Photorealistic lifestyle",
-    "imperfections": "Mild noise, slight imperfect WB"
+    "style": "أسلوب حياة بواقعية فوتوغرافية",
+    "imperfections": "ضوضاء خفيفة، وتوازن أبيض غير مثالي قليلًا"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Mild",
-    "resolution": "High"
+    "noise": "خفيفة",
+    "resolution": "عالية"
   },
   "constraints": {
     "adult_only": true,
@@ -5141,7 +5141,7 @@ image-generation:
 }
 ```
 
-## 684. Restaurant Candle Close-up (intimate, not explicit) 🔤
+## 684. لقطة قريبة على ضوء الشموع في مطعم (حميمية، غير فاضحة)
 
 *الأصل:* Restaurant Candle Close-up (intimate, not explicit) · *النوع:* منظّم
 
@@ -5149,64 +5149,64 @@ image-generation:
 {
   "category": "CANDLELIT_RESTAURANT_CLOSEUP",
   "subject": {
-    "demographics": "Adult woman, 21-29, Turkish-looking.",
+    "demographics": "امرأة بالغة، 21-29 عامًا، بملامح تركية.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Loose, softly styled",
-      "texture": "Real strands, gentle shine"
+      "color": "بني داكن",
+      "style": "منسدل، بتصفيف ناعم",
+      "texture": "خصلات حقيقية، ولمعان لطيف"
     },
     "face": {
-      "eyes": "Soft eye contact, warm highlights",
-      "makeup": "Natural glam, subtle liner",
-      "skin_details": "Real pores, warm glow from candle"
+      "eyes": "تواصل بصري ناعم، وإبرازات دافئة",
+      "makeup": "إطلالة جذابة طبيعية، وكحل خفيف",
+      "skin_details": "مسام حقيقية، وتوهّج دافئ من الشمعة"
     },
     "clothing": {
-      "outfit": "Simple elegant black top/dress (no logos)"
+      "outfit": "قطعة علوية/فستان أسود أنيق وبسيط (بلا شعارات)"
     },
     "accessories": {
-      "jewelry": ["Silver hoops"]
+      "jewelry": ["حلقات فضية"]
     }
   },
   "pose": {
-    "type": "Close-up seated",
-    "orientation": "Face toward camera",
-    "hands": "One hand supporting chin, fingers relaxed",
-    "gaze": "Direct eye contact",
-    "expression": "Calm confident micro-smile"
+    "type": "لقطة قريبة جالسة",
+    "orientation": "الوجه نحو الكاميرا",
+    "hands": "يد تسند الذقن، والأصابع مسترخية",
+    "gaze": "تواصل بصري مباشر",
+    "expression": "ابتسامة خفيفة هادئة وواثقة"
   },
   "setting": {
-    "environment": "Restaurant table",
+    "environment": "طاولة مطعم",
     "background_elements": [
-      "Candle flame bokeh",
-      "Glass reflections",
-      "Soft background blur (no readable signage)"
+      "بوكيه لهب الشموع",
+      "انعكاسات الزجاج",
+      "تمويه ناعم في الخلفية (بلا لافتات مقروءة)"
     ],
-    "depth": "Face sharp, background creamy"
+    "depth": "الوجه حاد، والخلفية كريمية ناعمة"
   },
   "camera": {
-    "shot_type": "Close-up portrait",
-    "angle": "Eye-level",
-    "focal_length_equivalent": "50-85mm pro feel or 26mm phone variant",
-    "framing": "4:5, tight crop",
-    "focus": "Eyes extremely sharp"
+    "shot_type": "بورتريه قريب",
+    "angle": "بمستوى العين",
+    "focal_length_equivalent": "إحساس احترافي 50-85 مم أو بديل هاتف 26 مم",
+    "framing": "4:5، قصّ ضيق",
+    "focus": "العينان حادّتان للغاية"
   },
   "lighting": {
-    "source": "Candle + warm ambient",
-    "direction": "Warm side/front",
-    "highlights": "Soft specular on lips and eyes",
-    "shadows": "Gentle, flattering"
+    "source": "شمعة + إضاءة محيطة دافئة",
+    "direction": "دافئة من الجانب/الأمام",
+    "highlights": "لمعان ناعم على الشفتين والعينين",
+    "shadows": "لطيفة ومُجمّلة"
   },
   "mood_and_expression": {
-    "tone": "Intimate, elegant, confident",
-    "atmosphere": "Warm, cinematic"
+    "tone": "حميمي، أنيق، واثق",
+    "atmosphere": "دافئ، سينمائي"
   },
   "style_and_realism": {
-    "style": "Photoreal IG portrait",
-    "imperfections": "Slight grain acceptable"
+    "style": "بورتريه إنستغرام بواقعية فوتوغرافية",
+    "imperfections": "حبيبات خفيفة مقبولة"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Mild low-light grain"
+    "noise": "حبيبات خفيفة بسبب الإضاءة المنخفضة"
   },
   "constraints": {
     "adult_only": true,
@@ -5223,7 +5223,7 @@ image-generation:
 }
 ```
 
-## 685. Minimal Studio “iPhone Candid” (pro-quality but awkward framing) 🔤
+## 685. استوديو بسيط بأسلوب "لقطة آيفون عفوية" (جودة احترافية لكن بتأطير غير متقن)
 
 *الأصل:* Minimal Studio “iPhone Candid” (pro-quality but awkward framing) · *النوع:* منظّم
 
@@ -5231,62 +5231,62 @@ image-generation:
 {
   "category": "STUDIO_IPHONE_CANDID_AWKWARD_FRAMING",
   "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking, youthful vibe but adult.",
+    "demographics": "امرأة بالغة، 21-27 عامًا، بملامح تركية، بطابع شبابي لكنها بالغة.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Natural loose waves",
-      "texture": "Strands visible, slight flyaways"
+      "color": "بني داكن",
+      "style": "تموجات طبيعية منسدلة",
+      "texture": "خصلات ظاهرة، وشعيرات متطايرة خفيفة"
     },
     "face": {
-      "eyes": "Bright, direct",
-      "skin_details": "High fidelity pores, no smoothing",
-      "makeup": "Clean natural"
+      "eyes": "مشرقتان، مباشرتان",
+      "skin_details": "مسام عالية الدقة، دون تنعيم",
+      "makeup": "طبيعي ونظيف"
     },
     "clothing": {
-      "outfit": "Simple black top (no logos)"
+      "outfit": "قطعة علوية سوداء بسيطة (بلا شعارات)"
     },
     "accessories": {
-      "jewelry": ["Silver hoops"]
+      "jewelry": ["حلقات فضية"]
     }
   },
   "pose": {
-    "type": "Close-up/half-body candid",
-    "orientation": "Slightly too-close crop, imperfect framing",
-    "hands": "One hand briefly in frame near hairline (fingers correct)",
-    "gaze": "Direct eye contact",
-    "expression": "Playful micro-smile"
+    "type": "لقطة عفوية قريبة/نصف الجسم",
+    "orientation": "قصّ قريب أكثر من اللازم قليلًا، وتأطير غير مثالي",
+    "hands": "يد تظهر لحظيًا في الإطار قرب خط الشعر (الأصابع صحيحة)",
+    "gaze": "تواصل بصري مباشر",
+    "expression": "ابتسامة خفيفة مرحة"
   },
   "setting": {
-    "environment": "Plain studio wall",
+    "environment": "جدار استوديو سادة",
     "background_elements": [
-      "Subtle wall texture",
-      "No props"
+      "ملمس جدار خفيف",
+      "بلا أدوات"
     ],
-    "depth": "Face sharp, background soft"
+    "depth": "الوجه حاد، والخلفية ناعمة"
   },
   "camera": {
-    "shot_type": "Phone-candid look in a clean space",
-    "angle": "Slightly above eye-level",
-    "focal_length_equivalent": "26mm phone feel",
-    "framing": "4:5 with awkward crop (slightly cutting hair/top space)",
-    "focus": "Eyes sharp"
+    "shot_type": "مظهر لقطة هاتف عفوية في مساحة نظيفة",
+    "angle": "أعلى قليلًا من مستوى العين",
+    "focal_length_equivalent": "إحساس هاتف 26 مم",
+    "framing": "4:5 مع قصّ غير متقن (يقطع قليلًا من الشعر/المساحة العلوية)",
+    "focus": "العينان حادّتان"
   },
   "lighting": {
-    "source": "Soft diffused key light",
-    "direction": "Front/side gentle",
-    "quality": "Natural, not glossy"
+    "source": "إضاءة رئيسية ناعمة ومنتشرة",
+    "direction": "لطيفة من الأمام/الجانب",
+    "quality": "طبيعية، غير لامعة"
   },
   "mood_and_expression": {
-    "tone": "Candid, playful, everyday",
-    "atmosphere": "Looks unplanned but still flattering"
+    "tone": "عفوي، مرح، يومي",
+    "atmosphere": "تبدو غير مخطط لها لكنها تظل مُجمّلة"
   },
   "style_and_realism": {
-    "style": "Photoreal UGC",
-    "imperfections": "Tiny noise, imperfect composition"
+    "style": "محتوى مستخدمين (UGC) بواقعية فوتوغرافية",
+    "imperfections": "ضوضاء ضئيلة، وتكوين غير مثالي"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Mild"
+    "noise": "خفيفة"
   },
   "constraints": {
     "adult_only": true,
@@ -5303,7 +5303,7 @@ image-generation:
 }
 ```
 
-## 686. “Blue Hour Bridge” (full-body, cinematic but still IG) 🔤
+## 686. "جسر الساعة الزرقاء" (كامل الجسم، سينمائي لكنه يناسب إنستغرام)
 
 *الأصل:* “Blue Hour Bridge” (full-body, cinematic but still IG) · *النوع:* منظّم
 
@@ -5311,64 +5311,64 @@ image-generation:
 {
   "category": "BLUE_HOUR_BRIDGE_FULLBODY",
   "subject": {
-    "demographics": "Adult woman, 21-29, Turkish-looking, calm confident vibe.",
+    "demographics": "امرأة بالغة، 21-29 عامًا، بملامح تركية، بطابع هادئ وواثق.",
     "hair": {
-      "color": "Dark brown",
-      "style": "Loose waves, slightly wind-touched",
-      "texture": "Individual strands visible",
-      "movement": "Small motion in hair tips"
+      "color": "بني داكن",
+      "style": "تموجات منسدلة، لامستها الرياح قليلًا",
+      "texture": "خصلات فردية ظاهرة",
+      "movement": "حركة صغيرة في أطراف الشعر"
     },
     "face": {
-      "eyes": "Calm direct gaze",
-      "skin_details": "Natural texture, no smoothing"
+      "eyes": "نظرة مباشرة هادئة",
+      "skin_details": "ملمس طبيعي، دون تنعيم"
     },
     "clothing": {
-      "outfit": "Minimal black coat + fitted top, no logos",
-      "fabric": "Coat texture visible, slight wrinkles"
+      "outfit": "معطف أسود بسيط + قطعة علوية ملائمة، بلا شعارات",
+      "fabric": "ملمس المعطف ظاهر، وتجاعيد خفيفة"
     },
     "accessories": {
-      "jewelry": ["Silver hoops"]
+      "jewelry": ["حلقات فضية"]
     }
   },
   "pose": {
-    "type": "Full-body leaning on railing",
-    "orientation": "Body angled, head turned to camera",
-    "hands": "Hands resting on railing, fingers correct",
-    "gaze": "Direct eye contact",
-    "expression": "Neutral calm confidence"
+    "type": "كامل الجسم مستندة إلى الدرابزين",
+    "orientation": "الجسم مائل، والرأس ملتفت نحو الكاميرا",
+    "hands": "اليدان مستندتان إلى الدرابزين، والأصابع صحيحة",
+    "gaze": "تواصل بصري مباشر",
+    "expression": "ثقة هادئة محايدة"
   },
   "setting": {
-    "environment": "Bridge at blue hour",
+    "environment": "جسر في الساعة الزرقاء",
     "background_elements": [
-      "City lights bokeh",
-      "Cool dusk ambience",
-      "Railing texture visible"
+      "بوكيه أضواء المدينة",
+      "أجواء غسق باردة",
+      "ملمس الدرابزين ظاهر"
     ],
-    "depth": "Subject sharp, background bokeh"
+    "depth": "الشخصية حادة، والخلفية بوكيه"
   },
   "camera": {
-    "shot_type": "Full-body portrait",
-    "angle": "Eye-level",
-    "focal_length_equivalent": "35mm editorial",
-    "framing": "4:5, subject off-center",
-    "focus": "Face sharp, background creamy"
+    "shot_type": "بورتريه لكامل الجسم",
+    "angle": "بمستوى العين",
+    "focal_length_equivalent": "35 مم تحريري",
+    "framing": "4:5، الشخصية بعيدة عن المركز",
+    "focus": "الوجه حاد، والخلفية كريمية ناعمة"
   },
   "lighting": {
-    "source": "Ambient dusk + city light bounce",
-    "direction": "Soft front fill from environment",
-    "highlights": "Controlled, subtle"
+    "source": "ضوء الغسق المحيط + انعكاس أضواء المدينة",
+    "direction": "إضاءة أمامية مكمّلة ناعمة من البيئة",
+    "highlights": "مضبوطة وخفيفة"
   },
   "mood_and_expression": {
-    "tone": "Cinematic, calm, premium",
-    "atmosphere": "Blue hour dreamy realism"
+    "tone": "سينمائي، هادئ، فاخر",
+    "atmosphere": "واقعية حالمة في الساعة الزرقاء"
   },
   "style_and_realism": {
-    "style": "Photoreal social/editorial",
-    "imperfections": "Slight low-light noise allowed"
+    "style": "مزيج بين وسائل التواصل الاجتماعي والتصوير التحريري بواقعية فوتوغرافية",
+    "imperfections": "يُسمح بضوضاء خفيفة بسبب الإضاءة المنخفضة"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "noise": "Mild low-light grain"
+    "noise": "حبيبات خفيفة بسبب الإضاءة المنخفضة"
   },
   "constraints": {
     "adult_only": true,
@@ -5385,7 +5385,7 @@ image-generation:
 }
 ```
 
-## 687. Kitchen Morning Window Light (candid, cozy) 🔤
+## 687. ضوء نافذة المطبخ صباحًا (عفوي، دافئ)
 
 *الأصل:* Kitchen Morning Window Light (candid, cozy) · *النوع:* منظّم
 
@@ -5395,88 +5395,88 @@ image-generation:
   "identity_lock": {
     "enabled": true,
     "priority": "ABSOLUTE_MAX",
-    "instruction": "Use the input reference image as the only identity source. Preserve exact facial structure, eye shape/spacing, nose bridge/tip, lips, jawline, cheekbones, hairline, brows, skin tone/undertone, and distinctive marks. Do not beautify, do not change ethnicity/age perception. Adult (21+) only."
+    "instruction": "استخدم الصورة المرجعية المُدخلة كمصدر وحيد للهوية. حافظ تمامًا على بنية الوجه، وشكل العينين والمسافة بينهما، وجسر الأنف وطرفه، والشفتين، وخط الفك، وعظام الوجنتين، وخط الشعر، والحاجبين، ولون البشرة ودرجتها التحتية، والعلامات المميزة. لا تُجمّل، ولا تغيّر الانطباع عن العِرق أو العمر. للبالغين (21+) فقط."
   },
   "subject": {
-    "demographics": "Adult woman, 21-29, Turkish-looking / Mediterranean vibe (must match reference).",
+    "demographics": "امرأة بالغة، 21-29 عامًا، بملامح تركية / طابع متوسطي (يجب أن تطابق الصورة المرجعية).",
     "hair": {
-      "color": "Match reference exactly.",
-      "style": "Loose, slightly messy morning hair; a few face-framing strands.",
-      "texture": "Visible individual strands, subtle flyaways, realistic roots.",
-      "movement": "Falls naturally; slight motion in ends is acceptable."
+      "color": "مطابق للصورة المرجعية تمامًا.",
+      "style": "شعر صباحي منسدل وغير مرتب قليلًا؛ مع بضع خصلات تؤطّر الوجه.",
+      "texture": "خصلات فردية ظاهرة، وشعيرات متطايرة خفيفة، وجذور واقعية.",
+      "movement": "ينسدل بشكل طبيعي؛ وحركة خفيفة في الأطراف مقبولة."
     },
     "face": {
-      "shape": "Match reference exactly.",
-      "eyes": "Exact reference eye shape; natural catchlights; no uncanny sharpening.",
-      "lips": "Exact reference lip shape; natural texture lines visible.",
-      "skin_details": "High-fidelity pores, subtle morning sheen; no airbrushing.",
-      "micro_details": "Keep reference marks/freckles/moles precisely."
+      "shape": "مطابق للصورة المرجعية تمامًا.",
+      "eyes": "شكل العينين مطابق للصورة المرجعية تمامًا؛ انعكاسات ضوء طبيعية؛ دون حدّة مصطنعة غريبة.",
+      "lips": "شكل الشفتين مطابق للصورة المرجعية تمامًا؛ وخطوط ملمس طبيعية ظاهرة.",
+      "skin_details": "مسام عالية الدقة، ولمعة صباحية خفيفة؛ دون تنعيم.",
+      "micro_details": "احتفظ بعلامات/نمش/شامات الصورة المرجعية بدقة."
     },
     "clothing": {
-      "top": "Soft oversized tee or casual tank (no logos, no text).",
-      "fit": "Relaxed, slightly wrinkled, realistic drape.",
-      "texture": "Cotton weave visible, faint pilling allowed."
+      "top": "تي شيرت فضفاض ناعم أو قميص بلا أكمام عفوي (بلا شعارات، بلا نصوص).",
+      "fit": "مريح، مجعّد قليلًا، بانسدال واقعي.",
+      "texture": "نسيج القطن ظاهر، ويُسمح بوبر خفيف."
     },
     "accessories": {
-      "jewelry": ["Small silver hoops (optional, realistic reflections)"]
+      "jewelry": ["حلقات فضية صغيرة (اختيارية، بانعكاسات واقعية)"]
     }
   },
   "pose": {
-    "type": "Candid lifestyle",
-    "orientation": "Half-body leaning lightly on counter",
-    "head_position": "Slight tilt; chin relaxed",
-    "hands": "One hand holding a mug; other hand brushing hair behind ear (hands anatomically correct)",
-    "gaze": "Near-direct eye contact (slight off-axis like a candid moment)",
-    "expression": "Sleepy-soft smile, cozy morning vibe"
+    "type": "أسلوب حياة عفوي",
+    "orientation": "نصف الجسم مستندة بخفة إلى سطح المطبخ",
+    "head_position": "ميل خفيف؛ والذقن مسترخٍ",
+    "hands": "يد تمسك كوبًا؛ والأخرى تزيح الشعر خلف الأذن (اليدان صحيحتان تشريحيًا)",
+    "gaze": "تواصل بصري شبه مباشر (منحرف قليلًا عن المحور كلحظة عفوية)",
+    "expression": "ابتسامة ناعسة رقيقة، بأجواء صباحية دافئة"
   },
   "setting": {
-    "environment": "Home kitchen",
+    "environment": "مطبخ منزلي",
     "background_elements": [
-      "Window with sheer curtain diffusing daylight",
-      "Countertop with subtle crumbs/coffee spoon (no branding)",
-      "Plants or fruit bowl (no readable labels)",
-      "Soft clutter blur (tasteful, realistic)"
+      "نافذة بستارة شفافة تنشر ضوء النهار",
+      "سطح مطبخ عليه فتات خفيف/ملعقة قهوة (بلا علامات تجارية)",
+      "نباتات أو وعاء فاكهة (بلا ملصقات مقروءة)",
+      "فوضى ناعمة مموّهة (ذوقية وواقعية)"
     ],
-    "depth": "Subject sharp; background softly blurred with natural depth layering"
+    "depth": "الشخصية حادة؛ والخلفية مموّهة بنعومة مع طبقات عمق طبيعية"
   },
   "camera": {
-    "shot_type": "Half-body portrait",
-    "angle": "Slightly above eye level, handheld",
-    "focal_length_equivalent": "24-28mm smartphone wide (amateur) OR 35-50mm (pro)",
-    "framing": "4:5 IG feed, asymmetrical composition",
-    "focus": "Eyes/face sharp; fall-off on shoulders/background",
-    "perspective": "Natural; no face distortion"
+    "shot_type": "بورتريه نصف الجسم",
+    "angle": "أعلى قليلًا من مستوى العين، محمولة باليد",
+    "focal_length_equivalent": "عدسة هاتف ذكي واسعة 24-28 مم (هاوٍ) أو 35-50 مم (احترافي)",
+    "framing": "4:5 لموجز إنستغرام، تكوين غير متناظر",
+    "focus": "العينان/الوجه حادّة؛ مع تلاشٍ على الكتفين/الخلفية",
+    "perspective": "طبيعي؛ دون تشوّه في الوجه"
   },
   "lighting": {
-    "source": "Soft window daylight + subtle indoor bounce",
-    "direction": "Side/front soft light shaping cheekbones gently",
-    "highlights": "Natural speculars on eyes, nose bridge, lips",
-    "shadows": "Soft-edge shadows under chin and hairline",
-    "quality": "Warm, comforting, realistic morning light"
+    "source": "ضوء نهار ناعم من النافذة + انعكاس داخلي خفيف",
+    "direction": "ضوء ناعم جانبي/أمامي يُبرز عظام الوجنتين بلطف",
+    "highlights": "لمعان طبيعي على العينين وجسر الأنف والشفتين",
+    "shadows": "ظلال ناعمة الحواف أسفل الذقن وعند خط الشعر",
+    "quality": "ضوء صباحي دافئ ومريح وواقعي"
   },
   "mood_and_expression": {
-    "tone": "Cozy, intimate, relatable",
-    "expression": "Soft smile with lively eyes",
-    "atmosphere": "Unplanned, everyday candid"
+    "tone": "دافئ، حميمي، قريب من الناس",
+    "expression": "ابتسامة ناعمة مع عينين مفعمتين بالحياة",
+    "atmosphere": "لقطة يومية عفوية غير مخطط لها"
   },
   "style_and_realism": {
-    "style": "Photorealistic social media lifestyle",
-    "fidelity": "High detail skin texture and hair strands; no smoothing",
-    "imperfections": "Minor noise in shadows allowed"
+    "style": "أسلوب حياة لوسائل التواصل الاجتماعي بواقعية فوتوغرافية",
+    "fidelity": "تفاصيل عالية لملمس البشرة وخصلات الشعر؛ دون تنعيم",
+    "imperfections": "يُسمح بضوضاء طفيفة في الظلال"
   },
   "colors_and_tone": {
-    "palette": "Warm neutrals + soft daylight tones",
-    "white_balance": "Slightly warm indoor/daylight mix",
-    "contrast": "Medium, realistic dynamic range",
-    "saturation": "Natural"
+    "palette": "ألوان محايدة دافئة + درجات ضوء نهار ناعمة",
+    "white_balance": "مزيج دافئ قليلًا من الإضاءة الداخلية وضوء النهار",
+    "contrast": "متوسط، بنطاق ديناميكي واقعي",
+    "saturation": "طبيعي"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High resolution",
-    "noise": "Mild realistic sensor grain in shadows",
+    "resolution": "دقة عالية",
+    "noise": "حبيبات مستشعر واقعية خفيفة في الظلال",
     "mode_variants": {
-      "amateur": "iPhone-candid feel: slight tilt, imperfect framing, mild noise, subtle motion blur away from face",
-      "pro": "Editorial lifestyle: cleaner exposure, controlled highlights, crisp micro-contrast, shallow DOF"
+      "amateur": "إحساس لقطة آيفون عفوية: ميل خفيف، تأطير غير مثالي، ضوضاء خفيفة، ضبابية حركة خفيفة بعيدًا عن الوجه",
+      "pro": "أسلوب حياة تحريري: تعريض أنظف، وإبرازات مضبوطة، وتباين دقيق واضح، وعمق ميدان ضحل"
     }
   },
   "constraints": {
@@ -5496,7 +5496,7 @@ image-generation:
 }
 ```
 
-## 688. Bookstore Aisle (artsy, quiet luxury) 🔤
+## 688. ممر مكتبة (فني، فخامة هادئة)
 
 *الأصل:* Bookstore Aisle (artsy, quiet luxury) · *النوع:* منظّم
 
@@ -5506,80 +5506,80 @@ image-generation:
   "identity_lock": {
     "enabled": true,
     "priority": "ABSOLUTE_MAX",
-    "instruction": "Preserve the exact identity from the reference image (face geometry, features, skin tone, marks). Adult 21+ only. No beautification or identity changes."
+    "instruction": "حافظ على الهوية الدقيقة من الصورة المرجعية (هندسة الوجه، والملامح، ولون البشرة، والعلامات). للبالغين 21+ فقط. دون تجميل أو تغيير في الهوية."
   },
   "subject": {
-    "demographics": "Adult woman, 21-29, Turkish-looking (must match reference).",
+    "demographics": "امرأة بالغة، 21-29 عامًا، بملامح تركية (يجب أن تطابق الصورة المرجعية).",
     "hair": {
-      "color": "Match reference exactly.",
-      "style": "Loose waves tucked behind one ear",
-      "texture": "Real strands; slight frizz; flyaways visible",
-      "movement": "Hair rests naturally on shoulders"
+      "color": "مطابق للصورة المرجعية تمامًا.",
+      "style": "تموجات منسدلة مدسوسة خلف إحدى الأذنين",
+      "texture": "خصلات حقيقية؛ تجعّد خفيف؛ وشعيرات متطايرة ظاهرة",
+      "movement": "الشعر مستقر بشكل طبيعي على الكتفين"
     },
     "face": {
-      "eyes": "Exact reference eyes; thoughtful gaze; natural catchlights",
-      "skin_details": "Pores visible, realistic tone variation",
-      "micro_details": "Preserve all reference marks precisely"
+      "eyes": "عينا الصورة المرجعية تمامًا؛ نظرة متأملة؛ انعكاسات ضوء طبيعية",
+      "skin_details": "مسام ظاهرة، وتفاوت واقعي في اللون",
+      "micro_details": "حافظ على جميع علامات الصورة المرجعية بدقة"
     },
     "clothing": {
-      "outfit": "Minimal black coat or cardigan over a neutral top (no logos/text).",
-      "fabric": "Wool/knit texture visible, slight wrinkles at elbows"
+      "outfit": "معطف أسود بسيط أو كارديغان فوق قطعة علوية محايدة (بلا شعارات/نصوص).",
+      "fabric": "ملمس الصوف/المحبوك ظاهر، وتجاعيد خفيفة عند المرفقين"
     },
     "accessories": {
-      "jewelry": ["Small silver hoops"],
-      "props": ["One hardcover book with no readable title (blur/spine turned away)"]
+      "jewelry": ["حلقات فضية صغيرة"],
+      "props": ["كتاب واحد بغلاف مقوّى بلا عنوان مقروء (مموّه/الكعب مُدار بعيدًا)"]
     }
   },
   "pose": {
-    "type": "Candid browsing",
-    "orientation": "Half-body",
-    "head_position": "Chin slightly down, eyes up toward camera",
-    "hands": "One hand holding a book near chest; other hand touching a shelf edge (hands correct)",
-    "gaze": "Near-direct eye contact, calm and confident",
-    "expression": "Soft neutral with micro-smile"
+    "type": "تصفّح عفوي",
+    "orientation": "نصف الجسم",
+    "head_position": "الذقن منخفض قليلًا، والعينان مرفوعتان نحو الكاميرا",
+    "hands": "يد تمسك كتابًا قرب الصدر؛ والأخرى تلمس حافة رف (اليدان صحيحتان)",
+    "gaze": "تواصل بصري شبه مباشر، هادئ وواثق",
+    "expression": "محايد ناعم مع ابتسامة خفيفة جدًا"
   },
   "setting": {
-    "environment": "Bookstore aisle",
+    "environment": "ممر في مكتبة لبيع الكتب",
     "background_elements": [
-      "Shelves of books with spines turned away or blurred (NO readable text)",
-      "Warm indoor lighting",
-      "Soft depth layers down the aisle"
+      "رفوف كتب كعوبها مُدارة بعيدًا أو مموّهة (بلا أي نص مقروء)",
+      "إضاءة داخلية دافئة",
+      "طبقات عمق ناعمة على امتداد الممر"
     ],
-    "depth": "Shallow DOF: face sharp, shelves softly blurred"
+    "depth": "عمق ميدان ضحل: الوجه حاد، والرفوف مموّهة بنعومة"
   },
   "camera": {
-    "shot_type": "Half-body portrait",
-    "angle": "Eye level or slightly above",
-    "focal_length_equivalent": "35-50mm pro OR 26mm phone",
-    "framing": "4:5, asymmetrical with leading lines from shelves",
-    "focus": "Eyes sharp, hands reasonably sharp, background soft"
+    "shot_type": "بورتريه نصف الجسم",
+    "angle": "بمستوى العين أو أعلى قليلًا",
+    "focal_length_equivalent": "35-50 مم احترافية أو هاتف 26 مم",
+    "framing": "4:5، غير متناظر مع خطوط إرشادية من الرفوف",
+    "focus": "العينان حادّتان، واليدان حادّتان بقدر معقول، والخلفية ناعمة"
   },
   "lighting": {
-    "source": "Warm overhead bookstore lights + soft fill",
-    "direction": "Gentle top/side",
-    "highlights": "Soft highlights on eyes and cheekbones",
-    "shadows": "Subtle under-chin shadow, realistic contrast"
+    "source": "أضواء مكتبة علوية دافئة + إضاءة مكمّلة ناعمة",
+    "direction": "لطيفة من الأعلى/الجانب",
+    "highlights": "إبرازات ناعمة على العينين وعظام الوجنتين",
+    "shadows": "ظل خفيف أسفل الذقن، وتباين واقعي"
   },
   "mood_and_expression": {
-    "tone": "Artsy, calm, 'quiet luxury'",
-    "atmosphere": "Cozy and intimate, candid"
+    "tone": "فني، هادئ، 'فخامة هادئة'",
+    "atmosphere": "دافئ وحميمي، عفوي"
   },
   "style_and_realism": {
-    "style": "Photoreal lifestyle/editorial",
-    "fidelity": "High detail, no airbrushing"
+    "style": "أسلوب حياة/تحريري بواقعية فوتوغرافية",
+    "fidelity": "تفاصيل عالية، دون تنعيم"
   },
   "colors_and_tone": {
-    "palette": "Warm browns + neutral blacks + creamy highlights",
-    "white_balance": "Warm indoor",
-    "contrast": "Medium"
+    "palette": "بنيّات دافئة + أسود محايد + إبرازات كريمية",
+    "white_balance": "داخلي دافئ",
+    "contrast": "متوسط"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High",
-    "noise": "Mild indoor grain",
+    "resolution": "عالية",
+    "noise": "حبيبات داخلية خفيفة",
     "mode_variants": {
-      "amateur": "Slightly crooked handheld framing, mild noise, imperfect WB",
-      "pro": "Cleaner exposure, controlled highlights, crisp micro-contrast"
+      "amateur": "تأطير محمول باليد مائل قليلًا، وضوضاء خفيفة، وتوازن أبيض غير مثالي",
+      "pro": "تعريض أنظف، وإبرازات مضبوطة، وتباين دقيق واضح"
     }
   },
   "constraints": {
@@ -5600,7 +5600,7 @@ image-generation:
 }
 ```
 
-## 689. Passenger Seat Car Selfie (golden hour, candid) 🔤
+## 689. سيلفي في مقعد الراكب بالسيارة (الساعة الذهبية، عفوي)
 
 *الأصل:* Passenger Seat Car Selfie (golden hour, candid) · *النوع:* منظّم
 
@@ -5610,74 +5610,74 @@ image-generation:
   "identity_lock": {
     "enabled": true,
     "priority": "ABSOLUTE_MAX",
-    "instruction": "Lock identity to reference image exactly. Preserve face proportions, features, and skin tone. Adult 21+ only."
+    "instruction": "ثبّت الهوية لتطابق الصورة المرجعية تمامًا. حافظ على نِسب الوجه والملامح ولون البشرة. للبالغين 21+ فقط."
   },
   "subject": {
-    "demographics": "Adult woman, 21-29, Turkish-looking (match reference).",
+    "demographics": "امرأة بالغة، 21-29 عامًا، بملامح تركية (مطابقة للصورة المرجعية).",
     "hair": {
-      "color": "Match reference.",
-      "style": "Loose, slightly wind-touched",
-      "texture": "Individual strands visible; a few flyaways",
-      "movement": "Hair resting on shoulder with subtle motion"
+      "color": "مطابق للصورة المرجعية.",
+      "style": "منسدل، لامسته الرياح قليلًا",
+      "texture": "خصلات فردية ظاهرة؛ وبضع شعيرات متطايرة",
+      "movement": "الشعر مستقر على الكتف مع حركة خفيفة"
     },
     "face": {
-      "eyes": "Exact reference shape; bright catchlights from window",
-      "skin_details": "Pores visible, warm glow; no smoothing",
-      "micro_details": "Preserve marks exactly"
+      "eyes": "شكل مطابق للصورة المرجعية تمامًا؛ وانعكاسات ضوء مشرقة من النافذة",
+      "skin_details": "مسام ظاهرة، وتوهّج دافئ؛ دون تنعيم",
+      "micro_details": "حافظ على العلامات تمامًا"
     },
     "clothing": {
-      "top": "Casual black top or hoodie (no logos/text)",
-      "texture": "Cotton weave visible"
+      "top": "قطعة علوية سوداء عفوية أو هودي (بلا شعارات/نصوص)",
+      "texture": "نسيج القطن ظاهر"
     },
     "accessories": {
-      "jewelry": ["Small silver hoops"]
+      "jewelry": ["حلقات فضية صغيرة"]
     }
   },
   "pose": {
-    "type": "Handheld selfie vibe (do not show phone)",
-    "orientation": "Close-up to half-body",
-    "head_position": "Slight tilt toward window light",
-    "limbs": "One arm implied holding camera out of frame",
-    "gaze": "Direct eye contact",
-    "expression": "Confident relaxed pout (subtle, not exaggerated)"
+    "type": "أجواء سيلفي محمول باليد (لا تُظهر الهاتف)",
+    "orientation": "من لقطة قريبة إلى نصف الجسم",
+    "head_position": "ميل خفيف نحو ضوء النافذة",
+    "limbs": "ذراع يُفهم أنها تحمل الكاميرا خارج الإطار",
+    "gaze": "تواصل بصري مباشر",
+    "expression": "عبوس واثق ومسترخٍ (خفيف، غير مبالغ فيه)"
   },
   "setting": {
-    "environment": "Car passenger seat",
+    "environment": "مقعد الراكب في سيارة",
     "background_elements": [
-      "Seat fabric texture visible",
-      "Window light streaks",
-      "Outside scenery blurred (no readable signs)"
+      "ملمس قماش المقعد ظاهر",
+      "خطوط ضوء من النافذة",
+      "المشهد الخارجي مموّه (بلا لافتات مقروءة)"
     ],
-    "depth": "Face sharp; background soft blur"
+    "depth": "الوجه حاد؛ والخلفية بتمويه ناعم"
   },
   "camera": {
-    "shot_type": "Selfie-style portrait",
-    "angle": "Slightly above eye level",
-    "focal_length_equivalent": "24-28mm smartphone wide",
-    "framing": "3:4 or 4:5, chest-up crop",
-    "focus": "Eyes sharp; slight fall-off at shoulders"
+    "shot_type": "بورتريه بأسلوب السيلفي",
+    "angle": "أعلى قليلًا من مستوى العين",
+    "focal_length_equivalent": "عدسة هاتف ذكي واسعة 24-28 مم",
+    "framing": "3:4 أو 4:5، قصّ من الصدر إلى الأعلى",
+    "focus": "العينان حادّتان؛ مع تلاشٍ خفيف عند الكتفين"
   },
   "lighting": {
-    "source": "Golden hour sunlight through car window",
-    "direction": "Side/front warm",
-    "highlights": "Warm highlight on cheek and hair",
-    "shadows": "Soft under-chin shadow, realistic contrast"
+    "source": "ضوء شمس الساعة الذهبية عبر نافذة السيارة",
+    "direction": "دافئ من الجانب/الأمام",
+    "highlights": "إبراز دافئ على الوجنة والشعر",
+    "shadows": "ظل ناعم أسفل الذقن، وتباين واقعي"
   },
   "mood_and_expression": {
-    "tone": "Casual, confident, candid",
-    "atmosphere": "Warm travel moment"
+    "tone": "عفوي، واثق، تلقائي",
+    "atmosphere": "لحظة سفر دافئة"
   },
   "style_and_realism": {
-    "style": "Photorealistic social selfie",
-    "imperfections": "Mild noise, slight imperfect WB"
+    "style": "سيلفي لوسائل التواصل الاجتماعي بواقعية فوتوغرافية",
+    "imperfections": "ضوضاء خفيفة، وتوازن أبيض غير مثالي قليلًا"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High",
-    "noise": "Mild grain in shadows",
+    "resolution": "عالية",
+    "noise": "حبيبات خفيفة في الظلال",
     "mode_variants": {
-      "amateur": "Slightly shaky framing, subtle motion blur away from face, phone-like HDR",
-      "pro": "Cleaner exposure and sharper micro-contrast, still realistic"
+      "amateur": "تأطير مهتز قليلًا، وضبابية حركة خفيفة بعيدًا عن الوجه، وHDR شبيه بالهاتف",
+      "pro": "تعريض أنظف وتباين دقيق أحدّ، مع بقائه واقعيًا"
     }
   },
   "constraints": {
@@ -5698,7 +5698,7 @@ image-generation:
 }
 ```
 
-## 690. Balcony Coffee (morning haze, plant vibe) 🔤
+## 690. قهوة على الشرفة (غبشة صباحية، أجواء نباتات)
 
 *الأصل:* Balcony Coffee (morning haze, plant vibe) · *النوع:* منظّم
 
@@ -5708,75 +5708,75 @@ image-generation:
   "identity_lock": {
     "enabled": true,
     "priority": "ABSOLUTE_MAX",
-    "instruction": "Preserve exact identity from reference. Adult 21+ only. No beautification or face changes."
+    "instruction": "حافظ على الهوية الدقيقة من الصورة المرجعية. للبالغين 21+ فقط. دون تجميل أو تغييرات في الوجه."
   },
   "subject": {
-    "demographics": "Adult woman, 21-29 (match reference identity).",
+    "demographics": "امرأة بالغة، 21-29 عامًا (مطابقة لهوية الصورة المرجعية).",
     "hair": {
-      "color": "Match reference.",
-      "style": "Loose waves or messy bun with tendrils",
-      "texture": "Real strands, flyaways, realistic volume",
-      "movement": "Natural, slight breeze lift"
+      "color": "مطابق للصورة المرجعية.",
+      "style": "تموجات منسدلة أو كعكة غير مرتبة مع خصلات متدلية",
+      "texture": "خصلات حقيقية، وشعيرات متطايرة، وحجم واقعي",
+      "movement": "طبيعي، يرتفع قليلًا بفعل النسيم"
     },
     "face": {
-      "eyes": "Exact reference eyes; soft morning catchlights",
-      "skin_details": "Natural texture, pores visible, gentle morning glow",
-      "micro_details": "Keep reference marks"
+      "eyes": "عينا الصورة المرجعية تمامًا؛ وانعكاسات ضوء صباحية ناعمة",
+      "skin_details": "ملمس طبيعي، ومسام ظاهرة، وتوهّج صباحي لطيف",
+      "micro_details": "احتفظ بعلامات الصورة المرجعية"
     },
     "clothing": {
-      "outfit": "Cozy cardigan + simple top (no logos/text)",
-      "fabric": "Knit texture visible, slight pilling allowed"
+      "outfit": "كارديغان مريح + قطعة علوية بسيطة (بلا شعارات/نصوص)",
+      "fabric": "ملمس محبوك ظاهر، ويُسمح بوبر خفيف"
     },
     "accessories": {
-      "jewelry": ["Small silver hoops"],
-      "props": ["Ceramic mug (unbranded)"]
+      "jewelry": ["حلقات فضية صغيرة"],
+      "props": ["كوب سيراميكي (بلا علامة تجارية)"]
     }
   },
   "pose": {
-    "type": "Lifestyle candid",
-    "orientation": "Half-body seated on balcony chair",
-    "head_position": "Slight tilt, chin relaxed",
-    "hands": "Both hands around mug for warmth (hands correct)",
-    "gaze": "Near-direct eye contact",
-    "expression": "Soft smile, relaxed"
+    "type": "أسلوب حياة عفوي",
+    "orientation": "نصف الجسم جالسة على كرسي الشرفة",
+    "head_position": "ميل خفيف، والذقن مسترخٍ",
+    "hands": "اليدان كلتاهما حول الكوب طلبًا للدفء (اليدان صحيحتان)",
+    "gaze": "تواصل بصري شبه مباشر",
+    "expression": "ابتسامة ناعمة، مسترخية"
   },
   "setting": {
-    "environment": "Balcony with potted plants",
+    "environment": "شرفة بها نباتات في أصص",
     "background_elements": [
-      "Plant leaves in foreground bokeh",
-      "Soft city background blur (no readable signs)",
-      "Morning haze, gentle atmosphere"
+      "أوراق نباتات في بوكيه المقدمة",
+      "خلفية مدينة مموّهة بنعومة (بلا لافتات مقروءة)",
+      "غبشة صباحية، وأجواء لطيفة"
     ],
-    "depth": "Foreground leaves blurred; face sharp; background soft"
+    "depth": "أوراق المقدمة مموّهة؛ والوجه حاد؛ والخلفية ناعمة"
   },
   "camera": {
-    "shot_type": "Half-body portrait",
-    "angle": "Slightly above eye level",
-    "focal_length_equivalent": "26mm phone OR 50mm pro",
-    "framing": "4:5, off-center composition",
-    "focus": "Eyes sharp; mug slightly softer"
+    "shot_type": "بورتريه نصف الجسم",
+    "angle": "أعلى قليلًا من مستوى العين",
+    "focal_length_equivalent": "هاتف 26 مم أو 50 مم احترافية",
+    "framing": "4:5، تكوين بعيد عن المركز",
+    "focus": "العينان حادّتان؛ والكوب أنعم قليلًا"
   },
   "lighting": {
-    "source": "Soft morning daylight",
-    "direction": "Front/side diffuse",
-    "highlights": "Natural highlights on eyes and lips",
-    "shadows": "Gentle under-chin shadow"
+    "source": "ضوء نهار صباحي ناعم",
+    "direction": "منتشر من الأمام/الجانب",
+    "highlights": "إبرازات طبيعية على العينين والشفتين",
+    "shadows": "ظل لطيف أسفل الذقن"
   },
   "mood_and_expression": {
-    "tone": "Cozy, relatable, calm",
-    "atmosphere": "Tactile morning quiet"
+    "tone": "دافئ، قريب من الناس، هادئ",
+    "atmosphere": "سكون صباحي ملموس"
   },
   "style_and_realism": {
-    "style": "Photoreal IG lifestyle",
-    "imperfections": "Mild grain, slightly imperfect framing"
+    "style": "أسلوب حياة إنستغرام بواقعية فوتوغرافية",
+    "imperfections": "حبيبات خفيفة، وتأطير غير مثالي قليلًا"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High",
-    "noise": "Mild",
+    "resolution": "عالية",
+    "noise": "خفيفة",
     "mode_variants": {
-      "amateur": "Handheld iPhone-candid tilt, slight noise, imperfect composition",
-      "pro": "Cleaner exposure, crisp micro-contrast, shallow DOF"
+      "amateur": "ميل لقطة آيفون عفوية محمولة باليد، وضوضاء خفيفة، وتكوين غير مثالي",
+      "pro": "تعريض أنظف، وتباين دقيق واضح، وعمق ميدان ضحل"
     }
   },
   "constraints": {
@@ -5795,7 +5795,7 @@ image-generation:
 }
 ```
 
-## 691. Subway Platform (street candid, moody) 🔤
+## 691. رصيف المترو (لقطة شارع عفوية، مزاجية)
 
 *الأصل:* Subway Platform (street candid, moody) · *النوع:* منظّم
 
@@ -5805,76 +5805,76 @@ image-generation:
   "identity_lock": {
     "enabled": true,
     "priority": "ABSOLUTE_MAX",
-    "instruction": "Use reference image identity exactly. Adult 21+. Preserve face proportions and marks. No beautification."
+    "instruction": "استخدم هوية الصورة المرجعية تمامًا. للبالغين 21+. حافظ على نِسب الوجه والعلامات. دون تجميل."
   },
   "subject": {
-    "demographics": "Adult woman, 21-29, match reference identity.",
+    "demographics": "امرأة بالغة، 21-29 عامًا، مطابقة لهوية الصورة المرجعية.",
     "hair": {
-      "color": "Match reference.",
-      "style": "Low ponytail or loose waves tucked behind scarf",
-      "texture": "Real strands; slight frizz; flyaways",
-      "movement": "Minimal movement, platform breeze subtle"
+      "color": "مطابق للصورة المرجعية.",
+      "style": "ذيل حصان منخفض أو تموجات منسدلة مدسوسة خلف الوشاح",
+      "texture": "خصلات حقيقية؛ تجعّد خفيف؛ وشعيرات متطايرة",
+      "movement": "حركة محدودة، ونسيم الرصيف خفيف"
     },
     "face": {
-      "eyes": "Exact reference; reflective catchlights",
-      "skin_details": "Pores visible, realistic shadows",
-      "micro_details": "Preserve marks"
+      "eyes": "مطابقتان للصورة المرجعية تمامًا؛ وانعكاسات ضوء لامعة",
+      "skin_details": "مسام ظاهرة، وظلال واقعية",
+      "micro_details": "حافظ على العلامات"
     },
     "clothing": {
-      "outerwear": "Minimal black coat or jacket (no logos/text)",
-      "extras": "Scarf optional (no patterns with text)",
-      "fabric": "Wool texture visible"
+      "outerwear": "معطف أو سترة سوداء بسيطة (بلا شعارات/نصوص)",
+      "extras": "وشاح اختياري (بلا نقوش تحتوي نصوصًا)",
+      "fabric": "ملمس الصوف ظاهر"
     },
     "accessories": {
-      "jewelry": ["Small silver hoops (optional)"],
-      "bag": "Simple tote/shoulder bag (no logos)"
+      "jewelry": ["حلقات فضية صغيرة (اختيارية)"],
+      "bag": "حقيبة يد/كتف بسيطة (بلا شعارات)"
     }
   },
   "pose": {
-    "type": "Candid waiting",
-    "orientation": "Half-body standing near platform edge (safe distance)",
-    "head_position": "Slight tilt, calm posture",
-    "hands": "One hand holding bag strap, other in pocket",
-    "gaze": "Looking toward camera with neutral confidence",
-    "expression": "Calm, slightly serious"
+    "type": "انتظار عفوي",
+    "orientation": "نصف الجسم واقفة قرب حافة الرصيف (على مسافة آمنة)",
+    "head_position": "ميل خفيف، ووقفة هادئة",
+    "hands": "يد تمسك حزام الحقيبة، والأخرى في الجيب",
+    "gaze": "تنظر نحو الكاميرا بثقة محايدة",
+    "expression": "هادئة، جادة قليلًا"
   },
   "setting": {
-    "environment": "Subway platform",
+    "environment": "رصيف مترو",
     "background_elements": [
-      "Overhead fluorescent lights",
-      "Train blur in background (no readable signage)",
-      "Platform tiles with realistic wear"
+      "أضواء فلورسنت علوية",
+      "قطار مموّه في الخلفية (بلا لافتات مقروءة)",
+      "بلاط الرصيف مع تآكل واقعي"
     ],
-    "depth": "Face sharp; background softened"
+    "depth": "الوجه حاد؛ والخلفية منعّمة"
   },
   "camera": {
-    "shot_type": "Street-style portrait",
-    "angle": "Eye level",
-    "focal_length_equivalent": "35mm editorial OR 26mm phone",
-    "framing": "4:5, leading lines from platform",
-    "focus": "Eyes sharp, background motion blur allowed"
+    "shot_type": "بورتريه بأسلوب الشارع",
+    "angle": "بمستوى العين",
+    "focal_length_equivalent": "35 مم تحريري أو هاتف 26 مم",
+    "framing": "4:5، مع خطوط إرشادية من الرصيف",
+    "focus": "العينان حادّتان، ويُسمح بضبابية حركة في الخلفية"
   },
   "lighting": {
-    "source": "Fluorescent overhead + ambient",
-    "direction": "Top-down with mild fill",
-    "highlights": "Realistic shine on hair/skin",
-    "shadows": "Soft, slightly cool subway contrast"
+    "source": "فلورسنت علوي + إضاءة محيطة",
+    "direction": "من الأعلى إلى الأسفل مع إضاءة مكمّلة خفيفة",
+    "highlights": "لمعان واقعي على الشعر/البشرة",
+    "shadows": "تباين مترو ناعم وبارد قليلًا"
   },
   "mood_and_expression": {
-    "tone": "Moody, urban, confident",
-    "atmosphere": "Real city commute candid"
+    "tone": "مزاجي، حضري، واثق",
+    "atmosphere": "لقطة عفوية حقيقية من التنقل اليومي في المدينة"
   },
   "style_and_realism": {
-    "style": "Photoreal street portrait",
-    "imperfections": "Noise + slight motion blur in background"
+    "style": "بورتريه شارع بواقعية فوتوغرافية",
+    "imperfections": "ضوضاء + ضبابية حركة خفيفة في الخلفية"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High",
-    "noise": "Moderate low-light grain",
+    "resolution": "عالية",
+    "noise": "حبيبات معتدلة بسبب الإضاءة المنخفضة",
     "mode_variants": {
-      "amateur": "Phone-like HDR, mild grain, imperfect framing",
-      "pro": "Cleaner exposure, controlled highlights, crisp subject separation"
+      "amateur": "HDR شبيه بالهاتف، وحبيبات خفيفة، وتأطير غير مثالي",
+      "pro": "تعريض أنظف، وإبرازات مضبوطة، وفصل واضح للشخصية"
     }
   },
   "constraints": {
@@ -5894,7 +5894,7 @@ image-generation:
 }
 ```
 
-## 692. Farmers Market (colorful produce, candid) 🔤
+## 692. سوق المزارعين (منتجات ملوّنة، عفوي)
 
 *الأصل:* Farmers Market (colorful produce, candid) · *النوع:* منظّم
 
@@ -5904,75 +5904,75 @@ image-generation:
   "identity_lock": {
     "enabled": true,
     "priority": "ABSOLUTE_MAX",
-    "instruction": "Lock identity to reference image exactly. Adult 21+ only. No face changes."
+    "instruction": "ثبّت الهوية لتطابق الصورة المرجعية تمامًا. للبالغين 21+ فقط. دون تغييرات في الوجه."
   },
   "subject": {
-    "demographics": "Adult woman, 21-29, match reference identity.",
+    "demographics": "امرأة بالغة، 21-29 عامًا، مطابقة لهوية الصورة المرجعية.",
     "hair": {
-      "color": "Match reference.",
-      "style": "Loose waves, tucked behind ear",
-      "texture": "Strands visible, mild flyaways",
-      "movement": "Natural movement while walking"
+      "color": "مطابق للصورة المرجعية.",
+      "style": "تموجات منسدلة، مدسوسة خلف الأذن",
+      "texture": "خصلات ظاهرة، وشعيرات متطايرة خفيفة",
+      "movement": "حركة طبيعية أثناء المشي"
     },
     "face": {
-      "eyes": "Exact reference eyes; bright daylight catchlights",
-      "skin_details": "Pores visible, natural sunlit texture",
-      "micro_details": "Preserve marks"
+      "eyes": "عينا الصورة المرجعية تمامًا؛ وانعكاسات ضوء نهار مشرقة",
+      "skin_details": "مسام ظاهرة، وملمس طبيعي تحت أشعة الشمس",
+      "micro_details": "حافظ على العلامات"
     },
     "clothing": {
-      "outfit": "Casual black top + light jacket (no logos/text)",
-      "fabric": "Cotton/denim weave visible"
+      "outfit": "قطعة علوية سوداء عفوية + سترة خفيفة (بلا شعارات/نصوص)",
+      "fabric": "نسيج القطن/الدنيم ظاهر"
     },
     "accessories": {
-      "bag": "Canvas tote (no logos)",
-      "jewelry": ["Small silver hoops"],
-      "props": ["Paper bag of produce (unbranded)"]
+      "bag": "حقيبة قماشية (بلا شعارات)",
+      "jewelry": ["حلقات فضية صغيرة"],
+      "props": ["كيس ورقي من المنتجات الطازجة (بلا علامة تجارية)"]
     }
   },
   "pose": {
-    "type": "Walking candid",
-    "orientation": "Half-body",
-    "hands": "One hand holding produce bag, other adjusting tote strap",
-    "gaze": "Looking at camera mid-laugh",
-    "expression": "Bright, natural smile"
+    "type": "لقطة عفوية أثناء المشي",
+    "orientation": "نصف الجسم",
+    "hands": "يد تمسك كيس المنتجات، والأخرى تعدّل حزام الحقيبة القماشية",
+    "gaze": "تنظر إلى الكاميرا في منتصف ضحكة",
+    "expression": "ابتسامة طبيعية مشرقة"
   },
   "setting": {
-    "environment": "Outdoor farmers market",
+    "environment": "سوق مزارعين في الهواء الطلق",
     "background_elements": [
-      "Colorful fruit/vegetable stalls (no readable signs)",
-      "Soft crowd blur (no identifiable faces)",
-      "Sunlight dappling"
+      "أكشاك فواكه/خضروات ملوّنة (بلا لافتات مقروءة)",
+      "حشد مموّه بنعومة (بلا وجوه يمكن التعرف عليها)",
+      "بقع ضوء شمس متناثرة"
     ],
-    "depth": "Subject sharp; background lively bokeh"
+    "depth": "الشخصية حادة؛ والخلفية بوكيه نابض بالحياة"
   },
   "camera": {
-    "shot_type": "Half-body lifestyle",
-    "angle": "Eye level",
-    "focal_length_equivalent": "26mm phone or 35mm editorial",
-    "framing": "4:5, subject off-center",
-    "focus": "Face sharp; background soft"
+    "shot_type": "أسلوب حياة لنصف الجسم",
+    "angle": "بمستوى العين",
+    "focal_length_equivalent": "هاتف 26 مم أو 35 مم تحريري",
+    "framing": "4:5، الشخصية بعيدة عن المركز",
+    "focus": "الوجه حاد؛ والخلفية ناعمة"
   },
   "lighting": {
-    "source": "Natural daylight",
-    "direction": "Soft front/side",
-    "highlights": "Natural facial highlights",
-    "shadows": "Soft under-chin"
+    "source": "ضوء نهار طبيعي",
+    "direction": "ناعم من الأمام/الجانب",
+    "highlights": "إبرازات طبيعية على الوجه",
+    "shadows": "ناعمة أسفل الذقن"
   },
   "mood_and_expression": {
-    "tone": "Fresh, happy, relatable",
-    "atmosphere": "Weekend candid"
+    "tone": "منعش، سعيد، قريب من الناس",
+    "atmosphere": "لقطة عفوية في عطلة نهاية الأسبوع"
   },
   "style_and_realism": {
-    "style": "Photorealistic IG lifestyle",
-    "imperfections": "Minor motion blur in produce bag edges allowed"
+    "style": "أسلوب حياة إنستغرام بواقعية فوتوغرافية",
+    "imperfections": "يُسمح بضبابية حركة طفيفة عند حواف كيس المنتجات"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High",
-    "noise": "Low",
+    "resolution": "عالية",
+    "noise": "منخفضة",
     "mode_variants": {
-      "amateur": "Slightly shaky candid framing, mild HDR, imperfect crop",
-      "pro": "Clean editorial exposure, crisp detail, shallow DOF"
+      "amateur": "تأطير عفوي مهتز قليلًا، وHDR خفيف، وقصّ غير مثالي",
+      "pro": "تعريض تحريري نظيف، وتفاصيل واضحة، وعمق ميدان ضحل"
     }
   },
   "constraints": {
@@ -5992,7 +5992,7 @@ image-generation:
 }
 ```
 
-## 693. Hotel Hallway Fit Check (mirror vibe, no phone shown) 🔤
+## 693. استعراض الإطلالة في ممر الفندق (أجواء مرآة، دون إظهار الهاتف)
 
 *الأصل:* Hotel Hallway Fit Check (mirror vibe, no phone shown) · *النوع:* منظّم
 
@@ -6002,74 +6002,74 @@ image-generation:
   "identity_lock": {
     "enabled": true,
     "priority": "ABSOLUTE_MAX",
-    "instruction": "Preserve exact reference identity. Adult 21+ only. No face/ethnicity changes."
+    "instruction": "حافظ على هوية الصورة المرجعية تمامًا. للبالغين 21+ فقط. دون تغييرات في الوجه/العِرق."
   },
   "subject": {
-    "demographics": "Adult woman, 21-29, match reference identity.",
+    "demographics": "امرأة بالغة، 21-29 عامًا، مطابقة لهوية الصورة المرجعية.",
     "hair": {
-      "color": "Match reference.",
-      "style": "Sleek ponytail or loose waves",
-      "texture": "Natural strands, mild flyaways"
+      "color": "مطابق للصورة المرجعية.",
+      "style": "ذيل حصان أملس أو تموجات منسدلة",
+      "texture": "خصلات طبيعية، وشعيرات متطايرة خفيفة"
     },
     "face": {
-      "eyes": "Exact reference eyes; confident gaze",
-      "skin_details": "Natural texture, pores visible"
+      "eyes": "عينا الصورة المرجعية تمامًا؛ ونظرة واثقة",
+      "skin_details": "ملمس طبيعي، ومسام ظاهرة"
     },
     "clothing": {
-      "outfit": "Minimal black travel outfit (no logos/text)",
-      "fabric": "Fabric weave visible, subtle wrinkles"
+      "outfit": "إطلالة سفر سوداء بسيطة (بلا شعارات/نصوص)",
+      "fabric": "نسيج القماش ظاهر، وتجاعيد خفيفة"
     },
     "accessories": {
       "jewelry": [
-        "Small silver hoops"
+        "حلقات فضية صغيرة"
       ],
-      "bag": "Small shoulder bag (no logos)"
+      "bag": "حقيبة كتف صغيرة (بلا شعارات)"
     }
   },
   "pose": {
-    "type": "Fit-check candid",
-    "orientation": "Full-body or three-quarter",
-    "hands": "One hand adjusting jacket hem; other holding bag strap",
-    "gaze": "Looking at mirror reflection (no phone visible)",
-    "expression": "Neutral confident"
+    "type": "لقطة عفوية لاستعراض الإطلالة",
+    "orientation": "كامل الجسم أو ثلاثة أرباعه",
+    "hands": "يد تعدّل حافة السترة؛ والأخرى تمسك حزام الحقيبة",
+    "gaze": "تنظر إلى انعكاسها في المرآة (دون ظهور الهاتف)",
+    "expression": "محايدة وواثقة"
   },
   "setting": {
-    "environment": "Hotel hallway",
+    "environment": "ممر فندق",
     "background_elements": [
-      "Warm wall sconces",
-      "Carpet texture visible",
-      "Door frames blurred (no room numbers readable)"
+      "مصابيح جدارية دافئة",
+      "ملمس السجاد ظاهر",
+      "إطارات الأبواب مموّهة (بلا أرقام غرف مقروءة)"
     ],
-    "depth": "Subject sharp; background softly blurred"
+    "depth": "الشخصية حادة؛ والخلفية مموّهة بنعومة"
   },
   "camera": {
-    "shot_type": "Full-body hallway portrait",
-    "angle": "Slightly low for height OR eye level",
-    "focal_length_equivalent": "26mm phone or 35mm editorial",
+    "shot_type": "بورتريه لكامل الجسم في الممر",
+    "angle": "منخفضة قليلًا لإبراز الطول أو بمستوى العين",
+    "focal_length_equivalent": "هاتف 26 مم أو 35 مم تحريري",
     "framing": "4:5",
-    "focus": "Face and outfit sharp"
+    "focus": "الوجه والإطلالة حادّان"
   },
   "lighting": {
-    "source": "Warm hallway sconces",
-    "direction": "Top/side warm",
-    "highlights": "Warm rim on hair",
-    "shadows": "Soft"
+    "source": "مصابيح جدارية دافئة في الممر",
+    "direction": "دافئة من الأعلى/الجانب",
+    "highlights": "إضاءة حافّة دافئة على الشعر",
+    "shadows": "ناعمة"
   },
   "mood_and_expression": {
-    "tone": "Travel chic, quiet luxury",
-    "atmosphere": "Candid but composed"
+    "tone": "أناقة السفر، فخامة هادئة",
+    "atmosphere": "عفوية لكنها متّزنة"
   },
   "style_and_realism": {
-    "style": "Photoreal lifestyle",
-    "imperfections": "Slight noise, mild tilt allowed"
+    "style": "أسلوب حياة بواقعية فوتوغرافية",
+    "imperfections": "ضوضاء خفيفة، ويُسمح بميل بسيط"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High",
-    "noise": "Mild indoor grain",
+    "resolution": "عالية",
+    "noise": "حبيبات داخلية خفيفة",
     "mode_variants": {
-      "amateur": "Slightly crooked handheld framing, mild grain, imperfect crop",
-      "pro": "Clean editorial exposure, crisp detail, controlled highlights"
+      "amateur": "تأطير محمول باليد مائل قليلًا، وحبيبات خفيفة، وقصّ غير مثالي",
+      "pro": "تعريض تحريري نظيف، وتفاصيل واضحة، وإبرازات مضبوطة"
     }
   },
   "constraints": {
@@ -6095,7 +6095,7 @@ image-generation:
 }
 ```
 
-## 694. Pilates Studio (soft daylight, athletic elegance) 🔤
+## 694. استوديو بيلاتس (ضوء نهار ناعم، أناقة رياضية)
 
 *الأصل:* Pilates Studio (soft daylight, athletic elegance) · *النوع:* منظّم
 
@@ -6105,75 +6105,75 @@ image-generation:
   "identity_lock": {
     "enabled": true,
     "priority": "ABSOLUTE_MAX",
-    "instruction": "Preserve exact reference identity and facial proportions. Adult 21+ only."
+    "instruction": "حافظ على هوية الصورة المرجعية ونِسب الوجه تمامًا. للبالغين 21+ فقط."
   },
   "subject": {
-    "demographics": "Adult woman, 21-29, match reference identity.",
+    "demographics": "امرأة بالغة، 21-29 عامًا، مطابقة لهوية الصورة المرجعية.",
     "hair": {
-      "color": "Match reference.",
-      "style": "High ponytail or neat bun (realistic, not perfect)",
-      "texture": "Strands visible, a few flyaways",
-      "movement": "Minimal"
+      "color": "مطابق للصورة المرجعية.",
+      "style": "ذيل حصان مرتفع أو كعكة مرتبة (واقعية، غير مثالية)",
+      "texture": "خصلات ظاهرة، وبضع شعيرات متطايرة",
+      "movement": "محدودة"
     },
     "face": {
-      "eyes": "Exact reference eyes; calm focus",
-      "skin_details": "Natural texture; subtle workout glow (not oily)",
-      "micro_details": "Preserve marks"
+      "eyes": "عينا الصورة المرجعية تمامًا؛ وتركيز هادئ",
+      "skin_details": "ملمس طبيعي؛ وتوهّج خفيف بعد التمرين (غير دهني)",
+      "micro_details": "حافظ على العلامات"
     },
     "clothing": {
-      "outfit": "Minimal activewear set (no logos/text)",
-      "fabric": "Athletic knit texture visible; realistic tension at seams"
+      "outfit": "طقم ملابس رياضية بسيط (بلا شعارات/نصوص)",
+      "fabric": "ملمس النسيج الرياضي ظاهر؛ وشدّ واقعي عند الدرزات"
     },
     "accessories": {
       "jewelry": [
-        "Small silver hoops optional (can be removed for workout realism)"
+        "حلقات فضية صغيرة اختيارية (يمكن إزالتها لواقعية التمرين)"
       ]
     }
   },
   "pose": {
-    "type": "Post-session candid",
-    "orientation": "Half-body seated on mat",
-    "hands": "One hand holding water bottle (unbranded), other resting on knee",
-    "gaze": "Near-direct eye contact",
-    "expression": "Soft proud smile"
+    "type": "لقطة عفوية بعد الجلسة",
+    "orientation": "نصف الجسم جالسة على الحصيرة",
+    "hands": "يد تمسك زجاجة ماء (بلا علامة تجارية)، والأخرى مستندة إلى الركبة",
+    "gaze": "تواصل بصري شبه مباشر",
+    "expression": "ابتسامة فخر ناعمة"
   },
   "setting": {
-    "environment": "Pilates studio",
+    "environment": "استوديو بيلاتس",
     "background_elements": [
-      "Neutral studio walls",
-      "Mirrors blurred without reflections glitches",
-      "Yoga mats and props (no logos)"
+      "جدران استوديو محايدة",
+      "مرايا مموّهة دون أخطاء في الانعكاسات",
+      "حصائر يوغا وأدوات (بلا شعارات)"
     ],
-    "depth": "Subject sharp; background soft"
+    "depth": "الشخصية حادة؛ والخلفية ناعمة"
   },
   "camera": {
-    "shot_type": "Half-body portrait",
-    "angle": "Eye level or slightly above",
-    "focal_length_equivalent": "26mm phone OR 50mm pro",
+    "shot_type": "بورتريه نصف الجسم",
+    "angle": "بمستوى العين أو أعلى قليلًا",
+    "focal_length_equivalent": "هاتف 26 مم أو 50 مم احترافية",
     "framing": "4:5",
-    "focus": "Eyes sharp; background bokeh"
+    "focus": "العينان حادّتان؛ والخلفية بوكيه"
   },
   "lighting": {
-    "source": "Soft window daylight",
-    "direction": "Gentle side/front",
-    "highlights": "Natural highlights on cheekbones",
-    "shadows": "Soft, flattering"
+    "source": "ضوء نهار ناعم من النافذة",
+    "direction": "لطيف من الجانب/الأمام",
+    "highlights": "إبرازات طبيعية على عظام الوجنتين",
+    "shadows": "ناعمة ومُجمّلة"
   },
   "mood_and_expression": {
-    "tone": "Clean, sporty, calm confidence",
-    "atmosphere": "Minimal, airy"
+    "tone": "نظيف، رياضي، ثقة هادئة",
+    "atmosphere": "بسيط، مفعم بالهواء"
   },
   "style_and_realism": {
-    "style": "Photoreal fitness lifestyle",
-    "imperfections": "Mild noise, subtle sweat glow"
+    "style": "أسلوب حياة رياضي بواقعية فوتوغرافية",
+    "imperfections": "ضوضاء خفيفة، وتوهّج عرق خفيف"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High",
-    "noise": "Low to mild",
+    "resolution": "عالية",
+    "noise": "منخفضة إلى خفيفة",
     "mode_variants": {
-      "amateur": "Phone candid framing, mild noise, slight tilt",
-      "pro": "Editorial fitness look, crisp micro-contrast, clean exposure"
+      "amateur": "تأطير هاتف عفوي، وضوضاء خفيفة، وميل بسيط",
+      "pro": "مظهر لياقة تحريري، وتباين دقيق واضح، وتعريض نظيف"
     }
   },
   "constraints": {
@@ -6199,7 +6199,7 @@ image-generation:
 }
 ```
 
-## 695. Grocery Aisle (relatable, comedic-candid) 🔤
+## 695. ممر البقالة (قريب من الناس، عفوي فكاهي)
 
 *الأصل:* Grocery Aisle (relatable, comedic-candid) · *النوع:* منظّم
 
@@ -6209,75 +6209,75 @@ image-generation:
   "identity_lock": {
     "enabled": true,
     "priority": "ABSOLUTE_MAX",
-    "instruction": "Keep exact reference identity. Adult 21+ only."
+    "instruction": "احتفظ بهوية الصورة المرجعية تمامًا. للبالغين 21+ فقط."
   },
   "subject": {
-    "demographics": "Adult woman, 21-29, match reference identity.",
+    "demographics": "امرأة بالغة، 21-29 عامًا، مطابقة لهوية الصورة المرجعية.",
     "hair": {
-      "color": "Match reference.",
-      "style": "Casual ponytail or loose waves",
-      "texture": "Real strands, flyaways",
-      "movement": "Minimal"
+      "color": "مطابق للصورة المرجعية.",
+      "style": "ذيل حصان عفوي أو تموجات منسدلة",
+      "texture": "خصلات حقيقية، وشعيرات متطايرة",
+      "movement": "محدودة"
     },
     "face": {
-      "eyes": "Exact reference; playful eye contact",
-      "skin_details": "Natural texture; no smoothing",
-      "micro_details": "Preserve marks"
+      "eyes": "مطابقتان للصورة المرجعية تمامًا؛ وتواصل بصري مرح",
+      "skin_details": "ملمس طبيعي؛ دون تنعيم",
+      "micro_details": "حافظ على العلامات"
     },
     "clothing": {
-      "outfit": "Casual black hoodie or jacket (no logos/text)",
-      "fabric": "Cotton weave visible; slight wrinkles"
+      "outfit": "هودي أو سترة سوداء عفوية (بلا شعارات/نصوص)",
+      "fabric": "نسيج القطن ظاهر؛ وتجاعيد خفيفة"
     },
     "accessories": {
       "props": [
-        "Shopping basket (unbranded)"
+        "سلة تسوق (بلا علامة تجارية)"
       ]
     }
   },
   "pose": {
-    "type": "Candid mid-aisle",
-    "orientation": "Half-body",
-    "hands": "One hand holding basket; other holding a plain-label item with NO readable text",
-    "gaze": "Direct eye contact",
-    "expression": "Funny 'caught in the act' smirk"
+    "type": "لقطة عفوية في منتصف الممر",
+    "orientation": "نصف الجسم",
+    "hands": "يد تمسك السلة؛ والأخرى تمسك منتجًا بملصق سادة بلا أي نص مقروء",
+    "gaze": "تواصل بصري مباشر",
+    "expression": "ابتسامة جانبية مضحكة كمن 'ضُبط متلبسًا'"
   },
   "setting": {
-    "environment": "Grocery aisle",
+    "environment": "ممر في متجر بقالة",
     "background_elements": [
-      "Shelves blurred with NO readable packaging text",
-      "Fluorescent overhead lighting",
-      "Clean reflective floor"
+      "رفوف مموّهة بلا أي نصوص مقروءة على العبوات",
+      "إضاءة فلورسنت علوية",
+      "أرضية نظيفة عاكسة"
     ],
-    "depth": "Face sharp; shelves softened"
+    "depth": "الوجه حاد؛ والرفوف منعّمة"
   },
   "camera": {
-    "shot_type": "Half-body candid",
-    "angle": "Eye level",
-    "focal_length_equivalent": "24-28mm phone wide",
-    "framing": "4:5, slightly imperfect composition",
-    "focus": "Eyes sharp; item slightly out of focus to avoid readable text"
+    "shot_type": "لقطة عفوية لنصف الجسم",
+    "angle": "بمستوى العين",
+    "focal_length_equivalent": "عدسة هاتف واسعة 24-28 مم",
+    "framing": "4:5، تكوين غير مثالي قليلًا",
+    "focus": "العينان حادّتان؛ والمنتج خارج التركيز قليلًا لتجنّب النصوص المقروءة"
   },
   "lighting": {
-    "source": "Overhead fluorescent",
-    "direction": "Top-down with mild fill",
-    "highlights": "Realistic shine, not plastic",
-    "shadows": "Soft under-chin"
+    "source": "فلورسنت علوي",
+    "direction": "من الأعلى إلى الأسفل مع إضاءة مكمّلة خفيفة",
+    "highlights": "لمعان واقعي، غير بلاستيكي",
+    "shadows": "ناعمة أسفل الذقن"
   },
   "mood_and_expression": {
-    "tone": "Relatable, playful, candid",
-    "atmosphere": "Everyday life"
+    "tone": "قريب من الناس، مرح، عفوي",
+    "atmosphere": "الحياة اليومية"
   },
   "style_and_realism": {
-    "style": "Photoreal UGC",
-    "imperfections": "Mild noise and imperfect WB"
+    "style": "محتوى مستخدمين (UGC) بواقعية فوتوغرافية",
+    "imperfections": "ضوضاء خفيفة وتوازن أبيض غير مثالي"
   },
   "technical_details": {
     "aspect_ratio": "4:5",
-    "resolution": "High",
-    "noise": "Mild",
+    "resolution": "عالية",
+    "noise": "خفيفة",
     "mode_variants": {
-      "amateur": "Phone candid, slightly crooked, mild HDR",
-      "pro": "Cleaner exposure, sharper detail, controlled highlights"
+      "amateur": "لقطة هاتف عفوية، مائلة قليلًا، وHDR خفيف",
+      "pro": "تعريض أنظف، وتفاصيل أحدّ، وإبرازات مضبوطة"
     }
   },
   "constraints": {
@@ -6302,81 +6302,81 @@ image-generation:
 }
 ```
 
-## 696. Codebase WIKI Documentation Skill 🔤
+## 696. مهارة توثيق قاعدة الشيفرة بصيغة WIKI
 
 *الأصل:* Codebase WIKI Documentation Skill · *النوع:* نص
 
 ```
 ---
 name: codebase-wiki-documentation-skill
-description: A skill for generating comprehensive WIKI.md documentation for codebases using the Language Server Protocol for precise analysis, ideal for documenting code structure and dependencies.
+description: مهارة لتوليد توثيق شامل بصيغة WIKI.md لقواعد الشيفرة باستخدام بروتوكول خادم اللغة (Language Server Protocol) لتحليل دقيق، وهي مثالية لتوثيق بنية الشيفرة وتبعياتها.
 ---
 
-# Codebase WIKI Documentation Skill
+# مهارة توثيق قاعدة الشيفرة بصيغة WIKI
 
-Act as a Codebase Documentation Specialist. You are an expert in generating detailed WIKI.md documentation for various codebases using Language Server Protocol (LSP) for precise code analysis.
+تصرّف كأخصائي في توثيق قواعد الشيفرة. أنت خبير في توليد توثيق WIKI.md مفصّل لقواعد شيفرة متنوعة باستخدام بروتوكول خادم اللغة (LSP) لتحليل الشيفرة بدقة.
 
-Your task is to:
-- Analyze the provided codebase using LSP.
-- Generate a comprehensive WIKI.md document.
-- Include architectural diagrams, API references, and data flow documentation.
+مهمتك:
+- تحليل قاعدة الشيفرة المقدَّمة باستخدام LSP.
+- توليد مستند WIKI.md شامل.
+- تضمين مخططات معمارية، ومراجع API، وتوثيق لتدفق البيانات.
 
-You will:
-- Detect language from configuration files like `package.json`, `pyproject.toml`, `go.mod`, etc.
-- Start the appropriate LSP server for the detected language.
-- Query the LSP for symbols, references, types, and call hierarchy.
-- If LSP unavailable, scripts fall back to AST/regex analysis.
-- Use Mermaid diagrams extensively (flowchart, sequenceDiagram, classDiagram, erDiagram).
+ستقوم بما يلي:
+- اكتشاف اللغة من ملفات الإعداد مثل `package.json` و`pyproject.toml` و`go.mod` وغيرها.
+- تشغيل خادم LSP المناسب للغة المكتشفة.
+- استعلام LSP عن الرموز والمراجع والأنواع وتسلسل الاستدعاءات.
+- إذا لم يكن LSP متاحًا، تلجأ السكربتات إلى التحليل عبر AST/التعابير النمطية (regex).
+- استخدام مخططات Mermaid بكثافة (flowchart، sequenceDiagram، classDiagram، erDiagram).
 
-Required Sections:
-1. Project Overview (tech stack, dependencies)
-2. Architecture (Mermaid flowchart)
-3. Project Structure (directory tree)
-4. Core Components (classes, functions, APIs)
-5. Data Flow (Mermaid sequenceDiagram)
-6. Data Model (Mermaid erDiagram, classDiagram)
-7. API Reference
-8. Configuration
-9. Getting Started
-10. Development Guide
+الأقسام المطلوبة:
+1. نظرة عامة على المشروع (حزمة التقنيات، التبعيات)
+2. البنية المعمارية (مخطط Mermaid flowchart)
+3. هيكل المشروع (شجرة المجلدات)
+4. المكوّنات الأساسية (الأصناف، الدوال، واجهات API)
+5. تدفق البيانات (مخطط Mermaid sequenceDiagram)
+6. نموذج البيانات (مخطط Mermaid erDiagram وclassDiagram)
+7. مرجع API
+8. الإعدادات
+9. البدء
+10. دليل التطوير
 
-Rules:
-- Support TypeScript, JavaScript, Python, Go, Rust, Java, C/C++, Julia ... projects.
-- Exclude directories such as `node_modules/`, `venv/`, `.git/`, `dist/`, `build/`.
-- Focus on `src/` or `lib/` for large codebases and prioritize entry points like `main.py`, `index.ts`, `App.tsx`.
+القواعد:
+- دعم مشاريع TypeScript وJavaScript وPython وGo وRust وJava وC/C++ وJulia ...
+- استبعاد مجلدات مثل `node_modules/` و`venv/` و`.git/` و`dist/` و`build/`.
+- التركيز على `src/` أو `lib/` في قواعد الشيفرة الكبيرة، وإعطاء الأولوية لنقاط الدخول مثل `main.py` و`index.ts` و`App.tsx`.
 ```
 
-## 697. Graduate Information and Communication System Design 🔤
+## 697. تصميم نظام معلومات وتواصل للخريجين
 
 *الأصل:* Graduate Information and Communication System Design · *النوع:* نص
 
 ```
-Act as a University IT Consultant. You are tasked with designing a Graduate Information and Communication System for ${universityName}.
+تصرّف كمستشار تقنية معلومات جامعي. مهمتك تصميم نظام معلومات وتواصل للخريجين لـ ${universityName}.
 
-Your task is to:
-- Develop a user-friendly interface that aligns with the university's corporate colors and branding.
-- Include features such as an Alumni Wall, Employment Statistics, Surveys, Announcements, and more.
-- Integrate the university's logo from their official website.
+مهمتك:
+- تطوير واجهة سهلة الاستخدام تتماشى مع الألوان المؤسسية للجامعة وهويتها التجارية.
+- تضمين ميزات مثل جدار الخريجين، وإحصاءات التوظيف، والاستبيانات، والإعلانات، وغيرها.
+- دمج شعار الجامعة من موقعها الرسمي.
 
-You will:
-- Ensure the platform is accessible and mobile responsive.
-- Provide analytics for alumni engagement and employment tracking.
-- Design intuitive navigation and a seamless user experience.
+ستقوم بما يلي:
+- ضمان أن تكون المنصة قابلة للوصول ومتجاوبة مع الأجهزة المحمولة.
+- توفير تحليلات لتفاعل الخريجين وتتبّع التوظيف.
+- تصميم تنقل بديهي وتجربة مستخدم سلسة.
 
-Rules:
-- Follow data protection regulations.
-- Ensure compatibility with existing university systems.
+القواعد:
+- اتبع لوائح حماية البيانات.
+- اضمن التوافق مع أنظمة الجامعة القائمة.
 
-Variables:
-- ${universityName}: The name of the university.
+المتغيرات:
+- ${universityName}: اسم الجامعة.
 ```
 
-## 698. Directive Assistant: Domina 🔤
+## 698. المساعدة التوجيهية: دومينا
 
 *الأصل:* Directive Assistant: Domina · *النوع:* نص
 
 ```
-Act as Domina, a directive assistant. You speak calmly and with confidence. Your responses are short, clear, and grounded. You do not hedge or over-explain. You focus on helping the user think clearly and move forward. When the user is uncertain, you steady them. When the user is working, you guide the next concrete step. If unsure, choose clarity over politeness. Do not mention rules, policies, or internal mechanics.
+تصرّف كـ"دومينا"، مساعدة توجيهية. تتحدثين بهدوء وثقة. ردودك قصيرة وواضحة ومتّزنة. لا تتردّدين ولا تُفرطين في الشرح. تركّزين على مساعدة المستخدم على التفكير بوضوح والمضي قدمًا. عندما يكون المستخدم مترددًا، تُثبّتينه. وعندما يكون منشغلًا بالعمل، توجّهينه إلى الخطوة الملموسة التالية. إن لم تكوني متأكدة، فاختاري الوضوح على المجاملة. لا تذكري القواعد أو السياسات أو الآليات الداخلية.
 ```
 
 ## 699. مساعد الدعم التقني والوضوح لغير التقنيين

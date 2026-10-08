@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **925** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **1030** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -702,22 +702,22 @@
 - 680. فلاش في ركن الملهى الليلي (نصف الجسم، لقطات حفلات عفوية)
 - 681. جلسة تجميل تحريرية في الاستوديو (لقطة قريبة، احترافية)
 - 682. نزهة على الشاطئ في الساعة الذهبية (كامل الجسم، سفر)
-- 683. Tech Desk “Builder” (half-body, cozy monitor glow) 🔤
-- 684. Restaurant Candle Close-up (intimate, not explicit) 🔤
-- 685. Minimal Studio “iPhone Candid” (pro-quality but awkward framing) 🔤
-- 686. “Blue Hour Bridge” (full-body, cinematic but still IG) 🔤
-- 687. Kitchen Morning Window Light (candid, cozy) 🔤
-- 688. Bookstore Aisle (artsy, quiet luxury) 🔤
-- 689. Passenger Seat Car Selfie (golden hour, candid) 🔤
-- 690. Balcony Coffee (morning haze, plant vibe) 🔤
-- 691. Subway Platform (street candid, moody) 🔤
-- 692. Farmers Market (colorful produce, candid) 🔤
-- 693. Hotel Hallway Fit Check (mirror vibe, no phone shown) 🔤
-- 694. Pilates Studio (soft daylight, athletic elegance) 🔤
-- 695. Grocery Aisle (relatable, comedic-candid) 🔤
-- 696. Codebase WIKI Documentation Skill 🔤
-- 697. Graduate Information and Communication System Design 🔤
-- 698. Directive Assistant: Domina 🔤
+- 683. مكتب تقني لـ"صانعة" (نصف الجسم، توهّج شاشة دافئ)
+- 684. لقطة قريبة على ضوء الشموع في مطعم (حميمية، غير فاضحة)
+- 685. استوديو بسيط بأسلوب "لقطة آيفون عفوية" (جودة احترافية لكن بتأطير غير متقن)
+- 686. "جسر الساعة الزرقاء" (كامل الجسم، سينمائي لكنه يناسب إنستغرام)
+- 687. ضوء نافذة المطبخ صباحًا (عفوي، دافئ)
+- 688. ممر مكتبة (فني، فخامة هادئة)
+- 689. سيلفي في مقعد الراكب بالسيارة (الساعة الذهبية، عفوي)
+- 690. قهوة على الشرفة (غبشة صباحية، أجواء نباتات)
+- 691. رصيف المترو (لقطة شارع عفوية، مزاجية)
+- 692. سوق المزارعين (منتجات ملوّنة، عفوي)
+- 693. استعراض الإطلالة في ممر الفندق (أجواء مرآة، دون إظهار الهاتف)
+- 694. استوديو بيلاتس (ضوء نهار ناعم، أناقة رياضية)
+- 695. ممر البقالة (قريب من الناس، عفوي فكاهي)
+- 696. مهارة توثيق قاعدة الشيفرة بصيغة WIKI
+- 697. تصميم نظام معلومات وتواصل للخريجين
+- 698. المساعدة التوجيهية: دومينا
 - 699. مساعد الدعم التقني والوضوح لغير التقنيين
 - 700. ثلاثية سينمائية: يوم في الريف
 
@@ -768,19 +768,19 @@
 - 744. دليل تطبيق ممارسة اللغة الإنجليزية
 - 745. تصميم معمارية خدمات مصغّرة للمؤسسات
 - 746. دليل تطوير تطبيقات iOS باستخدام SwiftUI
-- 747. A young woman relaxing in a wicker chair on a sunlit Mediterranean balcony. 🔤
-- 748. Amateur Girls' Night Selfie - Casual and Imperfect 🔤
-- 749. Evening at a Turkish Dessert Shop - A Photographic Story 🔤
-- 750. Image Analysis for Night Portrait in Heavy Snowfall 🔤
-- 751. Night Shift Dessert Shop 🔤
-- 752. Ultra-Realistic Ankara Indie Bar Scene Description 🔤
-- 753. Night Balcony Scene in Ankara with Efes 🔤
-- 754. Ankara Night Scene in a Meyhane 🔤
-- 755. Ultra-Realistic Turkish Living Room Scene During Football Match 🔤
-- 756. Snapshot of a Turkish Hospital Night: A Dramedy Scene 🔤
-- 757. Photorealistic Mirror Selfie Analysis 🔤
-- 758. Ultra-Realistic Night Scene in a Turkish Kitchen 🔤
-- 759. Ultra-Realistic Comedic Slice-of-Life in an Ankara Bus 🔤
+- 747. امرأة شابة تسترخي على كرسي من الخيزران في شرفة متوسطية مشمسة.
+- 748. سيلفي هاوٍ لسهرة صديقات - عفوي وغير مثالي
+- 749. مساء في محل حلويات تركية - قصة فوتوغرافية
+- 750. تحليل صورة لبورتريه ليلي تحت تساقط ثلوج كثيف
+- 751. محل الحلويات في الوردية الليلية
+- 752. وصف فائق الواقعية لمشهد في حانة مستقلة بأنقرة
+- 753. مشهد ليلي على شرفة في أنقرة مع Efes
+- 754. مشهد ليلي في أنقرة داخل ميخانة
+- 755. مشهد فائق الواقعية في غرفة معيشة تركية أثناء مباراة كرة قدم
+- 756. لقطة من ليلة في مستشفى تركي: مشهد دراما كوميدية
+- 757. تحليل سيلفي مرآة واقعي فوتوغرافياً
+- 758. مشهد ليلي فائق الواقعية في مطبخ تركي
+- 759. لقطة كوميدية فائقة الواقعية من الحياة اليومية في حافلة بأنقرة
 - 760. ليلة دافئة في أنقرة: لقطة من مسلسل تلفزيوني تركي
 - 761. مشهد ليلي فائق الواقعية في شقة بأنقرة
 - 762. ليلة دافئة في أنقرة: التقاط مشهد واقعي لغرفة نوم
@@ -858,34 +858,34 @@
 - 832. طريقة مبتكرة لتدريس الرياضيات
 - 833. بيان رؤية احترافي لشركة نقل
 - 834. تصرّف كنموذج لغوي كبير أساسي
-- 835. Act as an FTTH Telecommunications Expert 🔤
-- 836. Cinematic 3x3 Focal Lengths Grid 🔤
-- 837. 3D Medical Anatomy Model Render Prompt 🔤
-- 838. Digital Marketing Project Ideas for Students 🔤
-- 839. Water Balance Management Platform Design 🔤
-- 840. Hyper-Realistic Cinematic Pre-Dawn Scene in Ancient Mecca 🔤
-- 841. Moody Cinematic Portrait Photography 🔤
-- 842. Warm-Toned Creative Scene with Paper Figures 🔤
-- 843. Nostalgic Road Trip - Atmospheric 35mm Film Photograph Prompt 🔤
-- 844. Develop a Modern Website for Sporsmaç Using React Native 🔤
-- 845. ramones 🔤
-- 846. Article Summarizer 🔤
-- 847. Research Paper Feature Diagram 🔤
-- 848. Couples Therapy App Development Guide 🔤
-- 849. AI Workflow Automation Specialist 🔤
-- 850. AI Character Creation Guide 🔤
-- 851. Ultra-Realistic Young Woman Portrait Generation 🔤
-- 852. Mom and boy 🔤
-- 853. Spoken Word Artist Persona 🔤
-- 854. Assistente de Geração de Imagens com Identidade Visual Padrão 🔤
-- 855. Serene Mirror-Selfie Portrait in Sunlit Bedroom 🔤
-- 856. Candid Outdoor Group Photo in Natural Pool 🔤
-- 857. Improving Business English 🔤
-- 858. URL, Title, and Description Analysis Tool with LSI Keywords 🔤
-- 859. Ultra Photorealistic Rooftop Pool Portrait 🔤
-- 860. seo-fundamentals 🔤
-- 861. Mastermind 🔤
-- 862. Echoes of the Rust Age 🔤
+- 835. تصرّف كخبير اتصالات في تقنية FTTH
+- 836. شبكة سينمائية 3x3 للأطوال البؤرية
+- 837. برومبت تصيير نموذج تشريحي طبي ثلاثي الأبعاد
+- 838. أفكار مشاريع تسويق رقمي للطلاب
+- 839. تصميم منصة لإدارة التوازن المائي
+- 840. مشهد سينمائي فائق الواقعية قبيل الفجر في مكة القديمة
+- 841. تصوير بورتريه سينمائي بأجواء كئيبة
+- 842. مشهد إبداعي بدرجات دافئة مع مجسّمات ورقية
+- 843. رحلة طريق حنينية - برومبت صورة فيلم 35mm بأجواء خاصة
+- 844. تطوير موقع حديث لـ Sporsmaç باستخدام React Native
+- 845. رامونز
+- 846. ملخِّص المقالات
+- 847. مخطط خصائص لورقة بحثية
+- 848. دليل تطوير تطبيق للعلاج الزوجي
+- 849. أخصائي أتمتة سير العمل بالذكاء الاصطناعي
+- 850. دليل إنشاء شخصيات الذكاء الاصطناعي
+- 851. توليد بورتريه فائق الواقعية لامرأة شابة
+- 852. أم وصبي
+- 853. شخصية فنان الكلمة المنطوقة
+- 854. مساعد توليد الصور بهوية بصرية موحّدة
+- 855. بورتريه سيلفي هادئ في المرآة داخل غرفة نوم مشمسة
+- 856. صورة جماعية عفوية في الهواء الطلق داخل بركة طبيعية
+- 857. تحسين الإنجليزية لبيئة الأعمال
+- 858. أداة تحليل الرابط والعنوان والوصف بكلمات LSI المفتاحية
+- 859. بورتريه فائق الواقعية عند مسبح على السطح
+- 860. أساسيات SEO
+- 861. العقل المدبّر
+- 862. أصداء عصر الصدأ
 - 863. قراصنة الفراغ القرمزي
 - 864. همسات في مسارات الضوء
 - 865. ورشة الأثير
@@ -945,20 +945,20 @@
 - 917. همسات النوار
 - 918. مُخبِرة منتصف الليل
 - 919. وكيل خبير في توثيق Context7
-- 920. Sports Research Assistant 🔤
-- 921. The Quant Edge Engine 🔤
-- 922. Geralt of Rivia Image Generation 🔤
-- 923. Fintech Product and Operations Assistant 🔤
-- 924. Vibe Coding Master 🔤
-- 925. Technical Codebase Discovery & Onboarding Prompt 🔤
-- 926. Multi-Audience Application Discovery & Documentation Prompt 🔤
-- 927. Comprehensive Integrative Medical Writing 🔤
-- 928. Dear Sugar: Candid Advice on Love and Life 🔤
-- 929. Narrative Point of View Transformer 🔤
-- 930. Viral TikTok Glühwein Recipe in Five Languages 🔤
-- 931. Cinematic Neon Alley – Urban Night Walk (Album Cover Style) 🔤
-- 932. Continuous Execution Mode AI 🔤
-- 933. Context Migration 🔤
+- 920. مساعد البحث الرياضي
+- 921. محرك الأفضلية الكمّية
+- 922. توليد صورة لغيرالت أوف ريفيا
+- 923. مساعد المنتجات والعمليات في التقنية المالية
+- 924. أستاذ البرمجة بالإحساس (Vibe Coding)
+- 925. برومبت استكشاف قاعدة الشيفرة التقنية والانضمام إلى المشروع
+- 926. برومبت استكشاف التطبيقات وتوثيقها لجماهير متعددة
+- 927. كتابة طبية تكاملية شاملة
+- 928. عزيزتي شوغر: نصائح صريحة في الحب والحياة
+- 929. محوّل وجهة النظر السردية
+- 930. وصفة الغلوفاين الرائجة على TikTok بخمس لغات
+- 931. زقاق النيون السينمائي – نزهة ليلية في المدينة (بأسلوب غلاف ألبوم)
+- 932. ذكاء اصطناعي بوضع التنفيذ المستمر
+- 933. ترحيل السياق
 - 934. سلسلة تصوير سينمائي شتوي فائق الواقعية
 - 935. رسم توضيحي لفريق بأسلوب القصص المصوّرة
 - 936. وصف لوحة سريالية: دراسة لأسلوب رينيه ماغريت
@@ -999,16 +999,16 @@
 - 971. مطوّر واجهات أمامية
 - 972. الأعمال
 - 973. مُنشئ تطبيقات الجوال
-- 974. Rapid Prototyper 🔤
-- 975. Test Automation Expert 🔤
-- 976. Feedback Synthesizer 🔤
-- 977. Sprint Prioritizer 🔤
-- 978. Trend Researcher 🔤
-- 979. Joker: Tech Humor Master 🔤
-- 980. UiPath XAML Code Review Specialist 🔤
-- 981. The PRD Mastermind 🔤
-- 982. Scam Detection Conversation Helper 🔤
-- 983. Serene Yoga & Mindfulness Lifestyle Photography 🔤
+- 974. صانع النماذج الأولية السريعة
+- 975. خبير أتمتة الاختبارات
+- 976. مُركِّب الملاحظات
+- 977. مُرتِّب أولويات دورات العمل (Sprint)
+- 978. باحث الاتجاهات الرائجة
+- 979. الجوكر: سيد الفكاهة التقنية
+- 980. متخصص مراجعة شيفرة UiPath XAML
+- 981. العقل المدبّر لوثيقة متطلبات المنتج (PRD)
+- 982. مساعد محادثة لكشف الاحتيال
+- 983. تصوير نمط حياة هادئ لليوغا واليقظة الذهنية
 - 984. ماندالا التأمل وأنماط الزن الهندسية
 - 985. سهرة حفّار القبور
 - 986. مترجم صيني-إنجليزي
@@ -1034,30 +1034,30 @@
 - 1004. محاور مهارات وموارد المشروع
 - 1005. سيد البوكيمون
 - 1006. مهارة Claude Code (أمر مائل): review-and-commit.md
-- 1007. Customizable Job Scanner 🔤
-- 1008. AI Search Mastery Bootcamp 🔤
-- 1009. create a drag-and-drop experience using UniApp 🔤
-- 1010. Develop a creative dice generator called “IdeaDice”. 🔤
-- 1011. GLaDOS 🔤
-- 1012. Prompt Architect Pro 🔤
-- 1013. Synthesis Architect Pro 🔤
-- 1014. Create Organizational Charts and Workflows for University Departments 🔤
-- 1015. Fisheye 90s 🔤
-- 1016. Analog camera 🔤
-- 1017. The Pragmatic Architect: Mastering Tech with Humor and Precision 🔤
-- 1018. Question Quality Lab Game 🔤
-- 1019. nanobanana try clothing 🔤
-- 1020. NOOMS Brand Story & Portfolio Background – Storytelling Format 🔤
-- 1021. Statement of Purpose 🔤
-- 1022. Big Room Festival Anthem Creation for Suno AI v5 🔤
-- 1023. Markdown Task Implementer 🔤
-- 1024. Constraint-First Recipe Generator (Playful Edition) 🔤
-- 1025. Wings of the Dust Bowl 🔤
-- 1026. The Last Adagio 🔤
-- 1027. Crimson Waltz in the Rain 🔤
-- 1028. Manhattan Mirage 🔤
-- 1029. The Glass Doppelgänger 🔤
-- 1030. Phantom Strike 🔤
+- 1007. ماسح الوظائف القابل للتخصيص
+- 1008. معسكر إتقان البحث بالذكاء الاصطناعي
+- 1009. إنشاء تجربة سحب وإفلات باستخدام UniApp
+- 1010. طوّر مولّد نرد إبداعيًا باسم "IdeaDice".
+- 1011. GLaDOS
+- 1012. مهندس البرومبتات المحترف
+- 1013. مهندس التوليف المحترف
+- 1014. إنشاء الهياكل التنظيمية وسير العمل لأقسام الجامعة
+- 1015. عين السمكة التسعينية
+- 1016. كاميرا تناظرية
+- 1017. المهندس المعماري العملي: إتقان التقنية بالفكاهة والدقة
+- 1018. لعبة مختبر جودة الأسئلة
+- 1019. nanobanana لتجربة الملابس
+- 1020. قصة علامة NOOMS التجارية وخلفية ملف الأعمال – بأسلوب السرد القصصي
+- 1021. خطاب الغرض (Statement of Purpose)
+- 1022. إنشاء نشيد مهرجانات Big Room باستخدام Suno AI v5
+- 1023. منفّذ مهام Markdown
+- 1024. مولّد الوصفات القائم على القيود أولًا (الإصدار المرح)
+- 1025. أجنحة وعاء الغبار
+- 1026. الأداجيو الأخير
+- 1027. فالس قرمزي تحت المطر
+- 1028. سراب مانهاتن
+- 1029. القرين الزجاجي
+- 1030. الضربة الشبحية
 - 1031. GitHubTrends 🔤
 - 1032. Eerie Shadows: A Creepy Horror RPG Adventure 🔤
 - 1033. AI Travel Agent – Interview-Driven Planner 🔤
