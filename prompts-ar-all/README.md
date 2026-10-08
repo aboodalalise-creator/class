@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **1711** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **1871** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -1550,32 +1550,32 @@
 - 1510. دور وكيل محلل مخاطر الأخطاء البرمجية
 - 1511. دور وكيل البحث المعمّق
 - 1512. دور وكيل فهرسة المستودعات
-- 1513. Visual Media Analysis Expert Agent Role 🔤
-- 1514. UX Conversion Deconstruction Engine 🔤
-- 1515. AI-First Design Handoff Generator (Dev-Ready Spec) 🔤
-- 1516. Design System Consistency Auditor 🔤
-- 1517. Apple-Level UI System Designer (2026 Standard) 🔤
-- 1518. AI-Powered Personal Compliment & Coaching Engine 🔤
-- 1519. Dating Profile Optimization Suite 🔤
-- 1520. Personalized Digital Avatar Generator 🔤
-- 1521. Private Group Coaching Infrastructure 🔤
-- 1522. Trading & Investing Simulation Platform 🔤
-- 1523. Personal Knowledge & Narrative Tool 🔤
-- 1524. Zero to One Solo-Founder Launch System 🔤
-- 1525. Legal Risk Minimization Tool for Freelancers 🔤
-- 1526. High-Stakes Decision Support System 🔤
-- 1527. Strategic Business Blueprint Generator 🔤
-- 1528. Market Entry Strategy Engine 🔤
-- 1529. Revenue Model & Unit Economics Analyzer 🔤
-- 1530. Go-To-Market Execution Planner 🔤
-- 1531. Business Risk & Scenario Analyzer 🔤
-- 1532. Grok customize 🔤
-- 1533. Stock 🔤
-- 1534. Betting Prediction 🔤
-- 1535. Illustrator Style Describer Weavy 🔤
-- 1536. Reflective Companion, Not Advice 🔤
-- 1537. Ultimate Stake.us Dice Strategy Builder — All Risk Levels & Bankrolls 🔤
-- 1538. KJV Harmony Companion 🔤
+- 1513. دور وكيل خبير تحليل الوسائط البصرية
+- 1514. محرك تفكيك التحويل في تجربة المستخدم (UX)
+- 1515. مولّد تسليم التصميم الموجّه للذكاء الاصطناعي (مواصفات جاهزة للمطورين)
+- 1516. مدقّق اتساق نظام التصميم
+- 1517. مصمم نظام واجهات بمستوى Apple (معيار 2026)
+- 1518. محرك المديح والتدريب الشخصي المدعوم بالذكاء الاصطناعي
+- 1519. حزمة تحسين ملف المواعدة الشخصي
+- 1520. مولّد الصور الرمزية الرقمية المخصصة
+- 1521. بنية تحتية للتدريب الجماعي الخاص
+- 1522. منصة محاكاة التداول والاستثمار
+- 1523. أداة المعرفة والسرد الشخصي
+- 1524. نظام إطلاق المؤسس المنفرد من الصفر إلى الواحد
+- 1525. أداة تقليل المخاطر القانونية للعاملين المستقلين
+- 1526. نظام دعم القرارات عالية المخاطر
+- 1527. مولّد المخطط الاستراتيجي للأعمال
+- 1528. محرك استراتيجية دخول الأسواق
+- 1529. محلل نموذج الإيرادات واقتصاديات الوحدة
+- 1530. مخطط تنفيذ الذهاب إلى السوق
+- 1531. محلل مخاطر الأعمال والسيناريوهات
+- 1532. تخصيص Grok
+- 1533. الأسهم
+- 1534. توقعات الرهان
+- 1535. واصف أسلوب الرسام Weavy
+- 1536. رفيق التأمل، وليس النصيحة
+- 1537. منشئ استراتيجيات النرد المطلق في Stake.us — لجميع مستويات المخاطرة ورؤوس الأموال
+- 1538. رفيق التناغم مع نسخة الملك جيمس (KJV)
 - 1539. Astro.js
 - 1540. Midjourney
 - 1541. كاتب
@@ -1599,35 +1599,35 @@
 - 1559. مساعد صياغة الأوراق العلمية
 - 1560. مسؤول GitHub Enterprise Cloud (GHEC) ومستخدم متقدم
 - 1561. base-R
-- 1562. Functional Analyst 🔤
-- 1563. Small Functional Analyst mode 🔤
-- 1564. Ultra-micro Functional Analyst Prompt 🔤
-- 1565. psy 🔤
-- 1566. Architecture & UI/UX Audit 🔤
-- 1567. Minimalist Graphic Illustration of a Stylized Dachshund 🔤
-- 1568. Abstract Geometric Art Prompt Inspired by Wassily Kandinsky 🔤
-- 1569. Impressionistic Urban Solitude 🔤
-- 1570. Expert Legal Analyst in Tax and Commercial Law 🔤
-- 1571. blood grouping detection using image processing 🔤
-- 1572. subculture 🔤
-- 1573. comparison of social groups 🔤
-- 1574. question list for reaserch 🔤
-- 1575. Academic analyst and exam pattern extractor 🔤
-- 1576. Pixar-Style Family Wallpaper Prompt 🔤
-- 1577. Apple App Store Review Compliance Agent 🔤
-- 1578. Translate Document to Arabic 🔤
-- 1579. Ben 🔤
-- 1580. Picture design 🔤
-- 1581. Network Router emulator 🔤
-- 1582. Accounting Information System 🔤
-- 1583. Sapiosessuale 🔤
-- 1584. Lonely cry 🔤
-- 1585. Voice Cloning Assistant 🔤
-- 1586. making ppt 🔤
-- 1587. Bikini_Girl 🔤
-- 1588. Version Review 🔤
-- 1589. Premium Classy Interview Presentation Design 🔤
-- 1590. Prompt Refiner 🔤
+- 1562. محلل وظيفي
+- 1563. وضع المحلل الوظيفي المصغّر
+- 1564. برومبت المحلل الوظيفي فائق الصغر
+- 1565. psy
+- 1566. تدقيق المعمارية وUI/UX
+- 1567. رسم توضيحي جرافيكي بسيط لكلب دَشهند مُبسَّط الشكل
+- 1568. برومبت فن هندسي تجريدي مستوحى من فاسيلي كاندينسكي
+- 1569. العزلة الحضرية الانطباعية
+- 1570. محلل قانوني خبير في الضرائب والقانون التجاري
+- 1571. كشف فصيلة الدم باستخدام معالجة الصور
+- 1572. ثقافة فرعية
+- 1573. مقارنة بين مجموعات اجتماعية
+- 1574. قائمة أسئلة للبحث
+- 1575. محلل أكاديمي ومستخرج أنماط الامتحانات
+- 1576. برومبت خلفية عائلية بأسلوب بيكسار
+- 1577. وكيل الامتثال لمراجعة متجر تطبيقات Apple
+- 1578. ترجمة مستند إلى العربية
+- 1579. Ben
+- 1580. تصميم صورة
+- 1581. محاكي راوتر الشبكة
+- 1582. نظام معلومات المحاسبة
+- 1583. Sapiosessuale
+- 1584. بكاء الوحدة
+- 1585. مساعد استنساخ الصوت
+- 1586. إعداد عرض PowerPoint
+- 1587. Bikini_Girl
+- 1588. مراجعة الإصدار
+- 1589. تصميم عرض تقديمي راقٍ وفاخر للمقابلات
+- 1590. مُحسِّن البرومبت
 - 1591. Research Prompt (Mistral) 🔤
 - 1592. Realistic Mirror-Selfie Image Prompt 🔤
 - 1593. Realistic Selfie of Girl with Transparent Glasses and Pink Hair 🔤
@@ -1694,47 +1694,47 @@
 - 1652. خريطة
 - 1653. أخصائي توصيل ومسارات الصوت (إدخال/إخراج، حلقات/توصيل افتراضي) في أوبونتو
 - 1654. مهندس أتمتة توجيه الصوت
-- 1655. Mbbs 🔤
-- 1656. 🧠 PromptAudit 🔤
-- 1657. Notion Transcript Designer Prompt 🔤
-- 1658. Alexa Said THIS… and Miss Nancy Didn’t Like It 😳 🔤
-- 1659. Business Idea Evaluation and Scoring 🔤
-- 1660. Brandable Domain Name Finder 🔤
-- 1661. MDCT Step-by-Step Calculation 🔤
-- 1662. Setup and Bootstrap a Flutter Development Environment 🔤
-- 1663. GitHub SSH Setup for Students (Existing Repository, Clone & Push Ready) 🔤
-- 1664. Lecturer 🔤
-- 1665. Create Content from Discord Blog for Hazel's Website 🔤
-- 1666. Feynman’s Nitpick Game 🔤
-- 1667. 🛡 Financial Compliance Auditor 🔤
-- 1668. Ee 🔤
-- 1669. School Report Management System for SMP Negeri 7 Sentani 🔤
-- 1670. ⚙️ PromptForge 🔤
-- 1671. Grant Finder 🔤
-- 1672. Create a CAN Simulation in Python 🔤
-- 1673. Rocket launcher 🔤
-- 1674. Good for us 🔤
-- 1675. Augmented Reality Real Estate Staging 🔤
-- 1676. Chain of Thought for Podcast Guest Analysis 🔤
-- 1677. Key Concepts and Essential Definitions for Exam 🔤
-- 1678. suitable sunglasses using gemini 🔤
-- 1679. Realistic İmage JSON Prompt 🔤
-- 1680. Building a community 🔤
-- 1681. What friendship should be all about 🔤
-- 1682. story 🔤
-- 1683. Designing a Feature Testing Page for Enterprise WeChat/DingTalk 🔤
-- 1684. Redesign Front-End with Codex 🔤
-- 1685. High-End Technology-Inspired Website UI Redesign 🔤
-- 1686. RPA/Agentic AI Process Developer Portfolio Design for Claude 🔤
-- 1687. Modify Front-End Webpage with Codex and Image Input 🔤
-- 1688. Code Review Professional 🔤
-- 1689. Cyber-Pulse: 3D Neon Particle Swarm 🔤
-- 1690. Gravity Shift: Low-Poly Physics Platformer 🔤
-- 1691. Star-Marshal: Raycast Tactical Shooter 🔤
-- 1692. Logic-Flow Educational Puzzle 🔤
-- 1693. High-Velocity Dogfight 🔤
-- 1694. Handle the bug in feature 🔤
-- 1695. low risk to uplift income 🔤
+- 1655. بكالوريوس الطب والجراحة (MBBS)
+- 1656. 🧠 PromptAudit
+- 1657. برومبت مصمم نصوص Notion من التفريغات
+- 1658. قالت أليكسا هذا… ولم يعجب ذلك الآنسة نانسي 😳
+- 1659. تقييم الأفكار التجارية وتسجيلها
+- 1660. باحث عن أسماء النطاقات القابلة للعلامة التجارية
+- 1661. حساب MDCT خطوة بخطوة
+- 1662. إعداد وتهيئة بيئة تطوير Flutter
+- 1663. إعداد GitHub SSH للطلاب (مستودع موجود، جاهز للاستنساخ والدفع)
+- 1664. المحاضر
+- 1665. إنشاء محتوى من مدونة Discord لموقع Hazel
+- 1666. لعبة فاينمان في التدقيق والانتقاد
+- 1667. 🛡 مدقق الامتثال المالي
+- 1668. إي إي
+- 1669. نظام إدارة التقارير المدرسية لمدرسة SMP Negeri 7 Sentani
+- 1670. ⚙️ PromptForge
+- 1671. باحث المنح
+- 1672. إنشاء محاكاة CAN بلغة Python
+- 1673. قاذفة صواريخ
+- 1674. جيد لنا
+- 1675. تنسيق العقارات بالواقع المعزز
+- 1676. سلسلة التفكير لتحليل ضيف البودكاست
+- 1677. المفاهيم الأساسية والتعريفات الجوهرية للامتحان
+- 1678. نظارات شمسية مناسبة باستخدام Gemini
+- 1679. برومبت JSON لصورة واقعية
+- 1680. بناء مجتمع
+- 1681. ما ينبغي أن تكون عليه الصداقة
+- 1682. قصة
+- 1683. تصميم صفحة اختبار الميزات لـ Enterprise WeChat/DingTalk
+- 1684. إعادة تصميم الواجهة الأمامية باستخدام Codex
+- 1685. إعادة تصميم واجهة موقع راقية مستوحاة من التقنية
+- 1686. تصميم موقع أعمال لمطوّر عمليات RPA/ذكاء اصطناعي وكيلي لـ Claude
+- 1687. تعديل صفحة الواجهة الأمامية باستخدام Codex ومدخل صورة
+- 1688. محترف مراجعة الشيفرة
+- 1689. Cyber-Pulse: سرب جسيمات نيون ثلاثي الأبعاد
+- 1690. Gravity Shift: لعبة منصات فيزيائية منخفضة المضلعات
+- 1691. Star-Marshal: لعبة إطلاق نار تكتيكية بالأشعة
+- 1692. لغز تعليمي Logic-Flow
+- 1693. مناورة جوية عالية السرعة
+- 1694. معالجة الخلل في الميزة
+- 1695. مخاطرة منخفضة لرفع الدخل
 - 1696. User Acquisition Data Analysis 🔤
 - 1697. Car Buying Intake Interview 🔤
 - 1698. Hypnotherapist Guidance for Stress Management 🔤
@@ -1798,31 +1798,31 @@
 - 1754. مساعد قراءة الأدبيات
 - 1755. فستان
 - 1756. مولّد العملاء المحتملين ومتتبّعهم (WordPilot.pro)
-- 1757. Lead Generator & Tracker for WordPilot.pro 🔤
-- 1758. Reply-Focused Cold Email Builder 🔤
-- 1759. Email Lead Generator & Tracker 🔤
-- 1760. Horror Story in Hindi 🔤
-- 1761. Reverse-Engineering Vox's Hybrid Video Strategy 🔤
-- 1762. YouTube Script Engine — High Retention 🔤
-- 1763. Socially Neutral Social Media Commentary Prompt 🔤
-- 1764. Anime 🔤
-- 1765. Prompt 101 (full) 🔤
-- 1766. prompt for powerpoint slides generation 🔤
-- 1767. The Pleasure of Finding Things Out 🔤
-- 1768. Mothers day 🔤
-- 1769. Job search agent 🔤
-- 1770. Black Effect on person 🔤
-- 1771. AIM summarized pdf 🔤
-- 1772. senior market research analyst specializing in digital advertising and cross-border e-commerce. 🔤
-- 1773. Generating Effective Study references for AI/ML Learning Concepts 🔤
-- 1774. Feature coding template 🔤
-- 1775. [sigrex.io] RSI + MACD Momentum 🔤
-- 1776. interview assistance 🔤
-- 1777. [sigrex.io] Fear & Greed Sentiment Filter 🔤
-- 1778. [sigrex.io] Full Kitchen Sink 🔤
-- 1779. 3D Physics Sandbox Architect 🔤
-- 1780. Procedural 3D Environment Designer 🔤
-- 1781. Advanced 3D Kinematics & Character Controller 🔤
+- 1757. مولّد العملاء المحتملين ومتتبّعهم لـ WordPilot.pro
+- 1758. منشئ رسائل بريد بارد تركّز على الرد
+- 1759. مولّد العملاء المحتملين عبر البريد ومتتبّعهم
+- 1760. قصة رعب بالهندية
+- 1761. الهندسة العكسية لاستراتيجية الفيديو الهجينة لدى Vox
+- 1762. محرك سيناريو YouTube — احتفاظ عالٍ بالمشاهدين
+- 1763. برومبت تعليق محايد اجتماعيًا على وسائل التواصل
+- 1764. أنمي
+- 1765. برومبت 101 (كامل)
+- 1766. برومبت لتوليد شرائح PowerPoint
+- 1767. متعة اكتشاف الأشياء
+- 1768. عيد الأم
+- 1769. وكيل البحث عن الوظائف
+- 1770. تأثير الأسود على الشخص
+- 1771. ملخص AIM لملف PDF
+- 1772. محلل أبحاث سوق أول متخصص في الإعلان الرقمي والتجارة الإلكترونية العابرة للحدود.
+- 1773. توليد مراجع دراسية فعّالة لمفاهيم تعلم الذكاء الاصطناعي/التعلم الآلي
+- 1774. قالب ترميز الميزات
+- 1775. [sigrex.io] زخم RSI + MACD
+- 1776. مساعدة في المقابلة
+- 1777. [sigrex.io] مرشح مشاعر الخوف والطمع
+- 1778. [sigrex.io] المطبخ الكامل
+- 1779. معماري صندوق رملي للفيزياء ثلاثية الأبعاد
+- 1780. مصمم بيئات ثلاثية الأبعاد إجرائية
+- 1781. حركية ثلاثية الأبعاد متقدمة ومتحكم شخصيات
 - 1782. WebGL VFX & Fluid Interaction Specialist 🔤
 - 1783. Abstract 3D Topology Puzzle Architect 🔤
 - 1784. Smart Project Timeline Builder 🔤
@@ -1936,27 +1936,27 @@
 - 1890. دليل خبير ASO لمتجر Apple
 - 1891. خبير إنتاج فيديوهات مؤسسية
 - 1892. أريدك أن تفكر مثل فيرات كوهلي وتحلّل امتحان IBPS Clerk بالتفصيل وتجد أفضل طريقة ممكنة للنجاح فيه مع استراتيجية لكل مادة
-- 1893. Fieldwork Analysis for Observational Participant Studies 🔤
-- 1894. Premortem Analysis 🔤
-- 1895. Mastering Leadership: 🔤
-- 1896. Cinematic Landscape Photography of Horse-Drawn Wagon 🔤
-- 1897. Memxus Memory - Stop repeating yourself to AI 🔤
-- 1898. Sales Funnel Builder from URL 🔤
-- 1899. Create This cool Doodles. 🔤
-- 1900. nos 🔤
+- 1893. تحليل العمل الميداني لدراسات الملاحظة بالمشاركة
+- 1894. تحليل ما قبل الفشل (Premortem)
+- 1895. إتقان القيادة:
+- 1896. تصوير سينمائي لمشهد طبيعي لعربة يجرّها حصان
+- 1897. ذاكرة Memxus - توقف عن تكرار نفسك للذكاء الاصطناعي
+- 1898. بناء قمع مبيعات من رابط URL
+- 1899. أنشئ هذه الدوودلز الرائعة
+- 1900. صور
 
 ## [الجزء 20: 1901–2000](part-20.md)
-- 1901. YouTube Channel Audit Expert 🔤
-- 1902. Action video 🔤
-- 1903. GitHub Repository Analyst 🔤
-- 1904. Creative Coloring Book Creations 🔤
-- 1905. Better Sufix Prompt 🔤
-- 1906. Spotify Playlist Cover Generator 🔤
-- 1907. Small 🔤
-- 1908. Custom Poster and Wallpaper Design with Image Upload 🔤
-- 1909. Vibe Coding with Modern Designs and SEO 🔤
-- 1910. SABARUDIN INSTRUCTIONS FRAMEWORK 🔤
-- 1911. Advanced Image Quality Enhancement 🔤
+- 1901. خبير تدقيق قناة YouTube
+- 1902. فيديو أكشن
+- 1903. محلّل مستودعات GitHub
+- 1904. إنشاءات كتاب تلوين مبدعة
+- 1905. برومبت لاحقة أفضل
+- 1906. مولّد أغلفة قوائم تشغيل Spotify
+- 1907. صغير
+- 1908. تصميم ملصق وخلفية مخصصة برفع صورة
+- 1909. البرمجة بالحدس (Vibe Coding) بتصاميم حديثة وSEO
+- 1910. إطار تعليمات SABARUDIN
+- 1911. تحسين متقدم لجودة الصورة
 - 1912. Sabarudin System - Executive Architecture 🔤
 - 1913. Mirror Selfie Scene Description 🔤
 - 1914. Meeting Summary and Action Plan Generator 🔤
@@ -2058,26 +2058,26 @@
 - 2008. أطلس منظومة الكود
 - 2009. أسئلة سابقة
 - 2010. 🎵 ChildSong Guardian
-- 2011. B2B Market Research 🔤
-- 2012. Writing Style Replication 🔤
-- 2013. KP Prompting 🔤
-- 2014. Mejorar calidad de imagen 🔤
-- 2015. Diseño HUD Sci-Fi | Agente Celestial Designs 🔤
-- 2016. Copy Publicitario Persuasivo | Agente Celestial Designs 🔤
-- 2017. Realismo Cinematográfico 8K | Agente Celestial Designs 🔤
-- 2018. Video Cinematográfico IA | Agente Celestial Designs 🔤
-- 2019. Produccion Musical IA Electronic | Agente Celestial Designs 🔤
-- 2020. Prompt Enhancer (concise) 🔤
-- 2021. learning from zero 🔤
-- 2022. reviewgod 🔤
-- 2023. Debugging Detective 🔤
-- 2024. Core Systems Architect: Upgrading the TITAN OMEGA Edge Dashboard 🔤
-- 2025. High-Frequency RSS Ingestion Architect 🔤
-- 2026. Supabase Principal Architect Infrastructure Optimization 🔤
-- 2027. project marketing 🔤
-- 2028. jessica 🔤
-- 2029. AI Agent Architect — Design Production-Ready Agents in 15 Steps 🔤
-- 2030. Copy Script Style 🔤
+- 2011. أبحاث سوق B2B
+- 2012. محاكاة أسلوب الكتابة
+- 2013. KP Prompting
+- 2014. تحسين جودة الصورة
+- 2015. تصميم HUD خيال علمي | Agente Celestial Designs
+- 2016. نص إعلاني مقنع | Agente Celestial Designs
+- 2017. واقعية سينمائية 8K | Agente Celestial Designs
+- 2018. فيديو سينمائي بالذكاء الاصطناعي | Agente Celestial Designs
+- 2019. إنتاج موسيقي إلكتروني بالذكاء الاصطناعي | Agente Celestial Designs
+- 2020. محسّن البرومبت (موجز)
+- 2021. التعلم من الصفر
+- 2022. reviewgod
+- 2023. محقق تصحيح الأخطاء
+- 2024. مهندس الأنظمة الأساسية: ترقية لوحة TITAN OMEGA Edge
+- 2025. مهندس استيعاب RSS عالي التردد
+- 2026. تحسين بنية Supabase التحتية على مستوى كبير المهندسين المعماريين
+- 2027. تسويق المشروع
+- 2028. jessica
+- 2029. مهندس وكلاء الذكاء الاصطناعي — صمّم وكلاء جاهزين للإنتاج في 15 خطوة
+- 2030. نسخ أسلوب السيناريو
 - 2031. ?????????? 🔤
 - 2032. 论文实验细节分析助手（UTF-8） 🔤
 - 2033. Conversational Logo Design Process 🔤
