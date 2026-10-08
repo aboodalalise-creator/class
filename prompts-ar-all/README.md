@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **1342** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **1459** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -1232,22 +1232,22 @@
 - 1200. تحدي الكتابة الإبداعية الشبيهة بالبشر
 
 ## [الجزء 13: 1201–1300](part-13.md)
-- 1201. Gathering Planner Interview 🔤
-- 1202. Lazy AI Email Detector 🔤
-- 1203. Studio Portrait with Cinematic Lighting and Bold Color Background 🔤
-- 1204. National Architecture Dioramas 🔤
-- 1205. Make AI write naturally 🔤
-- 1206. Professional Image Enhancement for Clarity and Quality 🔤
-- 1207. EMAIL SEQUENCE WITH STORYTELLING 🔤
-- 1208. Radical Responsibility Mirror (Shadow Work) 🔤
-- 1209. Deep Immersion Study Plan (7 Days) 🔤
-- 1210. Socratic Universal Tutor 🔤
-- 1211. Project Breakdown 🔤
-- 1212. xcode-mcp 🔤
-- 1213. Strategic Decision-Making Matrix 🔤
-- 1214. High Conversion Cold Email 🔤
-- 1215. SYSTEM PROMPT: THE INFINITE ROLE GENERATOR 🔤
-- 1216. Cyberscam Survival Simulator 🔤
+- 1201. مقابلة مخطط التجمعات
+- 1202. كاشف رسائل البريد الإلكتروني الكسولة المولّدة بالذكاء الاصطناعي
+- 1203. بورتريه استوديو بإضاءة سينمائية وخلفية بألوان جريئة
+- 1204. مجسمات مصغرة للعمارة الوطنية
+- 1205. اجعل الذكاء الاصطناعي يكتب بشكل طبيعي
+- 1206. تحسين احترافي للصور من حيث الوضوح والجودة
+- 1207. سلسلة رسائل بريد إلكتروني بالسرد القصصي
+- 1208. مرآة المسؤولية الجذرية (عمل الظل)
+- 1209. خطة دراسة بالانغماس العميق (7 أيام)
+- 1210. المعلم السقراطي الشامل
+- 1211. تفكيك المشروع
+- 1212. xcode-mcp
+- 1213. مصفوفة اتخاذ القرار الاستراتيجي
+- 1214. بريد إلكتروني بارد عالي التحويل
+- 1215. برومبت النظام: مولّد الأدوار اللانهائي
+- 1216. محاكي النجاة من الاحتيال السيبراني
 - 1217. رسوم توضيحية على السبورة البيضاء
 - 1218. إحاطة مباشرة بتهديدات الاحتيال
 - 1219. مساعد تقييم التحقق من الوقائع
@@ -1393,68 +1393,68 @@
 - 1357. برومبت أفق إسطنبول المرسوم يدويًا
 - 1358. برومبت عرض ثلاثي الأبعاد للنسر الأصلع المهيب
 - 1359. كتابة كتاب عن أسباب الوفاة من مصادر البيانات
-- 1360. Critical Thinking (DeepThink) 🔤
-- 1361. Corporate Intel Report 🔤
-- 1362. Root Cause Architect (5 Whys Technique) 🔤
-- 1363. SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support) 🔤
-- 1364. Expanded Company Intel Report 🔤
-- 1365. Next.js 🔤
-- 1366. Job Posting Snapshot & Preservation Engine 🔤
-- 1367. Code Translator — Idiomatic, Version-Aware & Production-Ready 🔤
-- 1368. ComicPost 🔤
-- 1369. Fazer miniatura de coisas/moleculas 🔤
-- 1370. Prompts para metodos de estudo 🔤
-- 1371. calories diet 🔤
-- 1372. 医疗器械专家指导 🔤
-- 1373. Expert Technical Blog Writer Role 🔤
-- 1374. AI Kickstart prompt 🔤
-- 1375. Superhuman lab 🔤
-- 1376. Email Phishing and Cyber Attack Notification App 🔤
-- 1377. One-Shot Copy-Paste Version with Proper Formatting 🔤
-- 1378. studying for exam 🔤
-- 1379. trello-integration-skill 🔤
-- 1380. test 🔤
-- 1381. Update Agent Permissions 🔤
-- 1382. Fantasy Console Simulator 🔤
-- 1383. Spec Interview 🔤
-- 1384. Writing Advisor Prompt 🔤
-- 1385. Job Fit 🔤
-- 1386. Angular Directive Generator 🔤
-- 1387. explain like I am 8 🔤
-- 1388. Claude Code Skill (Slash Command): push-and-pull-request.md 🔤
-- 1389. Work on Linear Issue 🔤
-- 1390. YKS-YDT Vocabulary Acquisition Guide 🔤
-- 1391. Dead Code Surgeon - Phased Codebase Audit & Cleanup Roadmap 🔤
-- 1392. Spanish girl in nightclub 🔤
-- 1393. research and learn to become top in your field of knowledge 🔤
-- 1394. Walking back home 🔤
+- 1360. التفكير النقدي (DeepThink)
+- 1361. تقرير استخبارات الشركات
+- 1362. مهندس السبب الجذري (تقنية الأسئلة الخمسة "لماذا")
+- 1363. SciSim Pro - محاكي علمي (يدعم المخططات المكانية بفن ASCII/النصي)
+- 1364. تقرير استخبارات الشركات الموسّع
+- 1365. Next.js
+- 1366. محرك لقطة وحفظ إعلانات الوظائف
+- 1367. مترجم الأكواد — اصطلاحي، مدرك للإصدارات وجاهز للإنتاج
+- 1368. ComicPost (منشور كوميكس)
+- 1369. صنع نماذج مصغّرة للأشياء/الجزيئات
+- 1370. برومبتات لطرق الدراسة
+- 1371. نظام غذائي بالسعرات الحرارية
+- 1372. إرشادات خبير الأجهزة الطبية
+- 1373. دور كاتب مدونات تقنية خبير
+- 1374. برومبت انطلاقة الذكاء الاصطناعي
+- 1375. مختبر الإنسان الخارق
+- 1376. تطبيق إشعارات التصيد الاحتيالي في البريد الإلكتروني والهجمات السيبرانية
+- 1377. نسخة النسخ واللصق دفعة واحدة بالتنسيق الصحيح
+- 1378. الدراسة للامتحان
+- 1379. مهارة تكامل Trello
+- 1380. اختبار
+- 1381. تحديث صلاحيات الوكيل
+- 1382. محاكي وحدة الألعاب الخيالية
+- 1383. مقابلة المواصفات
+- 1384. برومبت مستشار الكتابة
+- 1385. ملاءمة الوظيفة
+- 1386. مولّد توجيهات Angular
+- 1387. اشرح لي كأني في الثامنة
+- 1388. مهارة Claude Code (أمر الشرطة المائلة): push-and-pull-request.md
+- 1389. العمل على مشكلة في Linear
+- 1390. دليل اكتساب المفردات لـ YKS-YDT
+- 1391. جرّاح الكود الميت - تدقيق مرحلي لقاعدة الكود وخارطة طريق التنظيف
+- 1392. فتاة إسبانية في ملهى ليلي
+- 1393. ابحث وتعلّم لتصبح الأفضل في مجال معرفتك
+- 1394. العودة إلى المنزل مشيًا
 - 1395. مراجعة شاملة لقاعدة شيفرة Go - برومبت تحليل جنائي المستوى
-- 1396. Comprehensive Python Codebase Review - Forensic-Level Analysis Prompt 🔤
-- 1397. Internal Linking SEO Assistant 🔤
-- 1398. Brainstorming Technically Grounded Product Ideas 🔤
-- 1399. Transform the provided clothing product image. 🔤
-- 1400. Internet Trend & Slang Intelligence 🔤
+- 1396. مراجعة شاملة لقاعدة شيفرة Python - برومبت تحليل جنائي المستوى
+- 1397. مساعد السيو للروابط الداخلية
+- 1398. العصف الذهني لأفكار منتجات مبنية على أسس تقنية
+- 1399. تحويل صورة منتج الملابس المقدمة
+- 1400. استخبارات اتجاهات الإنترنت والعامية
 
 ## [الجزء 15: 1401–1500](part-15.md)
-- 1401. library migration 🔤
-- 1402. Operating systems 🔤
-- 1403. Stripe Payment Builder 🔤
-- 1404. SQL Query Builder & Optimiser 🔤
-- 1405. Generate a Plan for Building the Best UI/UX 🔤
-- 1406. Make UI/UX better of an already Created Application 🔤
-- 1407. Act as a lawyer and judicial advisor with 25 years of experience in drafting defense memoranda in Saudi courts only, with the condition of adhering to the legal provisions currently in force. 🔤
-- 1408. 2046 Puzzle Game Challenge 🔤
-- 1409. SEO diagnosis 🔤
-- 1410. Manimal 🔤
-- 1411. Hand made  site 🔤
-- 1412. Productive Peer Mentor (Friendly Tech-Savvy Thinking Partner) 🔤
-- 1413. Elite Feedback Form Generator — Stunning UI with Next.js, React & TypeScript 🔤
-- 1414. Tistory Blog Skin UI/UX Enhancement Pipeline 🔤
-- 1415. Civil Engineering Bridge Mentor 🔤
-- 1416. 3D Avatar Prompt 🔤
-- 1417. Plain-English Security Concept Explainer 🔤
-- 1418. Task Creator 🔤
-- 1419. MISSING VALUES HANDLER 🔤
+- 1401. ترحيل المكتبات
+- 1402. أنظمة التشغيل
+- 1403. منشئ مدفوعات Stripe
+- 1404. منشئ استعلامات SQL ومحسّنها
+- 1405. إنشاء خطة لبناء أفضل واجهة وتجربة مستخدم
+- 1406. تحسين واجهة وتجربة مستخدم تطبيق منشأ مسبقًا
+- 1407. تصرّف كمحامٍ ومستشار قضائي بخبرة 25 عامًا في صياغة المذكرات الدفاعية في المحاكم السعودية فقط، بشرط الالتزام بالأحكام النظامية المعمول بها حاليًا.
+- 1408. تحدي لعبة الألغاز 2046
+- 1409. تشخيص السيو
+- 1410. مانيمال
+- 1411. موقع الأعمال اليدوية
+- 1412. الزميل المنتج والموجّه (شريك تفكير ودود وملم بالتقنية)
+- 1413. مولّد نماذج الملاحظات النخبوي — واجهة مذهلة باستخدام Next.js وReact وTypeScript
+- 1414. خط تحسين واجهة وتجربة مستخدم سكن مدونة Tistory
+- 1415. مرشد هندسة الجسور المدنية
+- 1416. برومبت أفاتار ثلاثي الأبعاد
+- 1417. شارح مفاهيم الأمان بلغة بسيطة
+- 1418. منشئ المهام
+- 1419. معالج القيم المفقودة
 - 1420. Unity Architecture Specialist 🔤
 - 1421. Code Review Specialist 3 🔤
 - 1422. Privacy-First Chat App with Multi-Feature Support 🔤
@@ -1478,53 +1478,53 @@
 - 1440. حلقة التعلم العميق
 - 1441. مسؤول توظيف لاستقطاب محترفي مبيعات ذوي خبرة في Databricks
 - 1442. تدقيق أمان SaaS - مراجعة OWASP Top 10 وعزل المستأجرين المتعددين
-- 1443. SaaS Analytics Dashboard - Knowledge-Anchored Frontend Prompt 🔤
-- 1444. Repository Security & Architecture Audit Framework 🔤
-- 1445. ACLS Master Simulator 🔤
-- 1446. Lunch atop a Skyscraper - Robotic Power Armor Recreation 🔤
-- 1447. Mine 🔤
-- 1448. In-Depth Paper and Exam Prediction Analyzer 🔤
-- 1449. Improve 🔤
-- 1450. Photo Enhancement and Repair with Transparent Background 🔤
-- 1451. code generation for online assessments 🔤
-- 1452. ISC Class 12th Exam Paper Analyzer and evaluator 🔤
-- 1453. Class Prep 🔤
-- 1454. xcode-mcp (for pi agent) 🔤
-- 1455. Messy Desk Study Moment - University Student 🔤
-- 1456. Why an Online PDF Editor Is Essential for Modern Workflows 🔤
-- 1457. Academic Research Writer 🔤
-- 1458. Deep Investigation Agent 🔤
-- 1459. Build an Interview Practice App 🔤
-- 1460. AI voice assistant 🔤
-- 1461. Video review and teacher 🔤
-- 1462. Video extractor prompt 🔤
-- 1463. Project Builder 🔤
-- 1464. Resume Customization Prompt – STRATEGIC INTEGRITY 🔤
-- 1465. Extract a Writing Outline from Scientific Content 🔤
-- 1466. Neon Logo Design for Streaming Platform 🔤
-- 1467. Review the social media content 🔤
-- 1468. Professional photo restoration expert 🔤
-- 1469. Entropy peer reviews 🔤
-- 1470. System Architect Agent Role 🔤
-- 1471. API Design Expert Agent Role 🔤
+- 1443. لوحة تحليلات SaaS - برومبت واجهة أمامية مرتكز على المعرفة
+- 1444. إطار تدقيق أمان وبنية المستودع
+- 1445. محاكي ACLS الاحترافي
+- 1446. غداء فوق ناطحة سحاب - إعادة تمثيل بدلات القوة الآلية
+- 1447. خاصتي
+- 1448. محلل متعمق للأوراق والتنبؤ بالامتحانات
+- 1449. تحسين
+- 1450. تحسين الصور وإصلاحها مع خلفية شفافة
+- 1451. توليد الكود للتقييمات عبر الإنترنت
+- 1452. محلل ومقيّم أوراق امتحان ISC للصف الثاني عشر
+- 1453. التحضير للحصة
+- 1454. xcode-mcp (لوكيل pi)
+- 1455. لحظة مذاكرة على مكتب فوضوي - طالبة جامعية
+- 1456. لماذا يُعد محرر PDF عبر الإنترنت ضرورياً لسير العمل الحديث
+- 1457. كاتب البحوث الأكاديمية
+- 1458. وكيل التحقيق المعمّق
+- 1459. ابنِ تطبيق تدريب على المقابلات
+- 1460. مساعد صوتي بالذكاء الاصطناعي
+- 1461. مراجعة الفيديو والمعلّم
+- 1462. برومبت مستخرج الفيديو
+- 1463. منشئ المشاريع
+- 1464. برومبت تخصيص السيرة الذاتية – النزاهة الاستراتيجية
+- 1465. استخراج مخطط كتابة من محتوى علمي
+- 1466. تصميم شعار نيون لمنصة بث
+- 1467. مراجعة محتوى وسائل التواصل الاجتماعي
+- 1468. خبير محترف في ترميم الصور
+- 1469. مراجعات الأقران لمجلة Entropy
+- 1470. دور وكيل مهندس النظم
+- 1471. دور وكيل خبير تصميم واجهات API
 - 1472. دور وكيل مهندس الواجهة الخلفية
 - 1473. دور وكيل مهندس قواعد البيانات
-- 1474. Data Validator Agent Role 🔤
-- 1475. Mock Data Generator Agent Role 🔤
-- 1476. Backup & Restore Agent Role 🔤
-- 1477. DevOps Automator Agent Role 🔤
-- 1478. Environment Configuration Agent Role 🔤
-- 1479. Git Workflow Expert Agent Role 🔤
-- 1480. Repository Workflow Editor Agent Role 🔤
-- 1481. Documentation Maintainer Agent Role 🔤
-- 1482. Accessibility Auditor Agent Role 🔤
-- 1483. Frontend Developer Agent Role 🔤
-- 1484. SEO Auditor Agent Role 🔤
+- 1474. دور وكيل مدقق البيانات
+- 1475. دور وكيل مولّد البيانات الوهمية
+- 1476. دور وكيل النسخ الاحتياطي والاستعادة
+- 1477. دور وكيل أتمتة DevOps
+- 1478. دور وكيل إعداد البيئات
+- 1479. دور وكيل خبير سير عمل Git
+- 1480. دور وكيل محرر سير عمل المستودع
+- 1481. دور وكيل مسؤول صيانة التوثيق
+- 1482. دور وكيل مدقق إمكانية الوصول
+- 1483. دور وكيل مطور الواجهة الأمامية
+- 1484. دور وكيل مدقق تحسين محركات البحث (SEO)
 - 1485. SEO Optimization Agent Role 🔤
 - 1486. UI Architect Agent Role 🔤
 - 1487. Legal Document Generator Agent Role 🔤
-- 1488. Caching Architect Agent Role 🔤
-- 1489. Optimization Auditor Agent Role 🔤
+- 1488. دور وكيل مهندس التخزين المؤقت
+- 1489. دور وكيل مدقق التحسين
 - 1490. Performance Tuning Agent Role 🔤
 - 1491. Diff Security Auditor Agent Role 🔤
 - 1492. Vulnerability Auditor Agent Role 🔤
