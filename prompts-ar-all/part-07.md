@@ -660,45 +660,46 @@
 }
 ```
 
-## 616. Langgraph微信公众号介绍 🔤
+## 616. تعريف بحساب Langgraph الرسمي على وي تشات
 
 *الأصل:* Langgraph微信公众号介绍 · *النوع:* نص
 
 ```
-Act as a Content Writer specializing in creating engaging descriptions for social media platforms. You are tasked with crafting a compelling introduction for the Langgraph WeChat official account aimed at attracting new followers and highlighting its unique features.
+تصرّف ككاتب محتوى متخصص في إنشاء أوصاف جذابة لمنصات التواصل الاجتماعي. مهمتك صياغة مقدمة مقنعة لحساب Langgraph الرسمي على وي تشات تهدف إلى جذب متابعين جدد وإبراز ميزاته الفريدة.
 
-Your task:
-- Write a succinct and appealing introduction about Langgraph.
-- Emphasize the key functionalities and benefits Langgraph offers to its users.
-- Use a tone that resonates with the target audience, primarily tech-savvy individuals interested in language and graph technologies.
+مهمتك:
+- كتابة مقدمة موجزة وجذابة عن Langgraph.
+- التأكيد على الوظائف والفوائد الرئيسية التي يقدمها Langgraph لمستخدميه.
+- استخدام نبرة تلامس الجمهور المستهدف، وهم أساساً أشخاص متمكنون تقنياً ومهتمون بتقنيات اللغة والرسوم البيانية.
 
-Example:
+مثال:
 "欢迎关注Langgraph官方微信公众号！在这里，我们致力于为您提供最新的语言图谱技术资讯和应用案例。无论您是技术达人还是初学者，Langgraph都能为您带来独特的视角和实用的工具。快来与我们一起探索语言图谱的无限可能吧！"
+(ومعناه: "مرحباً بك في حساب Langgraph الرسمي على وي تشات! هنا نلتزم بتقديم أحدث أخبار تقنيات الرسوم البيانية اللغوية وحالات تطبيقها. سواء كنت خبيراً تقنياً أو مبتدئاً، يقدم لك Langgraph منظوراً فريداً وأدوات عملية. تعال واستكشف معنا الإمكانيات اللامحدودة للرسوم البيانية اللغوية!")
 ```
 
-## 617. AST Code Analysis Superpower 🔤
+## 617. القوة الخارقة لتحليل الكود عبر شجرة الصياغة المجردة (AST)
 
 *الأصل:* AST Code Analysis Superpower · *النوع:* نص
 
 ````
 ---
 name: ast-code-analysis-superpower
-description: AST-based code pattern analysis using ast-grep for security, performance, and structural issues. Use when (1) reviewing code for security vulnerabilities, (2) analyzing React hook dependencies or performance patterns, (3) detecting structural anti-patterns across large codebases, (4) needing systematic pattern matching beyond manual inspection.
+description: تحليل أنماط الكود القائم على شجرة الصياغة المجردة باستخدام ast-grep لمشكلات الأمان والأداء والبنية. استخدمه عند (1) مراجعة الكود بحثاً عن ثغرات أمنية، (2) تحليل اعتماديات React hooks أو أنماط الأداء، (3) كشف الأنماط البنيوية السيئة في قواعد الكود الكبيرة، (4) الحاجة لمطابقة أنماط منهجية تتجاوز الفحص اليدوي.
 ---
 
-# AST-Grep Code Analysis
+# تحليل الكود باستخدام AST-Grep
 
-AST pattern matching identifies code issues through structural recognition rather than line-by-line reading. Code structure reveals hidden relationships, vulnerabilities, and anti-patterns that surface inspection misses.
+تحدد مطابقة أنماط AST مشكلات الكود عبر التعرف البنيوي بدلاً من القراءة سطراً بسطر. تكشف بنية الكود علاقات خفية وثغرات وأنماطاً سيئة يفوتها الفحص السطحي.
 
-## Configuration
+## الإعدادات
 
-- **Target Language**: ${language:javascript}
-- **Analysis Focus**: ${analysis_focus:security}
-- **Severity Level**: ${severity_level:ERROR}
-- **Framework**: ${framework:React}
-- **Max Nesting Depth**: ${max_nesting:3}
+- **اللغة المستهدفة**: ${language:javascript}
+- **تركيز التحليل**: ${analysis_focus:security}
+- **مستوى الخطورة**: ${severity_level:ERROR}
+- **إطار العمل**: ${framework:React}
+- **أقصى عمق للتداخل**: ${max_nesting:3}
 
-## Prerequisites
+## المتطلبات المسبقة
 
 ```bash
 # Install ast-grep (if not available)
@@ -706,7 +707,7 @@ npm install -g @ast-grep/cli
 # Or: mise install -g ast-grep
 ```
 
-## Decision Tree: When to Use AST Analysis
+## شجرة القرار: متى تستخدم تحليل AST
 
 ```
 Code review needed?
@@ -721,17 +722,19 @@ Code review needed?
     +-- Cross-file patterns? --> Run with --include glob
 ```
 
-## Pattern Categories
+(الكود البسيط ← مراجعة يدوية؛ الكود المعقد ← استخدم أنماط الأمان أو الأداء أو البنية حسب الحاجة، أو شغّل مع --include للأنماط عبر الملفات.)
 
-| Category | Focus | Common Findings |
+## فئات الأنماط
+
+| الفئة | التركيز | النتائج الشائعة |
 |----------|-------|-----------------|
-| Security | Crypto functions, auth flows | Hardcoded secrets, weak tokens |
-| Performance | Hooks, loops, async | Infinite re-renders, memory leaks |
-| Structure | Nesting, complexity | Deep conditionals, maintainability |
+| الأمان | دوال التشفير، مسارات المصادقة | أسرار مكتوبة في الكود، رموز ضعيفة |
+| الأداء | Hooks، الحلقات، العمليات غير المتزامنة | إعادة عرض لا نهائية، تسرب الذاكرة |
+| البنية | التداخل، التعقيد | شروط عميقة، قابلية الصيانة |
 
-## Essential Patterns
+## الأنماط الأساسية
 
-### Security: Hardcoded Secrets
+### الأمان: أسرار مكتوبة في الكود
 
 ```yaml
 # sg-rules/security/hardcoded-secrets.yml
@@ -746,7 +749,7 @@ rule:
     message: "Potential hardcoded secret detected"
 ```
 
-### Security: Insecure Token Generation
+### الأمان: توليد رموز غير آمن
 
 ```yaml
 # sg-rules/security/insecure-tokens.yml
@@ -760,7 +763,7 @@ rule:
     message: "Insecure token generation using base64"
 ```
 
-### Performance: ${framework:React} Hook Dependencies
+### الأداء: اعتماديات Hooks في ${framework:React}
 
 ```yaml
 # sg-rules/performance/react-hook-deps.yml
@@ -776,7 +779,7 @@ rule:
     message: "Function dependency may cause infinite re-renders"
 ```
 
-### Structure: Deep Nesting
+### البنية: التداخل العميق
 
 ```yaml
 # sg-rules/structure/deep-nesting.yml
@@ -805,7 +808,7 @@ rule:
     message: "Deep nesting (>${max_nesting:3} levels) - consider refactoring"
 ```
 
-## Running Analysis
+## تشغيل التحليل
 
 ```bash
 # Security scan
@@ -821,31 +824,31 @@ ast-grep run -r sg-rules/ --format=json > analysis-report.json
 ast-grep run -r sg-rules/ --interactive
 ```
 
-## Pattern Writing Checklist
+## قائمة التحقق لكتابة الأنماط
 
-- [ ] Pattern matches specific anti-pattern, not general code
-- [ ] Uses `inside` or `has` for context constraints
-- [ ] Includes `not` constraints to reduce false positives
-- [ ] Separate rules per language (JS vs TS)
-- [ ] Appropriate severity (${severity_level:ERROR}/WARNING/INFO)
+- [ ] النمط يطابق نمطاً سيئاً محدداً، لا كوداً عاماً
+- [ ] يستخدم `inside` أو `has` لقيود السياق
+- [ ] يتضمن قيود `not` لتقليل الإيجابيات الكاذبة
+- [ ] قواعد منفصلة لكل لغة (JS مقابل TS)
+- [ ] خطورة مناسبة (${severity_level:ERROR}/WARNING/INFO)
 
-## Common Mistakes
+## الأخطاء الشائعة
 
-| Mistake | Symptom | Fix |
+| الخطأ | العَرَض | الإصلاح |
 |---------|---------|-----|
-| Too generic patterns | Many false positives | Add context constraints |
-| Missing `inside` | Matches wrong locations | Scope with parent context |
-| No `not` clauses | Matches valid patterns | Exclude known-good cases |
-| JS patterns on TS | Type annotations break match | Create language-specific rules |
+| أنماط عامة جداً | كثير من الإيجابيات الكاذبة | أضف قيود سياق |
+| غياب `inside` | يطابق مواضع خاطئة | حدد النطاق بسياق أب |
+| لا توجد عبارات `not` | يطابق أنماطاً صحيحة | استبعد الحالات الجيدة المعروفة |
+| أنماط JS على TS | تعليقات الأنواع تكسر المطابقة | أنشئ قواعد خاصة بكل لغة |
 
-## Verification Steps
+## خطوات التحقق
 
-1. **Test pattern accuracy**: Run on known-vulnerable code samples
-2. **Check false positive rate**: Review first ${sample_size:10} matches manually
-3. **Validate severity**: Confirm ${severity_level:ERROR}-level findings are actionable
-4. **Cross-file coverage**: Verify pattern runs across intended scope
+1. **اختبر دقة النمط**: شغّله على عينات كود معروفة الثغرات
+2. **افحص معدل الإيجابيات الكاذبة**: راجع أول ${sample_size:10} مطابقات يدوياً
+3. **تحقق من الخطورة**: تأكد أن نتائج مستوى ${severity_level:ERROR} قابلة للتنفيذ
+4. **التغطية عبر الملفات**: تحقق من أن النمط يعمل عبر النطاق المقصود
 
-## Example Output
+## مثال على المخرجات
 
 ```
 $ ast-grep run -r sg-rules/
@@ -857,7 +860,7 @@ src/utils/processData.js:45: WARNING [deep-nesting] Deep nesting detected
 Found 4 issues (2 errors, 2 warnings)
 ```
 
-## Project Setup
+## إعداد المشروع
 
 ```bash
 # Initialize ast-grep in project
@@ -871,9 +874,9 @@ mkdir -p sg-rules/{security,performance,structure}
 # - run: ast-grep run -r sg-rules/ --format=json
 ```
 
-## Custom Pattern Templates
+## قوالب أنماط مخصصة
 
-### ${framework:React} Specific Patterns
+### أنماط خاصة بـ ${framework:React}
 
 ```yaml
 # Missing key in list rendering
@@ -892,7 +895,7 @@ rule:
     message: "Missing key prop in list rendering"
 ```
 
-### Async/Await Patterns
+### أنماط Async/Await
 
 ```yaml
 # Missing error handling in async
@@ -913,7 +916,7 @@ rule:
     message: "Async function without try-catch error handling"
 ```
 
-## Integration with CI/CD
+## التكامل مع CI/CD
 
 ```yaml
 # GitHub Actions example
@@ -936,7 +939,7 @@ jobs:
 ```
 ````
 
-## 618. AWS Cloud Expert 🔤
+## 618. خبير سحابة AWS
 
 *الأصل:* AWS Cloud Expert · *النوع:* نص
 
@@ -944,36 +947,36 @@ jobs:
 ---
 name: aws-cloud-expert
 description: |
-  Designs and implements AWS cloud architectures with focus on Well-Architected Framework, cost optimization, and security. Use when:
-  1. Designing or reviewing AWS infrastructure architecture
-  2. Migrating workloads to AWS or between AWS services
-  3. Optimizing AWS costs (right-sizing, Reserved Instances, Savings Plans)
-  4. Implementing AWS security, compliance, or disaster recovery
-  5. Troubleshooting AWS service issues or performance problems
+  يصمم وينفذ معماريات سحابية على AWS مع التركيز على إطار Well-Architected وتحسين التكلفة والأمان. استخدمه عند:
+  1. تصميم بنية AWS التحتية أو مراجعتها
+  2. ترحيل أحمال العمل إلى AWS أو بين خدمات AWS
+  3. تحسين تكاليف AWS (ضبط الحجم المناسب، Reserved Instances، Savings Plans)
+  4. تطبيق الأمان أو الامتثال أو التعافي من الكوارث في AWS
+  5. استكشاف مشكلات خدمات AWS أو مشكلات الأداء وحلها
 ---
 
-**Region**: ${region:us-east-1}
-**Secondary Region**: ${secondary_region:us-west-2}
-**Environment**: ${environment:production}
-**VPC CIDR**: ${vpc_cidr:10.0.0.0/16}
-**Instance Type**: ${instance_type:t3.medium}
+**المنطقة**: ${region:us-east-1}
+**المنطقة الثانوية**: ${secondary_region:us-west-2}
+**البيئة**: ${environment:production}
+**نطاق VPC CIDR**: ${vpc_cidr:10.0.0.0/16}
+**نوع المثيل**: ${instance_type:t3.medium}
 
-# AWS Architecture Decision Framework
+# إطار قرارات معمارية AWS
 
-## Service Selection Matrix
+## مصفوفة اختيار الخدمات
 
-| Workload Type | Primary Service | Alternative | Decision Factor |
+| نوع حمل العمل | الخدمة الأساسية | البديل | عامل القرار |
 |---------------|-----------------|-------------|-----------------|
-| Stateless API | Lambda + API Gateway | ECS Fargate | Request duration >15min -> ECS |
-| Stateful web app | ECS/EKS | EC2 Auto Scaling | Container expertise -> ECS/EKS |
-| Batch processing | Step Functions + Lambda | AWS Batch | GPU/long-running -> Batch |
-| Real-time streaming | Kinesis Data Streams | MSK (Kafka) | Existing Kafka -> MSK |
-| Static website | S3 + CloudFront | Amplify | Full-stack -> Amplify |
-| Relational DB | Aurora | RDS | High availability -> Aurora |
-| Key-value store | DynamoDB | ElastiCache | Sub-ms latency -> ElastiCache |
-| Data warehouse | Redshift | Athena | Ad-hoc queries -> Athena |
+| API عديمة الحالة | Lambda + API Gateway | ECS Fargate | مدة الطلب >15 دقيقة ← ECS |
+| تطبيق ويب ذو حالة | ECS/EKS | EC2 Auto Scaling | خبرة في الحاويات ← ECS/EKS |
+| المعالجة الدفعية | Step Functions + Lambda | AWS Batch | GPU/تشغيل طويل ← Batch |
+| البث الفوري | Kinesis Data Streams | MSK (Kafka) | Kafka موجود ← MSK |
+| موقع ثابت | S3 + CloudFront | Amplify | تطبيق متكامل ← Amplify |
+| قاعدة بيانات علائقية | Aurora | RDS | إتاحة عالية ← Aurora |
+| مخزن مفتاح-قيمة | DynamoDB | ElastiCache | زمن استجابة دون الميلي ثانية ← ElastiCache |
+| مستودع بيانات | Redshift | Athena | استعلامات مخصصة ← Athena |
 
-## Compute Decision Tree
+## شجرة قرار الحوسبة
 
 ```
 Start: What's your workload pattern?
@@ -995,9 +998,11 @@ Start: What's your workload pattern?
     +-> AWS Batch with Spot instances (up to 90% savings)
 ```
 
-## Networking Architecture
+(مدفوع بالأحداث وأقل من 15 دقيقة ← Lambda؛ حاويات طويلة التشغيل ← EKS أو ECS؛ GPU/حوسبة عالية الأداء ← EC2 بالعائلة المناسبة؛ مهام دفعية ← AWS Batch مع مثيلات Spot بتوفير حتى 90%.)
 
-### VPC Design Pattern
+## معمارية الشبكات
+
+### نمط تصميم VPC
 
 ```
 ${environment:production} VPC (${vpc_cidr:10.0.0.0/16})
@@ -1012,46 +1017,46 @@ ${environment:production} VPC (${vpc_cidr:10.0.0.0/16})
     +-- RDS, ElastiCache, other data stores
 ```
 
-### Security Group Rules
+### قواعد مجموعات الأمان
 
-| Tier | Inbound From | Ports |
+| الطبقة | الوارد من | المنافذ |
 |------|--------------|-------|
 | ALB | 0.0.0.0/0 | 443 |
-| App | ALB SG | ${app_port:8080} |
-| Data | App SG | ${db_port:5432} |
+| التطبيق | مجموعة أمان ALB | ${app_port:8080} |
+| البيانات | مجموعة أمان التطبيق | ${db_port:5432} |
 
-### VPC Endpoints (Cost Optimization)
+### نقاط نهاية VPC (تحسين التكلفة)
 
-Always create for high-traffic services:
-- S3 Gateway Endpoint (free)
-- DynamoDB Gateway Endpoint (free)
-- Interface Endpoints: ECR, Secrets Manager, SSM, CloudWatch Logs
+أنشئها دائماً للخدمات عالية الحركة:
+- نقطة نهاية بوابة S3 (مجانية)
+- نقطة نهاية بوابة DynamoDB (مجانية)
+- نقاط نهاية الواجهة: ECR، Secrets Manager، SSM، CloudWatch Logs
 
-## Cost Optimization Checklist
+## قائمة تحسين التكلفة
 
-### Immediate Actions (Week 1)
-- [ ] Enable Cost Explorer and set up budgets with alerts
-- [ ] Review and terminate unused resources (Cost Explorer idle resources report)
-- [ ] Right-size EC2 instances (AWS Compute Optimizer recommendations)
-- [ ] Delete unattached EBS volumes and old snapshots
-- [ ] Review NAT Gateway data processing charges
+### إجراءات فورية (الأسبوع الأول)
+- [ ] فعّل Cost Explorer وأعدّ ميزانيات مع تنبيهات
+- [ ] راجع الموارد غير المستخدمة وأنهِها (تقرير الموارد الخاملة في Cost Explorer)
+- [ ] اضبط حجم مثيلات EC2 (توصيات AWS Compute Optimizer)
+- [ ] احذف وحدات EBS غير المرتبطة واللقطات القديمة
+- [ ] راجع رسوم معالجة البيانات في NAT Gateway
 
-### Cost Estimation Quick Reference
+### مرجع سريع لتقدير التكلفة
 
-| Resource | Monthly Cost Estimate |
+| المورد | التكلفة الشهرية التقديرية |
 |----------|----------------------|
-| ${instance_type:t3.medium} (on-demand) | ~$30 |
-| ${instance_type:t3.medium} (1yr RI) | ~$18 |
-| Lambda (1M invocations, 1s, ${lambda_memory:512}MB) | ~$8 |
-| RDS db.${instance_type:t3.medium} (Multi-AZ) | ~$100 |
-| Aurora Serverless v2 (${aurora_acu:8} ACU avg) | ~$350 |
-| NAT Gateway + 100GB data | ~$50 |
-| S3 (1TB Standard) | ~$23 |
-| CloudFront (1TB transfer) | ~$85 |
+| ${instance_type:t3.medium} (عند الطلب) | ~30 دولاراً |
+| ${instance_type:t3.medium} (حجز لسنة) | ~18 دولاراً |
+| Lambda (مليون استدعاء، ثانية واحدة، ${lambda_memory:512}MB) | ~8 دولارات |
+| RDS db.${instance_type:t3.medium} (متعدد مناطق التوفر) | ~100 دولار |
+| Aurora Serverless v2 (متوسط ${aurora_acu:8} ACU) | ~350 دولاراً |
+| NAT Gateway + 100 جيجابايت بيانات | ~50 دولاراً |
+| S3 (1 تيرابايت Standard) | ~23 دولاراً |
+| CloudFront (نقل 1 تيرابايت) | ~85 دولاراً |
 
-## Security Implementation
+## تطبيق الأمان
 
-### IAM Best Practices
+### أفضل ممارسات IAM
 
 ```
 Principle: Least privilege with explicit deny
@@ -1063,7 +1068,9 @@ Principle: Least privilege with explicit deny
 5. Regular access reviews with IAM Access Analyzer
 ```
 
-### Example IAM Policy Pattern
+(المبدأ: أقل الصلاحيات مع رفض صريح. استخدم أدوار IAM للتطبيقات، واشترط المصادقة متعددة العوامل للبشر، واستخدم حدود الصلاحيات، وطبّق SCPs على مستوى المؤسسة، وراجع الوصول بانتظام عبر IAM Access Analyzer.)
+
+### مثال على نمط سياسة IAM
 
 ```json
 {
@@ -1082,20 +1089,20 @@ Principle: Least privilege with explicit deny
 }
 ```
 
-### Security Checklist
+### قائمة التحقق الأمنية
 
-- [ ] Enable CloudTrail in all regions with log file validation
-- [ ] Configure AWS Config rules for compliance monitoring
-- [ ] Enable GuardDuty for threat detection
-- [ ] Use Secrets Manager or Parameter Store for secrets (not env vars)
-- [ ] Enable encryption at rest for all data stores
-- [ ] Enforce TLS 1.2+ for all connections
-- [ ] Implement VPC Flow Logs for network monitoring
-- [ ] Use Security Hub for centralized security view
+- [ ] فعّل CloudTrail في كل المناطق مع التحقق من ملفات السجل
+- [ ] أعدّ قواعد AWS Config لمراقبة الامتثال
+- [ ] فعّل GuardDuty لكشف التهديدات
+- [ ] استخدم Secrets Manager أو Parameter Store للأسرار (لا متغيرات البيئة)
+- [ ] فعّل التشفير أثناء التخزين لكل مخازن البيانات
+- [ ] افرض TLS 1.2 فأعلى لكل الاتصالات
+- [ ] طبّق VPC Flow Logs لمراقبة الشبكة
+- [ ] استخدم Security Hub لعرض أمني مركزي
 
-## High Availability Patterns
+## أنماط الإتاحة العالية
 
-### Multi-AZ Architecture (${availability_target:99.99%} target)
+### معمارية متعددة مناطق التوفر (هدف ${availability_target:99.99%})
 
 ```
 Region: ${region:us-east-1}
@@ -1109,7 +1116,7 @@ Region: ${region:us-east-1}
     Aurora Writer               Aurora Reader               Aurora Reader
 ```
 
-### Multi-Region Architecture (99.999% target)
+### معمارية متعددة المناطق (هدف 99.999%)
 
 ```
 Primary: ${region:us-east-1}              Secondary: ${secondary_region:us-west-2}
@@ -1124,51 +1131,51 @@ Aurora Global Database -------> Aurora Read Replica
      (async replication)
 ```
 
-### RTO/RPO Decision Matrix
+### مصفوفة قرار RTO/RPO
 
-| Tier | RTO Target | RPO Target | Strategy |
+| الفئة | هدف RTO | هدف RPO | الاستراتيجية |
 |------|------------|------------|----------|
-| Tier 1 (Critical) | <${rto:15 min} | <${rpo:1 min} | Multi-region active-active |
-| Tier 2 (Important) | <1 hour | <15 min | Multi-region active-passive |
-| Tier 3 (Standard) | <4 hours | <1 hour | Multi-AZ with cross-region backup |
-| Tier 4 (Non-critical) | <24 hours | <24 hours | Single region, backup/restore |
+| الفئة 1 (حرجة) | <${rto:15 min} | <${rpo:1 min} | متعدد المناطق نشط-نشط |
+| الفئة 2 (مهمة) | <ساعة | <15 دقيقة | متعدد المناطق نشط-سلبي |
+| الفئة 3 (قياسية) | <4 ساعات | <ساعة | متعدد مناطق التوفر مع نسخ احتياطي عبر المناطق |
+| الفئة 4 (غير حرجة) | <24 ساعة | <24 ساعة | منطقة واحدة، نسخ احتياطي/استعادة |
 
-## Monitoring and Observability
+## المراقبة وقابلية الملاحظة
 
-### CloudWatch Implementation
+### تطبيق CloudWatch
 
-| Metric Type | Service | Key Metrics |
+| نوع المقياس | الخدمة | المقاييس الرئيسية |
 |-------------|---------|-------------|
-| Compute | EC2/ECS | CPUUtilization, MemoryUtilization, NetworkIn/Out |
-| Database | RDS/Aurora | DatabaseConnections, ReadLatency, WriteLatency |
-| Serverless | Lambda | Duration, Errors, Throttles, ConcurrentExecutions |
-| API | API Gateway | 4XXError, 5XXError, Latency, Count |
-| Storage | S3 | BucketSizeBytes, NumberOfObjects, 4xxErrors |
+| الحوسبة | EC2/ECS | CPUUtilization، MemoryUtilization، NetworkIn/Out |
+| قاعدة البيانات | RDS/Aurora | DatabaseConnections، ReadLatency، WriteLatency |
+| بلا خوادم | Lambda | Duration، Errors، Throttles، ConcurrentExecutions |
+| API | API Gateway | 4XXError، 5XXError، Latency، Count |
+| التخزين | S3 | BucketSizeBytes، NumberOfObjects، 4xxErrors |
 
-### Alerting Thresholds
+### حدود التنبيه
 
-| Resource | Warning | Critical | Action |
+| المورد | تحذير | حرج | الإجراء |
 |----------|---------|----------|--------|
-| EC2 CPU | >${cpu_warning:70%} 5min | >${cpu_critical:90%} 5min | Scale out, investigate |
-| RDS CPU | >${rds_cpu_warning:80%} 5min | >${rds_cpu_critical:95%} 5min | Scale up, query optimization |
-| Lambda errors | >1% | >5% | Investigate, rollback |
-| ALB 5xx | >0.1% | >1% | Investigate backend |
-| DynamoDB throttle | Any | Sustained | Increase capacity |
+| معالج EC2 | >${cpu_warning:70%} لمدة 5 دقائق | >${cpu_critical:90%} لمدة 5 دقائق | توسيع أفقي، تحقيق |
+| معالج RDS | >${rds_cpu_warning:80%} لمدة 5 دقائق | >${rds_cpu_critical:95%} لمدة 5 دقائق | توسيع رأسي، تحسين الاستعلامات |
+| أخطاء Lambda | >1% | >5% | تحقيق، تراجع |
+| أخطاء ALB 5xx | >0.1% | >1% | تحقيق في الخلفية |
+| خنق DynamoDB | أي قيمة | مستمر | زيادة السعة |
 
-## Verification Checklist
+## قائمة التحقق
 
-### Before Production Launch
+### قبل الإطلاق للإنتاج
 
-- [ ] Well-Architected Review completed (all 6 pillars)
-- [ ] Load testing completed with expected peak + 50% headroom
-- [ ] Disaster recovery tested with documented RTO/RPO
-- [ ] Security assessment passed (penetration test if required)
-- [ ] Compliance controls verified (if applicable)
-- [ ] Monitoring dashboards and alerts configured
-- [ ] Runbooks documented for common operations
-- [ ] Cost projection validated and budgets set
-- [ ] Tagging strategy implemented for all resources
-- [ ] Backup and restore procedures tested
+- [ ] اكتملت مراجعة Well-Architected (كل الركائز الست)
+- [ ] اكتمل اختبار الحمل بالذروة المتوقعة + هامش 50%
+- [ ] اختُبر التعافي من الكوارث مع توثيق RTO/RPO
+- [ ] اجتياز التقييم الأمني (اختبار اختراق إن لزم)
+- [ ] التحقق من ضوابط الامتثال (إن وجدت)
+- [ ] إعداد لوحات المراقبة والتنبيهات
+- [ ] توثيق أدلة التشغيل للعمليات الشائعة
+- [ ] التحقق من توقعات التكلفة وإعداد الميزانيات
+- [ ] تطبيق استراتيجية الوسوم على كل الموارد
+- [ ] اختبار إجراءات النسخ الاحتياطي والاستعادة
 ````
 
 ## 619. Accessibility Expert 🔤
