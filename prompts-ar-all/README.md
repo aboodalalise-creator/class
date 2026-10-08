@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **1459** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **1484** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -1455,21 +1455,21 @@
 - 1417. شارح مفاهيم الأمان بلغة بسيطة
 - 1418. منشئ المهام
 - 1419. معالج القيم المفقودة
-- 1420. Unity Architecture Specialist 🔤
-- 1421. Code Review Specialist 3 🔤
-- 1422. Privacy-First Chat App with Multi-Feature Support 🔤
-- 1423. Kickstart Prompt for Web UX & UI Design 🔤
-- 1424. Page-by-Page Build 🔤
-- 1425. Iteration & Polish 🔤
-- 1426. Design System Extraction Prompt Kit 🔤
-- 1427. Token Architecture 🔤
-- 1428. Component Documentation 🔤
-- 1429. CLAUDE.md Assembly 🔤
-- 1430. Maintenance Prompt for Design System 🔤
-- 1431. Update/Sync Prompt 🔤
-- 1432. "Explain It Like I Built It"  Technical Documentation for Non-Technical Founders 🔤
-- 1433. Claude - Proje çalışma promptu 🔤
-- 1434. Web Application Testing Skill (Imported) 🔤
+- 1420. أخصائي معمارية Unity
+- 1421. أخصائي مراجعة الشيفرة 3
+- 1422. تطبيق دردشة يضع الخصوصية أولًا بميزات متعددة
+- 1423. برومبت الانطلاق لتصميم تجربة وواجهة الويب
+- 1424. البناء صفحة بصفحة
+- 1425. التكرار والصقل
+- 1426. عدّة برومبتات استخراج نظام التصميم
+- 1427. معمارية الرموز (Token Architecture)
+- 1428. توثيق المكونات
+- 1429. تجميع CLAUDE.md
+- 1430. برومبت الصيانة لنظام التصميم
+- 1431. برومبت التحديث/المزامنة
+- 1432. "اشرحها كأنني من بناها" توثيق تقني للمؤسسين غير التقنيين
+- 1433. Claude - برومبت عمل المشروع
+- 1434. مهارة اختبار تطبيقات الويب (مستوردة)
 - 1435. ملاحظات تسليم التصميم - الذكاء الاصطناعي أولاً ومقروءة للبشر
 - 1436. فحص الجودة البصرية وتدقيق التوافق بين المتصفحات
 - 1437. تحسين Lighthouse والأداء
@@ -1520,19 +1520,19 @@
 - 1482. دور وكيل مدقق إمكانية الوصول
 - 1483. دور وكيل مطور الواجهة الأمامية
 - 1484. دور وكيل مدقق تحسين محركات البحث (SEO)
-- 1485. SEO Optimization Agent Role 🔤
-- 1486. UI Architect Agent Role 🔤
-- 1487. Legal Document Generator Agent Role 🔤
+- 1485. دور وكيل تحسين محركات البحث (SEO)
+- 1486. دور وكيل مهندس معماري لواجهة المستخدم
+- 1487. دور وكيل مولّد المستندات القانونية
 - 1488. دور وكيل مهندس التخزين المؤقت
 - 1489. دور وكيل مدقق التحسين
-- 1490. Performance Tuning Agent Role 🔤
-- 1491. Diff Security Auditor Agent Role 🔤
-- 1492. Vulnerability Auditor Agent Role 🔤
+- 1490. دور وكيل ضبط الأداء
+- 1491. دور وكيل مدقق أمان الفروقات (Diff)
+- 1492. دور وكيل مدقق الثغرات الأمنية
 - 1493. API Tester Agent Role 🔤
 - 1494. Quality Engineering Agent Role 🔤
 - 1495. Test Analyzer Agent Role 🔤
-- 1496. Test Engineer Agent Role 🔤
-- 1497. Code Formatter Agent Role 🔤
+- 1496. دور وكيل مهندس الاختبار
+- 1497. دور وكيل منسّق الشيفرة
 - 1498. Code Review Agent Role 🔤
 - 1499. Code Reviewer Agent Role 🔤
 - 1500. Dependency Manager Agent Role 🔤
@@ -1541,7 +1541,7 @@
 - 1501. Error Handler Agent Role 🔤
 - 1502. Post-Implementation Audit Agent Role 🔤
 - 1503. Product Planner Agent Role 🔤
-- 1504. Rapid Prototyper Agent Role 🔤
+- 1504. دور وكيل النمذجة السريعة
 - 1505. Root Cause Analysis Agent Role 🔤
 - 1506. Refactoring Expert Agent Role 🔤
 - 1507. Shell Script Agent Role 🔤
@@ -1549,7 +1549,7 @@
 - 1509. TypeScript Type Expert Agent Role 🔤
 - 1510. Bug Risk Analyst Agent Role 🔤
 - 1511. Deep Research Agent Role 🔤
-- 1512. Repository Indexer Agent Role 🔤
+- 1512. دور وكيل فهرسة المستودعات
 - 1513. Visual Media Analysis Expert Agent Role 🔤
 - 1514. UX Conversion Deconstruction Engine 🔤
 - 1515. AI-First Design Handoff Generator (Dev-Ready Spec) 🔤
