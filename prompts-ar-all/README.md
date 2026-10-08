@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **1962** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **2126** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -1961,71 +1961,71 @@
 - 1913. وصف مشهد سيلفي أمام المرآة
 - 1914. مولّد ملخص الاجتماع وخطة العمل
 - 1915. تعليمات ملخص المحادثة وتصديرها
-- 1916. de 🔤
-- 1917. Black Magic Mantra: Unleashing Creativity and Innovation 🔤
-- 1918. Sarcastic AI Personality 🔤
-- 1919. Comprehensive Car Specifications and Upgrade Guide 🔤
-- 1920. Boost Engagement in Artistic Telegram Channels 🔤
-- 1921. Verbatim Chat to Organized Notes 🔤
-- 1922. Sentence Expansion and Completion Assistant 🔤
-- 1923. Automated Text Typing Every 5 Minutes with Python 🔤
-- 1924. Python Auto Typer with Customizable Delay 🔤
-- 1925. Programming Logic Controller PLC interview questions and answers. Add S7400 Simens PLC and ABB PLC. 🔤
-- 1926. Payment gateway page 🔤
-- 1927. person behaviour 🔤
-- 1928. Code Writing Specialist for Exams 🔤
-- 1929. Casual Code Explanation Video Script 🔤
-- 1930. Optical, Optometrist 🔤
-- 1931. Empathetic and Supportive Friend 🔤
-- 1932. god mode 🔤
-- 1933. Personal Insight Analyzer from Past Chats 🔤
-- 1934. Expert Discrete Mathematics Exam Answering 🔤
-- 1935. React / Next.js Frontend Architect 🔤
-- 1936. Storybook with stories creation 🔤
-- 1937. Plan Check Agent 🔤
-- 1938. Parallel Agents With Goal 🔤
-- 1939. Photography Trip Planning — Research-Backed Itinerary Builder 🔤
-- 1940. Comprehensive Book Summarizer 🔤
-- 1941. High-precision research and performance architecture engine 🔤
-- 1942. Enhancing Efficiency with Codex Using Sub-Agents 🔤
-- 1943. Performing a Popular Song at a Concert 🔤
-- 1944. Result 🔤
-- 1945. توليد فيديو عبر الذكاء الاصطناعي 🔤
-- 1946. AI Web search Customer 🔤
-- 1947. Subject-Wise School Performance Dashboard Generator 🔤
-- 1948. Image Analysis for Personal Style and Personality Assessment 🔤
-- 1949. Structural Fusion: The Thriller-Parable 🔤
-- 1950. Refute 🔤
-- 1951. deconstruct 🔤
-- 1952. steamdiscount 🔤
-- 1953. lit crit 🔤
-- 1954. bizcase 🔤
-- 1955. human 🔤
-- 1956. alfa 🔤
-- 1957. alfa2 🔤
-- 1958. diff 🔤
-- 1959. distill 🔤
-- 1960. Deduce 🔤
-- 1961. Factcheck 🔤
-- 1962. DD 🔤
-- 1963. cantankerous 🔤
-- 1964. 1337 🔤
-- 1965. subvert 🔤
-- 1966. reviews 🔤
-- 1967. flaneur 🔤
-- 1968. shop 🔤
-- 1969. devil adv 🔤
-- 1970. Echo innovation 🔤
-- 1971. dialectic 🔤
-- 1972. cunninglinguist 🔤
-- 1973. tabs 🔤
-- 1974. timeline 🔤
-- 1975. Probe 🔤
-- 1976. speech100 🔤
-- 1977. script 🔤
-- 1978. bond 🔤
-- 1979. Quant 🔤
-- 1980. alfakennybody 🔤
+- 1916. de
+- 1917. تعويذة السحر الأسود: إطلاق الإبداع والابتكار
+- 1918. شخصية ذكاء اصطناعي سخرية
+- 1919. دليل شامل لمواصفات السيارات والتحسينات
+- 1920. تعزيز التفاعل في قنوات Telegram الفنية
+- 1921. من محادثة حرفية إلى ملاحظات منظمة
+- 1922. مساعد توسيع الجمل وإتمامها
+- 1923. كتابة نص تلقائية كل 5 دقائق بـ Python
+- 1924. كاتب تلقائي بـ Python مع تأخير قابل للتخصيص
+- 1925. أسئلة وأجوبة مقابلات متحكم المنطق القابل للبرمجة PLC. أضف PLC سيمنز S7400 وPLC ABB.
+- 1926. صفحة بوابة دفع
+- 1927. سلوك الشخص
+- 1928. متخصص كتابة شيفرة للامتحانات
+- 1929. سكريبت فيديو غير رسمي لشرح الشيفرة
+- 1930. بصريات، طبيب عيون (أوبتومتري)
+- 1931. صديق متعاطف وداعم
+- 1932. وضع الإله (god mode)
+- 1933. محلّل الرؤى الشخصية من المحادثات السابقة
+- 1934. الإجابة على امتحان الرياضيات المتقطعة بخبرة
+- 1935. مهندس واجهة أمامية React / Next.js
+- 1936. إنشاء Storybook مع قصص (stories)
+- 1937. وكيل فحص الخطة
+- 1938. وكلاء متوازيون بهدف
+- 1939. تخطيط رحلة تصوير فوتوغرافي — منشئ برنامج رحلة مستند إلى البحث
+- 1940. ملخّص كتب شامل
+- 1941. محرك بحث وبنية أداء فائق الدقة
+- 1942. تعزيز الكفاءة مع Codex باستخدام وكلاء فرعيين
+- 1943. أداء أغنية شهيرة في حفل موسيقي
+- 1944. النتيجة
+- 1945. توليد فيديو عبر الذكاء الاصطناعي
+- 1946. عميل بحث ويب بالذكاء الاصطناعي
+- 1947. مولّد لوحة أداء المدرسة حسب كل مادة
+- 1948. تحليل الصور لتقييم الأسلوب الشخصي والشخصية
+- 1949. الانصهار البنيوي: الإثارة-المثل (Thriller-Parable)
+- 1950. دحض
+- 1951. فكّك
+- 1952. steamdiscount
+- 1953. نقد أدبي
+- 1954. حالة أعمال
+- 1955. إنسان
+- 1956. alfa
+- 1957. alfa2
+- 1958. diff
+- 1959. تقطير
+- 1960. استنتج
+- 1961. تحقق من الحقائق
+- 1962. DD
+- 1963. متجهّم (cantankerous)
+- 1964. 1337
+- 1965. قوّض
+- 1966. التقييمات
+- 1967. المتجوّل (flaneur)
+- 1968. تسوّق
+- 1969. محامي الشيطان
+- 1970. ابتكار الصدى
+- 1971. جدلي
+- 1972. المحتال اللغوي البارع
+- 1973. التبويبات
+- 1974. الخط الزمني
+- 1975. استكشف (Probe)
+- 1976. speech100
+- 1977. سكريبت
+- 1978. bond
+- 1979. Quant
+- 1980. alfakennybody
 - 1981. simmerdeep
 - 1982. gamereview
 - 1983. بورتريه نحاسي عتيق بنظارات أمام دائرة صفراء
@@ -2104,107 +2104,107 @@
 - 2054. مقترح فريق لفعالية مؤتمر
 - 2055. برومبت لتعلّم موقع ذكاء اصطناعي مجاني يكون الأنفع لي
 - 2056. تعليمات شاملة لمشاريع React / Next.js
-- 2057. Exuvia 🔤
-- 2058. workflow_builder_using_python 🔤
-- 2059. The Mystery of Easter Island | Who Built the Giant Moai Statues? In the middle of the Pacific Ocean lies a tiny island filled with hundreds of giant stone statues. 🔤
-- 2060. Design a Military Uniform 🔤
-- 2061. Professional Legal Assistant for International and Iranian Law 🔤
-- 2062. Quiz 🔤
-- 2063. High-Ranking SEO Content Creator 🔤
-- 2064. Crypto Futures Setup entry 🔤
-- 2065. MODEL RED MIAU 🔤
-- 2066. Research Methodology Design for Health Literacy and Medication Adherence in Aotearoa New Zealand 🔤
-- 2067. Rr 🔤
-- 2068. Cinematic Action Boxing Fantasy 🔤
-- 2069. Tom and Jerry 🔤
-- 2070. Cat 🔤
-- 2071. The greedy Cat 🔤
-- 2072. Boxer vs Martial Artist Clash Scene 🔤
-- 2073. Tom and Jerry Classic Cartoon Chase 🔤
-- 2074. Cinematic Robbery Scene at JPMorgan 🔤
-- 2075. Revisor-Diagnóstico-Proyecto: Auditoría + Plan de Mejora 🔤
-- 2076. Sprezzatura 🔤
-- 2077. Happy new month 🔤
-- 2078. Kakashi 🔤
-- 2079. Rust Recoil Script with ImGui Menu 🔤
-- 2080. Point-Amplitude-Point | Conscious Battery Protocol 🔤
-- 2081. Integrated AI System with Shadow, Deepseek, and Claude Models 🔤
-- 2082. Skill acquisition 🔤
-- 2083. Attract Deer with Jangling Sounds 🔤
-- 2084. Develop an E-commerce App Like Daraz in Bangladesh 🔤
-- 2085. Cozy Cabin in a Rainy Forest 🔤
-- 2086. Bamboo app 🔤
-- 2087. chess-strategy-skill 🔤
-- 2088. DiComPress: Dual-Language Semantic Compressor 🔤
-- 2089. DiComPress Ω — Dual-Language Semantic Hypercompressor 🔤
-- 2090. ART DIBUJO 🔤
-- 2091. DIBUJO MINIMAL 🔤
-- 2092. Personaje ART 🔤
-- 2093. Hiperrealista 🔤
-- 2094. Unbiased English Literature Character Analysis AI Assistant 🔤
-- 2095. Persian Silent “No” Documentary Portrait 🔤
-- 2096. Iranian Noir Suspicion Close-Up 🔤
-- 2097. Cyberpunk Portrait of an Iranian Woman with “همین؟” Glitch Frame 🔤
-- 2098. Impasto Oil Portrait of an Iranian Woman with “خفه شدم از سکوت” 🔤
-- 2099. Surreal Portrait — دو دلم 🔤
-- 2100. Vintage Analog Portrait — ناز 🔤
+- 2057. Exuvia
+- 2058. workflow_builder_using_python
+- 2059. لغز جزيرة الفصح | من بنى تماثيل الموأي العملاقة؟ في وسط المحيط الهادئ تقع جزيرة صغيرة تمتلئ بمئات التماثيل الحجرية العملاقة.
+- 2060. تصميم زيّ عسكري
+- 2061. مساعد قانوني محترف للقانون الدولي والإيراني
+- 2062. اختبار
+- 2063. منشئ محتوى SEO عالي الترتيب
+- 2064. إعداد صفقة العقود الآجلة للعملات المشفرة
+- 2065. MODEL RED MIAU
+- 2066. تصميم منهجية بحث حول الثقافة الصحية والالتزام بالدواء في أوتياروا نيوزيلندا
+- 2067. Rr
+- 2068. خيال الملاكمة السينمائي الحركي
+- 2069. توم وجيري
+- 2070. قطة
+- 2071. القطة الجشعة
+- 2072. مشهد صدام بين ملاكم وفنان قتال
+- 2073. مطاردة توم وجيري الكرتونية الكلاسيكية
+- 2074. مشهد سينمائي لسطو على JPMorgan
+- 2075. مراجع-تشخيص المشروع: تدقيق + خطة تحسين
+- 2076. Sprezzatura
+- 2077. شهر جديد سعيد
+- 2078. Kakashi
+- 2079. سكربت التحكم في الارتداد بـ Rust مع قائمة ImGui
+- 2080. نقطة-سعة-نقطة | بروتوكول البطارية الواعية
+- 2081. نظام ذكاء اصطناعي متكامل بنماذج Shadow وDeepseek وClaude
+- 2082. اكتساب المهارات
+- 2083. جذب الغزلان بأصوات الرنين
+- 2084. تطوير تطبيق تجارة إلكترونية مثل Daraz في بنغلاديش
+- 2085. كوخ دافئ في غابة ماطرة
+- 2086. تطبيق Bamboo
+- 2087. chess-strategy-skill
+- 2088. DiComPress: ضاغط دلالي ثنائي اللغة
+- 2089. DiComPress Ω — الضاغط الدلالي الفائق ثنائي اللغة
+- 2090. ART DIBUJO
+- 2091. DIBUJO MINIMAL
+- 2092. رسم الشخصية
+- 2093. واقعية مفرطة
+- 2094. مساعد ذكاء اصطناعي غير متحيز لتحليل الشخصيات في الأدب الإنجليزي
+- 2095. بورتريه وثائقي لـ"لا" الفارسية الصامتة
+- 2096. لقطة قريبة نوار لريبة إيرانية
+- 2097. بورتريه سايبربنك لامرأة إيرانية مع إطار خلل "همین؟"
+- 2098. بورتريه زيتي سميك الطلاء لامرأة إيرانية مع "خفه شدم از سکوت"
+- 2099. بورتريه سريالي — دو دلم
+- 2100. بورتريه تناظري عتيق — ناز
 
 ## [الجزء 22: 2101–2169](part-22.md)
-- 2101. Charcoal Portrait — الهی بمیرم 🔤
-- 2102. Candid Tehran Street Photo — بریم؟ 🔤
-- 2103. Minimal Studio Portrait — باشه، هرچی تو بگی 🔤
-- 2104. Senior AI & Data Engineering Meta-Prompt Generator 🔤
-- 2105. Multi-Agent Coding Workflow & Implementation Prompt Generator 🔤
-- 2106. E-commerce website 🔤
-- 2107. E COMMERCE WEBSITE 🔤
-- 2108. MDT WDS Windows Deployment Guide 🔤
-- 2109. friend 🔤
-- 2110. Maximum Lexical Compression 🔤
-- 2111. Cross-Platform 3D App Development Master 🔤
-- 2112. Commercial Kitchen Pre Fabrication 🔤
-- 2113. Interactive Love Message HTML Page 🔤
-- 2114. debug 🔤
-- 2115. Elite Software Engineer & Product Architect Prompt 🔤
-- 2116. Kaomoji Chat 🔤
-- 2117. Cartoon 🔤
-- 2118. 1940s village life 🔤
-- 2119. Professional Artist Sketchbook Page 🔤
-- 2120. Infographic 🔤
-- 2121. automatic job apply 🔤
-- 2122. Artigo Resumidor 🔤
-- 2123. Claim Autopsy - Evidence Analysis Assistant 🔤
-- 2124. Design a Professional Self-Learning Poster for Digital Media Lecture 🔤
-- 2125. Aws transform 🔤
-- 2126. Transmute edgy 🔤
-- 2127. Transmute 🔤
-- 2128. Polemic 🔤
-- 2129. Job Risk Intelligence Analyzer 🔤
-- 2130. Idea Reality Check - Am I Actually Onto Something? 🔤
-- 2131. philocrash 🔤
-- 2132. sec 🔤
-- 2133. Ultimate Seedance 2.0 Prompt Engineering 🔤
-- 2134. SNW - Level 5 transporter accident 🔤
-- 2135. Cyber Secuirty Practioner 🔤
-- 2136. 2D documentary script generator 🔤
-- 2137. App 🔤
-- 2138. Reactivating Suspended Amazon Seller Account 🔤
-- 2139. Code Review by CodeRabit 🔤
-- 2140. Health motivational speaker 🔤
-- 2141. CV build 🔤
-- 2142. Poor man 🔤
-- 2143. Little mann 🔤
-- 2144. master one prompt 🔤
-- 2145. GLP 🔤
-- 2146. Identify 🔤
-- 2147. tweetwat 🔤
-- 2148. Bariatric ADHD Supplement Safety Plan. 🔤
-- 2149. Девушка футанари имеет парня 🔤
-- 2150. The curriculum mapping prompt. 🔤
-- 2151. xiangxiang 🔤
-- 2152. exam science study notes 🔤
-- 2153. Business management 🔤
-- 2154. Code oprimisation  / optimise your code 🔤
-- 2155. ExpertLens-Lite 🔤
+- 2101. بورتريه فحمي — الهی بمیرم
+- 2102. صورة عفوية في شارع طهران — بریم؟
+- 2103. بورتريه استوديو بسيط — باشه، هرچی تو بگی
+- 2104. مولّد برومبت ميتا لهندسة الذكاء الاصطناعي والبيانات بمستوى خبير
+- 2105. مولّد برومبتات لسير عمل البرمجة متعدد الوكلاء والتنفيذ
+- 2106. موقع تجارة إلكترونية
+- 2107. موقع تجارة إلكترونية
+- 2108. دليل نشر Windows عبر MDT وWDS
+- 2109. صديق
+- 2110. أقصى ضغط معجمي
+- 2111. خبير تطوير تطبيقات ثلاثية الأبعاد متعددة المنصات
+- 2112. مطبخ تجاري جاهز التصنيع المسبق
+- 2113. صفحة HTML تفاعلية لرسالة حب
+- 2114. تصحيح الأخطاء
+- 2115. برومبت مهندس برمجيات نخبوي ومعماري منتجات
+- 2116. دردشة الكاوموجي
+- 2117. كرتون
+- 2118. حياة القرية في الأربعينيات
+- 2119. صفحة دفتر رسم لفنان محترف
+- 2120. إنفوغرافيك
+- 2121. التقديم الآلي على الوظائف
+- 2122. ملخّص المقالات
+- 2123. تشريح الادعاء - مساعد تحليل الأدلة
+- 2124. تصميم ملصق تعلم ذاتي احترافي لمحاضرة الإعلام الرقمي
+- 2125. Aws transform
+- 2126. تحويل متطرف
+- 2127. تحويل
+- 2128. سجال لاذع
+- 2129. محلل ذكاء مخاطر الوظائف
+- 2130. فحص واقعية الفكرة - هل أنا فعلًا على شيء؟
+- 2131. philocrash
+- 2132. sec
+- 2133. هندسة برومبتات Seedance 2.0 المتقدمة
+- 2134. SNW - حادث ناقل المستوى 5
+- 2135. ممارس الأمن السيبراني
+- 2136. مولّد سيناريو وثائقي ثنائي الأبعاد
+- 2137. تطبيق
+- 2138. إعادة تفعيل حساب بائع أمازون المعلَّق
+- 2139. مراجعة الشيفرة بواسطة CodeRabit
+- 2140. متحدث تحفيزي صحي
+- 2141. بناء السيرة الذاتية
+- 2142. رجل فقير
+- 2143. الصغير مان
+- 2144. برومبت رئيسي واحد
+- 2145. GLP
+- 2146. تحديد
+- 2147. tweetwat
+- 2148. خطة سلامة مكملات ADHD بعد جراحة السمنة.
+- 2149. Девушка футанари имеет парня
+- 2150. برومبت رسم خريطة المنهج.
+- 2151. xiangxiang
+- 2152. ملاحظات دراسية لامتحان العلوم
+- 2153. إدارة الأعمال
+- 2154. تحسين الشيفرة / حسّن شيفرتك
+- 2155. ExpertLens-Lite
 - 2156. Abk 🔤
 - 2157. streaming anime 🔤
 - 2158. assesment 🔤
