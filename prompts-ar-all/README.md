@@ -1,6 +1,6 @@
 # كل برومبتات prompts.chat مترجمة للعربي
 
-عدد البرومبتات المترجمة حتى الآن: **2153** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
+عدد البرومبتات المترجمة حتى الآن: **2168** من أصل 2169. البرومبتات غير المترجمة بعد معروضة بنصها الإنجليزي الأصلي ومعلَّمة بـ 🔤، والترجمة مستمرة.
 
 المصدر: [prompts.chat](https://prompts.chat) / [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — الترخيص CC0 1.0 (ملكية عامة).
 الترجمة آلية بالذكاء الاصطناعي وقد تحتوي أخطاء؛ راجع البرومبت قبل استخدامه. المتغيرات مثل `${...}` تُركت كما هي.
@@ -2080,21 +2080,21 @@
 - 2030. نسخ أسلوب السيناريو
 - 2031. ??????????
 - 2032. مساعد تحليل التفاصيل التجريبية للأوراق البحثية (UTF-8)
-- 2033. Conversational Logo Design Process 🔤
-- 2034. Image 🔤
-- 2035. Project Name and Title Generator 🔤
-- 2036. Etsy POD Masterclass: From Zero to Hero 🔤
-- 2037. Adaptive AI Tutor — Personalized Learning Track with 6 Study Modes 🔤
-- 2038. LinkedIn "About" Section Writer — 3 Professional Styles 🔤
-- 2039. Open-Source Product Analysis and Duplication 🔤
-- 2040. Character Infographic Questionnaire 🔤
-- 2041. Design shirt 🔤
-- 2042. Designing a Glassmorphic About Me Page 🔤
-- 2043. Administrator Portal for Auto File Renaming Tool 🔤
-- 2044. Physiology pratical 🔤
-- 2045. General Assistant System Prompt 🔤
-- 2046. Na 🔤
-- 2047. Sang-o-Sayeh Render — Reference-Based Portrait Prompt 🔤
+- 2033. عملية حوارية لتصميم الشعار
+- 2034. صورة
+- 2035. مولّد أسماء وعناوين المشاريع
+- 2036. دورة متقدمة في Etsy POD: من الصفر إلى الاحتراف
+- 2037. معلّم ذكاء اصطناعي تكيفي — مسار تعلم مخصص بـ 6 أنماط دراسة
+- 2038. كاتب قسم "نبذة" في LinkedIn — 3 أساليب احترافية
+- 2039. تحليل منتج مفتوح المصدر ونسخه
+- 2040. استبيان إنفوجرافيك للشخصية
+- 2041. تصميم قميص
+- 2042. تصميم صفحة "عني" بأسلوب الزجاج (Glassmorphism)
+- 2043. بوابة المسؤول لأداة إعادة تسمية الملفات تلقائياً
+- 2044. عملي علم وظائف الأعضاء
+- 2045. موجّه النظام للمساعد العام
+- 2046. Na
+- 2047. عرض "سنج-و-سايه" — برومبت بورتريه قائم على صور مرجعية
 - 2048. برومبت تصحيح التحيّز المعرفي القائم على الدلالة الإيحائية للألفاظ
 - 2049. علاج مخصّص من Gemini
 - 2050. برومبت تصحيح التحيّز المتمركز حول الغرب
