@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>عدّ بالكاميرا</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Readex+Pro:wght@500;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: one column field instrument — viewfinder on top, big readout under it, controls last. */
+:root{
+  --bg:#EDF0F3; --surface:#FFFFFF; --ink:#12202C; --muted:#4F5F6E; --line:#CFD7DF;
+  --accent:#1F4FE0; --accent-ink:#FFFFFF; --danger:#B3261E; --ok:#14733B; --stage:#0A1118;
+  --f-body:"IBM Plex Sans Arabic","Segoe UI",Tahoma,system-ui,sans-serif;
+  --f-display:"Readex Pro","IBM Plex Sans Arabic","Segoe UI",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0C141C; --surface:#142130; --ink:#E7EEF5; --muted:#9BABBB; --line:#27394C;
+    --accent:#7DA0FF; --accent-ink:#0C141C; --danger:#FF8A93; --ok:#5FD08A; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0C141C; --surface:#142130; --ink:#E7EEF5; --muted:#9BABBB; --line:#27394C;
+  --accent:#7DA0FF; --accent-ink:#0C141C; --danger:#FF8A93; --ok:#5FD08A; color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0}
+body{
+  background:var(--bg); color:var(--ink); font:400 16px/1.6 var(--f-body);
+  padding-block:16px 28px;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));
+  padding-right:max(16px, env(safe-area-inset-right, 0px));
+  -webkit-text-size-adjust:100%;
+}
+.app{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+header{display:flex;align-items:center;gap:12px}
+header svg{flex:none;color:var(--accent)}
+h1{margin:0;font:700 22px/1.2 var(--f-display)}
+header p{margin:2px 0 0;font-size:14px;color:var(--muted)}
+
+.tabs{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+.tabs button{
+  flex:1;min-height:48px;border:0;background:transparent;color:var(--ink);
+  font:600 15px var(--f-body);cursor:pointer;padding:0 8px;
+}
+.tabs button+button{border-inline-start:1px solid var(--line)}
+.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+
+.stage{
+  --ar:1.3333; position:relative;background:var(--stage);border-radius:6px;overflow:hidden;
+  width:min(100%, calc(62vh * var(--ar))); aspect-ratio:var(--ar); margin-inline:auto;
+  touch-action:manipulation; -webkit-tap-highlight-color:transparent; user-select:none;
+}
+.stage video,.stage canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.stage canvas#overlay{z-index:2}
+.stage .ph{
+  position:absolute;inset:0;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:10px;color:#C9D4DF;text-align:center;padding:24px;font-size:16px;
+}
+.stage .ph svg{opacity:.8}
+.badge{
+  position:absolute;z-index:3;top:10px;inset-inline-start:10px;display:flex;align-items:center;gap:7px;
+  background:rgba(8,14,20,.78);color:#fff;font:600 13px var(--f-body);padding:4px 10px;border-radius:99px;
+}
+.badge i{width:9px;height:9px;border-radius:50%;background:#8896A4}
+.badge[data-s="live"] i{background:#FF4D4D}
+.badge[data-s="frozen"] i{background:#FFB800}
+
+.status{min-height:24px;font-size:15px;color:var(--muted)}
+.status[data-k="err"]{color:var(--danger);font-weight:600}
+.status[data-k="ok"]{color:var(--ok)}
+
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.count{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px}
+.count-main{display:flex;align-items:baseline;gap:10px}
+#countNum{font:700 clamp(64px,19vw,108px)/1 var(--f-display);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+#countLabel{font:600 18px var(--f-body);color:var(--muted)}
+#countSub{flex-basis:100%;font-size:14px;color:var(--muted);margin:0}
+#tally{direction:ltr;display:flex;flex-wrap:wrap;gap:6px 8px;flex:1;min-width:140px;color:var(--ink);align-content:center}
+#tally svg{display:block}
+
+.row{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.row.three{grid-template-columns:repeat(3,1fr)}
+.btn{
+  min-height:54px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  font:600 16px var(--f-body);padding:6px 12px;cursor:pointer;
+}
+.btn.snap{border:2px solid var(--accent);color:var(--accent)}
+.btn.snap.hot{background:var(--accent);color:var(--accent-ink)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:transparent}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn:active:not(:disabled){transform:translateY(1px)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+.field{display:flex;flex-direction:column;gap:6px;margin-bottom:12px;font-weight:500}
+.field span{display:flex;justify-content:space-between}
+.field b{font-variant-numeric:tabular-nums;font-weight:600}
+input[type=range]{width:100%;height:32px;accent-color:var(--accent)}
+select{
+  min-height:46px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);
+  font:500 16px var(--f-body);padding:0 10px;
+}
+.check{display:flex;align-items:center;gap:10px;min-height:44px;font-weight:500}
+.check input{width:22px;height:22px;accent-color:var(--accent)}
+.note{margin:8px 0 0;font-size:14px;color:var(--muted)}
+.chips-title{font-weight:600;font-size:14px;margin:4px 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{
+  min-height:40px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);
+  font:500 15px var(--f-body);padding:0 14px;cursor:pointer;
+}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:transparent}
+.chips .none{color:var(--muted);font-size:14px}
+
+h2{margin:0 0 8px;font:700 16px var(--f-display)}
+.log{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.log li{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-top:1px solid var(--line);font-size:15px}
+.log li:first-child{border-top:0}
+.log b{font:700 17px var(--f-display);font-variant-numeric:tabular-nums}
+.log small{color:var(--muted)}
+.logtop{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.link{background:none;border:0;color:var(--accent);font:600 14px var(--f-body);cursor:pointer;min-height:40px;padding:0 6px}
+
+.sig{direction:ltr;text-align:center;font:500 13px/1.4 var(--f-body);color:var(--muted);margin-top:6px;letter-spacing:.02em}
+@media (prefers-reduced-motion: reduce){.btn:active:not(:disabled){transform:none}}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <svg width="44" height="30" viewBox="0 0 44 30" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" aria-hidden="true">
+      <path d="M7 4v22M16 4v22M25 4v22M34 4v22M2 23L40 7"/>
+    </svg>
+    <div>
+      <h1>عدّ بالكاميرا</h1>
+      <p>وجّه الكاميرا نحو الأشياء ويظهر العدد مباشرة</p>
+    </div>
+  </header>
+
+  <div class="tabs" role="tablist" aria-label="طريقة العدّ">
+    <button role="tab" id="tab-smart" data-mode="smart" aria-selected="true">ذكي (AI)</button>
+    <button role="tab" id="tab-blob" data-mode="blob" aria-selected="false">التباين</button>
+    <button role="tab" id="tab-manual" data-mode="manual" aria-selected="false">يدوي</button>
+  </div>
+
+  <div class="stage" id="stage">
+    <video id="video" playsinline muted autoplay hidden></video>
+    <canvas id="frozen" hidden></canvas>
+    <canvas id="overlay" width="640" height="480"></canvas>
+    <div class="ph" id="ph">
+      <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+      <span>اضغط «تشغيل الكاميرا» للعدّ المباشر، أو «التقاط صورة» لعدّ ما في صورة</span>
+    </div>
+    <div class="badge" id="badge" data-s="off"><i></i><span id="badgeTxt">متوقفة</span></div>
+  </div>
+
+  <div class="status" id="status" role="status" aria-live="polite" data-k="info">جاهز. شغّل الكاميرا أو ارفع صورة.</div>
+
+  <section class="panel count" aria-label="النتيجة">
+    <div class="count-main"><output id="countNum" aria-live="polite">0</output><span id="countLabel">عنصر</span></div>
+    <div id="tally" aria-hidden="true"></div>
+    <p id="countSub"></p>
+  </section>
+
+  <div class="row">
+    <button class="btn primary" id="btnCam">تشغيل الكاميرا</button>
+    <button class="btn" id="btnFreeze" disabled>تثبيت الصورة</button>
+  </div>
+  <button class="btn snap" id="btnSnap">التقاط صورة بكاميرا الجوال</button>
+  <div class="row three">
+    <button class="btn" id="btnFlip" disabled>تبديل الكاميرا</button>
+    <button class="btn" id="btnUpload">رفع صورة</button>
+    <button class="btn" id="btnClear">مسح العلامات</button>
+  </div>
+  <input type="file" id="file" accept="image/*" hidden>
+  <input type="file" id="snapFile" accept="image/*" capture="environment" hidden>
+
+  <section class="panel" id="settings" aria-label="الإعدادات">
+    <div data-for="smart">
+      <label class="field" for="score"><span>حد الثقة في التعرّف <b id="scoreVal">50%</b></span>
+        <input type="range" id="score" min="20" max="90" step="5" value="50"></label>
+      <div class="chips-title">تصفية حسب النوع</div>
+      <div class="chips" id="chips"><span class="none">ستظهر الأنواع المكتشفة هنا</span></div>
+      <p class="note">يتعرّف على 80 نوعًا شائعًا (أشخاص، أكواب، زجاجات، فواكه، كتب، هواتف…). للأقلام والعملات والحبوب الصغيرة استخدم وضع «التباين».</p>
+    </div>
+    <div data-for="blob" hidden>
+      <label class="field" for="polarity"><span>لون الأشياء</span>
+        <select id="polarity"><option value="auto">تلقائي</option><option value="dark">أشياء داكنة على خلفية فاتحة</option><option value="light">أشياء فاتحة على خلفية داكنة</option></select></label>
+      <label class="field" for="sens"><span>الحساسية <b id="sensVal">0</b></span>
+        <input type="range" id="sens" min="-40" max="40" step="2" value="0"></label>
+      <label class="field" for="minsize"><span>أصغر حجم يُعدّ <b id="minsizeVal">0.20%</b></span>
+        <input type="range" id="minsize" min="0.02" max="3" step="0.02" value="0.2"></label>
+      <label class="check" for="split"><input type="checkbox" id="split" checked>فصل الأشياء الملتصقة (تقدير بالمساحة)</label>
+      <p class="note">ضع الأشياء على خلفية سادة وإضاءة متساوية بدون ظلال قوية. مناسب للحبوب والأقراص والعملات والأقلام.</p>
+    </div>
+    <div data-for="manual" hidden>
+      <p class="note" style="margin:0">ثبّت الصورة ثم المس كل عنصر ليُضاف إلى العدّ. المس العلامة مرة أخرى لحذفها.</p>
+    </div>
+  </section>
+
+  <div class="row">
+    <button class="btn" id="btnSave">حفظ القراءة</button>
+    <button class="btn" id="btnShot" disabled>تنزيل الصورة مع العدّ</button>
+  </div>
+
+  <section class="panel" aria-label="القراءات المحفوظة">
+    <div class="logtop"><h2>القراءات المحفوظة</h2><button class="link" id="btnLogClear" hidden>مسح الكل</button></div>
+    <ul class="log" id="log"><li><small>لا توجد قراءات بعد. اضغط «حفظ القراءة» لتسجيل العدد الحالي.</small></li></ul>
+  </section>
+
+  <footer class="sig">By Abdelrahman AlAli</footer>
+</div>
+
+<script>
+(() => {
+'use strict';
+
+/* ---------- constants ---------- */
+const TF_URL = 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js';
+const COCO_URL = 'https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.3/dist/coco-ssd.min.js';
+const MARK = '#FFB800', MANUAL = '#19D3C5';
+const FONT = '"Readex Pro","IBM Plex Sans Arabic",system-ui,sans-serif';
+const LOG_KEY = 'count-camera-readings-v1';
+const MODE_NAME = { smart: 'ذكي', blob: 'تباين', manual: 'يدوي' };
+const AR = {person:'شخص',bicycle:'دراجة',car:'سيارة',motorcycle:'دراجة نارية',airplane:'طائرة',bus:'حافلة',train:'قطار',truck:'شاحنة',boat:'قارب','traffic light':'إشارة مرور','fire hydrant':'صنبور حريق','stop sign':'لافتة قف','parking meter':'عدّاد مواقف',bench:'مقعد',bird:'طائر',cat:'قطة',dog:'كلب',horse:'حصان',sheep:'خروف',cow:'بقرة',elephant:'فيل',bear:'دب',zebra:'حمار وحشي',giraffe:'زرافة',backpack:'حقيبة ظهر',umbrella:'مظلة',handbag:'حقيبة يد',tie:'ربطة عنق',suitcase:'حقيبة سفر',frisbee:'قرص طائر',skis:'زلاجات',snowboard:'لوح تزلج على الثلج','sports ball':'كرة',kite:'طائرة ورقية','baseball bat':'مضرب بيسبول','baseball glove':'قفاز بيسبول',skateboard:'لوح تزلج',surfboard:'لوح ركمجة','tennis racket':'مضرب تنس',bottle:'زجاجة','wine glass':'كأس',cup:'كوب',fork:'شوكة',knife:'سكين',spoon:'ملعقة',bowl:'وعاء',banana:'موز',apple:'تفاحة',sandwich:'ساندويتش',orange:'برتقال',broccoli:'بروكلي',carrot:'جزر','hot dog':'هوت دوغ',pizza:'بيتزا',donut:'دونات',cake:'كيك',chair:'كرسي',couch:'كنبة','potted plant':'نبتة',bed:'سرير','dining table':'طاولة طعام',toilet:'مرحاض',tv:'تلفاز',laptop:'لابتوب',mouse:'فأرة',remote:'جهاز تحكم',keyboard:'لوحة مفاتيح','cell phone':'هاتف',microwave:'ميكروويف',oven:'فرن',toaster:'محمصة',sink:'مغسلة',refrigerator:'ثلاجة',book:'كتاب',clock:'ساعة',vase:'مزهرية',scissors:'مقص','teddy bear':'دمية دب','hair drier':'مجفف شعر',toothbrush:'فرشاة أسنان'};
+
+/* BLOB_START — pure function, no DOM: finds separate objects by contrast */
+function analyzeBlobs(data, w, h, o) {
+  const n = w * h, g = new Uint8Array(n);
+  for (let i = 0, p = 0; i < n; i++, p += 4) g[i] = (data[p] * 77 + data[p + 1] * 150 + data[p + 2] * 29) >> 8;
+  const b = new Uint8Array(n);
+  for (let y = 0; y < h; y++) {
+    const y0 = Math.max(0, y - 1), y1 = Math.min(h - 1, y + 1);
+    for (let x = 0; x < w; x++) {
+      const x0 = Math.max(0, x - 1), x1 = Math.min(w - 1, x + 1);
+      let s = 0, c = 0;
+      for (let yy = y0; yy <= y1; yy++) for (let xx = x0; xx <= x1; xx++) { s += g[yy * w + xx]; c++; }
+      b[y * w + x] = (s / c) | 0;
+    }
+  }
+  const hist = new Float64Array(256);
+  for (let i = 0; i < n; i++) hist[b[i]]++;
+  let sum = 0;
+  for (let t = 0; t < 256; t++) sum += t * hist[t];
+  let sumB = 0, wB = 0, best = -1, thr = 128, sep = 0;
+  for (let t = 0; t < 256; t++) {
+    wB += hist[t]; if (!wB) continue;
+    const wF = n - wB; if (!wF) break;
+    sumB += t * hist[t];
+    const mB = sumB / wB, mF = (sum - sumB) / wF, v = wB * wF * (mB - mF) * (mB - mF);
+    if (v > best) { best = v; thr = t; sep = Math.abs(mB - mF); }
+  }
+  if (sep < 40) return { items: [], thr, dark: true, flat: true }; /* no real contrast: empty scene or noise */
+  thr = Math.max(1, Math.min(254, thr + (o.sens || 0)));
+  let dark;
+  if (o.polarity === 'dark') dark = true;
+  else if (o.polarity === 'light') dark = false;
+  else { let d = 0; for (let i = 0; i < n; i++) if (b[i] <= thr) d++; dark = d <= n - d; }
+  const fg = new Uint8Array(n);
+  for (let i = 0; i < n; i++) fg[i] = dark ? (b[i] <= thr ? 1 : 0) : (b[i] > thr ? 1 : 0);
+  const lab = new Uint8Array(n), stack = new Int32Array(n), blobs = [];
+  for (let i = 0; i < n; i++) {
+    if (!fg[i] || lab[i]) continue;
+    let sp = 0, area = 0, minx = w, miny = h, maxx = 0, maxy = 0;
+    stack[sp++] = i; lab[i] = 1;
+    while (sp) {
+      const p = stack[--sp], x = p % w, y = (p / w) | 0;
+      area++;
+      if (x < minx) minx = x; if (x > maxx) maxx = x; if (y < miny) miny = y; if (y > maxy) maxy = y;
+      for (let dy = -1; dy <= 1; dy++) {
+        const yy = y + dy; if (yy < 0 || yy >= h) continue;
+        for (let dx = -1; dx <= 1; dx++) {
+          if (!dx && !dy) continue;
+          const xx = x + dx; if (xx < 0 || xx >= w) continue;
+          const q = yy * w + xx;
+          if (fg[q] && !lab[q]) { lab[q] = 1; stack[sp++] = q; }
+        }
+      }
+    }
+    blobs.push({ area, x: minx, y: miny, w: maxx - minx + 1, h: maxy - miny + 1 });
+  }
+  const minArea = Math.max(4, (o.minPct / 100) * n), maxArea = 0.45 * n;
+  const valid = blobs.filter(k => k.area >= minArea && k.area <= maxArea && k.area / (k.w * k.h) >= 0.15);
+  if (o.split && valid.length >= 3) {
+    const areas = valid.map(k => k.area).sort((a, c) => a - c), med = areas[areas.length >> 1];
+    for (const k of valid) {
+      const r = Math.round(k.area / med);
+      k.n = (r >= 2 && k.area > 1.6 * med) ? Math.min(r, 30) : 1;
+    }
+  } else for (const k of valid) k.n = 1;
+  return { items: valid, thr, dark };
+}
+/* BLOB_END */
+
+/* ---------- state & elements ---------- */
+const $ = id => document.getElementById(id);
+const video = $('video'), fc = $('frozen'), ov = $('overlay'), octx = ov.getContext('2d');
+const stage = $('stage'), statusEl = $('status');
+const work = document.createElement('canvas'), wctx = work.getContext('2d', { willReadFrequently: true });
+const S = {
+  mode: 'smart', stream: null, facing: 'environment', frozen: false, W: 640, H: 480,
+  items: [], excluded: new Set(), manual: [], classFilter: null,
+  model: null, modelState: 'idle', modelPromise: null, busy: false, raf: 0, lastBlob: 0, token: 0,
+  minScore: 0.5, polarity: 'auto', sens: 0, minPct: 0.2, split: true, chipSig: ''
+};
+
+/* ---------- helpers ---------- */
+function setStatus(text, kind) { statusEl.textContent = text; statusEl.dataset.k = kind || 'info'; }
+function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
+function srcSize(src) { return src instanceof HTMLVideoElement ? [src.videoWidth, src.videoHeight] : [src.width, src.height]; }
+function setSize(w, h) {
+  S.W = w; S.H = h; ov.width = w; ov.height = h;
+  stage.style.setProperty('--ar', (w / h).toFixed(4));
+}
+function passFilter(it) { return S.mode !== 'smart' || !S.classFilter || it.cls === S.classFilter; }
+function refreshHint() {
+  if (S.frozen) return setStatus('الصورة مثبّتة. المس مربعًا لاستبعاده، أو منطقة فارغة لإضافة علامة.');
+  if (!S.stream) return setStatus('جاهز. شغّل الكاميرا أو ارفع صورة.');
+  if (S.mode === 'smart') return setStatus(S.modelState === 'ready' ? 'وجّه الكاميرا نحو الأشياء. العدّ مباشر.' : 'جاري تجهيز الذكاء الاصطناعي…');
+  if (S.mode === 'blob') return setStatus('ضع الأشياء على خلفية سادة بإضاءة متساوية. العدّ مباشر.');
+  setStatus('ثبّت الصورة ثم المس كل عنصر لإضافته.');
+}
+
+/* ---------- tally marks ---------- */
+function tallyGroup(k) {
+  let p = '';
+  for (let i = 0; i < Math.min(k, 4); i++) p += `<path d="M${6 + i * 9} 3v22"/>`;
+  if (k >= 5) p += '<path d="M2 22L38 6"/>';
+  return `<svg width="40" height="28" viewBox="0 0 40 28" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">${p}</svg>`;
+}
+function renderTally(n) {
+  const full = Math.floor(n / 5), rem = n % 5, cap = 24;
+  let html = '';
+  for (let i = 0; i < Math.min(full, cap); i++) html += tallyGroup(5);
+  if (full < cap && rem) html += tallyGroup(rem);
+  if (full > cap) html += '<span style="align-self:center;font-weight:700">…</span>';
+  $('tally').innerHTML = html;
+}
+
+/* ---------- results ---------- */
+function setItems(list, resetExcluded) {
+  list.sort((a, c) => (a.y + a.h / 2) - (c.y + c.h / 2));
+  const hs = list.map(k => k.h).sort((a, c) => a - c), band = Math.max(8, (hs[hs.length >> 1] || 40) * 0.8);
+  list.sort((a, c) => Math.round((a.y + a.h / 2) / band) - Math.round((c.y + c.h / 2) / band) || a.x - c.x);
+  list.forEach((k, i) => { k.id = i; });
+  S.items = list;
+  if (resetExcluded) S.excluded.clear();
+  render();
+}
+function updateChips() {
+  if (S.mode !== 'smart') return;
+  const counts = {};
+  for (const it of S.items) if (!S.excluded.has(it.id)) counts[it.cls] = (counts[it.cls] || 0) + 1;
+  if (S.classFilter && !(S.classFilter in counts)) counts[S.classFilter] = 0;
+  const keys = Object.keys(counts).sort((a, c) => counts[c] - counts[a]);
+  const sig = keys.map(k => k + ':' + counts[k]).join('|') + '#' + S.classFilter;
+  if (sig === S.chipSig) return;
+  S.chipSig = sig;
+  const box = $('chips');
+  if (!keys.length) { box.innerHTML = '<span class="none">ستظهر الأنواع المكتشفة هنا</span>'; return; }
+  const total = keys.reduce((s, k) => s + counts[k], 0);
+  let html = `<button class="chip" data-cls="" aria-pressed="${!S.classFilter}">الكل (${total})</button>`;
+  for (const k of keys) html += `<button class="chip" data-cls="${k}" aria-pressed="${S.classFilter === k}">${AR[k] || k} (${counts[k]})</button>`;
+  box.innerHTML = html;
+}
+function render() {
+  const W = S.W, H = S.H, ctx = octx;
+  ctx.clearRect(0, 0, W, H);
+  const lw = Math.max(2, W / 360), fs = Math.max(12, W / 36);
+  ctx.lineJoin = 'round'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  let k = 0, auto = 0;
+  for (const it of S.items) {
+    if (!passFilter(it)) continue;
+    if (S.excluded.has(it.id)) {
+      ctx.setLineDash([lw * 3, lw * 2]); ctx.lineWidth = lw; ctx.strokeStyle = 'rgba(200,210,220,.8)';
+      ctx.strokeRect(it.x, it.y, it.w, it.h); ctx.setLineDash([]);
+      continue;
+    }
+    const c = it.n || 1; auto += c; k += c;
+    ctx.lineWidth = lw * 2.4; ctx.strokeStyle = 'rgba(8,14,20,.85)'; ctx.strokeRect(it.x, it.y, it.w, it.h);
+    ctx.lineWidth = lw; ctx.strokeStyle = MARK; ctx.strokeRect(it.x, it.y, it.w, it.h);
+    const label = c > 1 ? '×' + c : String(k), size = Math.max(10, Math.min(fs, Math.min(it.w, it.h) * 0.55));
+    const cx = it.x + it.w / 2, cy = it.y + it.h / 2;
+    ctx.font = `700 ${size}px ${FONT}`; ctx.lineWidth = size * 0.3; ctx.strokeStyle = 'rgba(8,14,20,.9)';
+    ctx.strokeText(label, cx, cy); ctx.fillStyle = MARK; ctx.fillText(label, cx, cy);
+  }
+  for (const m of S.manual) {
+    k++;
+    const r = Math.max(12, fs * 0.8);
+    ctx.beginPath(); ctx.arc(m.x, m.y, r, 0, Math.PI * 2); ctx.fillStyle = MANUAL; ctx.fill();
+    ctx.lineWidth = lw * 1.5; ctx.strokeStyle = '#fff'; ctx.stroke();
+    ctx.font = `700 ${r * 1.1}px ${FONT}`; ctx.fillStyle = '#06201E'; ctx.fillText(String(k), m.x, m.y + 1);
+  }
+  const total = auto + S.manual.length;
+  $('countNum').textContent = total;
+  $('countLabel').textContent = (S.mode === 'smart' && S.classFilter) ? (AR[S.classFilter] || S.classFilter) : 'عنصر';
+  $('countSub').textContent = S.frozen ? `تلقائي ${auto} · يدوي ${S.manual.length}` : (S.stream ? 'عدّ مباشر' : '');
+  renderTally(total);
+  updateChips();
+}
+
+/* ---------- detection ---------- */
+function loadScript(src) {
+  return new Promise((res, rej) => {
+    const s = document.createElement('script');
+    s.src = src; s.crossOrigin = 'anonymous'; s.onload = res; s.onerror = () => rej(new Error(src));
+    document.head.appendChild(s);
+  });
+}
+function ensureModel() {
+  if (S.modelState === 'ready' || S.modelState === 'loading') return S.modelPromise;
+  S.modelState = 'loading';
+  setStatus('جاري تحميل نموذج الذكاء الاصطناعي (حوالي 5 ميجابايت، مرة واحدة)…');
+  S.modelPromise = (async () => {
+    try {
+      if (!window.tf) await loadScript(TF_URL);
+      if (!window.cocoSsd) await loadScript(COCO_URL);
+      try { await tf.setBackend('webgl'); } catch (e) { /* falls back to cpu */ }
+      await tf.ready();
+      S.model = await cocoSsd.load({ base: 'lite_mobilenet_v2' });
+      S.modelState = 'ready';
+      refreshHint();
+      if (S.frozen && S.mode === 'smart') analyzeFrozen();
+    } catch (e) {
+      console.error(e);
+      S.modelState = 'error';
+      if (S.mode === 'smart') $('tab-blob').click();
+      setStatus('الوضع الذكي يحتاج فتح التطبيق من رابطه على الإنترنت، فحوّلتك إلى وضع «التباين». وضع «التباين» و«يدوي» يشتغلان هنا.', 'err');
+    }
+  })();
+  return S.modelPromise;
+}
+const fromPreds = preds => preds.map(p => ({ x: p.bbox[0], y: p.bbox[1], w: p.bbox[2], h: p.bbox[3], cls: p.class, score: p.score, n: 1 }));
+function runBlob(src) {
+  const [sw, sh] = srcSize(src);
+  if (!sw || !sh) return [];
+  const sc = Math.min(1, 320 / Math.max(sw, sh)), w = Math.max(16, Math.round(sw * sc)), h = Math.max(16, Math.round(sh * sc));
+  work.width = w; work.height = h;
+  wctx.drawImage(src, 0, 0, w, h);
+  const r = analyzeBlobs(wctx.getImageData(0, 0, w, h).data, w, h, { polarity: S.polarity, sens: S.sens, minPct: S.minPct, split: S.split });
+  const fx = sw / w, fy = sh / h;
+  return r.items.map(k => ({ x: k.x * fx, y: k.y * fy, w: k.w * fx, h: k.h * fy, n: k.n }));
+}
+async function analyzeFrozen() {
+  const token = ++S.token;
+  if (S.mode === 'manual') { setItems([], true); return; }
+  if (S.mode === 'blob') { setItems(runBlob(fc), true); return; }
+  if (S.modelState !== 'ready') { await ensureModel(); if (S.modelState !== 'ready') return; }
+  if (token !== S.token || !S.frozen) return;
+  try {
+    const preds = await S.model.detect(fc, 100, S.minScore);
+    if (token !== S.token || !S.frozen) return;
+    setItems(fromPreds(preds), true);
+    refreshHint();
+  } catch (e) { console.error(e); setStatus('حدث خطأ أثناء التحليل. جرّب مرة أخرى.', 'err'); }
+}
+const reanalyze = debounce(() => { if (S.frozen) analyzeFrozen(); }, 160);
+
+function loop() {
+  if (S.frozen || !S.stream) return;
+  S.raf = requestAnimationFrame(loop);
+  if (S.busy || video.readyState < 2) return;
+  if (S.mode === 'smart') {
+    if (S.modelState !== 'ready') return;
+    S.busy = true;
+    S.model.detect(video, 60, S.minScore)
+      .then(p => { if (!S.frozen && S.mode === 'smart') setItems(fromPreds(p), false); })
+      .catch(console.error).finally(() => { S.busy = false; });
+  } else if (S.mode === 'blob') {
+    const now = performance.now();
+    if (now - S.lastBlob < 220) return;
+    S.lastBlob = now;
+    setItems(runBlob(video), false);
+  }
+}
+
+/* ---------- camera / freeze ---------- */
+function updateUI() {
+  const live = !!S.stream && !S.frozen;
+  $('btnCam').textContent = S.stream ? 'إيقاف الكاميرا' : 'تشغيل الكاميرا';
+  $('btnFreeze').textContent = S.frozen ? 'استئناف المعاينة' : 'تثبيت الصورة';
+  $('btnFreeze').disabled = !S.stream && !S.frozen;
+  $('btnFlip').disabled = !S.stream;
+  $('btnShot').disabled = !S.frozen;
+  video.hidden = !live; fc.hidden = !S.frozen;
+  $('ph').hidden = live || S.frozen;
+  const b = $('badge');
+  b.dataset.s = S.frozen ? 'frozen' : (S.stream ? 'live' : 'off');
+  $('badgeTxt').textContent = S.frozen ? 'مثبّتة' : (S.stream ? 'مباشر' : 'متوقفة');
+}
+function stopCamera() {
+  cancelAnimationFrame(S.raf);
+  if (S.stream) S.stream.getTracks().forEach(t => t.stop());
+  S.stream = null; video.srcObject = null;
+}
+async function startCamera() {
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+    $('btnSnap').classList.add('hot');
+    setStatus('العرض المباشر غير متاح هنا. استخدم «التقاط صورة بكاميرا الجوال».', 'err');
+    return;
+  }
+  stopCamera();
+  try {
+    setStatus('جاري تشغيل الكاميرا…');
+    const stream = await navigator.mediaDevices.getUserMedia({
+      video: { facingMode: { ideal: S.facing }, width: { ideal: 1280 }, height: { ideal: 720 } }, audio: false
+    });
+    S.stream = stream; video.srcObject = stream;
+    await video.play();
+    if (!video.videoWidth) await new Promise(r => video.addEventListener('loadedmetadata', r, { once: true }));
+    setSize(video.videoWidth, video.videoHeight);
+    S.frozen = false; S.token++; S.manual = []; setItems([], true);
+    updateUI(); refreshHint();
+    if (S.mode === 'smart') ensureModel();
+    loop();
+  } catch (e) {
+    console.error(e);
+    stopCamera(); updateUI();
+    const n = e && e.name;
+    if (n === 'NotAllowedError' || n === 'SecurityError') {
+      $('btnSnap').classList.add('hot');
+      setStatus(window.self !== window.top
+        ? 'العرض المباشر غير مسموح داخل هذه المعاينة. استخدم «التقاط صورة بكاميرا الجوال»، أو افتح التطبيق من رابطه في Safari للعدّ المباشر.'
+        : 'تم رفض إذن الكاميرا. اسمح بالوصول من إعدادات Safari ثم أعد المحاولة، أو استخدم «التقاط صورة بكاميرا الجوال».', 'err');
+    }
+    else if (n === 'NotFoundError' || n === 'OverconstrainedError') { $('btnSnap').classList.add('hot'); setStatus('لم يتم العثور على كاميرا للعرض المباشر. استخدم «التقاط صورة بكاميرا الجوال» أو «رفع صورة».', 'err'); }
+    else if (n === 'NotReadableError') setStatus('الكاميرا مستخدمة في تطبيق آخر. أغلقه ثم أعد المحاولة.', 'err');
+    else setStatus('تعذّر تشغيل الكاميرا. استخدم «رفع صورة» بدلًا منها.', 'err');
+  }
+}
+function freeze() {
+  if (S.frozen || !S.stream || !video.videoWidth) return;
+  fc.width = video.videoWidth; fc.height = video.videoHeight;
+  fc.getContext('2d').drawImage(video, 0, 0);
+  enterFrozen();
+  if (navigator.vibrate) navigator.vibrate(30);
+}
+function enterFrozen() {
+  cancelAnimationFrame(S.raf);
+  setSize(fc.width, fc.height);
+  S.frozen = true; S.manual = []; S.classFilter = null; S.chipSig = '';
+  if (S.stream) video.pause();
+  updateUI(); refreshHint(); setItems([], true);
+  analyzeFrozen();
+}
+function resume() {
+  if (!S.stream) { startCamera(); return; }
+  S.frozen = false; S.token++; S.manual = []; S.classFilter = null; S.chipSig = '';
+  video.play().catch(() => {});
+  setSize(video.videoWidth, video.videoHeight);
+  setItems([], true); updateUI(); refreshHint(); loop();
+}
+
+/* ---------- events ---------- */
+$('btnCam').onclick = () => { if (S.stream) { stopCamera(); S.frozen = false; setItems([], true); updateUI(); refreshHint(); } else startCamera(); };
+$('btnFreeze').onclick = () => { S.frozen ? resume() : freeze(); };
+$('btnFlip').onclick = () => { S.facing = S.facing === 'environment' ? 'user' : 'environment'; startCamera(); };
+$('btnUpload').onclick = () => $('file').click();
+$('btnClear').onclick = () => { S.manual = []; S.excluded.clear(); render(); };
+$('btnSnap').onclick = () => $('snapFile').click();
+$('snapFile').onchange = e => onImagePicked(e);
+$('file').onchange = e => onImagePicked(e);
+function onImagePicked(e) {
+  const f = e.target.files && e.target.files[0];
+  e.target.value = '';
+  if (!f) return;
+  const url = URL.createObjectURL(f), img = new Image();
+  img.onload = () => {
+    const sc = Math.min(1, 1600 / Math.max(img.naturalWidth, img.naturalHeight));
+    fc.width = Math.round(img.naturalWidth * sc); fc.height = Math.round(img.naturalHeight * sc);
+    fc.getContext('2d').drawImage(img, 0, 0, fc.width, fc.height);
+    URL.revokeObjectURL(url);
+    stopCamera(); enterFrozen();
+  };
+  img.onerror = () => { URL.revokeObjectURL(url); setStatus('تعذّر فتح الصورة. اختر ملف صورة صالحًا.', 'err'); };
+  img.src = url;
+}
+
+document.querySelectorAll('.tabs [role=tab]').forEach(t => t.addEventListener('click', () => {
+  S.mode = t.dataset.mode; S.classFilter = null; S.chipSig = '';
+  document.querySelectorAll('.tabs [role=tab]').forEach(x => x.setAttribute('aria-selected', String(x === t)));
+  document.querySelectorAll('#settings [data-for]').forEach(d => { d.hidden = d.dataset.for !== S.mode; });
+  if (S.mode === 'smart') ensureModel();
+  if (S.frozen) analyzeFrozen(); else setItems([], true);
+  refreshHint();
+}));
+
+$('chips').addEventListener('click', e => {
+  const c = e.target.closest('.chip'); if (!c) return;
+  S.classFilter = c.dataset.cls || null; S.chipSig = ''; render();
+});
+
+$('score').oninput = e => { S.minScore = e.target.value / 100; $('scoreVal').textContent = e.target.value + '%'; reanalyze(); };
+$('polarity').onchange = e => { S.polarity = e.target.value; reanalyze(); };
+$('sens').oninput = e => { S.sens = +e.target.value; $('sensVal').textContent = e.target.value; reanalyze(); };
+$('minsize').oninput = e => { S.minPct = +e.target.value; $('minsizeVal').textContent = (+e.target.value).toFixed(2) + '%'; reanalyze(); };
+$('split').onchange = e => { S.split = e.target.checked; reanalyze(); };
+
+stage.addEventListener('pointerup', e => {
+  if (!S.frozen) { if (S.stream) setStatus('ثبّت الصورة أولًا ثم المس العناصر.'); return; }
+  const r = ov.getBoundingClientRect();
+  const x = (e.clientX - r.left) / r.width * S.W, y = (e.clientY - r.top) / r.height * S.H;
+  const hitR = Math.max(18, S.W / 28);
+  const mi = S.manual.findIndex(m => Math.hypot(m.x - x, m.y - y) < hitR);
+  if (mi >= 0) S.manual.splice(mi, 1);
+  else {
+    let hit = null;
+    for (const it of S.items) {
+      if (!passFilter(it) || x < it.x || x > it.x + it.w || y < it.y || y > it.y + it.h) continue;
+      if (!hit || it.w * it.h < hit.w * hit.h) hit = it;
+    }
+    if (hit) { S.excluded.has(hit.id) ? S.excluded.delete(hit.id) : S.excluded.add(hit.id); }
+    else S.manual.push({ x, y });
+  }
+  render();
+});
+
+$('btnShot').onclick = () => {
+  if (!S.frozen) return;
+  const c = document.createElement('canvas'); c.width = S.W; c.height = S.H;
+  const x = c.getContext('2d'); x.drawImage(fc, 0, 0); x.drawImage(ov, 0, 0);
+  c.toBlob(b => {
+    if (!b) { setStatus('تعذّر إنشاء الصورة.', 'err'); return; }
+    const a = document.createElement('a'); a.href = URL.createObjectURL(b);
+    a.download = 'count-' + $('countNum').textContent + '.png';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  }, 'image/png');
+};
+
+/* ---------- saved readings ---------- */
+function loadLog() { try { return JSON.parse(localStorage.getItem(LOG_KEY)) || []; } catch (e) { return []; } }
+function saveLog(l) { try { localStorage.setItem(LOG_KEY, JSON.stringify(l)); return true; } catch (e) { return false; } }
+function renderLog() {
+  const l = loadLog(), ul = $('log');
+  $('btnLogClear').hidden = !l.length;
+  if (!l.length) { ul.innerHTML = '<li><small>لا توجد قراءات بعد. اضغط «حفظ القراءة» لتسجيل العدد الحالي.</small></li>'; return; }
+  ul.innerHTML = '';
+  for (const r of l) {
+    const li = document.createElement('li'), left = document.createElement('span'), b = document.createElement('b');
+    b.textContent = r.count; left.append(b, ' ', document.createTextNode(r.label));
+    const sm = document.createElement('small');
+    sm.textContent = MODE_NAME[r.mode] + ' · ' + new Date(r.t).toLocaleString('ar-QA-u-nu-latn', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+    li.append(left, sm); ul.append(li);
+  }
+}
+$('btnSave').onclick = () => {
+  const count = +$('countNum').textContent;
+  const l = loadLog();
+  l.unshift({ t: Date.now(), count, mode: S.mode, label: $('countLabel').textContent });
+  if (saveLog(l.slice(0, 20))) { renderLog(); setStatus('تم حفظ القراءة: ' + count, 'ok'); }
+  else setStatus('تعذّر الحفظ في هذا المتصفح (التخزين معطّل).', 'err');
+};
+$('btnLogClear').onclick = () => { saveLog([]); renderLog(); };
+
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) cancelAnimationFrame(S.raf);
+  else if (S.stream && !S.frozen) { cancelAnimationFrame(S.raf); loop(); }
+});
+
+/* test hook (used only by automated checks) */
+window.__countCam = { analyzeBlobs };
+
+setItems([], true); updateUI(); renderLog();
+})();
+</script>
+</body>
+</html>
